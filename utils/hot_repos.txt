@@ -1,3 +1,4 @@
 https://github.com/momika233/CVE-2025-55182-bypass
 https://github.com/watchtowrlabs/watchTowr-vs-SmarterMail-CVE-2025-52691
 https://github.com/Chocapikk/CVE-2026-21858
+https://github.com/ZeroMemoryEx/CVE-2025-68921
