@@ -313,5 +313,10 @@
         "title": "n8n Supply Chain Attack Abuses Community Nodes to Steal OAuth Tokens",
         "link": "https://thehackernews.com/2026/01/n8n-supply-chain-attack-abuses.html",
         "published": "Mon, 12 Jan 2026 22:09:00 +0530"
+    },
+    {
+        "title": "CISA Warns of Active Exploitation of Gogs Vulnerability Enabling Code Execution",
+        "link": "https://thehackernews.com/2026/01/cisa-warns-of-active-exploitation-of.html",
+        "published": "Tue, 13 Jan 2026 12:45:00 +0530"
     }
 ]

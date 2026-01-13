@@ -2594,3 +2594,5 @@ clean_list:
 - CVE-2025-52694-POC
 - WebKit-UAF-ANGLE-OOB-Analysis
 - CVE-2026-22804
+- CVE-2025-59057-PoC
+- bughunter-cyber-intel-dashboard
