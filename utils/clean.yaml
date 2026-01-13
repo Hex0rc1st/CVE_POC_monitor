@@ -2599,3 +2599,4 @@ clean_list:
 - CVE-2025-67399
 - CVE-2025-14172-Nuclei-Template
 - CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities
+- CVE-2025-53136

@@ -323,5 +323,20 @@
         "title": "New Malware Campaign Delivers Remcos RAT Through Multi-Stage Windows Attack",
         "link": "https://thehackernews.com/2026/01/new-malware-campaign-delivers-remcos.html",
         "published": "Tue, 13 Jan 2026 14:38:00 +0530"
+    },
+    {
+        "title": "New Advanced Linux VoidLink Malware Targets Cloud and container Environments",
+        "link": "https://thehackernews.com/2026/01/new-advanced-linux-voidlink-malware.html",
+        "published": "Tue, 13 Jan 2026 17:27:00 +0530"
+    },
+    {
+        "title": "What Should We Learn From How Attackers Leveraged AI in 2025?",
+        "link": "https://thehackernews.com/2026/01/what-should-we-learn-from-how-attackers.html",
+        "published": "Tue, 13 Jan 2026 17:25:00 +0530"
+    },
+    {
+        "title": "ServiceNow Patches Critical AI Platform Flaw Allowing Unauthenticated User Impersonation",
+        "link": "https://thehackernews.com/2026/01/servicenow-patches-critical-ai-platform.html",
+        "published": "Tue, 13 Jan 2026 17:17:00 +0530"
     }
 ]

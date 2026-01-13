@@ -143,5 +143,10 @@
         "title": "CVE-2025-41254 - Medium - CVE-2025-41254: Spring Framework STOMP CSRF Vulnerability",
         "link": "https://spring.io/security/cve-2025-41254",
         "published": "Thu, 16 Oct 2025 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22718 - Medium - CVE-2026-22718: Command injection on user machine using VSCode extension for Spring CLI",
+        "link": "https://spring.io/security/cve-2026-22718",
+        "published": "Tue, 13 Jan 2026 00:00:00 GMT"
     }
 ]
