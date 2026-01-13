@@ -27113,5 +27113,60 @@
         "title": "The Hype Hangover: Dell Admits Consumers Aren’t Buying the “AI PC” Narrative",
         "link": "https://securityonline.info/the-hype-hangover-dell-admits-consumers-arent-buying-the-ai-pc-narrative/",
         "published": "Mon, 12 Jan 2026 08:34:04 +0000"
+    },
+    {
+        "title": "Attackers Weaponize Legitimate RMM Tools via Fake PDFs",
+        "link": "https://securityonline.info/attackers-weaponize-legitimate-rmm-tools-via-fake-pdfs/",
+        "published": "Tue, 13 Jan 2026 02:12:20 +0000"
+    },
+    {
+        "title": "Angular Security Alert: High-Severity SVG Flaw CVE-2026-22610 Exposes Apps to XSS",
+        "link": "https://securityonline.info/angular-security-alert-high-severity-svg-flaw-cve-2026-22610-exposes-apps-to-xss/",
+        "published": "Tue, 13 Jan 2026 01:59:12 +0000"
+    },
+    {
+        "title": "“TryCloudflare” Abuse: AsyncRAT Exploits Free Tunnels to Build Stealthy WebDAV Network",
+        "link": "https://securityonline.info/trycloudflare-abuse-asyncrat-exploits-free-tunnels-to-build-stealthy-webdav-network/",
+        "published": "Tue, 13 Jan 2026 01:52:42 +0000"
+    },
+    {
+        "title": "The AI Alliance: Apple Taps Google Gemini to Power the New Siri",
+        "link": "https://securityonline.info/the-ai-alliance-apple-taps-google-gemini-to-power-the-new-siri/",
+        "published": "Tue, 13 Jan 2026 01:43:13 +0000"
+    },
+    {
+        "title": "India’s Source Code Demand Sparks Tech Revolt",
+        "link": "https://securityonline.info/indias-source-code-demand-sparks-tech-revolt/",
+        "published": "Tue, 13 Jan 2026 01:40:28 +0000"
+    },
+    {
+        "title": "Cutting the Cord: QEMU 11.0 to Expunge 32-Bit Host Support in Cloud Variant",
+        "link": "https://securityonline.info/cutting-the-cord-qemu-11-0-to-expunge-32-bit-host-support-in-cloud-variant/",
+        "published": "Tue, 13 Jan 2026 01:36:10 +0000"
+    },
+    {
+        "title": "Double Critical: Hardcoded Secrets Expose Ruckus IoT Controllers to Root RCE",
+        "link": "https://securityonline.info/double-critical-hardcoded-secrets-expose-ruckus-iot-controllers-to-root-rce/",
+        "published": "Tue, 13 Jan 2026 00:16:03 +0000"
+    },
+    {
+        "title": "CVE-2025-52694 (CVSS 10): Critical Advantech SQL Injection Exposes IoT Devices",
+        "link": "https://securityonline.info/cve-2025-52694-cvss-10-critical-advantech-sql-injection-exposes-iot-devices/",
+        "published": "Tue, 13 Jan 2026 00:12:15 +0000"
+    },
+    {
+        "title": "Critical Alert: Moxa Switches Exposed to OpenSSH Remote Code Execution (CVSS 9.8)",
+        "link": "https://securityonline.info/critical-alert-moxa-switches-exposed-to-openssh-remote-code-execution-cvss-9-8/",
+        "published": "Tue, 13 Jan 2026 00:07:14 +0000"
+    },
+    {
+        "title": "Tearing Down the Wall: Google Brings AirDrop Support to the Pixel 9",
+        "link": "https://securityonline.info/tearing-down-the-wall-google-brings-airdrop-support-to-the-pixel-9/",
+        "published": "Tue, 13 Jan 2026 00:03:13 +0000"
+    },
+    {
+        "title": "The End of the Shopping Tab: Google Unveils “Agentic Commerce” and UCP",
+        "link": "https://securityonline.info/the-end-of-the-shopping-tab-google-unveils-agentic-commerce-and-ucp/",
+        "published": "Tue, 13 Jan 2026 00:00:59 +0000"
     }
 ]
