@@ -2597,3 +2597,5 @@ clean_list:
 - CVE-2025-59057-PoC
 - bughunter-cyber-intel-dashboard
 - CVE-2025-67399
+- CVE-2025-14172-Nuclei-Template
+- CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities
