@@ -2596,3 +2596,4 @@ clean_list:
 - CVE-2026-22804
 - CVE-2025-59057-PoC
 - bughunter-cyber-intel-dashboard
+- CVE-2025-67399
