@@ -27168,5 +27168,20 @@
         "title": "The End of the Shopping Tab: Google Unveils “Agentic Commerce” and UCP",
         "link": "https://securityonline.info/the-end-of-the-shopping-tab-google-unveils-agentic-commerce-and-ucp/",
         "published": "Tue, 13 Jan 2026 00:00:59 +0000"
+    },
+    {
+        "title": "Hikvision Security Cameras and Access Controls Hit by Stack Overflow Flaws",
+        "link": "https://securityonline.info/hikvision-security-cameras-and-access-controls-hit-by-stack-overflow-flaws/",
+        "published": "Tue, 13 Jan 2026 03:04:10 +0000"
+    },
+    {
+        "title": "AI Identity Theft: Critical ServiceNow Flaw (CVE-2025-12420) Allows Unauthenticated Impersonation",
+        "link": "https://securityonline.info/ai-identity-theft-critical-servicenow-flaw-cve-2025-12420-allows-unauthenticated-impersonation/",
+        "published": "Tue, 13 Jan 2026 02:59:19 +0000"
+    },
+    {
+        "title": "CISA “Must-Patch” Alert: Critical Gogs Exploit CVE-2025-8110 Active in Wild",
+        "link": "https://securityonline.info/cisa-must-patch-alert-critical-gogs-exploit-cve-2025-8110-active-in-wild/",
+        "published": "Tue, 13 Jan 2026 02:27:08 +0000"
     }
 ]
