@@ -343,5 +343,10 @@
         "title": "[Webinar] Securing Agentic AI: From MCPs and Tool Access to Shadow API Key Sprawl",
         "link": "https://thehackernews.com/2026/01/webinar-t-from-mcps-and-tool-access-to.html",
         "published": "Tue, 13 Jan 2026 19:14:00 +0530"
+    },
+    {
+        "title": "Malicious Chrome Extension Steals MEXC API Keys by Masquerading as Trading Tool",
+        "link": "https://thehackernews.com/2026/01/malicious-chrome-extension-steals-mexc.html",
+        "published": "Tue, 13 Jan 2026 22:52:00 +0530"
     }
 ]
