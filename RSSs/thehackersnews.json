@@ -358,5 +358,10 @@
         "title": "PLUGGYAPE Malware Uses Signal and WhatsApp to Target Ukrainian Defense Forces",
         "link": "https://thehackernews.com/2026/01/pluggyape-malware-uses-signal-and.html",
         "published": "Wed, 14 Jan 2026 11:18:00 +0530"
+    },
+    {
+        "title": "Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow",
+        "link": "https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html",
+        "published": "Wed, 14 Jan 2026 12:35:00 +0530"
     }
 ]
