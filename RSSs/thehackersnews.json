@@ -383,5 +383,10 @@
         "title": "Hackers Exploit c-ares DLL Side-Loading to Bypass Security and Deploy Malware",
         "link": "https://thehackernews.com/2026/01/hackers-exploit-c-ares-dll-side-loading.html",
         "published": "Wed, 14 Jan 2026 19:48:00 +0530"
+    },
+    {
+        "title": "AI Agents Are Becoming Privilege Escalation Paths",
+        "link": "https://thehackernews.com/2026/01/ai-agents-are-becoming-privilege.html",
+        "published": "Wed, 14 Jan 2026 20:37:00 +0530"
     }
 ]
