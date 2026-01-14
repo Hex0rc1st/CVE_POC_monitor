@@ -27288,5 +27288,10 @@
         "title": "Details Exposed: High-Severity Aruba VIA Root Flaw Publicly Disclosed",
         "link": "https://securityonline.info/details-exposed-high-severity-aruba-via-root-flaw-publicly-disclosed/",
         "published": "Wed, 14 Jan 2026 09:21:18 +0000"
+    },
+    {
+        "title": "Exploit Code Published: Critical FortiSIEM Flaw Grants Unauthenticated Root Access",
+        "link": "https://securityonline.info/exploit-code-published-critical-fortisiem-flaw-grants-unauthenticated-root-access/",
+        "published": "Wed, 14 Jan 2026 10:03:59 +0000"
     }
 ]
