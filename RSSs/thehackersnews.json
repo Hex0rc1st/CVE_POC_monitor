@@ -373,5 +373,10 @@
         "title": "Microsoft Fixes 114 Windows Flaws in January 2026 Patch, One Actively Exploited",
         "link": "https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html",
         "published": "Wed, 14 Jan 2026 15:08:00 +0530"
+    },
+    {
+        "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
+        "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
+        "published": "Wed, 14 Jan 2026 17:23:00 +0530"
     }
 ]
