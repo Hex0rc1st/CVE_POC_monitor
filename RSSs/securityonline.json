@@ -27188,5 +27188,70 @@
         "title": "Hexaware Partners with AccuKnox for Cloud Security Services",
         "link": "https://securityonline.info/hexaware-partners-with-accuknox-for-cloud-security-services/",
         "published": "Tue, 13 Jan 2026 10:29:47 +0000"
+    },
+    {
+        "title": "Node.js Patches Memory Leak and Permission Bypasses",
+        "link": "https://securityonline.info/node-js-patches-memory-leak-and-permission-bypasses/",
+        "published": "Wed, 14 Jan 2026 02:07:50 +0000"
+    },
+    {
+        "title": "Siemens Issues Critical Alert for Maximum 10.0 Vulnerability in Industrial Systems",
+        "link": "https://securityonline.info/siemens-issues-critical-alert-for-maximum-10-0-vulnerability-in-industrial-systems/",
+        "published": "Wed, 14 Jan 2026 01:44:10 +0000"
+    },
+    {
+        "title": "Critical SAP Alert: S/4HANA SQL Injection & Wily RCE Threaten Financial Data",
+        "link": "https://securityonline.info/critical-sap-alert-s-4hana-sql-injection-wily-rce-threaten-financial-data/",
+        "published": "Wed, 14 Jan 2026 01:29:08 +0000"
+    },
+    {
+        "title": "Fortinet Critical Alert: CVE-2025-64155 RCE & Config Leaks Exposed",
+        "link": "https://securityonline.info/fortinet-critical-alert-cve-2025-64155-rce-config-leaks-exposed/",
+        "published": "Wed, 14 Jan 2026 00:29:27 +0000"
+    },
+    {
+        "title": "VoidLink: The “Cloud-First” Malware Hunting Your Linux Servers",
+        "link": "https://securityonline.info/voidlink-the-cloud-first-malware-hunting-your-linux-servers/",
+        "published": "Wed, 14 Jan 2026 00:21:17 +0000"
+    },
+    {
+        "title": "Chrome 144 Released: 10 Security Fixes Patch Dangerous V8 Engine Flaws",
+        "link": "https://securityonline.info/chrome-144-released-10-security-fixes-patch-dangerous-v8-engine-flaws/",
+        "published": "Wed, 14 Jan 2026 00:16:25 +0000"
+    },
+    {
+        "title": "Critical OpenCode Flaws Let Websites Hijack Your PC",
+        "link": "https://securityonline.info/critical-opencode-flaws-let-websites-hijack-your-pc/",
+        "published": "Wed, 14 Jan 2026 00:16:21 +0000"
+    },
+    {
+        "title": "Patch Tuesday Jan 2026: Microsoft Fixes 114 Flaws & 3 Zero-Days",
+        "link": "https://securityonline.info/patch-tuesday-jan-2026-microsoft-fixes-114-flaws-3-zero-days/",
+        "published": "Wed, 14 Jan 2026 00:11:47 +0000"
+    },
+    {
+        "title": "Spy, Steal, Lock: deVixor Android Trojan Hits Banking & Crypto Users",
+        "link": "https://securityonline.info/spy-steal-lock-devixor-android-trojan-hits-banking-crypto-users/",
+        "published": "Wed, 14 Jan 2026 00:11:08 +0000"
+    },
+    {
+        "title": "Critical Appsmith Flaw CVE-2026-22794 Allows Account Takeover",
+        "link": "https://securityonline.info/critical-appsmith-flaw-cve-2026-22794-allows-account-takeover/",
+        "published": "Wed, 14 Jan 2026 00:06:38 +0000"
+    },
+    {
+        "title": "Elastic Stack Under Fire: 7 New Flaws Expose Files & Crash Servers",
+        "link": "https://securityonline.info/elastic-stack-under-fire-7-new-flaws-expose-files-crash-servers/",
+        "published": "Wed, 14 Jan 2026 00:04:13 +0000"
+    },
+    {
+        "title": "Malicious Chrome Extension Drains Crypto via Secret API Keys",
+        "link": "https://securityonline.info/malicious-chrome-extension-drains-crypto-via-secret-api-keys/",
+        "published": "Wed, 14 Jan 2026 00:01:12 +0000"
+    },
+    {
+        "title": "CVE-2026-22718: EOL Spring CLI Tool for VS Code Found Vulnerable to Command Injection",
+        "link": "https://securityonline.info/cve-2026-22718-eol-spring-cli-tool-for-vs-code-found-vulnerable-to-command-injection/",
+        "published": "Tue, 13 Jan 2026 23:48:23 +0000"
     }
 ]
