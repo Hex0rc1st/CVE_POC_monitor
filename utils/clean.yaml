@@ -2607,3 +2607,4 @@ clean_list:
 - CVE-2025-70899
 - CVE-2026-Dashboard
 - poc-CVE-2026-20856
+- CVE-2026-20805-POC
