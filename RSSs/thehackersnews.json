@@ -378,5 +378,10 @@
         "title": "Fortinet Fixes Critical FortiSIEM Flaw Allowing Unauthenticated Remote Code Execution",
         "link": "https://thehackernews.com/2026/01/fortinet-fixes-critical-fortisiem-flaw.html",
         "published": "Wed, 14 Jan 2026 17:23:00 +0530"
+    },
+    {
+        "title": "Hackers Exploit c-ares DLL Side-Loading to Bypass Security and Deploy Malware",
+        "link": "https://thehackernews.com/2026/01/hackers-exploit-c-ares-dll-side-loading.html",
+        "published": "Wed, 14 Jan 2026 19:48:00 +0530"
     }
 ]
