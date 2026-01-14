@@ -483,5 +483,15 @@
         "title": "PAN-SA-2025-0018 Chromium and Prisma Browser: Monthly Vulnerability Update (November 2025) (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/PAN-SA-2025-0018",
         "published": "2025-11-12T17:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0001 Chromium: Monthly Vulnerability Update (January 2026) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0001",
+        "published": "2026-01-14T17:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0227  PAN-OS: Firewall Denial of Service (DoS) in GlobalProtect Gateway and Portal (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0227",
+        "published": "2026-01-14T17:00:00.000Z"
     }
 ]
