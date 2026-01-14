@@ -47,5 +47,9 @@
     "thehackersnews":{
         "url": "https://feeds.feedburner.com/TheHackersNews",
         "file": "thehackersnews.json"
+    },
+    "zerodayinitiative":{
+        "url": "https://www.zerodayinitiative.com/blog/?format=rss",
+        "file": "zerodayinitiative.json"
     }
 }

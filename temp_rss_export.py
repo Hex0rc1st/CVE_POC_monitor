@@ -6,7 +6,7 @@ import feedparser
 import requests
 import json
 
-feed_url = "https://feeds.feedburner.com/TheHackersNews"
+feed_url = "https://www.zerodayinitiative.com/blog/?format=rss"
 
 response = requests.get(feed_url, timeout=30)
 response.encoding = 'utf-8'
@@ -20,7 +20,7 @@ for entry in feed.entries:
         'published': entry.get('published', '')
     })
 
-with open('./RSSs/thehackersnews.json', 'w', encoding='utf-8') as f:
+with open('./RSSs/zerodayinitiative.json', 'w', encoding='utf-8') as f:
     json.dump(entries, f, ensure_ascii=False, indent=4)
 
 print(f"导出完成，共 {len(entries)} 条记录到 ./RSSs/thehackersnews.json")

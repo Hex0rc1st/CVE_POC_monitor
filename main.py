@@ -133,6 +133,9 @@ def parse_rss_feed(feed_url,file):
             if file == "vulncheck.json" or file == "securityonline.json" or file == "picus.json" or file == "rapid7.json" or file == "thehackersnews.json":
                 if "cve" not in entry.title.lower() or "vulnerabili" not in entry.title.lower():
                     all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+            if file == "zerodayinitiative.json":
+                if "cve" not in entry.title.lower() or "vulnerabili" not in entry.title.lower() or "Security Update Review" not in entry.title:
+                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
             if file == "paloalto.json":
                 if "medium" in entry.title.lower() or "low" in entry.title.lower():
                     all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False

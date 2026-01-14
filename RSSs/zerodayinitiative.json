@@ -1,0 +1,97 @@
+[
+    {
+        "title": "Breaking Down the Attack Surface of the Kenwood DNR1007XR – Part Two",
+        "link": "https://www.thezdi.com/blog/2026/1/8/breaking-down-the-attack-surface-of-the-kenwood-dnr1007xr-part-two",
+        "published": "Fri, 09 Jan 2026 15:00:00 +0000"
+    },
+    {
+        "title": "Breaking Down the Attack Surface of the Kenwood DNR1007XR – Part One",
+        "link": "https://www.thezdi.com/blog/2026/1/6/breaking-down-the-attack-surface-of-the-kenwood-dnr1007xr-part-one",
+        "published": "Wed, 07 Jan 2026 19:09:53 +0000"
+    },
+    {
+        "title": "The December 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/12/9/the-december-2025-security-update-review",
+        "published": "Tue, 09 Dec 2025 18:29:16 +0000"
+    },
+    {
+        "title": "The November 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/11/11/the-november-2025-security-update-review",
+        "published": "Tue, 11 Nov 2025 18:30:42 +0000"
+    },
+    {
+        "title": "Pwn2Own Ireland 2025: Day Three and Master of Pwn",
+        "link": "https://www.thezdi.com/blog/2025/10/23/pwn2own-ireland-2025-day-three-and-master-of-pwn",
+        "published": "Thu, 23 Oct 2025 09:41:33 +0000"
+    },
+    {
+        "title": "Pwn2Own Ireland 2025 - Day Two Results",
+        "link": "https://www.thezdi.com/blog/2025/10/22/pwn2own-ireland-2025-day-two-results",
+        "published": "Wed, 22 Oct 2025 10:19:24 +0000"
+    },
+    {
+        "title": "Pwn2Own Ireland 2025: Day One Results",
+        "link": "https://www.thezdi.com/blog/2025/10/21/pwn2own-ireland-2025-day-one-results",
+        "published": "Tue, 21 Oct 2025 09:26:57 +0000"
+    },
+    {
+        "title": "Pwn2Own Ireland 2025: The Full Schedule",
+        "link": "https://www.thezdi.com/blog/2025/20/pwn2own-ireland-2025-the-full-schedule",
+        "published": "Mon, 20 Oct 2025 17:01:58 +0000"
+    },
+    {
+        "title": "Pwn2Own Automotive Returns to Tokyo with Expanded Chargers and More!",
+        "link": "https://www.thezdi.com/blog/2025/10/16/pwn2own-automotive-returns-to-tokyo-with-expanded-chargers-and-more",
+        "published": "Thu, 16 Oct 2025 15:00:42 +0000"
+    },
+    {
+        "title": "The October 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/10/14/the-october-2025-security-update-review",
+        "published": "Tue, 14 Oct 2025 18:38:44 +0000"
+    },
+    {
+        "title": "Crafting a Full Exploit RCE from a Crash in Autodesk Revit RFA File Parsing",
+        "link": "https://www.thezdi.com/blog/2025/10/6/crafting-a-full-exploit-rce-from-a-crash-in-autodesk-revit-rfa-file-parsing",
+        "published": "Wed, 08 Oct 2025 14:00:00 +0000"
+    },
+    {
+        "title": "CVE-2025-23298: Getting Remote Code Execution in NVIDIA Merlin",
+        "link": "https://www.thezdi.com/blog/2025/9/23/cve-2025-23298-getting-remote-code-execution-in-nvidia-merlin",
+        "published": "Wed, 24 Sep 2025 16:41:25 +0000"
+    },
+    {
+        "title": "The September 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/9/9/the-september-2025-security-update-review",
+        "published": "Tue, 09 Sep 2025 19:06:15 +0000"
+    },
+    {
+        "title": "The August 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/8/12/the-august-2025-security-update-review",
+        "published": "Tue, 12 Aug 2025 18:01:32 +0000"
+    },
+    {
+        "title": "Pwn2Own Returns to Ireland with a One Million Dollar WhatsApp Target",
+        "link": "https://www.thezdi.com/blog/2025/7/30/pwn2own-returns-to-ireland-with-a-one-million-dollar-whatsapp-target",
+        "published": "Thu, 31 Jul 2025 19:04:37 +0000"
+    },
+    {
+        "title": "CVE-2025-20281: Cisco ISE API Unauthenticated Remote Code Execution Vulnerability",
+        "link": "https://www.thezdi.com/blog/2025/7/24/cve-2025-20281-cisco-ise-api-unauthenticated-remote-code-execution-vulnerability",
+        "published": "Fri, 25 Jul 2025 16:30:00 +0000"
+    },
+    {
+        "title": "CVE-2025-4919: Corruption via Math Space in Mozilla Firefox",
+        "link": "https://www.thezdi.com/blog/2025/7/14/cve-2025-4919-corruption-via-math-space-in-mozilla-firefox",
+        "published": "Tue, 15 Jul 2025 14:27:27 +0000"
+    },
+    {
+        "title": "The July 2025 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2025/7/8/the-july-2025-security-update-review",
+        "published": "Tue, 08 Jul 2025 17:56:31 +0000"
+    },
+    {
+        "title": "Extracting Embedded MultiMediaCard (eMMC) contents in-system",
+        "link": "https://www.thezdi.com/blog/2025/6/18/extracting-embedded-multimediacard-emmc-contents-in-system",
+        "published": "Fri, 20 Jun 2025 15:00:58 +0000"
+    }
+]
