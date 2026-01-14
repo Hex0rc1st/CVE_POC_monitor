@@ -2605,3 +2605,5 @@ clean_list:
 - pedrocruz2202.github.io
 - jsPDF-Bulk-Detector-CVE-2025-68428-
 - CVE-2025-70899
+- CVE-2026-Dashboard
+- poc-CVE-2026-20856

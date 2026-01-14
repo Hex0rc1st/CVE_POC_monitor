@@ -363,5 +363,15 @@
         "title": "Critical Node.js Vulnerability Can Cause Server Crashes via async_hooks Stack Overflow",
         "link": "https://thehackernews.com/2026/01/critical-nodejs-vulnerability-can-cause.html",
         "published": "Wed, 14 Jan 2026 12:35:00 +0530"
+    },
+    {
+        "title": "New Research: 64% of 3rd-Party Applications Access Sensitive Data Without Justification",
+        "link": "https://thehackernews.com/2026/01/new-research-64-of-3rd-party.html",
+        "published": "Wed, 14 Jan 2026 16:30:00 +0530"
+    },
+    {
+        "title": "Microsoft Fixes 114 Windows Flaws in January 2026 Patch, One Actively Exploited",
+        "link": "https://thehackernews.com/2026/01/microsoft-fixes-114-windows-flaws-in.html",
+        "published": "Wed, 14 Jan 2026 15:08:00 +0530"
     }
 ]
