@@ -2601,3 +2601,4 @@ clean_list:
 - CVE-2025-32462-and-CVE-2025-32463---Critical-Sudo-Vulnerabilities
 - CVE-2025-53136
 - CVE-2024-0692-SolarWinds-SEM-RCE
+- CVE-2025-68472
