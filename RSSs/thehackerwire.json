@@ -87,5 +87,10 @@
         "title": "Epic Games Store Installer: DLL Hijacking LPE",
         "link": "https://www.thehackerwire.com/epic-games-store-installer-dll-hijacking-lpe/",
         "published": "Thu, 15 Jan 2026 16:50:30 +0000"
+    },
+    {
+        "title": "NOAA LAS RCE via PyFerret SPAWN Command",
+        "link": "https://www.thehackerwire.com/noaa-las-rce-via-pyferret-spawn-command/",
+        "published": "Thu, 15 Jan 2026 17:49:19 +0000"
     }
 ]
