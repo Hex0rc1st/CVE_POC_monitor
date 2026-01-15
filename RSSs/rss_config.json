@@ -51,5 +51,9 @@
     "zerodayinitiative":{
         "url": "https://www.zerodayinitiative.com/blog/?format=rss",
         "file": "zerodayinitiative.json"
+    },
+    "thehackerwire":{
+        "url": "https://www.thehackerwire.com/feed",
+        "file": "thehackerwire.json"
     }
 }

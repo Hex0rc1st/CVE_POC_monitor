@@ -1,0 +1,56 @@
+[
+    {
+        "title": "Microsoft Patches Actively Exploited Windows DWM Vulnerability (CVE-2026-20805)",
+        "summary": "Microsoft’s first Patch Tuesday of 2026 addressed an actively exploited Windows vulnerability tracked as CVE-2026-20805, a flaw in the Desktop Window Manager (DWM) component. The...",
+        "link": "https://www.thehackerwire.com/microsoft-patches-actively-exploited-windows-dwm-vulnerability-cve-2026-20805/",
+        "published": "Thu, 15 Jan 2026 05:27:00 +0000"
+    },
+    {
+        "title": "China Bans Use of U.S. and Israeli Cybersecurity Firms Over National Security",
+        "summary": "Chinese authorities have instructed domestic firms to stop using cybersecurity software from a wide range of U.S. and Israeli vendors and to replace them with...",
+        "link": "https://www.thehackerwire.com/china-bans-use-of-u-s-and-israeli-cybersecurity-firms-over-national-security/",
+        "published": "Wed, 14 Jan 2026 23:16:27 +0000"
+    },
+    {
+        "title": "Pimcore Admin Blind SQLi Bypass",
+        "summary": "Summary CVE-2026-23492 hits Pimcore, an open-source data and experience platform. It&#8217;s a high-severity blind SQL injection, scoring 8.8 on the CVSS scale. An authenticated attacker...",
+        "link": "https://www.thehackerwire.com/pimcore-admin-blind-sqli-bypass/",
+        "published": "Wed, 14 Jan 2026 19:30:03 +0000"
+    },
+    {
+        "title": "FreeImage 3.18.0 Use-After-Free in TARGA Plugin",
+        "summary": "Summary CVE-2025-70968 targets FreeImage 3.18.0. This is a critical Use-After-Free vulnerability, scoring 9.8 CVSS. The flaw affects image processing, specifically when handling TARGA files. It...",
+        "link": "https://www.thehackerwire.com/freeimage-3-18-0-use-after-free-in-targa-plugin/",
+        "published": "Wed, 14 Jan 2026 18:01:03 +0000"
+    },
+    {
+        "title": "Application SSRF & File Read via Connector Config",
+        "summary": "Summary CVE-2026-0532 hits an application&#8217;s Google Gemini connector configuration. It&#8217;s a high-severity bug, CVSS 8.6. This isn&#8217;t just one issue; it&#8217;s a nasty combo of...",
+        "link": "https://www.thehackerwire.com/application-ssrf-file-read-via-connector-config/",
+        "published": "Wed, 14 Jan 2026 12:01:14 +0000"
+    },
+    {
+        "title": "Modular DS: Privilege Escalation (CVE-2026-23550)",
+        "summary": "Summary Modular DS, in versions up to 2.5.1, has a critical privilege escalation vulnerability. We&#8217;re talking CVE-2026-23550, a CVSS 10.0. This bug lets a low-privileged...",
+        "link": "https://www.thehackerwire.com/modular-ds-privilege-escalation-cve-2026-23550/",
+        "published": "Wed, 14 Jan 2026 10:00:19 +0000"
+    },
+    {
+        "title": "Critical Enclave-VM Sandbox Escape (CVE-2026-22686)",
+        "summary": "Summary CVE-2026-22686 hits Enclave-VM, a secure JavaScript sandbox. It’s a critical 10.0 CVSS sandbox escape. Untrusted code breaks out into the host Node.js runtime, giving...",
+        "link": "https://www.thehackerwire.com/critical-enclave-vm-sandbox-escape-cve-2026-22686/",
+        "published": "Wed, 14 Jan 2026 01:00:01 +0000"
+    },
+    {
+        "title": "iccDEV Heap Overflow in Color Profile Processing",
+        "summary": "Summary CVE-2026-22861 hits the iccDEV library, carrying a high CVSS score of 8.8. This is a heap-based buffer overflow. The vulnerability lives in the `SIccCalcOp::Describe()`...",
+        "link": "https://www.thehackerwire.com/iccdev-heap-overflow-in-color-profile-processing/",
+        "published": "Tue, 13 Jan 2026 21:58:37 +0000"
+    },
+    {
+        "title": "Dreamweaver RCE: Malicious File Input Validation Bypass",
+        "summary": "Summary CVE-2026-21268 hits Dreamweaver Desktop versions 21.6 and earlier. This one&#8217;s an Improper Input Validation flaw. It can lead to arbitrary code execution, running right...",
+        "link": "https://www.thehackerwire.com/dreamweaver-rce-malicious-file-input-validation-bypass/",
+        "published": "Tue, 13 Jan 2026 20:01:41 +0000"
+    }
+]

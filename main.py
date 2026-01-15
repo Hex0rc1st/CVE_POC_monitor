@@ -139,6 +139,9 @@ def parse_rss_feed(feed_url,file):
             if file == "paloalto.json":
                 if "medium" in entry.title.lower() or "low" in entry.title.lower():
                     all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+            if file == "thehackerwire.json":
+                if "cve" in entry.get('summary', '').lower():
+                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
             if file == "gbhackers.json":
                 categories = []
                 if 'tags' in entry:
