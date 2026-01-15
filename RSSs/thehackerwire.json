@@ -57,5 +57,10 @@
         "title": "SumatraPDF Untrusted Search Path RCE",
         "link": "https://www.thehackerwire.com/sumatrapdf-untrusted-search-path-rce/",
         "published": "Wed, 14 Jan 2026 21:20:41 +0000"
+    },
+    {
+        "title": "IceWarp Webmail RCE via Header Injection (CVE-2026-22907)",
+        "link": "https://www.thehackerwire.com/icewarp-webmail-rce-via-header-injection-cve-2026-22907/",
+        "published": "Thu, 15 Jan 2026 13:47:45 +0000"
     }
 ]
