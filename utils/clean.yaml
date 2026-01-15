@@ -2615,3 +2615,4 @@ clean_list:
 - CVE-2025-61686_docker
 - CVE-Publication
 - Ashwesker-CVE-2026-23478
+- CVE-2025-3616
