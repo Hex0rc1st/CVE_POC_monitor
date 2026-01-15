@@ -52,10 +52,5 @@
         "summary": "Summary CVE-2026-21268 hits Dreamweaver Desktop versions 21.6 and earlier. This one&#8217;s an Improper Input Validation flaw. It can lead to arbitrary code execution, running right...",
         "link": "https://www.thehackerwire.com/dreamweaver-rce-malicious-file-input-validation-bypass/",
         "published": "Tue, 13 Jan 2026 20:01:41 +0000"
-    },
-    {
-        "title": "SumatraPDF Untrusted Search Path RCE",
-        "link": "https://www.thehackerwire.com/sumatrapdf-untrusted-search-path-rce/",
-        "published": "Wed, 14 Jan 2026 21:20:41 +0000"
     }
 ]
