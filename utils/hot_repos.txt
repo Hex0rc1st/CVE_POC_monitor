@@ -5,3 +5,4 @@ https://github.com/ZeroMemoryEx/CVE-2025-68921
 https://github.com/zeroxjf/WebKit-UAF-ANGLE-OOB-Analysis
 https://github.com/Wh0am123/CVE-2025-54918-POC
 https://github.com/horizon3ai/CVE-2025-64155
+https://github.com/nu1lptr0/CVE-2025-53136
