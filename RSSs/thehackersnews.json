@@ -418,5 +418,15 @@
         "title": "ThreatsDay Bulletin: AI Voice Cloning Exploit, Wi-Fi Kill Switch, PLC Vulns, and 14 More Stories",
         "link": "https://thehackernews.com/2026/01/threatsday-bulletin-ai-voice-cloning.html",
         "published": "Thu, 15 Jan 2026 19:26:00 +0530"
+    },
+    {
+        "title": "Critical WordPress Modular DS Plugin Flaw Actively Exploited to Gain Admin Access",
+        "link": "https://thehackernews.com/2026/01/critical-wordpress-modular-ds-plugin.html",
+        "published": "Thu, 15 Jan 2026 21:01:00 +0530"
+    },
+    {
+        "title": "Researchers Reveal Reprompt Attack Allowing Single-Click Data Exfiltration From Microsoft Copilot",
+        "link": "https://thehackernews.com/2026/01/researchers-reveal-reprompt-attack.html",
+        "published": "Thu, 15 Jan 2026 20:39:00 +0530"
     }
 ]
