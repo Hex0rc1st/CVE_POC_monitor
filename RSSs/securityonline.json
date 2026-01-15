@@ -27308,5 +27308,50 @@
         "title": "2026 Study from Panorays: 85% of CISOs Can’t See Third-Party Threats Amid Increasing Supply Chain Attacks",
         "link": "https://securityonline.info/2026-study-from-panorays-85-of-cisos-cant-see-third-party-threats-amid-increasing-supply-chain-attacks/",
         "published": "Wed, 14 Jan 2026 14:01:10 +0000"
+    },
+    {
+        "title": "Palo Alto Networks Firewalls Hit by Unauthenticated GlobalProtect DoS Flaw",
+        "link": "https://securityonline.info/palo-alto-networks-firewalls-hit-by-unauthenticated-globalprotect-dos-flaw/",
+        "published": "Thu, 15 Jan 2026 02:12:16 +0000"
+    },
+    {
+        "title": "HPE Aruba Patches High-Severity DoS and Data Leak Flaws in Instant On Devices",
+        "link": "https://securityonline.info/hpe-aruba-patches-high-severity-dos-and-data-leak-flaws-in-instant-on-devices/",
+        "published": "Thu, 15 Jan 2026 00:36:11 +0000"
+    },
+    {
+        "title": "Zoho Patches Critical “9.1” Flaw in ADSelfService Plus",
+        "link": "https://securityonline.info/zoho-patches-critical-9-1-flaw-in-adselfservice-plus/",
+        "published": "Thu, 15 Jan 2026 00:31:54 +0000"
+    },
+    {
+        "title": "SHADOW#REACTOR Malware Builds Remcos RAT via Text Files",
+        "link": "https://securityonline.info/shadowreactor-malware-builds-remcos-rat-via-text-files/",
+        "published": "Thu, 15 Jan 2026 00:27:15 +0000"
+    },
+    {
+        "title": "One API Call to Hijack: Critical Cal.com Flaw (CVE-2026-23478, CVSS 10) Bypasses 2FA",
+        "link": "https://securityonline.info/one-api-call-to-hijack-critical-cal-com-flaw-cve-2026-23478-cvss-10-bypasses-2fa/",
+        "published": "Thu, 15 Jan 2026 00:22:26 +0000"
+    },
+    {
+        "title": "“Browser-in-the-Browser” Attack Escalates: Trellix Reports Surge in Sophisticated Facebook Phishing",
+        "link": "https://securityonline.info/browser-in-the-browser-attack-escalates-trellix-reports-surge-in-sophisticated-facebook-phishing/",
+        "published": "Thu, 15 Jan 2026 00:18:49 +0000"
+    },
+    {
+        "title": "High-Severity Flaws in HPE Aruba Networking Expose Mobility Controllers to Attack",
+        "link": "https://securityonline.info/high-severity-flaws-in-hpe-aruba-networking-expose-mobility-controllers-to-attack/",
+        "published": "Thu, 15 Jan 2026 00:11:39 +0000"
+    },
+    {
+        "title": "“Magecart” Strikes Again: Long-Running Web Skimming Campaign Targets Global Payment Networks",
+        "link": "https://securityonline.info/magecart-strikes-again-long-running-web-skimming-campaign-targets-global-payment-networks/",
+        "published": "Thu, 15 Jan 2026 00:05:40 +0000"
+    },
+    {
+        "title": "Command Injection Alert: High-Severity Flaws Hit LoadMaster & MOVEit WAF",
+        "link": "https://securityonline.info/command-injection-alert-high-severity-flaws-hit-loadmaster-moveit-waf/",
+        "published": "Thu, 15 Jan 2026 00:01:34 +0000"
     }
 ]
