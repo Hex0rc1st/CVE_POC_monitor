@@ -92,5 +92,15 @@
         "title": "NOAA LAS RCE via PyFerret SPAWN Command",
         "link": "https://www.thehackerwire.com/noaa-las-rce-via-pyferret-spawn-command/",
         "published": "Thu, 15 Jan 2026 17:49:19 +0000"
+    },
+    {
+        "title": "H3 HTTP Request Smuggling (CVE-2026-23527)",
+        "link": "https://www.thehackerwire.com/h3-http-request-smuggling-cve-2026-23527/",
+        "published": "Thu, 15 Jan 2026 21:00:42 +0000"
+    },
+    {
+        "title": "Arcane Command Injection in Updater Service",
+        "link": "https://www.thehackerwire.com/arcane-command-injection-in-updater-service/",
+        "published": "Thu, 15 Jan 2026 21:00:30 +0000"
     }
 ]
