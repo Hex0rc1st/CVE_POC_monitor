@@ -428,5 +428,10 @@
         "title": "Researchers Reveal Reprompt Attack Allowing Single-Click Data Exfiltration From Microsoft Copilot",
         "link": "https://thehackernews.com/2026/01/researchers-reveal-reprompt-attack.html",
         "published": "Thu, 15 Jan 2026 20:39:00 +0530"
+    },
+    {
+        "title": "AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html",
+        "published": "Fri, 16 Jan 2026 01:01:00 +0530"
     }
 ]
