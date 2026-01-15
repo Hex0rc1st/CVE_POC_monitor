@@ -67,5 +67,25 @@
         "title": "Critical RCE: Unvalidated Container Image Upload",
         "link": "https://www.thehackerwire.com/critical-rce-unvalidated-container-image-upload/",
         "published": "Thu, 15 Jan 2026 13:51:37 +0000"
+    },
+    {
+        "title": "LaSuite Doc Stored XSS via Interlinking",
+        "link": "https://www.thehackerwire.com/lasuite-doc-stored-xss-via-interlinking/",
+        "published": "Thu, 15 Jan 2026 17:44:21 +0000"
+    },
+    {
+        "title": "Pimcore: Sensitive Data in Error Logs (CVE-2026-23493)",
+        "link": "https://www.thehackerwire.com/pimcore-sensitive-data-in-error-logs-cve-2026-23493/",
+        "published": "Thu, 15 Jan 2026 17:42:37 +0000"
+    },
+    {
+        "title": "Omnispace Agora Project RCE via Imagick MSL",
+        "link": "https://www.thehackerwire.com/omnispace-agora-project-rce-via-imagick-msl/",
+        "published": "Thu, 15 Jan 2026 16:59:50 +0000"
+    },
+    {
+        "title": "Epic Games Store Installer: DLL Hijacking LPE",
+        "link": "https://www.thehackerwire.com/epic-games-store-installer-dll-hijacking-lpe/",
+        "published": "Thu, 15 Jan 2026 16:50:30 +0000"
     }
 ]
