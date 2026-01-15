@@ -62,5 +62,10 @@
         "title": "IceWarp Webmail RCE via Header Injection (CVE-2026-22907)",
         "link": "https://www.thehackerwire.com/icewarp-webmail-rce-via-header-injection-cve-2026-22907/",
         "published": "Thu, 15 Jan 2026 13:47:45 +0000"
+    },
+    {
+        "title": "Critical RCE: Unvalidated Container Image Upload",
+        "link": "https://www.thehackerwire.com/critical-rce-unvalidated-container-image-upload/",
+        "published": "Thu, 15 Jan 2026 13:51:37 +0000"
     }
 ]
