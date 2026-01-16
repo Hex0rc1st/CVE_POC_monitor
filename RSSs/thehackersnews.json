@@ -433,5 +433,10 @@
         "title": "AWS CodeBuild Misconfiguration Exposed GitHub Repos to Potential Supply Chain Attacks",
         "link": "https://thehackernews.com/2026/01/aws-codebuild-misconfiguration-exposed.html",
         "published": "Fri, 16 Jan 2026 01:01:00 +0530"
+    },
+    {
+        "title": "Cisco Patches Zero-Day RCE Exploited by China-Linked APT in Secure Email Gateways",
+        "link": "https://thehackernews.com/2026/01/cisco-patches-zero-day-rce-exploited-by.html",
+        "published": "Fri, 16 Jan 2026 11:08:00 +0530"
     }
 ]
