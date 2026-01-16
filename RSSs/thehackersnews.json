@@ -458,5 +458,10 @@
         "title": "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts",
         "link": "https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html",
         "published": "Fri, 16 Jan 2026 19:39:00 +0530"
+    },
+    {
+        "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+        "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+        "published": "Fri, 16 Jan 2026 23:29:00 +0530"
     }
 ]
