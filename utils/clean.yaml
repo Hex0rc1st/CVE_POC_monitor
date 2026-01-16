@@ -2619,3 +2619,5 @@ clean_list:
 - Airborne-CVE-2025-24132-Research
 - CVE-2026-666
 - React-Router-CVE-2025-61686-
+- React2Shell-CVE-2025-55182-TryHackMe
+- CVE-2025-59287---WSUS-SCCM-RCE
