@@ -2622,3 +2622,5 @@ clean_list:
 - React2Shell-CVE-2025-55182-TryHackMe
 - CVE-2025-59287---WSUS-SCCM-RCE
 - CVE-2026-22812-Exp
+- CVE-2026-22812-exploit
+- LlamaStack-RCE-Deterministic-Supply-Chain-Exploitation-Hardening-Framework-CVE-2024-50050-
