@@ -2624,3 +2624,4 @@ clean_list:
 - CVE-2026-22812-Exp
 - CVE-2026-22812-exploit
 - LlamaStack-RCE-Deterministic-Supply-Chain-Exploitation-Hardening-Framework-CVE-2024-50050-
+- cve-2025-9933
