@@ -2621,3 +2621,4 @@ clean_list:
 - React-Router-CVE-2025-61686-
 - React2Shell-CVE-2025-55182-TryHackMe
 - CVE-2025-59287---WSUS-SCCM-RCE
+- CVE-2026-22812-Exp
