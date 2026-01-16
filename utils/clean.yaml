@@ -2618,3 +2618,4 @@ clean_list:
 - CVE-2025-3616
 - Airborne-CVE-2025-24132-Research
 - CVE-2026-666
+- React-Router-CVE-2025-61686-
