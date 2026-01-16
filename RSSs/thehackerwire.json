@@ -112,5 +112,45 @@
         "title": "Phpgurukul CMS v1.0 SQL Injection (CVE-2025-70892)",
         "link": "https://www.thehackerwire.com/phpgurukul-cms-v1-0-sql-injection-cve-2025-70892/",
         "published": "Thu, 15 Jan 2026 22:43:01 +0000"
+    },
+    {
+        "title": "Canon Printers: Critical RCE via XPS Font Processing",
+        "link": "https://www.thehackerwire.com/canon-printers-critical-rce-via-xps-font-processing/",
+        "published": "Fri, 16 Jan 2026 01:05:51 +0000"
+    },
+    {
+        "title": "Canon Printer RCE/DoS via CPCA Buffer Overflow",
+        "link": "https://www.thehackerwire.com/canon-printer-rce-dos-via-cpca-buffer-overflow/",
+        "published": "Fri, 16 Jan 2026 01:04:59 +0000"
+    },
+    {
+        "title": "Canon Printers: Critical Invalid Free (CVE-2025-14233)",
+        "link": "https://www.thehackerwire.com/canon-printers-critical-invalid-free-cve-2025-14233/",
+        "published": "Fri, 16 Jan 2026 01:04:07 +0000"
+    },
+    {
+        "title": "Canon Printers Hit by Critical XPS Buffer Overflow",
+        "link": "https://www.thehackerwire.com/canon-printers-hit-by-critical-xps-buffer-overflow/",
+        "published": "Fri, 16 Jan 2026 01:02:48 +0000"
+    },
+    {
+        "title": "Canon Printers: WSD Buffer Overflow Leads to RCE",
+        "link": "https://www.thehackerwire.com/canon-printers-wsd-buffer-overflow-leads-to-rce/",
+        "published": "Fri, 16 Jan 2026 01:02:05 +0000"
+    },
+    {
+        "title": "Critical Buffer Overflow in Canon Printers (CVE-2025-14237)",
+        "link": "https://www.thehackerwire.com/critical-buffer-overflow-in-canon-printers-cve-2025-14237/",
+        "published": "Fri, 16 Jan 2026 01:00:56 +0000"
+    },
+    {
+        "title": "CVE-2025-14236: Canon Printer Buffer Overflow",
+        "link": "https://www.thehackerwire.com/cve-2025-14236-canon-printer-buffer-overflow/",
+        "published": "Fri, 16 Jan 2026 01:00:34 +0000"
+    },
+    {
+        "title": "Altium Forum Stored XSS: Critical Data Access",
+        "link": "https://www.thehackerwire.com/altium-forum-stored-xss-critical-data-access/",
+        "published": "Fri, 16 Jan 2026 00:00:25 +0000"
     }
 ]
