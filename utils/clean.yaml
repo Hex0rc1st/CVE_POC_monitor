@@ -2626,3 +2626,4 @@ clean_list:
 - LlamaStack-RCE-Deterministic-Supply-Chain-Exploitation-Hardening-Framework-CVE-2024-50050-
 - cve-2025-9933
 - CVE-2024-46982-Reproduction
+- CVE-2025-36911_scan
