@@ -2627,3 +2627,4 @@ clean_list:
 - cve-2025-9933
 - CVE-2024-46982-Reproduction
 - CVE-2025-36911_scan
+- SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit
