@@ -10,3 +10,4 @@ https://github.com/fevar54/CVE-2026-20805-POC
 https://github.com/you-dream-1hall/CVE-2025-59287
 https://github.com/zalexdev/whisper-pair-app
 https://github.com/Jvr2022/CVE-2026-23745
+https://github.com/rohmatariow/CVE-2026-22812-exploit
