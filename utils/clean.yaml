@@ -2628,3 +2628,4 @@ clean_list:
 - CVE-2024-46982-Reproduction
 - CVE-2025-36911_scan
 - SASTRA-ADI-WIGUNA-CVE-2026-21858-Holistic-Audit
+- whisper-pair-app
