@@ -2634,3 +2634,5 @@ clean_list:
 - CVE-2025-36911-Wisper_Pair_Target_Finder-
 - CVE-2026-22785
 - CVE-2026-0227-Advanced-Scanner
+- CVE-2025-10484
+- CVE-2026-1107
