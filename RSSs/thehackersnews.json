@@ -498,5 +498,10 @@
         "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
         "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
         "published": "Mon, 19 Jan 2026 18:47:00 +0530"
+    },
+    {
+        "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
+        "link": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
+        "published": "Mon, 19 Jan 2026 22:51:00 +0530"
     }
 ]
