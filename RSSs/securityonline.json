@@ -27623,5 +27623,30 @@
         "title": "PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets",
         "link": "https://securityonline.info/poc-exploit-released-failed-windows-patch-leaks-kernel-secrets/",
         "published": "Mon, 19 Jan 2026 07:54:47 +0000"
+    },
+    {
+        "title": "The Outlook Freeze: New Windows 11 Update Breaks POP3 Accounts in Outlook Classic",
+        "link": "https://securityonline.info/the-outlook-freeze-new-windows-11-update-breaks-pop3-accounts-in-outlook-classic/",
+        "published": "Mon, 19 Jan 2026 10:34:33 +0000"
+    },
+    {
+        "title": "The Patch After the Patch: Microsoft Issues Emergency Fix for Remote Desktop and Shutdown Bugs",
+        "link": "https://securityonline.info/the-patch-after-the-patch-microsoft-issues-emergency-fix-for-remote-desktop-and-shutdown-bugs/",
+        "published": "Mon, 19 Jan 2026 10:31:44 +0000"
+    },
+    {
+        "title": "The Utility of Intelligence: Sarah Friar Reveals OpenAI’s $20B Infrastructure Roadmap",
+        "link": "https://securityonline.info/the-utility-of-intelligence-sarah-friar-reveals-openais-20b-infrastructure-roadmap/",
+        "published": "Mon, 19 Jan 2026 10:27:49 +0000"
+    },
+    {
+        "title": "The Zena Evolution: Linux Mint 22.3 Arrives with Cinnamon 6.6 and Kernel 6.14",
+        "link": "https://securityonline.info/the-zena-evolution-linux-mint-22-3-arrives-with-cinnamon-6-6-and-kernel-6-14/",
+        "published": "Mon, 19 Jan 2026 10:24:15 +0000"
+    },
+    {
+        "title": "The Pixel 9 Zero-Click Exploit Chain That Breaks the Kernel",
+        "link": "https://securityonline.info/the-pixel-9-zero-click-exploit-chain-that-breaks-the-kernel/",
+        "published": "Mon, 19 Jan 2026 10:19:20 +0000"
     }
 ]
