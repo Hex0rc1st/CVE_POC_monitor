@@ -27528,5 +27528,75 @@
         "title": "The $8 Revolution: OpenAI Launches ChatGPT Go and Breaks the Ad Barrier",
         "link": "https://securityonline.info/the-8-revolution-openai-launches-chatgpt-go-and-breaks-the-ad-barrier/",
         "published": "Sat, 17 Jan 2026 02:32:10 +0000"
+    },
+    {
+        "title": "Fake Malwarebytes Campaign Exploits DLL Sideloading to Drop Infostealers",
+        "link": "https://securityonline.info/fake-malwarebytes-campaign-exploits-dll-sideloading-to-drop-infostealers/",
+        "published": "Mon, 19 Jan 2026 00:46:26 +0000"
+    },
+    {
+        "title": "CVE-2026-0695: High-Severity XSS Flaw Patched in ConnectWise PSA 2026.1",
+        "link": "https://securityonline.info/cve-2026-0695-high-severity-xss-flaw-patched-in-connectwise-psa-2026-1/",
+        "published": "Mon, 19 Jan 2026 00:43:21 +0000"
+    },
+    {
+        "title": "DragonForce: The Rise of a New “Ransomware Cartel” Built on LockBit and Conti DNA",
+        "link": "https://securityonline.info/dragonforce-the-rise-of-a-new-ransomware-cartel-built-on-lockbit-and-conti-dna/",
+        "published": "Mon, 19 Jan 2026 00:42:44 +0000"
+    },
+    {
+        "title": "Fake Productivity Tools: 5 Malicious Chrome Extensions Hijack Enterprise Sessions",
+        "link": "https://securityonline.info/fake-productivity-tools-5-malicious-chrome-extensions-hijack-enterprise-sessions/",
+        "published": "Mon, 19 Jan 2026 00:37:04 +0000"
+    },
+    {
+        "title": "Sitting Ducks and Scammy Notifications: Inside a Global Malvertising Operation",
+        "link": "https://securityonline.info/sitting-ducks-and-scammy-notifications-inside-a-global-malvertising-operation/",
+        "published": "Mon, 19 Jan 2026 00:32:03 +0000"
+    },
+    {
+        "title": "Unpatched RCE: Livewire Filemanager Upload Flaw (CVE-2025-14894) Exposes Laravel Apps",
+        "link": "https://securityonline.info/unpatched-rce-livewire-filemanager-upload-flaw-cve-2025-14894-exposes-laravel-apps/",
+        "published": "Mon, 19 Jan 2026 00:27:13 +0000"
+    },
+    {
+        "title": "KnownSec Data Leak Exposes State-Aligned Cyber Espionage Pipeline",
+        "link": "https://securityonline.info/knownsec-data-leak-exposes-state-aligned-cyber-espionage-pipeline/",
+        "published": "Mon, 19 Jan 2026 00:22:49 +0000"
+    },
+    {
+        "title": "Bluetooth “Heartbleed” and DoS Flaws Found in Xiaomi Redmi Buds, No Patch",
+        "link": "https://securityonline.info/bluetooth-heartbleed-and-dos-flaws-found-in-xiaomi-redmi-buds-no-patch/",
+        "published": "Mon, 19 Jan 2026 00:19:21 +0000"
+    },
+    {
+        "title": "Invisible Intruder: Fileless Remcos RAT Hides in Shipping Emails",
+        "link": "https://securityonline.info/invisible-intruder-fileless-remcos-rat-hides-in-shipping-emails/",
+        "published": "Mon, 19 Jan 2026 00:15:56 +0000"
+    },
+    {
+        "title": "Critical Deno Flaws Risk Secrets (CVE-2026-22863) & Execution (CVE-2026-22864)",
+        "link": "https://securityonline.info/critical-deno-flaws-risk-secrets-cve-2026-22863-execution-cve-2026-22864/",
+        "published": "Mon, 19 Jan 2026 00:14:29 +0000"
+    },
+    {
+        "title": "New “LOTUSLITE” Backdoor Targets U.S. Government in Suspected Mustang Panda Campaign",
+        "link": "https://securityonline.info/new-lotuslite-backdoor-targets-u-s-government-in-suspected-mustang-panda-campaign/",
+        "published": "Mon, 19 Jan 2026 00:11:03 +0000"
+    },
+    {
+        "title": "Critical ABB Alert: OPTIMAX Flaw Allows Full System Takeover",
+        "link": "https://securityonline.info/critical-abb-alert-optimax-flaw-allows-full-system-takeover/",
+        "published": "Mon, 19 Jan 2026 00:09:28 +0000"
+    },
+    {
+        "title": "The Fake “RedLine”: Imposter Malware Hijacks Crypto Wallets on Discord",
+        "link": "https://securityonline.info/the-fake-redline-imposter-malware-hijacks-crypto-wallets-on-discord/",
+        "published": "Mon, 19 Jan 2026 00:05:25 +0000"
+    },
+    {
+        "title": "Decades-Old Flaw & New Heap Corruption: Critical glibc Bugs Revealed",
+        "link": "https://securityonline.info/decades-old-flaw-new-heap-corruption-critical-glibc-bugs-revealed/",
+        "published": "Mon, 19 Jan 2026 00:01:47 +0000"
     }
 ]
