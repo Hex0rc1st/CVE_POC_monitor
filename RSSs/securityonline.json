@@ -27618,5 +27618,10 @@
         "title": "Beyond Routing: Transform the OpenWrt One into a Powerful Debian Micro-Server",
         "link": "https://securityonline.info/beyond-routing-transform-the-openwrt-one-into-a-powerful-debian-micro-server/",
         "published": "Mon, 19 Jan 2026 02:59:44 +0000"
+    },
+    {
+        "title": "PoC Exploit Released: Failed Windows Patch Leaks Kernel Secrets",
+        "link": "https://securityonline.info/poc-exploit-released-failed-windows-patch-leaks-kernel-secrets/",
+        "published": "Mon, 19 Jan 2026 07:54:47 +0000"
     }
 ]
