@@ -2647,3 +2647,4 @@ clean_list:
 - opencode-secure
 - whisper-pair
 - CVE-2026-22862
+- cve-2024-21413-outlook-monikerlink-lab
