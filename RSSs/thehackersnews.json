@@ -508,5 +508,15 @@
         "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
         "link": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
         "published": "Tue, 20 Jan 2026 13:10:00 +0530"
+    },
+    {
+        "title": "Cloudflare Fixes ACME Validation Bug Allowing WAF Bypass to Origin Servers",
+        "link": "https://thehackernews.com/2026/01/cloudflare-fixes-acme-validation-bug.html",
+        "published": "Tue, 20 Jan 2026 16:42:00 +0530"
+    },
+    {
+        "title": "Why Secrets in JavaScript Bundles are Still Being Missed",
+        "link": "https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html",
+        "published": "Tue, 20 Jan 2026 16:15:00 +0530"
     }
 ]

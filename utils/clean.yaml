@@ -2656,3 +2656,5 @@ clean_list:
 - CVE-2026-0227-Palo-Alto
 - CVE-2024-25641---Cacti
 - CVE-2026-23885
+- Analysis
+- CVE-2026-22812-POC
