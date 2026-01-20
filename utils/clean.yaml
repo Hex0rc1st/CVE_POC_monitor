@@ -2652,3 +2652,6 @@ clean_list:
 - FrostedFastPair
 - CVE-2026-23744-PoC
 - CVE-2025-67126
+- React-site-CVE-2025-55182
+- CVE-2026-0227-Palo-Alto
+- CVE-2024-25641---Cacti
