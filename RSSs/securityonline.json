@@ -27648,5 +27648,65 @@
         "title": "The Pixel 9 Zero-Click Exploit Chain That Breaks the Kernel",
         "link": "https://securityonline.info/the-pixel-9-zero-click-exploit-chain-that-breaks-the-kernel/",
         "published": "Mon, 19 Jan 2026 10:19:20 +0000"
+    },
+    {
+        "title": "The Gemini Surge: How Google’s AI “Halo Effect” is Reshaping the Cloud Wars",
+        "link": "https://securityonline.info/the-gemini-surge-how-googles-ai-halo-effect-is-reshaping-the-cloud-wars/",
+        "published": "Tue, 20 Jan 2026 02:11:22 +0000"
+    },
+    {
+        "title": "“Nomad Leopard” Spotted in the Wild: Cyber Espionage Campaign Targets Afghan Government",
+        "link": "https://securityonline.info/nomad-leopard-spotted-in-the-wild-cyber-espionage-campaign-targets-afghan-government/",
+        "published": "Tue, 20 Jan 2026 01:53:20 +0000"
+    },
+    {
+        "title": "Critical Flaw in “Advanced Custom Fields: Extended” Exposes 100K WordPress Sites to Takeover",
+        "link": "https://securityonline.info/critical-flaw-in-advanced-custom-fields-extended-exposes-100k-wordpress-sites-to-takeover/",
+        "published": "Tue, 20 Jan 2026 01:42:17 +0000"
+    },
+    {
+        "title": "Discord Spy: SolyxImmortal Malware Uses Webhooks for Stealthy Theft",
+        "link": "https://securityonline.info/discord-spy-solyximmortal-malware-uses-webhooks-for-stealthy-theft/",
+        "published": "Tue, 20 Jan 2026 00:48:08 +0000"
+    },
+    {
+        "title": "Malformed & Dangerous: Gootloader Returns with New Ransomware Ties",
+        "link": "https://securityonline.info/malformed-dangerous-gootloader-returns-with-new-ransomware-ties/",
+        "published": "Tue, 20 Jan 2026 00:40:36 +0000"
+    },
+    {
+        "title": "PDFSIDER Discovered: New APT Malware Uses DLL Side-Loading to Evade Detection",
+        "link": "https://securityonline.info/pdfsider-discovered-new-apt-malware-uses-dll-side-loading-to-evade-detection/",
+        "published": "Tue, 20 Jan 2026 00:35:47 +0000"
+    },
+    {
+        "title": "Operation Poseidon: Konni APT Hijacks Google & Naver Ads for Malware",
+        "link": "https://securityonline.info/operation-poseidon-konni-apt-hijacks-google-naver-ads-for-malware/",
+        "published": "Tue, 20 Jan 2026 00:27:48 +0000"
+    },
+    {
+        "title": "Industrial Alert: Critical RCE in AVEVA Software Rated CVSS 10",
+        "link": "https://securityonline.info/industrial-alert-critical-rce-in-aveva-software-rated-cvss-10/",
+        "published": "Tue, 20 Jan 2026 00:22:41 +0000"
+    },
+    {
+        "title": "Spy vs. Spy: Predator Malware Now Hunts the Researchers",
+        "link": "https://securityonline.info/spy-vs-spy-predator-malware-now-hunts-the-researchers/",
+        "published": "Tue, 20 Jan 2026 00:16:10 +0000"
+    },
+    {
+        "title": "WhisperPair: Critical Fast Pair Flaw Exposes Headphones to Hijacking",
+        "link": "https://securityonline.info/whisperpair-critical-fast-pair-flaw-exposes-headphones-to-hijacking/",
+        "published": "Tue, 20 Jan 2026 00:12:29 +0000"
+    },
+    {
+        "title": "Trojanized PDF Editor: “TamperedChef” Campaign Bypasses Windows SmartScreen",
+        "link": "https://securityonline.info/trojanized-pdf-editor-tamperedchef-campaign-bypasses-windows-smartscreen/",
+        "published": "Tue, 20 Jan 2026 00:06:21 +0000"
+    },
+    {
+        "title": "Fake Windows Executables Target macOS: Inside the “MonetaStealer” Discovery",
+        "link": "https://securityonline.info/fake-windows-executables-target-macos-inside-the-monetastealer-discovery/",
+        "published": "Tue, 20 Jan 2026 00:01:35 +0000"
     }
 ]
