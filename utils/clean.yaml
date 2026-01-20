@@ -2650,3 +2650,5 @@ clean_list:
 - cve-2024-21413-outlook-monikerlink-lab
 - CVE-2025-60021-PoC-Apache-bRPC-Heap-Profiler-Command-Injection
 - FrostedFastPair
+- CVE-2026-23744-PoC
+- CVE-2025-67126
