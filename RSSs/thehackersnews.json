@@ -518,5 +518,25 @@
         "title": "Why Secrets in JavaScript Bundles are Still Being Missed",
         "link": "https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html",
         "published": "Tue, 20 Jan 2026 16:15:00 +0530"
+    },
+    {
+        "title": "Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution",
+        "link": "https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html",
+        "published": "Tue, 20 Jan 2026 19:25:00 +0530"
+    },
+    {
+        "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
+        "link": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
+        "published": "Tue, 20 Jan 2026 19:16:00 +0530"
+    },
+    {
+        "title": "The Hidden Risk of Orphan Accounts",
+        "link": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+        "published": "Tue, 20 Jan 2026 17:28:00 +0530"
+    },
+    {
+        "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+        "link": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+        "published": "Tue, 20 Jan 2026 17:18:00 +0530"
     }
 ]
