@@ -27783,5 +27783,45 @@
         "title": "CVE-2026-0629: TP-Link VIGI Flaw Lets Attackers Reset Admin Passwords",
         "link": "https://securityonline.info/cve-2026-0629-tp-link-vigi-flaw-lets-attackers-reset-admin-passwords/",
         "published": "Wed, 21 Jan 2026 00:00:39 +0000"
+    },
+    {
+        "title": "Total Takeover: Critical CVSS 10 Flaw Found in Oracle Fusion Middleware",
+        "link": "https://securityonline.info/total-takeover-critical-cvss-10-flaw-found-in-oracle-fusion-middleware/",
+        "published": "Wed, 21 Jan 2026 04:11:29 +0000"
+    },
+    {
+        "title": "Critical Zoom Flaw (CVE-2026-22844): CVSS 9.9 Command Injection Exposes Hybrid Meetings",
+        "link": "https://securityonline.info/critical-zoom-flaw-cve-2026-22844-cvss-9-9-command-injection-exposes-hybrid-meetings/",
+        "published": "Wed, 21 Jan 2026 03:57:05 +0000"
+    },
+    {
+        "title": "The Robots.txt Myth: Does a Missing File Really Delete Your Site from Google?",
+        "link": "https://securityonline.info/the-robots-txt-myth-does-a-missing-file-really-delete-your-site-from-google/",
+        "published": "Wed, 21 Jan 2026 03:47:21 +0000"
+    },
+    {
+        "title": "The End of Anonymous APKs: Google’s New Mandate for Verified Android Sideloading",
+        "link": "https://securityonline.info/the-end-of-anonymous-apks-googles-new-mandate-for-verified-android-sideloading/",
+        "published": "Wed, 21 Jan 2026 03:43:50 +0000"
+    },
+    {
+        "title": "Digital Capital Punishment: Meta Oversight Board Reviews First Permanent Ban Case",
+        "link": "https://securityonline.info/digital-capital-punishment-meta-oversight-board-reviews-first-permanent-ban-case/",
+        "published": "Wed, 21 Jan 2026 03:40:48 +0000"
+    },
+    {
+        "title": "10-Year-Old GNU Inetutils Telnetd Flaw Lets Hackers Log In as Root via “-f root”",
+        "link": "https://securityonline.info/10-year-old-gnu-inetutils-telnetd-flaw-lets-hackers-log-in-as-root-via-f-root/",
+        "published": "Wed, 21 Jan 2026 03:04:38 +0000"
+    },
+    {
+        "title": "CVE-2025-65586: Libheif Flaw Exposes Image Decoders to Denial-of-Service",
+        "link": "https://securityonline.info/cve-2025-65586-libheif-flaw-exposes-image-decoders-to-denial-of-service/",
+        "published": "Wed, 21 Jan 2026 02:53:12 +0000"
+    },
+    {
+        "title": "“Contagious” Code: North Korean Hackers Infiltrate Developer Workflows via Visual Studio Code",
+        "link": "https://securityonline.info/contagious-code-north-korean-hackers-infiltrate-developer-workflows-via-visual-studio-code/",
+        "published": "Wed, 21 Jan 2026 02:43:30 +0000"
     }
 ]
