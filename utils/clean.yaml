@@ -2659,3 +2659,5 @@ clean_list:
 - Analysis
 - CVE-2026-22812-POC
 - CVE-2025-54068
+- CVE-2026-23947-PoC
+- CVE-2025-13834-A-Bluetooth-RFCOMM-Out-of-Bounds-Read-Vulnerability-in-Modern-Wireless-Devices
