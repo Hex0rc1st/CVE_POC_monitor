@@ -553,5 +553,15 @@
         "title": "CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution",
         "link": "https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html",
         "published": "Wed, 21 Jan 2026 11:34:00 +0530"
+    },
+    {
+        "title": "Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs",
+        "link": "https://thehackernews.com/2026/01/chainlit-ai-framework-flaws-enable-data.html",
+        "published": "Wed, 21 Jan 2026 14:40:00 +0530"
+    },
+    {
+        "title": "VoidLink Linux Malware Framework Built with AI Assistance Reaches 88,000 Lines of Code",
+        "link": "https://thehackernews.com/2026/01/voidlink-linux-malware-framework-built.html",
+        "published": "Wed, 21 Jan 2026 14:25:00 +0530"
     }
 ]
