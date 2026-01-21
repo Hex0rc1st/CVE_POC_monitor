@@ -128,5 +128,10 @@
         "title": "Metasploit Wrap-Up 01/16/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-16-2026",
         "published": "Fri, 16 Jan 2026 18:49:01 GMT"
+    },
+    {
+        "title": "Rapid7 MDR Integrates Microsoft Defender Signals to Create Tangible Security Outcomes",
+        "link": "https://www.rapid7.com/blog/post/dr-microsoft-defender-to-tangible-security-outcomes-with-rapid7-mdr",
+        "published": "Wed, 21 Jan 2026 14:00:00 GMT"
     }
 ]
