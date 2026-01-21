@@ -543,5 +543,15 @@
         "title": "North Korea-Linked Hackers Target Developers via Malicious VS Code Projects",
         "link": "https://thehackernews.com/2026/01/north-korea-linked-hackers-target.html",
         "published": "Wed, 21 Jan 2026 00:11:00 +0530"
+    },
+    {
+        "title": "LastPass Warns of Fake Maintenance Messages Targeting Users’ Master Passwords",
+        "link": "https://thehackernews.com/2026/01/lastpass-warns-of-fake-maintenance.html",
+        "published": "Wed, 21 Jan 2026 12:10:00 +0530"
+    },
+    {
+        "title": "CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution",
+        "link": "https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html",
+        "published": "Wed, 21 Jan 2026 11:34:00 +0530"
     }
 ]
