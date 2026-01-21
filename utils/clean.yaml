@@ -2663,3 +2663,7 @@ clean_list:
 - CVE-2025-13834-A-Bluetooth-RFCOMM-Out-of-Bounds-Read-Vulnerability-in-Modern-Wireless-Devices
 - Ashwesker-CVE-2025-60021
 - CVE-2025-61686-PoC
+- CVE-2025-69457
+- CVE-2025-69459
+- CVE-2025-69458
+- CVE-2025-69460
