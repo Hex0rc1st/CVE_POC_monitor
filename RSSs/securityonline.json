@@ -27838,5 +27838,65 @@
         "title": "New Research Exposes Critical Gap: 64% of Third-Party Applications Access Sensitive Data Without Authorization",
         "link": "https://securityonline.info/new-research-exposes-critical-gap-64-of-third-party-applications-access-sensitive-data-without-authorization/",
         "published": "Wed, 21 Jan 2026 13:40:30 +0000"
+    },
+    {
+        "title": "New Campaign Targets FortiGate Firewalls with Unauthorized Config Changes",
+        "link": "https://securityonline.info/new-campaign-targets-fortigate-firewalls-with-unauthorized-config-changes/",
+        "published": "Thu, 22 Jan 2026 02:13:10 +0000"
+    },
+    {
+        "title": "CVE-2025-13878: High-Severity BIND Flaw Exposes Servers to Remote Crash",
+        "link": "https://securityonline.info/cve-2025-13878-high-severity-bind-flaw-exposes-servers-to-remote-crash/",
+        "published": "Thu, 22 Jan 2026 01:52:31 +0000"
+    },
+    {
+        "title": "NVIDIA Alert: High-Severity Code Execution Flaws Hit CUDA Toolkit",
+        "link": "https://securityonline.info/nvidia-alert-high-severity-code-execution-flaws-hit-cuda-toolkit/",
+        "published": "Thu, 22 Jan 2026 00:45:08 +0000"
+    },
+    {
+        "title": "CVE-2026-1245: Code Injection Flaw Hits Node.js binary-parser",
+        "link": "https://securityonline.info/cve-2026-1245-code-injection-flaw-hits-node-js-binary-parser/",
+        "published": "Thu, 22 Jan 2026 00:41:18 +0000"
+    },
+    {
+        "title": "Smishing Alert: Telegram Bots Power New PNB MetLife Phishing Campaign",
+        "link": "https://securityonline.info/smishing-alert-telegram-bots-power-new-pnb-metlife-phishing-campaign/",
+        "published": "Thu, 22 Jan 2026 00:37:48 +0000"
+    },
+    {
+        "title": "Critical Vivotek Flaw Grants Root Access (CVE-2026-22755)",
+        "link": "https://securityonline.info/critical-vivotek-flaw-grants-root-access-cve-2026-22755/",
+        "published": "Thu, 22 Jan 2026 00:33:43 +0000"
+    },
+    {
+        "title": "Trust Hijacked: Hackers Seize Expired Domains to Poison Linux Snap Apps",
+        "link": "https://securityonline.info/trust-hijacked-hackers-seize-expired-domains-to-poison-linux-snap-apps/",
+        "published": "Thu, 22 Jan 2026 00:29:37 +0000"
+    },
+    {
+        "title": "Calendar Spy: How “Indirect Prompt Injection” Turned Google Gemini Into a Spy",
+        "link": "https://securityonline.info/calendar-spy-how-indirect-prompt-injection-turned-google-gemini-into-a-spy/",
+        "published": "Thu, 22 Jan 2026 00:22:55 +0000"
+    },
+    {
+        "title": "Supply Chain Alert: Critical Code Injection Flaw (CVSS 9.3) in Orval",
+        "link": "https://securityonline.info/supply-chain-alert-critical-code-injection-flaw-cvss-9-3-in-orval/",
+        "published": "Thu, 22 Jan 2026 00:18:30 +0000"
+    },
+    {
+        "title": "Bandwidth Bandits: Fake Notepad++ Installers Hide “Proxyjacking” Malware",
+        "link": "https://securityonline.info/bandwidth-bandits-fake-notepad-installers-hide-proxyjacking-malware/",
+        "published": "Thu, 22 Jan 2026 00:13:34 +0000"
+    },
+    {
+        "title": "CVE-2026-0622: Hardcoded Secret Exposes Open5GS 5G Core Networks",
+        "link": "https://securityonline.info/cve-2026-0622-hardcoded-secret-exposes-open5gs-5g-core-networks/",
+        "published": "Thu, 22 Jan 2026 00:07:53 +0000"
+    },
+    {
+        "title": "GitHub & Dropbox Weaponized: “Defendnot” Tool Used to Disable Windows Defender",
+        "link": "https://securityonline.info/github-dropbox-weaponized-defendnot-tool-used-to-disable-windows-defender/",
+        "published": "Thu, 22 Jan 2026 00:02:28 +0000"
     }
 ]
