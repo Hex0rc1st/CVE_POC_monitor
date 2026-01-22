@@ -27898,5 +27898,20 @@
         "title": "GitHub & Dropbox Weaponized: “Defendnot” Tool Used to Disable Windows Defender",
         "link": "https://securityonline.info/github-dropbox-weaponized-defendnot-tool-used-to-disable-windows-defender/",
         "published": "Thu, 22 Jan 2026 00:02:28 +0000"
+    },
+    {
+        "title": "The End of Lying About Your Age: ChatGPT Now “Guesses” Your Age to Block NSFW Content",
+        "link": "https://securityonline.info/the-end-of-lying-about-your-age-chatgpt-now-guesses-your-age-to-block-nsfw-content/",
+        "published": "Thu, 22 Jan 2026 04:12:37 +0000"
+    },
+    {
+        "title": "CVE-2025-15521 (CVSS 9.8): Critical Academy LMS Flaw Exploited for Admin Takeover",
+        "link": "https://securityonline.info/cve-2025-15521-cvss-9-8-critical-academy-lms-flaw-exploited-for-admin-takeover/",
+        "published": "Thu, 22 Jan 2026 03:55:00 +0000"
+    },
+    {
+        "title": "Under Attack: Critical Cisco RCE (CVE-2026-20045) Exploited in the Wild",
+        "link": "https://securityonline.info/under-attack-critical-cisco-rce-cve-2026-20045-exploited-in-the-wild/",
+        "published": "Thu, 22 Jan 2026 02:40:20 +0000"
     }
 ]
