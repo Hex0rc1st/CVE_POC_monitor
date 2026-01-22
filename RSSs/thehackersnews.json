@@ -593,5 +593,15 @@
         "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
         "link": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
         "published": "Thu, 22 Jan 2026 11:25:00 +0530"
+    },
+    {
+        "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
+        "link": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
+        "published": "Thu, 22 Jan 2026 15:34:00 +0530"
+    },
+    {
+        "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
+        "link": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
+        "published": "Thu, 22 Jan 2026 15:16:00 +0530"
     }
 ]
