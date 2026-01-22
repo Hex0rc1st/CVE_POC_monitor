@@ -2680,3 +2680,4 @@ clean_list:
 - ComfyUI-Manager-CVE-2025-67303
 - supertej0622.github.io
 - CVE-2026-24061---telnetd
+- CVE-2026-24061
