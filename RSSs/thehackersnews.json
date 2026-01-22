@@ -588,5 +588,10 @@
         "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
         "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
         "published": "Thu, 22 Jan 2026 09:36:00 +0530"
+    },
+    {
+        "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
+        "link": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
+        "published": "Thu, 22 Jan 2026 11:25:00 +0530"
     }
 ]
