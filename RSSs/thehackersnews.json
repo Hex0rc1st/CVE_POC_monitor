@@ -618,5 +618,10 @@
         "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
         "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
         "published": "Thu, 22 Jan 2026 22:00:00 +0530"
+    },
+    {
+        "title": "New Osiris Ransomware Emerges as New Strain Using POORTRY Driver in BYOVD Attack",
+        "link": "https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html",
+        "published": "Thu, 22 Jan 2026 23:30:00 +0530"
     }
 ]
