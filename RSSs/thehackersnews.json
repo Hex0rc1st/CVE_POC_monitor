@@ -613,5 +613,10 @@
         "title": "ThreatsDay Bulletin: Pixel Zero-Click, Redis RCE, China C2s, RAT Ads, Crypto Scams & 15+ Stories",
         "link": "https://thehackernews.com/2026/01/threatsday-bulletin-pixel-zero-click.html",
         "published": "Thu, 22 Jan 2026 19:53:00 +0530"
+    },
+    {
+        "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
+        "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
+        "published": "Thu, 22 Jan 2026 22:00:00 +0530"
     }
 ]
