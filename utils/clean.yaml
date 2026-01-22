@@ -2682,3 +2682,6 @@ clean_list:
 - CVE-2026-24061---telnetd
 - CVE-2026-24061
 - Ashwesker-CVE-2026-20045
+- Tell-Me-Root
+- CVE-2026-24061-POC
+- CVE-2025-57298
