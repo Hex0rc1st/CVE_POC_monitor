@@ -2688,3 +2688,4 @@ clean_list:
 - CVE-2026-22444
 - CVE-2025-60021
 - Ashwesker-CVE-2026-24061
+- cve_2026_24061_cli
