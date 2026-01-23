@@ -27948,5 +27948,40 @@
         "title": "Halo Security Achieves SOC 2 Type II Compliance, Demonstrating Sustained Security Excellence Over Time",
         "link": "https://securityonline.info/halo-security-achieves-soc-2-type-ii-compliance-demonstrating-sustained-security-excellence-over-time/",
         "published": "Thu, 22 Jan 2026 18:00:28 +0000"
+    },
+    {
+        "title": "Sabotage & Exploited in the Wild: Critical Backdoor Found in LA-Studio Element Kit",
+        "link": "https://securityonline.info/sabotage-exploited-in-the-wild-critical-backdoor-found-in-la-studio-element-kit/",
+        "published": "Fri, 23 Jan 2026 01:55:13 +0000"
+    },
+    {
+        "title": "Energy Sector Under Siege: AiTM Phishing Turns Insiders Into Threats",
+        "link": "https://securityonline.info/energy-sector-under-siege-aitm-phishing-turns-insiders-into-threats/",
+        "published": "Fri, 23 Jan 2026 00:33:36 +0000"
+    },
+    {
+        "title": "CVE-2026-23594: High-Severity Flaw in HPE Alletra & Nimble Grants Admin Access",
+        "link": "https://securityonline.info/cve-2026-23594-high-severity-flaw-in-hpe-alletra-nimble-grants-admin-access/",
+        "published": "Fri, 23 Jan 2026 00:26:37 +0000"
+    },
+    {
+        "title": "“SymPy” Imposter: Typosquatting Attack Turns Math Library into Crypto Miner",
+        "link": "https://securityonline.info/sympy-imposter-typosquatting-attack-turns-math-library-into-crypto-miner/",
+        "published": "Fri, 23 Jan 2026 00:22:56 +0000"
+    },
+    {
+        "title": "Mac Users Beware: “MacSync” Malware Tricks You Into Hacking Yourself",
+        "link": "https://securityonline.info/mac-users-beware-macsync-malware-tricks-you-into-hacking-yourself/",
+        "published": "Fri, 23 Jan 2026 00:13:44 +0000"
+    },
+    {
+        "title": "Crossing the Andes: Sophisticated Loan Phishing Scams Hit Peru",
+        "link": "https://securityonline.info/crossing-the-andes-sophisticated-loan-phishing-scams-hit-peru/",
+        "published": "Fri, 23 Jan 2026 00:07:57 +0000"
+    },
+    {
+        "title": "CVE-2026-22822: Critical Flaw in External Secrets Operator Breaks Namespace Isolation",
+        "link": "https://securityonline.info/cve-2026-22822-critical-flaw-in-external-secrets-operator-breaks-namespace-isolation/",
+        "published": "Fri, 23 Jan 2026 00:00:14 +0000"
     }
 ]

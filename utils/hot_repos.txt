@@ -15,3 +15,5 @@ https://github.com/SpectrixDev/DIY_WhisperPair
 https://github.com/zalexdev/wpair-app
 https://github.com/canyie/CVE-2024-23700
 https://github.com/Ashwesker/Ashwesker-CVE-2026-21962
+https://github.com/parameciumzhang/Tell-Me-Root
+https://github.com/JayGLXR/CVE-2026-24061-POC
