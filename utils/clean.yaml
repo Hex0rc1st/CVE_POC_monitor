@@ -2697,3 +2697,4 @@ clean_list:
 - RulesGuard
 - CVE-2026-D0cker
 - exploit_cve_2025_67303
+- CVE-2026-Apple
