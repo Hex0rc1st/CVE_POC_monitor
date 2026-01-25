@@ -2703,3 +2703,4 @@ clean_list:
 - URVE-Smart-Office-Session-Fixation-Non-Expiring-Session-Tokens-PoC-CVE-2025-XXXX
 - CVE-2026-Apple-V2
 - CVE-2026-Discord
+- CVE-2026-24422_PoC
