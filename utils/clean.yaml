@@ -2704,3 +2704,4 @@ clean_list:
 - CVE-2026-Apple-V2
 - CVE-2026-Discord
 - CVE-2026-24422_PoC
+- CVE-2025-13374
