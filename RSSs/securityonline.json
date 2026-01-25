@@ -28053,5 +28053,15 @@
         "title": "Deep Kernel Fix: Linux Closes a 5-Year-Old Flaw in x86 Memory Handling",
         "link": "https://securityonline.info/deep-kernel-fix-linux-closes-a-5-year-old-flaw-in-x86-memory-handling/",
         "published": "Sun, 25 Jan 2026 06:05:46 +0000"
+    },
+    {
+        "title": "CVE-2025-27821: Apache Patches Out-of-Bounds Write Flaw in Hadoop HDFS Client",
+        "link": "https://securityonline.info/cve-2025-27821-apache-patches-out-of-bounds-write-flaw-in-hadoop-hdfs-client/",
+        "published": "Sun, 25 Jan 2026 07:19:40 +0000"
+    },
+    {
+        "title": "CISA Alert: Critical VMware vCenter RCE (CVSS 9.8) Now Exploited in the Wild",
+        "link": "https://securityonline.info/cisa-alert-critical-vmware-vcenter-rce-cvss-9-8-now-exploited-in-the-wild/",
+        "published": "Sun, 25 Jan 2026 06:54:56 +0000"
     }
 ]
