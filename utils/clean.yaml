@@ -2717,3 +2717,4 @@ clean_list:
 - cve-2026-24061-GUI
 - CVE-2026-24306
 - enclave-vm-CVE-2026-22686
+- CVE-2024-6651
