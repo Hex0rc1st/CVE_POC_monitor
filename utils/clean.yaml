@@ -2710,3 +2710,7 @@ clean_list:
 - By-Poloss..-..CVE-2026-1522
 - sakyu7.github.io
 - telnetd-cve-2026-24061
+- CVE-PoCs-2026
+- CVE-2025-41243-Vulnerability-Lab
+- CVE-2026-24061-Scanner
+- CVE-2025-14855-POC
