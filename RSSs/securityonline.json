@@ -28063,5 +28063,85 @@
         "title": "CISA Alert: Critical VMware vCenter RCE (CVSS 9.8) Now Exploited in the Wild",
         "link": "https://securityonline.info/cisa-alert-critical-vmware-vcenter-rce-cvss-9-8-now-exploited-in-the-wild/",
         "published": "Sun, 25 Jan 2026 06:54:56 +0000"
+    },
+    {
+        "title": "The Master Key Trap: Microsoft Confirms It Hands BitLocker Keys to the FBI",
+        "link": "https://securityonline.info/the-master-key-trap-microsoft-confirms-it-hands-bitlocker-keys-to-the-fbi/",
+        "published": "Mon, 26 Jan 2026 02:20:19 +0000"
+    },
+    {
+        "title": "Siri’s Gemini Glow-Up: Apple and Google Set to Launch “Truly Intelligent” iOS 26.4",
+        "link": "https://securityonline.info/siris-gemini-glow-up-apple-and-google-set-to-launch-truly-intelligent-ios-26-4/",
+        "published": "Mon, 26 Jan 2026 02:13:24 +0000"
+    },
+    {
+        "title": "PoC Released for Critical Oracle E-Business Suite Flaw Exploited by Ransomware",
+        "link": "https://securityonline.info/poc-released-for-critical-oracle-e-business-suite-flaw-exploited-by-ransomware/",
+        "published": "Mon, 26 Jan 2026 00:50:26 +0000"
+    },
+    {
+        "title": "Booting Up Malware: Critical Flaw in Rufus Grants Admin Access (CVE-2026-23988)",
+        "link": "https://securityonline.info/booting-up-malware-critical-flaw-in-rufus-grants-admin-access-cve-2026-23988/",
+        "published": "Mon, 26 Jan 2026 00:41:53 +0000"
+    },
+    {
+        "title": "India Tax Scam Alert: “SyncFuture” Campaign Installs Chinese Surveillance Tool",
+        "link": "https://securityonline.info/india-tax-scam-alert-syncfuture-campaign-installs-chinese-surveillance-tool/",
+        "published": "Mon, 26 Jan 2026 00:37:42 +0000"
+    },
+    {
+        "title": "The Developer’s Backdoor: North Korea Weaponizes Visual Studio Code",
+        "link": "https://securityonline.info/the-developers-backdoor-north-korea-weaponizes-visual-studio-code/",
+        "published": "Mon, 26 Jan 2026 00:32:25 +0000"
+    },
+    {
+        "title": "Code by AI: KONNI APT Targets Crypto Devs with “Polished” Backdoor",
+        "link": "https://securityonline.info/code-by-ai-konni-apt-targets-crypto-devs-with-polished-backdoor/",
+        "published": "Mon, 26 Jan 2026 00:27:32 +0000"
+    },
+    {
+        "title": "The Invisible Trap: GenAI Now Creates “Living” Polymorphic Phishing Pages",
+        "link": "https://securityonline.info/the-invisible-trap-genai-now-creates-living-polymorphic-phishing-pages/",
+        "published": "Mon, 26 Jan 2026 00:22:12 +0000"
+    },
+    {
+        "title": "“Osiris” Rises: New Ransomware Targets Southeast Asian Food Giant with Advanced Tactics",
+        "link": "https://securityonline.info/osiris-rises-new-ransomware-targets-southeast-asian-food-giant-with-advanced-tactics/",
+        "published": "Mon, 26 Jan 2026 00:18:20 +0000"
+    },
+    {
+        "title": "CVE-2025-67968 (CVSS 9.9): Critical Flaw in Real Estate Theme Exposes 30,000 Sites to Takeover",
+        "link": "https://securityonline.info/cve-2025-67968-cvss-9-9-critical-flaw-in-real-estate-theme-exposes-30000-sites-to-takeover/",
+        "published": "Mon, 26 Jan 2026 00:13:46 +0000"
+    },
+    {
+        "title": "CVE-2026-24656: Deserialization Flaw in Apache Karaf Exposes Systems to DoS",
+        "link": "https://securityonline.info/cve-2026-24656-deserialization-flaw-in-apache-karaf-exposes-systems-to-dos/",
+        "published": "Mon, 26 Jan 2026 00:11:18 +0000"
+    },
+    {
+        "title": "Ghost in the Code: Critical RCE Found in Abandoned Python PLY Library (CVSS 9.8)",
+        "link": "https://securityonline.info/ghost-in-the-code-critical-rce-found-in-abandoned-python-ply-library-cvss-9-8/",
+        "published": "Mon, 26 Jan 2026 00:07:38 +0000"
+    },
+    {
+        "title": "Be the Viral Star: Google Photos Launches AI “Me Meme” Feature",
+        "link": "https://securityonline.info/be-the-viral-star-google-photos-launches-ai-me-meme-feature/",
+        "published": "Mon, 26 Jan 2026 00:05:56 +0000"
+    },
+    {
+        "title": "The Multi-Billion Dollar Suit: Solos Technology Aims to Halt Ray-Ban Meta Sales",
+        "link": "https://securityonline.info/the-multi-billion-dollar-suit-solos-technology-aims-to-halt-ray-ban-meta-sales/",
+        "published": "Mon, 26 Jan 2026 00:05:06 +0000"
+    },
+    {
+        "title": "TikTok’s Great Escape: Divestiture Closes as New USDS Entity Takes Control",
+        "link": "https://securityonline.info/tiktoks-great-escape-divestiture-closes-as-new-usds-entity-takes-control/",
+        "published": "Mon, 26 Jan 2026 00:02:37 +0000"
+    },
+    {
+        "title": "The DMA Standoff: Apple Slams EU “Delay Tactics” as Setapp Mobile Collapses",
+        "link": "https://securityonline.info/the-dma-standoff-apple-slams-eu-delay-tactics-as-setapp-mobile-collapses/",
+        "published": "Mon, 26 Jan 2026 00:00:24 +0000"
     }
 ]
