@@ -2714,3 +2714,5 @@ clean_list:
 - CVE-2025-41243-Vulnerability-Lab
 - CVE-2026-24061-Scanner
 - CVE-2025-14855-POC
+- cve-2026-24061-GUI
+- CVE-2026-24306
