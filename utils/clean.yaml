@@ -2716,3 +2716,4 @@ clean_list:
 - CVE-2025-14855-POC
 - cve-2026-24061-GUI
 - CVE-2026-24306
+- enclave-vm-CVE-2026-22686
