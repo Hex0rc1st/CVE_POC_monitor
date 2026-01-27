@@ -2726,3 +2726,4 @@ clean_list:
 - Ashwesker-CVE-2026-21509
 - CVE-2025-36911-exploit
 - ply_exploit_rejection
+- CVE-2026-24061-PoC-Telnetd
