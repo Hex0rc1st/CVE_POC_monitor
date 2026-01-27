@@ -28218,5 +28218,25 @@
         "title": "Trusted Tool, Hidden Threat: Official EmEditor Installer Hijacked to Push Malware",
         "link": "https://securityonline.info/trusted-tool-hidden-threat-official-emeditor-installer-hijacked-to-push-malware/",
         "published": "Tue, 27 Jan 2026 00:00:35 +0000"
+    },
+    {
+        "title": "CVSS 9.8 Sandbox Escape: Critical vm2 Flaw Exposes Millions of Apps",
+        "link": "https://securityonline.info/cvss-9-8-sandbox-escape-critical-vm2-flaw-exposes-millions-of-apps/",
+        "published": "Tue, 27 Jan 2026 04:09:42 +0000"
+    },
+    {
+        "title": "Incomplete Fix: High-Severity React Server Components DoS Flaw (CVE-2026-23864)",
+        "link": "https://securityonline.info/incomplete-fix-high-severity-react-server-components-dos-flaw-cve-2026-23864/",
+        "published": "Tue, 27 Jan 2026 04:00:41 +0000"
+    },
+    {
+        "title": "High-Severity Flaw in Western Digital Installer Opens Door to Code Execution",
+        "link": "https://securityonline.info/high-severity-flaw-in-western-digital-installer-opens-door-to-code-execution/",
+        "published": "Tue, 27 Jan 2026 03:26:59 +0000"
+    },
+    {
+        "title": "Stealth in Script: “PeckBirdy” Framework Powers New Wave of China-Aligned Attacks",
+        "link": "https://securityonline.info/stealth-in-script-peckbirdy-framework-powers-new-wave-of-china-aligned-attacks/",
+        "published": "Tue, 27 Jan 2026 03:06:30 +0000"
     }
 ]
