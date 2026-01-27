@@ -698,5 +698,15 @@
         "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
         "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
         "published": "Tue, 27 Jan 2026 12:49:00 +0530"
+    },
+    {
+        "title": "Critical Grist-Core Vulnerability Allows RCE Attacks via Spreadsheet Formulas",
+        "link": "https://thehackernews.com/2026/01/critical-grist-core-vulnerability.html",
+        "published": "Tue, 27 Jan 2026 16:06:00 +0530"
+    },
+    {
+        "title": "China-Linked Hackers Have Used the PeckBirdy JavaScript C2 Framework Since 2023",
+        "link": "https://thehackernews.com/2026/01/china-linked-hackers-have-used.html",
+        "published": "Tue, 27 Jan 2026 14:31:00 +0530"
     }
 ]

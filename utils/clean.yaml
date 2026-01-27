@@ -2724,3 +2724,4 @@ clean_list:
 - CVE-2026-24061-telnet2root
 - CVE-2026-24688
 - Ashwesker-CVE-2026-21509
+- CVE-2025-36911-exploit
