@@ -2723,3 +2723,4 @@ clean_list:
 - CVE-2024-23334-PoC
 - CVE-2026-24061-telnet2root
 - CVE-2026-24688
+- Ashwesker-CVE-2026-21509
