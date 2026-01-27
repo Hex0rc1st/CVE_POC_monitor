@@ -28173,5 +28173,50 @@
         "title": "Microsoft Issues Emergency Auto-Patch: Is Your Outlook Classic Still Freezing?",
         "link": "https://securityonline.info/microsoft-issues-emergency-auto-patch-is-your-outlook-classic-still-freezing/",
         "published": "Mon, 26 Jan 2026 07:49:05 +0000"
+    },
+    {
+        "title": "Under Attack: Microsoft Patches Office Zero-Day (CVE-2026-21509) Exploited in the Wild",
+        "link": "https://securityonline.info/under-attack-microsoft-patches-office-zero-day-cve-2026-21509-exploited-in-the-wild/",
+        "published": "Tue, 27 Jan 2026 02:02:40 +0000"
+    },
+    {
+        "title": "High-Severity DoS Flaw Hits Google Protocol Buffers (CVE-2026-0994)",
+        "link": "https://securityonline.info/high-severity-dos-flaw-hits-google-protocol-buffers-cve-2026-0994/",
+        "published": "Tue, 27 Jan 2026 00:41:24 +0000"
+    },
+    {
+        "title": "“Repo Squatting”: How Hackers Are Using GitHub’s Own Features to Hijack Official Repos",
+        "link": "https://securityonline.info/repo-squatting-how-hackers-are-using-githubs-own-features-to-hijack-official-repos/",
+        "published": "Tue, 27 Jan 2026 00:37:58 +0000"
+    },
+    {
+        "title": "Exploit Code Publicly Released: Critical Firefox WebRTC Flaw Allows RCE (CVSS 9.8)",
+        "link": "https://securityonline.info/exploit-code-publicly-released-critical-firefox-webrtc-flaw-allows-rce-cvss-9-8/",
+        "published": "Tue, 27 Jan 2026 00:33:59 +0000"
+    },
+    {
+        "title": "“G_Wagon” Malware Hides in Fake NPM UI Library to Steal Cloud Keys",
+        "link": "https://securityonline.info/g_wagon-malware-hides-in-fake-npm-ui-library-to-steal-cloud-keys/",
+        "published": "Tue, 27 Jan 2026 00:27:55 +0000"
+    },
+    {
+        "title": "Hijacking the Hackers: Researchers Sinkhole “KazakRAT” Espionage Campaign",
+        "link": "https://securityonline.info/hijacking-the-hackers-researchers-sinkhole-kazakrat-espionage-campaign/",
+        "published": "Tue, 27 Jan 2026 00:22:51 +0000"
+    },
+    {
+        "title": "The CAPTCHA Trap: ClearFake Malware Tricks Users Into Hacking Themselves",
+        "link": "https://securityonline.info/the-captcha-trap-clearfake-malware-tricks-users-into-hacking-themselves/",
+        "published": "Tue, 27 Jan 2026 00:11:22 +0000"
+    },
+    {
+        "title": "“Contagious Interview”: How North Korean Hackers Use Fake Jobs to Breach IT Firms",
+        "link": "https://securityonline.info/contagious-interview-how-north-korean-hackers-use-fake-jobs-to-breach-it-firms/",
+        "published": "Tue, 27 Jan 2026 00:06:11 +0000"
+    },
+    {
+        "title": "Trusted Tool, Hidden Threat: Official EmEditor Installer Hijacked to Push Malware",
+        "link": "https://securityonline.info/trusted-tool-hidden-threat-official-emeditor-installer-hijacked-to-push-malware/",
+        "published": "Tue, 27 Jan 2026 00:00:35 +0000"
     }
 ]

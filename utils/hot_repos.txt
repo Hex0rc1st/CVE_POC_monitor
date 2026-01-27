@@ -18,3 +18,4 @@ https://github.com/Ashwesker/Ashwesker-CVE-2026-21962
 https://github.com/parameciumzhang/Tell-Me-Root
 https://github.com/JayGLXR/CVE-2026-24061-POC
 https://github.com/SafeBreach-Labs/CVE-2026-24061
+https://github.com/HackingLZ/CVE-2025-27237
