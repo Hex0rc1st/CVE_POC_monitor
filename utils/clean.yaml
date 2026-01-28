@@ -2728,3 +2728,4 @@ clean_list:
 - ply_exploit_rejection
 - CVE-2026-24061-PoC-Telnetd
 - CVE-2026-21509-PoC
+- CVE-2026-24061_Lab

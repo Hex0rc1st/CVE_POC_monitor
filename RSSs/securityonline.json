@@ -28278,5 +28278,60 @@
         "title": "Lock the Front Door: The “Localhost” Loophole Leaving Thousands of Clawdbot Agents Exposed",
         "link": "https://securityonline.info/lock-the-front-door-the-localhost-loophole-leaving-thousands-of-clawdbot-agents-exposed/",
         "published": "Tue, 27 Jan 2026 08:19:31 +0000"
+    },
+    {
+        "title": "Pre-Auth RCE Risk: OpenSSL Patches High-Severity Stack Overflow (CVE-2025-15467)",
+        "link": "https://securityonline.info/pre-auth-rce-risk-openssl-patches-high-severity-stack-overflow-cve-2025-15467/",
+        "published": "Wed, 28 Jan 2026 02:13:26 +0000"
+    },
+    {
+        "title": "Under Attack: Critical Fortinet Auth Bypass (CVE-2026-24858) Exploited in the Wild",
+        "link": "https://securityonline.info/under-attack-critical-fortinet-auth-bypass-cve-2026-24858-exploited-in-the-wild/",
+        "published": "Wed, 28 Jan 2026 02:04:07 +0000"
+    },
+    {
+        "title": "Chrome Patches High-Severity Background Fetch Flaw (CVE-2026-1504)",
+        "link": "https://securityonline.info/chrome-patches-high-severity-background-fetch-flaw-cve-2026-1504/",
+        "published": "Wed, 28 Jan 2026 01:53:49 +0000"
+    },
+    {
+        "title": "HoneyMyte Evolved: Spies Use Pixeldrain & CoolClient for Real-Time Surveillance",
+        "link": "https://securityonline.info/honeymyte-evolved-spies-use-pixeldrain-coolclient-for-real-time-surveillance/",
+        "published": "Wed, 28 Jan 2026 00:24:36 +0000"
+    },
+    {
+        "title": "The “PayTool” Trap: Massive Fraud Cluster Impersonates Canada Gov & Air Canada",
+        "link": "https://securityonline.info/the-paytool-trap-massive-fraud-cluster-impersonates-canada-gov-air-canada/",
+        "published": "Wed, 28 Jan 2026 00:21:45 +0000"
+    },
+    {
+        "title": "Router Takeover: High-Severity Command Injection Flaw Hits TP-Link Archer MR600",
+        "link": "https://securityonline.info/router-takeover-high-severity-command-injection-flaw-hits-tp-link-archer-mr600/",
+        "published": "Wed, 28 Jan 2026 00:16:58 +0000"
+    },
+    {
+        "title": "“Gopher Strike”: New Pakistan-Linked Cyber Campaigns Target Indian Government",
+        "link": "https://securityonline.info/gopher-strike-new-pakistan-linked-cyber-campaigns-target-indian-government/",
+        "published": "Wed, 28 Jan 2026 00:11:51 +0000"
+    },
+    {
+        "title": "Digital El Dorado: How the Tiny Island of Anguilla Hit the 1 Million .ai Domain Jackpot",
+        "link": "https://securityonline.info/digital-el-dorado-how-the-tiny-island-of-anguilla-hit-the-1-million-ai-domain-jackpot/",
+        "published": "Wed, 28 Jan 2026 00:06:00 +0000"
+    },
+    {
+        "title": "The “Iron Man” Moment: Why Silicon Valley is Buying Out Mac Minis to Run Clawdbot",
+        "link": "https://securityonline.info/the-iron-man-moment-why-silicon-valley-is-buying-out-mac-minis-to-run-clawdbot/",
+        "published": "Wed, 28 Jan 2026 00:04:07 +0000"
+    },
+    {
+        "title": "Geopolitical Gridlock: Why China is Putting Meta’s $2 Billion Manus AI Deal Under the Microscope",
+        "link": "https://securityonline.info/geopolitical-gridlock-why-china-is-putting-metas-2-billion-manus-ai-deal-under-the-microscope/",
+        "published": "Wed, 28 Jan 2026 00:02:17 +0000"
+    },
+    {
+        "title": "The AI Throne Reclaimed? Samsung Nears Final NVIDIA “Seal of Approval” for Game-Changing HBM4",
+        "link": "https://securityonline.info/the-ai-throne-reclaimed-samsung-nears-final-nvidia-seal-of-approval-for-game-changing-hbm4/",
+        "published": "Wed, 28 Jan 2026 00:00:06 +0000"
     }
 ]
