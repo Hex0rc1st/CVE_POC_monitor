@@ -2729,3 +2729,7 @@ clean_list:
 - CVE-2026-24061-PoC-Telnetd
 - CVE-2026-21509-PoC
 - CVE-2026-24061_Lab
+- CTT-Mailpit-RCE-v1.0---Temporal-Resonance-Mail-Server-Takeover
+- GNU-Inetutils-telnet-CVE-2026-24061-
+- Convergent-Time-Theory-Enhanced-iOS-Safari-RCE-CVE-2025-43529-
+- Inside-CVE-2026-20805-How-a-Windows-DWM-Flaw-Exposed-Sensitive-Data
