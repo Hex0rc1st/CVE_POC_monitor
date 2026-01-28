@@ -153,5 +153,10 @@
         "title": "Threat Actors Using AWS WorkMail in Phishing Campaigns",
         "link": "https://www.rapid7.com/blog/post/dr-threat-actors-aws-workmail-phishing-campaigns",
         "published": "Tue, 27 Jan 2026 17:31:54 GMT"
+    },
+    {
+        "title": "Multiple Critical SolarWinds Web Help Desk Vulnerabilities: CVE-2025-40551, CVE-2025-40552, CVE-2025-40553, CVE-2025-40554",
+        "link": "https://www.rapid7.com/blog/post/etr-multiple-critical-solarwinds-web-help-desk-vulnerabilities-cve-2025-40551-40552-40553-40554",
+        "published": "Wed, 28 Jan 2026 14:53:08 GMT"
     }
 ]

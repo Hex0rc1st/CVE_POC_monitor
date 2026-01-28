@@ -2741,3 +2741,4 @@ clean_list:
 - Undocumument_RCE_PLY-yacc-CVE-2025-56005
 - CVE-2026-24858
 - CVE-2026-1056-POC
+- CVE-2026-24061-telnetd-Authentication-Bypass-Vulnerability
