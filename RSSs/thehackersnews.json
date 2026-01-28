@@ -763,5 +763,10 @@
         "title": "Mustang Panda Deploys Updated COOLCLIENT Backdoor in Government Cyber Attacks",
         "link": "https://thehackernews.com/2026/01/mustang-panda-deploys-updated.html",
         "published": "Wed, 28 Jan 2026 17:10:00 +0530"
+    },
+    {
+        "title": "Critical vm2 Node.js Flaw Allows Sandbox Escape and Arbitrary Code Execution",
+        "link": "https://thehackernews.com/2026/01/critical-vm2-nodejs-flaw-allows-sandbox.html",
+        "published": "Wed, 28 Jan 2026 19:31:00 +0530"
     }
 ]

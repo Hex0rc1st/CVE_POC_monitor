@@ -2738,3 +2738,6 @@ clean_list:
 - Ashwesker-CVE-2026-22794
 - By-Poloss..-..CVE-2026-23550
 - CVE-2025-15467
+- Undocumument_RCE_PLY-yacc-CVE-2025-56005
+- CVE-2026-24858
+- CVE-2026-1056-POC
