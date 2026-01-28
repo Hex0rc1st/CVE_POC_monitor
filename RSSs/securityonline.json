@@ -28378,5 +28378,10 @@
         "title": "Beyond ChromeOS: Google’s “Aluminum OS” Desktop Android Leaks Online",
         "link": "https://securityonline.info/beyond-chromeos-googles-aluminum-os-desktop-android-leaks-online/",
         "published": "Wed, 28 Jan 2026 08:50:34 +0000"
+    },
+    {
+        "title": "SolarWinds Web Help Desk Hit with Multiple RCE and Auth Bypass Vulnerabilities",
+        "link": "https://securityonline.info/solarwinds-web-help-desk-hit-with-multiple-rce-and-auth-bypass-vulnerabilities/",
+        "published": "Wed, 28 Jan 2026 09:57:01 +0000"
     }
 ]

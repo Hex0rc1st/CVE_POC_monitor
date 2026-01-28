@@ -733,5 +733,20 @@
         "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
         "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
         "published": "Wed, 28 Jan 2026 10:19:00 +0530"
+    },
+    {
+        "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
+        "link": "https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html",
+        "published": "Wed, 28 Jan 2026 16:00:00 +0530"
+    },
+    {
+        "title": "Google Warns of Active Exploitation of WinRAR Vulnerability CVE-2025-8088",
+        "link": "https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html",
+        "published": "Wed, 28 Jan 2026 15:16:00 +0530"
+    },
+    {
+        "title": "Fake Python Spellchecker Packages on PyPI Delivered Hidden Remote Access Trojan",
+        "link": "https://thehackernews.com/2026/01/fake-python-spellchecker-packages-on.html",
+        "published": "Wed, 28 Jan 2026 15:00:00 +0530"
     }
 ]
