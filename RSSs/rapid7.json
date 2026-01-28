@@ -158,5 +158,10 @@
         "title": "Multiple Critical SolarWinds Web Help Desk Vulnerabilities: CVE-2025-40551, CVE-2025-40552, CVE-2025-40553, CVE-2025-40554",
         "link": "https://www.rapid7.com/blog/post/etr-multiple-critical-solarwinds-web-help-desk-vulnerabilities-cve-2025-40551-40552-40553-40554",
         "published": "Wed, 28 Jan 2026 14:53:08 GMT"
+    },
+    {
+        "title": "Patch Tuesday and the Enduring Challenge of Windows’ Backwards Compatibility",
+        "link": "https://www.rapid7.com/blog/post/ve-patch-tuesday-windows-backwards-compatibility-challenge",
+        "published": "Wed, 28 Jan 2026 17:04:41 GMT"
     }
 ]
