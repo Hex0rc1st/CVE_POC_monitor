@@ -2744,3 +2744,4 @@ clean_list:
 - CVE-2026-24061-telnetd-Authentication-Bypass-Vulnerability
 - fa1sa1142.github.io
 - wpair-app
+- VulnLab-2026
