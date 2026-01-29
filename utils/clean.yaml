@@ -2749,3 +2749,5 @@ clean_list:
 - CVE-2025-55182_Vulnerable-Application
 - KSK-ITDK-CVE-2026-21509-Mitigation
 - CVE-2026-24423
+- cve-2025-59886
+- CVE-2025-66850
