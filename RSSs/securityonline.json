@@ -28443,5 +28443,20 @@
         "title": "The $40M Insider Heist: Son of Federal Contractor Investigated for Seized Crypto Theft",
         "link": "https://securityonline.info/the-40m-insider-heist-son-of-federal-contractor-investigated-for-seized-crypto-theft/",
         "published": "Thu, 29 Jan 2026 00:00:16 +0000"
+    },
+    {
+        "title": "High-Severity IDOR Flaw Lets Admins Hijack TP-Link Omada Owner Accounts",
+        "link": "https://securityonline.info/high-severity-idor-flaw-lets-admins-hijack-tp-link-omada-owner-accounts/",
+        "published": "Thu, 29 Jan 2026 03:13:30 +0000"
+    },
+    {
+        "title": "Safety Broken: PyTorch “Safe” Mode Bypassed by Critical RCE Flaw",
+        "link": "https://securityonline.info/safety-broken-pytorch-safe-mode-bypassed-by-critical-rce-flaw/",
+        "published": "Thu, 29 Jan 2026 02:58:49 +0000"
+    },
+    {
+        "title": "CVE-2026-24765: PHPUnit Vulnerability Exposes CI/CD Pipelines to RCE",
+        "link": "https://securityonline.info/cve-2026-24765-phpunit-vulnerability-exposes-ci-cd-pipelines-to-rce/",
+        "published": "Thu, 29 Jan 2026 02:48:35 +0000"
     }
 ]
