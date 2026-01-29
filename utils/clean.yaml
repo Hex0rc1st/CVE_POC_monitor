@@ -2746,3 +2746,4 @@ clean_list:
 - wpair-app
 - VulnLab-2026
 - CVE-2025-9316_CVE-2025-11700
+- CVE-2025-55182_Vulnerable-Application
