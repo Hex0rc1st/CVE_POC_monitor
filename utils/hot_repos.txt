@@ -22,3 +22,4 @@ https://github.com/HackingLZ/CVE-2025-27237
 https://github.com/PentHertz/CVE-2025-36911-exploit
 https://github.com/Ashwesker/Ashwesker-CVE-2026-21509
 https://github.com/Lingzesec/CVE-2026-24061-GUI
+https://github.com/bjrjk/CVE-2025-5419

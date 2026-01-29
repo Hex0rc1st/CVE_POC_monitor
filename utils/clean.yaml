@@ -2747,3 +2747,4 @@ clean_list:
 - VulnLab-2026
 - CVE-2025-9316_CVE-2025-11700
 - CVE-2025-55182_Vulnerable-Application
+- KSK-ITDK-CVE-2026-21509-Mitigation
