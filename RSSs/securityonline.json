@@ -28383,5 +28383,65 @@
         "title": "SolarWinds Web Help Desk Hit with Multiple RCE and Auth Bypass Vulnerabilities",
         "link": "https://securityonline.info/solarwinds-web-help-desk-hit-with-multiple-rce-and-auth-bypass-vulnerabilities/",
         "published": "Wed, 28 Jan 2026 09:57:01 +0000"
+    },
+    {
+        "title": "Spies in the Spreadsheet: “Sheet Attack” Uses Google Sheets & AI to Target India",
+        "link": "https://securityonline.info/spies-in-the-spreadsheet-sheet-attack-uses-google-sheets-ai-to-target-india/",
+        "published": "Thu, 29 Jan 2026 02:42:10 +0000"
+    },
+    {
+        "title": "CVE-2026-24002: Critical Sandbox Escape Turns Grist Spreadsheets into RCE Weapons",
+        "link": "https://securityonline.info/cve-2026-24002-critical-sandbox-escape-turns-grist-spreadsheets-into-rce-weapons/",
+        "published": "Thu, 29 Jan 2026 02:30:34 +0000"
+    },
+    {
+        "title": "The “Zeroplayer” Arsenal: WinRAR Flaw CVE-2025-8088 Weaponized by Spies",
+        "link": "https://securityonline.info/the-zeroplayer-arsenal-winrar-flaw-cve-2025-8088-weaponized-by-spies/",
+        "published": "Thu, 29 Jan 2026 01:58:49 +0000"
+    },
+    {
+        "title": "Fake AI Assistant: Malicious “ClawdBot” Extension Hides Trojan in VS Code",
+        "link": "https://securityonline.info/fake-ai-assistant-malicious-clawdbot-extension-hides-trojan-in-vs-code/",
+        "published": "Thu, 29 Jan 2026 01:52:41 +0000"
+    },
+    {
+        "title": "CVE-2026-23830: Critical SandboxJS Flaw (CVSS 10) Allows Total Sandbox Escape",
+        "link": "https://securityonline.info/cve-2026-23830-critical-sandboxjs-flaw-cvss-10-allows-total-sandbox-escape/",
+        "published": "Thu, 29 Jan 2026 00:22:52 +0000"
+    },
+    {
+        "title": "CVE-2025-14988: Critical 9.8 Vulnerability hits ibaPDA Industrial Software",
+        "link": "https://securityonline.info/cve-2025-14988-critical-9-8-vulnerability-hits-ibapda-industrial-software/",
+        "published": "Thu, 29 Jan 2026 00:16:44 +0000"
+    },
+    {
+        "title": "The “Fake CAPTCHA” Trap: Malware Hides in Google Calendar & Images",
+        "link": "https://securityonline.info/the-fake-captcha-trap-malware-hides-in-google-calendar-images/",
+        "published": "Thu, 29 Jan 2026 00:12:41 +0000"
+    },
+    {
+        "title": "Science at the Speed of AI: OpenAI Unveils Prism for LaTeX Research",
+        "link": "https://securityonline.info/science-at-the-speed-of-ai-openai-unveils-prism-for-latex-research/",
+        "published": "Thu, 29 Jan 2026 00:10:58 +0000"
+    },
+    {
+        "title": "The Return of the Guide: Yahoo Scout Challenges Google with AI-Native Search",
+        "link": "https://securityonline.info/the-return-of-the-guide-yahoo-scout-challenges-google-with-ai-native-search/",
+        "published": "Thu, 29 Jan 2026 00:08:58 +0000"
+    },
+    {
+        "title": "Excel’s New Brain: Agent Mode Brings GPT-5.2 and Claude 4.5 to Desktop",
+        "link": "https://securityonline.info/excels-new-brain-agent-mode-brings-gpt-5-2-and-claude-4-5-to-desktop/",
+        "published": "Thu, 29 Jan 2026 00:05:32 +0000"
+    },
+    {
+        "title": "The 13-Year Lifeline: Apple Updates the iPhone 5s to Save iMessage",
+        "link": "https://securityonline.info/the-13-year-lifeline-apple-updates-the-iphone-5s-to-save-imessage/",
+        "published": "Thu, 29 Jan 2026 00:02:33 +0000"
+    },
+    {
+        "title": "The $40M Insider Heist: Son of Federal Contractor Investigated for Seized Crypto Theft",
+        "link": "https://securityonline.info/the-40m-insider-heist-son-of-federal-contractor-investigated-for-seized-crypto-theft/",
+        "published": "Thu, 29 Jan 2026 00:00:16 +0000"
     }
 ]
