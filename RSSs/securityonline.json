@@ -28458,5 +28458,15 @@
         "title": "CVE-2026-24765: PHPUnit Vulnerability Exposes CI/CD Pipelines to RCE",
         "link": "https://securityonline.info/cve-2026-24765-phpunit-vulnerability-exposes-ci-cd-pipelines-to-rce/",
         "published": "Thu, 29 Jan 2026 02:48:35 +0000"
+    },
+    {
+        "title": "Locking Down the Chat: WhatsApp Debuts “Strict Mode” to Combat Pegasus Spyware",
+        "link": "https://securityonline.info/locking-down-the-chat-whatsapp-debuts-strict-mode-to-combat-pegasus-spyware/",
+        "published": "Thu, 29 Jan 2026 07:49:26 +0000"
+    },
+    {
+        "title": "The End of Manual Syntax? LinkedIn Adds Verified “Vibe Coding” Skills",
+        "link": "https://securityonline.info/the-end-of-manual-syntax-linkedin-adds-verified-vibe-coding-skills/",
+        "published": "Thu, 29 Jan 2026 07:43:41 +0000"
     }
 ]
