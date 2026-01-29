@@ -123,5 +123,10 @@
         "title": "Red Team vs Blue Team vs Purple Team",
         "link": "https://www.picussecurity.com/resource/blog/red-team-vs-blue-team-vs-purple-team",
         "published": "Wed, 28 Jan 2026 11:16:24 GMT"
+    },
+    {
+        "title": "How NetSupport RAT Abuses Legitimate Remote Admin Tool",
+        "link": "https://www.picussecurity.com/resource/blog/how-netsupport-rat-abuses-legitimate-remote-admin-tool",
+        "published": "Thu, 29 Jan 2026 07:00:00 GMT"
     }
 ]
