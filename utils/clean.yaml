@@ -2751,3 +2751,4 @@ clean_list:
 - CVE-2026-24423
 - cve-2025-59886
 - CVE-2025-66850
+- auth-bypass-CVE-2025-40554
