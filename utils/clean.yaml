@@ -2755,3 +2755,5 @@ clean_list:
 - CVE-2026-1457-TP-Link-VIGI-C385-Authenticated-Remote-Code-Execution
 - -CTT-NSP-Convergent-Time-Theory---Network-Stack-Projection-CVE-2026-24858-
 - CVE-2026-24858-FortiCloud-SSO-Authentication-Bypass
+- CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition
+- CVE-2026-1457
