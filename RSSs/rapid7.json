@@ -168,5 +168,10 @@
         "title": "Critical Ivanti Endpoint Manager Mobile (EPMM) zero-day exploited in the wild (CVE-2026-1281 & CVE-2026-1340)",
         "link": "https://www.rapid7.com/blog/post/etr-critical-ivanti-endpoint-manager-mobile-epmm-zero-day-exploited-in-the-wild-eitw-cve-2026-1281-1340",
         "published": "Fri, 30 Jan 2026 16:14:40 GMT"
+    },
+    {
+        "title": "Metasploit Wrap-Up 01/30/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-30-2026",
+        "published": "Fri, 30 Jan 2026 21:11:27 GMT"
     }
 ]
