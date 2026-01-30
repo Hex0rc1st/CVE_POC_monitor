@@ -163,5 +163,10 @@
         "title": "Patch Tuesday and the Enduring Challenge of Windows’ Backwards Compatibility",
         "link": "https://www.rapid7.com/blog/post/ve-patch-tuesday-windows-backwards-compatibility-challenge",
         "published": "Wed, 28 Jan 2026 17:04:41 GMT"
+    },
+    {
+        "title": "Critical Ivanti Endpoint Manager Mobile (EPMM) zero-day exploited in the wild (CVE-2026-1281 & CVE-2026-1340)",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-ivanti-endpoint-manager-mobile-epmm-zero-day-exploited-in-the-wild-eitw-cve-2026-1281-1340",
+        "published": "Fri, 30 Jan 2026 16:14:40 GMT"
     }
 ]
