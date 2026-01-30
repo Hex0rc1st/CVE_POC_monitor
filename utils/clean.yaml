@@ -2757,3 +2757,4 @@ clean_list:
 - CVE-2026-24858-FortiCloud-SSO-Authentication-Bypass
 - CTT-Kernel-Resonance-io_uring-Temporal-Phase-Transition
 - CVE-2026-1457
+- CVE-2026-21440-POC-EXP
