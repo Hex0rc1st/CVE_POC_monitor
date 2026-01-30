@@ -28498,5 +28498,60 @@
         "title": "The Digital Sanctuary: Apple’s 10 Essential Privacy Rules for 2026",
         "link": "https://securityonline.info/the-digital-sanctuary-apples-10-essential-privacy-rules-for-2026/",
         "published": "Thu, 29 Jan 2026 07:53:54 +0000"
+    },
+    {
+        "title": "“Update” to Nightmare: eScan Antivirus Hacked to Distribute Malware",
+        "link": "https://securityonline.info/update-to-nightmare-escan-antivirus-hacked-to-distribute-malware/",
+        "published": "Fri, 30 Jan 2026 02:15:55 +0000"
+    },
+    {
+        "title": "Smart Buildings at Risk: Critical Johnson Controls Flaw (CVSS 10) Allows Remote SQL Injection",
+        "link": "https://securityonline.info/smart-buildings-at-risk-critical-johnson-controls-flaw-cvss-10-allows-remote-sql-injection/",
+        "published": "Fri, 30 Jan 2026 01:59:19 +0000"
+    },
+    {
+        "title": "Exploited in the Wild: Critical Ivanti EPMM RCE Flaws (CVSS 9.8) Under Attack",
+        "link": "https://securityonline.info/exploited-in-the-wild-critical-ivanti-epmm-rce-flaws-cvss-9-8-under-attack/",
+        "published": "Fri, 30 Jan 2026 01:52:21 +0000"
+    },
+    {
+        "title": "Cluster Admin for All: Critical Kyverno Flaw (CVSS 10) Shatters Isolation",
+        "link": "https://securityonline.info/cluster-admin-for-all-critical-kyverno-flaw-cvss-10-shatters-isolation/",
+        "published": "Fri, 30 Jan 2026 00:27:09 +0000"
+    },
+    {
+        "title": "“SessionReaper” Harvests Roots: Mass Exploitation Campaign Hits Over 200 Magento Sites",
+        "link": "https://securityonline.info/sessionreaper-harvests-roots-mass-exploitation-campaign-hits-over-200-magento-sites/",
+        "published": "Fri, 30 Jan 2026 00:21:14 +0000"
+    },
+    {
+        "title": "Scam Alert: “Amazon Ads Blocker” Extension Hijacks Creator Commissions",
+        "link": "https://securityonline.info/scam-alert-amazon-ads-blocker-extension-hijacks-creator-commissions/",
+        "published": "Fri, 30 Jan 2026 00:16:51 +0000"
+    },
+    {
+        "title": "Guest-to-Host Escape: NVIDIA Patches Critical vGPU & Driver Flaws",
+        "link": "https://securityonline.info/guest-to-host-escape-nvidia-patches-critical-vgpu-driver-flaws/",
+        "published": "Fri, 30 Jan 2026 00:13:10 +0000"
+    },
+    {
+        "title": "The “WorkMail Pivot”: Hackers Abuse AWS WorkMail to Bypass SES Sandbox",
+        "link": "https://securityonline.info/the-workmail-pivot-hackers-abuse-aws-workmail-to-bypass-ses-sandbox/",
+        "published": "Fri, 30 Jan 2026 00:09:28 +0000"
+    },
+    {
+        "title": "The Great Recalibration: Amazon Cuts 16,000 More Roles in Massive Shift to AI-First Future",
+        "link": "https://securityonline.info/the-great-recalibration-amazon-cuts-16000-more-roles-in-massive-shift-to-ai-first-future/",
+        "published": "Fri, 30 Jan 2026 00:06:37 +0000"
+    },
+    {
+        "title": "The AI Squeeze: NVIDIA Overtakes Apple as TSMC’s Top Revenue Source",
+        "link": "https://securityonline.info/the-ai-squeeze-nvidia-overtakes-apple-as-tsmcs-top-revenue-source/",
+        "published": "Fri, 30 Jan 2026 00:03:27 +0000"
+    },
+    {
+        "title": "The Fake Region Block: YouTube’s Cryptic New War on Ad-Blockers",
+        "link": "https://securityonline.info/the-fake-region-block-youtubes-cryptic-new-war-on-ad-blockers/",
+        "published": "Fri, 30 Jan 2026 00:00:05 +0000"
     }
 ]
