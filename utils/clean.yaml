@@ -2763,3 +2763,4 @@ clean_list:
 - Terrminus-CVE-2026-2406
 - CTT-Sovereign-Vortex
 - CTT-Refraction-Vortex-CVE-2026-7731-
+- telnet-inetutils-auth-bypass-CVE-2026-24061
