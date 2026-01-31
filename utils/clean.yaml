@@ -2766,3 +2766,5 @@ clean_list:
 - telnet-inetutils-auth-bypass-CVE-2026-24061
 - CVE-2026-24841_Range
 - CTT-NFS-Vortex-RCE
+- SCTT-2026-33-0002-DWM-Visual-Field-Singularity
+- -SCTT-2026-33-0002-DWM-Visual-Field-Singularity
