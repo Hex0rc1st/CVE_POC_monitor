@@ -2765,3 +2765,4 @@ clean_list:
 - CTT-Refraction-Vortex-CVE-2026-7731-
 - telnet-inetutils-auth-bypass-CVE-2026-24061
 - CVE-2026-24841_Range
+- CTT-NFS-Vortex-RCE
