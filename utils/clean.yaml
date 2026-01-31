@@ -2772,3 +2772,4 @@ clean_list:
 - CVE-2025-40554
 - SCTT-2026-33-0004-FortiCloud-SSO-Identity-Singularity
 - SCTT-2026-33-0007-The-OLE-Vortex-Laminar-Bypass-
+- CVE-2026-22807_Range
