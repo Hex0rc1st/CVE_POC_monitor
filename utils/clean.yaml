@@ -2768,3 +2768,5 @@ clean_list:
 - CTT-NFS-Vortex-RCE
 - SCTT-2026-33-0002-DWM-Visual-Field-Singularity
 - -SCTT-2026-33-0002-DWM-Visual-Field-Singularity
+- CVE-2026-25126
+- CVE-2025-40554
