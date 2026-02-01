@@ -25,3 +25,4 @@ https://github.com/Lingzesec/CVE-2026-24061-GUI
 https://github.com/bjrjk/CVE-2025-5419
 https://github.com/ch4r0nn/CVE-2026-1056-POC
 https://github.com/predyy/CVE-2025-2304
+https://github.com/bjrjk/CVE-2025-43529
