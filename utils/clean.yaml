@@ -2776,3 +2776,4 @@ clean_list:
 - Dissecting-CVE-2026-0628-Chromium-Extension-Privilege-Escalation
 - CVE-2025-2304
 - CVE-2024-46987
+- CVE-2025-2304_POC
