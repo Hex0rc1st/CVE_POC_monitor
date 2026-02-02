@@ -28563,5 +28563,50 @@
         "title": "VPNs & Fake Updates: Google Dismantles Massive IPIDEA Proxy Network",
         "link": "https://securityonline.info/vpns-fake-updates-google-dismantles-massive-ipidea-proxy-network/",
         "published": "Sat, 31 Jan 2026 00:32:16 +0000"
+    },
+    {
+        "title": "IIS Under Siege: UAT-8099 Deploys Region-Locked “BadIIS” & Linux Variants",
+        "link": "https://securityonline.info/iis-under-siege-uat-8099-deploys-region-locked-badiis-linux-variants/",
+        "published": "Mon, 02 Feb 2026 00:46:23 +0000"
+    },
+    {
+        "title": "The “Fix” is a Trap: ConsentFix Phishing Bypasses MFA via Azure CLI",
+        "link": "https://securityonline.info/the-fix-is-a-trap-consentfix-phishing-bypasses-mfa-via-azure-cli/",
+        "published": "Mon, 02 Feb 2026 00:42:43 +0000"
+    },
+    {
+        "title": "Signed & Stolen: “Phantom Stealer” Hijacks Java App via Fake DHL Invoice",
+        "link": "https://securityonline.info/signed-stolen-phantom-stealer-hijacks-java-app-via-fake-dhl-invoice/",
+        "published": "Mon, 02 Feb 2026 00:36:35 +0000"
+    },
+    {
+        "title": "New Offensive OT Framework Targeting Energy Infrastructure Emerges on Dark Web",
+        "link": "https://securityonline.info/new-offensive-ot-framework-targeting-energy-infrastructure-emerges-on-dark-web/",
+        "published": "Mon, 02 Feb 2026 00:32:12 +0000"
+    },
+    {
+        "title": "Silent Intruder: “EncystPHP” Web Shell Burrows into FreePBX Systems",
+        "link": "https://securityonline.info/silent-intruder-encystphp-web-shell-burrows-into-freepbx-systems/",
+        "published": "Mon, 02 Feb 2026 00:27:28 +0000"
+    },
+    {
+        "title": "“Exfil Out&Look” Flaw Lets Spies Steal Emails via OWA Undetected",
+        "link": "https://securityonline.info/exfil-outlook-flaw-lets-spies-steal-emails-via-owa-undetected/",
+        "published": "Mon, 02 Feb 2026 00:21:18 +0000"
+    },
+    {
+        "title": "Hidden in Plain Sight: TA584 Deploys “Tsundere Bot” & Invisible Registry Keys",
+        "link": "https://securityonline.info/hidden-in-plain-sight-ta584-deploys-tsundere-bot-invisible-registry-keys/",
+        "published": "Mon, 02 Feb 2026 00:11:45 +0000"
+    },
+    {
+        "title": "Wrapped in Stealth: Python RAT Hides Inside ELF Binary to Evade Detection",
+        "link": "https://securityonline.info/wrapped-in-stealth-python-rat-hides-inside-elf-binary-to-evade-detection/",
+        "published": "Mon, 02 Feb 2026 00:05:00 +0000"
+    },
+    {
+        "title": "AI-Coded Malware: Vietnamese “Huna” Actor Targets Job Seekers with PureRAT",
+        "link": "https://securityonline.info/ai-coded-malware-vietnamese-huna-actor-targets-job-seekers-with-purerat/",
+        "published": "Mon, 02 Feb 2026 00:00:55 +0000"
     }
 ]
