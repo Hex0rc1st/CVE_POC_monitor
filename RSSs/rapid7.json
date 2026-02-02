@@ -173,5 +173,10 @@
         "title": "Metasploit Wrap-Up 01/30/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-01-30-2026",
         "published": "Fri, 30 Jan 2026 21:11:27 GMT"
+    },
+    {
+        "title": "The Chrysalis Backdoor: A Deep Dive into Lotus Blossom’s toolkit",
+        "link": "https://www.rapid7.com/blog/post/tr-chrysalis-backdoor-dive-into-lotus-blossoms-toolkit",
+        "published": "Mon, 02 Feb 2026 15:49:06 GMT"
     }
 ]
