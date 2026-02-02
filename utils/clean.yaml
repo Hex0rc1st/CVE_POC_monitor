@@ -2784,3 +2784,4 @@ clean_list:
 - CVE-2025-32433-available-for-windows
 - cve-2025-58360
 - CVE_2026_24061_PoC
+- CVE-2025-22381
