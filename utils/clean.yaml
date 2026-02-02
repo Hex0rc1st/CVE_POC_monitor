@@ -2783,3 +2783,4 @@ clean_list:
 - tech-seminar-React2Shell
 - CVE-2025-32433-available-for-windows
 - cve-2025-58360
+- CVE_2026_24061_PoC
