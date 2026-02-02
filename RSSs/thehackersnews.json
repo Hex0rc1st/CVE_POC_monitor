@@ -883,5 +883,10 @@
         "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
         "link": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
         "published": "Mon, 02 Feb 2026 21:29:00 +0530"
+    },
+    {
+        "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+        "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+        "published": "Mon, 02 Feb 2026 21:58:00 +0530"
     }
 ]
