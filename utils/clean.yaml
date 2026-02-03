@@ -2787,3 +2787,4 @@ clean_list:
 - CVE-2025-22381
 - CVE-2025-54236_PoC
 - CVE-2025-70311-JEEWMS
+- LiberationPlay-CVE-2025-24132-AirBourne-Crash-POC

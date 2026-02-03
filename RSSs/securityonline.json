@@ -28678,5 +28678,65 @@
         "title": "Identity at Risk: Apache Syncope Patches Critical Login XSS & XXE Flaws",
         "link": "https://securityonline.info/identity-at-risk-apache-syncope-patches-critical-login-xss-xxe-flaws/",
         "published": "Tue, 03 Feb 2026 01:41:41 +0000"
+    },
+    {
+        "title": "The Final Countdown: OpenAI to Retire GPT-4o—But There’s a Catch for Enterprise Users",
+        "link": "https://securityonline.info/the-final-countdown-openai-to-retire-gpt-4o-but-theres-a-catch-for-enterprise-users/",
+        "published": "Tue, 03 Feb 2026 04:33:33 +0000"
+    },
+    {
+        "title": "PC-Powered Android: Google’s “Aluminium OS” Leaks Reveal a New Rival for Windows",
+        "link": "https://securityonline.info/pc-powered-android-googles-aluminium-os-leaks-reveal-a-new-rival-for-windows/",
+        "published": "Tue, 03 Feb 2026 04:29:32 +0000"
+    },
+    {
+        "title": "Root via Telnet: Why You Must Patch Your Synology NAS Against This Decade-Old Ghost",
+        "link": "https://securityonline.info/root-via-telnet-why-you-must-patch-your-synology-nas-against-this-decade-old-ghost/",
+        "published": "Tue, 03 Feb 2026 04:26:44 +0000"
+    },
+    {
+        "title": "The “Unstoppable” PC: Why Microsoft’s Latest Security Update is Refusing to Let Windows 10 Die",
+        "link": "https://securityonline.info/the-unstoppable-pc-why-microsofts-latest-security-update-is-refusing-to-let-windows-10-die/",
+        "published": "Tue, 03 Feb 2026 04:23:17 +0000"
+    },
+    {
+        "title": "The “Vibe Coding” Disaster: How a Simple Bug Exposed 4.75 Million Records on the AI Social Network Moltbook",
+        "link": "https://securityonline.info/the-vibe-coding-disaster-how-a-simple-bug-exposed-4-75-million-records-on-the-ai-social-network-moltbook/",
+        "published": "Tue, 03 Feb 2026 04:18:26 +0000"
+    },
+    {
+        "title": "The “Unbreakable” Seal Broken: Microsoft Finally Ends the Forced Reinstall for Smart App Control",
+        "link": "https://securityonline.info/the-unbreakable-seal-broken-microsoft-finally-ends-the-forced-reinstall-for-smart-app-control/",
+        "published": "Tue, 03 Feb 2026 04:13:21 +0000"
+    },
+    {
+        "title": "Admins Only: Microsoft’s New Windows 11 Update Quietly Locks Down Storage Settings",
+        "link": "https://securityonline.info/admins-only-microsofts-new-windows-11-update-quietly-locks-down-storage-settings/",
+        "published": "Tue, 03 Feb 2026 04:07:25 +0000"
+    },
+    {
+        "title": "The “Go Client” Trap: Why Your RustDesk ID is Currently Under Automated Botnet Siege",
+        "link": "https://securityonline.info/the-go-client-trap-why-your-rustdesk-id-is-currently-under-automated-botnet-siege/",
+        "published": "Tue, 03 Feb 2026 04:03:24 +0000"
+    },
+    {
+        "title": "2nm Power Shift: Samsung’s Exynos 2600 Rivals Snapdragon in New Galaxy S26 Leaks",
+        "link": "https://securityonline.info/2nm-power-shift-samsungs-exynos-2600-rivals-snapdragon-in-new-galaxy-s26-leaks/",
+        "published": "Tue, 03 Feb 2026 03:52:33 +0000"
+    },
+    {
+        "title": "Grid Sabotage: “Static Tundra” Hits Poland’s Energy Sector with DynoWiper",
+        "link": "https://securityonline.info/grid-sabotage-static-tundra-hits-polands-energy-sector-with-dynowiper/",
+        "published": "Tue, 03 Feb 2026 03:47:22 +0000"
+    },
+    {
+        "title": "ASUS Kills “File Shredder” Feature to Fix Critical Flaw",
+        "link": "https://securityonline.info/asus-kills-file-shredder-feature-to-fix-critical-flaw/",
+        "published": "Tue, 03 Feb 2026 03:21:46 +0000"
+    },
+    {
+        "title": "Trojan AI: OpenClaw “Skills” Marketplace Flooded with Malware",
+        "link": "https://securityonline.info/trojan-ai-openclaw-skills-marketplace-flooded-with-malware/",
+        "published": "Tue, 03 Feb 2026 02:56:12 +0000"
     }
 ]
