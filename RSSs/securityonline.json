@@ -28738,5 +28738,10 @@
         "title": "Trojan AI: OpenClaw “Skills” Marketplace Flooded with Malware",
         "link": "https://securityonline.info/trojan-ai-openclaw-skills-marketplace-flooded-with-malware/",
         "published": "Tue, 03 Feb 2026 02:56:12 +0000"
+    },
+    {
+        "title": "Gatekeeper Breached: 4 Critical Ingress-Nginx Flaws Risk Cluster Secrets",
+        "link": "https://securityonline.info/gatekeeper-breached-4-critical-ingress-nginx-flaws-risk-cluster-secrets/",
+        "published": "Tue, 03 Feb 2026 10:13:55 +0000"
     }
 ]
