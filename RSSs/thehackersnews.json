@@ -923,5 +923,10 @@
         "title": "Hackers Exploit Metro4Shell RCE Flaw in React Native CLI npm Package",
         "link": "https://thehackernews.com/2026/02/hackers-exploit-metro4shell-rce-flaw-in.html",
         "published": "Tue, 03 Feb 2026 19:30:00 +0530"
+    },
+    {
+        "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
+        "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
+        "published": "Tue, 03 Feb 2026 22:11:00 +0530"
     }
 ]
