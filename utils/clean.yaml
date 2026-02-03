@@ -2792,3 +2792,5 @@ clean_list:
 - CVE-2025-65791
 - vulncheck_CVE-2024-50602
 - moxxic1.github.io
+- OAuth2-Proxy-Path-Traversal-Exploit-Tool
+- CVE-2024-28397-Js2Py-RCE-Exploit

@@ -903,5 +903,10 @@
         "title": "Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox",
         "link": "https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html",
         "published": "Tue, 03 Feb 2026 11:09:00 +0530"
+    },
+    {
+        "title": "APT28 Uses Microsoft Office CVE-2026-21509 in Espionage-Focused Malware Attacks",
+        "link": "https://thehackernews.com/2026/02/apt28-uses-microsoft-office-cve-2026.html",
+        "published": "Tue, 03 Feb 2026 14:42:00 +0530"
     }
 ]
