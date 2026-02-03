@@ -2795,3 +2795,4 @@ clean_list:
 - OAuth2-Proxy-Path-Traversal-Exploit-Tool
 - CVE-2024-28397-Js2Py-RCE-Exploit
 - CVE-2025-70849-Podinfo
+- Exploit-LPE-CVE-2026-21721

@@ -138,5 +138,10 @@
         "title": "MITRE ATT&CK T1078 Valid Accounts Explained",
         "link": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
         "published": "Tue, 03 Feb 2026 07:00:00 GMT"
+    },
+    {
+        "title": "Is Babuk Back? Uncovering the Truth Behind Babuk Locker 2.0",
+        "link": "https://www.picussecurity.com/resource/blog/is-babuk-back-babuk-locker-2-0-analysis",
+        "published": "Tue, 03 Feb 2026 11:55:58 GMT"
     }
 ]
