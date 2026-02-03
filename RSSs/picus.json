@@ -133,5 +133,10 @@
         "title": "What Is Adversarial Exposure Validation?",
         "link": "https://www.picussecurity.com/resource/blog/what-is-adversarial-exposure-validation",
         "published": "Mon, 02 Feb 2026 06:45:50 GMT"
+    },
+    {
+        "title": "MITRE ATT&CK T1078 Valid Accounts Explained",
+        "link": "https://www.picussecurity.com/resource/blog/mitre-attck-t1078-valid-accounts-explained",
+        "published": "Tue, 03 Feb 2026 07:00:00 GMT"
     }
 ]
