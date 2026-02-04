@@ -2801,3 +2801,5 @@ clean_list:
 - 0xKern3lCrush-Foreverday-BYOVD-CVE-2026-0828
 - CVE-2024-5243-pwn2own-toronto-2023
 - CVE-2026-25512
+- CVE-2025-47445-PoC
+- detect_CVE-2026-21509
