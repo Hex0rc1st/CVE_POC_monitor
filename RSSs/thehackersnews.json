@@ -928,5 +928,15 @@
         "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
         "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
         "published": "Tue, 03 Feb 2026 22:11:00 +0530"
+    },
+    {
+        "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
+        "link": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
+        "published": "Wed, 04 Feb 2026 11:56:00 +0530"
+    },
+    {
+        "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
+        "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
+        "published": "Wed, 04 Feb 2026 11:20:00 +0530"
     }
 ]
