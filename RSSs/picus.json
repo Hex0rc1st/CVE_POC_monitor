@@ -143,5 +143,10 @@
         "title": "Is Babuk Back? Uncovering the Truth Behind Babuk Locker 2.0",
         "link": "https://www.picussecurity.com/resource/blog/is-babuk-back-babuk-locker-2-0-analysis",
         "published": "Tue, 03 Feb 2026 11:55:58 GMT"
+    },
+    {
+        "title": "CVE-2026-21509: APT28 Exploits Microsoft Office Zero-day Vulnerability",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-21509-apt28-exploits-microsoft-office-zero-day-vulnerability",
+        "published": "Wed, 04 Feb 2026 08:49:09 GMT"
     }
 ]

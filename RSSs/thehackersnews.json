@@ -938,5 +938,10 @@
         "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
         "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
         "published": "Wed, 04 Feb 2026 11:20:00 +0530"
+    },
+    {
+        "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+        "link": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
+        "published": "Wed, 04 Feb 2026 13:12:00 +0530"
     }
 ]
