@@ -28743,5 +28743,80 @@
         "title": "Gatekeeper Breached: 4 Critical Ingress-Nginx Flaws Risk Cluster Secrets",
         "link": "https://securityonline.info/gatekeeper-breached-4-critical-ingress-nginx-flaws-risk-cluster-secrets/",
         "published": "Tue, 03 Feb 2026 10:13:55 +0000"
+    },
+    {
+        "title": "Silent Intrusion: “Metro4Shell” Exploited in the Wild Since December",
+        "link": "https://securityonline.info/silent-intrusion-metro4shell-exploited-in-the-wild-since-december/",
+        "published": "Wed, 04 Feb 2026 02:27:37 +0000"
+    },
+    {
+        "title": "Urgent Django Update: Patches 3 Critical SQL Injections & DoS Risks",
+        "link": "https://securityonline.info/urgent-django-update-patches-3-critical-sql-injections-dos-risks/",
+        "published": "Wed, 04 Feb 2026 02:19:21 +0000"
+    },
+    {
+        "title": "React Under Siege: Two IPs Drive 56% of Critical CVE-2025-55182 Attacks",
+        "link": "https://securityonline.info/react-under-siege-two-ips-drive-56-of-critical-cve-2025-55182-attacks/",
+        "published": "Wed, 04 Feb 2026 02:12:30 +0000"
+    },
+    {
+        "title": "Chrome 144 Security Alert: V8 & Libvpx Flaws Expose Systems to Hacks",
+        "link": "https://securityonline.info/chrome-144-security-alert-v8-libvpx-flaws-expose-systems-to-hacks/",
+        "published": "Wed, 04 Feb 2026 02:05:22 +0000"
+    },
+    {
+        "title": "Rooted via Wi-Fi 7: TP-Link Patches Command Injection in Archer BE230",
+        "link": "https://securityonline.info/rooted-via-wi-fi-7-tp-link-patches-command-injection-in-archer-be230/",
+        "published": "Wed, 04 Feb 2026 00:50:11 +0000"
+    },
+    {
+        "title": "CVE-2026-24936: Critical ASUSTOR Flaw (CVSS 9.5) Allows Remote System Takeover",
+        "link": "https://securityonline.info/cve-2026-24936-critical-asustor-flaw-cvss-9-5-allows-remote-system-takeover/",
+        "published": "Wed, 04 Feb 2026 00:45:21 +0000"
+    },
+    {
+        "title": "“IT Support” Imposters: ShinyHunters Vishing Rings Bypass MFA to Steal Data",
+        "link": "https://securityonline.info/it-support-imposters-shinyhunters-vishing-rings-bypass-mfa-to-steal-data/",
+        "published": "Wed, 04 Feb 2026 00:40:50 +0000"
+    },
+    {
+        "title": "Poisoned Comments: Critical Orval Flaw (CVE-2026-25141) Injects Code",
+        "link": "https://securityonline.info/poisoned-comments-critical-orval-flaw-cve-2026-25141-injects-code/",
+        "published": "Wed, 04 Feb 2026 00:36:11 +0000"
+    },
+    {
+        "title": "Digital Ghost: “PhantomVAI” Malware Revives Decade-Old RunPE Tricks",
+        "link": "https://securityonline.info/digital-ghost-phantomvai-malware-revives-decade-old-runpe-tricks/",
+        "published": "Wed, 04 Feb 2026 00:31:03 +0000"
+    },
+    {
+        "title": "Silent Leak: High-Severity Rancher CLI Flaw Exposes Admin Credentials",
+        "link": "https://securityonline.info/silent-leak-high-severity-rancher-cli-flaw-exposes-admin-credentials/",
+        "published": "Wed, 04 Feb 2026 00:27:53 +0000"
+    },
+    {
+        "title": "Invisible Intruder: “ShadowHS” Malware Weaponizes Hackshell on Linux",
+        "link": "https://securityonline.info/invisible-intruder-shadowhs-malware-weaponizes-hackshell-on-linux/",
+        "published": "Wed, 04 Feb 2026 00:22:02 +0000"
+    },
+    {
+        "title": "TAMECAT Exposed: APT42’s Fileless Backdoor Targets Defense Chiefs",
+        "link": "https://securityonline.info/tamecat-exposed-apt42s-fileless-backdoor-targets-defense-chiefs/",
+        "published": "Wed, 04 Feb 2026 00:17:59 +0000"
+    },
+    {
+        "title": "AI Hub Hijacked: Polymorphic Android RAT Abuses Hugging Face to Steal Data",
+        "link": "https://securityonline.info/ai-hub-hijacked-polymorphic-android-rat-abuses-hugging-face-to-steal-data/",
+        "published": "Wed, 04 Feb 2026 00:11:27 +0000"
+    },
+    {
+        "title": "CVE-2026-25137: Critical Odoo on NixOS Flaw Exposes Databases",
+        "link": "https://securityonline.info/cve-2026-25137-critical-odoo-on-nixos-flaw-exposes-databases/",
+        "published": "Wed, 04 Feb 2026 00:05:20 +0000"
+    },
+    {
+        "title": "Game Over: Interlock Ransomware Weaponizes Anti-Cheat Zero-Day to Kill EDR",
+        "link": "https://securityonline.info/game-over-interlock-ransomware-weaponizes-anti-cheat-zero-day-to-kill-edr/",
+        "published": "Wed, 04 Feb 2026 00:01:38 +0000"
     }
 ]
