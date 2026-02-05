@@ -973,5 +973,10 @@
         "title": "Hackers Exploit React2Shell to Hijack Web Traffic via Compromised NGINX Servers",
         "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
         "published": "Thu, 05 Feb 2026 10:26:00 +0530"
+    },
+    {
+        "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+        "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+        "published": "Thu, 05 Feb 2026 11:46:00 +0530"
     }
 ]

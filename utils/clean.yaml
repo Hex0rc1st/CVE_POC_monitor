@@ -2804,3 +2804,4 @@ clean_list:
 - CVE-2025-47445-PoC
 - detect_CVE-2026-21509
 - wheelaudit
+- CVE-2026-1953-Disclosure
