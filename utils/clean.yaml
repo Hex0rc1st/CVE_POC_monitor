@@ -2803,3 +2803,4 @@ clean_list:
 - CVE-2026-25512
 - CVE-2025-47445-PoC
 - detect_CVE-2026-21509
+- wheelaudit

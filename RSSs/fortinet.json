@@ -963,5 +963,225 @@
         "title": "ZTNA Server Improper Certificate Validation",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-24-457",
         "published": "Tue, 14 Oct 2025 00:00:00 -0700"
+    },
+    {
+        "title": "OpenSSL CVE-2025-15467",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-076",
+        "published": "Fri, 30 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Administrative FortiCloud SSO authentication bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-060",
+        "published": "Tue, 27 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Heap-based buffer overflow in cw_acd daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-084",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Arbitrary file deletion in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-778",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Authenticated SQL injection in API endpoint",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-735",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "SSRF in GUI console",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-783",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Unauthenticated access to local configuration",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-260",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Unauthenticated remote command injection",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-772",
+        "published": "Tue, 13 Jan 2026 00:00:00 -0800"
+    },
+    {
+        "title": "`Host` header injection",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-23-494",
+        "published": "Tue, 14 Jan 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Private key readable by admin",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-24-133",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Broken access control on API endpoints",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-601",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Capacity to forge authentication cookies",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-945",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Capacity to use password hashes instead of password for authentication",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-984",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Current password requirement bypass for self password change",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-599",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Incorrect authorization in multi-vdom environment",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-032",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Insertion of sensitive information into REST API logs",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-24-268",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Insufficient Session Expiration in SSLVPN",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-411",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Missing authorization on log access",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-554",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Multiple Fortinet Products' FortiCloud SSO Login Authentication Bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-647",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Multiple authenticated OS Command Injections via API",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-739",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Multiple authenticated SQL injection via extraParam",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-362",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "OS command injection in GUI backup options",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-454",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "OS command injection in multiple endpoints",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-479",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Path traversal vulnerability in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-812",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Read-only admin could obtain admin configuration secrets",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-616",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Reflected XSS in HA cluster",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-477",
+        "published": "Tue, 09 Dec 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Stack buffer overflow in CAPWAP daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-632",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Stack buffer overflow in CAPWAP daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-358",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Arbitrary memory write via FortIPS driver",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-112",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Authenticated CLI Commands Buffer Overflow",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-251",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Buffer Overflow via fortips driver",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-125",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "CRLF Header Injection in webmail user GUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-634",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Cleartext credentials in diagnose output",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-789",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Credential leakage through debug commands",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-259",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "File scan result bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-24-501",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Information disclosure through debug features",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-844",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Invocation of Process Using Visible Sensitive Information in FortiADC",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-686",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Multiple OS command injection in API and CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-513",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Out-of-bounds write in multiple endpoints",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-225",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "SQL injections in voice and administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-666",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Trusted hosts bypass via SSH",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-545",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Use of hardcoded password for the redis service",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-843",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "XSS in default error page",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-736",
+        "published": "Tue, 18 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "Path confusion vulnerability in GUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-910",
+        "published": "Fri, 14 Nov 2025 00:00:00 -0800"
     }
 ]
