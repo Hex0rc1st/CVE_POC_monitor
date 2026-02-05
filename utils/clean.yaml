@@ -2805,3 +2805,5 @@ clean_list:
 - detect_CVE-2026-21509
 - wheelaudit
 - CVE-2026-1953-Disclosure
+- openclaw-security-monitor
+- Exploit-for-CVE-2024-46987
