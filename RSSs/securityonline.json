@@ -28853,5 +28853,65 @@
         "title": "MomentProof Deploys Patented Digital Asset Protection",
         "link": "https://securityonline.info/momentproof-deploys-patented-digital-asset-protection/",
         "published": "Wed, 04 Feb 2026 13:00:46 +0000"
+    },
+    {
+        "title": "10 Days to Exploit: Amaranth-Dragon Weaponizes WinRAR Flaw to Spy on SE Asia",
+        "link": "https://securityonline.info/10-days-to-exploit-amaranth-dragon-weaponizes-winrar-flaw-to-spy-on-se-asia/",
+        "published": "Thu, 05 Feb 2026 02:36:20 +0000"
+    },
+    {
+        "title": "Toxic Invites & Root Access: Cisco Patches Critical Meeting Flaws",
+        "link": "https://securityonline.info/toxic-invites-root-access-cisco-patches-critical-meeting-flaws/",
+        "published": "Thu, 05 Feb 2026 02:07:23 +0000"
+    },
+    {
+        "title": "CVE-2026-24735: Apache Answer Flaw Leaks Private Post History",
+        "link": "https://securityonline.info/cve-2026-24735-apache-answer-flaw-leaks-private-post-history/",
+        "published": "Thu, 05 Feb 2026 01:53:21 +0000"
+    },
+    {
+        "title": "WatchGuard Patches VPN PrivEsc & Firebox LDAP Injection",
+        "link": "https://securityonline.info/watchguard-patches-vpn-privesc-firebox-ldap-injection/",
+        "published": "Thu, 05 Feb 2026 00:40:55 +0000"
+    },
+    {
+        "title": "Video of Death: Critical vLLM Flaw (CVSS 9.8) Grants Remote Code Execution",
+        "link": "https://securityonline.info/video-of-death-critical-vllm-flaw-cvss-9-8-grants-remote-code-execution/",
+        "published": "Thu, 05 Feb 2026 00:37:00 +0000"
+    },
+    {
+        "title": "Supply Chain Poison: Lotus Blossom Hits Notepad++ to Deploy “Chrysalis”",
+        "link": "https://securityonline.info/supply-chain-poison-lotus-blossom-hits-notepad-to-deploy-chrysalis/",
+        "published": "Thu, 05 Feb 2026 00:32:43 +0000"
+    },
+    {
+        "title": "CISA Warns of Unpatched Avation & RISS Critical Flaws",
+        "link": "https://securityonline.info/cisa-warns-of-unpatched-avation-riss-critical-flaws/",
+        "published": "Thu, 05 Feb 2026 00:27:19 +0000"
+    },
+    {
+        "title": "“Can You Hear Me?” BlueNoroff Hackers Use Fake Audio Glitch to Breach macOS",
+        "link": "https://securityonline.info/can-you-hear-me-bluenoroff-hackers-use-fake-audio-glitch-to-breach-macos/",
+        "published": "Thu, 05 Feb 2026 00:20:32 +0000"
+    },
+    {
+        "title": "Signage Hijack: Samsung MagicInfo9 Flaws (CVSS 9.8) Expose Servers",
+        "link": "https://securityonline.info/signage-hijack-samsung-magicinfo9-flaws-cvss-9-8-expose-servers/",
+        "published": "Thu, 05 Feb 2026 00:16:00 +0000"
+    },
+    {
+        "title": "Ghost Folders: “Directory Shadowing” Hack Hijacks WordPress SEO",
+        "link": "https://securityonline.info/ghost-folders-directory-shadowing-hack-hijacks-wordpress-seo/",
+        "published": "Thu, 05 Feb 2026 00:11:09 +0000"
+    },
+    {
+        "title": "Open VSX Hijacked: “GlassWorm” Malware Poisons VS Code Extensions",
+        "link": "https://securityonline.info/open-vsx-hijacked-glassworm-malware-poisons-vs-code-extensions/",
+        "published": "Thu, 05 Feb 2026 00:06:26 +0000"
+    },
+    {
+        "title": "Industrial Alert: Critical Auth Bypass (CVSS 9.2) Hits Moxa Switches",
+        "link": "https://securityonline.info/industrial-alert-critical-auth-bypass-cvss-9-2-hits-moxa-switches/",
+        "published": "Thu, 05 Feb 2026 00:01:04 +0000"
     }
 ]
