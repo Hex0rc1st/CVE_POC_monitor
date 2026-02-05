@@ -968,5 +968,10 @@
         "title": "DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files",
         "link": "https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html",
         "published": "Wed, 04 Feb 2026 22:54:00 +0530"
+    },
+    {
+        "title": "Hackers Exploit React2Shell to Hijack Web Traffic via Compromised NGINX Servers",
+        "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+        "published": "Thu, 05 Feb 2026 10:26:00 +0530"
     }
 ]
