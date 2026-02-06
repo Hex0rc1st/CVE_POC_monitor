@@ -1183,5 +1183,10 @@
         "title": "Path confusion vulnerability in GUI",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-910",
         "published": "Fri, 14 Nov 2025 00:00:00 -0800"
+    },
+    {
+        "title": "SQLi in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-1142",
+        "published": "Fri, 06 Feb 2026 00:00:00 -0800"
     }
 ]

@@ -2818,3 +2818,4 @@ clean_list:
 - openclaw-vuln-report
 - CVE-2026-21643-Exploit
 - CVE-2026-25731
+- CVE-2026-25828
