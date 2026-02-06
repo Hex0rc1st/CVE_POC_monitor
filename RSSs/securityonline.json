@@ -29023,5 +29023,10 @@
         "title": "CVE-2025-13375: Critical IBM Crypto Flaw (CVSS 9.8) Exposes HSMs",
         "link": "https://securityonline.info/cve-2025-13375-critical-ibm-crypto-flaw-cvss-9-8-exposes-hsms/",
         "published": "Fri, 06 Feb 2026 09:07:18 +0000"
+    },
+    {
+        "title": "CrashFix: New ClickFix Variant Deliberately Breaks Browsers to Deploy RAT",
+        "link": "https://securityonline.info/crashfix-new-clickfix-variant-deliberately-breaks-browsers-to-deploy-rat/",
+        "published": "Fri, 06 Feb 2026 10:29:41 +0000"
     }
 ]
