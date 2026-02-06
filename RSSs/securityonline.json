@@ -29018,5 +29018,10 @@
         "title": "Macs Under Siege: New Infostealers Spread via WhatsApp & Fake Apps",
         "link": "https://securityonline.info/macs-under-siege-new-infostealers-spread-via-whatsapp-fake-apps/",
         "published": "Fri, 06 Feb 2026 00:01:18 +0000"
+    },
+    {
+        "title": "CVE-2025-13375: Critical IBM Crypto Flaw (CVSS 9.8) Exposes HSMs",
+        "link": "https://securityonline.info/cve-2025-13375-critical-ibm-crypto-flaw-cvss-9-8-exposes-hsms/",
+        "published": "Fri, 06 Feb 2026 09:07:18 +0000"
     }
 ]

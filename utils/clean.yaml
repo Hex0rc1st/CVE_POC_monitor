@@ -2815,3 +2815,5 @@ clean_list:
 - CVE-2026-24061-GNU-inetutils-Telnet-Detector
 - CVE-2025-70886
 - aaa-agentxploit-example
+- openclaw-vuln-report
+- CVE-2026-21643-Exploit
