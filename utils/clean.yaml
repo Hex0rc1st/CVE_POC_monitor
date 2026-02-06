@@ -2817,3 +2817,4 @@ clean_list:
 - aaa-agentxploit-example
 - openclaw-vuln-report
 - CVE-2026-21643-Exploit
+- CVE-2026-25731
