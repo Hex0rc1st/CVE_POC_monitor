@@ -1003,5 +1003,10 @@
         "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
         "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
         "published": "Fri, 06 Feb 2026 11:19:00 +0530"
+    },
+    {
+        "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
+        "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
+        "published": "Fri, 06 Feb 2026 14:10:00 +0530"
     }
 ]
