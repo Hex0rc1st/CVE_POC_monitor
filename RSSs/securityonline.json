@@ -28953,5 +28953,70 @@
         "title": "High-Severity NGINX Flaw Lets Attackers Inject Malicious Data",
         "link": "https://securityonline.info/high-severity-nginx-flaw-lets-attackers-inject-malicious-data/",
         "published": "Thu, 05 Feb 2026 09:01:48 +0000"
+    },
+    {
+        "title": "The Gaming Winter: NVIDIA Pushes RTX 50 Super to 2027 as AI “Eats” the Global Memory Supply",
+        "link": "https://securityonline.info/the-gaming-winter-nvidia-pushes-rtx-50-super-to-2027-as-ai-eats-the-global-memory-supply/",
+        "published": "Fri, 06 Feb 2026 02:24:55 +0000"
+    },
+    {
+        "title": "Qualcomm’s Record $12.3B Quarter Overshadowed by a Global “RAMpocalypse” Threatening 2026 Growth",
+        "link": "https://securityonline.info/qualcomms-record-12-3b-quarter-overshadowed-by-a-global-rampocalypse-threatening-2026-growth/",
+        "published": "Fri, 06 Feb 2026 02:19:44 +0000"
+    },
+    {
+        "title": "The $400 Billion Giant: Google’s AI Counteroffensive Explodes as Gemini Hits 750M Users",
+        "link": "https://securityonline.info/the-400-billion-giant-googles-ai-counteroffensive-explodes-as-gemini-hits-750m-users/",
+        "published": "Fri, 06 Feb 2026 02:15:16 +0000"
+    },
+    {
+        "title": "Framerate Fatality: NVIDIA Confirms Windows 11 Update KB5074109 is Wreaking Havoc on Gamers",
+        "link": "https://securityonline.info/framerate-fatality-nvidia-confirms-windows-11-update-kb5074109-is-wreaking-havoc-on-gamers/",
+        "published": "Fri, 06 Feb 2026 02:10:30 +0000"
+    },
+    {
+        "title": "The Invisible Landlord: ShadowSyndicate Rotates Keys to Hide Infrastructure",
+        "link": "https://securityonline.info/the-invisible-landlord-shadowsyndicate-rotates-keys-to-hide-infrastructure/",
+        "published": "Fri, 06 Feb 2026 00:42:35 +0000"
+    },
+    {
+        "title": "Popular n8n Platform Hit by Triple Threat of RCE Flaws",
+        "link": "https://securityonline.info/popular-n8n-platform-hit-by-triple-threat-of-rce-flaws/",
+        "published": "Fri, 06 Feb 2026 00:39:22 +0000"
+    },
+    {
+        "title": "The Invisible Proxy: NGINX Hijacked for Silent SEO Poisoning",
+        "link": "https://securityonline.info/the-invisible-proxy-nginx-hijacked-for-silent-seo-poisoning/",
+        "published": "Fri, 06 Feb 2026 00:33:06 +0000"
+    },
+    {
+        "title": "Phantom in the Machine: Inside Salt Typhoon’s “SnappyBee” Backdoor",
+        "link": "https://securityonline.info/phantom-in-the-machine-inside-salt-typhoons-snappybee-backdoor/",
+        "published": "Fri, 06 Feb 2026 00:27:36 +0000"
+    },
+    {
+        "title": "4 Million Downloads at Risk: Critical Unstructured Flaw (CVSS 9.8) Allows RCE",
+        "link": "https://securityonline.info/4-million-downloads-at-risk-critical-unstructured-flaw-cvss-9-8-allows-rce/",
+        "published": "Fri, 06 Feb 2026 00:23:34 +0000"
+    },
+    {
+        "title": "Stealth Injection: Silver Fox APT Upgrades “ValleyRat” with Rare PoolParty Tech",
+        "link": "https://securityonline.info/stealth-injection-silver-fox-apt-upgrades-valleyrat-with-rare-poolparty-tech/",
+        "published": "Fri, 06 Feb 2026 00:17:36 +0000"
+    },
+    {
+        "title": "Cloud-Hosted Trap: Phishers Use Vercel & Telegram to Bypass Filters",
+        "link": "https://securityonline.info/cloud-hosted-trap-phishers-use-vercel-telegram-to-bypass-filters/",
+        "published": "Fri, 06 Feb 2026 00:11:49 +0000"
+    },
+    {
+        "title": "“PDF” Poison: Popular JavaScript Library Patches Critical Injection and Crash Flaws",
+        "link": "https://securityonline.info/pdf-poison-popular-javascript-library-patches-critical-injection-and-crash-flaws/",
+        "published": "Fri, 06 Feb 2026 00:07:28 +0000"
+    },
+    {
+        "title": "Macs Under Siege: New Infostealers Spread via WhatsApp & Fake Apps",
+        "link": "https://securityonline.info/macs-under-siege-new-infostealers-spread-via-whatsapp-fake-apps/",
+        "published": "Fri, 06 Feb 2026 00:01:18 +0000"
     }
 ]
