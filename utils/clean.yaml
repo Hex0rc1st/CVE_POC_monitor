@@ -2822,3 +2822,4 @@ clean_list:
 - CVE-2024-21413-Moniker-Link-Writeup
 - MongoBleed
 - CVE-2026-25854
+- CVE-2026-1281-Ivanti-EPMM-RCE
