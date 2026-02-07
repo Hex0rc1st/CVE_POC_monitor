@@ -2823,3 +2823,4 @@ clean_list:
 - MongoBleed
 - CVE-2026-25854
 - CVE-2026-1281-Ivanti-EPMM-RCE
+- CVE-2024-0070-NVIDIA-GPU-Driver--Resonance-Vulnerability
