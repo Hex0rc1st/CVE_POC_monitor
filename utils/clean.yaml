@@ -2821,3 +2821,4 @@ clean_list:
 - CVE-2026-25828
 - CVE-2024-21413-Moniker-Link-Writeup
 - MongoBleed
+- CVE-2026-25854
