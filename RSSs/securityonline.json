@@ -29058,5 +29058,10 @@
         "title": "The $130 Million Fat-Finger: Bithumb’s Accidental Airdrop Turns 635 Users into Millionaires",
         "link": "https://securityonline.info/the-130-million-fat-finger-bithumbs-accidental-airdrop-turns-635-users-into-millionaires/",
         "published": "Sun, 08 Feb 2026 06:11:48 +0000"
+    },
+    {
+        "title": "CVE-2026-1868: Critical GitLab Gateway Flaw (CVSS 9.9) Allows RCE",
+        "link": "https://securityonline.info/cve-2026-1868-critical-gitlab-gateway-flaw-cvss-9-9-allows-rce/",
+        "published": "Sun, 08 Feb 2026 07:26:35 +0000"
     }
 ]
