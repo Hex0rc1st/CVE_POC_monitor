@@ -2828,3 +2828,4 @@ clean_list:
 - CVE-2026-1862-exp
 - CVE-2026-25732-NiceGUI-3.6.1
 - CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-
+- CVE-2025-49132-PoC
