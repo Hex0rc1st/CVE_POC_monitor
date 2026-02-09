@@ -198,5 +198,15 @@
         "title": "Metasploit Wrap-Up 02/06/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-02-06-2026",
         "published": "Fri, 06 Feb 2026 18:52:32 GMT"
+    },
+    {
+        "title": "CVE-2026-1731: Critical Unauthenticated Remote Code Execution in BeyondTrust Remote Support (RS) and Privileged Remote Access (PRA)",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-1731-critical-unauthenticated-remote-code-execution-rce-beyondtrust-remote-support-rs-privileged-remote-access-pra",
+        "published": "Mon, 09 Feb 2026 19:15:00 GMT"
+    },
+    {
+        "title": "Vulnerability Found in InsightVM & Nexpose: CVE-2026-1814 (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-insightvm-nexpose-vulnerability-cve-2026-1814-fixed",
+        "published": "Mon, 09 Feb 2026 19:00:00 GMT"
     }
 ]
