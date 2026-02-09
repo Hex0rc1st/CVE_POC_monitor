@@ -2830,3 +2830,4 @@ clean_list:
 - CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-
 - CVE-2025-49132-PoC
 - CVE-2026-23723-POC
+- CVE-2025-6018-and-CVE-2025-6019-Privilege-Escalation
