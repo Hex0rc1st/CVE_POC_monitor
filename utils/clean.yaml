@@ -2835,3 +2835,5 @@ clean_list:
 - Expression-Sandbox-Escape-Simulation-Lab
 - CVE-2025-6018-CVE-2025-6019-Privilege-Escalation-Exploit
 - XM_ONVIF_auth_bypass
+- CVE-2025-8671-vulnerability-POC-
+- CVE-2026-25916-Roundcube-Webmail-DOM-based-XSS-Exploit-via-SVG-href-Attribute
