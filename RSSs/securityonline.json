@@ -29063,5 +29063,100 @@
         "title": "CVE-2026-1868: Critical GitLab Gateway Flaw (CVSS 9.9) Allows RCE",
         "link": "https://securityonline.info/cve-2026-1868-critical-gitlab-gateway-flaw-cvss-9-9-allows-rce/",
         "published": "Sun, 08 Feb 2026 07:26:35 +0000"
+    },
+    {
+        "title": "Endpoint Exposed: Critical FortiClient EMS Flaw (CVSS 9.1) Allows Unauthenticated RCE",
+        "link": "https://securityonline.info/endpoint-exposed-critical-forticlient-ems-flaw-cvss-9-1-allows-unauthenticated-rce/",
+        "published": "Mon, 09 Feb 2026 02:21:37 +0000"
+    },
+    {
+        "title": "Speed of Truth: X Trials “Collaborative Notes” to Supercharge Fact-Checking with Grok AI",
+        "link": "https://securityonline.info/speed-of-truth-x-trials-collaborative-notes-to-supercharge-fact-checking-with-grok-ai/",
+        "published": "Mon, 09 Feb 2026 00:58:21 +0000"
+    },
+    {
+        "title": "Co-Pilots of the Future: Apple Opens CarPlay to ChatGPT and Google Gemini for Smarter Road Trips",
+        "link": "https://securityonline.info/co-pilots-of-the-future-apple-opens-carplay-to-chatgpt-and-google-gemini-for-smarter-road-trips/",
+        "published": "Mon, 09 Feb 2026 00:54:17 +0000"
+    },
+    {
+        "title": "Fortune Favors the AI: Crypto.com CEO Drops $70M on AI.com to Launch “Synthetic Secretaries” at Super Bowl LX",
+        "link": "https://securityonline.info/fortune-favors-the-ai-crypto-com-ceo-drops-70m-on-ai-com-to-launch-synthetic-secretaries-at-super-bowl-lx/",
+        "published": "Mon, 09 Feb 2026 00:50:07 +0000"
+    },
+    {
+        "title": "Code Red: 4 Critical SandboxJS Flaws (CVSS 10.0) Allow Host Takeover",
+        "link": "https://securityonline.info/code-red-4-critical-sandboxjs-flaws-cvss-10-0-allow-host-takeover/",
+        "published": "Mon, 09 Feb 2026 00:46:57 +0000"
+    },
+    {
+        "title": "Digital Detox Mandate: EU Charges TikTok Over “Autopilot” Design and Minor Safety Failures",
+        "link": "https://securityonline.info/digital-detox-mandate-eu-charges-tiktok-over-autopilot-design-and-minor-safety-failures/",
+        "published": "Mon, 09 Feb 2026 00:44:43 +0000"
+    },
+    {
+        "title": "The “Compatibility” Trap: New Mac Malware Tricks Users into Bypassing TCC",
+        "link": "https://securityonline.info/the-compatibility-trap-new-mac-malware-tricks-users-into-bypassing-tcc/",
+        "published": "Mon, 09 Feb 2026 00:41:43 +0000"
+    },
+    {
+        "title": "Tearing Down the Walled Garden: How Google Quick Share Finally Bridged the AirDrop Chasm",
+        "link": "https://securityonline.info/tearing-down-the-walled-garden-how-google-quick-share-finally-bridged-the-airdrop-chasm/",
+        "published": "Mon, 09 Feb 2026 00:39:43 +0000"
+    },
+    {
+        "title": "The “All-in-One” Spy: DKnife Malware Hijacks Routers to Swap Downloads",
+        "link": "https://securityonline.info/the-all-in-one-spy-dknife-malware-hijacks-routers-to-swap-downloads/",
+        "published": "Mon, 09 Feb 2026 00:38:42 +0000"
+    },
+    {
+        "title": "Double the RAM, Half the Stress: Raspberry Pi 4’s Secret Design Overhaul to Combat the 2026 Memory Crisis",
+        "link": "https://securityonline.info/double-the-ram-half-the-stress-raspberry-pi-4s-secret-design-overhaul-to-combat-the-2026-memory-crisis/",
+        "published": "Mon, 09 Feb 2026 00:35:34 +0000"
+    },
+    {
+        "title": "“JackMa” & ShadowGuard: TGR-STA-1030 Spies on 37 Nations via Linux Rootkit",
+        "link": "https://securityonline.info/jackma-shadowguard-tgr-sta-1030-spies-on-37-nations-via-linux-rootkit/",
+        "published": "Mon, 09 Feb 2026 00:32:38 +0000"
+    },
+    {
+        "title": "CVE-2026-1731: Critical BeyondTrust Flaw (CVSS 9.9) Allows Pre-Auth RCE",
+        "link": "https://securityonline.info/cve-2026-1731-critical-beyondtrust-flaw-cvss-9-9-allows-pre-auth-rce/",
+        "published": "Mon, 09 Feb 2026 00:28:00 +0000"
+    },
+    {
+        "title": "Stan Ghouls Target Uzbekistan and Russia with NetSupport RAT",
+        "link": "https://securityonline.info/stan-ghouls-target-uzbekistan-and-russia-with-netsupport-rat/",
+        "published": "Mon, 09 Feb 2026 00:27:34 +0000"
+    },
+    {
+        "title": "CVE-2026-25526: Critical Jinjava Flaw (CVSS 9.8) Permits Remote Code Execution",
+        "link": "https://securityonline.info/cve-2026-25526-critical-jinjava-flaw-cvss-9-8-permits-remote-code-execution/",
+        "published": "Mon, 09 Feb 2026 00:21:47 +0000"
+    },
+    {
+        "title": "“Hard Working” Thieves: Rublevka Team Steals $10M in Solana Scam-as-a-Service",
+        "link": "https://securityonline.info/hard-working-thieves-rublevka-team-steals-10m-in-solana-scam-as-a-service/",
+        "published": "Mon, 09 Feb 2026 00:17:18 +0000"
+    },
+    {
+        "title": "Critical RCE Flaws (CVSS 9.3) Exposed in Lexmark Printers",
+        "link": "https://securityonline.info/critical-rce-flaws-cvss-9-3-exposed-in-lexmark-printers/",
+        "published": "Mon, 09 Feb 2026 00:13:29 +0000"
+    },
+    {
+        "title": "CVE-2025-62878: Critical 10.0 Vulnerability Found in Kubernetes Local Path Provisioner",
+        "link": "https://securityonline.info/cve-2025-62878-critical-10-0-vulnerability-found-in-kubernetes-local-path-provisioner/",
+        "published": "Mon, 09 Feb 2026 00:11:07 +0000"
+    },
+    {
+        "title": "APT28 Weaponizes Office Flaw to Spy on NATO & Military",
+        "link": "https://securityonline.info/apt28-weaponizes-office-flaw-to-spy-on-nato-military/",
+        "published": "Mon, 09 Feb 2026 00:06:35 +0000"
+    },
+    {
+        "title": "Silent Army: SystemBC Botnet Infects 10,000+ IPs & Government Networks",
+        "link": "https://securityonline.info/silent-army-systembc-botnet-infects-10000-ips-government-networks/",
+        "published": "Mon, 09 Feb 2026 00:01:52 +0000"
     }
 ]
