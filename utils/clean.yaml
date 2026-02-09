@@ -2838,3 +2838,5 @@ clean_list:
 - CVE-2025-8671-vulnerability-POC-
 - CVE-2026-25916-Roundcube-Webmail-DOM-based-XSS-Exploit-via-SVG-href-Attribute
 - notepadpp-supply-chain-iocs
+- PoC---Implementation-Plan---Grafana-CVE-2024-9264-SQL-Injection-
+- Exploit-Chain-CVE-2025-6018-6019
