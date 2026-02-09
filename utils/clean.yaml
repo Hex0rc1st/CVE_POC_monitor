@@ -2831,3 +2831,6 @@ clean_list:
 - CVE-2025-49132-PoC
 - CVE-2026-23723-POC
 - CVE-2025-6018-and-CVE-2025-6019-Privilege-Escalation
+- CVEDO2026
+- Expression-Sandbox-Escape-Simulation-Lab
+- CVE-2025-6018-CVE-2025-6019-Privilege-Escalation-Exploit

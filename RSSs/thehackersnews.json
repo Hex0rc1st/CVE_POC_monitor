@@ -1038,5 +1038,10 @@
         "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
         "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
         "published": "Sun, 08 Feb 2026 13:02:00 +0530"
+    },
+    {
+        "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
+        "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
+        "published": "Mon, 09 Feb 2026 13:33:00 +0530"
     }
 ]
