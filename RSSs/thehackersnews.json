@@ -1063,5 +1063,10 @@
         "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
         "link": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
         "published": "Mon, 09 Feb 2026 18:29:00 +0530"
+    },
+    {
+        "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
+        "link": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
+        "published": "Mon, 09 Feb 2026 20:12:00 +0530"
     }
 ]
