@@ -29,3 +29,4 @@ https://github.com/bjrjk/CVE-2025-43529
 https://github.com/DeathShotXD/0xKern3lCrush-Foreverday-BYOVD-CVE-2026-0828
 https://github.com/DeathShotXD/0xKern3lCrush-Foreverday-BYOVD-CVE-2026-0828
 https://github.com/YoyoChaud/CVE-2025-49132
+https://github.com/malw0re/CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-
