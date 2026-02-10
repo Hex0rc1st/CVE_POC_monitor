@@ -2856,3 +2856,5 @@ clean_list:
 - jinjava-cve-2026-25526-poc
 - tpadmin-CVE-2026-2113-poc
 - EpSiLoNPoInT-
+- CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation
+- -CVE-2025-49132_Pterodactyl-_HTB-Season-10
