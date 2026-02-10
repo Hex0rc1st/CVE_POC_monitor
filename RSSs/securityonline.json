@@ -29178,5 +29178,65 @@
         "title": "Criminal IP Integrates with IBM QRadar to Deliver Real-Time Threat Intelligence Across SIEM and SOAR",
         "link": "https://securityonline.info/criminal-ip-integrates-with-ibm-qradar-to-deliver-real-time-threat-intelligence-across-siem-and-soar/",
         "published": "Mon, 09 Feb 2026 14:00:43 +0000"
+    },
+    {
+        "title": "30-Year-Old Bug: High-Severity libpng Flaw (CVSS 8.3) Exposes Millions of Apps",
+        "link": "https://securityonline.info/30-year-old-bug-high-severity-libpng-flaw-cvss-8-3-exposes-millions-of-apps/",
+        "published": "Tue, 10 Feb 2026 02:58:28 +0000"
+    },
+    {
+        "title": "Sunset for the Father of Blu-ray: Sony Officially Terminates All Blu-ray Recorder Shipments",
+        "link": "https://securityonline.info/sunset-for-the-father-of-blu-ray-sony-officially-terminates-all-blu-ray-recorder-shipments/",
+        "published": "Tue, 10 Feb 2026 00:47:06 +0000"
+    },
+    {
+        "title": "March Madness: Apple’s M5 Mac Surge and the Surprising $599 “MacBook SE” Debut",
+        "link": "https://securityonline.info/march-madness-apples-m5-mac-surge-and-the-surprising-599-macbook-se-debut/",
+        "published": "Tue, 10 Feb 2026 00:45:44 +0000"
+    },
+    {
+        "title": "Flagship Power, Budget Price: How Apple’s iPhone 17e Aims to Crush the Mid-Range Market",
+        "link": "https://securityonline.info/flagship-power-budget-price-how-apples-iphone-17e-aims-to-crush-the-mid-range-market/",
+        "published": "Tue, 10 Feb 2026 00:40:16 +0000"
+    },
+    {
+        "title": "Triple Threat: Critical Gogs Flaws (CVSS 9.3) Allow RCE & 2FA Bypass",
+        "link": "https://securityonline.info/triple-threat-critical-gogs-flaws-cvss-9-3-allow-rce-2fa-bypass/",
+        "published": "Tue, 10 Feb 2026 00:36:24 +0000"
+    },
+    {
+        "title": "Virtual Invasion: SolarWinds WHD Exploited to Host Hidden QEMU VMs",
+        "link": "https://securityonline.info/virtual-invasion-solarwinds-whd-exploited-to-host-hidden-qemu-vms/",
+        "published": "Tue, 10 Feb 2026 00:31:20 +0000"
+    },
+    {
+        "title": "Trust Broken: Critical Keylime Flaw (CVSS 9.4) Disables mTLS Authentication",
+        "link": "https://securityonline.info/trust-broken-critical-keylime-flaw-cvss-9-4-disables-mtls-authentication/",
+        "published": "Tue, 10 Feb 2026 00:27:39 +0000"
+    },
+    {
+        "title": "Silent Killer: Black Basta Bundles “BYOVD” Driver to Blind Antivirus",
+        "link": "https://securityonline.info/silent-killer-black-basta-bundles-byovd-driver-to-blind-antivirus/",
+        "published": "Tue, 10 Feb 2026 00:22:19 +0000"
+    },
+    {
+        "title": "CVE-2026-25592: Critical Semantic Kernel Flaw (CVSS 10.0) Allows File Overwrite",
+        "link": "https://securityonline.info/cve-2026-25592-critical-semantic-kernel-flaw-cvss-10-0-allows-file-overwrite/",
+        "published": "Tue, 10 Feb 2026 00:18:30 +0000"
+    },
+    {
+        "title": "Poisoned Protocol: dYdX Supply Chain Attack Injects RATs into npm & PyPI",
+        "link": "https://securityonline.info/poisoned-protocol-dydx-supply-chain-attack-injects-rats-into-npm-pypi/",
+        "published": "Tue, 10 Feb 2026 00:12:25 +0000"
+    },
+    {
+        "title": "CVE-2026-25544: Critical Payload CMS SQLi (CVSS 9.8) Exposes Admin Tokens",
+        "link": "https://securityonline.info/cve-2026-25544-critical-payload-cms-sqli-cvss-9-8-exposes-admin-tokens/",
+        "published": "Tue, 10 Feb 2026 00:07:05 +0000"
+    },
+    {
+        "title": "Marco Stealer: The New “Data Raider” Targeting Crypto & Cloud Storage",
+        "link": "https://securityonline.info/marco-stealer-the-new-data-raider-targeting-crypto-cloud-storage/",
+        "published": "Tue, 10 Feb 2026 00:01:54 +0000"
     }
 ]

@@ -2840,3 +2840,11 @@ clean_list:
 - notepadpp-supply-chain-iocs
 - PoC---Implementation-Plan---Grafana-CVE-2024-9264-SQL-Injection-
 - Exploit-Chain-CVE-2025-6018-6019
+- CVE-2025-15556-Notepad-WinGUp-Updater-RCE
+- CVE-2026-25807-Exploit
+- CVE-2025-8110-Gogs-Remote-Code-Execution
+- CVE-2025-55182-React2Shell-CVSS-10.0-
+- CVE-2025-69516
+- CVE-2025-61882-Oracle-BI-Publisher-RCE
+- CVE-2025-14174-Chrome-Zero-Day
+- CVE-2025-59470-PostgreSQL-Command-Injection
