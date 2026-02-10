@@ -1073,5 +1073,10 @@
         "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
         "link": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
         "published": "Mon, 09 Feb 2026 22:31:00 +0530"
+    },
+    {
+        "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
+        "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+        "published": "Tue, 10 Feb 2026 10:08:00 +0530"
     }
 ]
