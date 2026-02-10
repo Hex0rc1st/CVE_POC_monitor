@@ -2852,3 +2852,5 @@ clean_list:
 - CVE-2024-6386-WPML-SSTI
 - CVE-2026-25961-SumatraPDF-3.5.0---3.5.2-RCE
 - CVE-2025-6019-udisks-lpe-no-image
+- CVE-2026-25939-SCADA-FUXA-Unauthenticated-Remote-Arbitrary
+- jinjava-cve-2026-25526-poc
