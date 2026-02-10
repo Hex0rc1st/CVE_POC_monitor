@@ -208,5 +208,10 @@
         "title": "Vulnerability Found in InsightVM & Nexpose: CVE-2026-1814 (FIXED)",
         "link": "https://www.rapid7.com/blog/post/ve-insightvm-nexpose-vulnerability-cve-2026-1814-fixed",
         "published": "Mon, 09 Feb 2026 19:00:00 GMT"
+    },
+    {
+        "title": "Measuring AI Security: Separating Signal from Panic",
+        "link": "https://www.rapid7.com/blog/post/tr-measuring-ai-security-mcp-exposure",
+        "published": "Tue, 10 Feb 2026 18:00:00 GMT"
     }
 ]

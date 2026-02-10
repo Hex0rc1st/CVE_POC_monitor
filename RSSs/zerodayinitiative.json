@@ -123,5 +123,10 @@
         "title": "CVE-2025-6978: Arbitrary Code Execution in the Arista NG Firewall",
         "link": "https://www.thezdi.com/blog/2026/2/4/cve-2025-6978-arbitrary-code-execution-in-the-arista-ng-firewall",
         "published": "Thu, 05 Feb 2026 16:45:49 +0000"
+    },
+    {
+        "title": "The February 2026 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2026/2/10/the-february-2026-security-update-review",
+        "published": "Tue, 10 Feb 2026 18:30:28 +0000"
     }
 ]
