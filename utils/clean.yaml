@@ -2848,3 +2848,4 @@ clean_list:
 - CVE-2025-61882-Oracle-BI-Publisher-RCE
 - CVE-2025-14174-Chrome-Zero-Day
 - CVE-2025-59470-PostgreSQL-Command-Injection
+- CVE-2025-68645-Exploiting-Zimbra-Webmail-LFI-Vulnerability
