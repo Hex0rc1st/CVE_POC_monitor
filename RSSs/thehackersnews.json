@@ -1078,5 +1078,10 @@
         "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
         "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
         "published": "Tue, 10 Feb 2026 10:08:00 +0530"
+    },
+    {
+        "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+        "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+        "published": "Tue, 10 Feb 2026 13:52:00 +0530"
     }
 ]
