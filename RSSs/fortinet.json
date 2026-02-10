@@ -1188,5 +1188,45 @@
         "title": "SQLi in administrative interface",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-1142",
         "published": "Fri, 06 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Arbitrary XML file write in FCConfig",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-661",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Firewall policy bypass in FSSO Terminal Services Agent",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-384",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Format String Vulnerability in CAPWAP fast-failover mode",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-795",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "LDAP authentication bypass in Agentless VPN and FSSO",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-1052",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Missing authorization on CSV user import",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-528",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "Request smuggling attack in FortiOS GUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-667",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "SSL-VPN Symlink Persistence Patch Bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-934",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "XSS via back button",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-093",
+        "published": "Tue, 10 Feb 2026 00:00:00 -0800"
     }
 ]
