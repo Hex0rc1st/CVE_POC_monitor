@@ -2866,3 +2866,6 @@ clean_list:
 - CVE-2025-4606
 - CVE-2026-1731
 - cve-2026-21509-mitigation
+- RDPVulnarableCheck
+- CVE-2026-20841
+- CVE-2025-49132-Pterodactyl-Panel-Unauthenticated-Remote-Code-Execution-RCE-
