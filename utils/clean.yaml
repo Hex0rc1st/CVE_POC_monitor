@@ -2865,3 +2865,4 @@ clean_list:
 - CVE-2025-62215_analysis
 - CVE-2025-4606
 - CVE-2026-1731
+- cve-2026-21509-mitigation
