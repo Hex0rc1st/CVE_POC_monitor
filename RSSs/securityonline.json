@@ -29343,5 +29343,30 @@
         "title": "CVE-2026-24343: Apache HertzBeat Flaw Opens Door to Resource Exhaustion",
         "link": "https://securityonline.info/cve-2026-24343-apache-hertzbeat-flaw-opens-door-to-resource-exhaustion/",
         "published": "Wed, 11 Feb 2026 00:00:20 +0000"
+    },
+    {
+        "title": "Sideloading Sidestepped: The UK’s “Light-Touch” Gamble on the Apple-Google Duopoly",
+        "link": "https://securityonline.info/sideloading-sidestepped-the-uks-light-touch-gamble-on-the-apple-google-duopoly/",
+        "published": "Wed, 11 Feb 2026 04:56:03 +0000"
+    },
+    {
+        "title": "Beyond the Screen: Samsung’s Galaxy S26 Ultra Debuts “Magic Flex” Privacy and Agentic AI",
+        "link": "https://securityonline.info/beyond-the-screen-samsungs-galaxy-s26-ultra-debuts-magic-flex-privacy-and-agentic-ai/",
+        "published": "Wed, 11 Feb 2026 04:51:56 +0000"
+    },
+    {
+        "title": "Digital Firewall: Google’s New AI Arsenal Targets Deepfake and SSN Leaks",
+        "link": "https://securityonline.info/digital-firewall-googles-new-ai-arsenal-targets-deepfake-and-ssn-leaks/",
+        "published": "Wed, 11 Feb 2026 04:43:22 +0000"
+    },
+    {
+        "title": "Billions at Risk: Critical Windows Notepad Flaw Allows Remote Code Execution",
+        "link": "https://securityonline.info/billions-at-risk-critical-windows-notepad-flaw-allows-remote-code-execution/",
+        "published": "Wed, 11 Feb 2026 04:01:30 +0000"
+    },
+    {
+        "title": "Backup Breach: Critical Acronis Flaws (CVSS 10.0) Allow Data Manipulation",
+        "link": "https://securityonline.info/backup-breach-critical-acronis-flaws-cvss-10-0-allow-data-manipulation/",
+        "published": "Wed, 11 Feb 2026 03:36:58 +0000"
     }
 ]
