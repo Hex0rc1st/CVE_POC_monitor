@@ -2860,3 +2860,4 @@ clean_list:
 - -CVE-2025-49132_Pterodactyl-_HTB-Season-10
 - CVE-2025-6018-19
 - CVE-2026-20841-PoC
+- CVE-2026-1529
