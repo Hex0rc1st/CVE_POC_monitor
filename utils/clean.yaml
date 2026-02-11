@@ -2858,3 +2858,5 @@ clean_list:
 - EpSiLoNPoInT-
 - CVE-2026-1529-PoC-keycloak-unauthorized-registration-via-improper-invitation-token-validation
 - -CVE-2025-49132_Pterodactyl-_HTB-Season-10
+- CVE-2025-6018-19
+- CVE-2026-20841-PoC

@@ -29263,5 +29263,85 @@
         "title": "The End of the Ad-Free Era: OpenAI Launches ChatGPT “Go” and Sponsored Responses to Fuel GPT-5.3",
         "link": "https://securityonline.info/the-end-of-the-ad-free-era-openai-launches-chatgpt-go-and-sponsored-responses-to-fuel-gpt-5-3/",
         "published": "Tue, 10 Feb 2026 09:15:16 +0000"
+    },
+    {
+        "title": "Patch Panic: Microsoft Fixes 6 Active Zero-Days in Feb 2026 Update",
+        "link": "https://securityonline.info/patch-panic-microsoft-fixes-6-active-zero-days-in-feb-2026-update/",
+        "published": "Wed, 11 Feb 2026 03:10:25 +0000"
+    },
+    {
+        "title": "Null Byte Nightmare: Critical WPvivid Backup Flaw (CVSS 9.8) Exposes 800K WordPress Sites",
+        "link": "https://securityonline.info/null-byte-nightmare-critical-wpvivid-backup-flaw-cvss-9-8-exposes-800k-wordpress-sites/",
+        "published": "Wed, 11 Feb 2026 02:47:26 +0000"
+    },
+    {
+        "title": "GitLab Patch Alert: High-Severity Web IDE Flaw Exposes Private Repos",
+        "link": "https://securityonline.info/gitlab-patch-alert-high-severity-web-ide-flaw-exposes-private-repos/",
+        "published": "Wed, 11 Feb 2026 01:58:57 +0000"
+    },
+    {
+        "title": "Under Siege: GTIG Report Exposes North Korean Spies & Russian Drone Hacks in Defense Sector",
+        "link": "https://securityonline.info/under-siege-gtig-report-exposes-north-korean-spies-russian-drone-hacks-in-defense-sector/",
+        "published": "Wed, 11 Feb 2026 00:50:32 +0000"
+    },
+    {
+        "title": "“Fiber” Optic Failure: Predictable UUIDs Expose Go Web Framework to Hijacking",
+        "link": "https://securityonline.info/fiber-optic-failure-predictable-uuids-expose-go-web-framework-to-hijacking/",
+        "published": "Wed, 11 Feb 2026 00:48:59 +0000"
+    },
+    {
+        "title": "Sleeping with the Enemy: Dormant Backdoors Found in Ivanti EPMM",
+        "link": "https://securityonline.info/sleeping-with-the-enemy-dormant-backdoors-found-in-ivanti-epmm/",
+        "published": "Wed, 11 Feb 2026 00:42:55 +0000"
+    },
+    {
+        "title": "Unmasking the Proxy: Silent Push “Traffic Origin” Exposes True Actor Locations",
+        "link": "https://securityonline.info/unmasking-the-proxy-silent-push-traffic-origin-exposes-true-actor-locations/",
+        "published": "Wed, 11 Feb 2026 00:42:34 +0000"
+    },
+    {
+        "title": "Sandbox Breakout: Critical SandboxJS Flaw (CVE-2026-25881) Allows Host Takeover",
+        "link": "https://securityonline.info/sandbox-breakout-critical-sandboxjs-flaw-cve-2026-25881-allows-host-takeover/",
+        "published": "Wed, 11 Feb 2026 00:37:56 +0000"
+    },
+    {
+        "title": "Fake CEO, Real Hack: North Korea Uses AI Deepfakes to Steal Crypto",
+        "link": "https://securityonline.info/fake-ceo-real-hack-north-korea-uses-ai-deepfakes-to-steal-crypto/",
+        "published": "Wed, 11 Feb 2026 00:32:29 +0000"
+    },
+    {
+        "title": "Factory Flaw: Critical WAGO Switch Vulnerabilities (CVSS 9.8) Allow Remote Takeover",
+        "link": "https://securityonline.info/factory-flaw-critical-wago-switch-vulnerabilities-cvss-9-8-allow-remote-takeover/",
+        "published": "Wed, 11 Feb 2026 00:27:08 +0000"
+    },
+    {
+        "title": "Hiding in the Cloud: GuLoader Malware Evolves to Evade Detection",
+        "link": "https://securityonline.info/hiding-in-the-cloud-guloader-malware-evolves-to-evade-detection/",
+        "published": "Wed, 11 Feb 2026 00:22:09 +0000"
+    },
+    {
+        "title": "CVE-2026-23906: Authentication Bypass Flaw Hits Apache Druid Analytics Clusters",
+        "link": "https://securityonline.info/cve-2026-23906-authentication-bypass-flaw-hits-apache-druid-analytics-clusters/",
+        "published": "Wed, 11 Feb 2026 00:17:59 +0000"
+    },
+    {
+        "title": "5 Benefits of Using Automation to Stay in Touch With Customers",
+        "link": "https://securityonline.info/5-benefits-of-using-automation-to-stay-in-touch-with-customers/",
+        "published": "Wed, 11 Feb 2026 00:13:21 +0000"
+    },
+    {
+        "title": "Signed” Sealed, Delivered: Cybercriminals Abuse PayPal and Apple to Bypass Email Security",
+        "link": "https://securityonline.info/signed-sealed-delivered-cybercriminals-abuse-paypal-and-apple-to-bypass-email-security/",
+        "published": "Wed, 11 Feb 2026 00:11:33 +0000"
+    },
+    {
+        "title": "Handshake Halt: GnuTLS 3.8.12 Fixes TLS 1.3 Crash & CPU Exhaustion",
+        "link": "https://securityonline.info/handshake-halt-gnutls-3-8-12-fixes-tls-1-3-crash-cpu-exhaustion/",
+        "published": "Wed, 11 Feb 2026 00:06:40 +0000"
+    },
+    {
+        "title": "CVE-2026-24343: Apache HertzBeat Flaw Opens Door to Resource Exhaustion",
+        "link": "https://securityonline.info/cve-2026-24343-apache-hertzbeat-flaw-opens-door-to-resource-exhaustion/",
+        "published": "Wed, 11 Feb 2026 00:00:20 +0000"
     }
 ]
