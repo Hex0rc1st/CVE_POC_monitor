@@ -493,5 +493,20 @@
         "title": "CVE-2026-0227  PAN-OS: Firewall Denial of Service (DoS) in GlobalProtect Gateway and Portal (Severity: HIGH)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0227",
         "published": "2026-01-14T17:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0229 PAN-OS: Denial of Service in Advanced DNS Security Feature (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0229",
+        "published": "2026-02-11T17:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0002 Chromium: Monthly Vulnerability Update (February 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0002",
+        "published": "2026-02-11T17:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0228 PAN-OS: Improper Validation of Terminal Server Agent Certificate (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0228",
+        "published": "2026-02-11T17:00:00.000Z"
     }
 ]
