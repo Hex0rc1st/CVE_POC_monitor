@@ -2879,3 +2879,4 @@ clean_list:
 - hyu164.github.io
 - CVE-2025-49132-Pterodactyl-Panel-RCE
 - CVE-2026-22153-exp
+- CVE-2026-1729-PoC-AdForest-WordPress-Authentication-Bypass
