@@ -2872,3 +2872,5 @@ clean_list:
 - CVE-2024-2887
 - CVE-2025-62878
 - -CVE-2026-26215-manga-image-translator-RCE
+- CVE-2026-20841_notepad_analysis
+- React2Shell-POC
