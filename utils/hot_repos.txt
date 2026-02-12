@@ -32,3 +32,4 @@ https://github.com/YoyoChaud/CVE-2025-49132
 https://github.com/malw0re/CVE-2025-49132---Pterodactyl-RCE-HTB-Season-10-
 https://github.com/muyuanlove/CVE-2025-6018-CVE-2025-6019-Privilege-Escalation-Exploit
 https://github.com/BTtea/CVE-2026-20841-PoC
+https://github.com/win3zz/CVE-2026-1731

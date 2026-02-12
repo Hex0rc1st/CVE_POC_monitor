@@ -29393,5 +29393,60 @@
         "title": "GitGuardian Raises $50M Series C to Address Non-Human Identities Crisis and AI Agent Security Gap",
         "link": "https://securityonline.info/gitguardian-raises-50m-series-c-to-address-non-human-identities-crisis-and-ai-agent-security-gap/",
         "published": "Wed, 11 Feb 2026 13:05:37 +0000"
+    },
+    {
+        "title": "Exploit Code Released: Windows Storage Elevation of Privilege Flaw Details Now Public",
+        "link": "https://securityonline.info/exploit-code-released-windows-storage-elevation-of-privilege-flaw-details-now-public/",
+        "published": "Thu, 12 Feb 2026 03:11:45 +0000"
+    },
+    {
+        "title": "Unauthenticated Attacker Can Trap Palo Alto Firewalls in Maintenance Mode Loop (CVE-2026-0229)",
+        "link": "https://securityonline.info/crash-loop-palo-alto-networks-flaw-cve-2026-0229-forces-maintenance-mode/",
+        "published": "Thu, 12 Feb 2026 02:48:29 +0000"
+    },
+    {
+        "title": "Chrome 145 Patches 3 High-Severity Flaws in CSS & Codecs",
+        "link": "https://securityonline.info/chrome-145-patches-3-high-severity-flaws-in-css-codecs/",
+        "published": "Thu, 12 Feb 2026 02:34:22 +0000"
+    },
+    {
+        "title": "Apple Zero-Day (CVE-2026-20700) Exploited in the Wild",
+        "link": "https://securityonline.info/apple-zero-day-cve-2026-20700-exploited-in-the-wild/",
+        "published": "Thu, 12 Feb 2026 02:02:33 +0000"
+    },
+    {
+        "title": "CVE-2026-26007: Python Cryptography Flaw (CVSS 8.2) Leaks Private Keys",
+        "link": "https://securityonline.info/cve-2026-26007-python-cryptography-flaw-cvss-8-2-leaks-private-keys/",
+        "published": "Thu, 12 Feb 2026 00:33:21 +0000"
+    },
+    {
+        "title": "The Rise of Vibecoding: AI-Generated Malware Exploits React2Shell",
+        "link": "https://securityonline.info/the-rise-of-vibecoding-ai-generated-malware-exploits-react2shell/",
+        "published": "Thu, 12 Feb 2026 00:27:57 +0000"
+    },
+    {
+        "title": "CVE-2026-25993: Critical EverShop SQL Injection (CVSS 9.3) Exposes Stores",
+        "link": "https://securityonline.info/cve-2026-25993-critical-evershop-sql-injection-cvss-9-3-exposes-stores/",
+        "published": "Thu, 12 Feb 2026 00:23:57 +0000"
+    },
+    {
+        "title": "VoidLink Rising: New “AI-Ready” Malware Framework Targets Linux & IoT",
+        "link": "https://securityonline.info/voidlink-rising-new-ai-ready-malware-framework-targets-linux-iot/",
+        "published": "Thu, 12 Feb 2026 00:19:11 +0000"
+    },
+    {
+        "title": "Excel Trap: New Phishing Campaign Deploys Fileless XWorm RAT",
+        "link": "https://securityonline.info/excel-trap-new-phishing-campaign-deploys-fileless-xworm-rat/",
+        "published": "Thu, 12 Feb 2026 00:13:12 +0000"
+    },
+    {
+        "title": "5G Core Breach: Critical HPE Aruba Flaw Allows Unauthenticated Admin Takeover",
+        "link": "https://securityonline.info/5g-core-breach-critical-hpe-aruba-flaw-allows-unauthenticated-admin-takeover/",
+        "published": "Thu, 12 Feb 2026 00:08:44 +0000"
+    },
+    {
+        "title": "Weaponized Code: LTX Stealer Abuses Node.js to Bypass Antivirus",
+        "link": "https://securityonline.info/weaponized-code-ltx-stealer-abuses-node-js-to-bypass-antivirus/",
+        "published": "Thu, 12 Feb 2026 00:00:09 +0000"
     }
 ]
