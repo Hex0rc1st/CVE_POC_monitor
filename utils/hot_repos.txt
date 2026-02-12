@@ -34,3 +34,4 @@ https://github.com/muyuanlove/CVE-2025-6018-CVE-2025-6019-Privilege-Escalation-E
 https://github.com/BTtea/CVE-2026-20841-PoC
 https://github.com/win3zz/CVE-2026-1731
 https://github.com/0xc4r/CVE-2026-21508_POC
+https://github.com/patchpoint/CVE-2026-20841

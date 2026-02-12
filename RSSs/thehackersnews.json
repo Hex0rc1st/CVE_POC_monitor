@@ -1163,5 +1163,15 @@
         "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
         "link": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
         "published": "Thu, 12 Feb 2026 17:21:00 +0530"
+    },
+    {
+        "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
+        "link": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
+        "published": "Thu, 12 Feb 2026 23:27:00 +0530"
+    },
+    {
+        "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
+        "link": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
+        "published": "Thu, 12 Feb 2026 22:25:00 +0530"
     }
 ]
