@@ -29448,5 +29448,15 @@
         "title": "Weaponized Code: LTX Stealer Abuses Node.js to Bypass Antivirus",
         "link": "https://securityonline.info/weaponized-code-ltx-stealer-abuses-node-js-to-bypass-antivirus/",
         "published": "Thu, 12 Feb 2026 00:00:09 +0000"
+    },
+    {
+        "title": "MongoDB Flaw Allows Unauthenticated Attackers to Crash Database Servers",
+        "link": "https://securityonline.info/mongodb-flaw-allows-unauthenticated-attackers-to-crash-database-servers/",
+        "published": "Thu, 12 Feb 2026 04:35:50 +0000"
+    },
+    {
+        "title": "CVE-2026-1603: Remote Unauthenticated Attacker Can Steal Ivanti EPM Secrets",
+        "link": "https://securityonline.info/cve-2026-1603-remote-unauthenticated-attacker-can-steal-ivanti-epm-secrets/",
+        "published": "Thu, 12 Feb 2026 04:26:35 +0000"
     }
 ]

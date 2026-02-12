@@ -2869,3 +2869,6 @@ clean_list:
 - RDPVulnarableCheck
 - CVE-2026-20841
 - CVE-2025-49132-Pterodactyl-Panel-Unauthenticated-Remote-Code-Execution-RCE-
+- CVE-2024-2887
+- CVE-2025-62878
+- -CVE-2026-26215-manga-image-translator-RCE
