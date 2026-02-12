@@ -2874,3 +2874,5 @@ clean_list:
 - -CVE-2026-26215-manga-image-translator-RCE
 - CVE-2026-20841_notepad_analysis
 - React2Shell-POC
+- CVE-2026-22153
+- CVE-2026-26235-JUNG-Smart-Visu-Server-Unauthenticated-Reboot-Shutdown
