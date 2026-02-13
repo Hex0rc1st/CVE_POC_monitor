@@ -2880,3 +2880,4 @@ clean_list:
 - CVE-2025-49132-Pterodactyl-Panel-RCE
 - CVE-2026-22153-exp
 - CVE-2026-1729-PoC-AdForest-WordPress-Authentication-Bypass
+- CVE-2026-1357
