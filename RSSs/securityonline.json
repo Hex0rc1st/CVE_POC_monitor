@@ -29473,5 +29473,40 @@
         "title": "The Silent Assistant: Why Apple Just Pulled the Plug on Siri’s “Cerebral Transplant” for iOS 26.4",
         "link": "https://securityonline.info/the-silent-assistant-why-apple-just-pulled-the-plug-on-siris-cerebral-transplant-for-ios-26-4/",
         "published": "Thu, 12 Feb 2026 09:32:05 +0000"
+    },
+    {
+        "title": "Triple Threat Patched: Zimbra 10.1.16 Fixes XSS, XXE & LDAP Injection",
+        "link": "https://securityonline.info/triple-threat-patched-zimbra-10-1-16-fixes-xss-xxe-ldap-injection/",
+        "published": "Fri, 13 Feb 2026 00:33:15 +0000"
+    },
+    {
+        "title": "Email Under Siege: Storm-2603 Exploits SmarterMail to Deploy Warlock Ransomware",
+        "link": "https://securityonline.info/email-under-siege-storm-2603-exploits-smartermail-to-deploy-warlock-ransomware/",
+        "published": "Fri, 13 Feb 2026 00:28:27 +0000"
+    },
+    {
+        "title": "Dream Job or Nightmare? Lazarus Group Hunts Crypto Devs with “Graphalgo” Malware",
+        "link": "https://securityonline.info/dream-job-or-nightmare-lazarus-group-hunts-crypto-devs-with-graphalgo-malware/",
+        "published": "Fri, 13 Feb 2026 00:22:31 +0000"
+    },
+    {
+        "title": "The Human Hack: LummaStealer Returns with Deceptive “ClickFix” Attacks",
+        "link": "https://securityonline.info/the-human-hack-lummastealer-returns-with-deceptive-clickfix-attacks/",
+        "published": "Fri, 13 Feb 2026 00:18:53 +0000"
+    },
+    {
+        "title": "Back to the Future: SSHStalker Botnet Revives 2009 Tactics to Hijack Linux Servers",
+        "link": "https://securityonline.info/back-to-the-future-sshstalker-botnet-revives-2009-tactics-to-hijack-linux-servers/",
+        "published": "Fri, 13 Feb 2026 00:13:36 +0000"
+    },
+    {
+        "title": "Trojan Horse in the Server Room: Muddled Libra’s Rogue VM Strategy Exposed",
+        "link": "https://securityonline.info/trojan-horse-in-the-server-room-muddled-libras-rogue-vm-strategy-exposed/",
+        "published": "Fri, 13 Feb 2026 00:06:52 +0000"
+    },
+    {
+        "title": "Telegram Phishing Campaign Hijacks Accounts by Abusing Trust",
+        "link": "https://securityonline.info/telegram-phishing-campaign-hijacks-accounts-by-abusing-trust/",
+        "published": "Fri, 13 Feb 2026 00:00:03 +0000"
     }
 ]
