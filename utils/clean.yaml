@@ -2882,3 +2882,4 @@ clean_list:
 - CVE-2026-1729-PoC-AdForest-WordPress-Authentication-Bypass
 - CVE-2026-1357
 - CVE-2026-25924
+- React2Shell-CVE-2025-55182-An-lise-T-cnica
