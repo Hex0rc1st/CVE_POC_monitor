@@ -2892,3 +2892,4 @@ clean_list:
 - CVE-2026-1357-POC
 - CVE-2026-26335-Calero-VeraSMART-RCE
 - CVE-2024-37383_PoC
+- STProcessMonitorBYOVD
