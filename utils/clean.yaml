@@ -2895,3 +2895,4 @@ clean_list:
 - STProcessMonitorBYOVD
 - CVE-2025-4517-PoC
 - CVE-2025-4138-4517-POC
+- CVE-2025-4517-poc
