@@ -29518,5 +29518,10 @@
         "title": "Critical Alert: Chrome Zero-Day (CVE-2026-2441) Exploited in the Wild",
         "link": "https://securityonline.info/critical-alert-chrome-zero-day-cve-2026-2441-exploited-in-the-wild/",
         "published": "Sun, 15 Feb 2026 01:47:38 +0000"
+    },
+    {
+        "title": "Exploited in the Wild: Critical BeyondTrust Flaw (CVSS 9.9) Opens Door to Network Takeover",
+        "link": "https://securityonline.info/exploited-in-the-wild-critical-beyondtrust-flaw-cvss-9-9-opens-door-to-network-takeover/",
+        "published": "Sun, 15 Feb 2026 03:58:23 +0000"
     }
 ]
