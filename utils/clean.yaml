@@ -2896,3 +2896,6 @@ clean_list:
 - CVE-2025-4517-PoC
 - CVE-2025-4138-4517-POC
 - CVE-2025-4517-poc
+- CVE-2026-1490
+- demo-cve-2026-4821
+- Aurex
