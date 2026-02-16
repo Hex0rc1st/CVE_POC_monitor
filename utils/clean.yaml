@@ -2902,3 +2902,4 @@ clean_list:
 - CVE-2026-23744-Lab
 - PyPath-Escape-CVE-2025-4517-Exploit-Research
 - CVE-2026-2441_POC
+- CVE-2026-26012
