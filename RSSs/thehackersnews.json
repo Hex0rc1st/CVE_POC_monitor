@@ -1208,5 +1208,10 @@
         "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
         "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
         "published": "Sun, 15 Feb 2026 19:40:00 +0530"
+    },
+    {
+        "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
+        "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
+        "published": "Mon, 16 Feb 2026 12:08:00 +0530"
     }
 ]
