@@ -2903,3 +2903,5 @@ clean_list:
 - PyPath-Escape-CVE-2025-4517-Exploit-Research
 - CVE-2026-2441_POC
 - CVE-2026-26012
+- CVE-2025-69690-CVE-2025-69691
+- CVE-2025-4138-poc
