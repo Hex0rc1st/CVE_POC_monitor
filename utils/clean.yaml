@@ -2899,3 +2899,5 @@ clean_list:
 - CVE-2026-1490
 - demo-cve-2026-4821
 - Aurex
+- CVE-2026-23744-Lab
+- PyPath-Escape-CVE-2025-4517-Exploit-Research
