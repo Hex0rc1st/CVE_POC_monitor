@@ -2912,3 +2912,5 @@ clean_list:
 - CVE-2025-47812-PoC
 - CVE-2025-4517-POC-Sudoers
 - CVE-2026-2441-PoC
+- CVE-2026-21957-exp
+- CVE-2026-20700-An-analysis-WIP
