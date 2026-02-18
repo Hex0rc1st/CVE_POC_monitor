@@ -238,5 +238,15 @@
         "title": "Building the Future of Cloud Security: Rapid7 Recognized in Cloud Native Application Protection, Q1 2026",
         "link": "https://www.rapid7.com/blog/post/cds-cloud-security-rapid7-recognized-cloud-native-application-protection-cnapp-2026",
         "published": "Tue, 17 Feb 2026 16:00:00 GMT"
+    },
+    {
+        "title": "The Phone is Listening: A Cold War–Style Vulnerability in Modern VoIP",
+        "link": "https://www.rapid7.com/blog/post/ve-phone-listening-cold-war-vulnerability-modern-voip",
+        "published": "Wed, 18 Feb 2026 14:15:00 GMT"
+    },
+    {
+        "title": "CVE-2026-2329: Critical Unauthenticated Stack Buffer Overflow in Grandstream GXP1600 VoIP Phones (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-2329-critical-unauthenticated-stack-buffer-overflow-in-grandstream-gxp1600-voip-phones-fixed",
+        "published": "Wed, 18 Feb 2026 14:00:00 GMT"
     }
 ]
