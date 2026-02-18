@@ -2911,3 +2911,4 @@ clean_list:
 - CVE-2026-24061-GNU-Inetutils-telnetd-Remote-Authentication-Bypass-Root-Shell-
 - CVE-2025-47812-PoC
 - CVE-2025-4517-POC-Sudoers
+- CVE-2026-2441-PoC
