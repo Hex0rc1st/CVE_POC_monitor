@@ -2907,3 +2907,6 @@ clean_list:
 - CVE-2025-4138-poc
 - PoC-CVE-2026-20841
 - CVE-2025-55182-in-docker
+- CVE-2026-26221-Hyland-OnBase-Timer-Service-Unauthenticated-RCE
+- CVE-2026-24061-GNU-Inetutils-telnetd-Remote-Authentication-Bypass-Root-Shell-
+- CVE-2025-47812-PoC
