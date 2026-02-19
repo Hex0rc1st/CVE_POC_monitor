@@ -1333,5 +1333,20 @@
         "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
         "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
         "published": "Thu, 19 Feb 2026 20:05:00 +0530"
+    },
+    {
+        "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
+        "link": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+        "published": "Thu, 19 Feb 2026 23:22:00 +0530"
+    },
+    {
+        "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
+        "link": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+        "published": "Thu, 19 Feb 2026 23:20:00 +0530"
+    },
+    {
+        "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+        "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+        "published": "Thu, 19 Feb 2026 23:10:00 +0530"
     }
 ]
