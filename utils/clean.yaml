@@ -2917,3 +2917,4 @@ clean_list:
 - CVE-2026-20817
 - WSUS-CVE-2025-59287
 - CVE-2025-2563-POC
+- -CVE-2026-23829-CTT-Mailpit-phase-reconstruction-
