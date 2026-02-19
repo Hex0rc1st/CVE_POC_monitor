@@ -128,5 +128,10 @@
         "title": "The February 2026 Security Update Review",
         "link": "https://www.thezdi.com/blog/2026/2/10/the-february-2026-security-update-review",
         "published": "Tue, 10 Feb 2026 18:30:28 +0000"
+    },
+    {
+        "title": "CVE-2026-20841: Arbitrary Code Execution in the Windows Notepad",
+        "link": "https://www.thezdi.com/blog/2026/2/19/cve-2026-20841-arbitrary-code-execution-in-the-windows-notepad",
+        "published": "Thu, 19 Feb 2026 21:24:50 +0000"
     }
 ]
