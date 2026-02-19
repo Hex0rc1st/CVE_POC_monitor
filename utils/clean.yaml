@@ -2919,3 +2919,5 @@ clean_list:
 - CVE-2025-2563-POC
 - -CVE-2026-23829-CTT-Mailpit-phase-reconstruction-
 - axiosVulnExample
+- CVE-2026-5252-CVE-POC-ivanti
+- live-server-evil-crawler
