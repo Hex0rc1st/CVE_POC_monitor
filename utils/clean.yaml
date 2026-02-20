@@ -2924,3 +2924,5 @@ clean_list:
 - cve-2026-24514-Kubernetes-Dos
 - CVE-2025-4517-Python-tarfile-filter-data-Bypass-PoC
 - exploi-CVE-2026-2670
+- CVE-2026-26746
+- CVE-2026-27199-werkzeug-safe-join-bypass-PoC
