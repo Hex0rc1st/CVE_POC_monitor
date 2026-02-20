@@ -39,3 +39,4 @@ https://github.com/ANYLNK/STProcessMonitorBYOVD
 https://github.com/DesertDemons/CVE-2025-4138-4517-POC
 https://github.com/huseyinstif/CVE-2026-2441-PoC
 https://github.com/oxfemale/CVE-2026-20817
+https://github.com/SafeBreach-Labs/EventLogin-CVE-2025-29969
