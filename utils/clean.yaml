@@ -2921,3 +2921,6 @@ clean_list:
 - axiosVulnExample
 - CVE-2026-5252-CVE-POC-ivanti
 - live-server-evil-crawler
+- cve-2026-24514-Kubernetes-Dos
+- CVE-2025-4517-Python-tarfile-filter-data-Bypass-PoC
+- exploi-CVE-2026-2670
