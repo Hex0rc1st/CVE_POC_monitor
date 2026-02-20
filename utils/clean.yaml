@@ -2926,3 +2926,5 @@ clean_list:
 - exploi-CVE-2026-2670
 - CVE-2026-26746
 - CVE-2026-27199-werkzeug-safe-join-bypass-PoC
+- CVE-2026-26988-LibreNMS-SQLi
+- exploit-CVE-2026-2670
