@@ -248,5 +248,10 @@
         "title": "CVE-2026-2329: Critical Unauthenticated Stack Buffer Overflow in Grandstream GXP1600 VoIP Phones (FIXED)",
         "link": "https://www.rapid7.com/blog/post/ve-cve-2026-2329-critical-unauthenticated-stack-buffer-overflow-in-grandstream-gxp1600-voip-phones-fixed",
         "published": "Wed, 18 Feb 2026 14:00:00 GMT"
+    },
+    {
+        "title": "Hacktivism and the Winter Olympics 2026: What We’re Seeing and What it Signals",
+        "link": "https://www.rapid7.com/blog/post/it-hacktivism-winter-olympics-2026",
+        "published": "Fri, 20 Feb 2026 16:22:06 GMT"
     }
 ]

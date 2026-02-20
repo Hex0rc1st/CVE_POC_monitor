@@ -1378,5 +1378,10 @@
         "title": "ClickFix Campaign Abuses Compromised Sites to Deploy MIMICRAT Malware",
         "link": "https://thehackernews.com/2026/02/clickfix-campaign-abuses-compromised.html",
         "published": "Fri, 20 Feb 2026 17:25:00 +0530"
+    },
+    {
+        "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+        "link": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+        "published": "Fri, 20 Feb 2026 21:15:00 +0530"
     }
 ]
