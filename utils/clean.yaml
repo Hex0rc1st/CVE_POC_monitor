@@ -2929,3 +2929,4 @@ clean_list:
 - CVE-2026-26988-LibreNMS-SQLi
 - exploit-CVE-2026-2670
 - moatbot-security
+- CVE-2025-68645
