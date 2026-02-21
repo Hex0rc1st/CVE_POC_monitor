@@ -1383,5 +1383,15 @@
         "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
         "link": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
         "published": "Fri, 20 Feb 2026 21:15:00 +0530"
+    },
+    {
+        "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning",
+        "link": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+        "published": "Sat, 21 Feb 2026 13:28:00 +0530"
+    },
+    {
+        "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
+        "link": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+        "published": "Sat, 21 Feb 2026 12:51:00 +0530"
     }
 ]
