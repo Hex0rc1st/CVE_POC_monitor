@@ -2933,3 +2933,6 @@ clean_list:
 - openclaw_vulnerabilities_and_solutions
 - CVE-2025-69295
 - Internship_project_02
+- CVE-2025-50738-PoC
+- cve_2025_4138_poc
+- cve_2025_471812_poc
