@@ -2931,3 +2931,5 @@ clean_list:
 - moatbot-security
 - CVE-2025-68645
 - openclaw_vulnerabilities_and_solutions
+- CVE-2025-69295
+- Internship_project_02
