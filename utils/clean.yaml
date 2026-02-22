@@ -2930,3 +2930,4 @@ clean_list:
 - exploit-CVE-2026-2670
 - moatbot-security
 - CVE-2025-68645
+- openclaw_vulnerabilities_and_solutions
