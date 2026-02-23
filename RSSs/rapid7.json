@@ -258,5 +258,10 @@
         "title": "Metasploit Wrap-Up 02/20/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-02-20-2026",
         "published": "Fri, 20 Feb 2026 22:00:06 GMT"
+    },
+    {
+        "title": "Alert Fatigue Isn’t Going Away. Here’s How Modern SOCs Are Fighting Back",
+        "link": "https://www.rapid7.com/blog/post/dr-modern-soc-vs-alert-fatigue-siem-ebook",
+        "published": "Mon, 23 Feb 2026 14:09:13 GMT"
     }
 ]
