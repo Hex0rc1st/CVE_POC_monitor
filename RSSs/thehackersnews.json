@@ -1423,5 +1423,10 @@
         "title": "How Exposed Endpoints Increase Risk Across LLM Infrastructure",
         "link": "https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html",
         "published": "Mon, 23 Feb 2026 17:28:00 +0530"
+    },
+    {
+        "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
+        "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
+        "published": "Mon, 23 Feb 2026 23:29:00 +0530"
     }
 ]
