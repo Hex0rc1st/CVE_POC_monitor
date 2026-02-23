@@ -1413,5 +1413,15 @@
         "title": "Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens",
         "link": "https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html",
         "published": "Mon, 23 Feb 2026 15:50:00 +0530"
+    },
+    {
+        "title": "⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More",
+        "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
+        "published": "Mon, 23 Feb 2026 18:30:00 +0530"
+    },
+    {
+        "title": "How Exposed Endpoints Increase Risk Across LLM Infrastructure",
+        "link": "https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html",
+        "published": "Mon, 23 Feb 2026 17:28:00 +0530"
     }
 ]
