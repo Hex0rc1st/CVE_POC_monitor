@@ -2940,3 +2940,4 @@ clean_list:
 - CVE-2026-2441_PoC
 - CVE-2025-54100-BYPASS-
 - Elysium-Vanguard-Sentinel-Audit
+- CVE-2026-2898-FunAdmin-Deserialization
