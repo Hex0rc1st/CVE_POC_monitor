@@ -1458,5 +1458,10 @@
         "title": "UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware",
         "link": "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html",
         "published": "Tue, 24 Feb 2026 19:51:00 +0530"
+    },
+    {
+        "title": "RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN",
+        "link": "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+        "published": "Wed, 25 Feb 2026 00:22:00 +0530"
     }
 ]
