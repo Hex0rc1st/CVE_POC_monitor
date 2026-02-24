@@ -268,5 +268,10 @@
         "title": "New Report: The Digital Footprints of Many Executives Can Leave Their Companies Seriously Exposed",
         "link": "https://www.rapid7.com/blog/post/tr-new-rapid7-report-digital-executive-footprints-exposing-organizations",
         "published": "Tue, 24 Feb 2026 14:00:00 GMT"
+    },
+    {
+        "title": "Multi-Tenant API Access: Centralize, Scale, and Secure Your Operations",
+        "link": "https://www.rapid7.com/blog/post/pt-multi-tenant-api-access-centralized-scaled-secured-operations",
+        "published": "Tue, 24 Feb 2026 16:30:00 GMT"
     }
 ]
