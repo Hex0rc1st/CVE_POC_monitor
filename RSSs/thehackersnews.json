@@ -1463,5 +1463,10 @@
         "title": "RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN",
         "link": "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
         "published": "Wed, 25 Feb 2026 00:22:00 +0530"
+    },
+    {
+        "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability",
+        "link": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+        "published": "Wed, 25 Feb 2026 10:53:00 +0530"
     }
 ]

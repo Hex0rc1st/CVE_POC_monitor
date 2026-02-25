@@ -2942,3 +2942,4 @@ clean_list:
 - Elysium-Vanguard-Sentinel-Audit
 - CVE-2026-2898-FunAdmin-Deserialization
 - jsPDF-Object-Injection
+- CVE-2026-1357-Lab
