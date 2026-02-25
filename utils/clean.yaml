@@ -2943,3 +2943,4 @@ clean_list:
 - CVE-2026-2898-FunAdmin-Deserialization
 - jsPDF-Object-Injection
 - CVE-2026-1357-Lab
+- CVE-2025-69985
