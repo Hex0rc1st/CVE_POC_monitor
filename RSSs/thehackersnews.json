@@ -1483,5 +1483,10 @@
         "title": "Manual Processes Are Putting National Security at Risk",
         "link": "https://thehackernews.com/2026/02/manual-processes-are-putting-national.html",
         "published": "Wed, 25 Feb 2026 16:30:00 +0530"
+    },
+    {
+        "title": "Malicious NuGet Packages Stole ASP.NET Data; npm Package Dropped Malware",
+        "link": "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
+        "published": "Wed, 25 Feb 2026 18:13:00 +0530"
     }
 ]
