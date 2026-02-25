@@ -2944,3 +2944,4 @@ clean_list:
 - jsPDF-Object-Injection
 - CVE-2026-1357-Lab
 - CVE-2025-69985
+- React2Shell-Wazuh-Detection
