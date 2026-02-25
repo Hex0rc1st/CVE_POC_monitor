@@ -1503,5 +1503,10 @@
         "title": "Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration",
         "link": "https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html",
         "published": "Wed, 25 Feb 2026 22:30:00 +0530"
+    },
+    {
+        "title": "Google Disrupts UNC2814 GRIDTIDE Campaign After 53 Breaches Across 42 Countries",
+        "link": "https://thehackernews.com/2026/02/google-disrupts-unc2814-gridtide.html",
+        "published": "Wed, 25 Feb 2026 23:16:00 +0530"
     }
 ]
