@@ -1468,5 +1468,10 @@
         "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability",
         "link": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
         "published": "Wed, 25 Feb 2026 10:53:00 +0530"
+    },
+    {
+        "title": "SolarWinds Patches 4 Critical Serv-U 15.5 Flaws Allowing Root Code Execution",
+        "link": "https://thehackernews.com/2026/02/solarwinds-patches-4-critical-serv-u.html",
+        "published": "Wed, 25 Feb 2026 12:34:00 +0530"
     }
 ]
