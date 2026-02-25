@@ -1498,5 +1498,10 @@
         "title": "Top 5 Ways Broken Triage Increases Business Risk Instead of Reducing It",
         "link": "https://thehackernews.com/2026/02/top-5-ways-broken-triage-increases.html",
         "published": "Wed, 25 Feb 2026 20:00:00 +0530"
+    },
+    {
+        "title": "Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration",
+        "link": "https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html",
+        "published": "Wed, 25 Feb 2026 22:30:00 +0530"
     }
 ]

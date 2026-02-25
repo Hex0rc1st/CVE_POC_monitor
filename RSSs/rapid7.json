@@ -278,5 +278,10 @@
         "title": "The Post-RAMP Era: Allegations, Fragmentation, and the Rebuilding of the Ransomware Underground",
         "link": "https://www.rapid7.com/blog/post/tr-post-ramp-allegations-fragmentation-ransomware-underground-rebuild",
         "published": "Wed, 25 Feb 2026 13:56:38 GMT"
+    },
+    {
+        "title": "Your MRI is Online: The Hidden Risks of Exposed DICOM Servers in UK Healthcare",
+        "link": "https://www.rapid7.com/blog/post/tr-mri-hidden-risks-exposed-dicom-servers-uk-healthcare",
+        "published": "Wed, 25 Feb 2026 16:21:24 GMT"
     }
 ]
