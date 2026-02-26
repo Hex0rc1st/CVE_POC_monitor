@@ -2947,3 +2947,4 @@ clean_list:
 - React2Shell-Wazuh-Detection
 - hfs2
 - wordpress-vulnerability-fix
+- CVE-2026-27831-POC
