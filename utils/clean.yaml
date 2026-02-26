@@ -2948,3 +2948,4 @@ clean_list:
 - hfs2
 - wordpress-vulnerability-fix
 - CVE-2026-27831-POC
+- CVE-2026-28207
