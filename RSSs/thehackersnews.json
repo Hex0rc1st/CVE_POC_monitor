@@ -1513,5 +1513,15 @@
         "title": "Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access",
         "link": "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
         "published": "Thu, 26 Feb 2026 11:43:00 +0530"
+    },
+    {
+        "title": "Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware",
+        "link": "https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html",
+        "published": "Thu, 26 Feb 2026 16:05:00 +0530"
+    },
+    {
+        "title": "Malicious StripeApi NuGet Package Mimicked Official Library and Stole API Tokens",
+        "link": "https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html",
+        "published": "Thu, 26 Feb 2026 15:39:00 +0530"
     }
 ]
