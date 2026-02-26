@@ -2953,3 +2953,5 @@ clean_list:
 - CVE-2025-5688-FreeRTOS-Plus-TCP-Out-of-Bounds-Write
 - CVE-disclosures
 - CVE-2024-55879
+- majordomo-CVE-2026-27174-poc
+- MCPwnfluence
