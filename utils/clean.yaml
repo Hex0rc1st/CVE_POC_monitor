@@ -2949,3 +2949,6 @@ clean_list:
 - wordpress-vulnerability-fix
 - CVE-2026-27831-POC
 - CVE-2026-28207
+- docling-core-CVE-2026-24009
+- CVE-2025-5688-FreeRTOS-Plus-TCP-Out-of-Bounds-Write
+- CVE-disclosures
