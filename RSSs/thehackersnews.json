@@ -1538,5 +1538,10 @@
         "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
         "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
         "published": "Thu, 26 Feb 2026 19:58:00 +0530"
+    },
+    {
+        "title": "Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown",
+        "link": "https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html",
+        "published": "Thu, 26 Feb 2026 23:30:00 +0530"
     }
 ]
