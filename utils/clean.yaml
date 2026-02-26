@@ -2955,3 +2955,4 @@ clean_list:
 - CVE-2024-55879
 - majordomo-CVE-2026-27174-poc
 - MCPwnfluence
+- CVE_2026_25892
