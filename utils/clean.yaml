@@ -2956,3 +2956,6 @@ clean_list:
 - majordomo-CVE-2026-27174-poc
 - MCPwnfluence
 - CVE_2026_25892
+- CVE-2025-39459
+- CVE-2026-21852-PoC
+- cisa-ed-26-03-tracker
