@@ -1228,5 +1228,10 @@
         "title": "XSS via back button",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-25-093",
         "published": "Tue, 10 Feb 2026 00:00:00 -0800"
+    },
+    {
+        "title": "SQL injection in forward module",
+        "link": "https://fortiguard.fortinet.com/psirt/#5575",
+        "published": "Sat, 21 Feb 2026 00:41:45 -0800"
     }
 ]
