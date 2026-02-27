@@ -1558,5 +1558,10 @@
         "title": "ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks",
         "link": "https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html",
         "published": "Fri, 27 Feb 2026 18:13:00 +0530"
+    },
+    {
+        "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
+        "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
+        "published": "Fri, 27 Feb 2026 21:03:00 +0530"
     }
 ]
