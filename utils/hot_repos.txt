@@ -42,3 +42,4 @@ https://github.com/oxfemale/CVE-2026-20817
 https://github.com/SafeBreach-Labs/EventLogin-CVE-2025-29969
 https://github.com/plutosecurity/MCPwnfluence
 https://github.com/atiilla/CVE-2026-21852-PoC
+https://github.com/JoshuaProvoste/CVE-2026-2472-Vertex-AI-SDK-Google-Cloud
