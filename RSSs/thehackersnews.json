@@ -1583,5 +1583,10 @@
         "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
         "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
         "published": "Sat, 28 Feb 2026 15:26:00 +0530"
+    },
+    {
+        "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+        "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+        "published": "Sat, 28 Feb 2026 22:51:00 +0530"
     }
 ]
