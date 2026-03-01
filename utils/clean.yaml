@@ -2969,3 +2969,6 @@ clean_list:
 - CVE-2026-23842-Denial-of-Service-via-Database-Connection-Pool-Exhaustion-version-1.2.10
 - CVE-2025-66678
 - CVE-2026-27579-CORS-Misconfiguration-Leading-to-Authenticated-Data-Exposure
+- CVE-2025-68860
+- Snort-Rule
+- cve-2025-1716
