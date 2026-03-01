@@ -2965,3 +2965,4 @@ clean_list:
 - CVE-2026-1581-Analysis-Lab
 - Win10-Security-Patches
 - CVE-2026-28372-GNU-inetutils-telnetd-Privilege-Escalation-main
+- Metasploit-Wordpress-Canto-Exploit-RCE-CVE-2024-25096
