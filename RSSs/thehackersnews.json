@@ -1588,5 +1588,10 @@
         "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
         "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
         "published": "Sat, 28 Feb 2026 22:51:00 +0530"
+    },
+    {
+        "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
+        "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
+        "published": "Mon, 02 Mar 2026 14:14:00 +0530"
     }
 ]
