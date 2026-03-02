@@ -1598,5 +1598,10 @@
         "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
         "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
         "published": "Mon, 02 Mar 2026 16:06:00 +0530"
+    },
+    {
+        "title": "How to Protect Your SaaS from Bot Attacks with SafeLine WAF",
+        "link": "https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html",
+        "published": "Mon, 02 Mar 2026 17:25:00 +0530"
     }
 ]
