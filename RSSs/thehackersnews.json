@@ -1593,5 +1593,10 @@
         "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
         "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
         "published": "Mon, 02 Mar 2026 14:14:00 +0530"
+    },
+    {
+        "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
+        "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
+        "published": "Mon, 02 Mar 2026 16:06:00 +0530"
     }
 ]
