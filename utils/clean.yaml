@@ -2976,3 +2976,4 @@ clean_list:
 - bugtest
 - CVE-2025-6018
 - MajorDoMo-CVE-2026-27179
+- CVE-2025-62215-POC
