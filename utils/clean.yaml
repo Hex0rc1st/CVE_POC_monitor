@@ -2975,3 +2975,4 @@ clean_list:
 - CVE-2026-25940
 - bugtest
 - CVE-2025-6018
+- MajorDoMo-CVE-2026-27179
