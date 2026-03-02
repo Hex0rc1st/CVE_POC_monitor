@@ -2974,3 +2974,4 @@ clean_list:
 - cve-2025-1716
 - CVE-2026-25940
 - bugtest
+- CVE-2025-6018
