@@ -1608,5 +1608,15 @@
         "title": "⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More",
         "link": "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
         "published": "Mon, 02 Mar 2026 18:56:00 +0530"
+    },
+    {
+        "title": "New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel",
+        "link": "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
+        "published": "Mon, 02 Mar 2026 22:38:00 +0530"
+    },
+    {
+        "title": "Google Develops Merkle Tree Certificates to Enable Quantum-Resistant HTTPS in Chrome",
+        "link": "https://thehackernews.com/2026/03/google-develops-merkle-tree.html",
+        "published": "Mon, 02 Mar 2026 22:22:00 +0530"
     }
 ]
