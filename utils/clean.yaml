@@ -2973,3 +2973,4 @@ clean_list:
 - Snort-Rule
 - cve-2025-1716
 - CVE-2026-25940
+- bugtest
