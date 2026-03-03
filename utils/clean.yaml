@@ -2981,3 +2981,4 @@ clean_list:
 - CVE-2026-3395-Lab
 - oxidised-chfn
 - microsoft
+- telnetd
