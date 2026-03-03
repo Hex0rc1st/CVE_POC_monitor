@@ -1233,5 +1233,15 @@
         "title": "SQL injection in forward module",
         "link": "https://fortiguard.fortinet.com/psirt/#5575",
         "published": "Sat, 21 Feb 2026 00:41:45 -0800"
+    },
+    {
+        "title": "XSS in default error page",
+        "link": "https://fortiguard.fortinet.com/psirt/#6477",
+        "published": "Sat, 21 Feb 2026 00:44:18 -0800"
+    },
+    {
+        "title": "OpenSSL CVE-2025-15467",
+        "link": "https://fortiguard.fortinet.com/psirt/#7117",
+        "published": "Sat, 21 Feb 2026 00:42:47 -0800"
     }
 ]
