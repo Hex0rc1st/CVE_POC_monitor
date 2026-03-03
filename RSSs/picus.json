@@ -248,5 +248,10 @@
         "title": "Notepad++ Supply Chain Attack & Chrysalis Backdoor",
         "link": "https://www.picussecurity.com/resource/blog/notepad-supply-chain-attack-chrysalis-backdoor",
         "published": "Mon, 02 Mar 2026 10:42:22 GMT"
+    },
+    {
+        "title": "CVE-2026-24061: Critical Telnetd Flaw Grants Root Access",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-24061-critical-telnetd-flaw-grants-root-access",
+        "published": "Tue, 03 Mar 2026 07:00:00 GMT"
     }
 ]
