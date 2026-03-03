@@ -2987,3 +2987,4 @@ clean_list:
 - CVE-2025-66680
 - osTicketFileReadIntoRCE
 - CVE-2025-39459-Nuclei-Template
+- cve-2026-20817_try
