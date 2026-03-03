@@ -2984,3 +2984,4 @@ clean_list:
 - telnetd
 - erlang-ssh-rce-CVE-2025-32433
 - CVE-2026-2628-PoC
+- CVE-2025-66680
