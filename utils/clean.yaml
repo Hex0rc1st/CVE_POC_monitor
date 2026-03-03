@@ -2982,3 +2982,5 @@ clean_list:
 - oxidised-chfn
 - microsoft
 - telnetd
+- erlang-ssh-rce-CVE-2025-32433
+- CVE-2026-2628-PoC
