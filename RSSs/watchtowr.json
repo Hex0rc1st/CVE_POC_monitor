@@ -233,5 +233,10 @@
         "title": "Buy A Help Desk, Bundle A Remote Access Solution? (SolarWinds Web Help Desk Pre-Auth RCE Chain(s))",
         "link": "https://labs.watchtowr.com/buy-a-help-desk-bundle-a-remote-access-solution-solarwinds-web-help-desk-pre-auth-rce-chain-s/",
         "published": "Wed, 25 Feb 2026 20:06:32 GMT"
+    },
+    {
+        "title": "Sometimes, You Can Just Feel The Security In The Design (Junos OS Evolved CVE-2026-21902 RCE)",
+        "link": "https://labs.watchtowr.com/sometimes-you-can-just-feel-the-security-in-the-design-junos-os-evolved-cve-2026-21902-rce/",
+        "published": "Tue, 03 Mar 2026 14:15:18 GMT"
     }
 ]
