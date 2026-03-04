@@ -1668,5 +1668,10 @@
         "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
         "link": "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
         "published": "Wed, 04 Mar 2026 13:44:00 +0530"
+    },
+    {
+        "title": "Fake Laravel Packages on Packagist Deploy RAT on Windows, macOS, and Linux",
+        "link": "https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html",
+        "published": "Wed, 04 Mar 2026 15:07:00 +0530"
     }
 ]
