@@ -2994,3 +2994,4 @@ clean_list:
 - cve-2024-1086-lpe
 - CNVD-2026-12436-and-CVE-2024-10835
 - FortiWeb-CVE
+- CVE-2024-38063-Exploit-Refactoring
