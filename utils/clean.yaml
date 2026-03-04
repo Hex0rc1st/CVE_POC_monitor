@@ -2991,3 +2991,4 @@ clean_list:
 - qualcomm-vulnerability-scanner
 - CVE-2026-20127---Cisco-SD-WAN-Preauth-RCE
 - CVE-2026-27636
+- cve-2024-1086-lpe

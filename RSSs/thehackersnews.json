@@ -1658,5 +1658,10 @@
         "title": "Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations",
         "link": "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html",
         "published": "Tue, 03 Mar 2026 22:45:00 +0530"
+    },
+    {
+        "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
+        "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
+        "published": "Wed, 04 Mar 2026 10:05:00 +0530"
     }
 ]
