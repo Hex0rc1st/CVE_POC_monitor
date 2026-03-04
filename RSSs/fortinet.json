@@ -1243,5 +1243,10 @@
         "title": "OpenSSL CVE-2025-15467",
         "link": "https://fortiguard.fortinet.com/psirt/#7117",
         "published": "Sat, 21 Feb 2026 00:42:47 -0800"
+    },
+    {
+        "title": "SSRF in GUI console",
+        "link": "https://fortiguard.fortinet.com/psirt/#6524",
+        "published": "Sat, 21 Feb 2026 00:42:47 -0800"
     }
 ]

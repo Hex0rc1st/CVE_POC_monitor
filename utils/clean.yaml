@@ -2988,3 +2988,5 @@ clean_list:
 - osTicketFileReadIntoRCE
 - CVE-2025-39459-Nuclei-Template
 - cve-2026-20817_try
+- qualcomm-vulnerability-scanner
+- CVE-2026-20127---Cisco-SD-WAN-Preauth-RCE
