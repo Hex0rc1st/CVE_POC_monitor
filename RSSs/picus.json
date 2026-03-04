@@ -253,5 +253,10 @@
         "title": "CVE-2026-24061: Critical Telnetd Flaw Grants Root Access",
         "link": "https://www.picussecurity.com/resource/blog/cve-2026-24061-critical-telnetd-flaw-grants-root-access",
         "published": "Tue, 03 Mar 2026 07:00:00 GMT"
+    },
+    {
+        "title": "CVE-2025-59718: Critical FortiCloud SSO Authentication Bypass",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2025-59718-critical-forticloud-sso-authentication-bypass",
+        "published": "Wed, 04 Mar 2026 08:30:00 GMT"
     }
 ]
