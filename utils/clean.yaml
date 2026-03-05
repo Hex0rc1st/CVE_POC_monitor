@@ -2998,3 +2998,5 @@ clean_list:
 - CVE-2026-20127
 - CVE-2026-2268-RemoteCodeExecution-RCE-PoC
 - CVE-2026-22686-RemoteCodeExecution-RCE-PoC
+- CVE-2025-32462-CVE-2025-32463-PoC-Lab
+- CVE-2026-2636
