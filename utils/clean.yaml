@@ -2997,3 +2997,4 @@ clean_list:
 - CVE-2024-38063-Exploit-Refactoring
 - CVE-2026-20127
 - CVE-2026-2268-RemoteCodeExecution-RCE-PoC
+- CVE-2026-22686-RemoteCodeExecution-RCE-PoC

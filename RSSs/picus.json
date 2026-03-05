@@ -258,5 +258,10 @@
         "title": "CVE-2025-59718: Critical FortiCloud SSO Authentication Bypass",
         "link": "https://www.picussecurity.com/resource/blog/cve-2025-59718-critical-forticloud-sso-authentication-bypass",
         "published": "Wed, 04 Mar 2026 08:30:00 GMT"
+    },
+    {
+        "title": "T1059.001 PowerShell in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1059-001-powershell",
+        "published": "Thu, 05 Mar 2026 06:30:00 GMT"
     }
 ]
