@@ -2996,3 +2996,4 @@ clean_list:
 - FortiWeb-CVE
 - CVE-2024-38063-Exploit-Refactoring
 - CVE-2026-20127
+- CVE-2026-2268-RemoteCodeExecution-RCE-PoC
