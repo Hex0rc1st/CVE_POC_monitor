@@ -273,5 +273,10 @@
         "title": "T1059.002 AppleScript in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1059-002-applescript",
         "published": "Fri, 06 Mar 2026 06:45:00 GMT"
+    },
+    {
+        "title": "Measuring BAS ROI: A CISO’s Guide to Justifying Security Validation Investments",
+        "link": "https://www.picussecurity.com/resource/blog/measuring-bas-roi-a-cisos-guide-to-justifying-security-validation-investments",
+        "published": "Fri, 06 Mar 2026 08:31:39 GMT"
     }
 ]
