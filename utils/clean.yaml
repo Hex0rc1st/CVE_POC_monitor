@@ -3005,3 +3005,4 @@ clean_list:
 - Metasploit-Wordpress-Canto-Exploit-RCE
 - CVE-2026-20079
 - CVE-2026-20131
+- CVE-2026-20131-POC
