@@ -283,5 +283,10 @@
         "title": "Iranian Threat Actors: What Defenders Need to Know",
         "link": "https://www.picussecurity.com/resource/iranian-threat-actors-what-defenders-need-to-know",
         "published": "Fri, 06 Mar 2026 18:39:05 GMT"
+    },
+    {
+        "title": "T1059.003 Windows Command Shell in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1059-003-windows-command-shell",
+        "published": "Sat, 07 Mar 2026 05:45:00 GMT"
     }
 ]
