@@ -1768,5 +1768,10 @@
         "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
         "link": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
         "published": "Sat, 07 Mar 2026 16:51:00 +0530"
+    },
+    {
+        "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
+        "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
+        "published": "Sat, 07 Mar 2026 21:58:00 +0530"
     }
 ]
