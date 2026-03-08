@@ -3018,3 +3018,4 @@ clean_list:
 - CVE-2026-1492-POC
 - CVE-2025-60787_PoC
 - cve-2026-21962
+- sdwan-scanner-CVE-2026-20127
