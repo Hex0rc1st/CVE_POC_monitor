@@ -3023,3 +3023,4 @@ clean_list:
 - CVE-2026-30863-Exploit
 - Agentic-CLIP-Benchmark
 - Moniker-Link-Lab-Setup
+- zenml-CVE-2024-2083-POC
