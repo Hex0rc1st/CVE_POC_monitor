@@ -45,3 +45,4 @@ https://github.com/atiilla/CVE-2026-21852-PoC
 https://github.com/JoshuaProvoste/CVE-2026-2472-Vertex-AI-SDK-Google-Cloud
 https://github.com/suuhm/CVE-2026-21509-handler
 https://github.com/zerozenxlabs/CVE-2026-20127---Cisco-SD-WAN-Preauth-RCE
+https://github.com/plur1bu5/CVE-2024-51482-PoC
