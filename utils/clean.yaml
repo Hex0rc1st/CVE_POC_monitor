@@ -3024,3 +3024,5 @@ clean_list:
 - Agentic-CLIP-Benchmark
 - Moniker-Link-Lab-Setup
 - zenml-CVE-2024-2083-POC
+- bigint-buffer-safe
+- cve-2025-31651
