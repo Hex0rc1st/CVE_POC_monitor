@@ -288,5 +288,10 @@
         "title": "T1059.003 Windows Command Shell in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1059-003-windows-command-shell",
         "published": "Sat, 07 Mar 2026 05:45:00 GMT"
+    },
+    {
+        "title": "T1059.004 Unix Shell in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1059-004-unix-shell",
+        "published": "Mon, 09 Mar 2026 07:00:00 GMT"
     }
 ]
