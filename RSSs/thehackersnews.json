@@ -1773,5 +1773,10 @@
         "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
         "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
         "published": "Sat, 07 Mar 2026 21:58:00 +0530"
+    },
+    {
+        "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
+        "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
+        "published": "Mon, 09 Mar 2026 12:51:00 +0530"
     }
 ]

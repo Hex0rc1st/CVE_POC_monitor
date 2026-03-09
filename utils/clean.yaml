@@ -3027,3 +3027,5 @@ clean_list:
 - bigint-buffer-safe
 - cve-2025-31651
 - CVE-2024-6387
+- CVE-2025-59287-Exercise-Use
+- CVE-2026-25253
