@@ -28,3 +28,7 @@ object:
 - kafka ui
 - vite
 - opneclaw
+- langflow
+- n8n
+- vllm
+- opencode
