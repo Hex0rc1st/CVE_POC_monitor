@@ -3026,3 +3026,4 @@ clean_list:
 - zenml-CVE-2024-2083-POC
 - bigint-buffer-safe
 - cve-2025-31651
+- CVE-2024-6387
