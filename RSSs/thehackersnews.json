@@ -1778,5 +1778,10 @@
         "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
         "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
         "published": "Mon, 09 Mar 2026 12:51:00 +0530"
+    },
+    {
+        "title": "Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft",
+        "link": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
+        "published": "Mon, 09 Mar 2026 15:58:00 +0530"
     }
 ]
