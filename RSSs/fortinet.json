@@ -1248,5 +1248,115 @@
         "title": "SSRF in GUI console",
         "link": "https://fortiguard.fortinet.com/psirt/#6524",
         "published": "Sat, 21 Feb 2026 00:42:47 -0800"
+    },
+    {
+        "title": "Arbitrary file deletion in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-094",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Authentication Lockout Bypass via Race Condition",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-079",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Authentication rate-limit bypass permits to brute force admin logins",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-082",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Buffer Overflow in LLDP OUI field",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-086",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Buffer overflow via fgtupdates service",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-098",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Format string vulnerability in fazsvcd",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-092",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Insecure Exposure of Plaintext Passwords in Debug Logs",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-080",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Lack of TLS Certificate Validation during initial SSO Authentication",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-078",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Local privilege escalation via improper symlink following",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-083",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "MFA Bypass in GUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-090",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Null Pointer Dereference in Anti-Defacement feature",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-089",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "OS Command injection in FortiWeb API",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-088",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "OS command injection on vmimages update feature",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-096",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Path traversal vulnerability in FortiSOAR Agent Connector Bridge server",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-084",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Privilege escalation using undocumented CLI command",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-081",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Protected hostname bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-097",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Reflected Cross Site Scripting (XSS) in error page",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-077",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SQL injection in jsonrpc api",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-095",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Stack buffer overflow in API",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-093",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Stack-based Buffer Overflow in API protection",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-087",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "XSS in LDAP server option",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-091",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
+    },
+    {
+        "title": "shell command limitation bypass by SSH local config overriding",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-085",
+        "published": "Tue, 10 Mar 2026 00:00:00 -0700"
     }
 ]
