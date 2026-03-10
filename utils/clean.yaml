@@ -3040,3 +3040,6 @@ clean_list:
 - Claude-Code-MCP-Injection-PoC
 - NodeJS-Tar-Symlink-Exploit-CVE-2026-29786
 - CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated
+- flask-vuln-v6
+- flask-vuln-v5
+- CVE-2026-3288
