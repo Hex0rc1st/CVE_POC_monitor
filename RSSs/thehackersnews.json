@@ -1813,5 +1813,25 @@
         "title": "Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool",
         "link": "https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html",
         "published": "Tue, 10 Mar 2026 12:47:00 +0530"
+    },
+    {
+        "title": "New \"LeakyLooker\" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries",
+        "link": "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
+        "published": "Tue, 10 Mar 2026 18:50:00 +0530"
+    },
+    {
+        "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
+        "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
+        "published": "Tue, 10 Mar 2026 17:15:00 +0530"
+    },
+    {
+        "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
+        "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
+        "published": "Tue, 10 Mar 2026 16:30:00 +0530"
+    },
+    {
+        "title": "APT28 Uses BEARDSHELL and COVENANT Malware to Spy on Ukrainian Military",
+        "link": "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
+        "published": "Tue, 10 Mar 2026 16:25:00 +0530"
     }
 ]

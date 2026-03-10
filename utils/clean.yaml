@@ -3046,3 +3046,5 @@ clean_list:
 - CVE-2024-51428-PoC
 - cve_datasets_2025-
 - CVE-2026-27944-Lab
+- CVE-2025-60739
+- CVE-2024-27198
