@@ -308,5 +308,15 @@
         "title": "T1059.006 Python in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1059-006-python",
         "published": "Tue, 10 Mar 2026 11:30:00 GMT"
+    },
+    {
+        "title": "MITRE ATT&CK T1055 Process Injection clone test",
+        "link": "https://www.picussecurity.com/resource/ymitre-attck-t1055-process-injection-clone-testetststts",
+        "published": "Tue, 10 Mar 2026 14:54:04 GMT"
+    },
+    {
+        "title": "Picus Security Wins 2026 ChannelVision AI Award for AI-Powered Threat Detection and Prevention",
+        "link": "https://www.picussecurity.com/resource/press-release/picus-security-wins-2026-channelvision-ai-award-for-ai-powered-threat-detection-and-prevention",
+        "published": "Tue, 10 Mar 2026 13:57:00 GMT"
     }
 ]
