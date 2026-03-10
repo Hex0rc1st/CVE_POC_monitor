@@ -3033,3 +3033,8 @@ clean_list:
 - CVE-2025-5548
 - CVE-2025-70330
 - CVE-2026-1492
+- CVE_Moodle_3.5.x
+- -Apple-Ipados-CVE-2024-23222
+- CVE-2026-0709
+- CVE-2026-29780
+- Claude-Code-MCP-Injection-PoC
