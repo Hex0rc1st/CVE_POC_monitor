@@ -3038,3 +3038,5 @@ clean_list:
 - CVE-2026-0709
 - CVE-2026-29780
 - Claude-Code-MCP-Injection-PoC
+- NodeJS-Tar-Symlink-Exploit-CVE-2026-29786
+- CVE-2024-23222-Coruna-Exploit-Kit-Deobfuscated
