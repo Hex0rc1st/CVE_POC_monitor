@@ -3044,3 +3044,5 @@ clean_list:
 - flask-vuln-v5
 - CVE-2026-3288
 - CVE-2024-51428-PoC
+- cve_datasets_2025-
+- CVE-2026-27944-Lab
