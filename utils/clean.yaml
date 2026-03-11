@@ -3053,3 +3053,4 @@ clean_list:
 - CVE-2026-27944
 - CVE-2026-30944-PoC
 - CVE-2025-69219
+- sqli-hunter-CVE-2024-51482-PoC
