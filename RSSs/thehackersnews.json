@@ -1873,5 +1873,10 @@
         "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
         "link": "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
         "published": "Wed, 11 Mar 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+        "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+        "published": "Wed, 11 Mar 2026 20:21:00 +0530"
     }
 ]
