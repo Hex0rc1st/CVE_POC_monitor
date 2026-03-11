@@ -508,5 +508,20 @@
         "title": "CVE-2026-0228 PAN-OS: Improper Validation of Terminal Server Agent Certificate (Severity: LOW)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0228",
         "published": "2026-02-11T17:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0003 Chromium: Monthly Vulnerability Update (March 2026) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0003",
+        "published": "2026-03-11T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0231 Cortex XDR Broker VM: Sensitive Information Disclosure Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0231",
+        "published": "2026-03-11T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0230",
+        "published": "2026-03-11T16:00:00.000Z"
     }
 ]
