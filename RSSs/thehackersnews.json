@@ -1843,5 +1843,10 @@
         "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
         "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
         "published": "Tue, 10 Mar 2026 21:51:00 +0530"
+    },
+    {
+        "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+        "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+        "published": "Wed, 11 Mar 2026 10:42:00 +0530"
     }
 ]
