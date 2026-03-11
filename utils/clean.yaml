@@ -3056,3 +3056,5 @@ clean_list:
 - sqli-hunter-CVE-2024-51482-PoC
 - CVE-2026-27540-WordPress-Exploit-PoC
 - -CVE-2026-27739-poc
+- CVE-2026-30952-PoC
+- CVE-2026-29000-Lab
