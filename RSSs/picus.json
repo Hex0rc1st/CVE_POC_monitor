@@ -328,5 +328,15 @@
         "title": "Protecting a Global Football Brand: How Juventus Strengthens Cyber Defense with Picus Security",
         "link": "https://www.picussecurity.com/resource/case-study/how-juventus-strengthens-cyber-defense-with-picus-security",
         "published": "Thu, 12 Mar 2026 06:45:00 GMT"
+    },
+    {
+        "title": "T1059.009 Cloud API in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1059-009-cloud-api",
+        "published": "Thu, 12 Mar 2026 08:15:00 GMT"
+    },
+    {
+        "title": "T1059.007 JavaScript in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1059-007-javascript",
+        "published": "Thu, 12 Mar 2026 08:15:00 GMT"
     }
 ]
