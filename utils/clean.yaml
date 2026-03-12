@@ -3067,3 +3067,5 @@ clean_list:
 - CVE-2024-32002
 - CVE-2025-55182-React-RSC-Exploit
 - CVE-2026-29053
+- WPGhost
+- CVE-2025-38001
