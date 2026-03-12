@@ -1913,5 +1913,15 @@
         "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
         "link": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
         "published": "Thu, 12 Mar 2026 18:44:00 +0530"
+    },
+    {
+        "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
+        "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
+        "published": "Thu, 12 Mar 2026 23:01:00 +0530"
+    },
+    {
+        "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
+        "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
+        "published": "Thu, 12 Mar 2026 22:32:00 +0530"
     }
 ]
