@@ -3073,3 +3073,4 @@ clean_list:
 - CVE-2026-29000---pac4j-jwt-Authentication-Bypass-PoC
 - CVE-2025-12057-WordPress-Exploit-PoC
 - Ni8mare-CVE-2026-21858
+- CVE-2025-59284-PoC
