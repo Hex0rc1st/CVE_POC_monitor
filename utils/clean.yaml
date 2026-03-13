@@ -3080,3 +3080,4 @@ clean_list:
 - CVE-2026-27097
 - CVE-2026-29000-Python-PoC-pac4j-JWT-AuthenticationBypass-Poc
 - CVE-2025-66866
+- CVE-2024-47176

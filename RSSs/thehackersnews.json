@@ -1943,5 +1943,15 @@
         "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
         "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
         "published": "Fri, 13 Mar 2026 13:48:00 +0530"
+    },
+    {
+        "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials",
+        "link": "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
+        "published": "Fri, 13 Mar 2026 19:08:00 +0530"
+    },
+    {
+        "title": "Investigating a New Click-Fix Variant",
+        "link": "https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html",
+        "published": "Fri, 13 Mar 2026 18:58:00 +0530"
     }
 ]
