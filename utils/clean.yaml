@@ -3076,3 +3076,7 @@ clean_list:
 - CVE-2025-59284-PoC
 - CVE-2026-3442
 - CVE-2026-29000
+- CVE-2026-1311
+- CVE-2026-27097
+- CVE-2026-29000-Python-PoC-pac4j-JWT-AuthenticationBypass-Poc
+- CVE-2025-66866
