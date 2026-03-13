@@ -3074,3 +3074,5 @@ clean_list:
 - CVE-2025-12057-WordPress-Exploit-PoC
 - Ni8mare-CVE-2026-21858
 - CVE-2025-59284-PoC
+- CVE-2026-3442
+- CVE-2026-29000
