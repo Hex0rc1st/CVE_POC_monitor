@@ -47,3 +47,4 @@ https://github.com/suuhm/CVE-2026-21509-handler
 https://github.com/zerozenxlabs/CVE-2026-20127---Cisco-SD-WAN-Preauth-RCE
 https://github.com/plur1bu5/CVE-2024-51482-PoC
 https://github.com/sak110/CVE-2025-69219
+https://github.com/FuzzySecurity/Cassowary-CVE-2024-23222-x86_64

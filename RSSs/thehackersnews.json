@@ -1973,5 +1973,10 @@
         "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
         "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
         "published": "Sat, 14 Mar 2026 18:25:00 +0530"
+    },
+    {
+        "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
+        "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
+        "published": "Sat, 14 Mar 2026 21:47:00 +0530"
     }
 ]
