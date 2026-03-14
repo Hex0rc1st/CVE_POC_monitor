@@ -3086,3 +3086,4 @@ clean_list:
 - detect_CVE-2026-25177
 - CVE-2025-68926-repo
 - cve-2025-15467
+- Cve_2026_29000_exploit
