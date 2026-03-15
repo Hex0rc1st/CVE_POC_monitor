@@ -3089,3 +3089,4 @@ clean_list:
 - Cve_2026_29000_exploit
 - mcp-check
 - CVE-2026-31899
+- cve-2026-20833-rc4-kerberos
