@@ -3090,3 +3090,4 @@ clean_list:
 - mcp-check
 - CVE-2026-31899
 - cve-2026-20833-rc4-kerberos
+- fonttools-varlib-cve-2025-66034-rce.py
