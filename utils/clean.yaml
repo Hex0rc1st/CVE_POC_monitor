@@ -3088,3 +3088,4 @@ clean_list:
 - cve-2025-15467
 - Cve_2026_29000_exploit
 - mcp-check
+- CVE-2026-31899
