@@ -3099,3 +3099,4 @@ clean_list:
 - cve-2026-29000
 - CVE-2026-20660
 - CVE-2025-66034-Poc-to-Get-RCE-for-HTB-VariaType
+- CVE-2026-24061-NSE

@@ -368,5 +368,20 @@
         "title": "T1071.001 Web Protocols in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1071-001-web-protocols",
         "published": "Mon, 16 Mar 2026 05:45:00 GMT"
+    },
+    {
+        "title": "T1071.002 File Transfer Protocols in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1071-002-file-transfer-protocols",
+        "published": "Mon, 16 Mar 2026 15:00:00 GMT"
+    },
+    {
+        "title": "Meeting Bank Negara Malaysia's RMiT Requirements with Picus",
+        "link": "https://www.picussecurity.com/resource/blog/meeting-bank-negara-malaysias-rmit-requirements-with-picus",
+        "published": "Mon, 16 Mar 2026 14:55:22 GMT"
+    },
+    {
+        "title": "What Is Fileless Malware?",
+        "link": "https://www.picussecurity.com/resource/blog/what-is-fileless-malware",
+        "published": "Mon, 16 Mar 2026 14:50:28 GMT"
     }
 ]
