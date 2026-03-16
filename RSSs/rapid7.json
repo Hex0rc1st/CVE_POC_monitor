@@ -378,5 +378,10 @@
         "title": "From Threat Detection to Response: What to Expect from Our MDR Sessions",
         "link": "https://www.rapid7.com/blog/post/it-threat-detection-response-mdr-sessions-global-cybersecurity-summit",
         "published": "Mon, 16 Mar 2026 13:24:20 GMT"
+    },
+    {
+        "title": "Rapid7 Guidance on Observed Microsoft Teams Phishing Campaigns",
+        "link": "https://www.rapid7.com/blog/post/dr-guidance-on-observed-microsoft-teams-phishing-campaigns",
+        "published": "Mon, 16 Mar 2026 15:49:17 GMT"
     }
 ]
