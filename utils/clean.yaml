@@ -3095,3 +3095,4 @@ clean_list:
 - varlib-cve-2025-66034
 - CVE-2025-5548-FreeFloat-FTP-Buffer-Overflow
 - supabase-sentinel
+- CVE-2024-25082
