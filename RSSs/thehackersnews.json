@@ -2003,5 +2003,10 @@
         "title": "⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More",
         "link": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html",
         "published": "Mon, 16 Mar 2026 19:47:00 +0530"
+    },
+    {
+        "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
+        "link": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
+        "published": "Tue, 17 Mar 2026 01:07:00 +0530"
     }
 ]
