@@ -1978,5 +1978,10 @@
         "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
         "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
         "published": "Sat, 14 Mar 2026 21:47:00 +0530"
+    },
+    {
+        "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
+        "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+        "published": "Mon, 16 Mar 2026 11:13:00 +0530"
     }
 ]

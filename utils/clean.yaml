@@ -3097,3 +3097,4 @@ clean_list:
 - supabase-sentinel
 - CVE-2024-25082
 - cve-2026-29000
+- CVE-2026-20660
