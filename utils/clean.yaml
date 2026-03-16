@@ -3096,3 +3096,4 @@ clean_list:
 - CVE-2025-5548-FreeFloat-FTP-Buffer-Overflow
 - supabase-sentinel
 - CVE-2024-25082
+- cve-2026-29000
