@@ -2028,5 +2028,10 @@
         "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader",
         "link": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
         "published": "Tue, 17 Mar 2026 20:04:00 +0530"
+    },
+    {
+        "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+        "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+        "published": "Tue, 17 Mar 2026 22:09:00 +0530"
     }
 ]
