@@ -393,5 +393,10 @@
         "title": "T1071.003 Mail Protocols in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1071-003-mail-protocols",
         "published": "Tue, 17 Mar 2026 07:30:00 GMT"
+    },
+    {
+        "title": "The Guide for Breach and Attack Simulation & Automated Penetration Testing",
+        "link": "https://www.picussecurity.com/resource/report/breach-and-attack-simulation-vs-automated-penetration-testing",
+        "published": "Tue, 17 Mar 2026 13:36:50 GMT"
     }
 ]
