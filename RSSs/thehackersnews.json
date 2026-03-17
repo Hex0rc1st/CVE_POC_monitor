@@ -2013,5 +2013,10 @@
         "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
         "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
         "published": "Tue, 17 Mar 2026 10:53:00 +0530"
+    },
+    {
+        "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
+        "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+        "published": "Tue, 17 Mar 2026 15:23:00 +0530"
     }
 ]
