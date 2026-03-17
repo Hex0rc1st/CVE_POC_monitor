@@ -148,5 +148,15 @@
         "title": "CVE-2026-22718 - Medium - CVE-2026-22718: Command injection on user machine using VSCode extension for Spring CLI",
         "link": "https://spring.io/security/cve-2026-22718",
         "published": "Tue, 13 Jan 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22729 - High - CVE-2026-22729: JSONPath Injection in Spring AI Vector Stores FilterExpressionConverter",
+        "link": "https://spring.io/security/cve-2026-22729",
+        "published": "Tue, 17 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22730 - High - CVE-2026-22730: SQL Injection in Spring AI MariaDBFilterExpressionConverter",
+        "link": "https://spring.io/security/cve-2026-22730",
+        "published": "Tue, 17 Mar 2026 00:00:00 GMT"
     }
 ]
