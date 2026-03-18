@@ -3104,3 +3104,4 @@ clean_list:
 - CVE-2026-20820
 - CVE-2024-53677-Analysis
 - CVE-2026-26801-pdfmake-ssrf
+- CVE-2026-21994
