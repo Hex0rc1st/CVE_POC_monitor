@@ -2033,5 +2033,10 @@
         "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
         "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
         "published": "Tue, 17 Mar 2026 22:09:00 +0530"
+    },
+    {
+        "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+        "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+        "published": "Wed, 18 Mar 2026 10:36:00 +0530"
     }
 ]
