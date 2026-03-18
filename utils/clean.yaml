@@ -3103,3 +3103,4 @@ clean_list:
 - CVE-2025-29927-Nextjs-Analysis
 - CVE-2026-20820
 - CVE-2024-53677-Analysis
+- CVE-2026-26801-pdfmake-ssrf
