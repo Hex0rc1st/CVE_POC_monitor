@@ -2043,5 +2043,10 @@
         "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
         "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
         "published": "Wed, 18 Mar 2026 12:01:00 +0530"
+    },
+    {
+        "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+        "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+        "published": "Wed, 18 Mar 2026 13:38:00 +0530"
     }
 ]
