@@ -2048,5 +2048,10 @@
         "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
         "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
         "published": "Wed, 18 Mar 2026 13:38:00 +0530"
+    },
+    {
+        "title": "Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels",
+        "link": "https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html",
+        "published": "Wed, 18 Mar 2026 16:00:00 +0530"
     }
 ]
