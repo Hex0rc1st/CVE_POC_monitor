@@ -403,5 +403,10 @@
         "title": "T1071.005 Publish/Subscribe Protocols in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1071-005-publish-subscribe-protocols",
         "published": "Tue, 17 Mar 2026 14:30:00 GMT"
+    },
+    {
+        "title": "T1071.004 DNS in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1071-004-dns",
+        "published": "Wed, 18 Mar 2026 07:00:00 GMT"
     }
 ]

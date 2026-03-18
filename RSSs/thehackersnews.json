@@ -2038,5 +2038,10 @@
         "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
         "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
         "published": "Wed, 18 Mar 2026 10:36:00 +0530"
+    },
+    {
+        "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+        "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+        "published": "Wed, 18 Mar 2026 12:01:00 +0530"
     }
 ]
