@@ -2063,5 +2063,10 @@
         "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
         "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
         "published": "Wed, 18 Mar 2026 17:12:00 +0530"
+    },
+    {
+        "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access",
+        "link": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+        "published": "Wed, 18 Mar 2026 21:30:00 +0530"
     }
 ]
