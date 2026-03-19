@@ -3110,3 +3110,5 @@ clean_list:
 - CVE-2025-4396
 - CVE-2026-32731
 - Ubuntu-CVE-2026-3888-patcher
+- poc-cve-2026-32255
+- CVE-2026-27541-Analysis-Lab
