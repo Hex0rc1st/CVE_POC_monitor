@@ -158,5 +158,30 @@
         "title": "CVE-2026-22730 - High - CVE-2026-22730: SQL Injection in Spring AI MariaDBFilterExpressionConverter",
         "link": "https://spring.io/security/cve-2026-22730",
         "published": "Tue, 17 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22731 - High - CVE-2026-22731: Authentication Bypass under Actuator Health groups paths",
+        "link": "https://spring.io/security/cve-2026-22731",
+        "published": "Thu, 19 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22732 - Critical - CVE-2026-22718: Under Some Conditions Spring Security HTTP Headers Are not Written",
+        "link": "https://spring.io/security/cve-2026-22732",
+        "published": "Thu, 19 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22737 - Medium - CVE-2026-22737: Spring Framework Improper Path Limitation with Script View Templates",
+        "link": "https://spring.io/security/cve-2026-22737",
+        "published": "Thu, 19 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22735 - Low - CVE-2026-22735: Server Sent Event stream corruption",
+        "link": "https://spring.io/security/cve-2026-22735",
+        "published": "Thu, 19 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22733 - High - CVE-2026-22733: Authentication Bypass under Actuator CloudFoundry endpoints",
+        "link": "https://spring.io/security/cve-2026-22733",
+        "published": "Thu, 19 Mar 2026 00:00:00 GMT"
     }
 ]
