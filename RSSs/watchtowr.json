@@ -243,5 +243,10 @@
         "title": "The Most Organized Threat Actors Use Your ITSM (BMC FootPrints Pre-Auth Remote Code Execution Chains)",
         "link": "https://labs.watchtowr.com/thanks-itsms-threat-actors-have-never-been-so-organized-bmc-footprints-pre-auth-remote-code-execution-chains/",
         "published": "Wed, 18 Mar 2026 10:02:49 GMT"
+    },
+    {
+        "title": "A 32-Year-Old Bug Walks Into A Telnet Server (GNU inetutils Telnetd CVE-2026-32746 Pre-Auth RCE)",
+        "link": "https://labs.watchtowr.com/a-32-year-old-bug-walks-into-a-telnet-server-gnu-inetutils-telnetd-cve-2026-32746/",
+        "published": "Thu, 19 Mar 2026 20:21:07 GMT"
     }
 ]
