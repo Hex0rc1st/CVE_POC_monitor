@@ -3108,3 +3108,5 @@ clean_list:
 - CVE-2026-2413-POC
 - cve-2026-32746
 - CVE-2025-4396
+- CVE-2026-32731
+- Ubuntu-CVE-2026-3888-patcher
