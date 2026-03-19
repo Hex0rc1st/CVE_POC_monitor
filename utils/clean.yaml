@@ -3115,3 +3115,6 @@ clean_list:
 - CVE-2026-24291
 - CVE-2025-10147
 - CVE-2024-51482-ZoneMinder-HTB-Reliable-EXP
+- SessionReaper-CVE-2025-54236
+- CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP
+- CVE-2026-30695
