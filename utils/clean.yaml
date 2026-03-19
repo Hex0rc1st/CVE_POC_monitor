@@ -3113,3 +3113,4 @@ clean_list:
 - poc-cve-2026-32255
 - CVE-2026-27541-Analysis-Lab
 - CVE-2026-24291
+- CVE-2025-10147
