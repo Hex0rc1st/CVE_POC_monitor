@@ -3118,3 +3118,5 @@ clean_list:
 - SessionReaper-CVE-2025-54236
 - CVE-2024-51482-ZoneMinder-CCTV-HTB-Reliable-EXP
 - CVE-2026-30695
+- cve-2026-32746-mitigation
+- Go-PGX-Vulnerability-POC-Public-Mirror
