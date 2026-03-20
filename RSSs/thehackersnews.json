@@ -2138,5 +2138,10 @@
         "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
         "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
         "published": "Fri, 20 Mar 2026 20:45:00 +0530"
+    },
+    {
+        "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
+        "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
+        "published": "Fri, 20 Mar 2026 23:17:00 +0530"
     }
 ]
