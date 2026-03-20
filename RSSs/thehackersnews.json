@@ -2133,5 +2133,10 @@
         "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover",
         "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
         "published": "Fri, 20 Mar 2026 15:00:00 +0530"
+    },
+    {
+        "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
+        "published": "Fri, 20 Mar 2026 20:45:00 +0530"
     }
 ]
