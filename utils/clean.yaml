@@ -3120,3 +3120,4 @@ clean_list:
 - CVE-2026-30695
 - cve-2026-32746-mitigation
 - Go-PGX-Vulnerability-POC-Public-Mirror
+- CVE-2026-20643
