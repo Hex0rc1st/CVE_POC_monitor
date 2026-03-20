@@ -3124,3 +3124,6 @@ clean_list:
 - CVE-2026-3888-PoC
 - CVE-2026-99999-important-info
 - CVE-2026-2631
+- CVE-2026-22730-Scanner
+- CVE-2026-2964-Lab-Prototype-Pollution-to-RCE
+- CVE-2026-32746
