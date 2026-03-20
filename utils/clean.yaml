@@ -3128,3 +3128,4 @@ clean_list:
 - CVE-2026-2964-Lab-Prototype-Pollution-to-RCE
 - CVE-2026-32746
 - CVE-2026-2964-Lab
+- CVE-2026-21992

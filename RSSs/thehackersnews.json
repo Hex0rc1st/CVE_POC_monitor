@@ -2128,5 +2128,10 @@
         "title": "Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams",
         "link": "https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html",
         "published": "Fri, 20 Mar 2026 16:27:00 +0530"
+    },
+    {
+        "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover",
+        "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
+        "published": "Fri, 20 Mar 2026 15:00:00 +0530"
     }
 ]

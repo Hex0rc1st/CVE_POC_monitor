@@ -398,5 +398,10 @@
         "title": "Preemptive and Proactive: An enhanced CNAPP available with Exposure Command",
         "link": "https://www.rapid7.com/blog/post/em-preemptive-proactive-enhanced-cnapp-available-exposure-command",
         "published": "Thu, 19 Mar 2026 15:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-31381, CVE-2026-31382: Gainsight Assist Information Disclosure and Cross-Site Scripting (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-31381-cve-2026-31382-gainsight-assist-information-disclosure-xss-fixed",
+        "published": "Fri, 20 Mar 2026 13:00:00 GMT"
     }
 ]
