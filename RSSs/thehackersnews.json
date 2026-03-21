@@ -2143,5 +2143,10 @@
         "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
         "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
         "published": "Fri, 20 Mar 2026 23:17:00 +0530"
+    },
+    {
+        "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
+        "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+        "published": "Sat, 21 Mar 2026 12:58:00 +0530"
     }
 ]

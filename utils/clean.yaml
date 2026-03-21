@@ -3135,3 +3135,4 @@ clean_list:
 - CVE-2025-66034
 - CVE-2026-XNU-AIO-KEVENT-UAF
 - CVE-2026-21962_Java_GUI_Exploit_Tool
+- langflow-CVE-2026-33017-poc
