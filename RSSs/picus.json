@@ -428,5 +428,10 @@
         "title": "T1219.003 Remote Access Hardware in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1219-003-remote-access-hardware",
         "published": "Fri, 20 Mar 2026 09:00:00 GMT"
+    },
+    {
+        "title": "T1547.001 Registry Run Keys/Start Up Folder in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-001-registry-run-keys-startup-folder",
+        "published": "Sat, 21 Mar 2026 06:45:00 GMT"
     }
 ]
