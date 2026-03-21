@@ -3139,3 +3139,4 @@ clean_list:
 - CVE-2026-25769---CVE-2026-25770
 - CVE-2026-32194-POC
 - Lang_path
+- CVE-CVSS--CVE-2024-38063-IPv6-TCP-IP-Remote-Code-Execution-Analysis
