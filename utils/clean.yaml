@@ -3138,3 +3138,4 @@ clean_list:
 - langflow-CVE-2026-33017-poc
 - CVE-2026-25769---CVE-2026-25770
 - CVE-2026-32194-POC
+- Lang_path
