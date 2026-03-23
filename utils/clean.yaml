@@ -3145,3 +3145,5 @@ clean_list:
 - CVE2024-21413
 - cve-2025-66398
 - cve-2026-3587-poc
+- CVE-2024-51348
+- CVE-2026-3888-snap-confine-systemd-tmpfiles-LPE
