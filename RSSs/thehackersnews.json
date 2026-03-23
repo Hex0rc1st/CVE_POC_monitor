@@ -2173,5 +2173,10 @@
         "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
         "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
         "published": "Mon, 23 Mar 2026 14:01:00 +0530"
+    },
+    {
+        "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
+        "link": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
+        "published": "Mon, 23 Mar 2026 16:25:00 +0530"
     }
 ]

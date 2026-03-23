@@ -443,5 +443,10 @@
         "title": "Cyber Kill Chain Explained",
         "link": "https://www.picussecurity.com/resource/blog/cyber-kill-chain-explained",
         "published": "Mon, 23 Mar 2026 08:00:35 GMT"
+    },
+    {
+        "title": "T1547.003 Time Providers in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-003-time-providers",
+        "published": "Mon, 23 Mar 2026 11:15:00 GMT"
     }
 ]
