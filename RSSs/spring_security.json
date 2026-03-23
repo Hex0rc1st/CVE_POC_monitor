@@ -183,5 +183,10 @@
         "title": "CVE-2026-22733 - High - CVE-2026-22733: Authentication Bypass under Actuator CloudFoundry endpoints",
         "link": "https://spring.io/security/cve-2026-22733",
         "published": "Thu, 19 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22739 - Medium - CVE-2026-22739: Spring Cloud Config Profile Substitution Can Allow Unintended Access To Files And Enable SSRF Attacks",
+        "link": "https://spring.io/security/cve-2026-22739",
+        "published": "Mon, 23 Mar 2026 00:00:00 GMT"
     }
 ]
