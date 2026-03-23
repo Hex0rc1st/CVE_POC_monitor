@@ -413,5 +413,10 @@
         "title": "Metasploit Wrap-Up 03/20/2026",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-03-20-2026",
         "published": "Fri, 20 Mar 2026 20:03:54 GMT"
+    },
+    {
+        "title": "CVE-2026-3055: Citrix NetScaler ADC and NetScaler Gateway Out-of-Bounds Read",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-3055-citrix-netscaler-adc-and-netscaler-gateway-out-of-bounds-read",
+        "published": "Mon, 23 Mar 2026 19:30:51 GMT"
     }
 ]
