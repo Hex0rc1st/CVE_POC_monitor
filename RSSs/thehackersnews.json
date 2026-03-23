@@ -2168,5 +2168,10 @@
         "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
         "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
         "published": "Mon, 23 Mar 2026 11:45:00 +0530"
+    },
+    {
+        "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+        "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+        "published": "Mon, 23 Mar 2026 14:01:00 +0530"
     }
 ]
