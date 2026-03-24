@@ -418,5 +418,10 @@
         "title": "CVE-2026-3055: Citrix NetScaler ADC and NetScaler Gateway Out-of-Bounds Read",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-3055-citrix-netscaler-adc-and-netscaler-gateway-out-of-bounds-read",
         "published": "Mon, 23 Mar 2026 19:30:51 GMT"
+    },
+    {
+        "title": "Rapid7 Completes BSI C5 Type 2 Examination: Stronger Cloud Security for DACH Organizations",
+        "link": "https://www.rapid7.com/blog/post/cds-rapid7-completes-bsi-c5-type-2-examination-stronger-cloud-security-dach-organizations",
+        "published": "Tue, 24 Mar 2026 16:04:35 GMT"
     }
 ]
