@@ -3,7 +3,6 @@ object:
 - ofbiz
 - geoserver
 - tomcat
-- chrome
 - confluence
 - jenkins
 - gitlab
@@ -18,7 +17,6 @@ object:
 - coldfusion
 - big-ip
 - big ip
-- imagemagick
 - jira
 - manageengine
 - shiro
