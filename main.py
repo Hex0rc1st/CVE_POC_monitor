@@ -115,6 +115,7 @@ def parse_rss_feed(feed_url,file):
     # 解析RSS feed
     try:
         response = requests.get(feed_url,timeout=20)
+        response.raise_for_status()
     except requests.exceptions.SSLError as ssl_err:
         logging.error(f"SSL 错误：无法连接 {feed_url}，跳过该条目。错误信息：{ssl_err}")
         return  # 发生 SSL 错误时跳过当前循环
@@ -129,64 +130,84 @@ def parse_rss_feed(feed_url,file):
     # 解析RSS feed内容
     feed = feedparser.parse(feed_content)
     if feed.bozo == 1:
-        logging.warning(f"{file} 解析RSS feed时发生错误: {feed.bozo_exception}")
-        return
+        if not feed.entries:
+            logging.warning(f"{file} 解析RSS feed时发生错误且无有效条目: {feed.bozo_exception}")
+            return
+        logging.warning(f"{file} 解析RSS feed时发生错误，但存在可用条目: {feed.bozo_exception}")
     all_entries = utils.load.json_data_load(f"./RSSs/{file}")
     existing_titles = {entry['link'] for entry in all_entries}
     # 定义一个标志，标记是否输出了新增条目
     new_entries_found = False
     for entry in feed.entries:
-        if entry.link not in existing_titles:
-            # 输出新增条目
-            new_entries_found = True
-            all_content_have_cve = True
-            logging.info(f"标题: {entry.title}  链接: {entry.link}")
-            logging.info("-" * 40)
-            if file == "google.json":
-                if 'cve' not in str(entry.content).lower():
-                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
-                    break 
-            if file == "vulncheck.json" or file == "securityonline.json" or file == "picus.json" or file == "rapid7.json" or file == "thehackersnews.json":
-                if "cve" not in entry.title.lower() and "vulnerabili" not in entry.title.lower():
-                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
-            if file == "zerodayinitiative.json":
-                if ("cve" not in entry.title.lower() and "vulnerabili" not in entry.title.lower()) and "Security Update Review" not in entry.title:
-                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
-            if file == "paloalto.json":
-                if "medium" in entry.title.lower() or "low" in entry.title.lower():
-                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
-            if file == "thehackerwire.json":
-                if "cve" not in entry.get('summary', '').lower():
-                    all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
-            if file == "gbhackers.json":
-                categories = []
-                if 'tags' in entry:
-                    categories = [tag.term for tag in entry.tags]
-                elif 'category' in entry:
-                    categories = entry.category if isinstance(entry.category, list) else [entry.category]
-                if not any(cat in ["Vulnerability", "Vulnerabilities"] for cat in categories):
-                    all_content_have_cve = False
-            all_entries.append({
-                    'title': entry.title,
-                    'link': entry.link,
-                    'published': entry.published
+        entry_link = getattr(entry, 'link', '')
+        entry_title = getattr(entry, 'title', '')
+        entry_published = getattr(entry, 'published', '')
+        entry_content = str(getattr(entry, 'content', '') or '')
+
+        if not entry_link or entry_link in existing_titles:
+            continue
+
+        if file == "google.json":
+            if 'cve' not in entry_content.lower():
+                all_entries.append({
+                    'title': entry_title,
+                    'link': entry_link,
+                    'published': entry_published
                 })
-            # 将新增条目添加到新条目列表
-            if all_content_have_cve:
-                # 检查是否存在历史PoC
-                poc_prefix = ""
-                cve_ids = extract_cve_ids(entry.title)
-                for cve_id in cve_ids:
-                    poc_links = check_cve_in_poc_history(cve_id)
-                    if poc_links:
-                        poc_prefix = f"该漏洞疑似存在poc批量：「{poc_links[0]}」\r\r"
-                        logging.info(f"发现历史PoC: {cve_id} -> {poc_links[0]}")
-                        break  # 找到一个就够了
-                
-                msg = f"{poc_prefix}标题：{entry.title}\r链接：{entry.link}\r发布时间：{entry.published}"
-                logging.info(f"推送到google sheet：{entry.title}  "+entry.link)
-                msg_push.wechat_push(msg)
-                msg_push.send_google_sheet_githubVul("Emergency Vulnerability","RSS",entry.title,"",entry.link,"")
+                new_entries_found = True
+                continue
+
+        # 输出新增条目
+        new_entries_found = True
+        all_content_have_cve = True
+        if file == "vulncheck.json" or file == "securityonline.json" or file == "picus.json" or file == "rapid7.json" or file == "thehackersnews.json":
+            if "cve" not in entry_title.lower() and "vulnerabili" not in entry_title.lower():
+                all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+        if file == "zerodayinitiative.json":
+            if ("cve" not in entry_title.lower() and "vulnerabili" not in entry_title.lower()) and "Security Update Review" not in entry_title:
+                all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+        if file == "paloalto.json":
+            if "medium" in entry_title.lower() or "low" in entry_title.lower():
+                all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+        if file == "thehackerwire.json":
+            if "cve" not in entry.get('summary', '').lower():
+                all_content_have_cve = False  # 如果发现某个 content 没有 "CVE"，标记为 False
+        if file == "gbhackers.json":
+            categories = []
+            if 'tags' in entry:
+                categories = [tag.term for tag in entry.tags]
+            elif 'category' in entry:
+                categories = entry.category if isinstance(entry.category, list) else [entry.category]
+            if not any(cat in ["Vulnerability", "Vulnerabilities"] for cat in categories):
+                all_content_have_cve = False
+
+        all_entries.append({
+                'title': entry_title,
+                'link': entry_link,
+                'published': entry_published
+            })
+
+        if not all_content_have_cve:
+            continue
+
+        logging.info(f"标题: {entry_title}  链接: {entry_link}")
+        logging.info("-" * 40)
+        # 将新增条目添加到新条目列表
+        if all_content_have_cve:
+            # 检查是否存在历史PoC
+            poc_prefix = ""
+            cve_ids = extract_cve_ids(entry_title)
+            for cve_id in cve_ids:
+                poc_links = check_cve_in_poc_history(cve_id)
+                if poc_links:
+                    poc_prefix = f"该漏洞疑似存在poc批量：「{poc_links[0]}」\r\r"
+                    logging.info(f"发现历史PoC: {cve_id} -> {poc_links[0]}")
+                    break  # 找到一个就够了
+            
+            msg = f"{poc_prefix}标题：{entry_title}\r链接：{entry_link}\r发布时间：{entry_published}"
+            logging.info(f"推送到google sheet：{entry_title}  "+entry_link)
+            msg_push.wechat_push(msg)
+            msg_push.send_google_sheet_githubVul("Emergency Vulnerability","RSS",entry_title,"",entry_link,"")
     # 如果有新增条目，则更新文件
     if new_entries_found:
         utils.load.json_data_save(f"./RSSs/{file}",all_entries)
