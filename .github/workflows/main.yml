@@ -44,6 +44,8 @@ jobs:
           pip3 install -r ./requirements.txt
 
       - name: Run py
+        id: run_main
+        continue-on-error: true
         env:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           google_sheet_token: ${{ secrets.GOOGLE_SHEET_TOKEN }}
@@ -55,6 +57,7 @@ jobs:
         run: python3 ./main.py
 
       - name: push clean data
+        if: always()
         run: |
           REMOTE=https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git config user.email "${{ github.actor }}@users.noreply.github.com"
@@ -66,3 +69,7 @@ jobs:
             git commit -m "Add new comment"
             git push ${REMOTE} main
           fi
+
+      - name: Fail workflow if monitor failed
+        if: steps.run_main.outcome == 'failure'
+        run: exit 1

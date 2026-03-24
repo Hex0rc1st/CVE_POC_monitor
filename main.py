@@ -372,7 +372,7 @@ def getCISANews():
 
 def save_file_locally(url, filename, processed_advisory_ids=None):
     try:
-        response = requests.get(url,headers=github_headers)
+        response = requests.get(url, headers=github_headers, timeout=20)
     except Exception as e:
         logging.info(f"An unexpected error occurred: {e}")
         return False
@@ -409,6 +409,22 @@ def getGithubVun():
     try:
         processed_commit_shas = load_processed_values(github_advisory_sha)
         processed_advisory_ids = load_processed_values(github_advisory_ids)
+        if not processed_commit_shas:
+            response = requests.get(
+                url,
+                headers=github_headers,
+                params={"per_page": 1, "page": 1},
+                timeout=20,
+            )
+            response.raise_for_status()
+            commits = response.json()
+            if not commits:
+                logging.info("advisory commit 列表为空，跳过初始化")
+                return
+            latest_commit_sha = commits[0]['sha']
+            append_processed_values(github_advisory_sha, [latest_commit_sha])
+            logging.info(f"首次初始化 advisory sha，已记录最新 commit: {latest_commit_sha}，跳过历史 backlog")
+            return
         page = 1
         per_page = 100
         max_pages = 3
@@ -420,6 +436,7 @@ def getGithubVun():
                 url,
                 headers=github_headers,
                 params={"per_page": per_page, "page": page},
+                timeout=20,
             )
             response.raise_for_status()
             commits = response.json()
@@ -450,7 +467,7 @@ def getGithubVun():
         logging.info(f"Commit URL: {commit_url}")
         commit_details_url = f"https://api.github.com/repos/github/advisory-database/commits/{commit_sha}"
         try:
-            details_response = requests.get(commit_details_url, headers=github_headers)
+            details_response = requests.get(commit_details_url, headers=github_headers, timeout=20)
             details_response.raise_for_status()
         except requests.RequestException as e:
             logging.error(f"获取 advisory commit 详情失败: {commit_sha}, 错误: {e}")
@@ -471,9 +488,12 @@ def getGithubVun():
                 logging.info(f"已推送 advisory 文件: {filename} ({status})")
             else:
                 logging.info(f"已检查 advisory 文件: {filename} ({status})")
+        append_processed_values(github_advisory_sha, [commit_sha])
+        processed_commit_shas.add(commit_sha)
         successfully_processed_commits.append(commit_sha)
 
-    append_processed_values(github_advisory_sha, successfully_processed_commits)
+    if successfully_processed_commits:
+        logging.info(f"本轮共处理 advisory commits: {len(successfully_processed_commits)}")
             
 # 获取最近一次提交的变更文件
 def get_latest_commit_files(repo,branch):
