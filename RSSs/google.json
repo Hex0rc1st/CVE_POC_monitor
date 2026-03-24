@@ -358,5 +358,115 @@
         "title": "Long Term Support Channel Update for ChromeOS",
         "link": "http://chromereleases.googleblog.com/2026/03/long-term-support-channel-update-for_20.html",
         "published": "2026-03-20T13:58:00.000-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_23.html",
+        "published": "2026-03-23T14:02:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_23.html",
+        "published": "2026-03-23T12:20:00.000-07:00"
+    },
+    {
+        "title": "Chrome Beta for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-desktop-update_01396741538.html",
+        "published": "2026-03-20T09:28:33.334-07:00"
+    },
+    {
+        "title": "Chrome Beta for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-android-update_02092514597.html",
+        "published": "2026-03-20T07:43:32.238-07:00"
+    },
+    {
+        "title": "Chrome Dev for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-android-update_0392391680.html",
+        "published": "2026-03-19T11:58:32.835-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/03/beta-channel-update-for-chromeos_18.html",
+        "published": "2026-03-18T11:10:00.000-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_18.html",
+        "published": "2026-03-18T10:56:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_18.html",
+        "published": "2026-03-18T10:21:00.000-07:00"
+    },
+    {
+        "title": "Chrome Beta for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-ios-update_0860997599.html",
+        "published": "2026-03-18T08:58:33.019-07:00"
+    },
+    {
+        "title": "Chrome Stable for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-stable-for-ios-update_01677656350.html",
+        "published": "2026-03-17T08:43:47.435-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_13.html",
+        "published": "2026-03-13T18:19:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
+        "published": "2026-03-13T18:15:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-chromeos_13.html",
+        "published": "2026-03-13T12:50:00.000-07:00"
+    },
+    {
+        "title": "Chrome Dev for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-desktop-update_01418665054.html",
+        "published": "2026-03-13T11:13:33.228-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_12.html",
+        "published": "2026-03-12T14:16:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_12.html",
+        "published": "2026-03-12T14:14:00.000-07:00"
+    },
+    {
+        "title": "Chrome Dev for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-android-update_0519875545.html",
+        "published": "2026-03-12T07:13:32.660-07:00"
+    },
+    {
+        "title": "Chrome Beta for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-android-update_01337100422.html",
+        "published": "2026-03-11T12:13:32.360-07:00"
+    },
+    {
+        "title": "Chrome Beta for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-desktop-update_01279111647.html",
+        "published": "2026-03-11T11:58:33.594-07:00"
+    },
+    {
+        "title": "Chrome Beta for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-beta-for-ios-update_0233479114.html",
+        "published": "2026-03-11T10:43:33.239-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/03/beta-channel-update-for-chromeos_10.html",
+        "published": "2026-03-10T20:41:00.000-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_10.html",
+        "published": "2026-03-10T13:30:00.000-07:00"
     }
 ]
