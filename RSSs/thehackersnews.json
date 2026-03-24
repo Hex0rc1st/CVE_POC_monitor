@@ -2233,5 +2233,10 @@
         "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
         "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
         "published": "Tue, 24 Mar 2026 22:35:00 +0530"
+    },
+    {
+        "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 Likely via Trivy CI/CD Compromise",
+        "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+        "published": "Tue, 24 Mar 2026 23:51:00 +0530"
     }
 ]
