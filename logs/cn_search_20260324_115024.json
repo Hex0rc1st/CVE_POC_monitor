@@ -1,0 +1,61 @@
+{
+  "query_count": 1,
+  "success_count": 1,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2025-41243",
+      "engine": "bing_rss+native",
+      "queries": [
+        "\"CVE-2025-41243\"",
+        "\"CVE-2025-41243\" 漏洞分析",
+        "\"CVE-2025-41243\" 复现",
+        "\"CVE-2025-41243\" 利用",
+        "\"CVE-2025-41243\" 中文"
+      ],
+      "site_queries": [
+        "site:research.qianxin.com \"CVE-2025-41243\"",
+        "site:cloud.tencent.com \"CVE-2025-41243\""
+      ],
+      "expanded_keywords": [],
+      "query_errors": [],
+      "total_results": 6,
+      "likely_cn_articles": [
+        {
+          "title": "CVE-2025-41243｜Spring Cloud Gateway SpEL表达式注入漏洞（POC）",
+          "link": "https://cloud.tencent.com/developer/article/2586456",
+          "summary": "Spring框架的核心特性是可以用于开发任何Java应用程序，但是在Java EE平台上构建web应用程序是需要扩展的。",
+          "source_query": "native:cloud.tencent.com:CVE-2025-41243",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:poc",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        }
+      ],
+      "top_results": [],
+      "fallback_results": [
+        {
+          "title": "CVE-2025-41243 Spring Cloud Gateway SpEL 沙箱从任意 ...",
+          "link": "https://rce.moe/2025/09/29/CVE-2025-41243/",
+          "summary": "前言 最近，spring cloud getway 又出了一个10.0分的 SpEL漏洞 这个漏洞和之前的 CVE-2022-22947 漏洞一样 依然是在热更新路由时触发表达式执行 之前的漏洞不是已经修复的非常完美了吗，为什么还能继续利用呢？",
+          "source_query": "\"CVE-2025-41243\"",
+          "score": 4,
+          "reasons": [
+            "high_signal:利用",
+            "low_signal:修复",
+            "contains_cve_id"
+          ],
+          "host": "rce.moe",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

@@ -79,6 +79,57 @@ export llm_api_key="..."
 python3 LLM.py
 ```
 
+## CVE Lookup
+
+This repository also includes a lightweight CVE lookup script.
+
+Run the query directly with a CVE ID:
+
+```bash
+export github_token="..."
+python3 cve_lookup_api.py CVE-2024-3094
+```
+
+Batch query with multiple CVE IDs:
+
+```bash
+python3 cve_lookup_api.py CVE-2024-3094 CVE-2024-3400 CVE-2025-0282
+```
+
+Batch query from a file:
+
+```bash
+python3 cve_lookup_api.py --input-file cve_list.txt
+```
+
+Compact output:
+
+```bash
+python3 cve_lookup_api.py CVE-2024-3094 --compact
+```
+
+The script returns:
+
+- top 3 GitHub repositories for the CVE by stars
+- whether the GitHub Advisory description mentions PoC-related keywords
+- likely PoC references extracted from the advisory references list
+
+## Chinese Search
+
+This repository also includes a script for searching Chinese internet content about a CVE.
+
+```bash
+python3 cve_cn_search.py CVE-2024-3400
+```
+
+Multiple CVEs:
+
+```bash
+python3 cve_cn_search.py CVE-2024-3400 CVE-2025-0282
+```
+
+The script uses Bing RSS search results and scores Chinese blogs, forums, and security writeups.
+
 ## Automation
 
 GitHub Actions are included:

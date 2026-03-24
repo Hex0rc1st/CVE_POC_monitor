@@ -1,0 +1,95 @@
+{
+  "query_count": 1,
+  "success_count": 1,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2021-42321",
+      "engine": "bing_rss+native",
+      "queries": [
+        "\"CVE-2021-42321\"",
+        "\"CVE-2021-42321\" 漏洞分析",
+        "\"CVE-2021-42321\" 复现",
+        "\"CVE-2021-42321\" 利用",
+        "\"CVE-2021-42321\" 中文"
+      ],
+      "site_queries": [
+        "site:research.qianxin.com \"CVE-2021-42321\"",
+        "site:cloud.tencent.com \"CVE-2021-42321\""
+      ],
+      "expanded_keywords": [
+        "microsoft exchange server",
+        "exchange server",
+        "Microsoft Exchange Server Remote Code Execution"
+      ],
+      "query_errors": [],
+      "total_results": 7,
+      "likely_cn_articles": [
+        {
+          "title": "Exchange漏洞分析（二）：反序列化代码执行漏洞（CVE-2021 ...",
+          "link": "https://www.anquanke.com/post/id/261060",
+          "summary": "微软公布了一个反序列化代码执行漏洞， CVE-2021-42321，经过身份认证的攻击者可以通过 EWS 接口将 payload 写入 UserConfiguration 中，并通过 GetClientAccessToken 触发 payload 从而在目标服务器上执行代码。 本篇通过对 POC 的跟踪分析漏洞的利用过程。 漏洞影响： Microsoft Exchange Server 2019 CU10/CU11. Microsoft Exchange Server 2016 CU21/CU22. 分析环境： Server 2016. Exchange 2016 CU21 (由 CU15升级 到 CU21)",
+          "source_query": "\"CVE-2021-42321\"",
+          "score": 8,
+          "reasons": [
+            "security_media",
+            "high_signal:poc,利用,漏洞分析",
+            "contains_cve_id"
+          ],
+          "host": "www.anquanke.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "DotNet安全-CVE-2021-42321漏洞复现 | CN-SEC 中文网",
+          "link": "https://cn-sec.com/archives/1338736.html",
+          "summary": "DotNet安全-CVE-2021-42321漏洞复现 引言 该漏洞主要是由于开发者使用SerializationBinder后的逻辑判断有问题，同时配合exchange不那么严格的反序列化黑名单，造成了认证后的RCE。 影响范围 大约是21年下半年更新的exchange2016及2019。 基础知识 了解SerializationBinder：",
+          "source_query": "\"CVE-2021-42321\"",
+          "score": 8,
+          "reasons": [
+            "security_media",
+            "high_signal:复现,漏洞复现",
+            "contains_cve_id"
+          ],
+          "host": "cn-sec.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "CVE-2021-42321 - Microsoft Exchange Server 远程代码执行漏洞",
+          "link": "https://cloud.tencent.com/developer/article/1909373",
+          "summary": "攻击者经过身份验证后，可在受影响的机器上进行远程代码执行。此漏洞影响本地 Exchange Server，包括用户在 Exchange 混合模式下使用的服务器。该漏洞目前已发现在野利用。",
+          "source_query": "native:cloud.tencent.com:CVE-2021-42321",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        }
+      ],
+      "top_results": [],
+      "fallback_results": [
+        {
+          "title": "Exchange Server 中间人劫持 RCE 漏洞分析",
+          "link": "https://xz.aliyun.com/news/9611",
+          "summary": "Exchange Server 中间人劫持 RCE 漏洞分析\n原文：https://srcincite.io/blog/2021/08/25/pwn2own-vancouver-2021-microsoft-exchange-server-remote-code-execution.html\nPwn2Own Vancouver 2021:: Microsoft Exchange Server 远程",
+          "source_query": "native:xz.aliyun.com:exchange server",
+          "score": 7,
+          "reasons": [
+            "security_media",
+            "high_signal:漏洞分析",
+            "keyword_match_only:exchange server"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "exchange server",
+          "match_mode": "keyword"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

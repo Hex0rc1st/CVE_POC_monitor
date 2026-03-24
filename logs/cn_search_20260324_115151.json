@@ -1,0 +1,132 @@
+{
+  "query_count": 1,
+  "success_count": 1,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2022-22947",
+      "engine": "bing_rss+native",
+      "queries": [
+        "\"CVE-2022-22947\"",
+        "\"CVE-2022-22947\" 漏洞分析",
+        "\"CVE-2022-22947\" 复现",
+        "\"CVE-2022-22947\" 利用",
+        "\"CVE-2022-22947\" 中文"
+      ],
+      "site_queries": [
+        "site:research.qianxin.com \"CVE-2022-22947\"",
+        "site:cloud.tencent.com \"CVE-2022-22947\""
+      ],
+      "expanded_keywords": [
+        "vmware spring cloud gateway",
+        "spring cloud gateway",
+        "oracle commerce guided search",
+        "commerce guided search",
+        "communications cloud native core binding support function",
+        "oracle communications cloud native core console",
+        "communications cloud native core console",
+        "communications cloud native core network exposure function"
+      ],
+      "query_errors": [],
+      "total_results": 12,
+      "likely_cn_articles": [
+        {
+          "title": "spring cloud gateway关于X-Forwarded-Proto的处理",
+          "link": "https://xz.aliyun.com/news/18284",
+          "summary": "事件起因还是大佬 无在无不在  提交了份关于利用spring cloud gateway的spel漏洞，CVE-2022-22947。这个漏洞没什么太大的问题，利用就是通过动态路由注册进行触发，关键是通过X-Forwarded-Proto构造的请求包存在一定绕过的逻辑。这个解析处理的逻辑很有趣，不久前看到大佬星球也有文章详细说明了常见的解析问题，本次就把之前的Spring gateway定位记录做",
+          "source_query": "native:xz.aliyun.com:spring cloud gateway",
+          "score": 8,
+          "reasons": [
+            "security_media",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "spring cloud gateway",
+          "match_mode": "cve"
+        },
+        {
+          "title": "Nacos结合Spring Cloud Gateway RCE利用",
+          "link": "https://xz.aliyun.com/news/10939",
+          "summary": "Nacos结合Spring Cloud Gateway RCE利用\nSpring Cloud Gateway曾出现CVE-2022-22947漏洞，该漏洞允许攻击者通过动态配置路由，执行SpEL表达式注入漏洞，当攻击者可以访问Actuator API的情况下，将可以利用该漏洞执行任意命令。但实际情况可能有很多Spring Cloud Gateway存在漏洞，但未开放Actuator API，所以导",
+          "source_query": "native:xz.aliyun.com:spring cloud gateway",
+          "score": 8,
+          "reasons": [
+            "security_media",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "spring cloud gateway",
+          "match_mode": "cve"
+        },
+        {
+          "title": "CVE-2022-22947：Spring Cloud Gateway远程代码执行漏洞",
+          "link": "https://cloud.tencent.com/developer/article/2134966",
+          "summary": "Spring Cloud是一系列框架的有序集合。它利用Spring Boot的开发便利性巧妙地简化了分布式系统基础设施的开发，如服务发现注册、配置中心、消息总线、负载均衡、断路器、数据监控等，都可以用Spring Boot的开发风格做到一键启动和部署。",
+          "source_query": "native:cloud.tencent.com:CVE-2022-22947",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "深入CVE-2025-41243： Spring Cloud Gateway SpEL 从任意属性访问到任意文件下载",
+          "link": "https://xz.aliyun.com/news/19087",
+          "summary": "最近，spring cloud getway 又出了一个10.0分的 SpEL漏洞\n这个漏洞和之前的CVE-2022-22947漏洞一样 依然是在热更新路由时触发表达式执行\n之前的漏洞不是已经修复的非常完美了吗，为什么还能继续利用呢？",
+          "source_query": "native:xz.aliyun.com:spring cloud gateway",
+          "score": 7,
+          "reasons": [
+            "security_media",
+            "high_signal:利用",
+            "low_signal:修复",
+            "contains_cve_id"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "spring cloud gateway",
+          "match_mode": "cve"
+        },
+        {
+          "title": "Spring Cloud Gateway远程代码执行漏洞风险",
+          "link": "https://cloud.tencent.com/developer/article/2175642",
+          "summary": "近日，VMware 官方发布安全公告，其中包含 Spring Cloud Gateway 远程代码执行漏洞（CVE-2022-22947）。使用 Spring Cloud Gateway 的应用如果对外暴露了 Gateway Actuator 接口，则可能存在被 CVE-2022-22947 漏洞利用的风险，攻击者可通过利用此漏洞执行 SpEL 表达式，从而在目标服务器上执行任意恶意代码，获取系统权限。",
+          "source_query": "native:cloud.tencent.com:CVE-2022-22947",
+          "score": 7,
+          "reasons": [
+            "security_research",
+            "high_signal:利用",
+            "low_signal:公告",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "Spring Cloud GateWay CVE-2025-41243 分析",
+          "link": "https://xz.aliyun.com/news/19006",
+          "summary": "前言微信公众号刷到了这个 cve，cvss 10 分，一个满分漏洞，去看了下其官方通告发现之前在学习 springboot 的利用时简单看了下和这个 cve 类似的一个洞， cve-2022-22947 ，当时是学了下咋打，没具体分析源码，这个满分漏洞其实就是对 2022 那个 cve 的一个，先分析下 2022 的洞，方便后续分析这个 cveCVE-2022-22947 SPEL RCE环境：h",
+          "source_query": "native:xz.aliyun.com:spring cloud gateway",
+          "score": 7,
+          "reasons": [
+            "security_media",
+            "high_signal:利用",
+            "low_signal:通告",
+            "contains_cve_id"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "spring cloud gateway",
+          "match_mode": "cve"
+        }
+      ],
+      "top_results": [],
+      "fallback_results": []
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,78 @@
+{
+  "query_count": 1,
+  "success_count": 1,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2022-22947",
+      "repo_search": {
+        "query": "\"CVE-2022-22947\" in:name,description,readme",
+        "total_count": 161,
+        "top_repositories": [
+          {
+            "full_name": "Mr-xn/Penetration_Testing_POC",
+            "html_url": "https://github.com/Mr-xn/Penetration_Testing_POC",
+            "description": "渗透测试有关的POC、EXP、脚本、提权、小工具等---About penetration-testing python-script poc getshell csrf xss cms php-getshell domainmod-xss csrf-webshell cobub-razor cve rce sql sql-poc poc-exp bypass oa-getshell cve-cms",
+            "stars": 7281,
+            "updated_at": "2026-03-24T07:13:18Z"
+          },
+          {
+            "full_name": "Threekiii/Awesome-POC",
+            "html_url": "https://github.com/Threekiii/Awesome-POC",
+            "description": "一个漏洞 PoC 知识库。A knowledge base for vulnerability PoCs(Proof of Concept),  with 1k+ vulnerabilities.",
+            "stars": 4877,
+            "updated_at": "2026-03-24T06:49:12Z"
+          },
+          {
+            "full_name": "Threekiii/Awesome-Redteam",
+            "html_url": "https://github.com/Threekiii/Awesome-Redteam",
+            "description": "一个攻防知识库。A knowledge base for red teaming and offensive security.",
+            "stars": 4095,
+            "updated_at": "2026-03-24T07:12:00Z"
+          }
+        ]
+      },
+      "advisory": {
+        "found": true,
+        "advisory_count": 1,
+        "selected": {
+          "ghsa_id": "GHSA-3gx9-37ww-9qw6",
+          "html_url": "https://github.com/advisories/GHSA-3gx9-37ww-9qw6",
+          "summary": "Spring Cloud Gateway vulnerable to Code Injection when Gateway Actuator endpoint enabled, exposed, unsecured",
+          "severity": "critical",
+          "published_at": "2022-03-04T00:00:15Z",
+          "updated_at": "2023-07-24T19:30:19Z",
+          "description_mentions_poc": false,
+          "description_poc_keywords": [],
+          "reference_count": 7,
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22947",
+            "https://tanzu.vmware.com/security/cve-2022-22947",
+            "http://packetstormsecurity.com/files/166219/Spring-Cloud-Gateway-3.1.0-Remote-Code-Execution.html",
+            "https://www.oracle.com/security-alerts/cpuapr2022.html",
+            "https://www.oracle.com/security-alerts/cpujul2022.html",
+            "http://packetstormsecurity.com/files/168742/Spring-Cloud-Gateway-3.1.0-Remote-Code-Execution.html",
+            "https://github.com/advisories/GHSA-3gx9-37ww-9qw6"
+          ],
+          "likely_poc_references": [
+            {
+              "url": "http://packetstormsecurity.com/files/166219/Spring-Cloud-Gateway-3.1.0-Remote-Code-Execution.html",
+              "score": 3,
+              "reasons": [
+                "poc_reference_host"
+              ]
+            },
+            {
+              "url": "http://packetstormsecurity.com/files/168742/Spring-Cloud-Gateway-3.1.0-Remote-Code-Execution.html",
+              "score": 3,
+              "reasons": [
+                "poc_reference_host"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "errors": []
+}

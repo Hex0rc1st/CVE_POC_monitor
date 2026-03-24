@@ -12,21 +12,37 @@ import os
 import requests
 import re
 import utils.load
+from utils.advisory_match import allowed_advisory_severities
+from utils.advisory_match import build_advisory_search_fields
+from utils.advisory_match import extract_advisory_key
 from urllib.parse import quote
 import msg_push
 import csv
+from utils.advisory_match import match_known_object
 
 github_token = os.environ.get("github_token")
 repo_list,keywords,user_list = utils.load.load_tools_list()
 CleanKeywords = utils.load.load_clean_list()
 known_object = utils.load.load_object_list()
 github_sha = "./utils/sha.txt"
+github_advisory_sha = "./utils/advisory_sha.txt"
+github_advisory_ids = "./utils/advisory_ids.txt"
+
+def load_processed_values(file_path):
+    if not os.path.exists(file_path):
+        return set()
+    with open(file_path, 'r') as f:
+        return {line.strip() for line in f if line.strip()}
+
+def append_processed_values(file_path, values):
+    if not values:
+        return
+    with open(file_path, 'a') as f:
+        for value in values:
+            f.write(f"{value}\n")
 
 def load_processed_shas():
-    if not os.path.exists(github_sha):
-        return set()
-    with open(github_sha, 'r') as f:
-        return {line.strip() for line in f if line.strip()}
+    return load_processed_values(github_sha)
 
 github_headers = {
     'Authorization': "token {}".format(github_token)
@@ -354,77 +370,110 @@ def getCISANews():
     else:
         logging.info("CISA未更新漏洞")
 
-def save_file_locally(url, filename):
+def save_file_locally(url, filename, processed_advisory_ids=None):
     try:
         response = requests.get(url,headers=github_headers)
     except Exception as e:
         logging.info(f"An unexpected error occurred: {e}")
+        return False
     if response.status_code == 200:
         data = response.json()
+        advisory_key = extract_advisory_key(data, filename)
+        if processed_advisory_ids is not None and advisory_key in processed_advisory_ids:
+            logging.info(f"漏洞 {advisory_key} 已推送过，跳过")
+            return False
         aliases = data.get('aliases', [])
         aliases_str = ', '.join(aliases)
-        details = data.get('details', '')
-        severity = data.get('database_specific', '').get('severity', '')
-        for item in known_object:
-            if item in details.lower() and severity in ["HIGH","CRITICAL","Unknown","MODERATE"]:
-                if item == "jenkins":
-                    if "plugin" in details.lower() and "core" not in details.lower():
-                        break
-                url = f"https://github.com/advisories/{data.get('id', '')}"
-                detail = utils.load.baidu_api(details)
-                msg = f"编号：{aliases_str}\r\n组件：{item}\r\n信息：{detail}\r\n链接：{url}"
-                logging.info(f"企微推送：{aliases_str}  "+url)
-                msg_push.wechat_push(msg)
-                msg_push.send_google_sheet_githubVul("Emergency Vulnerability","github",item,aliases_str,url,detail)
-                msg_push.tg_push(msg)
-                break
+        details = str(data.get('details', '') or '')
+        match_result = match_known_object(data, known_object)
+        if match_result["matched"]:
+            item = match_result["matched_object"]
+            url = f"https://github.com/advisories/{data.get('id', '')}"
+            detail = utils.load.baidu_api(details)
+            msg = f"编号：{aliases_str}\r\n组件：{item}\r\n信息：{detail}\r\n链接：{url}"
+            logging.info(f"企微推送：{aliases_str}  "+url)
+            msg_push.wechat_push(msg)
+            msg_push.send_google_sheet_githubVul("Emergency Vulnerability","github",item,aliases_str,url,detail)
+            msg_push.tg_push(msg)
+            if processed_advisory_ids is not None:
+                processed_advisory_ids.add(advisory_key)
+                append_processed_values(github_advisory_ids, [advisory_key])
+            return True
     else:
         logging.info(f"Failed to read {filename}: {response.status_code}")
+    return False
 
 
 def getGithubVun():
-    url = f"https://api.github.com/repos/github/advisory-database/commits"
+    url = "https://api.github.com/repos/github/advisory-database/commits"
     try:
-        response = requests.get(url,headers=github_headers)
+        processed_commit_shas = load_processed_values(github_advisory_sha)
+        processed_advisory_ids = load_processed_values(github_advisory_ids)
+        page = 1
+        per_page = 100
+        max_pages = 3
+        new_commits = []
+        reached_processed_commit = False
+
+        while page <= max_pages and not reached_processed_commit:
+            response = requests.get(
+                url,
+                headers=github_headers,
+                params={"per_page": per_page, "page": page},
+            )
+            response.raise_for_status()
+            commits = response.json()
+            if not commits:
+                break
+
+            for commit in commits:
+                commit_sha = commit['sha']
+                if commit_sha in processed_commit_shas:
+                    reached_processed_commit = True
+                    break
+                new_commits.append(commit)
+            page += 1
     except Exception as e:
-        logging.error(f"An unexpected error occurred: {e}") 
-    if response.status_code == 200:
-        latest_commit = response.json()[0]
-        commit_message = latest_commit['commit']['message']
-        commit_url = latest_commit['html_url']
-        commit_sha = latest_commit['sha']
-        if not os.path.exists(github_sha):
-            open(github_sha, 'w').close()
-        with open(github_sha, 'r') as file:
-            lines = file.readlines()
-            # 如果a在文件中，则结束函数
-            if str(commit_sha) + '\n' in lines:
-                logging.info("没有新的commit被提交")
-                return
-        with open(github_sha, 'a') as file:
-            file.write(str(commit_sha) + '\n')
-        logging.info(f"Latest commit message: {commit_message}")
+        logging.error(f"An unexpected error occurred: {e}")
+        return
+
+    if not new_commits:
+        logging.info("没有新的advisory commit被提交")
+        return
+
+    successfully_processed_commits = []
+    for commit in reversed(new_commits):
+        commit_message = commit['commit']['message']
+        commit_url = commit['html_url']
+        commit_sha = commit['sha']
+        logging.info(f"Advisory commit message: {commit_message}")
         logging.info(f"Commit URL: {commit_url}")
-        # 获取详细修改内容
         commit_details_url = f"https://api.github.com/repos/github/advisory-database/commits/{commit_sha}"
-        details_response = requests.get(commit_details_url,headers=github_headers)
-        if details_response.status_code == 200:
-            commit_details = details_response.json()
-            files_changed = commit_details.get('files', [])
-            #logging.info("\nFiles changed:")
-            for file in files_changed:
-                filename = file['filename']
-                #additions = file['additions']
-                #deletions = file['deletions']
-                #changes = file['changes']
-                status = file['status']
-                if filename.endswith('.json') and status == "added":
-                    # 构建原始文件的 URL
-                    raw_url = f"https://raw.githubusercontent.com/github/advisory-database/{commit_sha}/{filename}"
-                    save_file_locally(raw_url, filename)
-                    logging.info(f"- {filename}: {status} ")
-        else:
-            logging.info(f"Failed to retrieve commit details: {details_response.status_code}")
+        try:
+            details_response = requests.get(commit_details_url, headers=github_headers)
+            details_response.raise_for_status()
+        except requests.RequestException as e:
+            logging.error(f"获取 advisory commit 详情失败: {commit_sha}, 错误: {e}")
+            continue
+
+        commit_details = details_response.json()
+        files_changed = commit_details.get('files', [])
+        for file in files_changed:
+            filename = file['filename']
+            status = file['status']
+            if not filename.startswith("advisories/") or not filename.endswith('.json'):
+                continue
+            if status not in {"added", "modified"}:
+                continue
+            raw_url = f"https://raw.githubusercontent.com/github/advisory-database/{commit_sha}/{filename}"
+            pushed = save_file_locally(raw_url, filename, processed_advisory_ids)
+            if pushed:
+                logging.info(f"已推送 advisory 文件: {filename} ({status})")
+            else:
+                logging.info(f"已检查 advisory 文件: {filename} ({status})")
+        successfully_processed_commits.append(commit_sha)
+
+    append_processed_values(github_advisory_sha, successfully_processed_commits)
             
 # 获取最近一次提交的变更文件
 def get_latest_commit_files(repo,branch):

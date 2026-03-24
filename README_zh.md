@@ -79,6 +79,57 @@ export llm_api_key="..."
 python3 LLM.py
 ```
 
+## CVE 查询
+
+仓库内也提供了一个轻量级 CVE 查询脚本。
+
+直接传入 CVE 编号即可：
+
+```bash
+export github_token="..."
+python3 cve_lookup_api.py CVE-2024-3094
+```
+
+批量查询多个 CVE：
+
+```bash
+python3 cve_lookup_api.py CVE-2024-3094 CVE-2024-3400 CVE-2025-0282
+```
+
+从文件批量读取：
+
+```bash
+python3 cve_lookup_api.py --input-file cve_list.txt
+```
+
+紧凑输出：
+
+```bash
+python3 cve_lookup_api.py CVE-2024-3094 --compact
+```
+
+返回内容包括：
+
+- 该 CVE 在 GitHub 上按 Star 排序的前 3 个仓库
+- GitHub Advisory 的 Description 是否命中 PoC 相关关键词
+- 从 Advisory References 中筛出的疑似 PoC 链接
+
+## 中文搜索
+
+仓库内也提供了一个用于搜索中文互联网内容的脚本。
+
+```bash
+python3 cve_cn_search.py CVE-2024-3400
+```
+
+多个 CVE 一起查询：
+
+```bash
+python3 cve_cn_search.py CVE-2024-3400 CVE-2025-0282
+```
+
+脚本基于 Bing RSS 搜索结果，对中文博客、论坛和安全分析文章做打分排序。
+
 ## 自动化运行
 
 仓库内已包含 GitHub Actions：

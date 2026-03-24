@@ -1,0 +1,136 @@
+{
+  "query_count": 2,
+  "success_count": 2,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2021-42321",
+      "engine": "bing_rss+native",
+      "queries": [
+        "\"CVE-2021-42321\"",
+        "\"CVE-2021-42321\" 漏洞分析",
+        "\"CVE-2021-42321\" 复现",
+        "\"CVE-2021-42321\" 利用",
+        "\"CVE-2021-42321\" 中文"
+      ],
+      "site_queries": [
+        "site:research.qianxin.com \"CVE-2021-42321\"",
+        "site:cloud.tencent.com \"CVE-2021-42321\""
+      ],
+      "expanded_keywords": [
+        "microsoft exchange server",
+        "exchange server",
+        "Microsoft Exchange Server Remote Code Execution"
+      ],
+      "query_errors": [],
+      "total_results": 2,
+      "likely_cn_articles": [
+        {
+          "title": "CVE-2021-42321 - Microsoft Exchange Server 远程代码执行漏洞",
+          "link": "https://cloud.tencent.com/developer/article/1909373",
+          "summary": "攻击者经过身份验证后，可在受影响的机器上进行远程代码执行。此漏洞影响本地 Exchange Server，包括用户在 Exchange 混合模式下使用的服务器。该漏洞目前已发现在野利用。",
+          "source_query": "native:cloud.tencent.com:CVE-2021-42321",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        }
+      ],
+      "top_results": [],
+      "fallback_results": [
+        {
+          "title": "Exchange Server 中间人劫持 RCE 漏洞分析",
+          "link": "https://xz.aliyun.com/news/9611",
+          "summary": "Exchange Server 中间人劫持 RCE 漏洞分析\n原文：https://srcincite.io/blog/2021/08/25/pwn2own-vancouver-2021-microsoft-exchange-server-remote-code-execution.html\nPwn2Own Vancouver 2021:: Microsoft Exchange Server 远程",
+          "source_query": "native:xz.aliyun.com:exchange server",
+          "score": 7,
+          "reasons": [
+            "security_media",
+            "high_signal:漏洞分析",
+            "keyword_match_only:exchange server"
+          ],
+          "host": "xz.aliyun.com",
+          "matched_keyword": "exchange server",
+          "match_mode": "keyword"
+        }
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-3400",
+      "engine": "bing_rss+native",
+      "queries": [
+        "\"CVE-2024-3400\"",
+        "\"CVE-2024-3400\" 漏洞分析",
+        "\"CVE-2024-3400\" 复现",
+        "\"CVE-2024-3400\" 利用",
+        "\"CVE-2024-3400\" 中文"
+      ],
+      "site_queries": [
+        "site:research.qianxin.com \"CVE-2024-3400\"",
+        "site:cloud.tencent.com \"CVE-2024-3400\""
+      ],
+      "expanded_keywords": [
+        "paloaltonetworks pan os",
+        "pan os",
+        "A command injection as a result of arbitrary file creation"
+      ],
+      "query_errors": [],
+      "total_results": 9,
+      "likely_cn_articles": [
+        {
+          "title": "深度剖析CVE-2024-3400：一个评分为10.0的PAN-OS命令注入高危漏洞",
+          "link": "https://cloud.tencent.com/developer/article/2610768",
+          "summary": "CVE-2024–3400是Palo Alto Networks PAN-OS（特别是GlobalProtect VPN功能）中的一个极其关键的命令注入漏洞。该漏洞允许未经身份验证的攻击者以root权限执行任意代码，对全球网络基础设施（尤其是北约和G7国家的网络）构成了巨大风险。该威胁的CVSS评分为满分10.0，要求立即采取果断行动以减轻其潜在的破坏性影响。",
+          "source_query": "native:cloud.tencent.com:CVE-2024-3400",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:剖析,深度剖析",
+            "contains_cve_id"
+          ],
+          "host": "cloud.tencent.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "Palo Alto Networks PAN-OS命令注入漏洞 (CVE-2024-3400 ...",
+          "link": "https://www.secrss.com/articles/65257",
+          "summary": "近日，奇安信CERT监测到 Palo Alto Networks PAN-OS 命令注入漏洞 (CVE-2024-3400)，Palo Alto Networks PAN-OS 软件的 GlobalProtect 功能中针对特定 PAN-OS 版本和不同功能配置下，未经身份验证的攻击者可能利用此漏洞在防火墙上以root权限执行任意代码。",
+          "source_query": "\"CVE-2024-3400\"",
+          "score": 8,
+          "reasons": [
+            "security_media",
+            "high_signal:利用",
+            "contains_cve_id"
+          ],
+          "host": "www.secrss.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        },
+        {
+          "title": "Palo Alto CVE-2024-3400漏洞分析",
+          "link": "https://research.qianxin.com/archives/1990",
+          "summary": "",
+          "source_query": "native:research.qianxin.com:CVE-2024-3400",
+          "score": 8,
+          "reasons": [
+            "security_research",
+            "high_signal:漏洞分析",
+            "contains_cve_id"
+          ],
+          "host": "research.qianxin.com",
+          "matched_keyword": "",
+          "match_mode": "cve"
+        }
+      ],
+      "top_results": [],
+      "fallback_results": []
+    }
+  ],
+  "errors": []
+}

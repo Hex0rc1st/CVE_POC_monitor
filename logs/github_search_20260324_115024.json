@@ -1,0 +1,45 @@
+{
+  "query_count": 1,
+  "success_count": 1,
+  "error_count": 0,
+  "results": [
+    {
+      "cve_id": "CVE-2025-41243",
+      "repo_search": {
+        "query": "\"CVE-2025-41243\" in:name,description,readme",
+        "total_count": 5,
+        "top_repositories": [
+          {
+            "full_name": "SFN233/CVE-2025-41243-Vulnerability-Lab",
+            "html_url": "https://github.com/SFN233/CVE-2025-41243-Vulnerability-Lab",
+            "description": "Spring Cloud Gateway SpEL RCE Vulnerability Environment",
+            "stars": 0,
+            "updated_at": "2026-01-26T08:58:19Z"
+          }
+        ]
+      },
+      "advisory": {
+        "found": true,
+        "advisory_count": 1,
+        "selected": {
+          "ghsa_id": "GHSA-q2cj-h8fw-q4cc",
+          "html_url": "https://github.com/advisories/GHSA-q2cj-h8fw-q4cc",
+          "summary": "Spring Expression language property modification using Spring Cloud Gateway Server WebFlux",
+          "severity": "critical",
+          "published_at": "2025-09-16T15:32:37Z",
+          "updated_at": "2025-09-16T20:20:01Z",
+          "description_mentions_poc": false,
+          "description_poc_keywords": [],
+          "reference_count": 3,
+          "references": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2025-41243",
+            "https://spring.io/security/cve-2025-41243",
+            "https://github.com/advisories/GHSA-q2cj-h8fw-q4cc"
+          ],
+          "likely_poc_references": []
+        }
+      }
+    }
+  ],
+  "errors": []
+}
