@@ -3164,3 +3164,5 @@ clean_list:
 - CVE-2025-6782
 - CVE-2025-11771
 - CVE-2026-30655
+- CVE-2026-29000-pac4j-jwt-auth-bypass
+- Zero-Click-RCE-Incident-Response-CVE-2025-21298

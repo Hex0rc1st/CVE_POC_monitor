@@ -2193,5 +2193,35 @@
         "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
         "link": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
         "published": "Mon, 23 Mar 2026 23:39:00 +0530"
+    },
+    {
+        "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials",
+        "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+        "published": "Tue, 24 Mar 2026 17:30:00 +0530"
+    },
+    {
+        "title": "5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents",
+        "link": "https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html",
+        "published": "Tue, 24 Mar 2026 17:07:00 +0530"
+    },
+    {
+        "title": "TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials",
+        "link": "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+        "published": "Tue, 24 Mar 2026 16:08:00 +0530"
+    },
+    {
+        "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills",
+        "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+        "published": "Tue, 24 Mar 2026 15:30:00 +0530"
+    },
+    {
+        "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
+        "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+        "published": "Tue, 24 Mar 2026 12:19:00 +0530"
+    },
+    {
+        "title": "Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks",
+        "link": "https://thehackernews.com/2026/03/citrix-urges-patching-critical.html",
+        "published": "Tue, 24 Mar 2026 11:29:00 +0530"
     }
 ]
