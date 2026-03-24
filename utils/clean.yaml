@@ -3166,3 +3166,4 @@ clean_list:
 - CVE-2026-30655
 - CVE-2026-29000-pac4j-jwt-auth-bypass
 - Zero-Click-RCE-Incident-Response-CVE-2025-21298
+- React2Shell-PoC-CVE-2025-55182
