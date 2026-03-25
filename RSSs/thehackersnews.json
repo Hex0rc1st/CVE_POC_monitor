@@ -2258,5 +2258,10 @@
         "title": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse",
         "link": "https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html",
         "published": "Wed, 25 Mar 2026 17:04:00 +0530"
+    },
+    {
+        "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
+        "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
+        "published": "Wed, 25 Mar 2026 19:56:00 +0530"
     }
 ]

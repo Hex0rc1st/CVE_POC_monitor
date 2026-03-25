@@ -428,5 +428,10 @@
         "title": "New Whitepaper: Exploiting Cellular-based IoT Devices",
         "link": "https://www.rapid7.com/blog/post/tr-new-whitepaper-exploiting-cellular-based-iot-devices",
         "published": "Tue, 24 Mar 2026 20:00:00 GMT"
+    },
+    {
+        "title": "From Vectors to Verdicts: Web App Testing with Vector Command",
+        "link": "https://www.rapid7.com/blog/post/pt-vectors-verdicts-web-app-testing-vector-command",
+        "published": "Wed, 25 Mar 2026 13:52:23 GMT"
     }
 ]
