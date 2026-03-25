@@ -473,5 +473,10 @@
         "title": "Chrome Dev for Desktop Update",
         "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-desktop-update_0622841193.html",
         "published": "2026-03-24T10:13:33.266-07:00"
+    },
+    {
+        "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-chromeos_24.html",
+        "published": "2026-03-24T23:25:00.000-07:00"
     }
 ]

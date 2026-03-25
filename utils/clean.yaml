@@ -3171,3 +3171,7 @@ clean_list:
 - PoC-CVE-2026-23744
 - CVE-2025-49596-PoC
 - htb-kobold-writeup
+- CVE-2024-30051-DWMHeapOverflow-Masters-Thesis
+- CVE-2024-51324-BYOVD-Masters-Thesis
+- CVE-2025-55182-React2Shell-Masters-Thesis
+- abhinavagarwal07.github.io
