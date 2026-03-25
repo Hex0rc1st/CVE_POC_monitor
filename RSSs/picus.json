@@ -458,5 +458,15 @@
         "title": "Dark Web Shopping Center Explained",
         "link": "https://www.picussecurity.com/resource/blog/dark-web-shopping-center-explained",
         "published": "Tue, 24 Mar 2026 08:00:00 GMT"
+    },
+    {
+        "title": "T1547.005 Security Support Provider in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-005-security-support-provider",
+        "published": "Wed, 25 Mar 2026 08:45:00 GMT"
+    },
+    {
+        "title": "What Are Living Off the Land (LOTL) Attacks?",
+        "link": "https://www.picussecurity.com/resource/blog/what-are-living-off-the-land-lotl-attacks",
+        "published": "Wed, 25 Mar 2026 08:00:00 GMT"
     }
 ]
