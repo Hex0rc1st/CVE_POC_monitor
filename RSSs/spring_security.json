@@ -203,5 +203,10 @@
         "title": "CVE-2026-22742 - High - CVE-2026-22742: Server-Side Request Forgery in BedrockProxyChatModel via Unvalidated Media URL Fetching",
         "link": "https://spring.io/security/cve-2026-22742",
         "published": "Thu, 26 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22744 - High - CVE-2026-22744: RediSearch Query via Unescaped TAG Filter Values in RedisVectorStore",
+        "link": "https://spring.io/security/cve-2026-22744",
+        "published": "Thu, 26 Mar 2026 00:00:00 GMT"
     }
 ]
