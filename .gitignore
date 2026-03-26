@@ -23,3 +23,9 @@ Thumbs.db
 # Temporary files
 temp_*.py
 debug_*.py
+
+# Local cache
+.cache/
+
+# Generated logs
+logs/*.json

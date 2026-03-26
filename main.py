@@ -12,6 +12,7 @@ import os
 import requests
 import re
 import utils.load
+from cve_lookup_api import build_cve_response
 from utils.advisory_match import allowed_advisory_severities
 from utils.advisory_match import build_advisory_search_fields
 from utils.advisory_match import extract_advisory_key
@@ -110,6 +111,162 @@ def check_cve_in_poc_history(cve_id):
     except Exception as e:
         logging.error(f"查询CVE历史PoC失败: {e}")
         return []
+
+
+def clean_markdown_text(text):
+    # Strip the most common markdown markers so advisory details read cleanly in push messages.
+    cleaned = str(text or "")
+    cleaned = re.sub(r"`([^`]*)`", r"\1", cleaned)
+    cleaned = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", cleaned)
+    cleaned = re.sub(r"(?m)^\s{0,3}#{1,6}\s*", "", cleaned)
+    cleaned = re.sub(r"(?m)^\s*[-*]\s*", "", cleaned)
+    cleaned = re.sub(r"\r", "", cleaned)
+    cleaned = re.sub(r"\n{2,}", "\n", cleaned)
+    return cleaned.strip()
+
+
+def truncate_text(text, limit=220):
+    # Keep push text short enough for chat notifications without dropping the main point.
+    normalized = re.sub(r"\s+", " ", str(text or "")).strip()
+    if len(normalized) <= limit:
+        return normalized
+    return normalized[: limit - 3].rstrip() + "..."
+
+
+def safe_translate_text(text):
+    # Translate a short advisory snippet to Chinese and fall back to the original text on failure.
+    normalized = str(text or "").strip()
+    if not normalized:
+        return ""
+    if not utils.load.baidu_appid or not utils.load.baidu_appkey:
+        return normalized
+    try:
+        return utils.load.baidu_api(normalized)
+    except Exception as exc:
+        logging.warning(f"百度翻译失败，使用原文回退: {exc}")
+        return normalized
+
+
+def extract_impact_excerpt(details):
+    # Extract the impact section from advisory details, or fall back to the opening paragraphs.
+    markdown = str(details or "").strip()
+    if not markdown:
+        return ""
+    sections = re.split(r"(?m)^##\s+", markdown)
+    for section in sections:
+        section = section.strip()
+        if not section:
+            continue
+        lines = section.splitlines()
+        heading = lines[0].strip().lower()
+        body = "\n".join(lines[1:]).strip()
+        if heading == "impact" and body:
+            return clean_markdown_text(body)
+    return clean_markdown_text(markdown)
+
+
+def extract_affected_versions(data):
+    # Summarize affected version ranges so the alert includes a concrete upgrade boundary.
+    seen = []
+    for affected in data.get('affected', []) or []:
+        package = (affected.get('package') or {}).get('name') or "unknown"
+        for item_range in affected.get('ranges', []) or []:
+            introduced = ""
+            fixed = ""
+            for event in item_range.get('events', []) or []:
+                if event.get('introduced') is not None:
+                    introduced = str(event.get('introduced'))
+                if event.get('fixed') is not None:
+                    fixed = str(event.get('fixed'))
+            if fixed and introduced and introduced != "0":
+                version_text = f"{package} {introduced} - < {fixed}"
+            elif fixed:
+                version_text = f"{package} < {fixed}"
+            elif introduced and introduced != "0":
+                version_text = f"{package} >= {introduced}"
+            else:
+                version_text = package
+            if version_text not in seen:
+                seen.append(version_text)
+    return "；".join(seen[:4]) if seen else "未知"
+
+
+def fetch_cvss_score(cve_id):
+    # Query NVD for a numeric CVSS base score and fall back to unknown when the API has no metric yet.
+    normalized_cve = str(cve_id or "").strip().upper()
+    if not normalized_cve.startswith("CVE-"):
+        return "未知"
+    try:
+        response = requests.get(
+            "https://services.nvd.nist.gov/rest/json/cves/2.0",
+            params={"cveId": normalized_cve},
+            timeout=20,
+        )
+        response.raise_for_status()
+        payload = response.json()
+    except Exception as exc:
+        logging.warning(f"NVD CVSS 查询失败 {normalized_cve}: {exc}")
+        return "未知"
+
+    vulnerabilities = payload.get("vulnerabilities", []) or []
+    if not vulnerabilities:
+        return "未知"
+    metrics = ((vulnerabilities[0].get("cve") or {}).get("metrics") or {})
+    metric_order = ["cvssMetricV40", "cvssMetricV31", "cvssMetricV30", "cvssMetricV2"]
+    for metric_key in metric_order:
+        for metric in metrics.get(metric_key, []) or []:
+            cvss_data = metric.get("cvssData") or {}
+            base_score = cvss_data.get("baseScore")
+            if base_score is not None:
+                return str(base_score)
+    return "未知"
+
+
+def lookup_github_poc_status(cve_id):
+    # Reuse the GitHub PoC search pipeline and return whether the matched CVE already has PoC clues.
+    normalized_cve = str(cve_id or "").strip().upper()
+    if not normalized_cve.startswith("CVE-"):
+        return "未知", []
+    try:
+        result = build_cve_response(normalized_cve)
+    except Exception as exc:
+        logging.warning(f"GitHub PoC 查询失败 {normalized_cve}: {exc}")
+        return "未知", []
+    repo_items = result.get("repo_search", {}).get("top_repositories", []) or []
+    repo_links = [item.get("html_url") for item in repo_items if item.get("html_url")]
+    advisory = (result.get("advisory") or {}).get("selected") or {}
+    reference_links = [
+        item.get("url")
+        for item in advisory.get("likely_poc_references", []) or []
+        if item.get("url")
+    ]
+    has_poc = bool(repo_links or reference_links or advisory.get("description_mentions_poc"))
+    links = (repo_links + reference_links)[:2]
+    return ("是" if has_poc else "否"), links
+
+
+def build_github_advisory_message(data, matched_object, severity, advisory_url):
+    # Build a concise advisory push message with summary, CVSS score, and PoC presence.
+    aliases = data.get('aliases', []) or []
+    aliases_str = ', '.join(aliases)
+    cve_id = next((alias for alias in aliases if alias.upper().startswith("CVE-")), aliases[0] if aliases else "")
+    summary_text = safe_translate_text(clean_markdown_text(data.get('summary', '') or ''))
+    cvss_text = fetch_cvss_score(cve_id)
+    poc_status, poc_links = lookup_github_poc_status(cve_id)
+
+    lines = [
+        f"编号：{aliases_str or data.get('id', '')}",
+        f"组件：{matched_object}",
+        f"严重性：{severity}",
+        f"CVSS：{cvss_text}",
+    ]
+    if summary_text:
+        lines.append(f"概要：{truncate_text(summary_text, 160)}")
+    lines.append(f"GitHub PoC：{poc_status}")
+    if poc_links:
+        lines.append(f"PoC线索：{' | '.join(poc_links)}")
+    lines.append(f"链接：{advisory_url}")
+    return "\r\n".join(lines)
 
 def parse_rss_feed(feed_url,file):
     # 解析RSS feed
@@ -403,18 +560,15 @@ def save_file_locally(url, filename, processed_advisory_ids=None):
         if processed_advisory_ids is not None and advisory_key in processed_advisory_ids:
             logging.info(f"漏洞 {advisory_key} 已推送过，跳过")
             return False
-        aliases = data.get('aliases', [])
-        aliases_str = ', '.join(aliases)
-        details = str(data.get('details', '') or '')
         match_result = match_known_object(data, known_object)
         if match_result["matched"]:
             item = match_result["matched_object"]
+            severity = match_result.get("severity", "UNKNOWN")
             url = f"https://github.com/advisories/{data.get('id', '')}"
-            detail = utils.load.baidu_api(details)
-            msg = f"编号：{aliases_str}\r\n组件：{item}\r\n信息：{detail}\r\n链接：{url}"
-            logging.info(f"企微推送：{aliases_str}  "+url)
+            msg = build_github_advisory_message(data, item, severity, url)
+            logging.info(f"企微推送：{advisory_key}  {url}")
             msg_push.wechat_push(msg)
-            msg_push.send_google_sheet_githubVul("Emergency Vulnerability","github",item,aliases_str,url,detail)
+            msg_push.send_google_sheet_githubVul("Emergency Vulnerability","github",item,advisory_key,url,msg)
             msg_push.tg_push(msg)
             if processed_advisory_ids is not None:
                 processed_advisory_ids.add(advisory_key)

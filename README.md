@@ -18,6 +18,8 @@ CVE_POC_monitor is an automated vulnerability intelligence monitor that aggregat
 ### 1) Official/API data
 
 - **GitHub Search API**: repository discovery by CVE keywords.
+- **wxvl index data**: `https://raw.githubusercontent.com/gelusus/wxvl/main/data.json`
+- **wxvl repository snapshot**: `https://codeload.github.com/gelusus/wxvl/tar.gz/refs/heads/main`
 - **GitHub Commits/Contents API**: advisory updates and monitored repo file changes.
 - **GitHub Advisory raw JSON**: parsed for aliases, severity, details.
 - **CISA KEV CSV**:  
@@ -128,7 +130,61 @@ Multiple CVEs:
 python3 cve_cn_search.py CVE-2024-3400 CVE-2025-0282
 ```
 
-The script uses Bing RSS search results and scores Chinese blogs, forums, and security writeups.
+The script scores Chinese blogs, forums, and security writeups and filters notice-like content.
+
+## WeChat PoC Search
+
+This repository also includes a script for searching PoC-like WeChat articles from the `gelusus/wxvl` archive.
+
+```bash
+python3 cve_wxvl_search.py CVE-2024-3400
+```
+
+Multiple CVEs:
+
+```bash
+python3 cve_wxvl_search.py CVE-2024-3400 CVE-2025-0282
+```
+
+The script uses the wxvl title index first, falls back to cached markdown only when needed, and filters official advisory-style publishers such as QAX, 360, ThreatBook, Chaitin, and FreeBuf.
+
+## Multi-Source PoC Search
+
+Use the unified multi-source entrypoint to query GitHub, Chinese web results, and WeChat articles together.
+
+```bash
+python3 cve_poc_search.py CVE-2024-3400
+```
+
+Multiple CVEs:
+
+```bash
+python3 cve_poc_search.py CVE-2024-3400 CVE-2025-0282
+```
+
+From file:
+
+```bash
+python3 cve_poc_search.py --input-file cve_list.txt
+```
+
+Compact output:
+
+```bash
+python3 cve_poc_search.py CVE-2024-3400 --compact
+```
+
+Output shape:
+
+```json
+{
+  "CVE-2024-3400": {
+    "github": {"repos": [], "poc_references": []},
+    "brower": {"likely_cn_articles": [], "top_results": [], "fallback_results": []},
+    "wechat": {"articles": []}
+  }
+}
+```
 
 ## Automation
 
