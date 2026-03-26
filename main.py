@@ -262,9 +262,10 @@ def build_github_advisory_message(data, matched_object, severity, advisory_url):
     ]
     if summary_text:
         lines.append(f"概要：{truncate_text(summary_text, 160)}")
-    lines.append(f"GitHub PoC：{poc_status}")
     if poc_links:
-        lines.append(f"PoC线索：{' | '.join(poc_links)}")
+        lines.append(f"GitHub PoC：{' | '.join(poc_links)}")
+    else:
+        lines.append(f"GitHub PoC：{poc_status}")
     lines.append(f"链接：{advisory_url}")
     return "\r\n".join(lines)
 
