@@ -3184,3 +3184,7 @@ clean_list:
 - Fortinet_FortiClient_Exploit_CVE-2026-24018
 - CVE-Disclosures
 - CVE-2024-36039_PoC
+- CVE-2026-23745-via-graphql-DEMO
+- assets
+- Weblate-CVE-2026-24126
+- CVE-2026-3891
