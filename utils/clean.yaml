@@ -3178,3 +3178,6 @@ clean_list:
 - CVE-2026-3584
 - CVE-2026-26198-analysis
 - CVE-2026-30039
+- RegPwn
+- CVE-2026-33017-Lab
+- xz

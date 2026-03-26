@@ -468,5 +468,10 @@
         "title": "What Are Living Off the Land (LOTL) Attacks?",
         "link": "https://www.picussecurity.com/resource/blog/what-are-living-off-the-land-lotl-attacks",
         "published": "Wed, 25 Mar 2026 08:00:00 GMT"
+    },
+    {
+        "title": "T1547.007 Re-opened Applications in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-007-re-opened-applications",
+        "published": "Thu, 26 Mar 2026 05:45:00 GMT"
     }
 ]
