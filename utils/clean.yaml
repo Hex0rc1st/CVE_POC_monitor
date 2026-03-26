@@ -3190,3 +3190,5 @@ clean_list:
 - CVE-2026-3891
 - CVE-2026-34070
 - telnet_scan
+- CVE-2026-34005
+- CVE-2026-27940
