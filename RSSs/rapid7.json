@@ -433,5 +433,10 @@
         "title": "From Vectors to Verdicts: Web App Testing with Vector Command",
         "link": "https://www.rapid7.com/blog/post/pt-vectors-verdicts-web-app-testing-vector-command",
         "published": "Wed, 25 Mar 2026 13:52:23 GMT"
+    },
+    {
+        "title": "BPFdoor in Telecom Networks: Sleeper Cells in the Backbone",
+        "link": "https://www.rapid7.com/blog/post/tr-bpfdoor-telecom-networks-sleeper-cells-threat-research-report",
+        "published": "Thu, 26 Mar 2026 13:00:00 GMT"
     }
 ]

@@ -3188,3 +3188,5 @@ clean_list:
 - assets
 - Weblate-CVE-2026-24126
 - CVE-2026-3891
+- CVE-2026-34070
+- telnet_scan
