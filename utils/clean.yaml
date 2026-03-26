@@ -3182,3 +3182,5 @@ clean_list:
 - CVE-2026-33017-Lab
 - xz
 - Fortinet_FortiClient_Exploit_CVE-2026-24018
+- CVE-Disclosures
+- CVE-2024-36039_PoC
