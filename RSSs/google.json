@@ -508,5 +508,15 @@
         "title": "Chrome for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_0888810258.html",
         "published": "2026-03-25T17:00:00.000-07:00"
+    },
+    {
+        "title": "Chrome Dev for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-android-update_01339259797.html",
+        "published": "2026-03-26T09:43:32.911-07:00"
+    },
+    {
+        "title": "Chrome Dev for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-dev-for-desktop-update_025587525.html",
+        "published": "2026-03-26T09:28:33.448-07:00"
     }
 ]

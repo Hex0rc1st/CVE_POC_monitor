@@ -188,5 +188,20 @@
         "title": "CVE-2026-22739 - Medium - CVE-2026-22739: Spring Cloud Config Profile Substitution Can Allow Unintended Access To Files And Enable SSRF Attacks",
         "link": "https://spring.io/security/cve-2026-22739",
         "published": "Mon, 23 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22738 - Critical - CVE-2026-22738: SpEL Injection via Unescaped Filter Key in SimpleVectorStore Leads to Remote Code Execution",
+        "link": "https://spring.io/security/cve-2026-22738",
+        "published": "Thu, 26 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-22743 - High - CVE-2026-22743: Server-Side Request Forgery via Filter Expression Keys in Neo4jVectorStore",
+        "link": "https://spring.io/security/cve-2026-22743",
+        "published": "Thu, 26 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22742 - High - CVE-2026-22742: Server-Side Request Forgery in BedrockProxyChatModel via Unvalidated Media URL Fetching",
+        "link": "https://spring.io/security/cve-2026-22742",
+        "published": "Thu, 26 Mar 2026 00:00:00 GMT"
     }
 ]
