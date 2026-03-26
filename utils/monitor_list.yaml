@@ -3,6 +3,13 @@ repo_list:
     folder: "poc/cve"
   - name: "eeeeeeeeee-code/POC"
     folder: "wpoc"
+  - name: "zan8in/afrog"
+    folders:
+      - "pocs/temp/afrog-pocs"
+      - "pocs/afrog-pocs"
+    suffixes:
+      - ".yaml"
+      - ".yml"
 
 keyword_list:
  #- poc+OR+exp+OR+复现+"cve-2024"

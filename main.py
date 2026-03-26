@@ -11,6 +11,7 @@ import os
 #import dingtalkchatbot.chatbot as cb
 import requests
 import re
+import yaml
 import utils.load
 from cve_lookup_api import build_cve_response
 from utils.advisory_match import allowed_advisory_severities
@@ -28,6 +29,7 @@ known_object = utils.load.load_object_list()
 github_sha = "./utils/sha.txt"
 github_advisory_sha = "./utils/advisory_sha.txt"
 github_advisory_ids = "./utils/advisory_ids.txt"
+github_repo_sha_dir = "./utils/repo_shas"
 
 def load_processed_values(file_path):
     if not os.path.exists(file_path):
@@ -44,6 +46,18 @@ def append_processed_values(file_path, values):
 
 def load_processed_shas():
     return load_processed_values(github_sha)
+
+
+def get_repo_sha_file(repo):
+    # Return the per-repo SHA state file path used by repo_list monitoring.
+    safe_name = repo.replace("/", "__")
+    os.makedirs(github_repo_sha_dir, exist_ok=True)
+    return os.path.join(github_repo_sha_dir, f"{safe_name}.txt")
+
+
+def load_repo_processed_shas(repo):
+    # Load processed commit SHAs for one monitored repository.
+    return load_processed_values(get_repo_sha_file(repo))
 
 github_headers = {
     'Authorization': "token {}".format(github_token)
@@ -674,14 +688,44 @@ def getGithubVun():
 # 获取最近一次提交的变更文件
 def get_latest_commit_files(repo,branch):
     try:
-        processed_shas = load_processed_shas()
-        # 分页获取新提交
+        repo_sha_file = get_repo_sha_file(repo)
+        processed_shas = load_repo_processed_shas(repo)
+        legacy_processed_shas = load_processed_shas()
         page = 1
-        max_pages = 2  # 新增：最多获取2页
+        max_pages = 2
         per_page = 100
         new_shas = []
-        # 获取最新提交（指定分支）
-        while page <= max_pages:  # 修改循环条件
+        reached_processed_sha = False
+
+        if not processed_shas:
+            init_url = f"https://api.github.com/repos/{repo}/commits?per_page=100&sha={branch}&page=1"
+            response = requests.get(init_url, headers=github_headers, timeout=10)
+            try:
+                response.raise_for_status()
+            except requests.HTTPError as e:
+                logging.error(f"获取提交列表失败: URL={init_url}, 错误: {str(e)}")
+                return []
+            commits = response.json()
+            if not commits:
+                logging.info(f"{repo} 提交列表为空，跳过初始化")
+                return []
+
+            bootstrap_match_found = False
+            for commit in commits:
+                sha = commit["sha"]
+                if sha in legacy_processed_shas:
+                    append_processed_values(repo_sha_file, [sha])
+                    processed_shas.add(sha)
+                    bootstrap_match_found = True
+                    logging.info(f"{repo} 已根据旧版 sha.txt 迁移提交边界: {sha}")
+                    break
+            if not bootstrap_match_found:
+                latest_commit_sha = commits[0]["sha"]
+                append_processed_values(repo_sha_file, [latest_commit_sha])
+                logging.info(f"{repo} 首次初始化 repo sha，已记录最新 commit: {latest_commit_sha}，跳过历史 backlog")
+                return []
+
+        while page <= max_pages and not reached_processed_sha:
             commits_url = f"https://api.github.com/repos/{repo}/commits?per_page={per_page}&sha={branch}&page={page}"
             response = requests.get(commits_url, headers=github_headers, timeout=10)
             try:
@@ -695,12 +739,9 @@ def get_latest_commit_files(repo,branch):
             for commit in commits:
                 sha = commit["sha"]
                 if sha in processed_shas:
-                    # 遇到已处理 SHA，停止遍历
+                    reached_processed_sha = True
                     break
                 new_shas.append(sha)
-            # 如果当前页有已处理 SHA，停止翻页
-            if any(sha in processed_shas for sha in new_shas):
-                break
             page += 1
         if not new_shas:
             logging.info(f"{repo} 无新提交")
@@ -721,9 +762,8 @@ def get_latest_commit_files(repo,branch):
                      if file.get("status") == "added" ] # 仅保留新增文件]
             all_files.extend(files)
         # 批量记录 SHA
-        with open(github_sha, 'a') as f:
-            for sha in new_shas:
-                f.write(f"{sha}\n")
+        append_processed_values(repo_sha_file, new_shas)
+        append_processed_values(github_sha, new_shas)
         logging.info(f"{repo} 最新提交 SHA: {new_shas}")
         return all_files
     except requests.RequestException as e:
@@ -742,22 +782,85 @@ def read_file(repo, branch, file_path):
         if "wp-content/themes" in response.text and "style.css" in response.text:
             logging.info(f"❌ {file_path}为版本对比插件")
             return
-        msg_push.tg_push(f"{repo}项目新增PoC推送:\r\n名称：{file_path}\r\n地址：{url}")
-        msg_push.send_google_sheet("CVE",repo,file_path,url,"")
+        poc_name = extract_repo_yaml_name(response.text, file_path)
+        push_text = f"{repo}项目新增PoC推送:\r\n名称：{poc_name}\r\n文件：{file_path}\r\n地址：{url}"
+        msg_push.tg_push(push_text)
+        msg_push.send_google_sheet("CVE",repo,poc_name,url,file_path)
         logging.info(f"✅ 获取文件内容成功: {file_path} ")
     except requests.RequestException as e:
         logging.error(f"❌ 获取文件内容失败: {file_path} -> {e}")
 
+
+def get_repo_monitor_folders(repo_config):
+    # Normalize repo monitor folders so one repo can watch one or more directory prefixes.
+    folders = repo_config.get("folders") or []
+    if not folders and repo_config.get("folder"):
+        folders = [repo_config["folder"]]
+    normalized = []
+    for folder in folders:
+        folder_text = str(folder or "").strip().rstrip("/")
+        if not folder_text:
+            continue
+        normalized.append(folder_text + "/")
+    return normalized
+
+
+def get_repo_monitor_suffixes(repo_config):
+    # Normalize suffix filters and fall back to accepting every file when none are configured.
+    suffixes = repo_config.get("suffixes") or []
+    normalized = [str(suffix).strip().lower() for suffix in suffixes if str(suffix).strip()]
+    return tuple(normalized)
+
+
+def select_repo_new_files(repo_config, changed_files):
+    # Filter added files by configured folders and suffixes while keeping backward compatibility.
+    folders = get_repo_monitor_folders(repo_config)
+    suffixes = get_repo_monitor_suffixes(repo_config)
+    selected = []
+    for file_path in changed_files:
+        if folders and not any(file_path.startswith(folder) for folder in folders):
+            continue
+        if suffixes and not file_path.lower().endswith(suffixes):
+            continue
+        if file_path not in selected:
+            selected.append(file_path)
+    return selected
+
+
+def extract_repo_yaml_name(file_text, file_path):
+    # Parse a repo PoC YAML and return a human-readable name for push notifications.
+    try:
+        data = yaml.safe_load(file_text)
+    except Exception as exc:
+        logging.warning(f"YAML 解析失败，回退到文件名: {file_path} -> {exc}")
+        return os.path.basename(file_path)
+    if not isinstance(data, dict):
+        return os.path.basename(file_path)
+    info = data.get("info") or {}
+    if isinstance(info, dict):
+        name = str(info.get("name") or "").strip()
+        if name:
+            return name
+    top_level_name = str(data.get("name") or "").strip()
+    if top_level_name:
+        return top_level_name
+    poc_id = str(data.get("id") or "").strip()
+    if poc_id:
+        return poc_id
+    return os.path.basename(file_path)
+
+
 def getRepoPoCs():
     for repo in repo_list:
         repo_name = repo["name"]
-        folder = repo["folder"].rstrip('/') + '/'  # 规范目录格式
         branch = repo.get("branch", "main")
+        folders = get_repo_monitor_folders(repo)
+        suffixes = get_repo_monitor_suffixes(repo)
         changed_files = get_latest_commit_files(repo_name, branch)
         if changed_files is None:
             logging.error(f"❌ 获取 {repo_name} 的变更文件失败，已跳过")
             continue  # 错误已记录，跳过处理
-        new_files = list({file for file in changed_files if file.startswith(folder)})
+        new_files = select_repo_new_files(repo, changed_files)
         if new_files:
             logging.info(f"📦 {repo_name} 发现 {len(new_files)} 个新文件:")
             for idx, file in enumerate(new_files, 1):
@@ -765,7 +868,9 @@ def getRepoPoCs():
             for file in new_files:
                 read_file(repo_name, branch, file)
         else:
-            logging.info(f"✅ {repo_name} 的 {folder} 目录无新文件变更")
+            folder_desc = ", ".join(folders) if folders else "(all files)"
+            suffix_desc = ", ".join(suffixes) if suffixes else "(all suffixes)"
+            logging.info(f"✅ {repo_name} 的监控范围无新文件变更: folders={folder_desc} suffixes={suffix_desc}")
 
 def main():
     init()
