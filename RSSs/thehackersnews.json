@@ -2323,5 +2323,10 @@
         "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
         "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
         "published": "Fri, 27 Mar 2026 17:33:00 +0530"
+    },
+    {
+        "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
+        "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
+        "published": "Fri, 27 Mar 2026 19:27:00 +0530"
     }
 ]

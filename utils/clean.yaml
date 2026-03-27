@@ -3199,3 +3199,6 @@ clean_list:
 - PoC-CVE-2026-33017
 - By-Poloss..-..CVE-2026-33868
 - SentinelStream-AI
+- CVE-2026-23744
+- CVE-2026-34227
+- InvenTree-Path-Traversal-CVE-2026-33531
