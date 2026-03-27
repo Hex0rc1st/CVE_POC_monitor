@@ -483,5 +483,10 @@
         "title": "T1547.006 Kernel Modules and Extensions in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1547-006-kernel-modules-extensions",
         "published": "Thu, 26 Mar 2026 07:00:00 GMT"
+    },
+    {
+        "title": "What Automated Pentesting Alone Cannot See",
+        "link": "https://www.picussecurity.com/resource/report/what-automated-pentesting-alone-cannot-see",
+        "published": "Fri, 27 Mar 2026 06:52:45 GMT"
     }
 ]
