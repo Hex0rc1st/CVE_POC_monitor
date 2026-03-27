@@ -2303,5 +2303,10 @@
         "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
         "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
         "published": "Thu, 26 Mar 2026 23:10:00 +0530"
+    },
+    {
+        "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
+        "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
+        "published": "Fri, 27 Mar 2026 13:37:00 +0530"
     }
 ]
