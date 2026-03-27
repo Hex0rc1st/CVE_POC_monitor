@@ -30,6 +30,13 @@ def load_tools_list():
     with open('./utils/monitor_list.yaml', 'r',  encoding='utf-8') as f:
         list = yaml.load(f,Loader=yaml.FullLoader)
         return list['repo_list'], list['keyword_list'], list['user_list']
+
+
+def load_wechat_sources():
+    # Load the configured WeChat publisher names monitored through the wxvl archive.
+    with open('./utils/monitor_list.yaml', 'r', encoding='utf-8') as f:
+        data = yaml.load(f, Loader=yaml.FullLoader) or {}
+        return data.get('wechat_sources', [])
     
 def load_clean_list():
     with open('./utils/clean.yaml', 'r',  encoding='utf-8') as f:

@@ -14,6 +14,10 @@ import re
 import yaml
 import utils.load
 from cve_lookup_api import build_cve_response
+from cve_wxvl_search import build_title_index
+from cve_wxvl_search import extract_article_source
+from cve_wxvl_search import fetch_wxvl_data
+from cve_wxvl_search import find_candidate_urls
 from utils.advisory_match import allowed_advisory_severities
 from utils.advisory_match import build_advisory_search_fields
 from utils.advisory_match import extract_advisory_key
@@ -24,12 +28,16 @@ from utils.advisory_match import match_known_object
 
 github_token = os.environ.get("github_token")
 repo_list,keywords,user_list = utils.load.load_tools_list()
+wechat_sources = utils.load.load_wechat_sources()
 CleanKeywords = utils.load.load_clean_list()
 known_object = utils.load.load_object_list()
 github_sha = "./utils/sha.txt"
 github_advisory_sha = "./utils/advisory_sha.txt"
 github_advisory_ids = "./utils/advisory_ids.txt"
 github_repo_sha_dir = "./utils/repo_shas"
+wechat_articles_state = "./utils/wechat_articles.txt"
+github_wxvl_sha = "./utils/wxvl_sha.txt"
+wxvl_repo_name = "gelusus/wxvl"
 
 def load_processed_values(file_path):
     if not os.path.exists(file_path):
@@ -58,6 +66,30 @@ def get_repo_sha_file(repo):
 def load_repo_processed_shas(repo):
     # Load processed commit SHAs for one monitored repository.
     return load_processed_values(get_repo_sha_file(repo))
+
+
+def normalize_wechat_source_name(value):
+    # Normalize configured WeChat source names for matching and deduplication.
+    return re.sub(r"\s+", "", str(value or "")).strip().lower()
+
+
+def extract_markdown_title_from_text(text, fallback=""):
+    # Read the first markdown heading from raw wxvl content without touching the filesystem.
+    for line in str(text or "").splitlines():
+        stripped = line.strip()
+        if stripped.startswith("#"):
+            return stripped.lstrip("#").strip()
+    return fallback
+
+
+def extract_markdown_preview_from_text(text, limit=80):
+    # Build a short preview from raw markdown text for publisher extraction.
+    lines = []
+    for line in str(text or "").splitlines():
+        if len(lines) >= limit:
+            break
+        lines.append(line.strip())
+    return "\n".join(lines)
 
 github_headers = {
     'Authorization': "token {}".format(github_token)
@@ -98,6 +130,141 @@ def getRSSNews():
         file_name = config.get("file")
         if url and file_name:
             parse_rss_feed(url,file_name)
+
+
+def monitor_wechat_publishers():
+    # Monitor configured WeChat publishers through incremental wxvl commits and push new articles to WeCom.
+    configured_sources = [item for item in wechat_sources if str(item).strip()]
+    if not configured_sources:
+        logging.info("未配置微信公众号监控源，跳过")
+        return
+
+    try:
+        articles = collect_new_wxvl_articles(configured_sources)
+    except Exception as exc:
+        logging.error(f"wxvl 公众号监控失败: {exc}")
+        return
+
+    if not articles:
+        logging.info("微信公众号监控未发现新文章")
+        return
+
+    for article in articles:
+        publisher = article.get("publisher", "未知公众号")
+        title = article.get("title", "")
+        link = article.get("link", "")
+        relative_path = article.get("relative_path", "")
+        msg = f"公众号新文章推送:\r\n公众号：{publisher}\r\n标题：{title}\r\n链接：{link or relative_path}"
+        msg_push.wechat_push(msg)
+        logging.info(f"企微推送公众号文章：{publisher} - {title}")
+
+
+def collect_new_wxvl_articles(configured_sources):
+    # Load only new wxvl commits and return newly added markdown articles from watched publishers.
+    processed_commit_shas = load_processed_values(github_wxvl_sha)
+    processed_article_keys = load_processed_values(wechat_articles_state)
+    normalized_sources = [normalize_wechat_source_name(item) for item in configured_sources if str(item).strip()]
+
+    title_index = build_title_index(fetch_wxvl_data())
+    commits_url = f"https://api.github.com/repos/{wxvl_repo_name}/commits"
+
+    if not processed_commit_shas:
+        response = requests.get(
+            commits_url,
+            headers=github_headers,
+            params={"per_page": 1, "page": 1},
+            timeout=20,
+        )
+        response.raise_for_status()
+        commits = response.json()
+        if not commits:
+            logging.info("wxvl commit 列表为空，跳过初始化")
+            return []
+        latest_commit_sha = commits[0]["sha"]
+        append_processed_values(github_wxvl_sha, [latest_commit_sha])
+        logging.info(f"首次初始化 wxvl sha，已记录最新 commit: {latest_commit_sha}，跳过历史 backlog")
+        return []
+
+    page = 1
+    per_page = 100
+    max_pages = 2
+    new_commits = []
+    reached_processed_commit = False
+
+    while page <= max_pages and not reached_processed_commit:
+        response = requests.get(
+            commits_url,
+            headers=github_headers,
+            params={"per_page": per_page, "page": page},
+            timeout=20,
+        )
+        response.raise_for_status()
+        commits = response.json()
+        if not commits:
+            break
+
+        for commit in commits:
+            commit_sha = commit["sha"]
+            if commit_sha in processed_commit_shas:
+                reached_processed_commit = True
+                break
+            new_commits.append(commit)
+        page += 1
+
+    if not new_commits:
+        return []
+
+    articles = []
+    for commit in reversed(new_commits):
+        commit_sha = commit["sha"]
+        details_url = f"https://api.github.com/repos/{wxvl_repo_name}/commits/{commit_sha}"
+        details_response = requests.get(details_url, headers=github_headers, timeout=20)
+        details_response.raise_for_status()
+        commit_details = details_response.json()
+        for file in commit_details.get("files", []):
+            filename = file.get("filename", "")
+            status = file.get("status")
+            if status != "added":
+                continue
+            if not filename.startswith("doc/") or not filename.endswith(".md"):
+                continue
+            raw_url = f"https://raw.githubusercontent.com/{wxvl_repo_name}/{commit_sha}/{filename}"
+            raw_response = requests.get(raw_url, headers=github_headers, timeout=20)
+            raw_response.raise_for_status()
+            markdown_text = raw_response.text
+            title = extract_markdown_title_from_text(markdown_text, os.path.splitext(os.path.basename(filename))[0])
+            preview = extract_markdown_preview_from_text(markdown_text)
+            publisher = extract_article_source(preview)
+            publisher_key = normalize_wechat_source_name(publisher)
+            if not publisher_key:
+                continue
+            if not any(target in publisher_key or publisher_key in target for target in normalized_sources):
+                continue
+
+            candidates = find_candidate_urls(title, title_index)
+            if not candidates:
+                candidates = find_candidate_urls(os.path.splitext(os.path.basename(filename))[0], title_index)
+            link = candidates[0]["link"] if candidates else ""
+            article_title = candidates[0]["title"] if candidates else title
+            article_key = link or filename
+            if article_key in processed_article_keys:
+                continue
+            processed_article_keys.add(article_key)
+            append_processed_values(wechat_articles_state, [article_key])
+            articles.append(
+                {
+                    "key": article_key,
+                    "title": article_title,
+                    "link": link,
+                    "publisher": publisher,
+                    "relative_path": filename,
+                    "commit_sha": commit_sha,
+                }
+            )
+        append_processed_values(github_wxvl_sha, [commit_sha])
+        processed_commit_shas.add(commit_sha)
+
+    return articles
 
 def extract_cve_ids(text):
     """从文本中提取所有CVE编号"""
@@ -879,6 +1046,10 @@ def main():
     logging.info("----------------------紧急漏洞RSS推送-----------------------")
     logging.info("----------------------------------------------------------")
     getRSSNews()
+    logging.info("----------------------------------------------------------")
+    logging.info("--------------------微信公众号文章推送----------------------")
+    logging.info("----------------------------------------------------------")
+    monitor_wechat_publishers()
     #紧急漏洞CISA推送
     logging.info("----------------------------------------------------------")
     logging.info("----------------------紧急漏洞CISA推送----------------------")    

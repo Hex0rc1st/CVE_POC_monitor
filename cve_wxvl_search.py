@@ -248,7 +248,12 @@ def extract_article_source(preview: str) -> str:
 
     lines = [line.strip().lstrip("#").strip() for line in preview.splitlines() if line.strip()]
     if len(lines) >= 2:
-        return lines[1][:80]
+        line = re.sub(r"\s+\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}\s*$", "", lines[1]).strip()
+        line = re.sub(r"^\s*原创\s+", "", line).strip()
+        parts = [part.strip() for part in re.split(r"\s{2,}", line) if part.strip()]
+        if parts:
+            return parts[-1][:80]
+        return line[:80]
     return ""
 
 
@@ -465,6 +470,55 @@ def summarize_wxvl_result(result: dict[str, Any]) -> dict[str, Any]:
             if item.get("link")
         ]
     }
+
+
+def normalize_publisher_name(value: str) -> str:
+    # Normalize a publisher string so configured names can match wxvl markdown metadata reliably.
+    return re.sub(r"\s+", "", str(value or "")).strip().lower()
+
+
+def search_wxvl_publishers(publishers: list[str], max_results: int = 50) -> list[dict[str, Any]]:
+    # Find articles whose publisher matches one of the configured WeChat source names.
+    normalized_targets = [normalize_publisher_name(item) for item in publishers if str(item).strip()]
+    if not normalized_targets:
+        return []
+
+    data = fetch_wxvl_data()
+    title_index = build_title_index(data)
+    repo_root = ensure_wxvl_snapshot()
+    doc_root = repo_root / "doc"
+    matches = []
+
+    for file_path in sorted(doc_root.rglob("*.md"), reverse=True):
+        preview = read_markdown_preview(file_path)
+        publisher = extract_article_source(preview)
+        publisher_key = normalize_publisher_name(publisher)
+        if not publisher_key:
+            continue
+        if not any(target in publisher_key or publisher_key in target for target in normalized_targets):
+            continue
+
+        title = derive_markdown_title(file_path)
+        url_candidates = find_candidate_urls(title, title_index)
+        if not url_candidates:
+            url_candidates = find_candidate_urls(file_path.stem, title_index)
+
+        article_key = url_candidates[0]["link"] if url_candidates else str(file_path.relative_to(doc_root))
+        article_link = url_candidates[0]["link"] if url_candidates else ""
+        article_title = url_candidates[0]["title"] if url_candidates else title
+        matches.append(
+            {
+                "key": article_key,
+                "title": article_title,
+                "link": article_link,
+                "publisher": publisher,
+                "relative_path": str(file_path.relative_to(doc_root)),
+            }
+        )
+        if len(matches) >= max_results:
+            break
+
+    return matches
 
 
 def search_wxvl(cve_id: str, max_results: int) -> dict[str, Any]:

@@ -24,3 +24,8 @@ keyword_list:
 
 user_list:
  - watchtowrlabs
+
+wechat_sources:
+  - "360漏洞研究院"
+  - "奇安信 CERT"
+  - "微步在线研究响应中心"
