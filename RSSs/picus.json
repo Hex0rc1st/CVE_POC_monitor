@@ -498,5 +498,10 @@
         "title": "Integrating BAS into Zero Trust Architecture (ZTA) for Validation",
         "link": "https://www.picussecurity.com/resource/blog/integrating-bas-into-zero-trust-architecture-zta-for-validation",
         "published": "Fri, 27 Mar 2026 10:02:20 GMT"
+    },
+    {
+        "title": "T1547.008 LSASS Driver in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-008-lsass-driver",
+        "published": "Fri, 27 Mar 2026 12:00:00 GMT"
     }
 ]
