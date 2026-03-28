@@ -3202,3 +3202,5 @@ clean_list:
 - CVE-2026-23744
 - CVE-2026-34227
 - InvenTree-Path-Traversal-CVE-2026-33531
+- -CVE-2026-1657
+- CVE-2025-31337
