@@ -2348,5 +2348,10 @@
         "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
         "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
         "published": "Sat, 28 Mar 2026 12:37:00 +0530"
+    },
+    {
+        "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+        "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
+        "published": "Sat, 28 Mar 2026 14:41:00 +0530"
     }
 ]
