@@ -3210,3 +3210,4 @@ clean_list:
 - cve-2026-33937
 - CVE-2026-0766
 - cve-scanner
+- CVE-2025-23419
