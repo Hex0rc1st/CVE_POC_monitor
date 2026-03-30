@@ -2388,5 +2388,10 @@
         "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
         "link": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html",
         "published": "Mon, 30 Mar 2026 21:17:00 +0530"
+    },
+    {
+        "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
+        "link": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
+        "published": "Mon, 30 Mar 2026 23:35:00 +0530"
     }
 ]
