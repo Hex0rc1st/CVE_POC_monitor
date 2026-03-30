@@ -3222,3 +3222,5 @@ clean_list:
 - CVE-2026-3098-POC
 - CVE-2026-20999-my-thought
 - CVE-2026-29597
+- CVE-2024-27348-HugeGraph-RCE
+- CVE-2024-6387-analysis

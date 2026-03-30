@@ -518,5 +518,10 @@
         "title": "WAF Testing Guide: How to Validate Web Application Firewalls with BAS",
         "link": "https://www.picussecurity.com/resource/blog/waf-testing-guide-how-to-validate-web-application-firewalls-with-bas",
         "published": "Mon, 30 Mar 2026 07:00:00 GMT"
+    },
+    {
+        "title": "How an S&P Financial Leader Uncovered a Security Gap, Creating Critical Detection Blind Spots",
+        "link": "https://www.picussecurity.com/resource/case-study/how-an-sp-financial-leader-uncovered-a-security-gap-creating-critical-detection-blind-spots",
+        "published": "Mon, 30 Mar 2026 10:36:02 GMT"
     }
 ]
