@@ -513,5 +513,10 @@
         "title": "T1547.012 Print Processors in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1547-012-print-processors",
         "published": "Sun, 29 Mar 2026 10:15:00 GMT"
+    },
+    {
+        "title": "WAF Testing Guide: How to Validate Web Application Firewalls with BAS",
+        "link": "https://www.picussecurity.com/resource/blog/waf-testing-guide-how-to-validate-web-application-firewalls-with-bas",
+        "published": "Mon, 30 Mar 2026 07:00:00 GMT"
     }
 ]
