@@ -3224,3 +3224,5 @@ clean_list:
 - CVE-2026-29597
 - CVE-2024-27348-HugeGraph-RCE
 - CVE-2024-6387-analysis
+- CVE-2025-55182-LAB
+- CVE-2026-npm-bin-links-RCE-Exploit
