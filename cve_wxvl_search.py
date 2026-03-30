@@ -137,6 +137,23 @@ OFFICIAL_NOTICE_BODY_KEYWORDS = (
     "厂商已发布",
 )
 
+PUBLISHER_ALIASES = {
+    "360漏洞研究院": (
+        "360漏洞研究院",
+        "360 漏洞研究院",
+    ),
+    "奇安信 CERT": (
+        "奇安信 cert",
+        "奇安信cert",
+        "qax cert",
+        "qaxcert",
+    ),
+    "微步在线研究响应中心": (
+        "微步在线研究响应中心",
+        "微步在线 研究响应中心",
+    ),
+}
+
 
 def normalize_cve_id(cve_id: str) -> str:
     # Normalize a CVE identifier and reject malformed input early.
@@ -237,23 +254,47 @@ def find_candidate_urls(title: str, title_index: dict[str, list[dict[str, str]]]
     return title_index.get(normalize_title_key(title), [])
 
 
-def extract_article_source(preview: str) -> str:
-    # Extract the WeChat account/source name from the first markdown lines when present.
-    flat = re.sub(r"\s+", " ", preview).strip()
-    if not flat:
+def canonicalize_publisher_name(value: str) -> str:
+    # Map common publisher aliases to one stable publisher name for matching and display.
+    raw = str(value or "").strip()
+    if not raw:
         return ""
-    for keyword in OFFICIAL_VENDOR_KEYWORDS:
-        if keyword.lower() in flat.lower():
-            return keyword
+    normalized = re.sub(r"\s+", "", raw).lower()
+    for canonical, aliases in PUBLISHER_ALIASES.items():
+        canonical_key = re.sub(r"\s+", "", canonical).lower()
+        if normalized == canonical_key:
+            return canonical
+        for alias in aliases:
+            if normalized == re.sub(r"\s+", "", alias).lower():
+                return canonical
+    return raw[:80]
 
+
+def strip_header_date(value: str) -> str:
+    # Remove the trailing wxvl publish timestamp from a markdown header line.
+    return re.sub(r"\s+\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}\s*$", "", str(value or "")).strip()
+
+
+def parse_header_publishers(line: str) -> list[str]:
+    # Extract publisher-like tokens from a wxvl markdown header line.
+    stripped = strip_header_date(line)
+    stripped = re.sub(r"^\s*原创\s+", "", stripped).strip()
+    if not stripped:
+        return []
+    parts = [part.strip() for part in re.split(r"\s{2,}", stripped) if part.strip()]
+    if len(parts) >= 2:
+        return [part[:80] for part in parts[1:]]
+    return [stripped[:80]]
+
+
+def extract_article_source(preview: str) -> str:
+    # Extract the WeChat account/source name from the markdown header only, not from the body.
     lines = [line.strip().lstrip("#").strip() for line in preview.splitlines() if line.strip()]
-    if len(lines) >= 2:
-        line = re.sub(r"\s+\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}\s*$", "", lines[1]).strip()
-        line = re.sub(r"^\s*原创\s+", "", line).strip()
-        parts = [part.strip() for part in re.split(r"\s{2,}", line) if part.strip()]
-        if parts:
-            return parts[-1][:80]
-        return line[:80]
+    for line in lines[1:4]:
+        for candidate in parse_header_publishers(line):
+            canonical = canonicalize_publisher_name(candidate)
+            if canonical:
+                return canonical
     return ""
 
 
@@ -474,7 +515,7 @@ def summarize_wxvl_result(result: dict[str, Any]) -> dict[str, Any]:
 
 def normalize_publisher_name(value: str) -> str:
     # Normalize a publisher string so configured names can match wxvl markdown metadata reliably.
-    return re.sub(r"\s+", "", str(value or "")).strip().lower()
+    return re.sub(r"\s+", "", canonicalize_publisher_name(value)).strip().lower()
 
 
 def search_wxvl_publishers(publishers: list[str], max_results: int = 50) -> list[dict[str, Any]]:

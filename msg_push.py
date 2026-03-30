@@ -3,7 +3,12 @@ import requests
 import os
 import json
 import datetime
-import telebot
+from pathlib import Path
+
+try:
+    import telebot
+except ModuleNotFoundError:
+    telebot = None
 
 wechat_token = os.environ.get("wechat_token")
 google_sheet_token = os.environ.get("google_sheet_token")
@@ -94,6 +99,9 @@ def keyword_msg(pushdata):
         logging.info("当前时段未发现新信息")
 
 def tg_push(text):
+    # Send a Telegram text message when the Telegram dependency is available.
+    if telebot is None:
+        raise RuntimeError("pyTelegramBotAPI未安装，无法发送Telegram消息")
     tb = telebot.TeleBot(tg_token)
     max_length = 4000
     for i in range(0, len(text), max_length):
@@ -115,3 +123,52 @@ def wechat_push(msg):
     }
     response = requests.post(url, headers=header, data=json.dumps(data))
     logging.info("企微订阅推送  " + str(response.status_code))
+
+def wechat_upload_file(file_path):
+    # Upload a local file to the WeCom webhook media endpoint and return its media_id.
+    if not wechat_token:
+        raise ValueError("wechat_token未配置")
+    path = Path(file_path)
+    if not path.is_file():
+        raise FileNotFoundError(f"文件不存在: {path}")
+
+    upload_url = f"https://qyapi.weixin.qq.com/cgi-bin/webhook/upload_media?key={wechat_token}&type=file"
+    with path.open("rb") as fp:
+        files = {
+            "media": (path.name, fp, "application/octet-stream"),
+        }
+        response = requests.post(upload_url, files=files, timeout=30)
+
+    response.raise_for_status()
+    payload = response.json()
+    if payload.get("errcode") != 0:
+        raise RuntimeError(f"企微文件上传失败: {payload}")
+    media_id = payload.get("media_id")
+    if not media_id:
+        raise RuntimeError(f"企微文件上传未返回media_id: {payload}")
+    return payload
+
+def wechat_push_file(file_path):
+    # Send a local file to the WeCom webhook robot through upload_media + send.
+    upload_payload = wechat_upload_file(file_path)
+    media_id = upload_payload["media_id"]
+    send_url = f"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={wechat_token}"
+    header = {
+        "Content-Type": "application/json"
+    }
+    data = {
+        "msgtype": "file",
+        "file": {
+            "media_id": media_id
+        }
+    }
+    response = requests.post(send_url, headers=header, data=json.dumps(data), timeout=30)
+    response.raise_for_status()
+    payload = response.json()
+    if payload.get("errcode") != 0:
+        raise RuntimeError(f"企微文件发送失败: {payload}")
+    logging.info("企微文件推送 %s", response.status_code)
+    return {
+        "upload": upload_payload,
+        "send": payload,
+    }

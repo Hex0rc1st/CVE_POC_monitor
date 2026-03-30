@@ -15,6 +15,7 @@ import yaml
 import utils.load
 from cve_lookup_api import build_cve_response
 from cve_wxvl_search import build_title_index
+from cve_wxvl_search import canonicalize_publisher_name
 from cve_wxvl_search import extract_article_source
 from cve_wxvl_search import fetch_wxvl_data
 from cve_wxvl_search import find_candidate_urls
@@ -70,7 +71,7 @@ def load_repo_processed_shas(repo):
 
 def normalize_wechat_source_name(value):
     # Normalize configured WeChat source names for matching and deduplication.
-    return re.sub(r"\s+", "", str(value or "")).strip().lower()
+    return re.sub(r"\s+", "", canonicalize_publisher_name(value)).strip().lower()
 
 
 def extract_markdown_title_from_text(text, fallback=""):
@@ -238,7 +239,7 @@ def collect_new_wxvl_articles(configured_sources):
             publisher_key = normalize_wechat_source_name(publisher)
             if not publisher_key:
                 continue
-            if not any(target in publisher_key or publisher_key in target for target in normalized_sources):
+            if publisher_key not in normalized_sources:
                 continue
 
             candidates = find_candidate_urls(title, title_index)
