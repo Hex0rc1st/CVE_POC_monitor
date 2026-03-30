@@ -523,5 +523,10 @@
         "title": "How an S&P Financial Leader Uncovered a Security Gap, Creating Critical Detection Blind Spots",
         "link": "https://www.picussecurity.com/resource/case-study/how-an-sp-financial-leader-uncovered-a-security-gap-creating-critical-detection-blind-spots",
         "published": "Mon, 30 Mar 2026 10:36:02 GMT"
+    },
+    {
+        "title": "T1547.013 XDG Autostart Entries in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-013-xdg-autostart-entries",
+        "published": "Mon, 30 Mar 2026 14:00:00 GMT"
     }
 ]
