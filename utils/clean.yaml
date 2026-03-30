@@ -3219,3 +3219,4 @@ clean_list:
 - CVE_2024_3273_adv_shell_script
 - CVE-2025-54123
 - CVE-2026-30082
+- CVE-2026-3098-POC
