@@ -3234,3 +3234,8 @@ clean_list:
 - CVE-2026-30081
 - mcp-security-audit
 - docker-socket-risk-demos
+- kubernetes-vulnerability-dashboard-Demo-For-GSOC-26
+- CVE-2024-11680
+- CVE-2025-62429
+- CVE-2026-3888
+- CVE-2026-32321
