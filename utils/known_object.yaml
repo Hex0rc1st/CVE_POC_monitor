@@ -24,7 +24,7 @@ object:
 - fortios
 - netscaler adc
 - kafka ui
-- opneclaw
+- openclaw
 - langflow
 - n8n
 - vllm
