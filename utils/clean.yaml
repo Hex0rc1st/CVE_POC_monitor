@@ -3227,3 +3227,5 @@ clean_list:
 - CVE-2025-55182-LAB
 - CVE-2026-npm-bin-links-RCE-Exploit
 - CVE-2026-27876
+- CVE-2026-22777
+- CVE-2026-33017
