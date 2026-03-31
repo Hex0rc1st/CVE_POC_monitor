@@ -523,5 +523,15 @@
         "title": "Long Term Support Channel Update for ChromeOS",
         "link": "http://chromereleases.googleblog.com/2026/03/long-term-support-channel-update-for_26.html",
         "published": "2026-03-26T14:04:00.000-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/03/chrome-for-android-update_31.html",
+        "published": "2026-03-31T12:33:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html",
+        "published": "2026-03-31T12:31:00.000-07:00"
     }
 ]
