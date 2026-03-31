@@ -2393,5 +2393,10 @@
         "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
         "link": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
         "published": "Mon, 30 Mar 2026 23:35:00 +0530"
+    },
+    {
+        "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
+        "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
+        "published": "Tue, 31 Mar 2026 11:38:00 +0530"
     }
 ]
