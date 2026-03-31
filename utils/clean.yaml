@@ -3232,3 +3232,4 @@ clean_list:
 - CVE-2026-21717
 - CVE-2026-29598
 - CVE-2026-30081
+- mcp-security-audit

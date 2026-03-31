@@ -528,5 +528,10 @@
         "title": "T1547.013 XDG Autostart Entries in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1547-013-xdg-autostart-entries",
         "published": "Mon, 30 Mar 2026 14:00:00 GMT"
+    },
+    {
+        "title": "Axios npm Supply Chain Attack: Cross-Platform RAT Delivery via Compromised Maintainer Credentials",
+        "link": "https://www.picussecurity.com/resource/blog/axios-npm-supply-chain-attack-cross-platform-rat-delivery-via-compromised-maintainer-credentials",
+        "published": "Tue, 31 Mar 2026 08:12:43 GMT"
     }
 ]
