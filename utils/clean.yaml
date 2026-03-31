@@ -3239,3 +3239,6 @@ clean_list:
 - CVE-2025-62429
 - CVE-2026-3888
 - CVE-2026-32321
+- CVE-2026-0848-Scanner---Herramienta-de-Detecci-n
+- CVE-2026-32096
+- CVE-2026-0848-PoC-Improper-Input-Validation
