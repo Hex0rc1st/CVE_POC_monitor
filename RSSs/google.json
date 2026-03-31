@@ -533,5 +533,10 @@
         "title": "Stable Channel Update for Desktop",
         "link": "http://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html",
         "published": "2026-03-31T12:31:00.000-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/03/beta-channel-update-for-chromeos_31.html",
+        "published": "2026-03-31T15:29:00.000-07:00"
     }
 ]
