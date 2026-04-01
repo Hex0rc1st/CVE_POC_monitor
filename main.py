@@ -6,19 +6,16 @@
 # @Github: https://github.com/MMarch7
 import datetime
 import feedparser
+import json
 import logging
 import os
 #import dingtalkchatbot.chatbot as cb
 import requests
 import re
+import xml.etree.ElementTree as ET
 import yaml
 import utils.load
 from cve_lookup_api import build_cve_response
-from cve_wxvl_search import build_title_index
-from cve_wxvl_search import canonicalize_publisher_name
-from cve_wxvl_search import extract_article_source
-from cve_wxvl_search import fetch_wxvl_data
-from cve_wxvl_search import find_candidate_urls
 from utils.advisory_match import allowed_advisory_severities
 from utils.advisory_match import build_advisory_search_fields
 from utils.advisory_match import extract_advisory_key
@@ -37,8 +34,14 @@ github_advisory_sha = "./utils/advisory_sha.txt"
 github_advisory_ids = "./utils/advisory_ids.txt"
 github_repo_sha_dir = "./utils/repo_shas"
 wechat_articles_state = "./utils/wechat_articles.txt"
-github_wxvl_sha = "./utils/wxvl_sha.txt"
-wxvl_repo_name = "gelusus/wxvl"
+wechat_source_state = "./utils/wechat_source_latest.json"
+
+WXRSS_RAW_BASE = "https://raw.githubusercontent.com/0xlane/wxrss_static/main"
+WXRSS_SOURCE_MAP = {
+    "360漏洞研究院": "22c9636bddf9a569199f00ef8737f277",
+    "奇安信 CERT": "bac73cb7b9d619d554d6fa92183619cf",
+    "微步在线研究响应中心": "0ec965db2338ab2db51b01eb75a14ef6",
+}
 
 def load_processed_values(file_path):
     if not os.path.exists(file_path):
@@ -57,6 +60,20 @@ def load_processed_shas():
     return load_processed_values(github_sha)
 
 
+def load_json_state(file_path):
+    # Load a small JSON state file and fall back to an empty dictionary when absent.
+    if not os.path.exists(file_path):
+        return {}
+    with open(file_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def save_json_state(file_path, payload):
+    # Persist a small JSON state file used by RSS-style WeChat publisher monitoring.
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
 def get_repo_sha_file(repo):
     # Return the per-repo SHA state file path used by repo_list monitoring.
     safe_name = repo.replace("/", "__")
@@ -71,26 +88,7 @@ def load_repo_processed_shas(repo):
 
 def normalize_wechat_source_name(value):
     # Normalize configured WeChat source names for matching and deduplication.
-    return re.sub(r"\s+", "", canonicalize_publisher_name(value)).strip().lower()
-
-
-def extract_markdown_title_from_text(text, fallback=""):
-    # Read the first markdown heading from raw wxvl content without touching the filesystem.
-    for line in str(text or "").splitlines():
-        stripped = line.strip()
-        if stripped.startswith("#"):
-            return stripped.lstrip("#").strip()
-    return fallback
-
-
-def extract_markdown_preview_from_text(text, limit=80):
-    # Build a short preview from raw markdown text for publisher extraction.
-    lines = []
-    for line in str(text or "").splitlines():
-        if len(lines) >= limit:
-            break
-        lines.append(line.strip())
-    return "\n".join(lines)
+    return re.sub(r"\s+", "", str(value or "")).strip().lower()
 
 github_headers = {
     'Authorization': "token {}".format(github_token)
@@ -134,16 +132,16 @@ def getRSSNews():
 
 
 def monitor_wechat_publishers():
-    # Monitor configured WeChat publishers through incremental wxvl commits and push new articles to WeCom.
+    # Monitor configured WeChat publishers through fixed wxrss_static RSS feeds and push new articles to WeCom.
     configured_sources = [item for item in wechat_sources if str(item).strip()]
     if not configured_sources:
         logging.info("未配置微信公众号监控源，跳过")
         return
 
     try:
-        articles = collect_new_wxvl_articles(configured_sources)
+        articles = collect_new_wechat_articles(configured_sources)
     except Exception as exc:
-        logging.error(f"wxvl 公众号监控失败: {exc}")
+        logging.error(f"微信公众号 RSS 监控失败: {exc}")
         return
 
     if not articles:
@@ -160,111 +158,82 @@ def monitor_wechat_publishers():
         logging.info(f"企微推送公众号文章：{publisher} - {title}")
 
 
-def collect_new_wxvl_articles(configured_sources):
-    # Load only new wxvl commits and return newly added markdown articles from watched publishers.
-    processed_commit_shas = load_processed_values(github_wxvl_sha)
+def fetch_wxrss_items(source_name, folder_id):
+    # Fetch one monitored publisher RSS feed from wxrss_static and return parsed items.
+    rss_url = f"{WXRSS_RAW_BASE}/{folder_id}/rss.xml"
+    response = requests.get(rss_url, timeout=20)
+    response.raise_for_status()
+    root = ET.fromstring(response.text)
+    channel = root.find("channel")
+    if channel is None:
+        return []
+    channel_title = (channel.findtext("title") or "").strip()
+    normalized_expected = normalize_wechat_source_name(source_name)
+    normalized_actual = normalize_wechat_source_name(channel_title)
+    if normalized_actual != normalized_expected:
+        raise ValueError(
+            f"公众号名称不匹配: expected={source_name}, actual={channel_title}, folder={folder_id}"
+        )
+
+    items = []
+    for item in channel.findall("item"):
+        title = (item.findtext("title") or "").strip()
+        link = (item.findtext("link") or "").strip()
+        pub_date = (item.findtext("pubDate") or "").strip()
+        if not title:
+            continue
+        items.append(
+            {
+                "publisher": source_name,
+                "title": title,
+                "link": link,
+                "pub_date": pub_date,
+                "relative_path": f"{folder_id}/rss.xml",
+                "key": link or f"{source_name}:{title}",
+            }
+        )
+    return items
+
+
+def collect_new_wechat_articles(configured_sources):
+    # Read configured publisher RSS feeds and return only newly published articles since the last run.
     processed_article_keys = load_processed_values(wechat_articles_state)
-    normalized_sources = [normalize_wechat_source_name(item) for item in configured_sources if str(item).strip()]
-
-    title_index = build_title_index(fetch_wxvl_data())
-    commits_url = f"https://api.github.com/repos/{wxvl_repo_name}/commits"
-
-    if not processed_commit_shas:
-        response = requests.get(
-            commits_url,
-            headers=github_headers,
-            params={"per_page": 1, "page": 1},
-            timeout=20,
-        )
-        response.raise_for_status()
-        commits = response.json()
-        if not commits:
-            logging.info("wxvl commit 列表为空，跳过初始化")
-            return []
-        latest_commit_sha = commits[0]["sha"]
-        append_processed_values(github_wxvl_sha, [latest_commit_sha])
-        logging.info(f"首次初始化 wxvl sha，已记录最新 commit: {latest_commit_sha}，跳过历史 backlog")
-        return []
-
-    page = 1
-    per_page = 100
-    max_pages = 2
-    new_commits = []
-    reached_processed_commit = False
-
-    while page <= max_pages and not reached_processed_commit:
-        response = requests.get(
-            commits_url,
-            headers=github_headers,
-            params={"per_page": per_page, "page": page},
-            timeout=20,
-        )
-        response.raise_for_status()
-        commits = response.json()
-        if not commits:
-            break
-
-        for commit in commits:
-            commit_sha = commit["sha"]
-            if commit_sha in processed_commit_shas:
-                reached_processed_commit = True
-                break
-            new_commits.append(commit)
-        page += 1
-
-    if not new_commits:
-        return []
-
+    source_state = load_json_state(wechat_source_state)
     articles = []
-    for commit in reversed(new_commits):
-        commit_sha = commit["sha"]
-        details_url = f"https://api.github.com/repos/{wxvl_repo_name}/commits/{commit_sha}"
-        details_response = requests.get(details_url, headers=github_headers, timeout=20)
-        details_response.raise_for_status()
-        commit_details = details_response.json()
-        for file in commit_details.get("files", []):
-            filename = file.get("filename", "")
-            status = file.get("status")
-            if status != "added":
-                continue
-            if not filename.startswith("doc/") or not filename.endswith(".md"):
-                continue
-            raw_url = f"https://raw.githubusercontent.com/{wxvl_repo_name}/{commit_sha}/{filename}"
-            raw_response = requests.get(raw_url, headers=github_headers, timeout=20)
-            raw_response.raise_for_status()
-            markdown_text = raw_response.text
-            title = extract_markdown_title_from_text(markdown_text, os.path.splitext(os.path.basename(filename))[0])
-            preview = extract_markdown_preview_from_text(markdown_text)
-            publisher = extract_article_source(preview)
-            publisher_key = normalize_wechat_source_name(publisher)
-            if not publisher_key:
-                continue
-            if publisher_key not in normalized_sources:
-                continue
+    initialized_sources = []
+    for source_name in configured_sources:
+        folder_id = WXRSS_SOURCE_MAP.get(source_name)
+        if not folder_id:
+            logging.warning(f"未找到公众号映射，跳过: {source_name}")
+            continue
+        items = fetch_wxrss_items(source_name, folder_id)
+        if not items:
+            continue
+        latest_key = items[0]["key"]
+        previous_key = source_state.get(source_name)
+        if not previous_key:
+            source_state[source_name] = latest_key
+            initialized_sources.append(source_name)
+            continue
 
-            candidates = find_candidate_urls(title, title_index)
-            if not candidates:
-                candidates = find_candidate_urls(os.path.splitext(os.path.basename(filename))[0], title_index)
-            link = candidates[0]["link"] if candidates else ""
-            article_title = candidates[0]["title"] if candidates else title
-            article_key = link or filename
-            if article_key in processed_article_keys:
+        pending = []
+        for item in items:
+            item_key = item["key"]
+            if item_key == previous_key:
+                break
+            if item_key in processed_article_keys:
                 continue
-            processed_article_keys.add(article_key)
-            append_processed_values(wechat_articles_state, [article_key])
-            articles.append(
-                {
-                    "key": article_key,
-                    "title": article_title,
-                    "link": link,
-                    "publisher": publisher,
-                    "relative_path": filename,
-                    "commit_sha": commit_sha,
-                }
-            )
-        append_processed_values(github_wxvl_sha, [commit_sha])
-        processed_commit_shas.add(commit_sha)
+            pending.append(item)
 
+        for item in reversed(pending):
+            processed_article_keys.add(item["key"])
+            append_processed_values(wechat_articles_state, [item["key"]])
+            articles.append(item)
+        source_state[source_name] = latest_key
+
+    save_json_state(wechat_source_state, source_state)
+    if initialized_sources:
+        logging.info(f"首次初始化公众号 RSS 状态，已记录最新文章并跳过历史: {', '.join(initialized_sources)}")
     return articles
 
 def extract_cve_ids(text):
