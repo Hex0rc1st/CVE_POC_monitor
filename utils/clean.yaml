@@ -3242,3 +3242,4 @@ clean_list:
 - CVE-2026-0848-Scanner---Herramienta-de-Detecci-n
 - CVE-2026-32096
 - CVE-2026-0848-PoC-Improper-Input-Validation
+- malxios-checker
