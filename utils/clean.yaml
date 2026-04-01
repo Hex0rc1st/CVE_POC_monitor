@@ -3244,3 +3244,4 @@ clean_list:
 - CVE-2026-0848-PoC-Improper-Input-Validation
 - malxios-checker
 - CVE-2026-4800-POC
+- CVE-2026-22200

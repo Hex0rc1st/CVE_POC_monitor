@@ -533,5 +533,10 @@
         "title": "Axios npm Supply Chain Attack: Cross-Platform RAT Delivery via Compromised Maintainer Credentials",
         "link": "https://www.picussecurity.com/resource/blog/axios-npm-supply-chain-attack-cross-platform-rat-delivery-via-compromised-maintainer-credentials",
         "published": "Tue, 31 Mar 2026 08:12:43 GMT"
+    },
+    {
+        "title": "T1547.014 Active Setup in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-014-active-setup",
+        "published": "Wed, 01 Apr 2026 05:30:00 GMT"
     }
 ]
