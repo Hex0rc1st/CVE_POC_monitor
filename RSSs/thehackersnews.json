@@ -2428,5 +2428,10 @@
         "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
         "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
         "published": "Wed, 01 Apr 2026 11:42:00 +0530"
+    },
+    {
+        "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
+        "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
+        "published": "Wed, 01 Apr 2026 13:14:00 +0530"
     }
 ]

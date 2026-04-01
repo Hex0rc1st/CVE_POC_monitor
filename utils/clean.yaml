@@ -3247,3 +3247,4 @@ clean_list:
 - CVE-2026-22200
 - CVE-2026-21710
 - CVE-2025-5548-FreeFloatFTP
+- axios-scanner
