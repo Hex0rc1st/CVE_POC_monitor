@@ -41,6 +41,7 @@ WXRSS_SOURCE_MAP = {
     "360漏洞研究院": "22c9636bddf9a569199f00ef8737f277",
     "奇安信 CERT": "bac73cb7b9d619d554d6fa92183619cf",
     "微步在线研究响应中心": "0ec965db2338ab2db51b01eb75a14ef6",
+    "长亭安全应急响应中心": "af152e893d94cd00a5ad409c3c757391",
 }
 
 def load_processed_values(file_path):
