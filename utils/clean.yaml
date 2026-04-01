@@ -3248,3 +3248,4 @@ clean_list:
 - CVE-2026-21710
 - CVE-2025-5548-FreeFloatFTP
 - axios-scanner
+- CVE-2025-12543-Fix-for-Wildfly
