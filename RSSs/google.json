@@ -538,5 +538,30 @@
         "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
         "link": "http://chromereleases.googleblog.com/2026/03/beta-channel-update-for-chromeos_31.html",
         "published": "2026-03-31T15:29:00.000-07:00"
+    },
+    {
+        "title": "Early Stable Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/04/early-stable-update-for-desktop.html",
+        "published": "2026-04-01T11:21:00.000-07:00"
+    },
+    {
+        "title": "Chrome Beta for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-desktop-update.html",
+        "published": "2026-04-01T09:58:34.431-07:00"
+    },
+    {
+        "title": "Chrome Beta for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-android-update.html",
+        "published": "2026-04-01T09:58:32.570-07:00"
+    },
+    {
+        "title": "Chrome Beta for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-ios-update.html",
+        "published": "2026-04-01T09:28:34.325-07:00"
+    },
+    {
+        "title": "Chrome Stable for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-stable-for-ios-update.html",
+        "published": "2026-04-01T09:28:33.019-07:00"
     }
 ]
