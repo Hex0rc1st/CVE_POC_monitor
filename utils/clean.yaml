@@ -3250,3 +3250,6 @@ clean_list:
 - axios-scanner
 - CVE-2025-12543-Fix-for-Wildfly
 - SharePoint-ToolShell-CVE-2025-53770-Incident-Analysis
+- CVE-2026-5201
+- CVE-2026-30332
+- axios-lab-utils
