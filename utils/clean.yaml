@@ -3245,3 +3245,5 @@ clean_list:
 - malxios-checker
 - CVE-2026-4800-POC
 - CVE-2026-22200
+- CVE-2026-21710
+- CVE-2025-5548-FreeFloatFTP
