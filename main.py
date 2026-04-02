@@ -46,6 +46,7 @@ WXRSS_RAW_BASE = "https://raw.githubusercontent.com/0xlane/wxrss_static/main"
 DOONSEC_WECHAT_RSS = "https://wechat.doonsec.com/rss.xml"
 BRUCE_PICKER_DAILY = "https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/{year}/{date}.md"
 CHAINREACTORS_PICKER_DAILY = "https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/{year}/{date}.md"
+WECHAT_MAX_PENDING_PER_SOURCE = 3
 ARTICLE_DIR = Path(__file__).resolve().parent / "article"
 ARTICLE_NOTICE_SCRIPT = ARTICLE_DIR / "wechat_notice_demo.py"
 WECHAT_FILE_DEMO = Path(__file__).resolve().parent / "wechat_file_demo.py"
@@ -127,6 +128,17 @@ def build_wechat_article_key(publisher, title):
     normalized_publisher = normalize_wechat_source_name(publisher)
     normalized_title = re.sub(r"\s+", " ", str(title or "")).strip()
     return f"{normalized_publisher}::{normalized_title}"
+
+
+def load_processed_wechat_article_keys():
+    # Load processed WeChat article markers and expand historical URLs into canonical link keys.
+    values = load_processed_values(wechat_articles_state)
+    expanded_values = set(values)
+    for value in list(values):
+        canonical_link = canonicalize_wechat_link(value)
+        if canonical_link:
+            expanded_values.add(canonical_link)
+    return expanded_values
 
 
 def is_processed_wechat_article(processed_values, item):
@@ -573,6 +585,13 @@ def process_wechat_source_items(source_state, processed_article_keys, articles, 
         if is_processed_wechat_article(processed_article_keys, item):
             continue
         pending.append(item)
+
+    if len(pending) > WECHAT_MAX_PENDING_PER_SOURCE:
+        logging.info(
+            f"公众号源积压过多，跳过历史文章并推进边界: {state_key}, pending={len(pending)}"
+        )
+        source_state[state_key] = latest_key
+        return
 
     for item in reversed(pending):
         mark_wechat_article_processed(processed_article_keys, item)

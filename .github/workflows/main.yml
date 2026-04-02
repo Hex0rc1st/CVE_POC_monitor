@@ -42,6 +42,7 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
           pip3 install -r ./requirements.txt
+          pip3 install -r ./article/requirements.txt
 
       - name: Run py
         id: run_main
