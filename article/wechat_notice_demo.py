@@ -24,7 +24,6 @@ import app
 
 BASE_DIR = Path(__file__).resolve().parent
 UPLOAD_DIR = BASE_DIR / "uploads"
-DEFAULT_MODEL = os.environ.get("llm_model", "deepseek-r1")
 HTTP_TIMEOUT = 20
 MAX_REFERENCE_TEXT = 4000
 MAX_BODY_TEXT = 12000
@@ -1381,18 +1380,33 @@ def build_heuristic_payload(
 
 def llm_ready() -> bool:
     """Return whether the required LLM environment variables are available."""
-    return bool(os.environ.get("llm_url") and os.environ.get("llm_api_key"))
+    return bool(get_llm_base_url() and get_llm_api_key())
 
 
 def create_llm_client() -> OpenAI:
     """Create an OpenAI-compatible client from the current environment."""
-    return OpenAI(base_url=os.environ["llm_url"], api_key=os.environ["llm_api_key"])
+    return OpenAI(base_url=get_llm_base_url(), api_key=get_llm_api_key())
+
+
+def get_llm_base_url() -> str:
+    """Return the configured LLM base URL, supporting lowercase and uppercase env names."""
+    return os.environ.get("llm_url") or os.environ.get("LLM_URL") or ""
+
+
+def get_llm_api_key() -> str:
+    """Return the configured LLM API key, supporting lowercase and uppercase env names."""
+    return os.environ.get("llm_api_key") or os.environ.get("LLM_API_KEY") or ""
+
+
+def get_llm_model() -> str:
+    """Return the configured model name, supporting lowercase and uppercase env names."""
+    return os.environ.get("llm_model") or os.environ.get("LLM_MODEL") or "deepseek-r1"
 
 
 def create_llm_completion(client: OpenAI, messages: list[dict[str, str]], temperature: float = 0.2) -> Any:
     """Create one chat completion using the MiniMax-compatible reasoning_split request shape."""
     return client.chat.completions.create(
-        model=DEFAULT_MODEL,
+        model=get_llm_model(),
         messages=messages,
         temperature=temperature,
         extra_body={"reasoning_split": True},

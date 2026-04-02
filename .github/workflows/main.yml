@@ -53,6 +53,9 @@ jobs:
           tg_chat_id: ${{ secrets.TG_CHAT_ID }}
           tg_token: ${{ secrets.TG_TOKEN }}
           wechat_token: ${{ secrets.WECHAT_TOKEN }}
+          llm_url: ${{ secrets.LLM_URL }}
+          llm_api_key: ${{ secrets.LLM_API_KEY }}
+          llm_model: ${{ secrets.LLM_MODEL }}
           baidu_appid: ${{ secrets.BAIDU_APPID }}
           baidu_appkey: ${{ secrets.BAIDU_APPKEY }}
         run: python3 ./main.py
