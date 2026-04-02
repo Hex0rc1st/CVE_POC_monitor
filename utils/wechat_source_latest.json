@@ -3,5 +3,13 @@
   "奇安信 CERT": "http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247504958&idx=1&sn=d0c44ae0f1856b40612415b4df032e00&chksm=ff0984875208aa7b91a4be77f9639a446bd05077aaf4f31a5f2dac20a03aedbe1404b4c494a8&scene=0&xtrack=1#rd",
   "微步在线研究响应中心": "http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508518&idx=1&sn=f6a96ec06480962b7fd83fa0c8baf4fc&chksm=ceb2b94009ebe07b2304da7a423a31199b96561ad3a09e5337fa16bc5f59fa899092109808f4&scene=0&xtrack=1#rd",
   "长亭安全应急响应中心": "http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211&chksm=97b58ad7b2c86394715261ee7bce5bd5c0881d62d49c36721d8c056f5eb40b94d96751426588&scene=0&xtrack=1#rd",
-  "doonsec:360漏洞研究院": "360漏洞研究院::seed-before-2026-04-02"
+  "doonsec:360漏洞研究院": "360漏洞研究院::【已复现】Vim 又一 RCE 漏洞(CVE-2026-34982)：利用存在限制条件",
+  "wxrss_static:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
+  "wxrss_static:奇安信 CERT": "奇安信cert::今日（2026年4月2日）OpenClaw 最新安全动态总结",
+  "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::AI一句话挖出Vim RCE？还缺亿点点细节",
+  "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析",
+  "doonsec:奇安信 CERT": "奇安信cert::今日（2026年4月2日）OpenClaw 最新安全动态总结",
+  "bruce_picker:奇安信 CERT": "奇安信cert::【在野利用】Google Chrome Dawn 释放后重用漏洞(CVE-2026-5281)安全风险通告",
+  "bruce_picker:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
+  "bruce_picker:微步在线研究响应中心": "微步在线研究响应中心::AI一句话挖出Vim RCE？还缺亿点点细节"
 }
