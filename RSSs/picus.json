@@ -538,5 +538,10 @@
         "title": "T1547.014 Active Setup in MITRE ATT&CK Explained",
         "link": "https://www.picussecurity.com/resource/blog/t1547-014-active-setup",
         "published": "Wed, 01 Apr 2026 05:30:00 GMT"
+    },
+    {
+        "title": "What Is Data Exfiltration?",
+        "link": "https://www.picussecurity.com/resource/blog/what-is-data-exfiltration",
+        "published": "Thu, 02 Apr 2026 06:45:00 GMT"
     }
 ]
