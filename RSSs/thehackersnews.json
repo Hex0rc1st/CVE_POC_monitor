@@ -2493,5 +2493,10 @@
         "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
         "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
         "published": "Thu, 02 Apr 2026 20:51:00 +0530"
+    },
+    {
+        "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+        "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
+        "published": "Fri, 03 Apr 2026 01:00:00 +0530"
     }
 ]

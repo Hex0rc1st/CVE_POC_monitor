@@ -52,3 +52,4 @@ https://github.com/jeffaf/cve-2026-32746
 https://github.com/crazymind90/CVE_2025_24257----NOT-MINE
 https://github.com/crazymind90/CVE-2026-XNU-AIO-KEVENT-UAF
 https://github.com/kagancapar/CVE-2026-5201
+https://github.com/oxfemale/KillChain
