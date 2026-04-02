@@ -3253,3 +3253,6 @@ clean_list:
 - CVE-2026-5201
 - CVE-2026-30332
 - axios-lab-utils
+- CVE-2026-31900
+- CVE-2026-5281-Research-Toolkit
+- CVE-2026-33936
