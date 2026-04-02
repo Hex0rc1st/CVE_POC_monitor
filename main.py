@@ -9,20 +9,26 @@ import feedparser
 import json
 import logging
 import os
+import subprocess
 #import dingtalkchatbot.chatbot as cb
 import requests
 import re
 import xml.etree.ElementTree as ET
 import yaml
+import tempfile
+import shutil
+import platform
 import utils.load
 from cve_lookup_api import build_cve_response
 from utils.advisory_match import allowed_advisory_severities
 from utils.advisory_match import build_advisory_search_fields
 from utils.advisory_match import extract_advisory_key
 from urllib.parse import quote
+from pathlib import Path
 import msg_push
 import csv
 from utils.advisory_match import match_known_object
+from urllib.parse import urlparse, parse_qs, urlencode
 
 github_token = os.environ.get("github_token")
 repo_list,keywords,user_list = utils.load.load_tools_list()
@@ -37,6 +43,12 @@ wechat_articles_state = "./utils/wechat_articles.txt"
 wechat_source_state = "./utils/wechat_source_latest.json"
 
 WXRSS_RAW_BASE = "https://raw.githubusercontent.com/0xlane/wxrss_static/main"
+DOONSEC_WECHAT_RSS = "https://wechat.doonsec.com/rss.xml"
+BRUCE_PICKER_DAILY = "https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/{year}/{date}.md"
+CHAINREACTORS_PICKER_DAILY = "https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/{year}/{date}.md"
+ARTICLE_DIR = Path(__file__).resolve().parent / "article"
+ARTICLE_NOTICE_SCRIPT = ARTICLE_DIR / "wechat_notice_demo.py"
+WECHAT_FILE_DEMO = Path(__file__).resolve().parent / "wechat_file_demo.py"
 WXRSS_SOURCE_MAP = {
     "360漏洞研究院": "22c9636bddf9a569199f00ef8737f277",
     "奇安信 CERT": "bac73cb7b9d619d554d6fa92183619cf",
@@ -90,6 +102,260 @@ def load_repo_processed_shas(repo):
 def normalize_wechat_source_name(value):
     # Normalize configured WeChat source names for matching and deduplication.
     return re.sub(r"\s+", "", str(value or "")).strip().lower()
+
+
+def canonicalize_wechat_link(link):
+    # Normalize WeChat article links so cross-source duplicates can be recognized.
+    raw_link = str(link or "").strip()
+    if not raw_link:
+        return ""
+    parsed = urlparse(raw_link)
+    if "mp.weixin.qq.com" not in parsed.netloc:
+        return raw_link
+    if parsed.path.startswith("/s/"):
+        return f"https://mp.weixin.qq.com{parsed.path}"
+    query = parse_qs(parsed.query)
+    preferred_keys = ["__biz", "mid", "idx", "sn"]
+    filtered = [(key, query[key][0]) for key in preferred_keys if key in query and query[key]]
+    if filtered:
+        return f"https://mp.weixin.qq.com{parsed.path}?{urlencode(filtered)}"
+    return f"https://mp.weixin.qq.com{parsed.path}"
+
+
+def build_wechat_article_key(publisher, title):
+    # Build a stable cross-source dedupe key for one monitored WeChat article.
+    normalized_publisher = normalize_wechat_source_name(publisher)
+    normalized_title = re.sub(r"\s+", " ", str(title or "")).strip()
+    return f"{normalized_publisher}::{normalized_title}"
+
+
+def is_processed_wechat_article(processed_values, item):
+    # Check whether the same article was already seen from any source.
+    candidates = {
+        item.get("key", ""),
+        str(item.get("link", "")).strip(),
+        canonicalize_wechat_link(item.get("link", "")),
+    }
+    return any(candidate and candidate in processed_values for candidate in candidates)
+
+
+def mark_wechat_article_processed(processed_values, item):
+    # Persist all useful dedupe keys so the same article is not pushed twice across sources.
+    candidates = []
+    for value in [
+        item.get("key", ""),
+        str(item.get("link", "")).strip(),
+        canonicalize_wechat_link(item.get("link", "")),
+    ]:
+        if value and value not in processed_values:
+            processed_values.add(value)
+            candidates.append(value)
+    append_processed_values(wechat_articles_state, candidates)
+
+
+def is_notice_like_wechat_article(publisher, title):
+    # Decide whether a monitored WeChat article is a vulnerability notice worth generating into MSS documents.
+    normalized_publisher = normalize_wechat_source_name(publisher)
+    if normalized_publisher not in {
+        normalize_wechat_source_name("360漏洞研究院"),
+        normalize_wechat_source_name("奇安信 CERT"),
+    }:
+        return False
+    lowered_title = str(title or "").lower()
+    positive_keywords = [
+        "漏洞",
+        "cve-",
+        "通告",
+        "风险通告",
+        "已复现",
+        "在野利用",
+        "代码执行",
+        "命令执行",
+        "提权",
+        "沙箱逃逸",
+        "认证绕过",
+        "sql注入",
+        "信息泄露",
+        "文件上传",
+    ]
+    negative_keywords = [
+        "周报",
+        "日报",
+        "月报",
+        "速览",
+        "动态总结",
+        "情报",
+        "资讯",
+        "直播",
+        "课程",
+        "产品",
+        "招聘",
+        "活动",
+        "案例",
+    ]
+    if any(keyword in lowered_title for keyword in negative_keywords):
+        return False
+    return any(keyword in lowered_title for keyword in positive_keywords)
+
+
+def is_candidate_wechat_notice_title(title):
+    # Decide whether one external-source title is worth resolving through wechatmp2markdown.
+    lowered_title = str(title or "").lower()
+    positive_keywords = [
+        "漏洞",
+        "cve-",
+        "通告",
+        "风险通告",
+        "已复现",
+        "在野利用",
+        "在野漏洞预警",
+        "代码执行",
+        "命令执行",
+        "提权",
+        "沙箱逃逸",
+        "认证绕过",
+        "sql注入",
+        "信息泄露",
+        "文件上传",
+    ]
+    negative_keywords = [
+        "周报",
+        "日报",
+        "月报",
+        "速览",
+        "动态总结",
+        "情报",
+        "资讯",
+        "直播",
+        "课程",
+        "产品",
+        "招聘",
+        "活动",
+        "案例",
+    ]
+    if any(keyword in lowered_title for keyword in negative_keywords):
+        return False
+    return any(keyword in lowered_title for keyword in positive_keywords)
+
+
+def get_wechatmp2markdown_executable():
+    # Return the local wechatmp2markdown binary path used for publisher resolution.
+    system_name = platform.system().lower()
+    if "darwin" in system_name:
+        candidate = ARTICLE_DIR / "wechatmp2markdown-v1.1.11_osx_amd64"
+    else:
+        candidate = ARTICLE_DIR / "wechatmp2markdown-v1.1.11_linux_amd64"
+    if not candidate.exists():
+        raise FileNotFoundError(f"未找到 wechatmp2markdown 可执行文件: {candidate}")
+    os.chmod(candidate, 0o755)
+    return str(candidate)
+
+
+def resolve_wechat_article_publisher(url, configured_sources):
+    # Resolve one WeChat article publisher by converting the article to markdown and reading the header.
+    executable = get_wechatmp2markdown_executable()
+    normalized_source_map = {
+        normalize_wechat_source_name(source_name): source_name for source_name in configured_sources
+    }
+    temp_directory = tempfile.mkdtemp(prefix="wechat_source_resolve_")
+    try:
+        subprocess.check_output(
+            [executable, url, temp_directory, "--image=url"],
+            stderr=subprocess.STDOUT,
+            timeout=120,
+        )
+        for root, _, files in os.walk(temp_directory):
+            for file_name in files:
+                if not file_name.endswith(".md"):
+                    continue
+                markdown_text = Path(root, file_name).read_text(encoding="utf-8", errors="ignore")
+                head_text = "\n".join(markdown_text.splitlines()[:20])
+                normalized_head = normalize_wechat_source_name(head_text)
+                for normalized_source, source_name in normalized_source_map.items():
+                    if normalized_source and normalized_source in normalized_head:
+                        return source_name
+    except Exception as exc:
+        logging.warning(f"公众号来源识别失败: {url} - {exc}")
+    finally:
+        shutil.rmtree(temp_directory, ignore_errors=True)
+    return ""
+
+
+def run_wechat_notice_generation(article_url):
+    # Run the standalone article notice generator and return the generated document paths.
+    command = [
+        "python3",
+        str(ARTICLE_NOTICE_SCRIPT),
+        article_url,
+        "--debug-json",
+        "--compact",
+    ]
+    completed = subprocess.run(
+        command,
+        cwd=str(ARTICLE_DIR),
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if completed.returncode != 0:
+        raise RuntimeError(
+            f"文章生成脚本执行失败: returncode={completed.returncode}, stdout={completed.stdout}, stderr={completed.stderr}"
+        )
+    try:
+        payload = json.loads(completed.stdout.strip())
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"文章生成脚本输出不是合法 JSON: {exc}; stdout={completed.stdout}") from exc
+    notice_path = payload.get("notice", "")
+    regulator_notice_path = payload.get("regulator_notice", "")
+    if not notice_path or not regulator_notice_path:
+        raise RuntimeError(f"文章生成脚本未返回完整文档路径: {payload}")
+    return payload
+
+
+def send_wechat_file_via_demo(file_path):
+    # Send one generated document to WeCom through the existing file-demo wrapper.
+    command = [
+        "python3",
+        str(WECHAT_FILE_DEMO),
+        str(file_path),
+        "--compact",
+    ]
+    completed = subprocess.run(
+        command,
+        cwd=str(Path(__file__).resolve().parent),
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if completed.returncode != 0:
+        raise RuntimeError(
+            f"企微文件发送脚本执行失败: returncode={completed.returncode}, stdout={completed.stdout}, stderr={completed.stderr}"
+        )
+    try:
+        payload = json.loads(completed.stdout.strip())
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"企微文件发送脚本输出不是合法 JSON: {exc}; stdout={completed.stdout}") from exc
+    if not payload.get("ok"):
+        raise RuntimeError(f"企微文件发送失败: {payload}")
+    return payload
+
+
+def generate_and_push_wechat_notice_documents(article):
+    # Generate the two MSS notice documents for one monitored WeChat article and send them to WeCom.
+    publisher = article.get("publisher", "未知公众号")
+    title = article.get("title", "")
+    link = article.get("link", "")
+    if not link:
+        raise ValueError("缺少公众号文章链接，无法生成通告")
+    generation_payload = run_wechat_notice_generation(link)
+    notice_path = generation_payload["notice"]
+    regulator_notice_path = generation_payload["regulator_notice"]
+    msg_push.wechat_push(
+        f"公众号漏洞通告已生成文档:\r\n公众号：{publisher}\r\n标题：{title}\r\n链接：{link}"
+    )
+    send_wechat_file_via_demo(notice_path)
+    send_wechat_file_via_demo(regulator_notice_path)
+    logging.info(f"企微推送生成通告成功：{publisher} - {title}")
 
 github_headers = {
     'Authorization': "token {}".format(github_token)
@@ -157,6 +423,11 @@ def monitor_wechat_publishers():
         msg = f"公众号新文章推送:\r\n公众号：{publisher}\r\n标题：{title}\r\n链接：{link or relative_path}"
         msg_push.wechat_push(msg)
         logging.info(f"企微推送公众号文章：{publisher} - {title}")
+        if is_notice_like_wechat_article(publisher, title):
+            try:
+                generate_and_push_wechat_notice_documents(article)
+            except Exception as exc:
+                logging.error(f"公众号漏洞通告生成/推送失败: {publisher} - {title} - {exc}")
 
 
 def fetch_wxrss_items(source_name, folder_id):
@@ -185,19 +456,132 @@ def fetch_wxrss_items(source_name, folder_id):
             continue
         items.append(
             {
+                "source": "wxrss_static",
                 "publisher": source_name,
                 "title": title,
                 "link": link,
                 "pub_date": pub_date,
                 "relative_path": f"{folder_id}/rss.xml",
-                "key": link or f"{source_name}:{title}",
+                "key": build_wechat_article_key(source_name, title),
             }
         )
     return items
 
 
+def fetch_doonsec_items(configured_sources):
+    # Fetch monitored publisher articles from Doonsec's WeChat RSS feed.
+    normalized_sources = {
+        normalize_wechat_source_name(source_name): source_name for source_name in configured_sources
+    }
+    feed = feedparser.parse(DOONSEC_WECHAT_RSS)
+    items = []
+    for entry in getattr(feed, "entries", []):
+        publisher = normalized_sources.get(normalize_wechat_source_name(getattr(entry, "author", "")))
+        if not publisher:
+            continue
+        title = str(getattr(entry, "title", "")).strip()
+        link = str(getattr(entry, "link", "")).strip()
+        pub_date = str(getattr(entry, "published", "") or getattr(entry, "pubDate", "")).strip()
+        if not title or not link.startswith("https://mp.weixin.qq.com/"):
+            continue
+        items.append(
+            {
+                "source": "doonsec",
+                "publisher": publisher,
+                "title": title,
+                "link": link,
+                "pub_date": pub_date,
+                "relative_path": "doonsec:rss.xml",
+                "key": build_wechat_article_key(publisher, title),
+            }
+        )
+    return items
+
+
+def parse_picker_markdown_items(markdown_text, configured_sources, source_name, relative_path):
+    # Parse publisher-grouped WeChat entries from a picker daily markdown file and resolve unmatched notice links.
+    normalized_sources = {
+        normalize_wechat_source_name(item): item for item in configured_sources
+    }
+    items = []
+    current_publisher = ""
+    for raw_line in markdown_text.splitlines():
+        section_match = re.match(r"^-\s+(.+?)\s*$", raw_line)
+        if section_match and "[" not in raw_line:
+            current_publisher = section_match.group(1).strip()
+            continue
+        item_match = re.match(r"^\s*-\s+\[\s*\]\s+\[(.+?)\]\((https://mp\.weixin\.qq\.com/[^)]+)\)", raw_line)
+        if not item_match or not current_publisher:
+            continue
+        title = item_match.group(1).strip()
+        link = item_match.group(2).strip()
+        normalized_publisher = normalize_wechat_source_name(current_publisher)
+        publisher = normalized_sources.get(normalized_publisher, "")
+        if not publisher and is_candidate_wechat_notice_title(title):
+            publisher = resolve_wechat_article_publisher(link, configured_sources)
+        if not publisher:
+            continue
+        items.append(
+            {
+                "source": source_name,
+                "publisher": publisher,
+                "title": title,
+                "link": link,
+                "pub_date": "",
+                "relative_path": relative_path,
+                "key": build_wechat_article_key(publisher, title),
+            }
+        )
+    return items
+
+
+def fetch_picker_items(configured_sources, source_name, base_url):
+    # Fetch one daily picker markdown and extract entries that belong to configured publishers.
+    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
+    url = base_url.format(year=current_date[:4], date=current_date)
+    response = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+    if response.status_code == 404:
+        return []
+    response.raise_for_status()
+    return parse_picker_markdown_items(
+        response.text,
+        configured_sources,
+        source_name,
+        f"{source_name}:{current_date}",
+    )
+
+
+def process_wechat_source_items(source_state, processed_article_keys, articles, initialized_sources, source_id, source_name, items):
+    # Merge one source stream into the global article queue with per-source state and cross-source dedupe.
+    if not items:
+        return
+    state_key = f"{source_id}:{source_name}"
+    latest_key = items[0]["key"]
+    previous_key = source_state.get(state_key)
+    if source_id == "wxrss_static" and not previous_key:
+        previous_key = source_state.get(source_name)
+    if not previous_key:
+        source_state[state_key] = latest_key
+        initialized_sources.append(state_key)
+        return
+
+    pending = []
+    for item in items:
+        item_key = item["key"]
+        if item_key == previous_key:
+            break
+        if is_processed_wechat_article(processed_article_keys, item):
+            continue
+        pending.append(item)
+
+    for item in reversed(pending):
+        mark_wechat_article_processed(processed_article_keys, item)
+        articles.append(item)
+    source_state[state_key] = latest_key
+
+
 def collect_new_wechat_articles(configured_sources):
-    # Read configured publisher RSS feeds and return only newly published articles since the last run.
+    # Read configured publisher feeds from multiple sources and return only newly published articles.
     processed_article_keys = load_processed_values(wechat_articles_state)
     source_state = load_json_state(wechat_source_state)
     articles = []
@@ -207,34 +591,43 @@ def collect_new_wechat_articles(configured_sources):
         if not folder_id:
             logging.warning(f"未找到公众号映射，跳过: {source_name}")
             continue
-        items = fetch_wxrss_items(source_name, folder_id)
-        if not items:
-            continue
-        latest_key = items[0]["key"]
-        previous_key = source_state.get(source_name)
-        if not previous_key:
-            source_state[source_name] = latest_key
-            initialized_sources.append(source_name)
-            continue
+        process_wechat_source_items(
+            source_state,
+            processed_article_keys,
+            articles,
+            initialized_sources,
+            "wxrss_static",
+            source_name,
+            fetch_wxrss_items(source_name, folder_id),
+        )
 
-        pending = []
-        for item in items:
-            item_key = item["key"]
-            if item_key == previous_key:
-                break
-            if item_key in processed_article_keys:
-                continue
-            pending.append(item)
-
-        for item in reversed(pending):
-            processed_article_keys.add(item["key"])
-            append_processed_values(wechat_articles_state, [item["key"]])
-            articles.append(item)
-        source_state[source_name] = latest_key
+    for source_id, fetcher in [
+        ("doonsec", lambda: fetch_doonsec_items(configured_sources)),
+        ("bruce_picker", lambda: fetch_picker_items(configured_sources, "bruce_picker", BRUCE_PICKER_DAILY)),
+        ("chainreactors_picker", lambda: fetch_picker_items(configured_sources, "chainreactors_picker", CHAINREACTORS_PICKER_DAILY)),
+    ]:
+        try:
+            fetched_items = fetcher()
+        except Exception as exc:
+            logging.warning(f"公众号补充源拉取失败: {source_id} - {exc}")
+            continue
+        grouped_items = {}
+        for item in fetched_items:
+            grouped_items.setdefault(item["publisher"], []).append(item)
+        for source_name, items in grouped_items.items():
+            process_wechat_source_items(
+                source_state,
+                processed_article_keys,
+                articles,
+                initialized_sources,
+                source_id,
+                source_name,
+                items,
+            )
 
     save_json_state(wechat_source_state, source_state)
     if initialized_sources:
-        logging.info(f"首次初始化公众号 RSS 状态，已记录最新文章并跳过历史: {', '.join(initialized_sources)}")
+        logging.info(f"首次初始化公众号源状态，已记录最新文章并跳过历史: {', '.join(initialized_sources)}")
     return articles
 
 def extract_cve_ids(text):
