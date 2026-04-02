@@ -1418,3 +1418,6 @@ https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493169&idx=1&sn=da
 长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析
 http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211&chksm=97b58ad7b2c86394715261ee7bce5bd5c0881d62d49c36721d8c056f5eb40b94d96751426588&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211
+360漏洞研究院::【已复现】Vim 又一 RCE 漏洞(CVE-2026-34982)：利用存在限制条件
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496792&idx=1&sn=8288923fe65e84f32da931ed0792e8e0&chksm=c276dbd672d145a47bdb28868b589d5246f667dbe6c0ba0fc3bd57ed86f587c38cee26fd10f6&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496792&idx=1&sn=8288923fe65e84f32da931ed0792e8e0

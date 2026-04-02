@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Vim 又一 RCE 漏洞(CVE-2026-34982)：利用存在限制条件",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-04-02",
+  "table_fields": {
+    "漏洞名称": "Vim 模式行远程代码执行漏洞",
+    "漏洞编号": "CVE-2026-34982",
+    "公开时间": "2026-04-01",
+    "POC状态": "已公开",
+    "漏洞类型": "命令注入",
+    "EXP状态": "未公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "8.2",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-04-02 15:07 Vim 曝出模式行远程代码执行漏洞（CVE-2026-34982，CVSS：8.2），攻击者通过利用 complete 等选项的安全校验缺失，可实现 RCE 攻击。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围** 受影响的软件版本： 9.1.1178 <= Vim < 9.2.0276 **修复建议** **正式防护方案** 升级 Vim 至 9.2.0276 或更高版本。 **漏洞描述** 近日，官方披露了 Vim 模式行远程代码执行漏洞（CVE-2026-34982）。**该漏洞核心原因在于 complete、guitabtooltip 和 printheader 等选项未设置 P_MLE 安全标志（部分甚至缺失 P_SECURE 标志），导致攻击者可以通过模式行（modeline）执行任意代码。** **** **根据底层原理的不同，漏洞利用主要分为以下两条路径：** - **直接攻击（针对 complete 选项）** ： 该选项不仅缺失 P_MLE，还缺失了关键的 P_SECURE 标志。这导致模式行的安全检查被彻底绕过，攻击者可以直接注入包含恶意命令的表达式。 - **沙箱逃逸（针对 guitabtooltip / printheader 选项）** ： 这两个选项因缺失 P_MLE 标志，允许包含表达式的字符串在沙箱（Sandbox）内被解析。为了逃逸出沙箱，攻击者利用同样缺失安全检查（check_secure()）的 mapset() 函数在沙箱内篡改用户的常规按键映射，将其对应的动作指向恶意命令，这样待用户下次正常敲击键盘（如按下回车键）时，即可在沙箱外执行恶意代码。 **漏洞触发与交互限制：** **该漏洞不会在用户打开恶意文件时自动触发****，root 用户因默认禁用模式行功能不受影响。** 其利用高度依赖受害者的特定交互，攻击入口及限制如下： - complete 入口： 攻击者注册恶意补全回调。触发限制： **受害者必须在编辑时主动触发补全动作（如 Ctrl-N），仅查看文件无效。** - guitabtooltip 入口： 利用 GUI 标签提示解析表达式。触发限制： **仅影响带有图形界面的 Vim（如 GVim），且需要受害者将鼠标悬停在标签栏上。** - printheader 入口： 通过打印页眉解析表达式。触发限制： **仅在受害者执行打印指令（如 :hardcopy 或 :ha）时被激活。** **漏洞复现** 相关安全团队 漏洞研究院已成功复现Vim 模式行远程代码执行漏洞（CVE-2026-34982）。通过构造包含恶意 complete 选项的文件，在 Vim 9.2.0219 版本中打开，通过按下补全快捷键，成功触发了预设的 Lambda 表达式，在 /tmp 目录下创建了标识文件，证实了在特定交互下的远程代码执行能力。 CVE-2026-34982 Vim 模式行远程代码执行漏洞复现 **时间线** 2026年04月02日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 升级 Vim 至 9.2.0276 或更高版本。",
+    "component_text": "",
+    "vulnerability_text": "近日，官方披露了 Vim 模式行远程代码执行漏洞（CVE-2026-34982）。 该漏洞核心原因在于 complete、guitabtooltip 和 printheader 等选项未设置 P_MLE 安全标志（部分甚至缺失 P_SECURE 标志），导致攻击者可以通过模式行（modeline）执行任意代码。 根据底层原理的不同，漏洞利用主要分为以下两条路径： - 直接攻击（针对 complete 选项） ： 该选项不仅缺失 P_MLE，还缺失了关键的 P_SECURE 标志。这导致模式行的安全检查被彻底绕过，攻击者可以直接注入包含恶意命令的表达式。 - 沙箱逃逸（针对 guitabtooltip / printheader 选项） ： 这两个选项因缺失 P_MLE 标志，允许包含表达式的字符串在沙箱（Sandbox）内被解析。为了逃逸出沙箱，攻击者利用同样缺失安全检查（check_secure()）的 mapset() 函数在沙箱内篡改用户的常规按键映射，将其对应的动作指向恶意命令，这样待用户下次正常敲击键盘（如按下回车键）时，即可在沙箱外执行恶意代码。 漏洞触发与交互限制： 该漏洞不会在用户打开恶意文件时自动触发 ，root 用户因默认禁用模式行功能不受影响。 其利用高度依赖受害者的特定交互，攻击入口及限制如下： - complete 入口： 攻击者注册恶意补全回调。触发限制： 受害者必须在编辑时主动触发补全动作（如 Ctrl-N），仅查看文件无效。 - guitabtooltip 入口： 利用 GUI 标签提示解析表达式。触发限制： 仅影响带有图形界面的 Vim（如 GVim），且需要受害者将鼠标悬停在标签栏上。 - printheader 入口： 通过打印页眉解析表达式。触发限制： 仅在受害者执行打印指令（如 :hardcopy 或 :ha）时被激活。 漏洞复现 相关安全团队 漏洞研究院已成功复现Vim 模式行远程代码执行漏洞（CVE-2026-34982）。通过构造包含恶意 complete 选项的文件，在 Vim 9.2.0219 版本中打开，通过按下补全快捷键，成功触发了预设的 Lambda 表达式，在 /tmp 目录下创建了标识文件，证实了在特定交互下的远程代码执行能力。 CVE-2026-34982 Vim 模式行远程代码执行漏洞复现",
+    "affected_versions_text": "9.1.1178 <= Vim < 9.2.0276",
+    "plain_text": "安全研究团队 安全研究团队 2026-04-02 15:07 Vim 曝出模式行远程代码执行漏洞（CVE-2026-34982，CVSS：8.2），攻击者通过利用 complete 等选项的安全校验缺失，可实现 RCE 攻击。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围** 受影响的软件版本： 9.1.1178 <= Vim < 9.2.0276 **02** **修复建议** **正式防护方案** 升级 Vim 至 9.2.0276 或更高版本。 **03** **漏洞描述** 近日，官方披露了 Vim 模式行远程代码执行漏洞（CVE-2026-34982）。**该漏洞核心原因在于 complete、guitabtooltip 和 printheader 等选项未设置 P_MLE 安全标志（部分甚至缺失 P_SECURE 标志），导致攻击者可以通过模式行（modeline）执行任意代码。** **** **根据底层原理的不同，漏洞利用主要分为以下两条路径：** - **直接攻击（针对 complete 选项）** ： 该选项不仅缺失 P_MLE，还缺失了关键的 P_SECURE 标志。这导致模式行的安全检查被彻底绕过，攻击者可以直接注入包含恶意命令的表达式。 - **沙箱逃逸（针对 guitabtooltip / printheader 选项）** ： 这两个选项因缺失 P_MLE 标志，允许包含表达式的字符串在沙箱（Sandbox）内被解析。为了逃逸出沙箱，攻击者利用同样缺失安全检查（check_secure()）的 mapset() 函数在沙箱内篡改用户的常规按键映射，将其对应的动作指向恶意命令，这样待用户下次正常敲击键盘（如按下回车键）时，即可在沙箱外执行恶意代码。 **漏洞触发与交互限制：** **该漏洞不会在用户打开恶意文件时自动触发****，root 用户因默认禁用模式行功能不受影响。** 其利用高度依赖受害者的特定交互，攻击入口及限制如下： - complete 入口： 攻击者注册恶意补全回调。触发限制： **受害者必须在编辑时主动触发补全动作（如 Ctrl-N），仅查看文件无效。** - guitabtooltip 入口： 利用 GUI 标签提示解析表达式。触发限制： **仅影响带有图形界面的 Vim（如 GVim），且需要受害者将鼠标悬停在标签栏上。** - printheader 入口： 通过打印页眉解析表达式。触发限制： **仅在受害者执行打印指令（如 :hardcopy 或 :ha）时被激活。** **04** **漏洞复现** 相关安全团队 漏洞研究院已成功复现Vim 模式行远程代码执行漏洞（CVE-2026-34982）。通过构造包含恶意 complete 选项的文件，在 Vim 9.2.0219 版本中打开，通过按下补全快捷键，成功触发了预设的 Lambda 表达式，在 /tmp 目录下创建了标识文件，证实了在特定交互下的远程代码执行能力。 CVE-2026-34982 Vim 模式行远程代码执行漏洞复现 **05** **时间线** 2026年04月02日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://github.com/vim/vim/security/advisories/GHSA-8h6p-m6gr-mpw9 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://github.com/vim/vim/security/advisories/GHSA-8h6p-m6gr-mpw9"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/vim/vim/security/advisories/GHSA-8h6p-m6gr-mpw9",
+      "content": "Vim modeline bypass via various options affects Vim < 9.2.0276 · Advisory · vim/vim · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert vim / vim Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 6k Star 40.1k Code Issues 1.6k Pull requests 92 Discussions Actions Projects Wiki Security and quality 39 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Wiki Security and quality Insights Vim modeline bypass via various options affects Vim < 9.2.0276 High chrisbra published GHSA-8h6p-m6gr-mpw9 Mar 31, 2026 Package Vim (Vim) Affected versions < 9.2.0276 Patched versions 9.2.0276 Description Vim modeline bypass via various options affects Vim < 9.2.0276 Date: 31.03.2026 Severity: High CVE: CVE-2026-34982 CWE: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78) Summary A modeline sandbox bypass in Vim allows arbitrary OS command execution when a user opens a crafted file. The complete , guitabtooltip and printheader options are missing the P_MLE flag, allowing a modeline to be executed. Additionally, the mapset() function lacks a check_secure() call, allowing it to be abused from sandboxed expressions. Description The complete option ( src/optiondefs.h:684 ) accepts F{func} syntax to register completion callbacks (added in patch 9.1.1178), similar to how completefunc works. However, unlike completefunc which has P_SECURE , complete has neither P_SECURE nor P_MLE , so the modeline security check at src/option.c:1565-1571 is bypassed and arbitrar"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Vim 模式行命令注入漏洞",
+    "vulner_number_1": "CVE-2026-34982",
+    "vulner_number_2": "GHSA-8h6p-m6gr-mpw9",
+    "new_vulner_name": "Vim 模式行命令注入漏洞",
+    "vulner_date": "2026-04-01",
+    "vulner_time_line": "2026/04/02",
+    "object_name": "Vim",
+    "object_desc": "Vim 是由 Bram Moolenaar 开发的经典文本编辑器，以其强大的文本编辑能力和高度可定制性著称，广泛应用于代码编写和系统配置文件编辑。该漏洞源于模式行解析机制中 complete、guitabtooltip、printheader 等选项缺少 P_MLE 安全标志，导致攻击者可通过在文件中构造恶意模式行在特定交互下执行任意代码。",
+    "vulner_version": "9.1.1178 ≤ Vim < 9.2.0276",
+    "vulner_type": "命令注入",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可利用模式行中的特定选项绕过安全检查，在打开恶意文件并执行特定交互后实现远程代码执行",
+    "vuln_level": "High",
+    "vulner_desc": "Vim 的 `complete`、`guitabtooltip` 和 `printheader` 等选项因缺少 P_MLE 安全标志，导致通过模式行（modeline）注入的表达式可在沙箱中被解析执行。其中 `complete` 选项还额外缺失 P_SECURE 标志，绕过模式行安全检查，可直接注册恶意补全回调；`guitabtooltip` 与 `printheader` 则可通过缺少 check_secure() 检查的 `mapset()` 函数篡改用户按键映射实现沙箱逃逸。攻击成功依赖受害者特定交互：触发补全功能、悬停 GUI 标签栏或执行打印指令。该漏洞影响 Vim < 9.2.0276，root 用户因默认禁用模式行而不受影响。",
+    "official_solution": "建议将 Vim 升级至 9.2.0276 或更高版本。\n下载地址：https://github.com/vim/vim/releases/tag/v9.2.0276",
+    "reference_link": "https://github.com/vim/vim/security/advisories/GHSA-8h6p-m6gr-mpw9",
+    "reference_link1": "https://github.com/vim/vim/security/advisories/GHSA-8h6p-m6gr-mpw9",
+    "reference_link2": ""
+  }
+}

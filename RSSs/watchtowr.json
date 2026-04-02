@@ -258,5 +258,10 @@
         "title": "Please, We Beg, Just One Weekend Free Of Appliances (Citrix NetScaler CVE-2026-3055 Memory Overread Part 2)",
         "link": "https://labs.watchtowr.com/please-we-beg-just-one-weekend-free-of-appliances-citrix-netscaler-cve-2026-3055-memory-overread-part-2/",
         "published": "Sun, 29 Mar 2026 20:07:28 GMT"
+    },
+    {
+        "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701)",
+        "link": "https://labs.watchtowr.com/youre-not-supposed-to-sharefile-with-everyone-progress-sharefile-pre-auth-rce-chain-cve-2026-2699-cve-2026-2701/",
+        "published": "Thu, 02 Apr 2026 10:00:42 GMT"
     }
 ]
