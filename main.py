@@ -362,9 +362,6 @@ def generate_and_push_wechat_notice_documents(article):
     generation_payload = run_wechat_notice_generation(link)
     notice_path = generation_payload["notice"]
     regulator_notice_path = generation_payload["regulator_notice"]
-    msg_push.wechat_push(
-        f"公众号漏洞通告已生成文档:\r\n公众号：{publisher}\r\n标题：{title}\r\n链接：{link}"
-    )
     send_wechat_file_via_demo(notice_path)
     send_wechat_file_via_demo(regulator_notice_path)
     logging.info(f"企微推送生成通告成功：{publisher} - {title}")

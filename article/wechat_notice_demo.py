@@ -145,10 +145,10 @@ VULNER_DESC_PROMPT = """你是漏洞技术描述重写智能体。
 """
 
 OBJECT_DESC_PROMPT = """你是组件介绍生成智能体。
-你的任务是根据公众号正文、参考资料和组件名称，生成一段简短的“组件介绍”。
+你的任务是仅根据组件名称，生成一段简短的“组件介绍”。
 要求：
-1. 这是对组件本身的介绍，不是漏洞介绍，不写漏洞影响、修复建议、营销文案。
-2. 优先依据输入中的客观事实，说明组件的定位、主要用途或典型场景。
+1. 这是对组件本身的介绍，不是漏洞介绍，不写漏洞影响、漏洞成因、修复建议、营销文案。
+2. 优先说明组件定位、主要用途、典型使用场景或所属软件类别。
 3. 绝不能出现 360、奇安信、QAX 及其变体。
 4. 输出 2-3 句中文，简洁、正式。
 5. 如果事实有限，可以做保守概括，但不要写“用于提供相关功能的软件组件”这类空话。
@@ -1022,16 +1022,10 @@ def rewrite_vulnerability_description_with_ai(
 def rewrite_component_description_with_ai(
     client: OpenAI,
     object_name: str,
-    component_text: str,
-    intro_text: str,
-    reference_text: str,
 ) -> str:
-    """Use a focused LLM prompt to generate a short component introduction."""
+    """Use a focused LLM prompt to generate a short component introduction from the component name only."""
     user_payload = {
         "object_name": object_name,
-        "component_text": component_text[:2000],
-        "intro_text": intro_text[:2000],
-        "reference_text": reference_text[:3000],
     }
     response = create_llm_completion(
         client,
@@ -1163,6 +1157,15 @@ def summarize_component_description(object_name: str, plain_text: str, reference
     )
 
 
+def sanitize_component_description(object_desc: str, object_name: str, plain_text: str, reference_text: str) -> str:
+    """Keep object descriptions simple: only remove source names and fall back when empty."""
+    cleaned = remove_source_mentions(object_desc or "")
+    cleaned = sanitize_whitespace(cleaned)
+    if not cleaned:
+        return summarize_component_description(object_name, plain_text, reference_text)
+    return cleaned
+
+
 def summarize_hazard_description(
     object_name: str,
     plain_text: str,
@@ -1249,6 +1252,16 @@ def build_unique_reference_fields(download_links: list[str], reference_links: li
         unique_links[1] if len(unique_links) > 1 else "",
         unique_links[2] if len(unique_links) > 2 else "",
     )
+
+
+def normalize_reference_fields(
+    current_fields: tuple[str, str, str],
+    download_links: list[str],
+    reference_links: list[str],
+) -> tuple[str, str, str]:
+    """De-duplicate final reference fields even when the model already filled them."""
+    current_links = [link for link in current_fields if sanitize_whitespace(link)]
+    return build_unique_reference_fields(download_links, current_links + list(reference_links))
 
 
 def map_cvss_to_level(cvss_text: str) -> str:
@@ -1586,9 +1599,6 @@ def build_llm_payload(
         rewritten_object_desc = rewrite_component_description_with_ai(
             client,
             infer_component_name(table_fields.get("漏洞名称", "") or title, title),
-            sections.get("component_text") or "",
-            sections.get("intro_text") or "",
-            reference_text,
         )
         stage_log(verbose, f"LLM阶段: rewrite_object_desc 完成，耗时 {format_elapsed_seconds(stage_started)}")
     except Exception as exc:
@@ -1665,16 +1675,26 @@ def normalize_payload(
         identifiers = extract_identifiers(title, table_fields)
         cve_identifiers = [item for item in identifiers if item.startswith("CVE-")]
         normalized["vulner_number_1"] = cve_identifiers[0] if cve_identifiers else ""
+    if normalized["vulner_number_1"].startswith("CVE-"):
+        normalized["vulner_number_2"] = f"漏洞编号： {normalized['vulner_number_1']}"
+    else:
+        normalized["vulner_number_1"] = ""
+        normalized["vulner_number_2"] = ""
     normalized["new_vulner_name"] = normalized["vulner_name"]
     if not normalized["vulner_date"] or not normalized["vulner_time_line"]:
         vulner_date, vulner_time_line = convert_date_formats(publish_date)
         normalized["vulner_date"] = normalized["vulner_date"] or vulner_date
         normalized["vulner_time_line"] = normalized["vulner_time_line"] or vulner_time_line
     normalized["vulner_time_line"] = normalize_timeline_text(normalized["vulner_time_line"], publish_date)
-    if not normalized["reference_link"]:
-        normalized["reference_link"] = reference_links[0] if len(reference_links) > 0 else ""
-        normalized["reference_link1"] = reference_links[1] if len(reference_links) > 1 else ""
-        normalized["reference_link2"] = reference_links[2] if len(reference_links) > 2 else ""
+    normalized["reference_link"], normalized["reference_link1"], normalized["reference_link2"] = normalize_reference_fields(
+        (
+            normalized["reference_link"],
+            normalized["reference_link1"],
+            normalized["reference_link2"],
+        ),
+        download_links,
+        reference_links,
+    )
     canonical_object_name = infer_component_name(
         table_fields.get("漏洞名称") or normalized["vulner_name"],
         title,
@@ -1682,8 +1702,12 @@ def normalize_payload(
     if not normalized["object_name"]:
         normalized["object_name"] = canonical_object_name
     normalized["object_name"] = normalize_object_name(normalized["object_name"])
-    if normalized["object_desc"]:
-        normalized["object_desc"] = remove_source_mentions(normalized["object_desc"])
+    normalized["object_desc"] = sanitize_component_description(
+        normalized["object_desc"],
+        normalized["object_name"],
+        sections["plain_text"],
+        reference_text,
+    )
     version_object_name = canonical_object_name or normalized["object_name"]
     normalized["vulner_version"] = format_affected_versions(normalized["vulner_version"], version_object_name)
     extracted_vulner_version = extract_affected_versions(
