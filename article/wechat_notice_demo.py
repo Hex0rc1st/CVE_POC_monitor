@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import platform
 import re
 import shutil
 import subprocess
@@ -23,7 +24,6 @@ import app
 
 BASE_DIR = Path(__file__).resolve().parent
 UPLOAD_DIR = BASE_DIR / "uploads"
-WECHAT_TOOL = BASE_DIR / "wechatmp2markdown-v1.1.11_osx_amd64"
 DEFAULT_MODEL = os.environ.get("llm_model", "deepseek-r1")
 HTTP_TIMEOUT = 20
 MAX_REFERENCE_TEXT = 4000
@@ -264,13 +264,25 @@ def convert_date_formats(date_str: str) -> tuple[str, str]:
     return vulner_date, vulner_time_line
 
 
+def get_wechat_tool_path() -> Path:
+    """Choose the platform-specific wechatmp2markdown binary for the current runtime."""
+    system_name = platform.system().lower()
+    if "darwin" in system_name:
+        candidate = BASE_DIR / "wechatmp2markdown-v1.1.11_osx_amd64"
+    else:
+        candidate = BASE_DIR / "wechatmp2markdown-v1.1.11_linux_amd64"
+    if not candidate.exists():
+        raise FileNotFoundError(f"缺少转换工具: {candidate}")
+    candidate.chmod(candidate.stat().st_mode | 0o111)
+    return candidate
+
+
 def run_wechat_to_markdown(article_url: str) -> Path:
     """Run the local wechatmp2markdown binary and return the generated markdown path."""
-    if not WECHAT_TOOL.exists():
-        raise FileNotFoundError(f"缺少转换工具: {WECHAT_TOOL}")
+    wechat_tool = get_wechat_tool_path()
     run_dir = UPLOAD_DIR / f"demo_{int(datetime.now().timestamp())}"
     run_dir.mkdir(parents=True, exist_ok=True)
-    command = [str(WECHAT_TOOL), article_url, str(run_dir)]
+    command = [str(wechat_tool), article_url, str(run_dir)]
     completed = subprocess.run(command, capture_output=True, text=True, check=False)
     if completed.returncode != 0:
         raise RuntimeError(
