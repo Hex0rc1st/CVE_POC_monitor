@@ -1,0 +1,60 @@
+{
+  "mode": "heuristic",
+  "title": "【已复现】Langflow 远程代码执行漏洞(CVE-2026-33017)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-03-20",
+  "table_fields": {
+    "漏洞名称": "Langflow 远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-14795 ， CVE-2026-33017",
+    "公开时间": "2026-03-16",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "9.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-03-20 18:07 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Langflow 是一个基于 Python 和 FastAPI 构建的开源低代码可视化框架，主要用于构建 AI 工作流、RAG 应用及多智能体系统。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Langflow 远程代码执行漏洞(CVE-2026-33017)，该漏洞存在于 Langflow 的 POST /api/v1/build_public_tmp/{flow_id}/flow 端点中。该端点设计用于无需认证即可构建公共流程，但在处理请求时存在一个关键缺陷：当请求中包含可选的 data 参数时，端点会直接使用攻击者提供的流程数据，而非从数据库中加载已存储的流程数据。这些攻击者控制的流程数据可以包含任意 Python 代码，在流程构建过程中通过 exec() 函数直接执行，且没有任何沙箱隔离机制。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** Langflow ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Langflow 远程代码执行漏洞(CVE-2026-33017)**** ，截图如下： **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Langflow 远程代码执行漏洞(CVE-2026-33017) 关联的国内风险资产总数为1230个，关联IP总数为364个。国内风险资产分布情况如下： Langflow 远程代码执行漏洞(CVE-2026-33017) 关联的全球风险资产总数为6416个，关联IP总数为2578个。全球风险资产分布情况如下： **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： Langflow >= 1.9.0 下载地址： https://github.com/langflow-ai/langflow/releases/tag/v1.9.0.dev8",
+    "security_update": "官方已发布安全补丁，请及时更新至最新版本： Langflow >= 1.9.0 下载地址： https://github.com/langflow-ai/langflow/releases/tag/v1.9.0.dev8",
+    "component_text": "Langflow 是一个基于 Python 和 FastAPI 构建的开源低代码可视化框架，主要用于构建 AI 工作流、RAG 应用及多智能体系统。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Langflow 远程代码执行漏洞(CVE-2026-33017)，该漏洞存在于 Langflow 的 POST /api/v1/build_public_tmp/{flow_id}/flow 端点中。该端点设计用于无需认证即可构建公共流程，但在处理请求时存在一个关键缺陷：当请求中包含可选的 data 参数时，端点会直接使用攻击者提供的流程数据，而非从数据库中加载已存储的流程数据。这些攻击者控制的流程数据可以包含任意 Python 代码，在流程构建过程中通过 exec() 函数直接执行，且没有任何沙箱隔离机制。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "Langflow <= 1.8.1",
+    "plain_text": "安全团队 2026-03-20 18:07 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Langflow 是一个基于 Python 和 FastAPI 构建的开源低代码可视化框架，主要用于构建 AI 工作流、RAG 应用及多智能体系统。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Langflow 远程代码执行漏洞(CVE-2026-33017)，该漏洞存在于 Langflow 的 POST /api/v1/build_public_tmp/{flow_id}/flow 端点中。该端点设计用于无需认证即可构建公共流程，但在处理请求时存在一个关键缺陷：当请求中包含可选的 data 参数时，端点会直接使用攻击者提供的流程数据，而非从数据库中加载已存储的流程数据。这些攻击者控制的流程数据可以包含任意 Python 代码，在流程构建过程中通过 exec() 函数直接执行，且没有任何沙箱隔离机制。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** Langflow ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Langflow 远程代码执行漏洞(CVE-2026-33017)**** ，截图如下： **04** **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Langflow 远程代码执行漏洞(CVE-2026-33017) 关联的国内风险资产总数为1230个，关联IP总数为364个。国内风险资产分布情况如下： Langflow 远程代码执行漏洞(CVE-2026-33017) 关联的全球风险资产总数为6416个，关联IP总数为2578个。全球风险资产分布情况如下： **05** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： Langflow >= 1.9.0 下载地址： https://github.com/langflow-ai/langflow/releases/tag/v1.9.0.dev8 **06** **参考资料** [1] https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx **07** **时间线** 2026年03月20日，安全团队发布安全风险通告。 **08** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][3] ![图片][4] ![图片][5] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx",
+      "content": "Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint · Advisory · langflow-ai/langflow · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert langflow-ai / langflow Public Notifications You must be signed in to change notification settings Fork 8.7k Star 146k Code Issues 341 Pull requests 609 Discussions Actions Projects Security and quality 14 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights Unauthenticated Remote Code Execution in Langflow via Public Flow Build Endpoint Critical andifilhohub published GHSA-vwmf-pq79-vjvx Mar 16, 2026 Package pip langflow ( pip ) Affected versions <= 1.8.2 Patched versions >= 1.9.0 Description Summary The POST /api/v1/build_public_tmp/{flow_id}/flow endpoint allows building public flows without requiring authentication. When the optional data parameter is supplied, the endpoint uses attacker-controlled flow data (containing arbitrary Python code in node definitions) instead of the stored flow data from the database. This code is passed to exec() with zero sandboxing, resulting in unauthenticated remote code execution. This is distinct from CVE-2025-3248 , which fixed /api/v1/validate/code by adding authentication. The build_public_tmp endpoint is designed to be unauthenticated (for public flows) but incorrectly accepts attacker-supplied flow data containing arbitrary executable code. Affected Code Vulnerable Endpoint (No Authentication) File: src/backend/base/langflow/api/v1/chat.py , lines 580-657 @ router . post ( \"/build_public_tmp/{flow_id}/flow\" ) async def build_public_tmp ( * , flow"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Langflow 远程代码执行漏洞",
+    "vulner_number_1": "CVE-2026-33017",
+    "vulner_number_2": "",
+    "new_vulner_name": "Langflow 远程代码执行漏洞",
+    "vulner_date": "2026年3月20日",
+    "vulner_time_line": "2026/03/20",
+    "object_name": "Langflow",
+    "object_desc": "Langflow 是一个基于 Python 和 FastAPI 构建的开源低代码可视化框架，常用于编排 AI 工作流、RAG 应用及多智能体系统。",
+    "vulner_version": "Langflow ≤ 1.8.1",
+    "vulner_type": "代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "高危，可导致 Langflow 所在环境的机密性、完整性或可用性受到破坏",
+    "vuln_level": "严重",
+    "vulner_desc": "Langflow 的公共流程构建端点 POST /api/v1/build_public_tmp/{flow_id}/flow 允许未认证访问。漏洞场景下，当请求携带 data 参数时，服务端会直接使用攻击者提交的流程数据，而不是读取数据库中的既有流程，并在构建阶段通过 exec() 执行其中嵌入的 Python 代码。由于该流程缺少有效校验和沙箱隔离，攻击者可借助恶意流程定义触发远程代码执行。",
+    "official_solution": "建议尽快升级至官方已发布的安全版本。\n修复版本：Langflow >= 1.9.0\n下载链接：https://github.com/langflow-ai/langflow/releases/tag/v1.9.0.dev8",
+    "reference_link": "https://github.com/langflow-ai/langflow/releases/tag/v1.9.0.dev8",
+    "reference_link1": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-vwmf-pq79-vjvx",
+    "reference_link2": ""
+  }
+}

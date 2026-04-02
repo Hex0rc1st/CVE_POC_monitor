@@ -1,0 +1,58 @@
+{
+  "mode": "heuristic",
+  "title": "Chrome 沙箱逃逸漏洞已被在野利用 | CVE-2026-3909已复现",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-03-19",
+  "table_fields": {
+    "漏洞名称": "Chrome浏览器Skia组件越界访问漏洞",
+    "漏洞编号": "CVE-2026-3909",
+    "公开时间": "2026-03-13",
+    "POC状态": "未公开",
+    "漏洞类型": "沙箱逃逸",
+    "EXP状态": "未公开",
+    "利用可能性": "高",
+    "技术细节状态": "未公开",
+    "CVSS 3.1": "8.8",
+    "在野利用状态": "已发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-03-19 14:17 Google Chrome 曝出 Skia 图形组件越界写入高危漏洞（CVE-2026-3909，CVSS 8.8），攻击者通过诱导用户访问恶意网页，以控制沙箱内渲染进程为起点，可触发高权限进程中的内存越界访问并实现沙箱逃逸，达到远程代码执行效果。该漏洞目前已发现在野利用。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围****** 受影响的软件版本： Google Chrome（Windows / MacOS / Linux）< **146.0.7680.80** **修复建议****** **正式防护方案** 更新Chrome浏览器至最新版本。 **漏洞描述** 近日，Google安全团队发布公告，表明在**Chrome浏览器中存在在野利用** （**CVE-2026-3909** ），该漏洞可被恶意攻击者利用，通过从渲染进程中传递伪造的Skia绘制数据，**触发内存越界访问问题，最终实现沙箱逃逸的效果** 。 安全研究团队团队对该漏洞进行进一步分析，发现漏洞存在于Skia的字符渲染操作中。图集（Atlas）是 Skia 字符渲染的关键机制之一，通过将字形纹理按遮罩（Mask）类型分类存储在对应的图集中，从而实现高效的缓存管理与绘制性能优化。Skia 采用 “Page-Plot-Image” 的层级架构组织图集存储：每个 Page 被划分为若干相同尺寸的 Plot 单元，其分块规格与数量由遮罩类型决定，因此，不同遮罩类型划分的Plot数量是不一样的。 在绘制字符流程中，Skia会根据字符的ID获取预先保存的字符信息，再从字符信息中获取遮罩信息，并从该遮罩类型对应的图集中定位字符所在的Page-Plot位置。由于不同遮罩类型的图集中每个Page对应的Plot数量不一致，因此在绘制字符时，如果指定遮罩类型A与字符预先保存的遮罩类型B不一致，则会使用B对应图集的Plot坐标访问A对应图集的Plot坐标，从而产生潜在的越界访问。 **漏洞复现****** 相关安全团队 漏洞研究院已成功复现该漏洞。通过编译带有ASAN的Skia组件，成功触发堆内存越界检测，结果如下： CVE-2026-3909 Chrome浏览器Skia组件越界访问漏洞复现 **时间线** 2026年03月19日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 更新Chrome浏览器至最新版本。",
+    "component_text": "",
+    "vulnerability_text": "近日，Google安全团队发布公告，表明在 Chrome浏览器中存在在野利用 （ CVE-2026-3909 ），该漏洞可被恶意攻击者利用，通过从渲染进程中传递伪造的Skia绘制数据， 触发内存越界访问问题，最终实现沙箱逃逸的效果 。 安全研究团队团队对该漏洞进行进一步分析，发现漏洞存在于Skia的字符渲染操作中。图集（Atlas）是 Skia 字符渲染的关键机制之一，通过将字形纹理按遮罩（Mask）类型分类存储在对应的图集中，从而实现高效的缓存管理与绘制性能优化。Skia 采用 “Page-Plot-Image” 的层级架构组织图集存储：每个 Page 被划分为若干相同尺寸的 Plot 单元，其分块规格与数量由遮罩类型决定，因此，不同遮罩类型划分的Plot数量是不一样的。 在绘制字符流程中，Skia会根据字符的ID获取预先保存的字符信息，再从字符信息中获取遮罩信息，并从该遮罩类型对应的图集中定位字符所在的Page-Plot位置。由于不同遮罩类型的图集中每个Page对应的Plot数量不一致，因此在绘制字符时，如果指定遮罩类型A与字符预先保存的遮罩类型B不一致，则会使用B对应图集的Plot坐标访问A对应图集的Plot坐标，从而产生潜在的越界访问。 漏洞复现 相关安全团队 漏洞研究院已成功复现该漏洞。通过编译带有ASAN的Skia组件，成功触发堆内存越界检测，结果如下： CVE-2026-3909 Chrome浏览器Skia组件越界访问漏洞复现",
+    "affected_versions_text": "Google Chrome（Windows / MacOS / Linux）< 146.0.7680.80",
+    "plain_text": "安全研究团队 安全研究团队 2026-03-19 14:17 Google Chrome 曝出 Skia 图形组件越界写入高危漏洞（CVE-2026-3909，CVSS 8.8），攻击者通过诱导用户访问恶意网页，以控制沙箱内渲染进程为起点，可触发高权限进程中的内存越界访问并实现沙箱逃逸，达到远程代码执行效果。该漏洞目前已发现在野利用。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围****** 受影响的软件版本： Google Chrome（Windows / MacOS / Linux）< **146.0.7680.80** **02** **修复建议****** **正式防护方案** 更新Chrome浏览器至最新版本。 **03** **漏洞描述** 近日，Google安全团队发布公告，表明在**Chrome浏览器中存在在野利用** （**CVE-2026-3909** ），该漏洞可被恶意攻击者利用，通过从渲染进程中传递伪造的Skia绘制数据，**触发内存越界访问问题，最终实现沙箱逃逸的效果** 。 安全研究团队团队对该漏洞进行进一步分析，发现漏洞存在于Skia的字符渲染操作中。图集（Atlas）是 Skia 字符渲染的关键机制之一，通过将字形纹理按遮罩（Mask）类型分类存储在对应的图集中，从而实现高效的缓存管理与绘制性能优化。Skia 采用 “Page-Plot-Image” 的层级架构组织图集存储：每个 Page 被划分为若干相同尺寸的 Plot 单元，其分块规格与数量由遮罩类型决定，因此，不同遮罩类型划分的Plot数量是不一样的。 在绘制字符流程中，Skia会根据字符的ID获取预先保存的字符信息，再从字符信息中获取遮罩信息，并从该遮罩类型对应的图集中定位字符所在的Page-Plot位置。由于不同遮罩类型的图集中每个Page对应的Plot数量不一致，因此在绘制字符时，如果指定遮罩类型A与字符预先保存的遮罩类型B不一致，则会使用B对应图集的Plot坐标访问A对应图集的Plot坐标，从而产生潜在的越界访问。 **04** **漏洞复现****** 相关安全团队 漏洞研究院已成功复现该漏洞。通过编译带有ASAN的Skia组件，成功触发堆内存越界检测，结果如下： CVE-2026-3909 Chrome浏览器Skia组件越界访问漏洞复现 **05** **时间线** 2026年03月19日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
+      "content": "Chrome Releases: Stable Channel Update for Desktop Chrome Releases Release updates from the Chrome team Stable Channel Update for Desktop Friday, March 13, 2026 Google Labels: Desktop Update , Extended Stable updates , Stable updates    Labels  Admin Console 43 Android WebView 19 Beta 26 Beta update 17 Beta updates 2233 chrome 15 Chrome Dev for Android 191 Chrome for Android 1157 Chrome for iOS 498 Chrome for Meetings 5 Chrome OS 1169 Chrome OS Flex 35 Chrome OS Management 13 Chromecast Update 6 ChromeOS 357 ChromeOS Flex 350 Desktop Update 1358 dev update 267 Dev updates 1642 Early Stable Updates 82 Extended Stable updates 191 Flash Player update 5 Flex 1 Hangouts Meet hardware 5 LTS 129 stable 12 Stable updates 1468  Archive    2026 Mar Feb Jan   2025 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2024 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2023 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2022 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2021 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2020 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2019 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2018 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2017 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2016 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2015 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2014 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2013 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2012 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2011 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2010 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2009 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2008 Dec Nov Oct Sep Give us feedback in our Product Forums . Google Privacy Terms"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Chrome浏览器Skia组件越界访问漏洞",
+    "vulner_number_1": "CVE-2026-3909",
+    "vulner_number_2": "",
+    "new_vulner_name": "Chrome浏览器Skia组件越界访问漏洞",
+    "vulner_date": "2026年3月19日",
+    "vulner_time_line": "2026/03/19",
+    "object_name": "Chrome",
+    "object_desc": "Chrome 是一类面向终端用户的软件组件，用于访问、解析和展示网络内容。",
+    "vulner_version": "Google Chrome（Windows / MacOS / Linux） < 146.0.7680.80",
+    "vulner_type": "沙箱逃逸",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "高危，可导致代码执行",
+    "vuln_level": "高危",
+    "vulner_desc": "Chrome 的 Skia 字符渲染链路在处理不同 Mask 类型的图集数据时存在边界校验缺失。攻击场景下，若渲染阶段使用的遮罩类型与字符预存信息不一致，程序会按错误的 Page-Plot 坐标访问目标图集，从而触发越界访问，并进一步形成沙箱逃逸利用条件。",
+    "official_solution": "建议尽快按照官方修复指引完成升级。\n修复版本：请参考官方发布说明。\n下载链接：https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
+    "reference_link": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
+    "reference_link1": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_13.html",
+    "reference_link2": ""
+  }
+}

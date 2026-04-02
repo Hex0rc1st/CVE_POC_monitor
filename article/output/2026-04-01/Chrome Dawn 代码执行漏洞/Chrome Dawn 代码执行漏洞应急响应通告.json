@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【在野利用】Google Chrome Dawn 释放后重用漏洞(CVE-2026-5281)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-04-01",
+  "table_fields": {
+    "漏洞名称": "Google Chrome Dawn 释放后重用漏洞",
+    "漏洞编号": "QVD-2026-17441 , CVE-2026-5281",
+    "公开时间": "2026-03-31",
+    "影响量级": "千万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "8.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "未公开",
+    "在野利用状态": "已发现",
+    "EXP状态": "未公开",
+    "技术细节状态": "未公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-04-01 16:51 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Chrome是一款由Google公司开发的免费的、快速的互联网浏览器软件，目标是为使用者提供稳定、安全、高效的网络浏览体验。Google Chrome基于更强大的JavaScript V8引擎，提升浏览器的处理速度。支持多标签浏览，每个标签页面都在独立的“沙箱”内运行。 Dawn 是 Chrome 内置的跨平台图形渲染组件，负责 WebGL、WebGPU 等图形接口的底层渲染调度，保障网页 3D 内容、可视化应用的流畅运行。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Google 发布公告称 Google Chrome Dawn 释放后重用漏洞(CVE-2026-5281)存在在野利用，该漏洞源于 Dawn 图形组件内存释放后未清空指针，导致已释放内存被重复访问。攻击者可通过诱导用户打开恶意链接来利用此漏洞，从而获取敏感信息或代码执行。 目前该漏洞已发现在野利用。 **鉴于此漏洞影响范围较大，建议客户尽快做好自查及防护。** **** **影响范围** **>** **>** **>** **>** **影响版本** Google Chrome(Windows/Mac) ** **>** **>** **>** **其他受影响组件** 无 **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已发布安全更新，建议用户尽快升级至最新版本： Google Chrome(Windows/Mac) >= 146.0.7680.177/178 Google Chrome(Linux) >= 146.0.7680.177 官方补丁下载地址： https://www.google.cn/chrome/ **版本检测及升级步骤：** 1．查看右上角的“更多”图标，选择帮助 -> 关于Google Chrome ![图片][0] 2．等待版本下载完成后，选择重新启动 3．查看当前版本 ![图片][1]",
+    "security_update": "目前官方已发布安全更新，建议用户尽快升级至最新版本： Google Chrome(Windows/Mac) >= 146.0.7680.177/178 Google Chrome(Linux) >= 146.0.7680.177 官方补丁下载地址： https://www.google.cn/chrome/ 版本检测及升级步骤： 1．查看右上角的“更多”图标，选择帮助 -> 关于Google Chrome 2．等待版本下载完成后，选择重新启动 3．查看当前版本",
+    "component_text": "Chrome是一款由Google公司开发的免费的、快速的互联网浏览器软件，目标是为使用者提供稳定、安全、高效的网络浏览体验。Google Chrome基于更强大的JavaScript V8引擎，提升浏览器的处理速度。支持多标签浏览，每个标签页面都在独立的“沙箱”内运行。 Dawn 是 Chrome 内置的跨平台图形渲染组件，负责 WebGL、WebGPU 等图形接口的底层渲染调度，保障网页 3D 内容、可视化应用的流畅运行。",
+    "vulnerability_text": "近日，安全团队监测到 Google 发布公告称 Google Chrome Dawn 释放后重用漏洞(CVE-2026-5281)存在在野利用，该漏洞源于 Dawn 图形组件内存释放后未清空指针，导致已释放内存被重复访问。攻击者可通过诱导用户打开恶意链接来利用此漏洞，从而获取敏感信息或代码执行。 目前该漏洞已发现在野利用。 鉴于此漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "Google Chrome(Windows/Mac) < 146.0.7680.177/178 Google Chrome(Linux) < 146.0.7680.177",
+    "plain_text": "安全团队 2026-04-01 16:51 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Chrome是一款由Google公司开发的免费的、快速的互联网浏览器软件，目标是为使用者提供稳定、安全、高效的网络浏览体验。Google Chrome基于更强大的JavaScript V8引擎，提升浏览器的处理速度。支持多标签浏览，每个标签页面都在独立的“沙箱”内运行。 Dawn 是 Chrome 内置的跨平台图形渲染组件，负责 WebGL、WebGPU 等图形接口的底层渲染调度，保障网页 3D 内容、可视化应用的流畅运行。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Google 发布公告称 Google Chrome Dawn 释放后重用漏洞(CVE-2026-5281)存在在野利用，该漏洞源于 Dawn 图形组件内存释放后未清空指针，导致已释放内存被重复访问。攻击者可通过诱导用户打开恶意链接来利用此漏洞，从而获取敏感信息或代码执行。 目前该漏洞已发现在野利用。 **鉴于此漏洞影响范围较大，建议客户尽快做好自查及防护。** **** **02** **影响范围** **>** **>** **>** **>** **影响版本** Google Chrome(Windows/Mac) ** **>** **>** **>** **其他受影响组件** 无 **03** **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已发布安全更新，建议用户尽快升级至最新版本： Google Chrome(Windows/Mac) >= 146.0.7680.177/178 Google Chrome(Linux) >= 146.0.7680.177 官方补丁下载地址： https://www.google.cn/chrome/ **版本检测及升级步骤：** 1．查看右上角的“更多”图标，选择帮助 -> 关于Google Chrome ![图片][0] 2．等待版本下载完成后，选择重新启动 3．查看当前版本 ![图片][1] **04** **参考资料** [1]https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html **05** **时间线** 2026年04月01日，安全团队发布安全风险通告。 **06** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][2] ![图片][3] ![图片][4] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html",
+      "content": "Chrome Releases: Stable Channel Update for Desktop Chrome Releases Release updates from the Chrome team Stable Channel Update for Desktop Tuesday, March 31, 2026 Google Labels: Desktop Update , Extended Stable updates , Stable updates    Labels  Admin Console 43 Android WebView 19 Beta 26 Beta update 17 Beta updates 2233 chrome 15 Chrome Dev for Android 191 Chrome for Android 1157 Chrome for iOS 498 Chrome for Meetings 5 Chrome OS 1169 Chrome OS Flex 35 Chrome OS Management 13 Chromecast Update 6 ChromeOS 357 ChromeOS Flex 350 Desktop Update 1358 dev update 267 Dev updates 1642 Early Stable Updates 82 Extended Stable updates 191 Flash Player update 5 Flex 1 Hangouts Meet hardware 5 LTS 129 stable 12 Stable updates 1468  Archive    2026 Mar Feb Jan   2025 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2024 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2023 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2022 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2021 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2020 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2019 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2018 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2017 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2016 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2015 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2014 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2013 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2012 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2011 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2010 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2009 Dec Nov Oct Sep Aug Jul Jun May Apr Mar Feb Jan   2008 Dec Nov Oct Sep Give us feedback in our Product Forums . Google Privacy Terms"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Chrome Dawn 代码执行漏洞",
+    "vulner_number_1": "QVD-2026-17441",
+    "vulner_number_2": "CVE-2026-5281",
+    "new_vulner_name": "Chrome Dawn 代码执行漏洞",
+    "vulner_date": "2026-03-31",
+    "vulner_time_line": "2026/04/01",
+    "object_name": "Google Chrome",
+    "object_desc": "Dawn 是 Chrome 浏览器的内置跨平台图形渲染组件，主要负责 WebGL、WebGPU 等图形接口的底层渲染调度。该组件为网页 3D 内容及可视化应用提供图形渲染支持，保障相关内容的流畅运行。",
+    "vulner_version": "Google Chrome(Windows/Mac) < 146.0.7680.177/178",
+    "vulner_type": "释放后重用(Use After Free)",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "CVSS 3.1评分8.8，威胁类型为代码执行，可获取敏感信息或在野利用",
+    "vuln_level": "高危",
+    "vulner_desc": "Google Chrome 中使用的 Dawn 图形组件存在释放后重用漏洞（CVE-2026-5281）。该漏洞因内存释放后指针未被清空，攻击者可利用恶意网页触发已释放内存区域被重复访问，从而可能导致敏感信息泄露或在用户上下文中执行任意代码。该漏洞已被确认存在在野利用。",
+    "official_solution": "建议用户升级至最新版本。Windows和Mac用户升级至146.0.7680.178及以上版本，Linux用户升级至146.0.7680.177及以上版本。升级方式：点击浏览器右上角更多图标，选择“帮助”→“关于Google Chrome”，等待版本下载完成后重启浏览器。下载地址：https://www.google.cn/chrome/",
+    "reference_link": "https://chromereleases.googleblog.com/2026/03/stable-channel-update-for-desktop_31.html",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

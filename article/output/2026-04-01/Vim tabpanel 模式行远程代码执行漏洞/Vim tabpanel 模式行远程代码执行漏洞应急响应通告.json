@@ -1,0 +1,60 @@
+{
+  "mode": "heuristic",
+  "title": "AI 挖洞成真：Vim 高危 RCE 漏洞已复现（CVE-2026-34714）",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-03-31",
+  "table_fields": {
+    "漏洞名称": "Vim tabpanel 模式行远程代码执行漏洞",
+    "漏洞编号": "CVE-2026-34714",
+    "公开时间": "2026-03-30",
+    "POC状态": "已公开",
+    "漏洞类型": "命令注入",
+    "EXP状态": "未公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.2",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-03-31 15:38 Vim 曝出高危远程代码执行漏洞（CVE-2026-34714，CVSS 9.2）。该漏洞由研究人员利用 AI 辅助审计发现。攻击者通过在“模式行”（Modeline）中植入恶意的 tabpanel 配置，**可实现零交互攻击** ：用户只需使用 Vim 打开特制文件，无需任何额外操作，即可在后台自动触发并执行任意系统命令。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围** 受影响的软件版本： Vim = v9.2.0272 或更高版本。 **漏洞描述** 近日， 官方披露了 Vim 远程代码执行漏洞（**CVE-2026-34714** ）。该漏洞源于 Vim 对“模式行”（Modeline，文档内置指令功能）的处理机制存在双重缺陷：首先，tabpanel 选项在处理指令时缺失安全标志位，导致攻击者可以强制执行 %{expr} 表达式；其次，由于 autocmd_add() 函数缺乏安全校验，攻击者可借此在沙箱外触发恶意系统命令。该漏洞支持“打开即触发”的零交互利用模式，危害极大，建议相关用户尽快升级。",
+    "security_update": "",
+    "plain_text": "安全研究团队 安全研究团队 2026-03-31 15:38 Vim 曝出高危远程代码执行漏洞（CVE-2026-34714，CVSS 9.2）。该漏洞由研究人员利用 AI 辅助审计发现。攻击者通过在“模式行”（Modeline）中植入恶意的 tabpanel 配置，**可实现零交互攻击** ：用户只需使用 Vim 打开特制文件，无需任何额外操作，即可在后台自动触发并执行任意系统命令。 目前 相关安全团队 漏洞研究院已成功复现该漏洞并验证了危害。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围** 受影响的软件版本： Vim = v9.2.0272 或更高版本。 **03** **漏洞描述** 近日， 官方披露了 Vim 远程代码执行漏洞（**CVE-2026-34714** ）。该漏洞源于 Vim 对“模式行”（Modeline，文档内置指令功能）的处理机制存在双重缺陷：首先，tabpanel 选项在处理指令时缺失安全标志位，导致攻击者可以强制执行 %{expr} 表达式；其次，由于 autocmd_add() 函数缺乏安全校验，攻击者可借此在沙箱外触发恶意系统命令。该漏洞支持“打开即触发”的零交互利用模式，危害极大，建议相关用户尽快升级。 **该漏洞由研究人员通过 AI 自动化提示词技术辅助挖掘，揭示了现代代码审计中 AI 与传统攻防结合的新趋势，提示词已附于文章尾部参考链接中。** **04** **漏洞复现** 相关安全团队 漏洞研究院已成功复现该漏洞，用户只需使用 Vim 打开特制文件，无需任何额外操作，即可在后台自动触发并执行任意系统命令。 CVE-2026-34714 Vim tabpanel 模式行远程代码执行漏洞复现 **05** **时间线** 2026年03月31日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://nvd.nist.gov/vuln/detail/CVE-2026-34714 https://github.com/califio/publications/blob/main/MADBugs/vim-vs-emacs-vs-claude/vim-claude-prompts.txt 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-34714",
+    "https://github.com/califio/publications/blob/main/MADBugs/vim-vs-emacs-vs-claude/vim-claude-prompts.txt"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34714",
+      "content": "NVD - CVE-2026-34714 You are viewing this page in an unauthorized frame window. This is a potential security issue, you are being redirected to https://nvd.nist.gov An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. NVD MENU General Expand or Collapse NVD Dashboard News and Status Updates FAQ Visualizations Legal Disclaimer Vulnerabilities Expand or Collapse Search & Statistics Weakness Types Data Feeds Vendor Comments CVMAP Vulnerability Metrics Expand or Collapse CVSS v4.0 Calculators CVSS v3.x Calculators CVSS v2.0 Calculator Products Expand or Collapse CPE Dictionary CPE Search CPE Statistics SWID Developers Expand or Collapse Start Here Request an API Key Vulnerabilities Products Data Sources Terms of Use Contact NVD Other Sites Expand or Collapse Checklist (NCP) Repository Configurations (CCE) 800-53 Controls SCAP Search Expand or Collapse Vulnerability Search CPE Search Information Technology Laboratory National Vulnerability Database National Vulnerability Database NVD Vulnerabilities CVE-2026-34714 Detail Received This CVE record has recently been published to the CVE List and has been included within the NVD dataset. Description Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE. Metrics CVSS Version 4.0 CVSS Version 3.x CVSS Version 2.0 NVD enrichment efforts reference publicly available information to associate vector strings. CVSS information contributed by other sources is also displayed. CVSS 4.0 Severity and Vector Strings: NIST: NVD N/A NVD assessment not yet provided. CVSS 3.x Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. CNA: MITRE Base Score: 9.2 CRITICAL Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L CVSS 2.0 Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. References to Advisories, Solutions, and Tools By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to [email protected] . URL Source(s) Tag(s) https://github.com/vim/vim/commit/664701eb7576edb7c7c7d9f2d600815ec1f43459 MITRE https://github.com/vim/vim/releases/tag/v9.2.0272 MITRE https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh MITRE https://www.openwall.com/lists/oss-security/2026/03/30/3 MITRE Weakness Enumeration CWE-ID CWE Name Source CWE-78 Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') MITRE Change History 1 change records found show changes New CVE Received from MITRE 3/30/2026 3:16:26 PM Action Type Old Value New Value Added Description Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE. Added CVSS V3.1 AV:L/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L Added CWE CWE-78 Added Reference https://github.com/vim/vim/commit/664701eb7576edb7c7c7d9f2d600815ec1f43459 Added Reference https://github.com/vim/vim/releases/tag/v9.2.0272 Added Reference https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh Added Reference https://ww"
+    },
+    {
+      "url": "https://github.com/califio/publications/blob/main/MADBugs/vim-vs-emacs-vs-claude/vim-claude-prompts.txt",
+      "content": "publications/MADBugs/vim-vs-emacs-vs-claude/vim-claude-prompts.txt at main · califio/publications · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert califio / publications Public Notifications You must be signed in to change notification settings Fork 14 Star 63 Code Issues 1 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights Files Expand file tree main Breadcrumbs publications / MADBugs / vim-vs-emacs-vs-claude / vim-claude-prompts.txt Copy path Blame More file actions Blame More file actions Latest commit History History History 651 lines (506 loc) · 25.8 KB main Breadcrumbs publications / MADBugs / vim-vs-emacs-vs-claude / vim-claude-prompts.txt Top File metadata and controls Code Blame 651 lines (506 loc) · 25.8 KB Raw Copy raw file Download raw file Open symbols panel Edit and raw actions 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 20"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Vim tabpanel 模式行远程代码执行漏洞",
+    "vulner_number_1": "CVE-2026-34714",
+    "vulner_number_2": "",
+    "new_vulner_name": "Vim tabpanel 模式行远程代码执行漏洞",
+    "vulner_date": "2026年3月31日",
+    "vulner_time_line": "2026/03/31",
+    "object_name": "Vim",
+    "object_desc": "Vim 是一款跨平台文本编辑器，常用于代码编写、配置文件修改和终端环境下的文本处理。",
+    "vulner_version": "请参考官方通告确认受影响范围。",
+    "vulner_type": "命令注入",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "需要用户打开恶意构造的文件",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "成功利用后，攻击者可破坏 Vim 所在环境的机密性、完整性或可用性",
+    "vuln_level": "严重",
+    "vulner_desc": "Vim 在处理攻击者构造的恶意文件时存在 命令注入 风险，漏洞会在文件被打开或解析的阶段触发，使本地环境在缺少额外交互的情况下执行未授权命令。",
+    "official_solution": "建议尽快按照官方修复指引完成升级。下载链接：https://github.com/vim/vim/releases/tag/v9.2.0272。在升级完成前，应同步限制高风险输入、文件或接口的处理范围。",
+    "reference_link": "https://github.com/vim/vim/releases/tag/v9.2.0272",
+    "reference_link1": "https://nvd.nist.gov/vuln/detail/CVE-2026-34714",
+    "reference_link2": "https://github.com/califio/publications/blob/main/MADBugs/vim-vs-emacs-vs-claude/vim-claude-prompts.txt"
+  }
+}

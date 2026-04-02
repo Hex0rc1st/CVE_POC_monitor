@@ -1,0 +1,65 @@
+{
+  "mode": "heuristic",
+  "title": "【已复现】Vim 代码执行漏洞(CVE-2026-34714)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-03-31",
+  "table_fields": {
+    "漏洞名称": "Vim 代码执行漏洞",
+    "漏洞编号": "QVD-2026-17084 ， CVE-2026-34714",
+    "公开时间": "2026-03-30",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "8.2",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "未公开",
+    "技术细节状态": "未公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-03-31 15:17 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Vim 是从 vi 发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Vim 代码执行漏洞(CVE-2026-34714)，该漏洞源于 Vim 的 tabpanel 选项缺少 P_MLE 安全标志，导致 tabline 脚本中的表达式可被用于注册任意命令。攻击者可以通过诱导用户打开特制文件，执行任意代码，从而导致获取系统控制权，可能导致数据泄露、系统破坏等严重后果。 目前该漏洞POC已公开，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** 9.1.1391 ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Vim 代码执行漏洞(CVE-2026-34714) ，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Vim >= 9.2.0272 下载地址： https://github.com/vim/vim/releases/tag/v9.2.0272",
+    "security_update": "目前官方已有可更新版本，建议受影响用户升级至最新版本： Vim >= 9.2.0272 下载地址： https://github.com/vim/vim/releases/tag/v9.2.0272",
+    "component_text": "Vim 是从 vi 发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Vim 代码执行漏洞(CVE-2026-34714)，该漏洞源于 Vim 的 tabpanel 选项缺少 P_MLE 安全标志，导致 tabline 脚本中的表达式可被用于注册任意命令。攻击者可以通过诱导用户打开特制文件，执行任意代码，从而导致获取系统控制权，可能导致数据泄露、系统破坏等严重后果。 目前该漏洞POC已公开，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "9.1.1391 <= Vim < 9.2.0272",
+    "plain_text": "安全团队 2026-03-31 15:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Vim 是从 vi 发展出来的一个文本编辑器。其代码补完、编译及错误跳转等方便编程的功能特别丰富，在程序员中被广泛使用。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Vim 代码执行漏洞(CVE-2026-34714)，该漏洞源于 Vim 的 tabpanel 选项缺少 P_MLE 安全标志，导致 tabline 脚本中的表达式可被用于注册任意命令。攻击者可以通过诱导用户打开特制文件，执行任意代码，从而导致获取系统控制权，可能导致数据泄露、系统破坏等严重后果。 目前该漏洞POC已公开，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 9.1.1391 ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Vim 代码执行漏洞(CVE-2026-34714) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Vim >= 9.2.0272 下载地址： https://github.com/vim/vim/releases/tag/v9.2.0272 **05** **参考资料** [1]https://www.openwall.com/lists/oss-security/2026/03/30/3 [2] https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh **06** **时间线** 2026年03月31日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://www.openwall.com/lists/oss-security/2026/03/30/3",
+    "https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://www.openwall.com/lists/oss-security/2026/03/30/3",
+      "content": "oss-security - [vim-security] Vim tabpanel modeline escape affects Vim < 9.2.0272 Products Openwall GNU/*/Linux server OS Linux Kernel Runtime Guard John the Ripper password cracker Free & Open Source for any platform in the cloud Pro for Linux Pro for macOS Wordlists for password cracking passwdqc policy enforcement Free & Open Source for Unix Pro for Windows (Active Directory) yescrypt KDF & password hashing yespower Proof-of-Work (PoW) crypt_blowfish password hashing phpass ditto in PHP tcb better password shadowing Pluggable Authentication Modules scanlogd port scan detector popa3d tiny POP3 daemon blists web interface to mailing lists msulogin single user mode login php_mt_seed mt_rand() cracker Services Publications Articles Presentations Resources Mailing lists Community wiki Source code repositories (GitHub) File archive & mirrors How to verify digital signatures OVE IDs What's new Follow @Openwall on Twitter for new release announcements and other news [<prev] [next>] [thread-next>] [day] [month] [year] [list] Message-ID: <aco9Ai89pj+OQ0YS@256bit.org> Date: Mon, 30 Mar 2026 11:06:10 +0200 From: Christian Brabandt <cb@...bit.org> To: oss-security@...ts.openwall.com Subject: [vim-security] Vim tabpanel modeline escape affects Vim < 9.2.0272 Vim tabpanel modeline escape affects Vim < 9.2.0272 =================================================== Date: 30.03.2026 Severity: High CVE: *not yet assigned* CWE: Improper Neutralization of Special Elements used in an OS Command (CWE-78) ## Summary A bug chain in Vim allows arbitrary OS command execution when a user opens a crafted file. The `tabpanel` option is missing the `P_MLE` flag, allowing a modeline to inject a `%{expr}` expression string without requiring `modelineexpr` to be enabled. Although Vim correctly evaluates the expression inside the sandbox, `autocmd_add()` lacks a `check_secure()` call, allowing sandboxed code to register an autocommand that fires after the sandbox exits. ## Description The `tabpanel` option (`src/optiondefs.h:2581`) accepts `%{expr}` format strings identically to `statusline` and `tabline`, both of which carry the `P_MLE` flag to require `modelineexpr` for modeline use. `tabpanel` is missing this flag, so the modeline security check at `src/option.c:1572-1576` is never reached and arbitrary expression strings are accepted from modelines. Vim correctly detects that the option was set insecurely and evaluates the expression inside the sandbox (`src/eval.c:747-758`). However, `autocmd_add()` (`src/autocmd.c:3316`) contains no `check_secure()` call. While the `:autocmd` ex command is properly blocked in the sandbox (no `EX_SBOXOK`), but the function interface bypasses this restriction. ## Impact An attacker who can deliver a crafted file to a victim achieves arbitrary command execution with the privileges of the user running Vim. The attack requires only that the victim opens the file; no further interaction is needed. `modeline` is enabled by default and `modelineexpr` does not need to be enabled. Vim builds with `+tabpanel` (FEAT_HUGE, the default) are affected. ## Acknowledgements The Vim project would like to thank Koda Reef for identifying the vulnerability chain, providing a detailed root cause analysis, reproduction steps, and suggested fixes. ## References The issue has been fixed as of Vim patch [v9.2.0272]( https://github.com/vim/vim/releases/tag/v9.2.0272 ) - [Commit]( https://github.com/vim/vim/commit/664701eb7576edb7c7c7d9f2d600815ec1f43459 ) - [GitHub Advisory]( https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh ) Thanks, Christian -- Eine Diktatur ist ein Staat, in dem das Halten von Papageien mit Lebensgefahr verbunden ist. -- Jack Lemmon Powered by blists - more mailing lists Please check out the Open Source Software Security Wiki , which is counterpart to this mailing list . Confused about mailing lists and their use? Read about mailing lists on Wikipedia and check out these guidelines on proper formatting of your "
+    },
+    {
+      "url": "https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh",
+      "content": "Vim tabpanel modeline escape affects Vim > 9.1.1390 && Vim < 9.2.0272 · Advisory · vim/vim · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert vim / vim Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 6k Star 40.1k Code Issues 1.6k Pull requests 85 Discussions Actions Projects Wiki Security and quality 38 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Wiki Security and quality Insights Vim tabpanel modeline escape affects Vim > 9.1.1390 && Vim < 9.2.0272 High chrisbra published GHSA-2gmj-rpqf-pxvh Mar 30, 2026 Package Vim Affected versions > 9.1.1390 && < 9.2.0172 Patched versions 9.2.0172 Description Vim tabpanel modeline escape affects Vim > 9.1.1391 && Vim < 9.2.0272 Date: 30.03.2026 Severity: High CVE: not-yet-assigned CWE: Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') (CWE-78) Summary A bug chain in Vim allows arbitrary OS command execution when a user opens a crafted file. The tabpanel option is missing the P_MLE flag, allowing a modeline to inject a %{expr} expression string without requiring modelineexpr to be enabled. Although Vim correctly evaluates the expression inside the sandbox, autocmd_add() lacks a check_secure() call, allowing sandboxed code to register an autocommand that fires after the sandbox exits. This vulnerability has been introduced with Vim v9.1.1391. Earlier versions are not affected. Description The tabpanel option ( src/optiondefs.h:2581 ) accepts %{expr} format strings identically to statusline and tabl"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Vim 代码执行漏洞",
+    "vulner_number_1": "CVE-2026-34714",
+    "vulner_number_2": "",
+    "new_vulner_name": "Vim 代码执行漏洞",
+    "vulner_date": "2026年3月31日",
+    "vulner_time_line": "2026/03/31",
+    "object_name": "Vim",
+    "object_desc": "Vim 是一款跨平台文本编辑器，常用于代码编写、配置文件修改和终端环境下的文本处理。",
+    "vulner_version": "9.1.1391 ≤ Vim < 9.2.0272",
+    "vulner_type": "代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "需要用户打开恶意构造的文件",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "高危，可导致攻击者在受影响环境中执行任意代码，并进一步获取主机控制权限",
+    "vuln_level": "高危",
+    "vulner_desc": "Vim 在处理 tabpanel 相关模式行时缺少必要的安全限制，攻击者可借助未受限的 %{expr} 表达式注入恶意逻辑。参考资料显示，该漏洞链路与 P_MLE 标志缺失及 autocmd_add() 未执行安全校验有关，导致原本应受沙箱约束的行为在沙箱退出后仍可触发命令执行。",
+    "official_solution": "建议尽快升级至官方已发布的安全版本。\n修复版本：Vim >= 9.2.0272\n下载链接：https://github.com/vim/vim/releases/tag/v9.2.0272",
+    "reference_link": "https://github.com/vim/vim/releases/tag/v9.2.0272",
+    "reference_link1": "https://www.openwall.com/lists/oss-security/2026/03/30/3",
+    "reference_link2": "https://github.com/vim/vim/security/advisories/GHSA-2gmj-rpqf-pxvh"
+  }
+}
