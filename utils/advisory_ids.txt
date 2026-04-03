@@ -134,3 +134,7 @@ GHSA-gg9v-mgcp-v6m7
 GHSA-h5hg-h7rr-gpf3
 GHSA-f693-58pc-2gfr
 GHSA-q9w8-cf67-r238
+GHSA-3xv9-89fm-7h4r
+GHSA-rvvf-6vh3-9j43
+GHSA-6336-qqw9-v6x6
+GHSA-9f4w-67g7-mqwv
