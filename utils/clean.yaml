@@ -3274,3 +3274,5 @@ clean_list:
 - CVE--2025-24054
 - CVE-2026
 - CVE-2026-22738
+- CVE-2025-59059-Misattributed-RCE-in-Apache-Ranger-Static-Analysis-Correction
+- CVE-2026-33149-PoC
