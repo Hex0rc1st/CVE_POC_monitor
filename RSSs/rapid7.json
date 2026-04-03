@@ -473,5 +473,10 @@
         "title": "New Whitepaper: Stealthy BPFDoor Variants are a Needle That Looks Like Hay",
         "link": "https://www.rapid7.com/blog/post/tr-new-whitepaper-stealthy-bpfdoor-variants",
         "published": "Thu, 02 Apr 2026 13:00:00 GMT"
+    },
+    {
+        "title": "You Don’t Have a Security Problem, You Have a Visibility Problem",
+        "link": "https://www.rapid7.com/blog/post/em-security-problem-or-visibility-problem",
+        "published": "Fri, 03 Apr 2026 13:46:13 GMT"
     }
 ]
