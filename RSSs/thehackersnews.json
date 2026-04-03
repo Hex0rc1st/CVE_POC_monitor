@@ -2518,5 +2518,10 @@
         "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
         "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
         "published": "Fri, 03 Apr 2026 16:30:00 +0530"
+    },
+    {
+        "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
+        "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
+        "published": "Fri, 03 Apr 2026 21:02:00 +0530"
     }
 ]
