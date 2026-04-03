@@ -543,5 +543,10 @@
         "title": "What Is Data Exfiltration?",
         "link": "https://www.picussecurity.com/resource/blog/what-is-data-exfiltration",
         "published": "Thu, 02 Apr 2026 06:45:00 GMT"
+    },
+    {
+        "title": "T1547.015 Login Items in MITRE ATT&CK Explained",
+        "link": "https://www.picussecurity.com/resource/blog/t1547-015-login-items",
+        "published": "Fri, 03 Apr 2026 08:30:00 GMT"
     }
 ]

@@ -1424,3 +1424,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496792&idx=1&sn=82
 奇安信cert::今日（2026年4月2日）OpenClaw 最新安全动态总结
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247504958&idx=1&sn=d0c44ae0f1856b40612415b4df032e00
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247504958&idx=1&sn=d0c44ae0f1856b40612415b4df032e00
+奇安信cert::今日（2026年4月3日）OpenClaw 最新安全动态总结
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505016&idx=1&sn=7fa7c9f2b1551543100e3d1bcc11bc00&chksm=fffd439cf4b303cad4d7bfcd44618ef99f2b6041514826731e83758c14cea3ee6edc2643fd8b&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505016&idx=1&sn=7fa7c9f2b1551543100e3d1bcc11bc00
