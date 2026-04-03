@@ -3264,3 +3264,4 @@ clean_list:
 - KillChain
 - CVE-2026-XXXXX
 - CVE-2026-21628-POC
+- CVE-2026-33154
