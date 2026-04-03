@@ -3279,3 +3279,4 @@ clean_list:
 - CVE-2026-34156
 - CVE-2024-23700-C2-Server
 - CVE-2026-35045-PoC
+- cve-2026-33032-scanner
