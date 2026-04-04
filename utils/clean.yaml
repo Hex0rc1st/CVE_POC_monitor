@@ -3282,3 +3282,4 @@ clean_list:
 - cve-2026-33032-scanner
 - CVE-2025-32957-PoC
 - CVE_2025_24257----NOT-MINE
+- CVE-2026-35616

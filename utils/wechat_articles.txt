@@ -1429,3 +1429,6 @@ http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505016&idx=1&sn=7fa7c9f
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505016&idx=1&sn=7fa7c9f2b1551543100e3d1bcc11bc00
 奇安信cert::安全热点周报：谷歌修复了第四个在 2026 年被利用的 Chrome 零日漏洞
 https://mp.weixin.qq.com/s/bUv7mo9dhg-rNUe8ZEyvTA
+奇安信cert::今日（2026年4月4日）OpenClaw 最新安全动态总结
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505118&idx=1&sn=8915ae51926cc275984f9fe242a077f8&chksm=ff5747429b7f162f5dcf6da072c011998fc9efa835eff28a1925ebb980e09808d464b01d6f90&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505118&idx=1&sn=8915ae51926cc275984f9fe242a077f8
