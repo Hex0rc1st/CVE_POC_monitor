@@ -3283,3 +3283,4 @@ clean_list:
 - CVE-2025-32957-PoC
 - CVE_2025_24257----NOT-MINE
 - CVE-2026-35616
+- nextjs-auth-bypass
