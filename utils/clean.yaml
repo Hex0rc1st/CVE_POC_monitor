@@ -3287,3 +3287,4 @@ clean_list:
 - CVE-2026-33701-Unsafe-Deserialization-in-OpenTelemetry-Java-Agent-RMI-Instrumentation
 - CVE-2026-35570
 - openclaw-security-checker
+- CVE-2026-35492
