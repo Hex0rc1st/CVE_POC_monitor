@@ -3288,3 +3288,5 @@ clean_list:
 - CVE-2026-35570
 - openclaw-security-checker
 - CVE-2026-35492
+- Estudo-de-Caso-CVE-2024-21413
+- CVE-2026-28363
