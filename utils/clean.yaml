@@ -3291,3 +3291,4 @@ clean_list:
 - Estudo-de-Caso-CVE-2024-21413
 - CVE-2026-28363
 - CVE-2024-23700
+- CVE-2026-24061-GNU-InetUtils-telnetd-Authentication-Bypass-Vulnerability
