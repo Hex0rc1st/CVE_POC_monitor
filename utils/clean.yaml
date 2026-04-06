@@ -3294,3 +3294,5 @@ clean_list:
 - CVE-2026-24061-GNU-InetUtils-telnetd-Authentication-Bypass-Vulnerability
 - CVE-2026-25769
 - CVE-2026-22557
+- nghttp2-cve-2026-27135-patch
+- cve-2026-1668-poc
