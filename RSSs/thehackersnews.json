@@ -2553,5 +2553,10 @@
         "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
         "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
         "published": "Mon, 06 Apr 2026 15:37:00 +0530"
+    },
+    {
+        "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+        "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+        "published": "Mon, 06 Apr 2026 17:15:00 +0530"
     }
 ]
