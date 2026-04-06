@@ -578,5 +578,10 @@
         "title": "Chrome Dev for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-android-update.html",
         "published": "2026-04-02T09:28:32.853-07:00"
+    },
+    {
+        "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/04/stable-channel-update-for-chromeos.html",
+        "published": "2026-04-06T15:19:00.000-07:00"
     }
 ]
