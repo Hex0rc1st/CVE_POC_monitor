@@ -3296,3 +3296,4 @@ clean_list:
 - CVE-2026-22557
 - nghttp2-cve-2026-27135-patch
 - cve-2026-1668-poc
+- CVE-2025-23061-LAB
