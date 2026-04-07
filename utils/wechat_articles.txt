@@ -1438,3 +1438,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505123&idx=1&sn=3a
 奇安信cert::今日（2026年4月6日）热点网络安全漏洞动态
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505147&idx=1&sn=89fe2878c3fb4cf1379fdb01ae46bf92&chksm=ffed07199a07ea89474b141c94eb145d35641db983fc8f21b75bec3b183fc71cd39d09db4f98&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505147&idx=1&sn=89fe2878c3fb4cf1379fdb01ae46bf92
+360漏洞研究院::涉及1高危，2中危！360再曝OpenClaw高价值漏洞
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496816&idx=1&sn=376d7782a4186c78754e33650012d405&chksm=c20cc40a7def1a0d3ca8e54fbe6eccbdd4aa186b3367d22454f17dfa06df9a0e4e4be0a4b5fe&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496816&idx=1&sn=376d7782a4186c78754e33650012d405
