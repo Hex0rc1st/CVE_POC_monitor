@@ -2578,5 +2578,15 @@
         "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations",
         "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
         "published": "Tue, 07 Apr 2026 00:07:00 +0530"
+    },
+    {
+        "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+        "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+        "published": "Tue, 07 Apr 2026 12:05:00 +0530"
+    },
+    {
+        "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
+        "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
+        "published": "Tue, 07 Apr 2026 11:26:00 +0530"
     }
 ]
