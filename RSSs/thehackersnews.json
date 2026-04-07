@@ -2613,5 +2613,10 @@
         "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
         "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
         "published": "Tue, 07 Apr 2026 20:45:00 +0530"
+    },
+    {
+        "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
+        "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
+        "published": "Tue, 07 Apr 2026 22:18:00 +0530"
     }
 ]
