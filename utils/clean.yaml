@@ -3302,3 +3302,6 @@ clean_list:
 - forticlient_ems_cve_2026_35616_poc.py
 - parquet-avro-rce
 - azure-vulnerability-remediation-project
+- CVE-2026-39324
+- cve-2026-25994_PJSIP
+- CVE-2026-39371
