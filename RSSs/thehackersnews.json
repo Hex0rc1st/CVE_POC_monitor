@@ -2608,5 +2608,10 @@
         "title": "The Hidden Cost of Recurring Credential Incidents",
         "link": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
         "published": "Tue, 07 Apr 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
+        "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
+        "published": "Tue, 07 Apr 2026 20:45:00 +0530"
     }
 ]
