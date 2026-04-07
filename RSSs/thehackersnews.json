@@ -2588,5 +2588,10 @@
         "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
         "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
         "published": "Tue, 07 Apr 2026 11:26:00 +0530"
+    },
+    {
+        "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
+        "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
+        "published": "Tue, 07 Apr 2026 14:08:00 +0530"
     }
 ]
