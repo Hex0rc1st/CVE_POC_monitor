@@ -3316,3 +3316,8 @@ clean_list:
 - JXL_Infotainment_CVE-2025-69515
 - CVE-2025-9074-docker-escape
 - CVE-2025-56015
+- CVE-2024-56426
+- cve-2025-15467-crash
+- CVE-2026-29628
+- next-rep-CVE-2026-4800
+- CVE-2025-66034-htb-ctf
