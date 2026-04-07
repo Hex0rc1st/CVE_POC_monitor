@@ -809,14 +809,13 @@ def lookup_github_poc_status(cve_id):
 def build_github_advisory_message(data, matched_object, severity, advisory_url):
     # Build a concise advisory push message with summary, CVSS score, and PoC presence.
     aliases = data.get('aliases', []) or []
-    aliases_str = ', '.join(aliases)
-    cve_id = next((alias for alias in aliases if alias.upper().startswith("CVE-")), aliases[0] if aliases else "")
+    cve_id = next((alias for alias in aliases if alias.upper().startswith("CVE-")), "")
     summary_text = safe_translate_text(clean_markdown_text(data.get('summary', '') or ''))
     cvss_text = fetch_cvss_score(cve_id)
     poc_status, poc_links = lookup_github_poc_status(cve_id)
 
     lines = [
-        f"编号：{aliases_str or data.get('id', '')}",
+        f"编号：{cve_id}",
         f"组件：{matched_object}",
         f"严重性：{severity}",
         f"CVSS：{cvss_text}",
@@ -1126,6 +1125,11 @@ def save_file_locally(url, filename, processed_advisory_ids=None):
         if match_result["matched"]:
             item = match_result["matched_object"]
             severity = match_result.get("severity", "UNKNOWN")
+            aliases = data.get('aliases', []) or []
+            cve_id = next((alias for alias in aliases if alias.upper().startswith("CVE-")), "")
+            if not cve_id:
+                logging.info(f"重点组件漏洞缺少 CVE 编号，跳过推送: {data.get('id', '') or filename}")
+                return False
             url = f"https://github.com/advisories/{data.get('id', '')}"
             msg = build_github_advisory_message(data, item, severity, url)
             logging.info(f"企微推送：{advisory_key}  {url}")
