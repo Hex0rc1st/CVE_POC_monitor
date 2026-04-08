@@ -488,5 +488,10 @@
         "title": "A First Look at Our Speaker Lineup and Agenda for the Rapid7 2026 Global Cybersecurity Summit",
         "link": "https://www.rapid7.com/blog/post/it-speaker-lineup-first-look-agenda-rapid7-2026-global-cybersecurity-summit",
         "published": "Tue, 07 Apr 2026 13:06:22 GMT"
+    },
+    {
+        "title": "FortiGate CVE-2025-59718 Exploitation: Incident Response Findings",
+        "link": "https://www.rapid7.com/blog/post/ve-fortigate-cve-2025-59718-exploitation-incident-response-ir-findings",
+        "published": "Wed, 08 Apr 2026 13:39:52 GMT"
     }
 ]
