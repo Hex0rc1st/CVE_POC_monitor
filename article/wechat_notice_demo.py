@@ -13,7 +13,7 @@ import subprocess
 import sys
 from datetime import datetime
 from pathlib import Path
-from time import perf_counter
+from time import perf_counter, sleep
 from typing import Any
 
 import requests
@@ -27,6 +27,8 @@ UPLOAD_DIR = BASE_DIR / "uploads"
 HTTP_TIMEOUT = 20
 MAX_REFERENCE_TEXT = 4000
 MAX_BODY_TEXT = 12000
+LLM_MAX_RETRIES = 3
+LLM_RETRY_DELAY_SECONDS = 3
 ALLOWED_PUBLISHERS = ("360漏洞研究院", "奇安信 CERT")
 PUBLISHER_ALIASES = {
     "360漏洞研究院": ("360漏洞研究院", "原创360漏洞研究院", "360 漏洞研究院"),
@@ -1417,13 +1419,26 @@ def get_llm_model() -> str:
 
 
 def create_llm_completion(client: OpenAI, messages: list[dict[str, str]], temperature: float = 0.2) -> Any:
-    """Create one chat completion using the MiniMax-compatible reasoning_split request shape."""
-    return client.chat.completions.create(
-        model=get_llm_model(),
-        messages=messages,
-        temperature=temperature,
-        extra_body={"reasoning_split": True},
-    )
+    """Create one chat completion using the MiniMax-compatible reasoning_split request shape with retry."""
+    last_error: Exception | None = None
+    for attempt in range(1, LLM_MAX_RETRIES + 1):
+        try:
+            response = client.chat.completions.create(
+                model=get_llm_model(),
+                messages=messages,
+                temperature=temperature,
+                extra_body={"reasoning_split": True},
+            )
+            choices = getattr(response, "choices", None)
+            if choices:
+                return response
+            last_error = ValueError(f"模型响应缺少 choices: {repr(response)[:500]}")
+        except Exception as exc:
+            last_error = exc
+        if attempt < LLM_MAX_RETRIES:
+            sleep(LLM_RETRY_DELAY_SECONDS * attempt)
+    assert last_error is not None
+    raise last_error
 
 
 def extract_llm_message_content(response: Any) -> str:
