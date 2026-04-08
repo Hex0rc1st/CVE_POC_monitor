@@ -938,5 +938,10 @@
         "title": "GitLab Patch Release: 18.10.1, 18.9.3, 18.8.7",
         "link": "https://about.gitlab.com/releases/2026/03/25/patch-release-gitlab-18-10-1-released/",
         "published": "2026-03-25T00:00:00+00:00"
+    },
+    {
+        "title": "GitLab Patch Release: 18.10.3, 18.9.5, 18.8.9",
+        "link": "https://about.gitlab.com/releases/2026/04/08/patch-release-gitlab-18-10-3-released/",
+        "published": "2026-04-08T00:00:00+00:00"
     }
 ]
