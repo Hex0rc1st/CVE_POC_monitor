@@ -523,5 +523,35 @@
         "title": "CVE-2026-0230 Cortex XDR Agent: Local Administrator can disable the agent on macOS (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0230",
         "published": "2026-03-11T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0232 Cortex XDR Agent: Local Administrator can disable the agent on Windows (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0232",
+        "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0005 Informational Bulletin: OSS CVEs Fixed in PAN-OS (Severity: INFORMATIONAL)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0005",
+        "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0233 Autonomous Digital Experience Manager: Improper validation of ADEM certificate (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0233",
+        "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0006 Informational Bulletin: Impact assessment of OSS CVEs in PAN-OS (Severity: INFORMATIONAL)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0006",
+        "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0234 Cortex XSOAR: Improper Verification of Cryptographic Signature in Microsoft Teams integration (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0234",
+        "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0004 Chromium: Monthly Vulnerability Update (April 2026) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0004",
+        "published": "2026-04-08T16:00:00.000Z"
     }
 ]

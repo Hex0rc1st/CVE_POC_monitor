@@ -143,5 +143,10 @@
         "title": "Announcing Pwn2Own Berlin for 2026",
         "link": "https://www.thezdi.com/blog/2026/3/11/announcing-pwn2own-berlin-for-2026",
         "published": "Thu, 12 Mar 2026 16:25:15 +0000"
+    },
+    {
+        "title": "Node.js Trust Falls: Dangerous Module Resolution on Windows",
+        "link": "https://www.thezdi.com/blog/2026/4/8/nodejs-trust-falls-dangerous-module-resolution-on-windows",
+        "published": "Wed, 08 Apr 2026 16:18:48 +0000"
     }
 ]
