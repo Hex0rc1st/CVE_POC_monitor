@@ -3328,3 +3328,4 @@ clean_list:
 - CVE-2026-27739-POC
 - CVE-2026-33017-Exploit
 - CVE-2026-34197
+- CVE-2026-23980-Exploit
