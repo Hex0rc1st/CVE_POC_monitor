@@ -157,6 +157,16 @@ OBJECT_DESC_PROMPT = """你是组件介绍生成智能体。
 6. 只输出最终文本，不要 JSON，不要解释。
 """
 
+OBJECT_DESC_REPAIR_PROMPT = """你是组件介绍修正智能体。
+你的任务是仅根据组件名称，重新生成一段组件介绍。
+要求：
+1. 第一行必须直接以组件名称开头。
+2. 只能介绍组件本身，不写漏洞、攻击、修复、风险、利用、补丁、通告来源。
+3. 输出 2-3 句中文，简洁、正式。
+4. 绝不能出现 360、奇安信、QAX 及其变体。
+5. 只输出最终文本，不要 JSON，不要解释。
+"""
+
 VULNER_NAME_PROMPT = """你是漏洞名称优化智能体。
 你的任务是基于原始漏洞标题、表格中的漏洞名称、漏洞类型和组件名称，生成适合正式通告的漏洞名称。
 要求：
@@ -165,6 +175,19 @@ VULNER_NAME_PROMPT = """你是漏洞名称优化智能体。
 3. 绝不能出现 360、奇安信、QAX 及其变体。
 4. 只输出最终漏洞名称，不要解释，不要 JSON。
 5. 如果无法判断模块、接口或路由，可以省略该部分，但整体名称仍需简洁、正式。
+"""
+
+VULNER_VERSION_PROMPT = """你是漏洞影响范围整理智能体。
+你的任务是根据组件名称、正文中的影响版本段落、表格字段和参考资料，输出受影响范围。
+要求：
+1. 只输出受影响范围，不要输出修复建议、下载链接、解释说明。
+2. 必须围绕给定的主组件名称整理，不能输出多个组件并列。
+3. 输出格式必须为：
+   版本 (≤|<) 组件名 (≤|<) 版本
+   或
+   组件名 (≤|<) 版本
+4. 如果有多个大版本，用换行分隔。
+5. 不要输出 JSON，不要解释，不要代码块。
 """
 
 
@@ -626,6 +649,26 @@ def format_affected_versions(raw_text: str, object_name: str) -> str:
         line.replace("<=", "≤").replace(">=", "≥") for line in raw_lines
     ) or text.replace("<=", "≤").replace(">=", "≥")
 
+    malformed_range_lines = []
+    for line in normalized_compare_text.splitlines():
+        for malformed_match in re.finditer(
+            rf"([^\n]*?{re.escape(object_name)}[^\n]*?)\s+([0-9A-Za-z._/-]+)\s*(≤|<)\s*版本\s*(≤|<)\s*([0-9A-Za-z._/-]+)",
+            line,
+            flags=re.IGNORECASE,
+        ):
+            component_text = sanitize_whitespace(malformed_match.group(1)).replace("（", "(").replace("）", ")")
+            line_text = build_version_range_line(
+                malformed_match.group(2),
+                malformed_match.group(3),
+                component_text,
+                malformed_match.group(4),
+                malformed_match.group(5),
+            )
+            if line_text and line_text not in malformed_range_lines:
+                malformed_range_lines.append(line_text)
+    if malformed_range_lines:
+        return "\n".join(dict.fromkeys(malformed_range_lines))
+
     vendor_prefixed_lines = []
     for line in normalized_compare_text.splitlines():
         for vendor_prefixed_match in re.finditer(
@@ -840,6 +883,23 @@ def normalize_timeline_text(value: str, publish_date: str) -> str:
 def normalize_object_name(value: str) -> str:
     """Keep only the major component name without bracketed submodules."""
     text = sanitize_whitespace(value or "")
+    candidates = [sanitize_whitespace(part) for part in re.split(r"[,;/\n，；]+", text) if sanitize_whitespace(part)]
+    if candidates:
+        cleaned_candidates = [
+            sanitize_whitespace(re.sub(r"\s*[\(\（][^\)\）]*[\)\）]\s*", "", item))
+            for item in candidates
+        ]
+        deduped_candidates: list[str] = []
+        for item in cleaned_candidates:
+            if item and item not in deduped_candidates:
+                deduped_candidates.append(item)
+        if deduped_candidates:
+            for item in sorted(deduped_candidates, key=len):
+                if sum(1 for other in deduped_candidates if item != other and item.lower() in other.lower()) >= 1:
+                    text = item
+                    break
+            else:
+                text = min(deduped_candidates, key=len)
     text = re.sub(r"\s*[\(\（][^\)\）]*[\)\）]\s*", "", text)
     return sanitize_whitespace(text)
 
@@ -904,7 +964,10 @@ def extract_download_links(reference_links: list[str], reference_text: str, secu
 def infer_component_name(vulnerability_name: str, title: str) -> str:
     """Infer the main affected component name from the vulnerability title."""
     for candidate in (vulnerability_name, title):
-        english_match = re.search(r"([A-Za-z][A-Za-z0-9._+-]{1,39})(?=[\u4e00-\u9fa5]|\b)", candidate)
+        english_match = re.search(
+            r"([A-Za-z][A-Za-z0-9._+-]*(?:\s+[A-Za-z][A-Za-z0-9._+-]*){0,3})(?=[\u4e00-\u9fa5]|\b)",
+            candidate,
+        )
         if english_match:
             return english_match.group(1)
         chinese_match = re.match(r"([\u4e00-\u9fa5A-Za-z0-9._+-]{2,40})", candidate)
@@ -1041,6 +1104,57 @@ def rewrite_component_description_with_ai(
     return remove_source_mentions(content)
 
 
+def rewrite_component_description_with_ai_repair(
+    client: OpenAI,
+    object_name: str,
+) -> str:
+    """Regenerate the component description with a stricter prompt when the first draft is inconsistent."""
+    user_payload = {
+        "object_name": object_name,
+    }
+    response = create_llm_completion(
+        client,
+        [
+            {"role": "system", "content": OBJECT_DESC_REPAIR_PROMPT},
+            {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
+        ],
+        temperature=0.1,
+    )
+    content = sanitize_whitespace(extract_llm_message_content(response))
+    return remove_source_mentions(content)
+
+
+def rewrite_affected_versions_with_ai(
+    client: OpenAI,
+    object_name: str,
+    fields: dict[str, str],
+    sections: dict[str, str],
+    reference_text: str,
+) -> str:
+    """Use the final normalized component name to ask the model for the affected-version ranges."""
+    user_payload = {
+        "object_name": object_name,
+        "table_fields": {
+            "影响版本": fields.get("影响版本", ""),
+            "受影响版本": fields.get("受影响版本", ""),
+            "漏洞名称": fields.get("漏洞名称", ""),
+        },
+        "affected_versions_text": sections.get("affected_versions_text", ""),
+        "plain_text": sections.get("plain_text", "")[:4000],
+        "reference_text": reference_text[:4000],
+    }
+    response = create_llm_completion(
+        client,
+        [
+            {"role": "system", "content": VULNER_VERSION_PROMPT},
+            {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
+        ],
+        temperature=0.1,
+    )
+    content = sanitize_whitespace(extract_llm_message_content(response))
+    return remove_source_mentions(content)
+
+
 def rewrite_vulnerability_name_with_ai(
     client: OpenAI,
     title: str,
@@ -1166,6 +1280,20 @@ def sanitize_component_description(object_desc: str, object_name: str, plain_tex
     if not cleaned:
         return summarize_component_description(object_name, plain_text, reference_text)
     return cleaned
+
+
+def component_description_is_consistent(object_desc: str, object_name: str) -> bool:
+    """Check whether the generated component description is consistent with the normalized component name."""
+    desc = sanitize_whitespace(remove_source_mentions(object_desc or "")).lower()
+    component = normalize_object_name(object_name).lower()
+    if not desc or not component:
+        return False
+    component_tokens = [token for token in re.split(r"[\s._-]+", component) if len(token) >= 3]
+    if component in desc:
+        return True
+    if component_tokens and all(token in desc for token in component_tokens[:2]):
+        return True
+    return False
 
 
 def summarize_hazard_description(
@@ -1611,10 +1739,15 @@ def build_llm_payload(
     try:
         stage_log(verbose, "LLM阶段: rewrite_object_desc")
         stage_started = perf_counter()
+        initial_object_name = normalize_object_name(
+            infer_component_name(table_fields.get("漏洞名称", "") or title, title)
+        )
         rewritten_object_desc = rewrite_component_description_with_ai(
             client,
-            infer_component_name(table_fields.get("漏洞名称", "") or title, title),
+            initial_object_name,
         )
+        if not component_description_is_consistent(rewritten_object_desc, initial_object_name):
+            rewritten_object_desc = rewrite_component_description_with_ai_repair(client, initial_object_name)
         stage_log(verbose, f"LLM阶段: rewrite_object_desc 完成，耗时 {format_elapsed_seconds(stage_started)}")
     except Exception as exc:
         raise RuntimeError(f"LLM阶段 rewrite_object_desc 失败: {exc}") from exc
@@ -1646,11 +1779,32 @@ def build_llm_payload(
         raise RuntimeError(f"LLM阶段 payload 失败: {exc}") from exc
     if rewritten_vulner_desc:
         payload["vulner_desc"] = rewritten_vulner_desc
+    final_object_name = normalize_object_name(
+        payload.get("object_name", "") or infer_component_name(table_fields.get("漏洞名称", "") or title, title)
+    )
+    payload["object_name"] = final_object_name
     if rewritten_object_desc:
+        if not component_description_is_consistent(rewritten_object_desc, final_object_name):
+            rewritten_object_desc = rewrite_component_description_with_ai_repair(client, final_object_name)
         payload["object_desc"] = rewritten_object_desc
     if rewritten_vulner_name:
         payload["vulner_name"] = rewritten_vulner_name
         payload["new_vulner_name"] = rewritten_vulner_name
+    try:
+        stage_log(verbose, "LLM阶段: rewrite_vulner_version")
+        stage_started = perf_counter()
+        rewritten_vulner_version = rewrite_affected_versions_with_ai(
+            client,
+            final_object_name,
+            table_fields,
+            sections,
+            reference_text,
+        )
+        if rewritten_vulner_version:
+            payload["vulner_version"] = rewritten_vulner_version
+        stage_log(verbose, f"LLM阶段: rewrite_vulner_version 完成，耗时 {format_elapsed_seconds(stage_started)}")
+    except Exception as exc:
+        raise RuntimeError(f"LLM阶段 rewrite_vulner_version 失败: {exc}") from exc
     return normalize_payload(
         payload,
         reference_links,
