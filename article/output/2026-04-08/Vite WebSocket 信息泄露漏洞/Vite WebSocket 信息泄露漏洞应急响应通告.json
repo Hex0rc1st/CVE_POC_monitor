@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-04-08",
+  "table_fields": {
+    "漏洞名称": "Vite WebSocket 任意文件读取漏洞",
+    "漏洞编号": "QVD-2026-18785 , CVE-2026-39363",
+    "公开时间": "2026-04-07",
+    "影响量级": "十万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "7.5",
+    "威胁类型": "信息泄露",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 安全团队 安全团队 2026-04-08 11:17 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Vite 是一款现代化的前端开发构建工具，它提供了快速的开发服务器和高效的构建能力，广泛应用于 Vue.js 项目的开发过程中。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)，Vite开发服务器 WebSocket中的fetchModule方法未实施server.fs访问控制，导致攻击者可通过WebSocket连接并读取服务器上的任意文件。**目前该漏洞PoC已公开，****鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。** **影响范围** **>** **>** **>** **>** **影响版本** 8.0.0 ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) ，截图如下： **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) 关联的国内风险资产总数为 69817个，关联IP总数为 20038个。国内风险资产分布情况如下： Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) 关联的全球风险资产总数为 202732个，关联IP总数为 71253个。全球风险资产分布情况如下： **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Vite>=8.0.5 Vite>=7.3.2 Vite>=6.4.2 Vite>=0.1.16 官方补丁下载地址： https://github.com/vitejs/vite/releases",
+    "security_update": "目前官方已有可更新版本，建议受影响用户升级至最新版本： Vite>=8.0.5 Vite>=7.3.2 Vite>=6.4.2 Vite>=0.1.16 官方补丁下载地址： https://github.com/vitejs/vite/releases",
+    "component_text": "Vite 是一款现代化的前端开发构建工具，它提供了快速的开发服务器和高效的构建能力，广泛应用于 Vue.js 项目的开发过程中。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)，Vite开发服务器 WebSocket中的fetchModule方法未实施server.fs访问控制，导致攻击者可通过WebSocket连接并读取服务器上的任意文件。 目前该漏洞PoC已公开， 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "8.0.0<=Vite<=8.0.4 7.0.0<=Vite<=7.3.1 6.0.0<=Vite<=6.4.1 Vite<=0.1.15",
+    "plain_text": "安全团队 安全团队 安全团队 2026-04-08 11:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Vite 是一款现代化的前端开发构建工具，它提供了快速的开发服务器和高效的构建能力，广泛应用于 Vue.js 项目的开发过程中。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)，Vite开发服务器 WebSocket中的fetchModule方法未实施server.fs访问控制，导致攻击者可通过WebSocket连接并读取服务器上的任意文件。**目前该漏洞PoC已公开，****鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。** **02** **影响范围** **>** **>** **>** **>** **影响版本** 8.0.0 ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) ，截图如下： **04** **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) 关联的国内风险资产总数为 69817个，关联IP总数为 20038个。国内风险资产分布情况如下： Vite WebSocket 任意文件读取漏洞(CVE-2026-39363) 关联的全球风险资产总数为 202732个，关联IP总数为 71253个。全球风险资产分布情况如下： **05** **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Vite>=8.0.5 Vite>=7.3.2 Vite>=6.4.2 Vite>=0.1.16 官方补丁下载地址： https://github.com/vitejs/vite/releases **06** **参考资料** [1] https://github.com/vitejs/vite/security/advisories/GHSA-356w-63v5-8wf4 **07** **时间线** 2026年04月08日，安全团队发布安全风险通告。 **08** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][3] ![图片][4] ![图片][5] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/vitejs/vite/security/advisories/GHSA-356w-63v5-8wf4"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/vitejs/vite/security/advisories/GHSA-356w-63v5-8wf4",
+      "content": "`server.fs.deny` bypassed with an invalid `request-target` · Advisory · vitejs/vite · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert vitejs / vite Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 8k Star 79.7k Code Issues 512 Pull requests 205 Discussions Actions Projects Security and quality 18 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Security and quality Insights `server.fs.deny` bypassed with an invalid `request-target` Moderate sapphi-red published GHSA-356w-63v5-8wf4 Apr 10, 2025 Package npm vite ( npm ) Affected versions >=6.2.0, <=6.2.5 >=6.1.0, <=6.1.4 >=6.0.0, <=6.0.14 >=5.0.0, <=5.4.17 <=4.5.12 Patched versions >=6.2.6 >=6.1.5, <6.2.0 >=6.0.15, <6.1.0 >=5.4.18, <6.0.0 >=4.5.13, <5.0.0 Description Summary The contents of arbitrary files can be returned to the browser if the dev server is running on Node or Bun. Impact Only apps with the following conditions are affected. explicitly exposing the Vite dev server to the network (using --host or server.host config option ) running the Vite dev server on runtimes that are not Deno (e.g. Node, Bun) Details HTTP 1.1 spec (RFC 9112) does not allow # in request-target . Although an attacker can send such a request. For those requests with an invalid request-line (it includes request-target ), the spec recommends to reject them with 400 or 301 . The same can be said for HTTP 2 ( ref1 , ref2 , ref3 ). On Node and Bun, those requests are not rejected internally and is passed to the user land. For those requests, the value o"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Vite WebSocket 信息泄露漏洞",
+    "vulner_number_1": "CVE-2026-39363",
+    "vulner_number_2": "漏洞编号： CVE-2026-39363",
+    "new_vulner_name": "Vite WebSocket 信息泄露漏洞",
+    "vulner_date": "2026-04-08",
+    "vulner_time_line": "2026/04/08",
+    "object_name": "Vite",
+    "object_desc": "Vite 是由 Evan You 开发的新一代前端构建工具，基于原生 ES 模块实现开发时的快速热更新，生产环境使用 Rollup 进行打包优化。主要用于 Vue、React 等现代 JavaScript 框架项目的开发和构建，具备极快的启动速度和热重载性能。",
+    "vulner_version": "8.0.0≤Vite ≤ 8.0.4\n7.0.0≤Vite ≤ 7.3.1\n6.0.0≤Vite ≤ 6.4.1\nVite ≤ 0.1.15",
+    "vulner_type": "信息泄露",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "Vite 开发服务器暴露到网络（使用 --host 或 server.host 配置），且运行在非 Deno 运行时",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "高危",
+    "vuln_level": "高危",
+    "vulner_desc": "Vite 开发服务器中 WebSocket 协议的 fetchModule 方法未正确实施 server.fs 访问控制，攻击者可通过发送包含无效 request-target（如包含 # 字符）的 WebSocket 请求绕过文件读取限制，从而在服务暴露于网络时读取服务器任意文件内容。该漏洞影响 Vite 5.x、6.x 及 4.x 等多个版本。",
+    "official_solution": "建议受影响用户升级至 Vite 8.0.5、7.3.2、6.4.2、0.1.16 或更高版本，其他版本分支用户请升级至对应补丁版本。\n下载地址：https://github.com/vitejs/vite/releases",
+    "reference_link": "https://github.com/vitejs/vite/security/advisories/GHSA-356w-63v5-8wf4",
+    "reference_link1": "https://github.com/vitejs/vite/releases",
+    "reference_link2": ""
+  }
+}

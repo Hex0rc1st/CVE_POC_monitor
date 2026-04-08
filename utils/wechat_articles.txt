@@ -1441,3 +1441,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505147&idx=1&sn=89
 360漏洞研究院::涉及1高危，2中危！360再曝OpenClaw高价值漏洞
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496816&idx=1&sn=376d7782a4186c78754e33650012d405&chksm=c20cc40a7def1a0d3ca8e54fbe6eccbdd4aa186b3367d22454f17dfa06df9a0e4e4be0a4b5fe&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496816&idx=1&sn=376d7782a4186c78754e33650012d405
+奇安信cert::【已复现】Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505167&idx=1&sn=d636c4a823bc2e6ebfbd1f4395306da7&chksm=ffeaed1d27d01ac4450369a47c4d7d38dde484bcfb40f14a980e13451a1e9b5cc29fed3c6f23&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505167&idx=1&sn=d636c4a823bc2e6ebfbd1f4395306da7
