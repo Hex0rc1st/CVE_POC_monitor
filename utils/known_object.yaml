@@ -29,3 +29,5 @@ object:
 - n8n
 - vllm
 - opencode
+- OpenAM
+- cups
