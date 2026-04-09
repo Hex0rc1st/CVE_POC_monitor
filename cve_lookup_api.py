@@ -116,7 +116,6 @@ def search_top_repositories(cve_id: str) -> dict[str, Any]:
         },
     )
     candidates = []
-    fallback_repos = []
     for item in data.get("items", []):
         repo = {
             "full_name": item.get("full_name"),
@@ -125,14 +124,13 @@ def search_top_repositories(cve_id: str) -> dict[str, Any]:
             "stars": item.get("stargazers_count", 0),
             "updated_at": item.get("updated_at"),
         }
-        fallback_repos.append(repo)
         score = repository_match_score(item, cve_id)
         if score >= 4:
             repo["match_score"] = score
             candidates.append(repo)
 
     candidates.sort(key=lambda item: (item["stars"], item["match_score"]), reverse=True)
-    repos = candidates[:3] if candidates else fallback_repos[:3]
+    repos = candidates[:3]
     for repo in repos:
         repo.pop("match_score", None)
 
