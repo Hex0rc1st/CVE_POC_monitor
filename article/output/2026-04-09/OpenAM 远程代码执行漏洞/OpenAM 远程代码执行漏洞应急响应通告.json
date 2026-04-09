@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【已复现】OpenAM 远程代码执行漏洞(CVE-2026-33439)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-04-09",
+  "table_fields": {
+    "漏洞名称": "OpenAM 远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-18805 ， CVE-2026-33439",
+    "公开时间": "2026-04-07",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "9.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-04-09 17:15 ● **漏洞详情** **>** **>** **>** **>** **影响组件** OpenIdentityPlatform OpenAM是一款开源的企业级访问管理解决方案，提供统一的身份认证、授权管理、单点登录（SSO）以及联合身份管理功能。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 OpenAM 远程代码执行漏洞(CVE-2026-33439)，该漏洞产生的原因是OpenAM在修复历史漏洞时，仅对部分参数应用了白名单过滤机制，而忽略了框架中其他反序列化入口点。OpenAM 16.0.5及之前版本中的相关组件在处理特定HTTP参数时，直接进行反序列化操作，未实施有效的类白名单限制，导致用户可控的序列化数据被直接反序列化。 目前该漏洞POC及技术细节已公开， 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** OpenAM ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 OpenAM 远程代码执行漏洞(CVE-2026-33439) ，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： OpenAM >= 16.0.6 下载地址： https://github.com/OpenIdentityPlatform/OpenAM/releases **>** **>** **>** **>** **产品解决方案** **安全团队网神网络数据传感器系统产品检测方案** 安全团队网神网络数据传感器（NDS5000/7000/9000系列）产品，已具备该漏洞的检测能力。规则ID为：8230，建议用户尽快升级检测规则库至2604091530以上； **安全团队天眼检测方案** 安全团队天眼新一代安全感知系统已经能够有效检测针对该漏洞的攻击，请将规则版本升级到3.0.0409.14981或以上版本。规则ID及规则名称： 0x10022742，OpenAM 远程代码执行漏洞(CVE-2026-33439)。安全团队天眼流量探针规则升级方法：系统配置->设备升级->规则升级，选择“网络升级”或“本地升级”。 **安全团队开源卫士已支持** 安全团队开源卫士20260409.1325版本已支持对 OpenAM 远程代码执行漏洞(CVE-2026-33439)的检测。",
+    "security_update": "目前官方已有可更新版本，建议受影响用户升级至最新版本： OpenAM >= 16.0.6 下载地址： https://github.com/OpenIdentityPlatform/OpenAM/releases 产品解决方案 安全团队网神网络数据传感器系统产品检测方案 安全团队网神网络数据传感器（NDS5000/7000/9000系列）产品，已具备该漏洞的检测能力。规则ID为：8230，建议用户尽快升级检测规则库至2604091530以上； 安全团队天眼检测方案 安全团队天眼新一代安全感知系统已经能够有效检测针对该漏洞的攻击，请将规则版本升级到3.0.0409.14981或以上版本。规则ID及规则名称： 0x10022742，OpenAM 远程代码执行漏洞(CVE-2026-33439)。安全团队天眼流量探针规则升级方法：系统配置->设备升级->规则升级，选择“网络升级”或“本地升级”。 安全团队开源卫士已支持 安全团队开源卫士20260409.1325版本已支持对 OpenAM 远程代码执行漏洞(CVE-2026-33439)的检测。",
+    "component_text": "OpenIdentityPlatform OpenAM是一款开源的企业级访问管理解决方案，提供统一的身份认证、授权管理、单点登录（SSO）以及联合身份管理功能。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 OpenAM 远程代码执行漏洞(CVE-2026-33439)，该漏洞产生的原因是OpenAM在修复历史漏洞时，仅对部分参数应用了白名单过滤机制，而忽略了框架中其他反序列化入口点。OpenAM 16.0.5及之前版本中的相关组件在处理特定HTTP参数时，直接进行反序列化操作，未实施有效的类白名单限制，导致用户可控的序列化数据被直接反序列化。 目前该漏洞POC及技术细节已公开， 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "OpenAM <= 16.0.5",
+    "plain_text": "安全团队 2026-04-09 17:15 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** OpenIdentityPlatform OpenAM是一款开源的企业级访问管理解决方案，提供统一的身份认证、授权管理、单点登录（SSO）以及联合身份管理功能。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 OpenAM 远程代码执行漏洞(CVE-2026-33439)，该漏洞产生的原因是OpenAM在修复历史漏洞时，仅对部分参数应用了白名单过滤机制，而忽略了框架中其他反序列化入口点。OpenAM 16.0.5及之前版本中的相关组件在处理特定HTTP参数时，直接进行反序列化操作，未实施有效的类白名单限制，导致用户可控的序列化数据被直接反序列化。 目前该漏洞POC及技术细节已公开， 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** OpenAM ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 OpenAM 远程代码执行漏洞(CVE-2026-33439) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： OpenAM >= 16.0.6 下载地址： https://github.com/OpenIdentityPlatform/OpenAM/releases **>** **>** **>** **>** **产品解决方案** **安全团队网神网络数据传感器系统产品检测方案** 安全团队网神网络数据传感器（NDS5000/7000/9000系列）产品，已具备该漏洞的检测能力。规则ID为：8230，建议用户尽快升级检测规则库至2604091530以上； **安全团队天眼检测方案** 安全团队天眼新一代安全感知系统已经能够有效检测针对该漏洞的攻击，请将规则版本升级到3.0.0409.14981或以上版本。规则ID及规则名称： 0x10022742，OpenAM 远程代码执行漏洞(CVE-2026-33439)。安全团队天眼流量探针规则升级方法：系统配置->设备升级->规则升级，选择“网络升级”或“本地升级”。 **安全团队开源卫士已支持** 安全团队开源卫士20260409.1325版本已支持对 OpenAM 远程代码执行漏洞(CVE-2026-33439)的检测。 **05** **参考资料** [1] https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-2cqq-rpvq-g5qj **06** **时间线** 2026年04月09日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-2cqq-rpvq-g5qj"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-2cqq-rpvq-g5qj",
+      "content": "Pre-Authentication Remote Code Execution via `jato.clientSession` Deserialization in OpenAM · Advisory · OpenIdentityPlatform/OpenAM · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert OpenIdentityPlatform / OpenAM Public Uh oh! There was an error while loading. Please reload this page . Notifications You must be signed in to change notification settings Fork 175 Star 869 Code Issues 1 Pull requests 5 Discussions Actions Projects Wiki Security and quality 4 Insights Additional navigation options Code Issues Pull requests Discussions Actions Projects Wiki Security and quality Insights Pre-Authentication Remote Code Execution via `jato.clientSession` Deserialization in OpenAM Critical vharseko published GHSA-2cqq-rpvq-g5qj Apr 7, 2026 Package maven org.openidentityplatform.openam.openam-core ( Maven ) Affected versions <=16.0.5 Patched versions 16.0.6 Description Summary OpenIdentityPlatform OpenAM 16.0.5 (and likely earlier versions) is vulnerable to pre-authentication Remote Code Execution (RCE) via unsafe Java deserialization of the jato.clientSession HTTP parameter. This bypasses the WhitelistObjectInputStream mitigation that was applied to the jato.pageSession parameter after CVE-2021-35464 . An unauthenticated attacker can achieve arbitrary command execution on the server by sending a crafted serialized Java object as the jato.clientSession GET/POST parameter to any JATO ViewBean endpoint whose JSP contains <jato:form> tags (e.g., the Password Reset pages). Vulnerability Details Background CVE-2021-35464 identified that the jato.pageSession HTTP parameter was deserialized without class filtering, allowing pre-auth RCE"
+    }
+  ],
+  "payload": {
+    "vulner_name": "OpenAM 远程代码执行漏洞",
+    "vulner_number_1": "CVE-2026-33439",
+    "vulner_number_2": "漏洞编号： CVE-2026-33439",
+    "new_vulner_name": "OpenAM 远程代码执行漏洞",
+    "vulner_date": "2026-04-09",
+    "vulner_time_line": "2026/04/09",
+    "object_name": "OpenIdentityPlatform OpenAM",
+    "object_desc": "OpenIdentityPlatform OpenAM 是一个开源的身份和访问管理平台，提供单点登录、身份认证、授权和委托等核心功能。该平台支持多种认证协议和标准，可帮助企业实现跨应用和跨域的统一身份管理。",
+    "vulner_version": "OpenAM ≤ 16.0.5",
+    "vulner_type": "远程代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "CVSS 3.1评分9.8，影响量级万级",
+    "vuln_level": "高危",
+    "vulner_desc": "OpenAM 16.0.5及之前版本存在预认证远程代码执行漏洞。问题源于历史漏洞CVE-2021-35464修复时，仅对jato.pageSession参数实施了WhitelistObjectInputStream类白名单过滤，而遗漏了框架中jato.clientSession参数的反序列化入口。攻击者可通过GET/POST请求向包含<jato:form>标签的JATO ViewBean端点（如密码重置页面）传入精心构造的序列化Java对象，在无需认证的情况下触发不安全反序列化，最终实现服务器端任意代码执行。",
+    "official_solution": "建议受影响用户立即升级至OpenAM 16.0.6或更高版本。\n下载地址：https://github.com/OpenIdentityPlatform/OpenAM/releases",
+    "reference_link": "https://github.com/OpenIdentityPlatform/OpenAM/security/advisories/GHSA-2cqq-rpvq-g5qj",
+    "reference_link1": "https://github.com/OpenIdentityPlatform/OpenAM/releases",
+    "reference_link2": ""
+  }
+}

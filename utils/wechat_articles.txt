@@ -1457,3 +1457,7 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508577&idx=1&sn=9b
 https://mp.weixin.qq.com/s/8YQq5LvZMRev-1atVQfW3w
 360漏洞研究院::【已复现】AI新发现：一个隐藏27年的OpenBSD内核漏洞
 https://mp.weixin.qq.com/s/AC3t9yAVb7WTUhkijyA5Nw
+奇安信cert::【已复现】OpenAM 远程代码执行漏洞(CVE-2026-33439)安全风险通告
+https://mp.weixin.qq.com/s/JHouV0jJoh8vg0spDe7tTw
+奇安信cert::【已复现】OpenPrinting CUPS 多个高危漏洞安全风险通告
+https://mp.weixin.qq.com/s/k3Ako2b9whrKbtuMuxc09g

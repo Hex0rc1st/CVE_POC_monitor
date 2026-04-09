@@ -3337,3 +3337,4 @@ clean_list:
 - CVE-2024-27766
 - CVE-2026-5173
 - CVE-2026-34197-Apache-ActiveMQ-RCE
+- CVE-2025-47812-Research
