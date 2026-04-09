@@ -1453,3 +1453,7 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508574&idx=1&sn=4b
 微步在线研究响应中心::漏洞通告 | ActiveMQ远程代码执行漏洞
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12&chksm=ceea4fffb6b44d2635e47f503ab3bf9113a5617fd760790b456602b52fb8c16f2853838b0f65&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12
+360漏洞研究院::【已复现】Claude Mythos最新发现的Linux内核0day漏洞
+https://mp.weixin.qq.com/s/8YQq5LvZMRev-1atVQfW3w
+360漏洞研究院::【已复现】AI新发现：一个隐藏27年的OpenBSD内核漏洞
+https://mp.weixin.qq.com/s/AC3t9yAVb7WTUhkijyA5Nw
