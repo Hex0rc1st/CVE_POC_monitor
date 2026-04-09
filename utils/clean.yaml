@@ -3333,3 +3333,4 @@ clean_list:
 - cve-2026-2796-repro
 - CVE-2026-2796
 - HTB-VariaType-Writeup
+- CVE-2026-4747
