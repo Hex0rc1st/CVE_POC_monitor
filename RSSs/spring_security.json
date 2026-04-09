@@ -208,5 +208,10 @@
         "title": "CVE-2026-22744 - High - CVE-2026-22744: RediSearch Query via Unescaped TAG Filter Values in RedisVectorStore",
         "link": "https://spring.io/security/cve-2026-22744",
         "published": "Thu, 26 Mar 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22750 - Medium - CVE-2026-22750: SSL bundle configuration silently bypassed in Spring Cloud Gateway",
+        "link": "https://spring.io/security/cve-2026-22750",
+        "published": "Thu, 09 Apr 2026 00:00:00 GMT"
     }
 ]
