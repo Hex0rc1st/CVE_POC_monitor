@@ -1450,3 +1450,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496824&idx=1&sn=eb
 微步在线研究响应中心::辟谣！Everything没被银狐投毒！
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508574&idx=1&sn=4ba2ab35cad465087948d2cc96c03e72&chksm=cebbdc29c086be63111a4c41492bc7c94ea66a191fa2e5083ea46663e1108d5286b7ee8486c2&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508574&idx=1&sn=4ba2ab35cad465087948d2cc96c03e72
+微步在线研究响应中心::漏洞通告 | ActiveMQ远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12&chksm=ceea4fffb6b44d2635e47f503ab3bf9113a5617fd760790b456602b52fb8c16f2853838b0f65&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12
