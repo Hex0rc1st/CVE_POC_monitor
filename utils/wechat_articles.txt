@@ -1461,3 +1461,6 @@ http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493192&idx=1&sn=4a4f6fa
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211
 奇安信cert::【已复现】OpenPrinting CUPS 多个高危漏洞安全风险通告
 https://mp.weixin.qq.com/s/k3Ako2b9whrKbtuMuxc09g
+奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505190&idx=1&sn=caf54cd235dbb15d2bb14d2894aae2fa&chksm=ffc99ec9fa32304bea2ac0a74bafd788462375b0b5ea864d6938bf82dde8b5fb04ba4ab44aa0&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505190&idx=1&sn=caf54cd235dbb15d2bb14d2894aae2fa

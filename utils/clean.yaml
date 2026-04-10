@@ -3352,3 +3352,5 @@ clean_list:
 - CVE-2026-35584
 - CVE-2026-39376
 - CVE-2026-23869
+- samsung-exynos-sms-stack-overflow-cve-2025-54328-critical-zero-click-baseband-rce
+- CVE-2025-55182-Auto-Scanner
