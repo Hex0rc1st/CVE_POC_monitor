@@ -16,9 +16,9 @@ from pathlib import Path
 from time import perf_counter, sleep
 from typing import Any
 
+import anthropic
 import requests
 from bs4 import BeautifulSoup
-from openai import OpenAI
 
 import app
 
@@ -1057,7 +1057,7 @@ def build_vulnerability_fact_snippets(vulnerability_text: str, reference_text: s
 
 
 def rewrite_vulnerability_description_with_ai(
-    client: OpenAI,
+    client: anthropic.Anthropic,
     object_name: str,
     vulnerability_type: str,
     vulnerability_text: str,
@@ -1085,7 +1085,7 @@ def rewrite_vulnerability_description_with_ai(
 
 
 def rewrite_component_description_with_ai(
-    client: OpenAI,
+    client: anthropic.Anthropic,
     object_name: str,
 ) -> str:
     """Use a focused LLM prompt to generate a short component introduction from the component name only."""
@@ -1105,7 +1105,7 @@ def rewrite_component_description_with_ai(
 
 
 def rewrite_component_description_with_ai_repair(
-    client: OpenAI,
+    client: anthropic.Anthropic,
     object_name: str,
 ) -> str:
     """Regenerate the component description with a stricter prompt when the first draft is inconsistent."""
@@ -1125,7 +1125,7 @@ def rewrite_component_description_with_ai_repair(
 
 
 def rewrite_affected_versions_with_ai(
-    client: OpenAI,
+    client: anthropic.Anthropic,
     object_name: str,
     fields: dict[str, str],
     sections: dict[str, str],
@@ -1156,7 +1156,7 @@ def rewrite_affected_versions_with_ai(
 
 
 def rewrite_vulnerability_name_with_ai(
-    client: OpenAI,
+    client: anthropic.Anthropic,
     title: str,
     table_fields: dict[str, str],
 ) -> str:
@@ -1526,9 +1526,9 @@ def llm_ready() -> bool:
     return bool(get_llm_base_url() and get_llm_api_key())
 
 
-def create_llm_client() -> OpenAI:
-    """Create an OpenAI-compatible client from the current environment."""
-    return OpenAI(base_url=get_llm_base_url(), api_key=get_llm_api_key())
+def create_llm_client() -> anthropic.Anthropic:
+    """Create an Anthropic-compatible client from the current environment."""
+    return anthropic.Anthropic(base_url=get_llm_base_url(), api_key=get_llm_api_key())
 
 
 def get_llm_base_url() -> str:
@@ -1546,21 +1546,43 @@ def get_llm_model() -> str:
     return os.environ.get("llm_model") or os.environ.get("LLM_MODEL") or "deepseek-r1"
 
 
-def create_llm_completion(client: OpenAI, messages: list[dict[str, str]], temperature: float = 0.2) -> Any:
-    """Create one chat completion using the MiniMax-compatible reasoning_split request shape with retry."""
+def build_anthropic_request(messages: list[dict[str, str]]) -> tuple[str, list[dict[str, Any]]]:
+    """Convert the existing OpenAI-style messages into Anthropic's system/messages shape."""
+    system_parts: list[str] = []
+    anthropic_messages: list[dict[str, Any]] = []
+    for message in messages:
+        role = message.get("role", "")
+        content = str(message.get("content", ""))
+        if role == "system":
+            if content:
+                system_parts.append(content)
+            continue
+        anthropic_messages.append(
+            {
+                "role": "assistant" if role == "assistant" else "user",
+                "content": [{"type": "text", "text": content}],
+            }
+        )
+    return "\n\n".join(system_parts), anthropic_messages
+
+
+def create_llm_completion(client: anthropic.Anthropic, messages: list[dict[str, str]], temperature: float = 0.2) -> Any:
+    """Create one Anthropic completion with retry while keeping the existing calling convention."""
     last_error: Exception | None = None
+    system_prompt, anthropic_messages = build_anthropic_request(messages)
     for attempt in range(1, LLM_MAX_RETRIES + 1):
         try:
-            response = client.chat.completions.create(
+            response = client.messages.create(
                 model=get_llm_model(),
-                messages=messages,
+                max_tokens=4096,
+                system=system_prompt,
+                messages=anthropic_messages,
                 temperature=temperature,
-                extra_body={"reasoning_split": True},
             )
-            choices = getattr(response, "choices", None)
-            if choices:
+            content_blocks = getattr(response, "content", None)
+            if content_blocks:
                 return response
-            last_error = ValueError(f"模型响应缺少 choices: {repr(response)[:500]}")
+            last_error = ValueError(f"模型响应缺少 content blocks: {repr(response)[:500]}")
         except Exception as exc:
             last_error = exc
         if attempt < LLM_MAX_RETRIES:
@@ -1570,43 +1592,36 @@ def create_llm_completion(client: OpenAI, messages: list[dict[str, str]], temper
 
 
 def extract_llm_message_content(response: Any) -> str:
-    """Extract assistant message content from an OpenAI-compatible response with explicit validation."""
-    choices = getattr(response, "choices", None)
-    if not choices:
+    """Extract text blocks from an Anthropic response with explicit validation."""
+    content_blocks = getattr(response, "content", None)
+    if not content_blocks:
         preview = repr(response)
-        raise ValueError(f"模型响应缺少 choices: {preview[:500]}")
-    first_choice = choices[0]
-    message = getattr(first_choice, "message", None)
-    if message is None:
-        preview = repr(first_choice)
-        raise ValueError(f"模型响应缺少 message: {preview[:500]}")
-    content = getattr(message, "content", None)
-    if content is None:
-        preview = repr(message)
-        raise ValueError(f"模型响应缺少 content: {preview[:500]}")
-    return str(content)
+        raise ValueError(f"模型响应缺少 content blocks: {preview[:500]}")
+    texts: list[str] = []
+    for block in content_blocks:
+        block_type = getattr(block, "type", None)
+        if block_type == "text":
+            text = getattr(block, "text", None)
+            if text:
+                texts.append(str(text))
+    if texts:
+        return "\n".join(texts)
+    preview = repr(response)
+    raise ValueError(f"模型响应缺少 text block: {preview[:500]}")
 
 
 def extract_llm_reasoning_text(response: Any) -> str:
-    """Extract reasoning_details text when the backend returns split reasoning output."""
-    choices = getattr(response, "choices", None)
-    if not choices:
-        return ""
-    first_choice = choices[0]
-    message = getattr(first_choice, "message", None)
-    if message is None:
-        return ""
-    reasoning_details = getattr(message, "reasoning_details", None)
-    if not reasoning_details:
+    """Extract thinking blocks when the Anthropic-compatible backend returns them."""
+    content_blocks = getattr(response, "content", None)
+    if not content_blocks:
         return ""
     parts: list[str] = []
-    for item in reasoning_details:
-        if isinstance(item, dict):
-            text = item.get("text")
-        else:
-            text = getattr(item, "text", None)
-        if text:
-            parts.append(str(text))
+    for block in content_blocks:
+        block_type = getattr(block, "type", None)
+        if block_type == "thinking":
+            thinking = getattr(block, "thinking", None)
+            if thinking:
+                parts.append(str(thinking))
     return sanitize_whitespace("\n".join(parts))
 
 
@@ -1633,7 +1648,7 @@ def parse_json_response(content: str) -> dict[str, Any]:
         raise
 
 
-def call_llm_json(client: OpenAI, system_prompt: str, user_payload: dict[str, Any]) -> dict[str, Any]:
+def call_llm_json(client: anthropic.Anthropic, system_prompt: str, user_payload: dict[str, Any]) -> dict[str, Any]:
     """Run a JSON-only chat completion and return the parsed object."""
     base_messages = [
         {"role": "system", "content": system_prompt},

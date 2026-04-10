@@ -598,7 +598,7 @@ def process_wechat_source_items(source_state, processed_article_keys, articles, 
 
 def collect_new_wechat_articles(configured_sources):
     # Read configured publisher feeds from multiple sources and return only newly published articles.
-    processed_article_keys = load_processed_values(wechat_articles_state)
+    processed_article_keys = load_processed_wechat_article_keys()
     source_state = load_json_state(wechat_source_state)
     articles = []
     initialized_sources = []

@@ -2,5 +2,5 @@ Pillow>=12,<13
 python-docx>=1.2,<2
 docxtpl>=0.20,<1
 requests>=2,<3
-openai>=2,<3
+anthropic>=0.52,<1
 beautifulsoup4>=4.12,<5
