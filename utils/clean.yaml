@@ -3342,3 +3342,8 @@ clean_list:
 - cve-2025-14325-full-repro
 - trust-boundary-ctf
 - CVE-2026-1312-Testing
+- CVE-2026-4747-
+- CVE-2026-33033-PoC
+- CVE-2026-5530
+- CVE-2025-55182-React2Shell-PoC
+- CVE-2026-29861
