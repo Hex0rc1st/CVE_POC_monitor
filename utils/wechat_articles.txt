@@ -1464,3 +1464,6 @@ https://mp.weixin.qq.com/s/k3Ako2b9whrKbtuMuxc09g
 奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505190&idx=1&sn=caf54cd235dbb15d2bb14d2894aae2fa&chksm=ffc99ec9fa32304bea2ac0a74bafd788462375b0b5ea864d6938bf82dde8b5fb04ba4ab44aa0&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505190&idx=1&sn=caf54cd235dbb15d2bb14d2894aae2fa
+360漏洞研究院::行业首家！360漏洞挖掘智能体率先完成在野0-day漏洞根因分析与复现
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496853&idx=1&sn=5924f218faab20f47946db5b7840471f&chksm=c2ac81185993f78ca99aa8ed09ea299589f100c75ae3ef677a25a3e80eeaa0ac544b19131e1d&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496853&idx=1&sn=5924f218faab20f47946db5b7840471f
