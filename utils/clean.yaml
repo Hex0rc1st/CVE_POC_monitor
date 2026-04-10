@@ -3340,3 +3340,5 @@ clean_list:
 - CVE-2025-47812-Research
 - CVE-2026-34724
 - cve-2025-14325-full-repro
+- trust-boundary-ctf
+- CVE-2026-1312-Testing
