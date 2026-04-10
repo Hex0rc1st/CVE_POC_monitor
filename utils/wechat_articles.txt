@@ -1447,3 +1447,17 @@ https://mp.weixin.qq.com/s/8YQq5LvZMRev-1atVQfW3w
 https://mp.weixin.qq.com/s/AC3t9yAVb7WTUhkijyA5Nw
 奇安信cert::【已复现】OpenAM 远程代码执行漏洞(CVE-2026-33439)安全风险通告
 https://mp.weixin.qq.com/s/JHouV0jJoh8vg0spDe7tTw
+360漏洞研究院::AI 挖洞成真：Apache ActiveMQ 潜伏 13 年的高危 RCE 漏洞已复现 (CVE-2026-34197)
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496824&idx=1&sn=ebe800ac7242752526013176e4b1db2c&chksm=c22f1ec66f5beb1e916039a6536d9aa75b20c16f5394ae106cf7ff87316f248c4778902f6abb&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496824&idx=1&sn=ebe800ac7242752526013176e4b1db2c
+奇安信cert::【已复现】Vite WebSocket 任意文件读取漏洞(CVE-2026-39363)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505167&idx=1&sn=d636c4a823bc2e6ebfbd1f4395306da7&chksm=ffeaed1d27d01ac4450369a47c4d7d38dde484bcfb40f14a980e13451a1e9b5cc29fed3c6f23&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505167&idx=1&sn=d636c4a823bc2e6ebfbd1f4395306da7
+微步在线研究响应中心::漏洞通告 | ActiveMQ远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12&chksm=ceea4fffb6b44d2635e47f503ab3bf9113a5617fd760790b456602b52fb8c16f2853838b0f65&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508577&idx=1&sn=9b54d7cab51cf308ac60ce38eaeeba12
+长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211&chksm=97b58ad7b2c86394715261ee7bce5bd5c0881d62d49c36721d8c056f5eb40b94d96751426588&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493192&idx=1&sn=4a4f6fa8f61292dd65e78b1632bfd211
+奇安信cert::【已复现】OpenPrinting CUPS 多个高危漏洞安全风险通告
+https://mp.weixin.qq.com/s/k3Ako2b9whrKbtuMuxc09g
