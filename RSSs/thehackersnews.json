@@ -2703,5 +2703,10 @@
         "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
         "link": "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
         "published": "Fri, 10 Apr 2026 13:07:00 +0530"
+    },
+    {
+        "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
+        "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
+        "published": "Fri, 10 Apr 2026 18:53:00 +0530"
     }
 ]
