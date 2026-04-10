@@ -10,6 +10,7 @@ import json
 import logging
 import os
 import subprocess
+import time
 #import dingtalkchatbot.chatbot as cb
 import requests
 import re
@@ -270,6 +271,8 @@ def resolve_wechat_article_publisher(url, configured_sources):
         normalize_wechat_source_name(source_name): source_name for source_name in configured_sources
     }
     temp_directory = tempfile.mkdtemp(prefix="wechat_source_resolve_")
+    start_time = time.monotonic()
+    logging.info(f"公众号来源识别开始: {url}")
     try:
         subprocess.check_output(
             [executable, url, temp_directory, "--image=url"],
@@ -285,11 +288,16 @@ def resolve_wechat_article_publisher(url, configured_sources):
                 normalized_head = normalize_wechat_source_name(head_text)
                 for normalized_source, source_name in normalized_source_map.items():
                     if normalized_source and normalized_source in normalized_head:
+                        elapsed = time.monotonic() - start_time
+                        logging.info(f"公众号来源识别完成: {url} -> {source_name}, 耗时 {elapsed:.2f}s")
                         return source_name
     except Exception as exc:
-        logging.warning(f"公众号来源识别失败: {url} - {exc}")
+        elapsed = time.monotonic() - start_time
+        logging.warning(f"公众号来源识别失败: {url} - {exc}, 耗时 {elapsed:.2f}s")
     finally:
         shutil.rmtree(temp_directory, ignore_errors=True)
+    elapsed = time.monotonic() - start_time
+    logging.info(f"公众号来源识别未命中配置公众号: {url}, 耗时 {elapsed:.2f}s")
     return ""
 
 
@@ -442,6 +450,8 @@ def monitor_wechat_publishers():
 def fetch_wxrss_items(source_name, folder_id):
     # Fetch one monitored publisher RSS feed from wxrss_static and return parsed items.
     rss_url = f"{WXRSS_RAW_BASE}/{folder_id}/rss.xml"
+    start_time = time.monotonic()
+    logging.info(f"开始拉取公众号源 wxrss_static: {source_name}, folder={folder_id}")
     response = requests.get(rss_url, timeout=20)
     response.raise_for_status()
     root = ET.fromstring(response.text)
@@ -474,11 +484,15 @@ def fetch_wxrss_items(source_name, folder_id):
                 "key": build_wechat_article_key(source_name, title),
             }
         )
+    elapsed = time.monotonic() - start_time
+    logging.info(f"完成拉取公众号源 wxrss_static: {source_name}, items={len(items)}, 耗时 {elapsed:.2f}s")
     return items
 
 
 def fetch_doonsec_items(configured_sources):
     # Fetch monitored publisher articles from Doonsec's WeChat RSS feed.
+    start_time = time.monotonic()
+    logging.info("开始拉取公众号源 doonsec")
     normalized_sources = {
         normalize_wechat_source_name(source_name): source_name for source_name in configured_sources
     }
@@ -504,6 +518,8 @@ def fetch_doonsec_items(configured_sources):
                 "key": build_wechat_article_key(publisher, title),
             }
         )
+    elapsed = time.monotonic() - start_time
+    logging.info(f"完成拉取公众号源 doonsec, items={len(items)}, 耗时 {elapsed:.2f}s")
     return items
 
 
@@ -548,30 +564,42 @@ def fetch_picker_items(configured_sources, source_name, base_url):
     # Fetch one daily picker markdown and extract entries that belong to configured publishers.
     current_date = datetime.datetime.now().strftime("%Y-%m-%d")
     url = base_url.format(year=current_date[:4], date=current_date)
+    start_time = time.monotonic()
+    logging.info(f"开始拉取公众号源 {source_name}: {url}")
     response = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
     if response.status_code == 404:
+        elapsed = time.monotonic() - start_time
+        logging.info(f"公众号源 {source_name} 当日无数据: {url}, 耗时 {elapsed:.2f}s")
         return []
     response.raise_for_status()
-    return parse_picker_markdown_items(
+    items = parse_picker_markdown_items(
         response.text,
         configured_sources,
         source_name,
         f"{source_name}:{current_date}",
     )
+    elapsed = time.monotonic() - start_time
+    logging.info(f"完成拉取公众号源 {source_name}, items={len(items)}, 耗时 {elapsed:.2f}s")
+    return items
 
 
 def process_wechat_source_items(source_state, processed_article_keys, articles, initialized_sources, source_id, source_name, items):
     # Merge one source stream into the global article queue with per-source state and cross-source dedupe.
     if not items:
+        logging.info(f"公众号源无可处理条目: {source_id}:{source_name}")
         return
     state_key = f"{source_id}:{source_name}"
     latest_key = items[0]["key"]
     previous_key = source_state.get(state_key)
     if source_id == "wxrss_static" and not previous_key:
         previous_key = source_state.get(source_name)
+    logging.info(
+        f"处理公众号源状态: {state_key}, previous={previous_key or 'EMPTY'}, latest={latest_key}, items={len(items)}"
+    )
     if not previous_key:
         source_state[state_key] = latest_key
         initialized_sources.append(state_key)
+        logging.info(f"公众号源首次初始化: {state_key}, latest={latest_key}")
         return
 
     pending = []
@@ -582,6 +610,7 @@ def process_wechat_source_items(source_state, processed_article_keys, articles, 
         if is_processed_wechat_article(processed_article_keys, item):
             continue
         pending.append(item)
+    logging.info(f"公众号源待推送文章数: {state_key}, pending={len(pending)}")
 
     if len(pending) > WECHAT_MAX_PENDING_PER_SOURCE:
         logging.info(
@@ -598,6 +627,8 @@ def process_wechat_source_items(source_state, processed_article_keys, articles, 
 
 def collect_new_wechat_articles(configured_sources):
     # Read configured publisher feeds from multiple sources and return only newly published articles.
+    start_time = time.monotonic()
+    logging.info(f"开始汇总公众号文章，configured_sources={','.join(configured_sources)}")
     processed_article_keys = load_processed_wechat_article_keys()
     source_state = load_json_state(wechat_source_state)
     articles = []
@@ -642,6 +673,8 @@ def collect_new_wechat_articles(configured_sources):
             )
 
     save_json_state(wechat_source_state, source_state)
+    elapsed = time.monotonic() - start_time
+    logging.info(f"公众号状态已保存，new_articles={len(articles)}, initialized={len(initialized_sources)}, 耗时 {elapsed:.2f}s")
     if initialized_sources:
         logging.info(f"首次初始化公众号源状态，已记录最新文章并跳过历史: {', '.join(initialized_sources)}")
     return articles
