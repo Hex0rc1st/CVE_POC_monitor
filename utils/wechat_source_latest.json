@@ -9,7 +9,7 @@
   "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::漏洞通告 | ActiveMQ远程代码执行漏洞",
   "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析",
   "doonsec:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",
-  "bruce_picker:奇安信 CERT": "奇安信cert::【已复现】OpenPrinting CUPS 多个高危漏洞安全风险通告",
+  "bruce_picker:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",
   "bruce_picker:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
   "bruce_picker:微步在线研究响应中心": "微步在线研究响应中心::漏洞通告 | ActiveMQ远程代码执行漏洞"
 }
