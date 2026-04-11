@@ -1467,3 +1467,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505190&idx=1&sn=ca
 360漏洞研究院::行业首家！360漏洞挖掘智能体率先完成在野0-day漏洞根因分析与复现
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496853&idx=1&sn=5924f218faab20f47946db5b7840471f&chksm=c2ac81185993f78ca99aa8ed09ea299589f100c75ae3ef677a25a3e80eeaa0ac544b19131e1d&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496853&idx=1&sn=5924f218faab20f47946db5b7840471f
+微步在线研究响应中心::Nginx曝新漏洞，特定配置下可实现任意文件读写
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508609&idx=1&sn=e96453088406b1327576791d35a60bde&chksm=ce5e626b52d5c48052167caf0ecaf60d8eb39c82b68f0e48d5caaf7dac2c2da8546377f83c9b&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508609&idx=1&sn=e96453088406b1327576791d35a60bde
