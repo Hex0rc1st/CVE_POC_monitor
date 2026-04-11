@@ -3362,3 +3362,5 @@ clean_list:
 - CVEChavez2026
 - CVE-2026-23869-Exploit
 - CVE-2026-33229
+- nextjs-rce-incident-response
+- cve-2026-31900-lab
