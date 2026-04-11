@@ -3364,3 +3364,4 @@ clean_list:
 - CVE-2026-33229
 - nextjs-rce-incident-response
 - cve-2026-31900-lab
+- CVE-2026-22557-PoC
