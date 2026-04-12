@@ -3373,3 +3373,5 @@ clean_list:
 - CVE-2025-8110-Authenticated-Remote-Code-Execution-on-Gogs-v0.13.3-
 - CVE-2026-40175
 - bpf-research
+- CVE-2026-3805-curl-SMB-UAF
+- CVE-2026-31413-BPF-Container-Escape
