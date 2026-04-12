@@ -3375,3 +3375,5 @@ clean_list:
 - bpf-research
 - CVE-2026-3805-curl-SMB-UAF
 - CVE-2026-31413-BPF-Container-Escape
+- CVE-2025-8110-Gogs-RCE-Exploit
+- CVE-2025-58434
