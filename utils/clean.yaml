@@ -3370,3 +3370,4 @@ clean_list:
 - CVE-2025-58434-59528
 - CVE-2026-4106
 - Flowise-RCE
+- CVE-2025-8110-Authenticated-Remote-Code-Execution-on-Gogs-v0.13.3-
