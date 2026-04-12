@@ -3366,3 +3366,7 @@ clean_list:
 - cve-2026-31900-lab
 - CVE-2026-22557-PoC
 - CVE-2026-39866
+- FlowiseAI-Critical-KillChain
+- CVE-2025-58434-59528
+- CVE-2026-4106
+- Flowise-RCE

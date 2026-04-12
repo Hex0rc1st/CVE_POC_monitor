@@ -57,3 +57,4 @@ https://github.com/n0n4m3x41/CVE-2026-22738-POC
 https://github.com/z3r0h3ro/CVE-2026-35616-poc
 https://github.com/dinosn/CVE-2026-34197
 https://github.com/Firebasky/CVE-2026-39363
+https://github.com/cybertechajju/CVE-2026-23869-Exploit
