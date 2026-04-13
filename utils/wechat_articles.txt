@@ -1473,3 +1473,6 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508609&idx=1&sn=e9
 奇安信cert::【已复现】Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505216&idx=2&sn=20c8c942f3ee8f9b79a0f2ce1fea5a0d&chksm=ff2812a36e3becd1538751662e56d8c287559155af30f04ee34035d6edb13525fde2799f81ae&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505216&idx=2&sn=20c8c942f3ee8f9b79a0f2ce1fea5a0d
+奇安信cert::【在野利用】Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505216&idx=1&sn=2a570e936bed484504986c43d7242a2c&chksm=ff19c818e04c4da74ee9a80ea45cc62b595b8926a1ab53703321c378b36b69fd65111f91d6d0&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505216&idx=1&sn=2a570e936bed484504986c43d7242a2c

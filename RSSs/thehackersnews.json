@@ -2723,5 +2723,10 @@
         "title": "Adobe Patches Actively Exploited Acrobat Reader Flaw CVE-2026-34621",
         "link": "https://thehackernews.com/2026/04/adobe-patches-actively-exploited.html",
         "published": "Sun, 12 Apr 2026 09:55:00 +0530"
+    },
+    {
+        "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+        "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+        "published": "Mon, 13 Apr 2026 12:20:00 +0530"
     }
 ]
