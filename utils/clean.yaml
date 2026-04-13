@@ -3384,3 +3384,5 @@ clean_list:
 - CVE-2026-31282
 - CVE-2025-59528-POC
 - gogs
+- CVE-2026-34621
+- CVE-2025-55182-poc-panel
