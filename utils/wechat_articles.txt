@@ -1478,3 +1478,5 @@ http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505216&idx=1&sn=2a570e9
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505216&idx=1&sn=2a570e936bed484504986c43d7242a2c
 360漏洞研究院::筑牢开源安全防线，360荣膺开源鸿蒙社区漏洞挖掘双料大奖
 https://mp.weixin.qq.com/s/7PQtfrLnn01YqqNFjgzoHg
+360漏洞研究院::“下一代Python笔记本”marimo曝高危漏洞：无需密码，连上WebSocket即可远程控制服务器 (CVE-2026-39987)
+https://mp.weixin.qq.com/s/0MPD0zYdT43IM4GCw-7CRg
