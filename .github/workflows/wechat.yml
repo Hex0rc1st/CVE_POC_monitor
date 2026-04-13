@@ -1,57 +1,57 @@
-name: wechat
-
-on:
-  schedule:
-    - cron: '*/5 * * * *'
-  workflow_dispatch:
-
-env:
-  TZ: Asia/Shanghai
-
-jobs:
-  wechat_sheet_runner:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: checkout
-        uses: actions/checkout@v3
-
-      - name: Setup Python3
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.13.2'
-
-      - name: Install requirements
-        run: |
-          python3 -m pip install --upgrade pip
-          pip3 install -r ./requirements.txt
-          pip3 install -r ./article/requirements.txt
-
-      - name: Run wechat sheet runner
-        id: run_wechat
-        continue-on-error: true
-        env:
-          google_sheet_token: ${{ secrets.GOOGLE_SHEET_TOKEN }}
-          wechat_token: ${{ secrets.WECHAT_TOKEN }}
-          llm_url: ${{ secrets.LLM_URL }}
-          llm_api_key: ${{ secrets.LLM_API_KEY }}
-          llm_model: ${{ secrets.LLM_MODEL }}
-        run: python3 ./wechat_sheet_runner.py
-
-      - name: Persist wechat sheet state
-        if: always()
-        run: |
-          REMOTE=https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git config user.email "${{ github.actor }}@users.noreply.github.com"
-          git config user.name "${{ github.actor }}"
-          git add ./utils/wechat_sheet_urls.txt
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update wechat sheet state"
-            git push ${REMOTE} main
-          fi
-
-      - name: Fail workflow if runner failed
-        if: steps.run_wechat.outcome == 'failure'
-        run: exit 1
+# name: wechat
+#
+# on:
+#   schedule:
+#     - cron: '*/5 * * * *'
+#   workflow_dispatch:
+#
+# env:
+#   TZ: Asia/Shanghai
+#
+# jobs:
+#   wechat_sheet_runner:
+#     runs-on: ubuntu-latest
+#
+#     steps:
+#       - name: checkout
+#         uses: actions/checkout@v3
+#
+#       - name: Setup Python3
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: '3.13.2'
+#
+#       - name: Install requirements
+#         run: |
+#           python3 -m pip install --upgrade pip
+#           pip3 install -r ./requirements.txt
+#           pip3 install -r ./article/requirements.txt
+#
+#       - name: Run wechat sheet runner
+#         id: run_wechat
+#         continue-on-error: true
+#         env:
+#           google_sheet_token: ${{ secrets.GOOGLE_SHEET_TOKEN }}
+#           wechat_token: ${{ secrets.WECHAT_TOKEN }}
+#           llm_url: ${{ secrets.LLM_URL }}
+#           llm_api_key: ${{ secrets.LLM_API_KEY }}
+#           llm_model: ${{ secrets.LLM_MODEL }}
+#         run: python3 ./wechat_sheet_runner.py
+#
+#       - name: Persist wechat sheet state
+#         if: always()
+#         run: |
+#           REMOTE=https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+#           git config user.email "${{ github.actor }}@users.noreply.github.com"
+#           git config user.name "${{ github.actor }}"
+#           git add ./utils/wechat_sheet_urls.txt
+#           if git diff --staged --quiet; then
+#             echo "No changes to commit"
+#           else
+#             git commit -m "Update wechat sheet state"
+#             git push ${REMOTE} main
+#           fi
+#
+#       - name: Fail workflow if runner failed
+#         if: steps.run_wechat.outcome == 'failure'
+#         run: exit 1
