@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【在野利用】Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-04-13",
+  "table_fields": {
+    "漏洞名称": "Adobe Acrobat Reader 远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-19832 ， CVE-2026-34621",
+    "公开时间": "2026-04-11",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "8.6",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "已发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-04-13 12:17 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Adobe Acrobat Reader 是全球主流的 PDF 文档阅读、编辑与交互处理软件，广泛部署于个人终端、企业办公、政务及金融等场景，支持 PDF 渲染、表单填写、JavaScript 交互、数字签名等核心功能，是跨平台文档处理的基础工具，用户群体覆盖个人与政企全场景，全球装机量极大。该软件内置 JavaScript 引擎以实现文档动态交互，通过沙箱机制限制脚本权限，保障本地系统安全。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)在野利用，该漏洞源于JavaScript 引擎未能正确控制对象原型属性的修改，攻击者可以利用该漏洞制作恶意的PDF文件，诱导受害者打开特制的文件，在当前用户的上下文中执行任意代码。可能导致数据泄露、系统损坏或其他恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞已发现在野利用，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 用户交互。 **影响范围** **>** **>** **>** **>** **影响版本** Acrobat DC ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621) ，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，用户可以通过选择“帮助”>“检查更新”来手动更新产品至最新版本： Acrobat DC >= 26.001.21411 Acrobat Reader DC >= 26.001.21411 Acrobat 2024（Windows）>= 24.001.30362 Acrobat 2024（Mac）>= 24.001.30360 建议启用自动更新：确保 Adobe Reader 的自动更新功能已开启，以便及时获取安全补丁。",
+    "security_update": "官方已发布安全补丁，用户可以通过选择“帮助”>“检查更新”来手动更新产品至最新版本： Acrobat DC >= 26.001.21411 Acrobat Reader DC >= 26.001.21411 Acrobat 2024（Windows）>= 24.001.30362 Acrobat 2024（Mac）>= 24.001.30360 建议启用自动更新：确保 Adobe Reader 的自动更新功能已开启，以便及时获取安全补丁。",
+    "component_text": "Adobe Acrobat Reader 是全球主流的 PDF 文档阅读、编辑与交互处理软件，广泛部署于个人终端、企业办公、政务及金融等场景，支持 PDF 渲染、表单填写、JavaScript 交互、数字签名等核心功能，是跨平台文档处理的基础工具，用户群体覆盖个人与政企全场景，全球装机量极大。该软件内置 JavaScript 引擎以实现文档动态交互，通过沙箱机制限制脚本权限，保障本地系统安全。",
+    "vulnerability_text": "近日，安全团队监测到 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)在野利用，该漏洞源于JavaScript 引擎未能正确控制对象原型属性的修改，攻击者可以利用该漏洞制作恶意的PDF文件，诱导受害者打开特制的文件，在当前用户的上下文中执行任意代码。可能导致数据泄露、系统损坏或其他恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞已发现在野利用，建议客户尽快做好自查及防护。 利用条件 用户交互。",
+    "affected_versions_text": "Acrobat DC <= 26.001.21367 Acrobat Reader DC <= 26.001.21367 Acrobat 2024 <= 24.001.30356",
+    "plain_text": "安全团队 2026-04-13 12:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Adobe Acrobat Reader 是全球主流的 PDF 文档阅读、编辑与交互处理软件，广泛部署于个人终端、企业办公、政务及金融等场景，支持 PDF 渲染、表单填写、JavaScript 交互、数字签名等核心功能，是跨平台文档处理的基础工具，用户群体覆盖个人与政企全场景，全球装机量极大。该软件内置 JavaScript 引擎以实现文档动态交互，通过沙箱机制限制脚本权限，保障本地系统安全。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)在野利用，该漏洞源于JavaScript 引擎未能正确控制对象原型属性的修改，攻击者可以利用该漏洞制作恶意的PDF文件，诱导受害者打开特制的文件，在当前用户的上下文中执行任意代码。可能导致数据泄露、系统损坏或其他恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞已发现在野利用，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 用户交互。 **02** **影响范围** **>** **>** **>** **>** **影响版本** Acrobat DC ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，用户可以通过选择“帮助”>“检查更新”来手动更新产品至最新版本： Acrobat DC >= 26.001.21411 Acrobat Reader DC >= 26.001.21411 Acrobat 2024（Windows）>= 24.001.30362 Acrobat 2024（Mac）>= 24.001.30360 建议启用自动更新：确保 Adobe Reader 的自动更新功能已开启，以便及时获取安全补丁。 **05** **参考资料** [1]https://helpx.adobe.com/security/products/acrobat/apsb26-43.html **06** **时间线** 2026年04月13日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://helpx.adobe.com/security/products/acrobat/apsb26-43.html"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://helpx.adobe.com/security/products/acrobat/apsb26-43.html",
+      "content": "[抓取失败] https://helpx.adobe.com/security/products/acrobat/apsb26-43.html: HTTPSConnectionPool(host='helpx.adobe.com', port=443): Read timed out. (read timeout=20)"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Adobe Acrobat Reader 远程代码执行漏洞",
+    "vulner_number_1": "CVE-2026-34621",
+    "vulner_number_2": "漏洞编号： CVE-2026-34621",
+    "new_vulner_name": "Adobe Acrobat Reader 远程代码执行漏洞",
+    "vulner_date": "2026-04-11",
+    "vulner_time_line": "2026/04/13",
+    "object_name": "Adobe Acrobat Reader",
+    "object_desc": "Adobe Acrobat Reader是Adobe公司开发的PDF文档查看软件，用于打开、阅读、打印和批注PDF格式文件。作为Acrobat产品线的免费阅读组件，它支持跨平台运行，广泛应用于个人和企业日常文档阅读场景。",
+    "vulner_version": "安全团队 2026-04-13 12:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Adobe Acrobat Reader 是全球主流的 PDF 文档阅读、编辑与交互处理软件，广泛部署于个人终端、企业办公、政务及金融等场景，支持 PDF 渲染、表单填写、JavaScript 交互、数字签名等核心功能，是跨平台文档处理的基础工具，用户群体覆盖个人与政企全场景，全球装机量极大。该软件内置 JavaScript 引擎以实现文档动态交互，通过沙箱机制限制脚本权限，保障本地系统安全。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)在野利用，该漏洞源于JavaScript 引擎未能正确控制对象原型属性的修改，攻击者可以利用该漏洞制作恶意的PDF文件，诱导受害者打开特制的文件，在当前用户的上下文中执行任意代码。可能导致数据泄露、系统损坏或其他恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞已发现在野利用，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 用户交互。 **02** **影响范围** **>** **>** **>** **>** **影响版本** Acrobat DC ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，用户可以通过选择“帮助”>“检查更新”来手动更新产品至最新版本： Acrobat DC ≥ 26.001.21411",
+    "vulner_type": "远程代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "CVSS 3.1评分 8.6",
+    "vuln_level": "高危",
+    "vulner_desc": "Adobe Acrobat Reader的JavaScript引擎在处理对象原型属性修改时缺乏适当的安全校验。攻击者可构造嵌有恶意JavaScript代码的PDF文件，诱导用户打开后在当前用户上下文执行任意代码。该漏洞已公开技术细节并在野利用，触发需用户交互。",
+    "official_solution": "建议尽快按照官方补丁指引完成修复。\n修复方式：请根据目标系统版本在官方公告页选择对应补丁安装。\n下载链接：https://helpx.adobe.com/security/products/acrobat/apsb26-43.html",
+    "reference_link": "https://helpx.adobe.com/security/products/acrobat/apsb26-43.html",
+    "reference_link1": "https://helpx.adobe.com/security/products/acrobat/apsb26-43.html:",
+    "reference_link2": ""
+  }
+}
