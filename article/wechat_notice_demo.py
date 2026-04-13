@@ -29,6 +29,7 @@ MAX_REFERENCE_TEXT = 4000
 MAX_BODY_TEXT = 12000
 LLM_MAX_RETRIES = 3
 LLM_RETRY_DELAY_SECONDS = 3
+LLM_OVERLOADED_RETRY_DELAYS = (15, 30)
 ALLOWED_PUBLISHERS = ("360漏洞研究院", "奇安信 CERT")
 PUBLISHER_ALIASES = {
     "360漏洞研究院": ("360漏洞研究院", "原创360漏洞研究院", "360 漏洞研究院"),
@@ -1775,7 +1776,15 @@ def create_llm_completion(client: anthropic.Anthropic, messages: list[dict[str, 
         except Exception as exc:
             last_error = exc
         if attempt < LLM_MAX_RETRIES:
-            sleep(LLM_RETRY_DELAY_SECONDS * attempt)
+            retry_delay = LLM_RETRY_DELAY_SECONDS * attempt
+            error_text = repr(last_error).lower() if last_error else ""
+            if (
+                "overloadederror" in error_text
+                or "overloaded_error" in error_text
+                or "error code: 529" in error_text
+            ):
+                retry_delay = LLM_OVERLOADED_RETRY_DELAYS[min(attempt - 1, len(LLM_OVERLOADED_RETRY_DELAYS) - 1)]
+            sleep(retry_delay)
     assert last_error is not None
     raise last_error
 
