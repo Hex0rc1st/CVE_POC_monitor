@@ -181,13 +181,26 @@ VULNER_VERSION_PROMPT = """你是漏洞影响范围整理智能体。
 你的任务是根据组件名称、正文中的影响版本段落、表格字段和参考资料，输出受影响范围。
 要求：
 1. 只输出受影响范围，不要输出修复建议、下载链接、解释说明。
-2. 必须围绕给定的主组件名称整理，不能输出多个组件并列。
+2. 必须围绕给定的主组件名称整理，可以保留主组件下不同产品线或发行线的独立版本范围，但不要输出无关正文。
 3. 输出格式必须为：
    版本 (≤|<) 组件名 (≤|<) 版本
    或
    组件名 (≤|<) 版本
 4. 如果有多个大版本，用换行分隔。
 5. 不要输出 JSON，不要解释，不要代码块。
+"""
+
+VULNER_VERSION_REPAIR_PROMPT = """你是漏洞影响范围修正智能体。
+你的任务是把给定材料中的“受影响范围”整理成严格的版本范围输出。
+要求：
+1. 只输出受影响范围，每行一条，不要输出任何解释、背景、修复建议、营销语、截图说明或来源信息。
+2. 只保留版本范围行，严禁输出“漏洞详情、影响组件、漏洞描述、复现情况、处置建议、安全更新、参考资料、时间线”等段落标题。
+3. 输出格式只能是：
+   版本 (≤|<) 组件名 (≤|<) 版本
+   或
+   组件名 (≤|<) 版本
+4. 如果原文使用多个产品线（如 DC、Reader、Windows、Mac），允许逐行分别输出。
+5. 不要输出 JSON，不要代码块，不要多余文字。
 """
 
 
@@ -425,7 +438,7 @@ def extract_reference_links(markdown_text: str) -> list[str]:
         raw_links = re.findall(r"https?://[^\s<>\]）)]+", markdown_text)
     cleaned_links: list[str] = []
     for link in raw_links:
-        cleaned = link.rstrip(").,]）")
+        cleaned = clean_reference_url(link)
         lowered = cleaned.lower()
         if any(pattern.lower() in lowered for pattern in FORBIDDEN_REFERENCE_PATTERNS):
             continue
@@ -949,12 +962,78 @@ def strip_urls_for_validation(text: str) -> str:
     return re.sub(r"https?://[^\s]+", "", text or "", flags=re.IGNORECASE)
 
 
+def clean_reference_url(url: str) -> str:
+    """Trim trailing punctuation from one extracted reference URL."""
+    return (url or "").strip().rstrip(").,]）：:")
+
+
+def normalize_vulner_version_output(value: str) -> str:
+    """Keep only structured version-range lines from the model output."""
+    raw = (value or "").replace("\r\n", "\n").replace("\r", "\n")
+    if not raw.strip():
+        return ""
+    rejected_markers = (
+        "漏洞详情",
+        "影响组件",
+        "漏洞描述",
+        "复现情况",
+        "处置建议",
+        "安全更新",
+        "参考资料",
+        "时间线",
+        "截图",
+        "建议",
+        "发布",
+        "通告",
+        "安全团队",
+    )
+    version_token_pattern = r"[0-9][0-9A-Za-z._/-]*"
+    comparison_pattern = r"(?:≤|<|>=|>|<=|≥)"
+    candidates: list[str] = []
+    for line in raw.splitlines():
+        normalized_line = sanitize_whitespace(line).replace("（", "(").replace("）", ")")
+        if not normalized_line:
+            continue
+        if any(marker in normalized_line for marker in rejected_markers):
+            continue
+        if len(normalized_line) > 160:
+            continue
+        if not re.search(version_token_pattern, normalized_line):
+            continue
+        if not re.search(comparison_pattern, normalized_line):
+            continue
+        candidates.append(normalized_line)
+    deduped: list[str] = []
+    for line in candidates:
+        if line not in deduped:
+            deduped.append(line)
+    return "\n".join(deduped)
+
+
+def vulner_version_output_is_valid(value: str) -> bool:
+    """Check whether the generated affected-version output looks like structured version ranges."""
+    normalized = normalize_vulner_version_output(value)
+    if not normalized:
+        return False
+    lines = [line for line in normalized.splitlines() if sanitize_whitespace(line)]
+    if not lines:
+        return False
+    version_token_pattern = r"[0-9][0-9A-Za-z._/-]*"
+    comparison_pattern = r"(?:≤|<|>=|>|<=|≥)"
+    for line in lines:
+        if not re.search(version_token_pattern, line):
+            return False
+        if not re.search(comparison_pattern, line):
+            return False
+    return True
+
+
 def extract_download_links(reference_links: list[str], reference_text: str, security_update: str = "") -> list[str]:
     """Extract download or release links, preferring GitHub releases URLs."""
     links = []
     found = re.findall(r"https?://[^\s<>\])]+", f"{reference_text}\n{security_update}")
     for link in list(reference_links) + found:
-        cleaned = link.rstrip(").,]）")
+        cleaned = clean_reference_url(link)
         if cleaned not in links:
             links.append(cleaned)
     release_links = [link for link in links if "/releases/" in link or "/releases/tag/" in link]
@@ -1145,8 +1224,8 @@ def rewrite_affected_versions_with_ai(
             "漏洞名称": fields.get("漏洞名称", ""),
         },
         "affected_versions_text": sections.get("affected_versions_text", ""),
-        "plain_text": sections.get("plain_text", "")[:4000],
-        "reference_text": reference_text[:4000],
+        "security_update": sections.get("security_update", "")[:2000],
+        "reference_text": reference_text[:2500],
     }
     response = create_llm_completion(
         client,
@@ -1155,6 +1234,39 @@ def rewrite_affected_versions_with_ai(
             {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
         ],
         temperature=0.1,
+    )
+    content = sanitize_whitespace(extract_llm_message_content(response))
+    return remove_source_mentions(content)
+
+
+def rewrite_affected_versions_with_ai_repair(
+    client: anthropic.Anthropic,
+    object_name: str,
+    fields: dict[str, str],
+    sections: dict[str, str],
+    reference_text: str,
+    invalid_output: str,
+) -> str:
+    """Regenerate affected-version lines with a stricter prompt when the first draft is polluted."""
+    user_payload = {
+        "object_name": object_name,
+        "table_fields": {
+            "影响版本": fields.get("影响版本", ""),
+            "受影响版本": fields.get("受影响版本", ""),
+            "漏洞名称": fields.get("漏洞名称", ""),
+        },
+        "affected_versions_text": sections.get("affected_versions_text", ""),
+        "security_update": sections.get("security_update", "")[:2000],
+        "reference_text": reference_text[:2500],
+        "invalid_output": invalid_output[:3000],
+    }
+    response = create_llm_completion(
+        client,
+        [
+            {"role": "system", "content": VULNER_VERSION_REPAIR_PROMPT},
+            {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
+        ],
+        temperature=0.0,
     )
     content = sanitize_whitespace(extract_llm_message_content(response))
     return remove_source_mentions(content)
@@ -1820,6 +1932,15 @@ def build_llm_payload(
             sections,
             reference_text,
         )
+        if rewritten_vulner_version and not vulner_version_output_is_valid(rewritten_vulner_version):
+            rewritten_vulner_version = rewrite_affected_versions_with_ai_repair(
+                client,
+                final_object_name,
+                table_fields,
+                sections,
+                reference_text,
+                rewritten_vulner_version,
+            )
         if rewritten_vulner_version:
             payload["vulner_version"] = rewritten_vulner_version
         stage_log(verbose, f"LLM阶段: rewrite_vulner_version 完成，耗时 {format_elapsed_seconds(stage_started)}")
@@ -1897,21 +2018,7 @@ def normalize_payload(
         sections["plain_text"],
         reference_text,
     )
-    version_object_name = canonical_object_name or normalized["object_name"]
-    normalized["vulner_version"] = format_affected_versions(normalized["vulner_version"], version_object_name)
-    extracted_vulner_version = extract_affected_versions(
-        table_fields,
-        sections,
-        reference_text,
-        version_object_name,
-    )
-    if "请参考官方通告确认受影响范围。" in normalized["vulner_version"]:
-        normalized["vulner_version"] = extracted_vulner_version
-    else:
-        current_lines = [line for line in normalized["vulner_version"].splitlines() if sanitize_whitespace(line)]
-        extracted_lines = [line for line in extracted_vulner_version.splitlines() if sanitize_whitespace(line)]
-        if extracted_lines and len(extracted_lines) > len(current_lines):
-            normalized["vulner_version"] = extracted_vulner_version
+    normalized["vulner_version"] = normalize_vulner_version_output(normalized["vulner_version"])
     inferred_fixed_versions = infer_fixed_versions_from_affected_ranges(normalized["vulner_version"])
     if normalized["vulner_desc"]:
         normalized["vulner_desc"] = remove_source_mentions(normalized["vulner_desc"])
