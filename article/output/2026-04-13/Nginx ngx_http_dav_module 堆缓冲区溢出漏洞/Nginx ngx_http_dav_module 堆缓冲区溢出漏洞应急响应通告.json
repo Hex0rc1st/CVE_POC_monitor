@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-04-13",
+  "table_fields": {
+    "漏洞名称": "Nginx ngx_http_dav_module 堆缓冲区溢出漏洞",
+    "漏洞编号": "QVD-2026-15634 ， CVE-2026-27654",
+    "公开时间": "2026-03-24",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "8.2",
+    "威胁类型": "代码执行、拒绝服务",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-04-13 12:17 ● **漏洞详情** **>** **>** **>** **>** **影响组件** NGINX 是一款高性能、轻量级的开源 Web 服务器与反向代理服务，广泛用于静态资源托管、负载均衡、API 网关、缓存加速等场景，支持 HTTP/HTTPS、WebDAV、HTTP/3 等多种协议，具备高并发、低资源占用、模块化扩展等特性，是全球互联网主流的服务端基础软件，被政企、云厂商、互联网企业大量部署。其 ngx_http_dav_module 为 WebDAV 扩展模块，提供文件 COPY/MOVE/DELETE 等管理能力，常用于文件服务与协同场景。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)，该漏洞源于处理 WebDAV 协议的 MOVE 或 COPY 方法时，ngx_http_map_uri_to_path 函数对 Destination 头部进行路径映射时出现无符号整数下溢，导致堆缓冲区溢出。该漏洞影响使用 dav_methods 启用 COPY 或 MOVE 方法、结合前缀 location（非正则表达式）和 alias 指令的配置场景。攻击者可利用该漏洞，通过构造特殊 HTTP 请求实现任意文件读写、部署 Webshell 并最终达成远程代码执行（RCE），或造成 NGINX worker 进程崩溃导致拒绝服务。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞aarch64架构上的利用脚本已公开，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1.已编译并启用 ngx_http_dav_module 模块； 2.配置文件中使用 alias 指令定义位置块； 3.该位置块配置了 dav_methods COPY 或 dav_methods MOVE 指令； 4.该位置块必须使用前缀位置（非正则表达式）。 **影响范围** **>** **>** **>** **>** **影响版本** 0.5.13 ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654) ，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： NGINX Open Source 1.* >= 1.28.3 NGINX Open Source 1.29 .* >= 1.29.7 NGINX Plus R32 >= R32 P5 NGINX Plus R35 >= R35 P2 NGINX Plus R36 >= R36 P3 下载地址： https://my.f5.com/manage/s/article/K000160382 修复缓解措施： 1.若业务无需 WebDAV，立即移除 dav_methods 指令或完全禁用 ngx_http_dav_module 模块（推荐 dav_methods PUT DELETE MKCOL;）。 2.临时将 alias 指令替换为 root 指令，或避免 alias 与 DAV 方法组合使用。",
+    "security_update": "官方已发布安全补丁，请及时更新至最新版本： NGINX Open Source 1.* >= 1.28.3 NGINX Open Source 1.29 .* >= 1.29.7 NGINX Plus R32 >= R32 P5 NGINX Plus R35 >= R35 P2 NGINX Plus R36 >= R36 P3 下载地址： https://my.f5.com/manage/s/article/K000160382 修复缓解措施： 1.若业务无需 WebDAV，立即移除 dav_methods 指令或完全禁用 ngx_http_dav_module 模块（推荐 dav_methods PUT DELETE MKCOL;）。 2.临时将 alias 指令替换为 root 指令，或避免 alias 与 DAV 方法组合使用。",
+    "component_text": "NGINX 是一款高性能、轻量级的开源 Web 服务器与反向代理服务，广泛用于静态资源托管、负载均衡、API 网关、缓存加速等场景，支持 HTTP/HTTPS、WebDAV、HTTP/3 等多种协议，具备高并发、低资源占用、模块化扩展等特性，是全球互联网主流的服务端基础软件，被政企、云厂商、互联网企业大量部署。其 ngx_http_dav_module 为 WebDAV 扩展模块，提供文件 COPY/MOVE/DELETE 等管理能力，常用于文件服务与协同场景。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)，该漏洞源于处理 WebDAV 协议的 MOVE 或 COPY 方法时，ngx_http_map_uri_to_path 函数对 Destination 头部进行路径映射时出现无符号整数下溢，导致堆缓冲区溢出。该漏洞影响使用 dav_methods 启用 COPY 或 MOVE 方法、结合前缀 location（非正则表达式）和 alias 指令的配置场景。攻击者可利用该漏洞，通过构造特殊 HTTP 请求实现任意文件读写、部署 Webshell 并最终达成远程代码执行（RCE），或造成 NGINX worker 进程崩溃导致拒绝服务。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞aarch64架构上的利用脚本已公开，建议客户尽快做好自查及防护。 利用条件 1.已编译并启用 ngx_http_dav_module 模块； 2.配置文件中使用 alias 指令定义位置块； 3.该位置块配置了 dav_methods COPY 或 dav_methods MOVE 指令； 4.该位置块必须使用前缀位置（非正则表达式）。",
+    "affected_versions_text": "0.5.13 <= NGINX Open Source <= 0.9.7 1.0.0 <= NGINX Open Source < 1.28.3 1.29.0 <= NGINX Open Source < 1.29.7 R32 <= NGINX Plus < R32 P5 NGINX Plus R33 所有版本 NGINX Plus R34 所有版本 R35 <= NGINX Plus < R35 P2 R36 <= NGINX Plus < R36 P3",
+    "plain_text": "安全团队 2026-04-13 12:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** NGINX 是一款高性能、轻量级的开源 Web 服务器与反向代理服务，广泛用于静态资源托管、负载均衡、API 网关、缓存加速等场景，支持 HTTP/HTTPS、WebDAV、HTTP/3 等多种协议，具备高并发、低资源占用、模块化扩展等特性，是全球互联网主流的服务端基础软件，被政企、云厂商、互联网企业大量部署。其 ngx_http_dav_module 为 WebDAV 扩展模块，提供文件 COPY/MOVE/DELETE 等管理能力，常用于文件服务与协同场景。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)，该漏洞源于处理 WebDAV 协议的 MOVE 或 COPY 方法时，ngx_http_map_uri_to_path 函数对 Destination 头部进行路径映射时出现无符号整数下溢，导致堆缓冲区溢出。该漏洞影响使用 dav_methods 启用 COPY 或 MOVE 方法、结合前缀 location（非正则表达式）和 alias 指令的配置场景。攻击者可利用该漏洞，通过构造特殊 HTTP 请求实现任意文件读写、部署 Webshell 并最终达成远程代码执行（RCE），或造成 NGINX worker 进程崩溃导致拒绝服务。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞aarch64架构上的利用脚本已公开，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1.已编译并启用 ngx_http_dav_module 模块； 2.配置文件中使用 alias 指令定义位置块； 3.该位置块配置了 dav_methods COPY 或 dav_methods MOVE 指令； 4.该位置块必须使用前缀位置（非正则表达式）。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 0.5.13 ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： NGINX Open Source 1.* >= 1.28.3 NGINX Open Source 1.29 .* >= 1.29.7 NGINX Plus R32 >= R32 P5 NGINX Plus R35 >= R35 P2 NGINX Plus R36 >= R36 P3 下载地址： https://my.f5.com/manage/s/article/K000160382 修复缓解措施： 1.若业务无需 WebDAV，立即移除 dav_methods 指令或完全禁用 ngx_http_dav_module 模块（推荐 dav_methods PUT DELETE MKCOL;）。 2.临时将 alias 指令替换为 root 指令，或避免 alias 与 DAV 方法组合使用。 **05** **参考资料** [1]https://my.f5.com/manage/s/article/K000160382 **06** **时间线** 2026年04月13日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][2] ![图片][3] ![图片][4] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://my.f5.com/manage/s/article/K000160382"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://my.f5.com/manage/s/article/K000160382",
+      "content": "myF5 Loading × Sorry to interrupt CSS Error Refresh"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Nginx ngx_http_dav_module 堆缓冲区溢出漏洞",
+    "vulner_number_1": "CVE-2026-27654",
+    "vulner_number_2": "漏洞编号： CVE-2026-27654",
+    "new_vulner_name": "Nginx ngx_http_dav_module 堆缓冲区溢出漏洞",
+    "vulner_date": "2026-04-13",
+    "vulner_time_line": "2026/04/13",
+    "object_name": "NGINX ngx_http_dav_module",
+    "object_desc": "`ngx_http_dav_module` 是 Nginx 内置的 WebDAV 扩展模块，为 Nginx HTTP 服务器提供基于 WebDAV 协议的文件管理能力。该模块支持 PUT、DELETE、MKCOL、COPY、MOVE 等 HTTP 方法，允许客户端通过标准 WebDAV 协议对服务器上的文件和目录进行远程创建、上传、删除及移动操作。常见于需要通过 HTTP 协议实现文件共享或远程内容管理的服务端部署场景。",
+    "vulner_version": "安全团队 2026-04-13 12:17 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** NGINX 是一款高性能、轻量级的开源 Web 服务器与反向代理服务，广泛用于静态资源托管、负载均衡、API 网关、缓存加速等场景，支持 HTTP/HTTPS、WebDAV、HTTP/3 等多种协议，具备高并发、低资源占用、模块化扩展等特性，是全球互联网主流的服务端基础软件，被政企、云厂商、互联网企业大量部署。其 ngx_http_dav_module 为 WebDAV 扩展模块，提供文件 COPY/MOVE/DELETE 等管理能力，常用于文件服务与协同场景。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654)，该漏洞源于处理 WebDAV 协议的 MOVE 或 COPY 方法时，ngx_http_map_uri_to_path 函数对 Destination 头部进行路径映射时出现无符号整数下溢，导致堆缓冲区溢出。该漏洞影响使用 dav_methods 启用 COPY 或 MOVE 方法、结合前缀 location(非正则表达式)和 alias 指令的配置场景。攻击者可利用该漏洞，通过构造特殊 HTTP 请求实现任意文件读写、部署 Webshell 并最终达成远程代码执行(RCE)，或造成 NGINX worker 进程崩溃导致拒绝服务。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞aarch64架构上的利用脚本已公开，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1.已编译并启用 ngx_http_dav_module 模块； 2.配置文件中使用 alias 指令定义位置块； 3.该位置块配置了 dav_methods COPY 或 dav_methods MOVE 指令； 4.该位置块必须使用前缀位置(非正则表达式)。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 0.5.13 ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Nginx ngx_http_dav_module 堆缓冲区溢出漏洞(CVE-2026-27654) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： NGINX Open Source 1.* ≥ 1.28.3",
+    "vulner_type": "堆缓冲区溢出",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "已编译并启用 ngx_http_dav_module 模块；配置文件中使用 alias 指令定义位置块；该位置块配置了 dav_methods COPY 或 dav_methods MOVE 指令；该位置块必须使用前缀位置（非正则表达式）",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可通过构造恶意 HTTP 请求触发无符号整数下溢，导致堆缓冲区溢出。成功利用可实现任意文件读写、部署 Webshell 并达成远程代码执行，或造成 NGINX worker 进程崩溃导致拒绝服务。CVSS 3.1 评分 8.2。aarch64 架构利用脚本已公开。",
+    "vuln_level": "高危",
+    "vulner_desc": "Nginx ngx_http_dav_module 存在堆缓冲区溢出漏洞(CVE-2026-27654)。该漏洞源于处理 WebDAV 协议 MOVE/COPY 方法时，ngx_http_map_uri_to_path 函数在对 Destination 头部进行路径映射时发生无符号整数下溢，导致堆缓冲区溢出。当配置同时启用 alias 指令和 dav_methods 的 COPY/MOVE 指令，且使用前缀 location（非正则表达式）时，攻击者可通过构造恶意 HTTP 请求实现任意文件读写、部署 Webshell 获取远程代码执行权限，或造成 worker 进程崩溃导致拒绝服务。",
+    "official_solution": "请升级至以下安全版本：NGINX Open Source 1.28.3 及以上版本；NGINX Open Source 1.29.7 及以上版本；NGINX Plus R32 P5 及以上版本；NGINX Plus R35 P2 及以上版本；NGINX Plus R36 P3 及以上版本。\n下载地址：https://my.f5.com/manage/s/article/K000160382。临时缓解措施：如业务无需 WebDAV 功能，建议移除 dav_methods 指令或禁用 ngx_http_dav_module 模块；或避免将 alias 指令与 DAV 方法组合使用，可改用 root 指令替代。",
+    "reference_link": "https://my.f5.com/manage/s/article/K000160382",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

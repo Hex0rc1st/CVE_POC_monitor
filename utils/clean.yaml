@@ -3378,3 +3378,4 @@ clean_list:
 - CVE-2025-8110-Gogs-RCE-Exploit
 - CVE-2025-58434
 - CVE-2025-58434-AND-59528-POC
+- Explosive-As-Hell-MCS-Qualifer-Web-500
