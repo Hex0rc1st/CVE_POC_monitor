@@ -944,6 +944,11 @@ def normalize_solution_text(value: str) -> str:
     return text
 
 
+def strip_urls_for_validation(text: str) -> str:
+    """Remove URL segments from text before keyword validation so download links are not misclassified."""
+    return re.sub(r"https?://[^\s]+", "", text or "", flags=re.IGNORECASE)
+
+
 def extract_download_links(reference_links: list[str], reference_text: str, security_update: str = "") -> list[str]:
     """Extract download or release links, preferring GitHub releases URLs."""
     links = []
@@ -1959,7 +1964,10 @@ def validate_payload(payload: dict[str, Any], source_text: str) -> list[str]:
         text = sanitize_whitespace(str(value))
         if not text:
             continue
-        lowered = text.lower()
+        validation_text = text
+        if field_name == "official_solution":
+            validation_text = sanitize_whitespace(strip_urls_for_validation(text))
+        lowered = validation_text.lower()
         for term in FORBIDDEN_SOURCE_TERMS:
             if term.lower() in lowered:
                 issues.append(f"字段 {field_name} 含有禁用来源字样: {term}")
