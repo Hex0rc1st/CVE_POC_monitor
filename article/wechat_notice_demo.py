@@ -186,8 +186,9 @@ VULNER_VERSION_PROMPT = """你是漏洞影响范围整理智能体。
    版本 (≤|<) 组件名 (≤|<) 版本
    或
    组件名 (≤|<) 版本
-4. 如果有多个大版本，用换行分隔。
-5. 不要输出 JSON，不要解释，不要代码块。
+4. 如果有多个版本范围，必须使用英文逗号加空格分隔，例如：
+   A ≤ 组件 < B, C ≤ 组件 < D
+5. 不要换行，不要输出 JSON，不要解释，不要代码块。
 """
 
 VULNER_VERSION_REPAIR_PROMPT = """你是漏洞影响范围修正智能体。
@@ -199,8 +200,22 @@ VULNER_VERSION_REPAIR_PROMPT = """你是漏洞影响范围修正智能体。
    版本 (≤|<) 组件名 (≤|<) 版本
    或
    组件名 (≤|<) 版本
-4. 如果原文使用多个产品线（如 DC、Reader、Windows、Mac），允许逐行分别输出。
+4. 如果原文使用多个产品线（如 DC、Reader、Windows、Mac），允许分别输出多个版本范围，但必须使用英文逗号加空格分隔，不能换行。
 5. 不要输出 JSON，不要代码块，不要多余文字。
+"""
+
+OFFICIAL_SOLUTION_PROMPT = """你是漏洞修复建议编写智能体。
+你的任务是根据组件名称、正文中的安全更新/修复说明、参考资料和下载链接，生成正式通告里的“官方修复建议”。
+要求：
+1. 只输出最终修复建议，不要输出 JSON，不要解释，不要代码块。
+2. 输出必须严格为三行：
+   第一行：一句简短升级/修复建议。
+   第二行：以“修复版本：”或“修复方式：”开头。
+   第三行：以“下载链接：”开头，并包含一个明确 URL。
+3. 必须优先使用输入材料里已经明确给出的修复版本、升级版本、补丁方式或下载链接，不要自行推导版本号。
+4. 如果存在多个产品线，可以在第二行中并列列出，但要保持简洁，不要照抄整段原文。
+5. 绝不能出现 360、奇安信、QAX 及其变体。
+6. 不要输出受影响范围，不要输出漏洞描述，不要加入营销语。
 """
 
 
@@ -299,6 +314,11 @@ def convert_date_formats(date_str: str) -> tuple[str, str]:
     vulner_date = date_obj.strftime("%Y年%m月%d日").replace("年0", "年").replace("月0", "月")
     vulner_time_line = date_obj.strftime("%Y/%m/%d")
     return vulner_date, vulner_time_line
+
+
+def current_template_dates() -> tuple[str, str]:
+    """Return today's date in the two template formats."""
+    return convert_date_formats(datetime.now().strftime("%Y-%m-%d"))
 
 
 def get_wechat_tool_path() -> Path:
@@ -875,7 +895,7 @@ def extract_fixed_versions(reference_text: str, security_update: str, object_nam
 
 def infer_fixed_versions_from_affected_ranges(affected_versions: str) -> str:
     """Infer patched-version lines from one-sided affected ranges when no explicit fixed version is present."""
-    lines = [sanitize_whitespace(line) for line in (affected_versions or "").splitlines() if sanitize_whitespace(line)]
+    lines = split_version_entries(affected_versions)
     inferred: list[str] = []
     for line in lines:
         match = re.fullmatch(r"(.+?)\s*(<|≤)\s*([0-9A-Za-z._-]+)", line)
@@ -885,7 +905,7 @@ def infer_fixed_versions_from_affected_ranges(affected_versions: str) -> str:
         operator = ">=" if match.group(2) == "<" else ">"
         version = normalize_version_token(match.group(3))
         inferred.append(f"{component_text} {operator} {version}")
-    return "\n".join(dict.fromkeys(inferred))
+    return join_version_entries(list(dict.fromkeys(inferred)))
 
 
 def normalize_timeline_text(value: str, publish_date: str) -> str:
@@ -967,6 +987,22 @@ def clean_reference_url(url: str) -> str:
     return (url or "").strip().rstrip(").,]）：:")
 
 
+def join_version_entries(lines: list[str]) -> str:
+    """Join version-range entries with commas because the document template treats commas as line breaks."""
+    return ", ".join([line for line in lines if sanitize_whitespace(line)])
+
+
+def split_version_entries(text: str) -> list[str]:
+    """Split stored version-range text into entries, supporting both commas and newlines."""
+    parts = re.split(r"\s*,\s*|\n+", text or "")
+    deduped: list[str] = []
+    for part in parts:
+        cleaned = sanitize_whitespace(part)
+        if cleaned and cleaned not in deduped:
+            deduped.append(cleaned)
+    return deduped
+
+
 def normalize_vulner_version_output(value: str) -> str:
     """Keep only structured version-range lines from the model output."""
     raw = (value or "").replace("\r\n", "\n").replace("\r", "\n")
@@ -1007,7 +1043,7 @@ def normalize_vulner_version_output(value: str) -> str:
     for line in candidates:
         if line not in deduped:
             deduped.append(line)
-    return "\n".join(deduped)
+    return join_version_entries(deduped)
 
 
 def vulner_version_output_is_valid(value: str) -> bool:
@@ -1015,7 +1051,7 @@ def vulner_version_output_is_valid(value: str) -> bool:
     normalized = normalize_vulner_version_output(value)
     if not normalized:
         return False
-    lines = [line for line in normalized.splitlines() if sanitize_whitespace(line)]
+    lines = split_version_entries(normalized)
     if not lines:
         return False
     version_token_pattern = r"[0-9][0-9A-Za-z._/-]*"
@@ -1288,6 +1324,41 @@ def rewrite_vulnerability_name_with_ai(
         client,
         [
             {"role": "system", "content": VULNER_NAME_PROMPT},
+            {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
+        ],
+        temperature=0.1,
+    )
+    content = sanitize_whitespace(extract_llm_message_content(response))
+    return remove_source_mentions(content)
+
+
+def rewrite_official_solution_with_ai(
+    client: anthropic.Anthropic,
+    object_name: str,
+    facts: dict[str, Any],
+    sections: dict[str, str],
+    reference_links: list[str],
+    reference_text: str,
+) -> str:
+    """Use a focused LLM prompt to generate remediation guidance directly from source materials."""
+    user_payload = {
+        "object_name": object_name,
+        "fixed_versions": facts.get("fixed_versions", ""),
+        "official_solution_facts": facts.get("official_solution_facts", ""),
+        "download_links": facts.get("download_links", []),
+        "reference_links": reference_links[:3],
+        "security_update": sections.get("security_update", "")[:2500],
+        "reference_text": reference_text[:2500],
+        "output_rules": {
+            "line1": "一句简短升级/修复建议",
+            "line2": "以“修复版本：”或“修复方式：”开头",
+            "line3": "以“下载链接：”开头并包含明确URL",
+        },
+    }
+    response = create_llm_completion(
+        client,
+        [
+            {"role": "system", "content": OFFICIAL_SOLUTION_PROMPT},
             {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)},
         ],
         temperature=0.1,
@@ -1611,7 +1682,8 @@ def build_heuristic_payload(
     download_links = extract_download_links(reference_links, reference_text, sections["security_update"])
     official_solution = summarize_solution_text(fixed_versions, download_links, sections.get("security_update", ""))
     reference_link, reference_link1, reference_link2 = build_unique_reference_fields(download_links, reference_links)
-    vulner_date, vulner_time_line = convert_date_formats(publish_date)
+    _, vulner_time_line = convert_date_formats(publish_date)
+    vulner_date, _ = current_template_dates()
     payload = {
         "vulner_name": vulner_name,
         "vulner_number_1": vulner_number,
@@ -1946,6 +2018,22 @@ def build_llm_payload(
         stage_log(verbose, f"LLM阶段: rewrite_vulner_version 完成，耗时 {format_elapsed_seconds(stage_started)}")
     except Exception as exc:
         raise RuntimeError(f"LLM阶段 rewrite_vulner_version 失败: {exc}") from exc
+    try:
+        stage_log(verbose, "LLM阶段: rewrite_official_solution")
+        stage_started = perf_counter()
+        rewritten_official_solution = rewrite_official_solution_with_ai(
+            client,
+            final_object_name,
+            facts,
+            sections,
+            reference_links,
+            reference_text,
+        )
+        if rewritten_official_solution:
+            payload["official_solution"] = rewritten_official_solution
+        stage_log(verbose, f"LLM阶段: rewrite_official_solution 完成，耗时 {format_elapsed_seconds(stage_started)}")
+    except Exception as exc:
+        raise RuntimeError(f"LLM阶段 rewrite_official_solution 失败: {exc}") from exc
     return normalize_payload(
         payload,
         reference_links,
@@ -1991,10 +2079,11 @@ def normalize_payload(
         normalized["vulner_number_1"] = ""
         normalized["vulner_number_2"] = ""
     normalized["new_vulner_name"] = normalized["vulner_name"]
-    if not normalized["vulner_date"] or not normalized["vulner_time_line"]:
-        vulner_date, vulner_time_line = convert_date_formats(publish_date)
-        normalized["vulner_date"] = normalized["vulner_date"] or vulner_date
-        normalized["vulner_time_line"] = normalized["vulner_time_line"] or vulner_time_line
+    current_vulner_date, _ = current_template_dates()
+    normalized["vulner_date"] = current_vulner_date
+    if not normalized["vulner_time_line"]:
+        _, vulner_time_line = convert_date_formats(publish_date)
+        normalized["vulner_time_line"] = vulner_time_line
     normalized["vulner_time_line"] = normalize_timeline_text(normalized["vulner_time_line"], publish_date)
     normalized["reference_link"], normalized["reference_link1"], normalized["reference_link2"] = normalize_reference_fields(
         (
@@ -2019,29 +2108,10 @@ def normalize_payload(
         reference_text,
     )
     normalized["vulner_version"] = normalize_vulner_version_output(normalized["vulner_version"])
-    inferred_fixed_versions = infer_fixed_versions_from_affected_ranges(normalized["vulner_version"])
     if normalized["vulner_desc"]:
         normalized["vulner_desc"] = remove_source_mentions(normalized["vulner_desc"])
     if normalized["official_solution"]:
         normalized["official_solution"] = remove_source_mentions(normalized["official_solution"])
-    if (
-        (not normalized["official_solution"])
-        or ("http" not in normalized["official_solution"].lower())
-        or normalized["official_solution"].startswith("建议尽快升级")
-        or any(
-        marker in normalized["official_solution"]
-        for marker in [
-            "修复版本：请参考官方发布说明。",
-            "修复方式：请参考官方公告页提供的修复指引。",
-            "修复方式：请根据目标系统版本在官方公告页选择对应补丁安装。",
-        ]
-        )
-    ):
-        normalized["official_solution"] = summarize_solution_text(
-            inferred_fixed_versions,
-            download_links,
-            sections.get("security_update", ""),
-        )
     normalized["official_solution"] = normalize_solution_text(normalized["official_solution"])
     normalized["user_auth"] = infer_user_auth(sections["plain_text"], reference_text)
     if not normalized["pre_condition"]:
