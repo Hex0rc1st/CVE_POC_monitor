@@ -3394,3 +3394,5 @@ clean_list:
 - leaflet-cve-2025-69993
 - https-github.com-xaitax-CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability
 - CVE-2025-8110-Exploit
+- CVE-2026-35585-poc
+- axios-security-guide
