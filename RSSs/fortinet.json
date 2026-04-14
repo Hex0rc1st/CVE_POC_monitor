@@ -1363,5 +1363,10 @@
         "title": "API authentication and authorization bypass",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-099",
         "published": "Sat, 04 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Multiple SQL Injections",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-102",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
     }
 ]

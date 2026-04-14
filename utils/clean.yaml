@@ -3396,3 +3396,5 @@ clean_list:
 - CVE-2025-8110-Exploit
 - CVE-2026-35585-poc
 - axios-security-guide
+- CVE-2026-6042-PoC
+- Remediate-AdobeAcrobat-CVE-2026-34621
