@@ -188,9 +188,10 @@ VULNER_VERSION_PROMPT = """你是漏洞影响范围整理智能体。
    版本 (≤|<) 组件名 (≤|<) 版本
    或
    组件名 (≤|<) 版本
-4. 如果有多个版本范围，必须使用英文逗号加空格分隔，例如：
-   A ≤ 组件 < B, C ≤ 组件 < D
-5. 不要换行，不要输出 JSON，不要解释，不要代码块。
+4. 如果有多个版本范围，必须逐条换行输出，例如：
+   A ≤ 组件 < B
+   C ≤ 组件 < D
+5. 不要使用逗号拼接，不要输出 JSON，不要解释，不要代码块。
 """
 
 VULNER_VERSION_REPAIR_PROMPT = """你是漏洞影响范围修正智能体。
@@ -202,7 +203,7 @@ VULNER_VERSION_REPAIR_PROMPT = """你是漏洞影响范围修正智能体。
    版本 (≤|<) 组件名 (≤|<) 版本
    或
    组件名 (≤|<) 版本
-4. 如果原文使用多个产品线（如 DC、Reader、Windows、Mac），允许分别输出多个版本范围，但必须使用英文逗号加空格分隔，不能换行。
+4. 如果原文使用多个产品线（如 DC、Reader、Windows、Mac），允许分别输出多个版本范围，但必须逐条换行输出，不能使用逗号拼接。
 5. 不要输出 JSON，不要代码块，不要多余文字。
 """
 
@@ -990,12 +991,12 @@ def clean_reference_url(url: str) -> str:
 
 
 def join_version_entries(lines: list[str]) -> str:
-    """Join version-range entries with commas because the document template treats commas as line breaks."""
-    return ", ".join([line for line in lines if sanitize_whitespace(line)])
+    """Join version-range entries with newlines for direct template rendering."""
+    return "\n".join([line for line in lines if sanitize_whitespace(line)])
 
 
 def split_version_entries(text: str) -> list[str]:
-    """Split stored version-range text into entries, supporting both commas and newlines."""
+    """Split stored version-range text into entries, supporting both legacy commas and newlines."""
     parts = re.split(r"\s*,\s*|\n+", text or "")
     deduped: list[str] = []
     for part in parts:
