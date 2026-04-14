@@ -29,3 +29,7 @@ debug_*.py
 
 # Generated logs
 logs/*.json
+
+# Encrypted docx template workflow restores these at runtime only.
+/article/templates/模板-漏洞应急响应通告.docx
+/article/templates/模板-漏洞应急响应通告_监管.docx

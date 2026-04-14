@@ -45,7 +45,6 @@ wechat_source_state = "./utils/wechat_source_latest.json"
 
 WXRSS_RAW_BASE = "https://raw.githubusercontent.com/0xlane/wxrss_static/main"
 DOONSEC_WECHAT_RSS = "https://wechat.doonsec.com/rss.xml"
-BRUCE_PICKER_DAILY = "https://raw.githubusercontent.com/BruceFeIix/picker/refs/heads/master/archive/daily/{year}/{date}.md"
 CHAINREACTORS_PICKER_DAILY = "https://raw.githubusercontent.com/chainreactors/picker/refs/heads/master/archive/daily/{year}/{date}.md"
 WECHAT_MAX_PENDING_PER_SOURCE = 3
 ARTICLE_DIR = Path(__file__).resolve().parent / "article"
@@ -669,7 +668,6 @@ def collect_new_wechat_articles(configured_sources):
 
     for source_id, fetcher in [
         ("doonsec", lambda: fetch_doonsec_items(configured_sources)),
-        ("bruce_picker", lambda: fetch_picker_items(configured_sources, "bruce_picker", BRUCE_PICKER_DAILY)),
         ("chainreactors_picker", lambda: fetch_picker_items(configured_sources, "chainreactors_picker", CHAINREACTORS_PICKER_DAILY)),
     ]:
         try:
