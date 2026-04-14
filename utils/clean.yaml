@@ -3389,3 +3389,5 @@ clean_list:
 - onboarding-gta-9991961259350-4-14-2026-3-54-55-AM-CvE
 - CVE-2026-22692
 - audit-axios
+- CVE-2025-58434_CVE-2025-59528
+- CVE-2026-35517

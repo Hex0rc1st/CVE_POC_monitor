@@ -1480,3 +1480,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505216&idx=1&sn=2a
 https://mp.weixin.qq.com/s/7PQtfrLnn01YqqNFjgzoHg
 360漏洞研究院::“下一代Python笔记本”marimo曝高危漏洞：无需密码，连上WebSocket即可远程控制服务器 (CVE-2026-39987)
 https://mp.weixin.qq.com/s/0MPD0zYdT43IM4GCw-7CRg
+微步在线研究响应中心::Axios爆SSRF漏洞，特定条件下可导致RCE
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508614&idx=1&sn=b0d4f042ae9147e26d0eb657c7bcb744&chksm=ce82974bd88756efbc9059d2118f3ceec881376b835fd32f0a875ef0c9ff097ea6f42189ed74&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508614&idx=1&sn=b0d4f042ae9147e26d0eb657c7bcb744
