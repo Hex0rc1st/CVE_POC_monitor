@@ -1368,5 +1368,130 @@
         "title": "Multiple SQL Injections",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-102",
         "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "2FA request can be replayed without a valid token after one successful request",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-101",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Arbitrary directory delete on vmimages delete feature",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-115",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Axios npm Package Compromised",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-126",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Clear-text credentials retrievable with IP modification for LDAP",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-105",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Clear-text credentials retrievable with IP modification for connectors",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-104",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Cleartext Credentials in response for API endpoints",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-106",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Credential disclosure in LDAP configuration web page.",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-113",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Hardcoded symmetric encryption key for Postgresql",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-107",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Heap-based buffer overflow in oftpd daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-121",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Integer Overflow Denial of Service in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-108",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Missing Authentication for critical function in CAPWAP daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-125",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Multiple Path traversals in CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-114",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Multiple Stored XSS",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-110",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "OS Command Injection through API endpoint",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-100",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Open Redirection via Import CSV option",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-118",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Path Traversal in CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-122",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Path Traversal in CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-120",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Path Traversal on File Content Extraction connector",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-116",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Reflected XSS in Operation Center",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-109",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SQL Injection via API",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-119",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SQL Injection via JSON RPC API",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-111",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SSRF via Report template and scheduling",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-103",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Stored Cross Site Scripting (XSS) in Reports View page",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-117",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Unauthenticated Authentication bypass and Privilege escalation in FortiSandbox",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-112",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "unauthorized backup file access",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-124",
+        "published": "Tue, 14 Apr 2026 00:00:00 -0700"
     }
 ]
