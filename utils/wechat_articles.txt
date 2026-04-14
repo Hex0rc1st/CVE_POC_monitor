@@ -1483,3 +1483,6 @@ https://mp.weixin.qq.com/s/0MPD0zYdT43IM4GCw-7CRg
 微步在线研究响应中心::Axios爆SSRF漏洞，特定条件下可导致RCE
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508614&idx=1&sn=b0d4f042ae9147e26d0eb657c7bcb744&chksm=ce82974bd88756efbc9059d2118f3ceec881376b835fd32f0a875ef0c9ff097ea6f42189ed74&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508614&idx=1&sn=b0d4f042ae9147e26d0eb657c7bcb744
+360漏洞研究院::【已复现】Apache Tomcat 曝高危漏洞：无需认证可实现远程代码执行（CVE-2026-34486）
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496879&idx=1&sn=e85631b698244535854c4618800e0a75&chksm=c2dec73c0b0a15196a0343ee43c2f5b6eff75de264eb6dd02d51e97bd0f519cb61a26134e704&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496879&idx=1&sn=e85631b698244535854c4618800e0a75
