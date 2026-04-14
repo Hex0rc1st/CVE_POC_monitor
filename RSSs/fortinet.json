@@ -1493,5 +1493,10 @@
         "title": "unauthorized backup file access",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-124",
         "published": "Tue, 14 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Out-Of-Bounds Write in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-127",
+        "published": "Wed, 15 Apr 2026 00:00:00 -0700"
     }
 ]
