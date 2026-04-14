@@ -3387,3 +3387,5 @@ clean_list:
 - CVE-2026-34621
 - CVE-2025-55182-poc-panel
 - onboarding-gta-9991961259350-4-14-2026-3-54-55-AM-CvE
+- CVE-2026-22692
+- audit-axios

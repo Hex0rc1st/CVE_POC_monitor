@@ -2753,5 +2753,15 @@
         "title": "⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More",
         "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
         "published": "Mon, 13 Apr 2026 18:31:00 +0530"
+    },
+    {
+        "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
+        "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
+        "published": "Tue, 14 Apr 2026 11:20:00 +0530"
+    },
+    {
+        "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
+        "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
+        "published": "Tue, 14 Apr 2026 11:09:00 +0530"
     }
 ]
