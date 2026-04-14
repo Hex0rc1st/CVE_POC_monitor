@@ -360,6 +360,23 @@ def send_wechat_file_via_demo(file_path):
     return payload
 
 
+def cleanup_generated_notice_files(generation_payload):
+    # Delete generated docx files after successful delivery and keep JSON artifacts only.
+    notice_path = Path(generation_payload.get("notice", ""))
+    regulator_notice_path = Path(generation_payload.get("regulator_notice", ""))
+    for path in (notice_path, regulator_notice_path):
+        if path and path.exists():
+            path.unlink()
+    parent_dir = notice_path.parent if notice_path else None
+    if parent_dir and parent_dir.exists():
+        remaining_files = [item for item in parent_dir.iterdir() if item.is_file()]
+        if not remaining_files:
+            parent_dir.rmdir()
+            date_dir = parent_dir.parent
+            if date_dir.exists() and not any(date_dir.iterdir()):
+                date_dir.rmdir()
+
+
 def generate_and_push_wechat_notice_documents(article):
     # Generate the two MSS notice documents for one monitored WeChat article and send them to WeCom.
     publisher = article.get("publisher", "未知公众号")
@@ -372,6 +389,7 @@ def generate_and_push_wechat_notice_documents(article):
     regulator_notice_path = generation_payload["regulator_notice"]
     send_wechat_file_via_demo(notice_path)
     send_wechat_file_via_demo(regulator_notice_path)
+    cleanup_generated_notice_files(generation_payload)
     logging.info(f"企微推送生成通告成功：{publisher} - {title}")
 
 github_headers = {

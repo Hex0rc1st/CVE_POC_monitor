@@ -140,8 +140,8 @@ def send_wechat_file(file_path: str) -> dict[str, object]:
 
 
 def cleanup_generated_documents(generation_payload: dict[str, str]) -> None:
-    """Delete generated local documents so the workflow only persists state files."""
-    for key in ("notice", "regulator_notice", "debug_json"):
+    """Delete generated docx files after delivery and keep JSON artifacts only."""
+    for key in ("notice", "regulator_notice"):
         path_text = generation_payload.get(key, "")
         if not path_text:
             continue
@@ -152,6 +152,9 @@ def cleanup_generated_documents(generation_payload: dict[str, str]) -> None:
     parent_dir = notice_path.parent
     if parent_dir.exists() and not any(parent_dir.iterdir()):
         parent_dir.rmdir()
+        date_dir = parent_dir.parent
+        if date_dir.exists() and not any(date_dir.iterdir()):
+            date_dir.rmdir()
 
 
 def process_one_sheet_url(article_url: str) -> None:

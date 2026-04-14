@@ -24,6 +24,7 @@ import app
 
 BASE_DIR = Path(__file__).resolve().parent
 UPLOAD_DIR = BASE_DIR / "uploads"
+JSON_OUTPUT_DIR = BASE_DIR / "output" / "json"
 HTTP_TIMEOUT = 20
 MAX_REFERENCE_TEXT = 4000
 MAX_BODY_TEXT = 12000
@@ -2173,9 +2174,12 @@ def validate_payload(payload: dict[str, Any], source_text: str) -> list[str]:
 
 
 def write_debug_json(output_paths: dict[str, str], debug_payload: dict[str, Any]) -> str:
-    """Write the intermediate debug JSON next to the generated documents."""
+    """Write the intermediate debug JSON into one flat JSON directory."""
     notice_path = Path(output_paths["notice"])
-    debug_path = notice_path.with_suffix(".json")
+    date_part = notice_path.parent.parent.name
+    folder_part = notice_path.parent.name
+    JSON_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    debug_path = JSON_OUTPUT_DIR / f"{date_part}__{folder_part}.json"
     debug_path.write_text(json.dumps(debug_payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return str(debug_path)
 
