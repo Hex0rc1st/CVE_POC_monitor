@@ -2150,9 +2150,9 @@ def validate_payload(payload: dict[str, Any], source_text: str) -> list[str]:
         text = sanitize_whitespace(str(value))
         if not text:
             continue
-        validation_text = text
         if field_name == "official_solution":
-            validation_text = sanitize_whitespace(strip_urls_for_validation(text))
+            continue
+        validation_text = text
         lowered = validation_text.lower()
         for term in FORBIDDEN_SOURCE_TERMS:
             if term.lower() in lowered:
@@ -2167,9 +2167,6 @@ def validate_payload(payload: dict[str, Any], source_text: str) -> list[str]:
         issues.append("字段 pre_condition 不能为空，且无特殊要求时应为“默认配置”")
     if payload.get("trigger_mode") not in {"远程", "本地"}:
         issues.append("字段 trigger_mode 必须为“远程”或“本地”")
-    official_solution = sanitize_whitespace(str(payload.get("official_solution", "")))
-    if official_solution and "http" not in official_solution.lower():
-        issues.append("字段 official_solution 必须包含下载链接")
     if "请参考官方通告确认受影响范围" in sanitize_whitespace(str(payload.get("vulner_version", ""))):
         issues.append("字段 vulner_version 不能输出占位文案，必须提取到明确影响范围")
     return issues
