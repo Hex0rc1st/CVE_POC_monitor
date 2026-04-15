@@ -3412,3 +3412,4 @@ clean_list:
 - Flowise-CVE-2025-58434-PasswordReset
 - Flowise-RCE-CVE-2025-59528
 - CVE-2026-40487
+- cups-script-final-project
