@@ -457,12 +457,11 @@ def monitor_wechat_publishers():
         msg = f"公众号新文章推送:\r\n公众号：{publisher}\r\n标题：{title}\r\n链接：{link or relative_path}"
         msg_push.wechat_push(msg)
         logging.info(f"企微推送公众号文章：{publisher} - {title}")
-        # CI 主流程当前仅保留企微文本通知，先暂停通告生成和文件推送。
-        # if is_notice_like_wechat_article(publisher, title):
-        #     try:
-        #         generate_and_push_wechat_notice_documents(article)
-        #     except Exception as exc:
-        #         logging.error(f"公众号漏洞通告生成/推送失败: {publisher} - {title} - {exc}")
+        if is_notice_like_wechat_article(publisher, title):
+            try:
+                generate_and_push_wechat_notice_documents(article)
+            except Exception as exc:
+                logging.error(f"公众号漏洞通告生成/推送失败: {publisher} - {title} - {exc}")
 
 
 def fetch_wxrss_items(source_name, folder_id):
