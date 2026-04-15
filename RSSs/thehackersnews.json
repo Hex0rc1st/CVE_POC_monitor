@@ -2803,5 +2803,20 @@
         "title": "Microsoft Issues Patches for SharePoint Zero-Day and 168 Other New Vulnerabilities",
         "link": "https://thehackernews.com/2026/04/microsoft-issues-patches-for-sharepoint.html",
         "published": "Wed, 15 Apr 2026 14:10:00 +0530"
+    },
+    {
+        "title": "Actively Exploited nginx-ui Flaw (CVE-2026-33032) Enables Full Nginx Server Takeover",
+        "link": "https://thehackernews.com/2026/04/critical-nginx-ui-vulnerability-cve.html",
+        "published": "Wed, 15 Apr 2026 18:26:00 +0530"
+    },
+    {
+        "title": "April Patch Tuesday Fixes Critical Flaws Across SAP, Adobe, Microsoft, Fortinet, and More",
+        "link": "https://thehackernews.com/2026/04/april-patch-tuesday-fixes-critical.html",
+        "published": "Wed, 15 Apr 2026 18:07:00 +0530"
+    },
+    {
+        "title": "Deterministic + Agentic AI: The Architecture Exposure Validation Requires",
+        "link": "https://thehackernews.com/2026/04/deterministic-agentic-ai-architecture.html",
+        "published": "Wed, 15 Apr 2026 17:00:00 +0530"
     }
 ]
