@@ -3398,3 +3398,4 @@ clean_list:
 - axios-security-guide
 - CVE-2026-6042-PoC
 - Remediate-AdobeAcrobat-CVE-2026-34621
+- PoC-CVE-2026-1357
