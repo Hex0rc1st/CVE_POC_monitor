@@ -1486,3 +1486,9 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508614&idx=1&sn=b0
 360漏洞研究院::【已复现】Apache Tomcat 曝高危漏洞：无需认证可实现远程代码执行（CVE-2026-34486）
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496879&idx=1&sn=e85631b698244535854c4618800e0a75&chksm=c2dec73c0b0a15196a0343ee43c2f5b6eff75de264eb6dd02d51e97bd0f519cb61a26134e704&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496879&idx=1&sn=e85631b698244535854c4618800e0a75
+奇安信cert::微软4月补丁日多个产品安全漏洞风险通告：1个在野利用、8个紧急漏洞
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505225&idx=2&sn=7245dbf9b07c83cd708b6155bd300820&chksm=ffac17cc14e33b22f011abe5b7b4fb155b1863c419b2eea0750e14e16ea887adca57674633f2&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505225&idx=2&sn=7245dbf9b07c83cd708b6155bd300820
+奇安信cert::【已复现】Apache Tomcat 远程代码执行漏洞(CVE-2026-34486)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505225&idx=1&sn=b58bfb52a75a55c62527875f1c9176f5&chksm=ff1d58604f84e8b1cb675d30c7a057427b1f292f2a16d3b86d49a18e71562db778c44a29f4aa&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505225&idx=1&sn=b58bfb52a75a55c62527875f1c9176f5
