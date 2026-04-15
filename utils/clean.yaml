@@ -3399,3 +3399,8 @@ clean_list:
 - CVE-2026-6042-PoC
 - Remediate-AdobeAcrobat-CVE-2026-34621
 - PoC-CVE-2026-1357
+- react2shell-cve-2025-55182
+- tomcat-cve-2026-34486
+- CVE-2025-51458-exp
+- -CVE-2025-59528-PoC
+- CVE-2026-34486-poc
