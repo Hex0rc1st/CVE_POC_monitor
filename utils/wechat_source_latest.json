@@ -8,9 +8,9 @@
   "wxrss_static:奇安信 CERT": "奇安信cert::【已复现】Cockpit 远程代码执行漏洞(CVE-2026-4631)安全风险通告",
   "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::无条件接管Nginx！Nginx-UI漏洞链发现在野利用",
   "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析",
-  "doonsec:奇安信 CERT": "奇安信cert::【在野利用】Adobe Acrobat Reader 远程代码执行漏洞(CVE-2026-34621)安全风险通告",
+  "doonsec:奇安信 CERT": "奇安信cert::【已复现】Cockpit 远程代码执行漏洞(CVE-2026-4631)安全风险通告",
   "bruce_picker:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",
   "bruce_picker:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
   "bruce_picker:微步在线研究响应中心": "微步在线研究响应中心::Nginx曝新漏洞，特定配置下可实现任意文件读写",
-  "doonsec:微步在线研究响应中心": "微步在线研究响应中心::Apache Tomcat 远程代码执行漏洞，附漏洞自查方案"
+  "doonsec:微步在线研究响应中心": "微步在线研究响应中心::无条件接管Nginx！Nginx-UI漏洞链发现在野利用"
 }

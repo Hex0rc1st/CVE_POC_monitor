@@ -3431,3 +3431,4 @@ clean_list:
 - CVE-2026-22679
 - cross-country-cve-2026
 - CVE-2026-33824
+- CVE-2025-15602-PoC
