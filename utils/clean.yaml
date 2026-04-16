@@ -3428,3 +3428,6 @@ clean_list:
 - PAN-OS-CVE-2024-3400-Command-Injection-Investigation
 - CVE-2026-5059-poc
 - CVE-2026-1880
+- CVE-2026-22679
+- cross-country-cve-2026
+- CVE-2026-33824

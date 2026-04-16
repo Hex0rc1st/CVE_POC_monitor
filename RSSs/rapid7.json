@@ -528,5 +528,10 @@
         "title": "A Clearer Path from Prioritized Exposures to Remediation Progress",
         "link": "https://www.rapid7.com/blog/post/em-path-from-prioritized-exposures-to-remediation-progress",
         "published": "Wed, 15 Apr 2026 12:37:00 GMT"
+    },
+    {
+        "title": "ClickFix Phishing Campaign Masquerading as a Claude Installer",
+        "link": "https://www.rapid7.com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer",
+        "published": "Thu, 16 Apr 2026 13:00:00 GMT"
     }
 ]
