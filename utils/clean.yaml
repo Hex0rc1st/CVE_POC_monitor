@@ -3413,3 +3413,8 @@ clean_list:
 - Flowise-RCE-CVE-2025-59528
 - CVE-2026-40487
 - cups-script-final-project
+- CVE-2025-27591-Meta-below-LPE
+- CVE-2025-49113-Roundcube-RCE
+- CVE-2026-XXXXXX
+- CVE-2025-24893-XWiki-SSTI-RCE
+- CVE-2026-0827
