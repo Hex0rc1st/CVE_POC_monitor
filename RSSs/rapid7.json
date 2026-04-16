@@ -533,5 +533,10 @@
         "title": "ClickFix Phishing Campaign Masquerading as a Claude Installer",
         "link": "https://www.rapid7.com/blog/post/ve-clickfix-phishing-campaign-fake-claude-installer",
         "published": "Thu, 16 Apr 2026 13:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-33032: Nginx UI Missing MCP Authentication",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-33032-nginx-ui-missing-mcp-authentication",
+        "published": "Thu, 16 Apr 2026 19:44:49 GMT"
     }
 ]
