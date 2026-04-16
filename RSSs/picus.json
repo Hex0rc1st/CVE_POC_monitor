@@ -623,5 +623,25 @@
         "title": "Vulnerability Prioritization in 2026: Why CVSS Isn't Enough",
         "link": "https://www.picussecurity.com/resource/blog/vulnerability-prioritization-why-cvss-isnt-enough",
         "published": "Thu, 16 Apr 2026 12:27:34 GMT"
+    },
+    {
+        "title": "CVE-2026-3055 & CVE-2026-4368: Inside the NetScaler \"CitrixBleed 3\" Memory Overread",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-3055-cve-2026-4368-inside-the-netscaler-citrixbleed-3-memory-overread",
+        "published": "Thu, 16 Apr 2026 17:02:42 GMT"
+    },
+    {
+        "title": "CVE-2026-21643: Critical SQL Injection in Fortinet FortiClient EMS Exploited in the Wild",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-21643-critical-sql-injection-in-fortinet-forticlient-ems-exploited-in-the-wild",
+        "published": "Thu, 16 Apr 2026 16:21:05 GMT"
+    },
+    {
+        "title": "CVE-2026-33032 (MCPwn): How a Missing Middleware Call in nginx-ui Hands Attackers Full Web Server Takeover",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-33032-mcpwn-how-a-missing-middleware-call-in-nginx-ui-hands-attackers-full-web-server-takeover",
+        "published": "Thu, 16 Apr 2026 16:13:21 GMT"
+    },
+    {
+        "title": "BlueHammer & RedSun: Windows Defender CVE-2026-33825 Zero-day Vulnerability Explained",
+        "link": "https://www.picussecurity.com/resource/blog/bluehammer-redsun-windows-defender-cve-2026-33825-zero-day-vulnerability-explained",
+        "published": "Thu, 16 Apr 2026 16:05:51 GMT"
     }
 ]
