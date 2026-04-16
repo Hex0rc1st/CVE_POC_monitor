@@ -1507,3 +1507,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=2&sn=cc
 奇安信cert::【已复现】Cockpit 远程代码执行漏洞(CVE-2026-4631)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505244&idx=1&sn=7fb5fa772c415724c24dec6f5b4ee48a&chksm=ffee0b0a6f090bc76eef65eb7e20d366a8cfed63727c97ce0e1a900de804b7673327fffccda0&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=1&sn=7fb5fa772c415724c24dec6f5b4ee48a
+微步在线研究响应中心::无条件接管Nginx！Nginx-UI漏洞链发现在野利用
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508630&idx=1&sn=543bb7f3dbe8c36f4b62d8fdd61c0931&chksm=ce97d003ed176bcfb12f905d4894541287a02d1f1d8523b3d8be1d25850f7e7c5f246047e2e0&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508630&idx=1&sn=543bb7f3dbe8c36f4b62d8fdd61c0931

@@ -3426,3 +3426,5 @@ clean_list:
 - CVE-2026-34220
 - CVE-2026-34486-Tribes
 - PAN-OS-CVE-2024-3400-Command-Injection-Investigation
+- CVE-2026-5059-poc
+- CVE-2026-1880
