@@ -59,3 +59,4 @@ https://github.com/dinosn/CVE-2026-34197
 https://github.com/Firebasky/CVE-2026-39363
 https://github.com/cybertechajju/CVE-2026-23869-Exploit
 https://github.com/kartik2005221/CVE-2025-58434-AND-59528-POC
+https://github.com/AirSkye/CVE-2026-34486-poc

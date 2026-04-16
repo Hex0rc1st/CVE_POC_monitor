@@ -3423,3 +3423,6 @@ clean_list:
 - CVE-2025-59528
 - CVE-2025-69428
 - Mass-Scanner-CVE-2026-3891
+- CVE-2026-34220
+- CVE-2026-34486-Tribes
+- PAN-OS-CVE-2024-3400-Command-Injection-Investigation

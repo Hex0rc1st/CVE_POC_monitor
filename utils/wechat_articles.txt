@@ -1495,3 +1495,15 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505225&idx=1&sn=b5
 微步在线研究响应中心::Apache Tomcat 远程代码执行漏洞，附漏洞自查方案
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508620&idx=1&sn=c31f1cadfa7661cddf43b3388c7ead33&chksm=ce5f66d4273cea0ed31a8ee4230aa3b6be5be33fbcc85055503b00f7cbeb913b1a98090848a6&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508620&idx=1&sn=c31f1cadfa7661cddf43b3388c7ead33
+360漏洞研究院::【已复现】Windows 截图工具可导致 Net-NTLM 哈希凭据泄露漏洞(CVE-2026-33829)
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496885&idx=1&sn=580e2fe64c6b24d89434c222b2c085a1&chksm=c28b7fd59dfd737da72cab271ce94e16807d7a8469316df3704848cc4610d589fc77dc7b4e69&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496885&idx=1&sn=580e2fe64c6b24d89434c222b2c085a1
+奇安信cert::奇安信集团2026年04月补丁库更新通告-第一次更新
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505244&idx=3&sn=9d56c53aba078915d79c16e1cdcea666&chksm=ffa533de8f7e8899489cfc38d4f3b17bcfa421393e9416114ae0d2e2d2a44dfb4aeca948304a&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=3&sn=9d56c53aba078915d79c16e1cdcea666
+奇安信cert::【已复现】Windows 截图工具 NTLM 信息泄露漏洞(CVE-2026-33829)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505244&idx=2&sn=ccbfe03aa4b3cf19ab081e04511cb4ae&chksm=ffef4781dd9e6ac9413eaddae7efd865f803e9a314ab97d1d2589529036124db6694084d1853&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=2&sn=ccbfe03aa4b3cf19ab081e04511cb4ae
+奇安信cert::【已复现】Cockpit 远程代码执行漏洞(CVE-2026-4631)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505244&idx=1&sn=7fb5fa772c415724c24dec6f5b4ee48a&chksm=ffee0b0a6f090bc76eef65eb7e20d366a8cfed63727c97ce0e1a900de804b7673327fffccda0&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=1&sn=7fb5fa772c415724c24dec6f5b4ee48a
