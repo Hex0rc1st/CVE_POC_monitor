@@ -213,5 +213,20 @@
         "title": "CVE-2026-22750 - Medium - CVE-2026-22750: SSL bundle configuration silently bypassed in Spring Cloud Gateway",
         "link": "https://spring.io/security/cve-2026-22750",
         "published": "Thu, 09 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22740 - Medium - CVE-2026-22740: Spring Framework DoS with Multipart Temp Files in WebFlux",
+        "link": "https://spring.io/security/cve-2026-22740",
+        "published": "Fri, 17 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22741 - Low - CVE-2026-22741: Static resource cache poisoning in Spring MVC and WebFlux",
+        "link": "https://spring.io/security/cve-2026-22741",
+        "published": "Fri, 17 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22745 - Medium - CVE-2026-22745 : Denial of service in static resource handling on Windows platforms",
+        "link": "https://spring.io/security/cve-2026-22745",
+        "published": "Fri, 17 Apr 2026 00:00:00 GMT"
     }
 ]

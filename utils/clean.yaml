@@ -3439,3 +3439,4 @@ clean_list:
 - CVE-2026-34621_PDF_SAMPLE
 - CVE-2026-39842
 - CVE-2026-33032-nginx-ui-vuln-lab
+- CVE-2025-66954
