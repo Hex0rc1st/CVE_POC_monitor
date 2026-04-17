@@ -3435,3 +3435,4 @@ clean_list:
 - CVE-2026-0740
 - CVE-2025-8110-Silentium-HTB
 - CVE-2026-40175-poc
+- cve-2026-40176-cve-2026-40261
