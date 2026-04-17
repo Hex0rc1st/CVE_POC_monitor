@@ -1510,3 +1510,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505244&idx=1&sn=7f
 微步在线研究响应中心::无条件接管Nginx！Nginx-UI漏洞链发现在野利用
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508630&idx=1&sn=543bb7f3dbe8c36f4b62d8fdd61c0931&chksm=ce97d003ed176bcfb12f905d4894541287a02d1f1d8523b3d8be1d25850f7e7c5f246047e2e0&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508630&idx=1&sn=543bb7f3dbe8c36f4b62d8fdd61c0931
+360漏洞研究院::360发现全球高危漏洞，漏洞挖掘智能体首次披露
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496900&idx=1&sn=bd638d9fa25e8716a8274d91cc1d74fd&chksm=c2ef6f5b1ca769b79dcb31960e6d7b94ccae4b129cb675daf3641f8ab530c7d7d8d958491242&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496900&idx=1&sn=bd638d9fa25e8716a8274d91cc1d74fd
