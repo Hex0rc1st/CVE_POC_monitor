@@ -538,5 +538,10 @@
         "title": "CVE-2026-33032: Nginx UI Missing MCP Authentication",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-33032-nginx-ui-missing-mcp-authentication",
         "published": "Thu, 16 Apr 2026 19:44:49 GMT"
+    },
+    {
+        "title": "Metasploit Wrap-Up 04/17/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-04-17-2026",
+        "published": "Fri, 17 Apr 2026 20:35:42 GMT"
     }
 ]
