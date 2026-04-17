@@ -3432,3 +3432,6 @@ clean_list:
 - cross-country-cve-2026
 - CVE-2026-33824
 - CVE-2025-15602-PoC
+- CVE-2026-0740
+- CVE-2025-8110-Silentium-HTB
+- CVE-2026-40175-poc
