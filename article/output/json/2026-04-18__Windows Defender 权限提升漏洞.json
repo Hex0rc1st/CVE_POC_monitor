@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】 Windows Defender 本地提权 0day 漏洞，面临在野利用风险",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-04-18",
+  "table_fields": {
+    "漏洞名称": "Windows Defender 权限提升漏洞",
+    "漏洞编号": "LDYVUL-2026-00062772",
+    "公开时间": "2026-04-16",
+    "POC状态": "已公开",
+    "漏洞类型": "权限提升",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "7.8",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-04-18 10:00 Windows Defender 曝出本地权限提升 0day 漏洞，安全研究员已公开相关技术细节，低权限攻击者可诱导 Defender 进程将恶意代码植入系统核心目录，实现 SYSTEM 提权。**鉴于该漏洞利用代码已公开且官方尚未发布正式补丁，该漏洞面临在野利用风险。** 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、临时防护建议、技术原理与复现细节。 因该漏洞相关信息已在互联网上公开传播，为提醒用户及时防范并降低安全风险，特发布本安全风险通告。 **漏洞影响范围** 受影响的软件版本： Windows Defender Antimalware Platform <= 4.18.26030.3011 **防护建议** **临时防护方案** - 密切关注 Windows Update，一旦官方补丁发布请立即安装 - 不要随意安装未知软件或工具 - 不要运行来源不明的 EXE、脚本或压缩包中的程序（尤其是下载文件、邮件附件） **漏洞描述** Windows Defender 作为系统内置的安全防护组件，负责实时扫描、检测并拦截恶意文件，通常通过隔离或删除操作阻止其对系统造成破坏。该漏洞的核心成因在于 Defender 处理特定“云同步标记”恶意文件时执行了写回原路径的逻辑，攻击者可以利用路径重定向技术诱导 Defender 将该文件写入系统关键目录。此漏洞允许普通用户权限的攻击者实现本地权限提升，最终获取系统的最高控制权限，完全接管目标主机。 **漏洞复现** 安全研究团队已成功复现 Windows Defender 权限提升漏洞，通过该漏洞获取 SYSTEM 权限。 Windows Defender 权限提升漏洞复现 **时间线** 2026年04月18日，安全研究团队发布本安全风险通告。",
+    "security_update": "",
+    "component_text": "",
+    "vulnerability_text": "Windows Defender 作为系统内置的安全防护组件，负责实时扫描、检测并拦截恶意文件，通常通过隔离或删除操作阻止其对系统造成破坏。该漏洞的核心成因在于 Defender 处理特定“云同步标记”恶意文件时执行了写回原路径的逻辑，攻击者可以利用路径重定向技术诱导 Defender 将该文件写入系统关键目录。此漏洞允许普通用户权限的攻击者实现本地权限提升，最终获取系统的最高控制权限，完全接管目标主机。 漏洞复现 安全研究团队已成功复现 Windows Defender 权限提升漏洞，通过该漏洞获取 SYSTEM 权限。 Windows Defender 权限提升漏洞复现",
+    "affected_versions_text": "Windows Defender Antimalware Platform <= 4.18.26030.3011\n防护建议\n临时防护方案\n- 密切关注 Windows Update，一旦官方补丁发布请立即安装\n- 不要随意安装未知软件或工具\n- 不要运行来源不明的 EXE、脚本或压缩包中的程序（尤其是下载文件、邮件附件）",
+    "plain_text": "安全研究团队 安全研究团队 2026-04-18 10:00 Windows Defender 曝出本地权限提升 0day 漏洞，安全研究员已公开相关技术细节，低权限攻击者可诱导 Defender 进程将恶意代码植入系统核心目录，实现 SYSTEM 提权。**鉴于该漏洞利用代码已公开且官方尚未发布正式补丁，该漏洞面临在野利用风险。** 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、临时防护建议、技术原理与复现细节。 因该漏洞相关信息已在互联网上公开传播，为提醒用户及时防范并降低安全风险，特发布本安全风险通告。 **01** **漏洞影响范围** 受影响的软件版本： Windows Defender Antimalware Platform <= 4.18.26030.3011 **02** **防护建议** **临时防护方案** - 密切关注 Windows Update，一旦官方补丁发布请立即安装 - 不要随意安装未知软件或工具 - 不要运行来源不明的 EXE、脚本或压缩包中的程序（尤其是下载文件、邮件附件） **03** **漏洞描述** Windows Defender 作为系统内置的安全防护组件，负责实时扫描、检测并拦截恶意文件，通常通过隔离或删除操作阻止其对系统造成破坏。该漏洞的核心成因在于 Defender 处理特定“云同步标记”恶意文件时执行了写回原路径的逻辑，攻击者可以利用路径重定向技术诱导 Defender 将该文件写入系统关键目录。此漏洞允许普通用户权限的攻击者实现本地权限提升，最终获取系统的最高控制权限，完全接管目标主机。 **04** **漏洞复现** 安全研究团队已成功复现 Windows Defender 权限提升漏洞，通过该漏洞获取 SYSTEM 权限。 Windows Defender 权限提升漏洞复现 **05** **时间线** 2026年04月18日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://msrc.microsoft.com 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://msrc.microsoft.com"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://msrc.microsoft.com",
+      "content": "Microsoft Security Response Center Skip to main content Microsoft MSRC MSRC MSRC Home Report an issue Report Security Vulnerability Report Abuse Report Infringement Submission FAQs Reporting Vulnerability Customer guidance Security Update Guide Exploitability index Developer API documentation Frequently Asked Questions Technical Security Notifications Glossary Engage Microsoft Bug Bounty Programs Microsoft Active Protections Program BlueHat Security Conference Researcher Recognition Program Windows Security Servicing Criteria Researcher Resource Center Who we are Mission Cyber Defense Operations Center Coordinated Vulnerability Disclosure Social Blogs Microsoft Security Response Center Security Research & Defense BlueHat Conference Blog Acknowledgments Security Researcher Acknowledgments Online Services Researcher Acknowledgments AI Safety Acknowledgements Security Researcher Leaderboard More All Microsoft Global Microsoft 365 Teams Copilot Windows Surface Xbox Deals Small Business Support Software Software Windows Apps AI Outlook OneDrive Microsoft Teams OneNote Microsoft Edge Moving from Skype to Teams PCs & Devices PCs & Devices Computers Shop Xbox Accessories VR & mixed reality Certified Refurbished Trade-in for cash Entertainment Entertainment Xbox Game Pass Ultimate PC Game Pass Xbox games PC games Business Business Microsoft Security Dynamics 365 Microsoft 365 for business Microsoft Power Platform Windows 365 Microsoft Industry Small Business Developer & IT Developer & IT Azure Microsoft Developer Microsoft Learn Support for AI marketplace apps Microsoft Tech Community Microsoft Marketplace Marketplace Rewards Visual Studio Other Other Microsoft Rewards Free downloads & security Education Gift cards Licensing Unlocked stories View Sitemap Search Search or ask a question Cancel Microsoft Security Response Center The Microsoft Security Response Center is part of the defender community and on the front line of security response evolution. For over twenty years, we have been engaged with security researchers working to protect customers and the broader ecosystem. Our Mission MSRC Blog BlueHat Over the last decade, BlueHat conferences have drawn the brightest minds in security to examine the industry's key challenges. Conference Information Security Update Guide MSRC investigates all reports of security vulnerabilities affecting Microsoft products and services, and provides the information in this guide as part of the ongoing effort to help you manage security risks and help keep your systems protected. View the Guide Bounty Programs If you are a security researcher that has found a vulnerability in a Microsoft product, service, or device we want to hear from you. If your vulnerability report affects a product or service that is within scope of one of our bounty programs, you may receive a bounty award according to the program descriptions. Learn More Security vulnerabilities If you believe you have found a security vulnerability that meets Microsoft's definition of a security vulnerability , please submit the report to MSRC Report a vulnerability Abuse Reports Please submit a report if you have experienced abuse or a privacy issue originating from a Microsoft-hosted site or service. Report Abuse Infringements Submit a report of copyright or trademark infringement to Microsoft. Report Infringement What's new Surface Pro Surface Laptop Surface Laptop Studio 2 Copilot for organizations Copilot for personal use AI in Windows Explore Microsoft products Windows 11 apps Microsoft Store Account profile Download Center Microsoft Store support Returns Order tracking Certified Refurbished Microsoft Store Promise Flexible Payments Education Microsoft in education Devices for education Microsoft Teams for Education Microsoft 365 Education How to buy for your school Educator training and development Deals for students and parents AI for education Business Microsoft Security Dynamics 365 Microsoft 365 Microsoft Power Platform Microsoft Te"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Windows Defender 权限提升漏洞",
+    "vulner_number_1": "CVE-2026-XXXXX",
+    "vulner_number_2": "漏洞编号： CVE-2026-XXXXX",
+    "new_vulner_name": "Windows Defender 权限提升漏洞",
+    "vulner_date": "2026年4月18日",
+    "vulner_time_line": "2026/04/18",
+    "object_name": "Windows Defender Antimalware Platform",
+    "object_desc": "Windows Defender是微软Windows操作系统内置的安全防护组件，提供实时防病毒、反恶意软件及防火墙功能，用于保护系统免受病毒、木马等威胁的侵害。该组件集成于Windows系统中，广泛应用于个人电脑及企业终端的安全防护场景。",
+    "vulner_version": "Windows Defender Antimalware Platform ≤ 4.18.26030.3011",
+    "vulner_type": "权限提升",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "低",
+    "hazard_level": "成功利用此漏洞的攻击者可在目标系统上获得提升后的系统级权限，从而完全控制受影响主机",
+    "vuln_level": "高危",
+    "vulner_desc": "Windows Defender 在处理携带特定云同步标记的恶意文件时，存在路径验证缺陷，导致隔离文件被写回原路径。攻击者可利用路径重定向技术，诱导 Defender 将恶意文件释放至系统关键目录，从而在普通用户权限下实现本地权限提升，最终获取 SYSTEM 最高控制权限。",
+    "official_solution": "请密切关注 Windows Update 推送的更新，一旦官方补丁发布请立即安装。 修复方式：官方尚未发布正式补丁，请通过 Windows Update 检查并等待推送更新补丁。\n下载链接：https://msrc.microsoft.com",
+    "reference_link": "https://msrc.microsoft.com",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

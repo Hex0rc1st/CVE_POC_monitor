@@ -3440,3 +3440,4 @@ clean_list:
 - CVE-2026-39842
 - CVE-2026-33032-nginx-ui-vuln-lab
 - CVE-2025-66954
+- cve-2025-55182-analysis

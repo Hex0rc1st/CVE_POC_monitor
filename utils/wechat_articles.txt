@@ -1516,3 +1516,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496900&idx=1&sn=bd
 奇安信cert::安全热点周报：Adobe 修复已被利用数月的 Reader 零日漏洞
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505248&idx=1&sn=5d29547754806bda2da31d2a75c24db4&chksm=ffc571e5fb85a466fa53866309756a0ffcddb59b8198c3ce1296d4f852a59fd8789131a9b97e&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505248&idx=1&sn=5d29547754806bda2da31d2a75c24db4
+360漏洞研究院::【已复现】 Windows Defender 本地提权 0day 漏洞，面临在野利用风险
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496914&idx=1&sn=91f9a89c9d0b4557f3e3b1288ed02eb5&chksm=c2de629361cdf33b68ec932a266bc65747d030fd1a903bf845129b66d49106ce7760cc18d8fb&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496914&idx=1&sn=91f9a89c9d0b4557f3e3b1288ed02eb5
