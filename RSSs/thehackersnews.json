@@ -2883,5 +2883,10 @@
         "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
         "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
         "published": "Fri, 17 Apr 2026 18:51:00 +0530"
+    },
+    {
+        "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+        "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+        "published": "Sat, 18 Apr 2026 11:31:00 +0530"
     }
 ]
