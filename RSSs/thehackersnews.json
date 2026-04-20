@@ -2918,5 +2918,10 @@
         "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
         "link": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
         "published": "Mon, 20 Apr 2026 19:11:00 +0530"
+    },
+    {
+        "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+        "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+        "published": "Mon, 20 Apr 2026 22:44:00 +0530"
     }
 ]
