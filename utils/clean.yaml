@@ -3462,3 +3462,6 @@ clean_list:
 - ActiveMQ-EXPtools
 - CVE-2024-3400
 - CVE-2026-34197-payload-Apache-ActiveMQ-
+- ai-ide-config-guard
+- CVE-2026-3462
+- markdown-exfil-tester
