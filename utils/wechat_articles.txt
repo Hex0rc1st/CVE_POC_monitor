@@ -1519,3 +1519,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505248&idx=1&sn=5d
 360漏洞研究院::【已复现】 Windows Defender 本地提权 0day 漏洞，面临在野利用风险
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496914&idx=1&sn=91f9a89c9d0b4557f3e3b1288ed02eb5&chksm=c2de629361cdf33b68ec932a266bc65747d030fd1a903bf845129b66d49106ce7760cc18d8fb&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496914&idx=1&sn=91f9a89c9d0b4557f3e3b1288ed02eb5
+奇安信cert::今日（2026年4月20日）热点网络安全漏洞动态
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505295&idx=1&sn=496cfccc26e4f49a8027901612b77394&chksm=ffae4d24fdfcdd09bd0e7f9f662aa38ca334735c960d1fd568cbb1109832b3fd3123e323ddc8&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505295&idx=1&sn=496cfccc26e4f49a8027901612b77394

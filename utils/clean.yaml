@@ -3465,3 +3465,5 @@ clean_list:
 - ai-ide-config-guard
 - CVE-2026-3462
 - markdown-exfil-tester
+- Detecting_blue_hammer_vuln
+- CVE-2025-58434-Unauthenticated-Password-Reset-Flowwise
