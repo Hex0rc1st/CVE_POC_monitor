@@ -3459,3 +3459,6 @@ clean_list:
 - CVE-2026-26198
 - CVE-2026-4447
 - CVE-2026-26399-Disclousure
+- ActiveMQ-EXPtools
+- CVE-2024-3400
+- CVE-2026-34197-payload-Apache-ActiveMQ-
