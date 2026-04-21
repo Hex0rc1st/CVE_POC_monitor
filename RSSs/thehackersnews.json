@@ -2923,5 +2923,10 @@
         "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
         "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
         "published": "Mon, 20 Apr 2026 22:44:00 +0530"
+    },
+    {
+        "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+        "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+        "published": "Tue, 21 Apr 2026 11:53:00 +0530"
     }
 ]
