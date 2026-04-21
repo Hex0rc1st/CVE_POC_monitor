@@ -1525,3 +1525,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505295&idx=1&sn=49
 360漏洞研究院::【已复现】FortiClientEMS API 身份验证和授权绕过漏洞（CVE-2026-35616）
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496921&idx=1&sn=aa4187580be47aa4069e5f6e28a3a477&chksm=c2a50eb89dd6e128cbe0b6b939cfeb615dac4169f3571c3b97bacfab308527129fae0fd60760&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496921&idx=1&sn=aa4187580be47aa4069e5f6e28a3a477
+奇安信cert::今日（2026年4月21日）热点网络安全漏洞动态
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505328&idx=1&sn=8b25fc530e8a01fcb44c1a7800eeb89f&chksm=fff2f31737c86c522d4925b20ed4a3b670804715aaf7641ec69f70aa67131cb7797be24b503c&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505328&idx=1&sn=8b25fc530e8a01fcb44c1a7800eeb89f
