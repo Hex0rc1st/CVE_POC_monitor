@@ -708,5 +708,15 @@
         "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
         "link": "http://chromereleases.googleblog.com/2026/04/dev-channel-update-for-chromeos_20.html",
         "published": "2026-04-20T14:07:00.000-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/04/beta-channel-update-for-chromeos_21.html",
+        "published": "2026-04-21T16:33:00.000-07:00"
+    },
+    {
+        "title": "Long Term Support (LTS) channel for ChromeOS - Major update from 138-> 144",
+        "link": "http://chromereleases.googleblog.com/2026/04/long-term-support-lts-channel-for.html",
+        "published": "2026-04-21T14:45:00.000-07:00"
     }
 ]
