@@ -553,5 +553,10 @@
         "title": "From Bulk Export to AI-ready Security Workflows: Introducing Rapid7’s Open-Source MCP Server and Agent Skill",
         "link": "https://www.rapid7.com/blog/post/em-bulk-export-ai-ready-security-workflows-open-source-mcp-server-agent-skill",
         "published": "Tue, 21 Apr 2026 12:22:09 GMT"
+    },
+    {
+        "title": "Kyber Ransomware Double Trouble: Windows and ESXi Attacks Explained",
+        "link": "https://www.rapid7.com/blog/post/tr-kyber-ransomware-double-trouble-windows-esxi-attacks-explained",
+        "published": "Tue, 21 Apr 2026 14:38:05 GMT"
     }
 ]

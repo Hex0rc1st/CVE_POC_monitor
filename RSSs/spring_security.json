@@ -228,5 +228,40 @@
         "title": "CVE-2026-22745 - Medium - CVE-2026-22745 : Denial of service in static resource handling on Windows platforms",
         "link": "https://spring.io/security/cve-2026-22745",
         "published": "Fri, 17 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22751 - Medium - CVE-2026-22751: Spring Security JdbcOneTimeTokenService allows a one-time token to authenticate multiple sessions",
+        "link": "https://spring.io/security/cve-2026-22751",
+        "published": "Tue, 21 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22752 - Critical - CVE-2026-22752: Spring Security Authorization Server Dynamic Client Registration endpoints perform insufficient validation of client metadata",
+        "link": "https://spring.io/security/cve-2026-22752",
+        "published": "Tue, 21 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22746 - Low - CVE-2026-22746: User Attribute Enumeration when Using DaoAuthenticationProvider",
+        "link": "https://spring.io/security/cve-2026-22746",
+        "published": "Mon, 20 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22748 - Medium - CVE-2026-22748: Potential Security Misconfiguration when Using withIssuerLocation",
+        "link": "https://spring.io/security/cve-2026-22748",
+        "published": "Mon, 20 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22754 - High - CVE-2026-22754: Servlet Path Not Correctly Included in Path Matching of XML Authorization Rules",
+        "link": "https://spring.io/security/cve-2026-22754",
+        "published": "Mon, 20 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22753 - High - CVE-2026-22753: Servlet Path Not Correctly Included in Path Matching of HttpSecurity#securityMatchers",
+        "link": "https://spring.io/security/cve-2026-22753",
+        "published": "Mon, 20 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-22747 - Medium - CVE-2026-22747: Unauthorized User Impersonation when Using X.509 Client Certificates",
+        "link": "https://spring.io/security/cve-2026-22747",
+        "published": "Mon, 20 Apr 2026 00:00:00 GMT"
     }
 ]
