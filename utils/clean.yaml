@@ -3467,3 +3467,4 @@ clean_list:
 - markdown-exfil-tester
 - Detecting_blue_hammer_vuln
 - CVE-2025-58434-Unauthenticated-Password-Reset-Flowwise
+- CVE-2025-11460-Chrome-RCE
