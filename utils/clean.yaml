@@ -3469,3 +3469,4 @@ clean_list:
 - CVE-2025-58434-Unauthenticated-Password-Reset-Flowwise
 - CVE-2025-11460-Chrome-RCE
 - CVE-2024-1086_Ausarbeitung
+- CVE-2026-25049
