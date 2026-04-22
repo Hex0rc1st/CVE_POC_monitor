@@ -1531,3 +1531,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505328&idx=1&sn=8b
 奇安信cert::Oracle 2026年4月补丁日多产品高危漏洞安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505333&idx=1&sn=5d8eb18fb03812a7cd87753fe8e14929&chksm=ff49ae12a53ecd1b65e211414c3842cb256a52dcccb20482a7eda319c59cd6c4e3d5240c0c71&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505333&idx=1&sn=5d8eb18fb03812a7cd87753fe8e14929
+360漏洞研究院::【利用已复现】一个“!”引发的“血案”（Linux Kernel NF_TABLES模块提权漏洞）
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496930&idx=1&sn=834359814069ea51536438567a6acc3c&chksm=c2292971054e6646363042bfad6986f3d1d4b758c76f4d4864078455aa5c2a376ff81dbf79a1&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496930&idx=1&sn=834359814069ea51536438567a6acc3c
