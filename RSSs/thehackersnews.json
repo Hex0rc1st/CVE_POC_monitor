@@ -2988,5 +2988,20 @@
         "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
         "link": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
         "published": "Wed, 22 Apr 2026 16:11:36 +0530"
+    },
+    {
+        "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
+        "link": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
+        "published": "Wed, 22 Apr 2026 23:25:00 +0530"
+    },
+    {
+        "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
+        "link": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
+        "published": "Wed, 22 Apr 2026 23:03:00 +0530"
+    },
+    {
+        "title": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
+        "link": "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html",
+        "published": "Wed, 22 Apr 2026 20:58:00 +0530"
     }
 ]

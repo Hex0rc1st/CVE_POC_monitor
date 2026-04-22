@@ -718,5 +718,20 @@
         "title": "Long Term Support (LTS) channel for ChromeOS - Major update from 138-> 144",
         "link": "http://chromereleases.googleblog.com/2026/04/long-term-support-lts-channel-for.html",
         "published": "2026-04-21T14:45:00.000-07:00"
+    },
+    {
+        "title": "Chrome Stable for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-stable-for-ios-update_01556970091.html",
+        "published": "2026-04-22T09:28:34.558-07:00"
+    },
+    {
+        "title": "Chrome Beta for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-android-update_01311365125.html",
+        "published": "2026-04-22T09:28:32.955-07:00"
+    },
+    {
+        "title": "Chrome Beta for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-ios-update_01130942749.html",
+        "published": "2026-04-22T08:13:33.162-07:00"
     }
 ]
