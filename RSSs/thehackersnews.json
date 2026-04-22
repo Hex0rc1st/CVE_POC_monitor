@@ -2973,5 +2973,10 @@
         "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
         "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
         "published": "Wed, 22 Apr 2026 12:46:00 +0530"
+    },
+    {
+        "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
+        "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
+        "published": "Wed, 22 Apr 2026 14:59:00 +0530"
     }
 ]

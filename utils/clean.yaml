@@ -3479,3 +3479,4 @@ clean_list:
 - CVE-2026-Mastodon-Streaming-Token-Leakage
 - CVE-2026-Mastodon-Streaming-CRLF-Injection
 - CVE-2026-Mastodon-Streaming-Metrics-Unauthorized
+- HTB-Silentium-Writeup
