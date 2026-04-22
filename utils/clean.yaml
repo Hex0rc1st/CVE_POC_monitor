@@ -3480,3 +3480,10 @@ clean_list:
 - CVE-2026-Mastodon-Streaming-CRLF-Injection
 - CVE-2026-Mastodon-Streaming-Metrics-Unauthorized
 - HTB-Silentium-Writeup
+- CVE-2026-26026-PoC
+- CVE-2026-33825
+- flight-risk
+- CVE-2026-21877
+- CVE-2026-33827
+- CVE-2026-21876
+- CVE-2026-33826
