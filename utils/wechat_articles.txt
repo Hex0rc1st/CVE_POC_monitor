@@ -1528,3 +1528,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496921&idx=1&sn=aa
 奇安信cert::今日（2026年4月21日）热点网络安全漏洞动态
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505328&idx=1&sn=8b25fc530e8a01fcb44c1a7800eeb89f&chksm=fff2f31737c86c522d4925b20ed4a3b670804715aaf7641ec69f70aa67131cb7797be24b503c&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505328&idx=1&sn=8b25fc530e8a01fcb44c1a7800eeb89f
+奇安信cert::Oracle 2026年4月补丁日多产品高危漏洞安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505333&idx=1&sn=5d8eb18fb03812a7cd87753fe8e14929&chksm=ff49ae12a53ecd1b65e211414c3842cb256a52dcccb20482a7eda319c59cd6c4e3d5240c0c71&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505333&idx=1&sn=5d8eb18fb03812a7cd87753fe8e14929
