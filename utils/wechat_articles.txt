@@ -1540,3 +1540,8 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508649&idx=2&sn=de
 微步在线研究响应中心::突发：Checkmarx再次遭遇供应链投毒！速查
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508649&idx=1&sn=a1931d6a89e8851fa93a599af6cf6e15&chksm=ce93975e2be097a889850c8cd4d8becc1a09290a778ba0e125b941103471d8418e22aae034f7&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508649&idx=1&sn=a1931d6a89e8851fa93a599af6cf6e15
+奇安信cert::深度分析 | 在官方 KICS Docker 中发现恶意 Checkmarx 构件
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505361&idx=1&sn=01078dadf040b30872c7fc973f212085&chksm=ff8f35c3c242cd0c5d92620e1c4c9fcf9f310595256f0d35897fa679c7ab44107ccfee871595&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505361&idx=1&sn=01078dadf040b30872c7fc973f212085
+360漏洞研究院::【已复现】FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）
+https://mp.weixin.qq.com/s/ZRSw0R8mH1tY_7jsYUswRA

@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-04-23",
+  "table_fields": {
+    "漏洞名称": "FortiSandbox 身份验证绕过漏洞",
+    "漏洞编号": "CVE-2026-39813",
+    "公开时间": "2026-04-14",
+    "POC状态": "已公开",
+    "漏洞类型": "身份认证绕过",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-04-23 17:02 FortiSandbox 曝出身份验证绕过高危漏洞（CVE-2026-39813，CVSS 9.8），攻击者无需凭据，通过构造包含路径遍历序列的请求，即可绕过访问控制并获取系统敏感配置。 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围** 以下版本的设备受到影响： FortiSandbox 5.0系列：5.0.0 ），却没有做任何输入校验，导致攻击者可以构造类似 ../../tmp/ 的路径，从而绕过认证机制。由于 /tmp 等目录始终存在且时间戳持续更新，这种伪造路径可以被误认为是“有效 session”，实现未授权访问。 利用该漏洞，攻击者无需任何凭据即可通过单个 HTTP 请求访问 FortiSandbox 的多个敏感接口，获取系统版本、主机名、资源使用情况、扫描配置等信息，甚至下载加密的系统备份文件。该漏洞本质是“路径遍历 + 认证绕过”的组合问题，并且由于 /jsonrpc 接口本身被设计为绕过 Django 中间件认证，导致整个认证体系被破坏，最终形成一个高危的信息泄露入口。 **漏洞复现** 相关安全团队 漏洞研究院已成功复现 FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）。经验证，攻击者在绕过身份认证后，可获取系统信息。 CVE-2026-39813 FortiSandbox 身份验证绕过漏洞复现 **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **时间线** 2026年04月23日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 FortiSandbox 5.0 系列升级到 5.0.6 或更高版本 FortiSandbox 4.4 系列升级到 4.4.9 或更高版本",
+    "component_text": "",
+    "vulnerability_text": "该漏洞是 Fortinet FortiSandbox 中的一个严重路径遍历漏洞，主要出现在其 JRPC API 的会话认证逻辑中。具体来说，服务端在验证 session 时，直接将用户可控的 session 字段拼接到文件路径中（如 /usr/rpcsess/<session>），却没有做任何输入校验，导致攻击者可以构造类似 ../../tmp/ 的路径，从而绕过认证机制。由于 /tmp 等目录始终存在且时间戳持续更新，这种伪造路径可以被误认为是“有效 session”，实现未授权访问。 利用该漏洞，攻击者无需任何凭据即可通过单个 HTTP 请求访问 FortiSandbox 的多个敏感接口，获取系统版本、主机名、资源使用情况、扫描配置等信息，甚至下载加密的系统备份文件。该漏洞本质是“路径遍历 + 认证绕过”的组合问题，并且由于 /jsonrpc 接口本身被设计为绕过 Django 中间件认证，导致整个认证体系被破坏，最终形成一个高危的信息泄露入口。 漏洞复现 相关安全团队 漏洞研究院已成功复现 FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）。经验证，攻击者在绕过身份认证后，可获取系统信息。 CVE-2026-39813 FortiSandbox 身份验证绕过漏洞复现 产品侧支持情况 360安全智能体： 支持该漏洞攻击的智能分析 。 360测绘云 Quake ：默认支持该产品的指纹识别。 360高级持续性威胁预警系统 ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 360资产与漏洞检测管理系统 ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 本地安全大脑 ：默认支持该漏洞的PoC检测。",
+    "affected_versions_text": "FortiSandbox 5.0系列：5.0.0 <= 受影响版本 <= 5.0.5\nFortiSandbox 4.4系列：4.4.0 <= 受影响版本 <= 4.4.8",
+    "plain_text": "安全研究团队 安全研究团队 2026-04-23 17:02 FortiSandbox 曝出身份验证绕过高危漏洞（CVE-2026-39813，CVSS 9.8），攻击者无需凭据，通过构造包含路径遍历序列的请求，即可绕过访问控制并获取系统敏感配置。 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围** 以下版本的设备受到影响： FortiSandbox 5.0系列：5.0.0 ），却没有做任何输入校验，导致攻击者可以构造类似 ../../tmp/ 的路径，从而绕过认证机制。由于 /tmp 等目录始终存在且时间戳持续更新，这种伪造路径可以被误认为是“有效 session”，实现未授权访问。 利用该漏洞，攻击者无需任何凭据即可通过单个 HTTP 请求访问 FortiSandbox 的多个敏感接口，获取系统版本、主机名、资源使用情况、扫描配置等信息，甚至下载加密的系统备份文件。该漏洞本质是“路径遍历 + 认证绕过”的组合问题，并且由于 /jsonrpc 接口本身被设计为绕过 Django 中间件认证，导致整个认证体系被破坏，最终形成一个高危的信息泄露入口。 **04** **漏洞复现** 相关安全团队 漏洞研究院已成功复现 FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）。经验证，攻击者在绕过身份认证后，可获取系统信息。 CVE-2026-39813 FortiSandbox 身份验证绕过漏洞复现 **05** **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年04月24日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **06** **时间线** 2026年04月23日，安全研究团队发布本安全风险通告。 **07** 参考链接 https://fortiguard.fortinet.com/psirt/FG-IR-26-112 08 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://fortiguard.fortinet.com/psirt/FG-IR-26-112"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-112",
+      "content": "PSIRT | FortiGuard Labs Research Research Center Explore latest research and threat reports on emerging cyber threats. Outbreak Alerts Security Blog Threat Signal Services Services By Outbreak By Solution By Product Protect Counter measures across the security fabric for protecting assets, data and network. AI-Protect Security Anti-Botnet AntiMalware AntiSpam Application Control Intrusion Protection Operational Technology Security Sandbox Behavior Engine Web Application Security Web Filtering Detect Find and correlate important information to identify an outbreak. Find and correlate Anti-Recon and Anti-Exploit Cloud Threat Detection Endpoint Detection & Response Indicators of Compromise Outbreak Deception Outbreak Detection Security Automation Respond Develop containment techniques to mitigate impacts of security events. Develop containment Endpoint Detection and Response Endpoint Forensics Incident Response Recover Improve security posture and processes by implementing security awareness and training. Assessment Services NSE Training Security Awareness Training Identify Identify processes and assets that need protection. Identify processes and assets that Adversary Centric Intelligence Attack Surface Management Brand Protection Breach Attack Simulation Cloud Access Security Cloud Vulnerability DAST DevSecOps Endpoint Vulnerability IoT Device Detection Pen Testing Security Rating Network Security Anti-Botnet Anti-Recon and Anti-Exploit Data Loss Prevention Indicators of Compromise Internet Services Intrusion Protection IP Geolocation Network Detection and Response Operational Technology Security Secure DNS Web Filtering Cloud & Application Security AI-Protect Security Application Control Client Application Firewall Cloud Access Security Cloud Threat Detection Cloud Vulnerability Credential Stuffing Defense DAST Web Application Security Endpoint Security AntiSpam AntiVirus Endpoint Detection & Response Endpoint Vulnerability IoT Device Detection Sandbox Behavior Engine Web Filtering Security Operations Breach Attack Simulation DevSecOps Outbreak Deception Outbreak Detection Pen Testing Security Automation Security Rating FortiGate FortiAnalyzer FortiClient FortiWeb FortiADC FortiAuthenticator FortiCNP FortiDDoS FortiDeceptor FortiEDR FortiMail FortiNDR empty FortiPAM FortiPolicy FortiProxy FortiRecon FortiSandBox FortiSASE FortiSIEM FortiTester FortiDAST FortiCNAPP FortiDLP empty AI-Protect Security Anti-Botnet AntiVirus Application Control Cloud Access Security Intrusion Protection IoT Device Detection IP Geolocation Operational Technology Security Sandbox Behavior Engine Secure DNS Security Rating Web Filtering Indicators of Compromise Outbreak Detection Security Automation Anti-Botnet Anti-Recon and Anti-Exploit AntiVirus Application Firewall Credential Stuffing Defense Endpoint Vulnerability Intrusion Protection Outbreak Detection Sandbox Behavior Engine Web Filtering Anti-Botnet AntiVirus Application Control Credential Stuffing Defense Fuzzy Webshell IP Geolocation Sandbox Behavior Engine Web Application Security Anti-Botnet AntiVirus Credential Stuffing Defense Intrusion Protection IP Geolocation Sandbox Behavior Engine Web Application Security Web Filtering IP Geolocation Anti-Botnet Data Loss Prevention IP Geolocation Vulnerability Anti-Botnet Anti-Recon and Anti-Exploit AntiVirus Intrusion Protection Outbreak Deception AntiVirus EndPoint Detection and Response Endpoint Vulnerability Indicators of Compromise Sandbox Behavior Engine Web Filtering AntiSpam AntiVirus Sandbox Behavior Engine Web Filtering Network Detection and Response Sandbox Behavior Engine AntiVirus Data Loss Prevention Anti-Botnet Application Control Anti-Botnet Application Control Industrial Security Sandbox Behavior Engine Digital Risk Protection AntiVirus Intrusion Protection Sandbox Behavior Engine Web Filtering Anti-Botnet AntiVirus Application Control Data Loss Prevention Endpoint Vulnerability Intrusion Protection Sandbox Behavior Engine Secure D"
+    }
+  ],
+  "payload": {
+    "vulner_name": "FortiSandbox 身份验证绕过漏洞",
+    "vulner_number_1": "CVE-2026-39813",
+    "vulner_number_2": "漏洞编号： CVE-2026-39813",
+    "new_vulner_name": "FortiSandbox 身份验证绕过漏洞",
+    "vulner_date": "2026年4月23日",
+    "vulner_time_line": "2026/04/23",
+    "object_name": "FortiSandbox",
+    "object_desc": "FortiSandbox 是 Fortinet 公司推出的高级威胁分析平台，通过在隔离的虚拟环境中执行和监控可疑文件、URL 及下载内容，识别零日攻击和高级持久性威胁。该产品通常部署于企业网络边界或关键节点，与防火墙等安全设备联动实现动态安全防护。",
+    "vulner_version": "5.0.0 ≤ FortiSandbox ≤ 5.0.5 4.4.0 ≤ FortiSandbox ≤ 4.4.8",
+    "vulner_type": "身份认证绕过",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "CVSS 3.1评分9.8",
+    "vuln_level": "严重",
+    "vulner_desc": "FortiSandbox 的 JRPC API 在会话验证环节存在路径遍历漏洞。服务端直接将用户可控的 session 参数拼接到会话文件路径（如 /usr/rpcsess/<session>），未进行任何输入校验，导致攻击者可通过构造 ../../tmp/ 等路径遍历序列将伪造路径误导向为有效会话。此外，/jsonrpc 接口被设计为绕过 Django 中间件认证流程，认证体系因此被整体破坏。攻击者可在无需凭据的情况下，通过单个 HTTP 请求访问敏感接口，获取系统版本、主机名、扫描配置等关键信息，甚至下载加密的系统备份文件。",
+    "official_solution": "升级到安全版本。\n修复版本：FortiSandbox 5.0.6 或更高版本；FortiSandbox 4.4.9 或更高版本。\n下载链接：https://fortiguard.fortinet.com/psirt/FG-IR-26-112",
+    "reference_link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-112",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}
