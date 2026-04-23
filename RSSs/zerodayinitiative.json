@@ -153,5 +153,10 @@
         "title": "The April 2026 Security Update Review",
         "link": "https://www.thezdi.com/blog/2026/4/14/the-april-2026-security-update-review",
         "published": "Tue, 14 Apr 2026 17:49:19 +0000"
+    },
+    {
+        "title": "CVE-2026-33824: Remote Code Execution in Windows IKEv2",
+        "link": "https://www.thezdi.com/blog/2026/4/22/cve-2026-33824-remote-code-execution-in-windows-ikev2",
+        "published": "Thu, 23 Apr 2026 15:42:11 +0000"
     }
 ]
