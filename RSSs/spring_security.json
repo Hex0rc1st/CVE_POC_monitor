@@ -263,5 +263,45 @@
         "title": "CVE-2026-22747 - Medium - CVE-2026-22747: Unauthorized User Impersonation when Using X.509 Client Certificates",
         "link": "https://spring.io/security/cve-2026-22747",
         "published": "Mon, 20 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40970 - Medium - CVE-2026-40970: Elasticsearch auto-configuration with an SSL bundle disables TLS hostname verification",
+        "link": "https://spring.io/security/cve-2026-40970",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40971 - Medium - CVE-2026-40971: RabbitMQ auto-configuration with an SSL bundle disables TLS hostname verification",
+        "link": "https://spring.io/security/cve-2026-40971",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40972 - High - CVE-2026-40972: DevTools remote secret comparison is vulnerable to timing attacks",
+        "link": "https://spring.io/security/cve-2026-40972",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40973 - High - CVE-2026-40973: Predictable temp directory accepted without ownership verification",
+        "link": "https://spring.io/security/cve-2026-40973",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40974 - Medium - CVE-2026-40974: Cassandra SSL auto-configuration disables TLS hostname verification",
+        "link": "https://spring.io/security/cve-2026-40974",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40975 - Medium - CVE-2026-40975: Random value property source uses a weak PRNG unsuitable for secrets",
+        "link": "https://spring.io/security/cve-2026-40975",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40977 - Medium - CVE-2026-40977: PID file write follows symlinks at predictable default path",
+        "link": "https://spring.io/security/cve-2026-40977",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40976 - Critical - CVE-2026-40976: Default security filter chain has no authorization rule with Actuator but without Health",
+        "link": "https://spring.io/security/cve-2026-40976",
+        "published": "Thu, 23 Apr 2026 00:00:00 GMT"
     }
 ]
