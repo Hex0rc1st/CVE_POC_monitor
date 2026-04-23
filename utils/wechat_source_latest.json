@@ -6,7 +6,7 @@
   "doonsec:360漏洞研究院": "360漏洞研究院::【利用已复现】一个“!”引发的“血案”（Linux Kernel NF_TABLES模块提权漏洞）",
   "wxrss_static:360漏洞研究院": "360漏洞研究院::【利用已复现】一个“!”引发的“血案”（Linux Kernel NF_TABLES模块提权漏洞）",
   "wxrss_static:奇安信 CERT": "奇安信cert::Oracle 2026年4月补丁日多产品高危漏洞安全风险通告",
-  "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::无条件接管Nginx！Nginx-UI漏洞链发现在野利用",
+  "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::突发：Checkmarx再次遭遇供应链投毒！速查",
   "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析",
   "doonsec:奇安信 CERT": "奇安信cert::【已复现】Cockpit 远程代码执行漏洞(CVE-2026-4631)安全风险通告",
   "bruce_picker:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",

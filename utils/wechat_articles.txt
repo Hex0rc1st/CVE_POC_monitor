@@ -1534,3 +1534,9 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505333&idx=1&sn=5d
 360漏洞研究院::【利用已复现】一个“!”引发的“血案”（Linux Kernel NF_TABLES模块提权漏洞）
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496930&idx=1&sn=834359814069ea51536438567a6acc3c&chksm=c2292971054e6646363042bfad6986f3d1d4b758c76f4d4864078455aa5c2a376ff81dbf79a1&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496930&idx=1&sn=834359814069ea51536438567a6acc3c
+微步在线研究响应中心::突发：Xinference PyPI 遭投毒！速查
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508649&idx=2&sn=de697976c81a783cbcb86ffaeb528875&chksm=ce9fa9ca56fd025cec1abab4226783647d12cbab4b832da0d6f577b6ec129cdded3a3201bee5&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508649&idx=2&sn=de697976c81a783cbcb86ffaeb528875
+微步在线研究响应中心::突发：Checkmarx再次遭遇供应链投毒！速查
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508649&idx=1&sn=a1931d6a89e8851fa93a599af6cf6e15&chksm=ce93975e2be097a889850c8cd4d8becc1a09290a778ba0e125b941103471d8418e22aae034f7&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508649&idx=1&sn=a1931d6a89e8851fa93a599af6cf6e15

@@ -3487,3 +3487,4 @@ clean_list:
 - CVE-2026-33827
 - CVE-2026-21876
 - CVE-2026-33826
+- jenkins_scan
