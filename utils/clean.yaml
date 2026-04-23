@@ -3490,3 +3490,5 @@ clean_list:
 - jenkins_scan
 - CVE-2026-6018-9-Local-Privilege-Escalation-Chain
 - CVE-2026-0603
+- CVE-2026-41651
+- cve-2026-human-001
