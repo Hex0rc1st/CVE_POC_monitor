@@ -3488,3 +3488,5 @@ clean_list:
 - CVE-2026-21876
 - CVE-2026-33826
 - jenkins_scan
+- CVE-2026-6018-9-Local-Privilege-Escalation-Chain
+- CVE-2026-0603
