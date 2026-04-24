@@ -67,3 +67,4 @@ https://github.com/Catherines77/ActiveMQ-EXPtools
 https://github.com/ynsmroztas/FortiSandbox-RCE-Exploit-CVE-2026-39808
 https://github.com/truekas/ls-poc
 https://github.com/Vozec/CVE-2026-41651
+https://github.com/CipherCloak/CVE-2026-41651
