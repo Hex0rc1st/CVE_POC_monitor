@@ -3497,3 +3497,5 @@ clean_list:
 - meshtastic-spoof-research
 - CVE-2026-3844
 - alpr-dashboard-patches
+- CVE-2026-31429-POC
+- cve-2026-41679

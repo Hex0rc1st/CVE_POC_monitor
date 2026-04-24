@@ -3043,5 +3043,10 @@
         "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
         "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
         "published": "Thu, 23 Apr 2026 23:46:00 +0530"
+    },
+    {
+        "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
+        "published": "Fri, 24 Apr 2026 12:54:00 +0530"
     }
 ]
