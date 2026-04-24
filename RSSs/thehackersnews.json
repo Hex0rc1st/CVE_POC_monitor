@@ -3048,5 +3048,10 @@
         "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
         "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
         "published": "Fri, 24 Apr 2026 12:54:00 +0530"
+    },
+    {
+        "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
+        "link": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
+        "published": "Fri, 24 Apr 2026 14:59:00 +0530"
     }
 ]
