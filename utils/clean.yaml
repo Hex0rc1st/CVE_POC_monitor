@@ -3501,3 +3501,4 @@ clean_list:
 - cve-2026-41679
 - CVE-2026-41653
 - cve-2024-38063-detection-mitigation-system
+- CVE-2025-25279-Mattermost-Path-Traversal
