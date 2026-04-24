@@ -3494,3 +3494,6 @@ clean_list:
 - cve-2026-human-001
 - cs50-final-project
 - HTB-Pterodactyl-Writeup
+- meshtastic-spoof-research
+- CVE-2026-3844
+- alpr-dashboard-patches
