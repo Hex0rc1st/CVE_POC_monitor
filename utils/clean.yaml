@@ -3509,3 +3509,4 @@ clean_list:
 - CVE-2026-22038
 - Moniker-Link--CVE-2024-21413-
 - CP3418_BestPracticesCybersecurity_OTANATA_Project
+- CVE-2026-21847-Hardcoded-AES-Encryption-Key-in-DPDC-Customer-Portal
