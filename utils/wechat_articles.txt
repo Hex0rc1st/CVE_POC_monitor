@@ -1545,3 +1545,5 @@ http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505361&idx=1&sn=01078da
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505361&idx=1&sn=01078dadf040b30872c7fc973f212085
 360漏洞研究院::【已复现】FortiSandbox 身份验证绕过漏洞（CVE-2026-39813）
 https://mp.weixin.qq.com/s/ZRSw0R8mH1tY_7jsYUswRA
+奇安信cert::安全热点周报：Windows Defender 被漏洞利用，成了黑客的“帮凶”
+https://mp.weixin.qq.com/s/42yvn5LXHYev-R476cdzdQ

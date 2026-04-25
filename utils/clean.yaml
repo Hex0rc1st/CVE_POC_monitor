@@ -3502,3 +3502,9 @@ clean_list:
 - CVE-2026-41653
 - cve-2024-38063-detection-mitigation-system
 - CVE-2025-25279-Mattermost-Path-Traversal
+- CVE-2025-68621
+- CVE-2025-27407
+- CVE-2025-67146-CVE-2025-67147
+- pack2theroot-lab
+- CVE-2026-22038
+- Moniker-Link--CVE-2024-21413-
