@@ -3511,3 +3511,4 @@ clean_list:
 - CP3418_BestPracticesCybersecurity_OTANATA_Project
 - CVE-2026-21847-Hardcoded-AES-Encryption-Key-in-DPDC-Customer-Portal
 - CVE-2025-55182-Researching-process
+- CVE-2026-1207
