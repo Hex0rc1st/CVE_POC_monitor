@@ -303,5 +303,30 @@
         "title": "CVE-2026-40976 - Critical - CVE-2026-40976: Default security filter chain has no authorization rule with Actuator but without Health",
         "link": "https://spring.io/security/cve-2026-40976",
         "published": "Thu, 23 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40966 - Moderate - CVE-2026-40966: VectorStoreChatMemoryAdvisor conversation scoping can lead to cross-tenant memory exfiltration",
+        "link": "https://spring.io/security/cve-2026-40966",
+        "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40967 - High - CVE-2026-40967: VectorStore FilterExpression Converter injection",
+        "link": "https://spring.io/security/cve-2026-40967",
+        "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40978 - High - CVE-2026-40978: SQL Injection in CosmosDBVectorStore.doDelete()",
+        "link": "https://spring.io/security/cve-2026-40978",
+        "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40979 - Moderate - CVE-2026-40979: ONNX model cache defaults to world-writable predictable /tmp directory",
+        "link": "https://spring.io/security/cve-2026-40979",
+        "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40980 - Moderate - CVE-2026-40980: OOM by attacker-controlled PDF",
+        "link": "https://spring.io/security/cve-2026-40980",
+        "published": "Mon, 27 Apr 2026 00:00:00 GMT"
     }
 ]
