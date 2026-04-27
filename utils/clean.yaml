@@ -3515,3 +3515,5 @@ clean_list:
 - CVE-2026-39987-lab-or-marimo-cve-lab
 - cve-breeze-2026
 - cve-2026-21877-rce
+- CVE-2026-0911
+- CVE-2026-22812-OpenCode-RCE-exp
