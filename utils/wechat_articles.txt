@@ -1549,3 +1549,5 @@ https://mp.weixin.qq.com/s/ZRSw0R8mH1tY_7jsYUswRA
 https://mp.weixin.qq.com/s/42yvn5LXHYev-R476cdzdQ
 奇安信cert::今日（2026年4月26日）热点网络安全漏洞动态
 https://mp.weixin.qq.com/s/yk3Na1rZNQq8d0ck-cs45A
+360漏洞研究院::如何骗过 PackageKit 拿到 Root（CVE-2026-41651）
+https://mp.weixin.qq.com/s/dSOYqzaeNhDCVlXfgAJOow
