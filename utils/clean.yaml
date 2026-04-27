@@ -3517,3 +3517,4 @@ clean_list:
 - cve-2026-21877-rce
 - CVE-2026-0911
 - CVE-2026-22812-OpenCode-RCE-exp
+- diskoverdata-cve-writeups
