@@ -3523,3 +3523,5 @@ clean_list:
 - CVE-2026-6643
 - bomdrift
 - CVE-2026-33439-PoC
+- cve-2026-22747-lab
+- proftpd-CVE-2026-42167-poc
