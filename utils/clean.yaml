@@ -3521,3 +3521,4 @@ clean_list:
 - malicious_test
 - CVE-2025-67223
 - CVE-2026-6643
+- bomdrift
