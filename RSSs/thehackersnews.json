@@ -3128,5 +3128,15 @@
         "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
         "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
         "published": "Tue, 28 Apr 2026 11:20:00 +0530"
+    },
+    {
+        "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+        "published": "Tue, 28 Apr 2026 16:48:00 +0530"
+    },
+    {
+        "title": "After Mythos: New Playbooks For a Zero-Window Era",
+        "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+        "published": "Tue, 28 Apr 2026 16:00:00 +0530"
     }
 ]
