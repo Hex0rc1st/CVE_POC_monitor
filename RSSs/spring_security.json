@@ -328,5 +328,15 @@
         "title": "CVE-2026-40980 - Moderate - CVE-2026-40980: OOM by attacker-controlled PDF",
         "link": "https://spring.io/security/cve-2026-40980",
         "published": "Mon, 27 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40968 - Medium - CVE-2026-40968: Spring gRPC SecurityContext leaks across requests on authorization failure",
+        "link": "https://spring.io/security/cve-2026-40968",
+        "published": "Tue, 28 Apr 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40969 - Low - CVE-2026-40969: Spring gRPC AuthenticationException message reflected to remote client",
+        "link": "https://spring.io/security/cve-2026-40969",
+        "published": "Tue, 28 Apr 2026 00:00:00 GMT"
     }
 ]

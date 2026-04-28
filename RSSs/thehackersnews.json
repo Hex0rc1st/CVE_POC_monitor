@@ -3113,5 +3113,20 @@
         "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
         "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
         "published": "Mon, 27 Apr 2026 19:00:00 +0530"
+    },
+    {
+        "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
+        "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
+        "published": "Tue, 28 Apr 2026 13:27:00 +0530"
+    },
+    {
+        "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+        "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+        "published": "Tue, 28 Apr 2026 12:07:00 +0530"
+    },
+    {
+        "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+        "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+        "published": "Tue, 28 Apr 2026 11:20:00 +0530"
     }
 ]
