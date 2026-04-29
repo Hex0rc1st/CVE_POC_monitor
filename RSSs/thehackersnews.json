@@ -3163,5 +3163,10 @@
         "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
         "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
         "published": "Wed, 29 Apr 2026 11:04:00 +0530"
+    },
+    {
+        "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+        "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+        "published": "Wed, 29 Apr 2026 14:16:00 +0530"
     }
 ]

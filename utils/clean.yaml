@@ -3529,3 +3529,7 @@ clean_list:
 - CVE-2026-3854-PoC
 - thymeleaf.CVE_2026_40478
 - PHP_8.1.x_Exploit
+- proftpd-CVE-2026-42167-analysis
+- CVE-2026-38945
+- vicidial-cve-2024-8503-blind-sqli-poc
+- evil-repo
