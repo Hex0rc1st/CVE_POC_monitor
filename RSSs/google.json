@@ -798,5 +798,15 @@
         "title": "Stable Channel Update for Desktop",
         "link": "http://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop_28.html",
         "published": "2026-04-28T12:59:00.000-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/04/chrome-for-android-update_0728871806.html",
+        "published": "2026-04-28T16:00:00.000-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/04/beta-channel-update-for-chromeos_28.html",
+        "published": "2026-04-28T15:05:00.000-07:00"
     }
 ]

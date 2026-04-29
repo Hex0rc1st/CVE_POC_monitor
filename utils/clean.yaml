@@ -3525,3 +3525,5 @@ clean_list:
 - CVE-2026-33439-PoC
 - cve-2026-22747-lab
 - proftpd-CVE-2026-42167-poc
+- CVE-2026-6644
+- CVE-2026-3854-PoC
