@@ -3527,3 +3527,5 @@ clean_list:
 - proftpd-CVE-2026-42167-poc
 - CVE-2026-6644
 - CVE-2026-3854-PoC
+- thymeleaf.CVE_2026_40478
+- PHP_8.1.x_Exploit

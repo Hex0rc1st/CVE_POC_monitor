@@ -3158,5 +3158,10 @@
         "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
         "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
         "published": "Tue, 28 Apr 2026 23:49:00 +0530"
+    },
+    {
+        "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+        "published": "Wed, 29 Apr 2026 11:04:00 +0530"
     }
 ]
