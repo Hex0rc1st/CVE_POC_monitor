@@ -3533,3 +3533,5 @@ clean_list:
 - CVE-2026-38945
 - vicidial-cve-2024-8503-blind-sqli-poc
 - evil-repo
+- CVE-2026-3910
+- CVE-2026-35414
