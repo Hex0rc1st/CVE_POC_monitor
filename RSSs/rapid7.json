@@ -588,5 +588,10 @@
         "title": "Experts on Experts: The 2026 Threat Landscape is Moving Faster than Defenders Expect",
         "link": "https://www.rapid7.com/blog/post/it-security-experts-2026-threat-landscape-moving-faster-than-defenders",
         "published": "Wed, 29 Apr 2026 12:27:35 GMT"
+    },
+    {
+        "title": "CVE-2026-41940: cPanel & WHM Authentication Bypass",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-41940-cpanel-whm-authentication-bypass",
+        "published": "Wed, 29 Apr 2026 20:00:20 GMT"
     }
 ]
