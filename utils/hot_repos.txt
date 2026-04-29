@@ -69,3 +69,4 @@ https://github.com/truekas/ls-poc
 https://github.com/Vozec/CVE-2026-41651
 https://github.com/CipherCloak/CVE-2026-41651
 https://github.com/casp3r0x0/CVE-2026-34159
+https://github.com/ZeroPathAI/proftpd-CVE-2026-42167-poc

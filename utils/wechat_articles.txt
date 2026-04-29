@@ -1555,3 +1555,7 @@ https://mp.weixin.qq.com/s/dSOYqzaeNhDCVlXfgAJOow
 https://mp.weixin.qq.com/s/hgH1SOCfuetBs-F_aueixQ
 微步在线研究响应中心::LiteLLM SQL注入漏洞可无条件触发
 https://mp.weixin.qq.com/s/ytNWdqGECo0fmWwPQGqy8A
+360漏洞研究院::成功复现！一条 git push 即可接管 GitHub 服务器，任意拉取他人私有仓库 (CVE-2026-3854)
+https://mp.weixin.qq.com/s/3BgVRD3ap1MukW8C2kPS2w
+微步在线研究响应中心::一个人，两个AI，0代码，把墨西哥政府打成筛子
+https://mp.weixin.qq.com/s/pn-AW7Sz76vzPMdhcpzfWw

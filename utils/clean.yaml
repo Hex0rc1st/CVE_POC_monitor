@@ -3535,3 +3535,4 @@ clean_list:
 - evil-repo
 - CVE-2026-3910
 - CVE-2026-35414
+- CVE-2024-29988
