@@ -71,3 +71,4 @@ https://github.com/CipherCloak/CVE-2026-41651
 https://github.com/casp3r0x0/CVE-2026-34159
 https://github.com/ZeroPathAI/proftpd-CVE-2026-42167-poc
 https://github.com/theori-io/copy-fail-CVE-2026-31431
+https://github.com/rootsecdev/cve_2026_31431
