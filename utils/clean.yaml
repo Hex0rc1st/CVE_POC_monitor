@@ -3552,3 +3552,16 @@ clean_list:
 - CVE-2026-31431-C
 - cve-2026
 - cve-2026-41940-poc
+- CVE-2026-24294
+- CVE-2026-31431-
+- copy-fail-CVE-2026-31431-C
+- copyFail-CVE-2026-31431-workaround-bash
+- poc-cve-1291-2026
+- claude-project-scanner
+- linux-vuln-CVE-2026-31431
+- cve-2026-31431-detection
+- copy-fail-CVE-2026-31431-universal
+- cPanelWHM-AuthBypass
+- check-cve-2026-31431
+- CVE-2026-31431_EXP
+- CVE-2026-31431-exploit

@@ -8,9 +8,10 @@
   "wxrss_static:奇安信 CERT": "奇安信cert::深度分析 | 在官方 KICS Docker 中发现恶意 Checkmarx 构件",
   "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::突发：Checkmarx再次遭遇供应链投毒！速查",
   "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::一亿周下载量的HTTP客户端库遭供应链攻击，axios投毒事件深度分析",
-  "doonsec:奇安信 CERT": "奇安信cert::今日（2026年4月26日）热点网络安全漏洞动态",
+  "doonsec:奇安信 CERT": "奇安信cert::【已复现】Linux Kernel \\\"Copy Fail\\\" 本地权限提升漏洞(CVE-2026-31431)安全风险通告",
   "bruce_picker:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",
   "bruce_picker:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
   "bruce_picker:微步在线研究响应中心": "微步在线研究响应中心::Nginx曝新漏洞，特定配置下可实现任意文件读写",
-  "doonsec:微步在线研究响应中心": "微步在线研究响应中心::一个人，两个AI，0代码，把墨西哥政府打成筛子"
+  "doonsec:微步在线研究响应中心": "微步在线研究响应中心::Linux提权漏洞！10行代码直接root",
+  "doonsec:长亭安全应急响应中心": "长亭安全应急响应中心::【已复现】732字节、1秒root、九年无人知——Linux近年最稳定提权漏洞"
 }

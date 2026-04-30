@@ -76,3 +76,4 @@ https://github.com/badsectorlabs/copyfail-go
 https://github.com/tgies/copy-fail-c
 https://github.com/Sndav/CVE-2026-31431-Advanced-Exploit
 https://github.com/Sachinart/CVE-2026-41940-cpanel-0day
+https://github.com/Crihexe/copy-fail-tiny-elf-CVE-2026-31431
