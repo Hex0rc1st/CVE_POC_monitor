@@ -3577,3 +3577,17 @@ clean_list:
 - CVE-2026-41940
 - cpanel2shell-scanner
 - CVE-2026-31431-Linux-Copy-Fail
+- CVE-2026-31431-CopyFail-Universal-LPE
+- TEST-CVE-2026-31431
+- Copy-Fail_Detect_and_mitigate_CVE-2026-31431
+- yc-mk8s-copy-fail-mitigation
+- Copy-Fail
+- copy-fail-cve-2026-31431
+- Copy_Fail_CVE-2026-31431_test_and_fix
+- copy-fail_LPE_Interactive
+- cve_2026_31431_live-mitigation
+- CVE-2026-31431-mitigation-rhel
+- CVE-2026-32202
+- Copy-Fail-CVE-2026-31431-Kubernetes-PoC
+- Kaspersky_CVE-2024-3094
+- CVE-2026-31431-exp

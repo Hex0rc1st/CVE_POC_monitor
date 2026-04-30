@@ -3198,5 +3198,10 @@
         "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
         "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
         "published": "Thu, 30 Apr 2026 12:37:00 +0530"
+    },
+    {
+        "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+        "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+        "published": "Thu, 30 Apr 2026 14:54:00 +0530"
     }
 ]
