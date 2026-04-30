@@ -593,5 +593,10 @@
         "title": "CVE-2026-41940: cPanel & WHM Authentication Bypass",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-41940-cpanel-whm-authentication-bypass",
         "published": "Wed, 29 Apr 2026 20:00:20 GMT"
+    },
+    {
+        "title": "Five Things we Took Away from Gartner SRM Sydney 2026",
+        "link": "https://www.rapid7.com/blog/post/it-5-things-gartner-srm-sydney-2026",
+        "published": "Wed, 29 Apr 2026 23:00:00 GMT"
     }
 ]
