@@ -3591,3 +3591,12 @@ clean_list:
 - Copy-Fail-CVE-2026-31431-Kubernetes-PoC
 - Kaspersky_CVE-2024-3094
 - CVE-2026-31431-exp
+- copyfail-rs
+- CVE-2026-31431-patch
+- alg_check
+- BitUnlocker
+- CVE-2024-49113
+- way2poc_cve-2026-34475
+- CVE-2026-31431-old-python
+- copy-fail-go
+- CVE-2026-31431-Patch
