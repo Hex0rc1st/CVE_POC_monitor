@@ -84,3 +84,6 @@ https://github.com/assetnote/cpanel2shell-scanner
 https://github.com/Theori-lO/copy-fail-CVE-2026-31431
 https://github.com/kadir/copy-fail-CVE-2026-31431-IOC
 https://github.com/desultory/CVE-2026-31431
+https://github.com/iss4cf0ng/CVE-2026-31431-Linux-Copy-Fail
+https://github.com/wgnet/wg.copyfail.patch
+https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC
