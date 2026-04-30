@@ -1565,3 +1565,5 @@ https://mp.weixin.qq.com/s/mHwL-41--rUAczfSYaeo_w
 https://mp.weixin.qq.com/s/-8PO6l29GqRPVSYxR0vGig
 奇安信cert::【已复现】Linux Kernel \"Copy Fail\" 本地权限提升漏洞(CVE-2026-31431)安全风险通告
 https://mp.weixin.qq.com/s/-5nohB52WQtD3lV7xInIKg
+奇安信cert::安全热点周报：LiteLLM 认证路径曝 SQL注入漏洞，披露 36 小时即遭定向攻击
+https://mp.weixin.qq.com/s/PYwSeMEa8R0c8kEvrI_vgA

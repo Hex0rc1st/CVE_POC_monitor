@@ -3565,3 +3565,15 @@ clean_list:
 - check-cve-2026-31431
 - CVE-2026-31431_EXP
 - CVE-2026-31431-exploit
+- CVE-2026-31431-Golang
+- copy-fail-cve-2026-31431-aarch64
+- cve-2026-31431-fleet-remediator
+- copy.fail-mitigation-MLM
+- copy-fail-CVE-2026-31431-IOC
+- cve-2026-31431-mitigation
+- RootRemover
+- copy-fail-mitigate-no-reboot
+- fuck_cve_2026_31431
+- CVE-2026-41940
+- cpanel2shell-scanner
+- CVE-2026-31431-Linux-Copy-Fail

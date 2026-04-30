@@ -3193,5 +3193,10 @@
         "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
         "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
         "published": "Wed, 29 Apr 2026 20:13:00 +0530"
+    },
+    {
+        "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+        "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+        "published": "Thu, 30 Apr 2026 12:37:00 +0530"
     }
 ]
