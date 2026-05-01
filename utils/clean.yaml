@@ -3618,3 +3618,12 @@ clean_list:
 - CVE_REPORT_2026
 - CVE-2026-0047-poc
 - exploit_cve_2026_31431_py36
+- CVE-2025-58434-PoC
+- CVE-2026-31431-PocC
+- CVE-2026-31431-live-process-code-injection
+- cve_2026_31431_audit
+- CVE-2026-31431-Copy-Fail
+- cso-vibecheck
+- CVE-2024-4367-PDFjs-Exploit-Framework
+- block-copyfail
+- copy-fail-exploit-on-c-redteam

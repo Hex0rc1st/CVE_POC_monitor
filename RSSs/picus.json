@@ -668,5 +668,15 @@
         "title": "Machine-Speed Defense for Lean Security Teams - APAC Webinar",
         "link": "https://www.picussecurity.com/resource/webinar/machine-speed-defense-for-lean-security-teams-autonomous-exposure-validation-in-practice",
         "published": "Wed, 29 Apr 2026 11:56:18 GMT"
+    },
+    {
+        "title": "CVE-2026-41940 Explained: The cPanel & WHM Authentication Bypass That Hit 1.5M Servers",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-41940-explained-cpanel-whm-authentication-bypass-hit-1-5m-servers",
+        "published": "Fri, 01 May 2026 11:12:49 GMT"
+    },
+    {
+        "title": "Copy Fail: Critical Linux Kernel Privilege Escalation Vulnerability - CVE-2026-31431",
+        "link": "https://www.picussecurity.com/resource/blog/copy-fail-critical-linux-kernel-privilege-escalation-vulnerability-cve-2026-31431",
+        "published": "Fri, 01 May 2026 10:57:57 GMT"
     }
 ]
