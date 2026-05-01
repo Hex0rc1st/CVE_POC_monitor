@@ -97,3 +97,4 @@ https://github.com/Kagantua/cPanelWHM-AuthBypass
 https://github.com/Dabbleam/CVE-2026-31431-mitigation
 https://github.com/sammwyy/copyfail-rs
 https://github.com/rfxn/copyfail
+https://github.com/rfxn/cpanel-sessionscribe
