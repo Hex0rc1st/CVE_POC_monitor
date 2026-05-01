@@ -3607,3 +3607,7 @@ clean_list:
 - copy-fail-fix
 - cve-2026-31431-ansible
 - cve-2026-31431-algif-aead-remediator
+- copyfail-briefing
+- copy-fail-python
+- d8-copy-fail-mitigation
+- cpanel-cve-2026-41940

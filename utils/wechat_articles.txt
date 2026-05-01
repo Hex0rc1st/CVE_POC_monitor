@@ -1569,3 +1569,5 @@ https://mp.weixin.qq.com/s/-5nohB52WQtD3lV7xInIKg
 https://mp.weixin.qq.com/s/PYwSeMEa8R0c8kEvrI_vgA
 微步在线研究响应中心::Copyfail提权漏洞(CVE-2026-31431)临时缓解措施
 https://mp.weixin.qq.com/s/cFYqAUqjsbVwoNm2B4XCnw
+奇安信cert::今日（2026年5月1日）热点网络安全漏洞动态
+https://mp.weixin.qq.com/s/LmGpBQH7k4z7FNnlSdlSgw
