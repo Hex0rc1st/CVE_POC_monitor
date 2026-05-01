@@ -93,3 +93,6 @@ https://github.com/shadowabi/CVE-2026-31431-CopyFail-Universal-LPE
 https://github.com/ilmndwntr/CVE-2026-41940-MASS-EXPLOIT
 https://github.com/diemoeve/copyfail-rs
 https://github.com/ynsmroztas/cPanelSniper
+https://github.com/Kagantua/cPanelWHM-AuthBypass
+https://github.com/Dabbleam/CVE-2026-31431-mitigation
+https://github.com/sammwyy/copyfail-rs

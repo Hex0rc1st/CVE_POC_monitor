@@ -3635,3 +3635,6 @@ clean_list:
 - Copy-Fail---CVE-2026-31431
 - cve-2026-41940-tool
 - cPanelSniper
+- copy_fail
+- cve-checker-2026
+- cpanelscanner
