@@ -3627,3 +3627,11 @@ clean_list:
 - CVE-2024-4367-PDFjs-Exploit-Framework
 - block-copyfail
 - copy-fail-exploit-on-c-redteam
+- CVE-2026-42167-PoC
+- Linux-CopyFail-C-Version-CVE-2026-31431
+- CVE-2026-31431_je_sappelle_RoOt
+- kopy-fail-CVE-2026-31431
+- CVE_2026_31431-Testing-the-Copy-Fail-exploit
+- Copy-Fail---CVE-2026-31431
+- cve-2026-41940-tool
+- cPanelSniper
