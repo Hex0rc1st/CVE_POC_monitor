@@ -3600,3 +3600,10 @@ clean_list:
 - CVE-2026-31431-old-python
 - copy-fail-go
 - CVE-2026-31431-Patch
+- Porting-CVE-2026-31431-Copy-Fail-to-a-Constrained-Java-Runner
+- Copy-Fail-Exploit-CVE-2026-31431
+- CVE-2026-41940_exploit
+- cPanel-CVE-2026-41940-Scanner
+- copy-fail-fix
+- cve-2026-31431-ansible
+- cve-2026-31431-algif-aead-remediator
