@@ -3223,5 +3223,10 @@
         "title": "PyTorch Lightning Compromised in PyPI Supply Chain Attack to Steal Credentials",
         "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
         "published": "Thu, 30 Apr 2026 22:01:00 +0530"
+    },
+    {
+        "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+        "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+        "published": "Fri, 01 May 2026 15:13:00 +0530"
     }
 ]

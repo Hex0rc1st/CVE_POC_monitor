@@ -3611,3 +3611,10 @@ clean_list:
 - copy-fail-python
 - d8-copy-fail-mitigation
 - cpanel-cve-2026-41940
+- copyfail-mitigation
+- CVE-2026-31431-CopyFail
+- almalinux-fix-cve-2026-31431
+- CVE-2026-41940-AuthBypass-Detector
+- CVE_REPORT_2026
+- CVE-2026-0047-poc
+- exploit_cve_2026_31431_py36
