@@ -3656,3 +3656,6 @@ clean_list:
 - CVE-2025-24367-Cacti-Exploit
 - CVE-2026-42167-Exploit
 - CVE-2026-31431-copyfail-rs
+- CVE-2026-31431-mitigation-suite
+- cpp-CVE-2026-31431
+- CVE-2026-31431-RCE-Exploit
