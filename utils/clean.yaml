@@ -3638,3 +3638,8 @@ clean_list:
 - copy_fail
 - cve-checker-2026
 - cpanelscanner
+- copy-fail-CVE-2026-31431-poc
+- modrosnlr5
+- fix_CVE-2026-31431
+- CVE-2026-31431-Container-Escape
+- CVE-2026-39387
