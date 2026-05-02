@@ -100,3 +100,4 @@ https://github.com/rfxn/copyfail
 https://github.com/rfxn/cpanel-sessionscribe
 https://github.com/qi4L/CVE-2026-31431-Container-Escape
 https://github.com/senyx122/CVE-2026-41940
+https://github.com/yandex-cloud-examples/yc-mk8s-copy-fail-mitigation
