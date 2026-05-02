@@ -3646,3 +3646,11 @@ clean_list:
 - CVE-2026-41940---cPanel-WHM-check
 - cve-2026-41200-stig-manager-oidc-reflected-xss
 - CVE-2026-31431-check
+- copyfailRecurrence
+- copyfail-CVE-2026-31431
+- CVE-2026-7567-POC
+- CVE-2026-31431-Report-Copy-fail-Vulnerability-
+- copy-fail-CVE-2026-31431-php
+- Copy-Fail-CVE-2026-31431-modernized
+- CVE-2026-42779
+- CVE-2025-24367-Cacti-Exploit

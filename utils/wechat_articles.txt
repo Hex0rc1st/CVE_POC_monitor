@@ -1571,3 +1571,5 @@ https://mp.weixin.qq.com/s/PYwSeMEa8R0c8kEvrI_vgA
 https://mp.weixin.qq.com/s/cFYqAUqjsbVwoNm2B4XCnw
 奇安信cert::今日（2026年5月1日）热点网络安全漏洞动态
 https://mp.weixin.qq.com/s/LmGpBQH7k4z7FNnlSdlSgw
+奇安信cert::今日（2026年5月2日）热点网络安全漏洞动态
+https://mp.weixin.qq.com/s/wT5hFY9_7vIjWQHLPiMR-Q
