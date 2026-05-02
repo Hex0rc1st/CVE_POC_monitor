@@ -3664,3 +3664,5 @@ clean_list:
 - ansible-role-cve-2026-31431
 - CVE-2026-31431-PoC
 - autorootlinux
+- CVE-2026-7671
+- cve-2026-41940-scanner
