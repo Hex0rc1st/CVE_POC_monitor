@@ -3659,3 +3659,5 @@ clean_list:
 - CVE-2026-31431-mitigation-suite
 - cpp-CVE-2026-31431
 - CVE-2026-31431-RCE-Exploit
+- CVE-2025-69985-FUXA-Exploit
+- CVE-2026-41044
