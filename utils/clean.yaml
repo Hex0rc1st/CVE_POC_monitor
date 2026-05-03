@@ -3672,3 +3672,4 @@ clean_list:
 - Copy-Fail-CVE-2026-31431-Linux-exp-tools-C-EXP
 - CVE-2026-3494
 - cve-2026-31431-check
+- CVE-2026-29000-pac4j-jwt

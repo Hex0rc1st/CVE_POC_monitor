@@ -3258,5 +3258,10 @@
         "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
         "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
         "published": "Sat, 02 May 2026 12:11:00 +0530"
+    },
+    {
+        "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+        "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+        "published": "Sun, 03 May 2026 11:56:00 +0530"
     }
 ]
