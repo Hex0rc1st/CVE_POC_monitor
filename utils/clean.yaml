@@ -3678,3 +3678,4 @@ clean_list:
 - copy-fail-rs
 - POC_CVE-2026-41940
 - cve-2026-31431-checker
+- Weekly-Breach-Investigation--006
