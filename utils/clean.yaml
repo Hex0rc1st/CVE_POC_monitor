@@ -3674,3 +3674,4 @@ clean_list:
 - cve-2026-31431-check
 - CVE-2026-29000-pac4j-jwt
 - CVE-2026-31431-Linux-Kernel-Copy-Fail-Detector
+- CVE-2026-42208
