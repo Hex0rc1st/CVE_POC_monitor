@@ -107,3 +107,4 @@ https://github.com/boxed-dev/vibe-coding-security
 https://github.com/boxed-dev/vibe-coding-security
 https://github.com/dinosn/CVE-2026-42779
 https://github.com/Shotafry/CopyFail-Exploits-CVE-2026-31431
+https://github.com/malwarekid/CVE-2026-31431
