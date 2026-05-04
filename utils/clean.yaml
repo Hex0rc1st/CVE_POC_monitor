@@ -3699,3 +3699,8 @@ clean_list:
 - CVE-2026041940-IoC-forensics-instructions
 - cve-2026-6379
 - cve-2026-39440-funnelforms-fix
+- copyfail-exploit
+- 2026-41940-poc
+- CVE-2026-41940-cPanel-WHM-Verification-Tool
+- sorry-ransomware-analysis
+- CVE-2026-39987-Lab
