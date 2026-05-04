@@ -3704,3 +3704,7 @@ clean_list:
 - CVE-2026-41940-cPanel-WHM-Verification-Tool
 - sorry-ransomware-analysis
 - CVE-2026-39987-Lab
+- cve-2026-41940
+- CVE-2026-42778-POC
+- play-go-copy-fail-cve-2026-31431
+- Mitigaciones
