@@ -3681,3 +3681,4 @@ clean_list:
 - Weekly-Breach-Investigation--006
 - CopyFail-for-dummies
 - CVE-2026-41940-next
+- CVE-2026-31431_CopyFail_LinuxKernel_LPE
