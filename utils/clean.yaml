@@ -3686,3 +3686,8 @@ clean_list:
 - CVE-2026-7669-PoC
 - CVE-2026-42167
 - BigFix-CopyFail-AlmaLinux-Content
+- copy-fail-CVE-2026-31431-detection-probe
+- CopyFail-Penguin
+- CVE_2026_31431_FIXED
+- copy-fail-checker
+- PoC-Simulator_CVE-2026-27778
