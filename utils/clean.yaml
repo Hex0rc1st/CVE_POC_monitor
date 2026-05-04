@@ -3691,3 +3691,11 @@ clean_list:
 - CVE_2026_31431_FIXED
 - copy-fail-checker
 - PoC-Simulator_CVE-2026-27778
+- copy-fail-CVE-2026-31431-shell
+- RK35xx-CopyFail-Hotfix
+- CVE-2025-40214
+- CVE-2026-34159-Vulnerability-Research-Analysis-Detection
+- cve-2026_31431
+- CVE-2026041940-IoC-forensics-instructions
+- cve-2026-6379
+- cve-2026-39440-funnelforms-fix
