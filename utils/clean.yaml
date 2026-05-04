@@ -3682,3 +3682,7 @@ clean_list:
 - CopyFail-for-dummies
 - CVE-2026-41940-next
 - CVE-2026-31431_CopyFail_LinuxKernel_LPE
+- CVE-2025-47987
+- CVE-2026-7669-PoC
+- CVE-2026-42167
+- BigFix-CopyFail-AlmaLinux-Content
