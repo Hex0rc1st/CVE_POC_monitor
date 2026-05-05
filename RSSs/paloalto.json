@@ -553,5 +553,10 @@
         "title": "PAN-SA-2026-0004 Chromium: Monthly Vulnerability Update (April 2026) (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0004",
         "published": "2026-04-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0300 PAN-OS: Unauthenticated user initiated Buffer Overflow Vulnerability in User-ID™ Authentication Portal (Severity: CRITICAL)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0300",
+        "published": "2026-05-05T23:00:00.000Z"
     }
 ]
