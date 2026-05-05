@@ -3716,3 +3716,5 @@ clean_list:
 - cve-2026-2005
 - vuln-check
 - mitigate-copy-fail.yml
+- CVE-2026-23918-Elite-Auditor
+- copyfail-arm64
