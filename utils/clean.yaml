@@ -3712,3 +3712,7 @@ clean_list:
 - Copy-Fail-CVE-2026-31431
 - check-copyfail-cve-2026-31431
 - Bili-cracker
+- cve_2024_4367_poc.pdf
+- cve-2026-2005
+- vuln-check
+- mitigate-copy-fail.yml
