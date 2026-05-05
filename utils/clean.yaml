@@ -3718,3 +3718,9 @@ clean_list:
 - mitigate-copy-fail.yml
 - CVE-2026-23918-Elite-Auditor
 - copyfail-arm64
+- CVE-2026-23918-test
+- Apache-CVE-2026-23918-fix
+- afalg-check
+- CVE-2026-31431-CopyFail-static-ELF--POC
+- CVE-2026-41285-OpenBSD-v6daemons-go-brrr
+- Rat5ak-Nadsec-2026-CVE-CERTIFIED-HOOD-CLASSICS
