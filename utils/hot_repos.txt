@@ -110,3 +110,4 @@ https://github.com/Shotafry/CopyFail-Exploits-CVE-2026-31431
 https://github.com/malwarekid/CVE-2026-31431
 https://github.com/atgreen/block-copyfail
 https://github.com/jbnetwork-git/copy-fail-check
+https://github.com/ochebotar/copy-fail-CVE-2026-31431-detection-probe

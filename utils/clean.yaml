@@ -3708,3 +3708,7 @@ clean_list:
 - CVE-2026-42778-POC
 - play-go-copy-fail-cve-2026-31431
 - Mitigaciones
+- CVE-2026-43893
+- Copy-Fail-CVE-2026-31431
+- check-copyfail-cve-2026-31431
+- Bili-cracker
