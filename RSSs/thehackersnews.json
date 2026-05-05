@@ -3328,5 +3328,20 @@
         "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
         "link": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
         "published": "Tue, 05 May 2026 17:26:00 +0530"
+    },
+    {
+        "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+        "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+        "published": "Tue, 05 May 2026 21:49:00 +0530"
+    },
+    {
+        "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
+        "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+        "published": "Tue, 05 May 2026 21:37:00 +0530"
+    },
+    {
+        "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
+        "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
+        "published": "Tue, 05 May 2026 19:49:00 +0530"
     }
 ]
