@@ -1581,3 +1581,5 @@ https://mp.weixin.qq.com/s/iERwGEYTYSiryFCqSuqFQQ
 https://mp.weixin.qq.com/s/eY3tml4tlhvo64SIVqCHHw
 360漏洞研究院::危险！Android 无线调试认证被绕过：0 点击获取 ADB Shell
 https://mp.weixin.qq.com/s/Axi6XZlFmiihXcARsPDwUw
+奇安信cert::【已复现】Ollama 内存泄漏漏洞(CVE-2026-7482)安全风险通告
+https://mp.weixin.qq.com/s/sAuN1ugzFNE_59cEwQ7NZw
