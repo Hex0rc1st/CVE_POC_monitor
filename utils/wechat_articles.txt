@@ -1583,3 +1583,9 @@ https://mp.weixin.qq.com/s/eY3tml4tlhvo64SIVqCHHw
 https://mp.weixin.qq.com/s/Axi6XZlFmiihXcARsPDwUw
 奇安信cert::【已复现】Ollama 内存泄漏漏洞(CVE-2026-7482)安全风险通告
 https://mp.weixin.qq.com/s/sAuN1ugzFNE_59cEwQ7NZw
+奇安信cert::【在野利用】Palo Alto Networks PAN-OS 缓冲区溢出漏洞(CVE-2026-0300)安全风险通告
+https://mp.weixin.qq.com/s/CVuwSix19RoeoXW0R-wpFA
+奇安信cert::【已复现】Android ADB 认证绕过漏洞(CVE-2026-0073)安全风险通告
+https://mp.weixin.qq.com/s/Lbr65Cg3EKTCOjRLJjP0lw
+奇安信cert::【立即应急】cPanel &amp; WHM 认证绕过漏洞（CVE-2026-41940）已被大规模自动化利用
+https://mp.weixin.qq.com/s/MErccH5iioHEJsU6RjzFgg
