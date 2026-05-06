@@ -608,5 +608,15 @@
         "title": "A Walkthrough of the 2026 Global Cybersecurity Summit Agenda",
         "link": "https://www.rapid7.com/blog/post/it-walkthrough-2026-global-cybersecurity-summit-agenda",
         "published": "Tue, 05 May 2026 12:20:04 GMT"
+    },
+    {
+        "title": "Critical Buffer Overflow in Palo Alto Networks PAN-OS User-ID Authentication Portal (CVE-2026-0300)",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-buffer-overflow-in-palo-alto-networks-pan-os-user-id-authentication-portal-cve-2026-0300",
+        "published": "Wed, 06 May 2026 13:27:31 GMT"
+    },
+    {
+        "title": "Muddying the Tracks: The State-Sponsored Shadow Behind Chaos Ransomware",
+        "link": "https://www.rapid7.com/blog/post/tr-muddying-tracks-state-sponsored-shadow-behind-chaos-ransomware",
+        "published": "Wed, 06 May 2026 13:00:27 GMT"
     }
 ]

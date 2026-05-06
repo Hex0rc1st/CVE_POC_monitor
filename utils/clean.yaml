@@ -3748,3 +3748,7 @@ clean_list:
 - cve-2026-0300-audit
 - Patch-management-
 - CVE-2025-70149-SQL-Injection
+- CVE-2026-0300-PANOS
+- XCP_ng_CVE-2026-31431_tester
+- CVE-2026-23918-Apache-H2-PoC
+- CVE-2026-31431-Copy-Fail---Advanced-LPE-Proof-of-Concept---C-Rewrite
