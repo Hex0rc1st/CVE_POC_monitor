@@ -113,3 +113,4 @@ https://github.com/jbnetwork-git/copy-fail-check
 https://github.com/ochebotar/copy-fail-CVE-2026-31431-detection-probe
 https://github.com/nu1lptr0/CVE-2025-21333
 https://github.com/SecTestAnnaQuinn/CVE-2026-0073-Android-adbd-authentication-bypass-POC
+https://github.com/jarnovandenbrink/CVE-2026-26128

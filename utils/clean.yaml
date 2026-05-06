@@ -3744,3 +3744,7 @@ clean_list:
 - CVE-2026-31431-Checker-Mitigator
 - copyfail-c
 - Poc_CVE-2025-68645
+- CVE-2026-32710
+- cve-2026-0300-audit
+- Patch-management-
+- CVE-2025-70149-SQL-Injection
