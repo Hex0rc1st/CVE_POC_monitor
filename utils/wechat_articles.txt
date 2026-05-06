@@ -1579,3 +1579,5 @@ https://mp.weixin.qq.com/s/Gq8qu_V26Q7Q4tjD-p11IQ
 https://mp.weixin.qq.com/s/iERwGEYTYSiryFCqSuqFQQ
 奇安信cert::今日（2026年5月5日）热点网络安全漏洞动态
 https://mp.weixin.qq.com/s/eY3tml4tlhvo64SIVqCHHw
+360漏洞研究院::危险！Android 无线调试认证被绕过：0 点击获取 ADB Shell
+https://mp.weixin.qq.com/s/Axi6XZlFmiihXcARsPDwUw

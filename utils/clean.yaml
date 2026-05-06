@@ -3724,3 +3724,8 @@ clean_list:
 - CVE-2026-31431-CopyFail-static-ELF--POC
 - CVE-2026-41285-OpenBSD-v6daemons-go-brrr
 - Rat5ak-Nadsec-2026-CVE-CERTIFIED-HOOD-CLASSICS
+- CVE-2026-23918
+- copy-fail-CVE-2026-31431-pythonlower3.10
+- cpanelCVE
+- CVE-2026-39363
+- cve-2026-31431-copyfail
