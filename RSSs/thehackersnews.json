@@ -3408,5 +3408,15 @@
         "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
         "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
         "published": "Thu, 07 May 2026 16:24:00 +0530"
+    },
+    {
+        "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+        "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+        "published": "Thu, 07 May 2026 23:25:00 +0530"
+    },
+    {
+        "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+        "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+        "published": "Thu, 07 May 2026 23:15:00 +0530"
     }
 ]
