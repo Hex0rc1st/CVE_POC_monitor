@@ -3760,3 +3760,7 @@ clean_list:
 - CVE-2026-27906
 - CVE-2026-44109
 - CVE-2026-31431-live-code-corruption
+- adbHijacker
+- Copy-fail-CVE-2026-31431-Exploit-in-C
+- CVE-2026-24118
+- CVE-2026-40897
