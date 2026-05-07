@@ -122,3 +122,4 @@ https://github.com/sgkdev/page_inject
 https://github.com/dinosn/CVE-2026-32710
 https://github.com/adityatelange/poc-CVE-2026-0073
 https://github.com/MartinPSDev/CVE-2026-0073-Android-ADBD-bypass-POC
+https://github.com/rva3/CVE-2026-40003

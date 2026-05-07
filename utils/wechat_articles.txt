@@ -1589,3 +1589,11 @@ https://mp.weixin.qq.com/s/CVuwSix19RoeoXW0R-wpFA
 https://mp.weixin.qq.com/s/Lbr65Cg3EKTCOjRLJjP0lw
 奇安信cert::【立即应急】cPanel &amp; WHM 认证绕过漏洞（CVE-2026-41940）已被大规模自动化利用
 https://mp.weixin.qq.com/s/MErccH5iioHEJsU6RjzFgg
+奇安信cert::今日（2026年5月7日）热点网络安全漏洞动态
+https://mp.weixin.qq.com/s/36DjOg0tEEkCLj29fysyFg
+奇安信cert::【已复现】Apache HTTP Server 双重释放漏洞(CVE-2026-23918)安全风险通告
+https://mp.weixin.qq.com/s/ByBNOiOmAreFGgohkopXFw
+微步在线研究响应中心::漏洞通告 | Apache HTTP Server 远程命令执行漏洞
+https://mp.weixin.qq.com/s/S1Wi0IM-PEoEXopRQ223og
+360漏洞研究院::无需认证即可触发 Apache HTTP/2 双重释放漏洞，特定条件下可导致 RCE
+https://mp.weixin.qq.com/s/HszbiG_d5FMNuQeWAxSZ7w
