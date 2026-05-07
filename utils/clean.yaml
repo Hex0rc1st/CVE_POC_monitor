@@ -3752,3 +3752,11 @@ clean_list:
 - XCP_ng_CVE-2026-31431_tester
 - CVE-2026-23918-Apache-H2-PoC
 - CVE-2026-31431-Copy-Fail---Advanced-LPE-Proof-of-Concept---C-Rewrite
+- CVE-2026-40281
+- CVE-2026-43585
+- cve-2026-31431-copy-fail
+- CVE-2026-42231
+- CVE-2026-42228
+- CVE-2026-27906
+- CVE-2026-44109
+- CVE-2026-31431-live-code-corruption

@@ -117,3 +117,4 @@ https://github.com/jarnovandenbrink/CVE-2026-26128
 https://github.com/bughunt4me/cpanelCVE-2026-41940
 https://github.com/rhasan-com/CVE-2026-23918
 https://github.com/novaek/CVE-2026-0073-Research
+https://github.com/qassam-315/CVE-2026-23918-Elite-Auditor
