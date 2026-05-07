@@ -3383,5 +3383,10 @@
         "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
         "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
         "published": "Thu, 07 May 2026 09:45:00 +0530"
+    },
+    {
+        "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
+        "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
+        "published": "Thu, 07 May 2026 14:50:00 +0530"
     }
 ]

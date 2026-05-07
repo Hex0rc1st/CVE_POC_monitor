@@ -3764,3 +3764,5 @@ clean_list:
 - Copy-fail-CVE-2026-31431-Exploit-in-C
 - CVE-2026-24118
 - CVE-2026-40897
+- CVE-2026-0073-poc
+- CVE-2026-31431-Copy-Fail-add-arm64

@@ -119,3 +119,5 @@ https://github.com/rhasan-com/CVE-2026-23918
 https://github.com/novaek/CVE-2026-0073-Research
 https://github.com/qassam-315/CVE-2026-23918-Elite-Auditor
 https://github.com/sgkdev/page_inject
+https://github.com/dinosn/CVE-2026-32710
+https://github.com/adityatelange/poc-CVE-2026-0073
