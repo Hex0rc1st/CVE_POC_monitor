@@ -368,5 +368,20 @@
         "title": "CVE-2026-40990 - Moderate - CVE-2026-40990: Unbounded cache for function definitions",
         "link": "https://spring.io/security/cve-2026-40990",
         "published": "Fri, 08 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41705 - High - CVE-2026-41705: Expression injection in MilvusVectorStore doDelete allows data destruction",
+        "link": "https://spring.io/security/cve-2026-41705",
+        "published": "Fri, 08 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41712 - High - CVE-2026-41712: ChatMemory DEFAULT_CONVERSATION_ID causes unintended cross-user data leakage",
+        "link": "https://spring.io/security/cve-2026-41712",
+        "published": "Fri, 08 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41713 - High - CVE-2026-41713: Prompt Injection via Memory Poisoning in PromptChatMemoryAdvisor",
+        "link": "https://spring.io/security/cve-2026-41713",
+        "published": "Fri, 08 May 2026 00:00:00 GMT"
     }
 ]
