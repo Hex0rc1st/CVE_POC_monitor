@@ -3770,3 +3770,4 @@ clean_list:
 - deny-af-alg-bpf
 - CVE-Hunter-2026
 - copyfail
+- CVE-2026-44648
