@@ -3779,3 +3779,5 @@ clean_list:
 - Research-CVE-2026-21858
 - CrushFTP-CVE-2024-4040-Proof-of-Concept
 - c-copy-fail
+- CVE-2026-42796
+- CVE-2026-32707-PX4-Autopilot-tattu_can-Stack-Buffer-Overflow-DoS-

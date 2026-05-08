@@ -3423,5 +3423,15 @@
         "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
         "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
         "published": "Fri, 08 May 2026 10:42:00 +0530"
+    },
+    {
+        "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
+        "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+        "published": "Fri, 08 May 2026 16:00:00 +0530"
+    },
+    {
+        "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+        "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+        "published": "Fri, 08 May 2026 14:11:00 +0530"
     }
 ]
