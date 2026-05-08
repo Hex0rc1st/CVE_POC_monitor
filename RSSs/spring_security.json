@@ -358,5 +358,15 @@
         "title": "CVE-2026-41004 - Medium - CVE-2026-41004: Spring Cloud Config Server Logged Sensitive Information",
         "link": "https://spring.io/security/cve-2026-41004",
         "published": "Wed, 06 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40989 - Moderate - CVE-2026-40989: Self Routing guard bypassed via function composition",
+        "link": "https://spring.io/security/cve-2026-40989",
+        "published": "Fri, 08 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40990 - Moderate - CVE-2026-40990: Unbounded cache for function definitions",
+        "link": "https://spring.io/security/cve-2026-40990",
+        "published": "Fri, 08 May 2026 00:00:00 GMT"
     }
 ]

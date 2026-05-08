@@ -3777,3 +3777,5 @@ clean_list:
 - Detections-CVE-2026-23918
 - CVE-2026-1
 - Research-CVE-2026-21858
+- CrushFTP-CVE-2024-4040-Proof-of-Concept
+- c-copy-fail
