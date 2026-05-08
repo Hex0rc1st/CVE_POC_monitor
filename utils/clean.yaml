@@ -3781,3 +3781,9 @@ clean_list:
 - c-copy-fail
 - CVE-2026-42796
 - CVE-2026-32707-PX4-Autopilot-tattu_can-Stack-Buffer-Overflow-DoS-
+- DIRTYFAIL
+- Dirty-Frag-Kubernetes-PoC
+- Security-CVE-2026-41940-cPanel-WHM-WP2
+- pagecache-guard
+- CVE-2026-3844-Lab
+- ansible-mitigate-copyfail-dirtyfrag

@@ -3433,5 +3433,10 @@
         "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
         "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
         "published": "Fri, 08 May 2026 14:11:00 +0530"
+    },
+    {
+        "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
+        "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+        "published": "Fri, 08 May 2026 16:30:00 +0530"
     }
 ]
