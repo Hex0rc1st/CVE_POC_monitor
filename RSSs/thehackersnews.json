@@ -3418,5 +3418,10 @@
         "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
         "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
         "published": "Thu, 07 May 2026 23:15:00 +0530"
+    },
+    {
+        "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+        "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+        "published": "Fri, 08 May 2026 10:42:00 +0530"
     }
 ]

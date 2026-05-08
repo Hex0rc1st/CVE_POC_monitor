@@ -3775,3 +3775,5 @@ clean_list:
 - CVE-2026-34197-Lab
 - CVE-2026-31431-_Copy-Fail
 - Detections-CVE-2026-23918
+- CVE-2026-1
+- Research-CVE-2026-21858
