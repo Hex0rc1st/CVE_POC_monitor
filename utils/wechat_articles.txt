@@ -1597,3 +1597,5 @@ https://mp.weixin.qq.com/s/ByBNOiOmAreFGgohkopXFw
 https://mp.weixin.qq.com/s/S1Wi0IM-PEoEXopRQ223og
 360漏洞研究院::无需认证即可触发 Apache HTTP/2 双重释放漏洞，特定条件下可导致 RCE
 https://mp.weixin.qq.com/s/HszbiG_d5FMNuQeWAxSZ7w
+微步在线研究响应中心::Dirty Frag 漏洞爆发！影响9年Linux内核的“确定性”提权漏洞
+https://mp.weixin.qq.com/s/E0XCgqq6tjeK3DGhEnyomA
