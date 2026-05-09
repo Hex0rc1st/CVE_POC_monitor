@@ -1599,3 +1599,7 @@ https://mp.weixin.qq.com/s/S1Wi0IM-PEoEXopRQ223og
 https://mp.weixin.qq.com/s/HszbiG_d5FMNuQeWAxSZ7w
 微步在线研究响应中心::Dirty Frag 漏洞爆发！影响9年Linux内核的“确定性”提权漏洞
 https://mp.weixin.qq.com/s/E0XCgqq6tjeK3DGhEnyomA
+奇安信cert::Chromium项目史上最大规模：Chrome 148一次性修复127个漏洞
+https://mp.weixin.qq.com/s/lnArkSmsmEFe-Zj47MPlSQ
+360漏洞研究院::1 个字符 Bug，脚本直接拿下 FreeBSD Root 权限
+https://mp.weixin.qq.com/s/XAS6LUIgKYdWuKKMe_PbRg

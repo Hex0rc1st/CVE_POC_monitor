@@ -3787,3 +3787,7 @@ clean_list:
 - pagecache-guard
 - CVE-2026-3844-Lab
 - ansible-mitigate-copyfail-dirtyfrag
+- copy_fail_mitigation
+- CVE-2026-44656
+- dirty_frag_mitigation
+- freebsd-CVE-2026-7270
