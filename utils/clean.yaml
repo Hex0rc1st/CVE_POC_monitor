@@ -3793,3 +3793,5 @@ clean_list:
 - freebsd-CVE-2026-7270
 - copy-fail-cve-2026-31431-linux-kernel-page-cache-lpe
 - CVE-2026-31431_exp.c
+- dirty-frag-checker
+- dirty-frag-check
