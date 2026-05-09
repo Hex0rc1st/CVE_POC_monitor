@@ -1603,3 +1603,24 @@ https://mp.weixin.qq.com/s/E0XCgqq6tjeK3DGhEnyomA
 https://mp.weixin.qq.com/s/lnArkSmsmEFe-Zj47MPlSQ
 360漏洞研究院::1 个字符 Bug，脚本直接拿下 FreeBSD Root 权限
 https://mp.weixin.qq.com/s/XAS6LUIgKYdWuKKMe_PbRg
+360漏洞研究院::Apache ActiveMQ 补丁遭精准绕过致再次 RCE 已复现（CVE-2026-40466 ）
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496949&idx=1&sn=7ce89d166dd4c03fbcfd62fc00c3e841&chksm=c2bef3cc901da224681f5f35cd5316b906e16c3bfe34d0e7d467a4bf5057af42eaa44713d189&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496949&idx=1&sn=7ce89d166dd4c03fbcfd62fc00c3e841
+360漏洞研究院::高危提权漏洞 Copy Fail 预警：732字节拿下Root 主流 Linux 发行版均受影响
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247496977&idx=1&sn=674b084731a13a4b911d2ae052cba534&chksm=c2febb52cc7fa12209cdd1b3895576424324ce99c060ed360365df3c0f02f98c30c18e65d60a&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247496977&idx=1&sn=674b084731a13a4b911d2ae052cba534
+360漏洞研究院::潜藏 9 年，无需适配，可稳定提权的 Linux 内核漏洞
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497029&idx=1&sn=2fbb74ce682d27b05a119ffdc0858764&chksm=c2f9d29fc699421ed245559df02133fc33166536edaa1cf0842cd75c42926eb7326912fb48ec&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497029&idx=1&sn=2fbb74ce682d27b05a119ffdc0858764
+微步在线研究响应中心::速查！又一知名软件被投毒，大量用户失陷
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508681&idx=1&sn=72f39e5d2b10d749ec02aa1e692c6d0f&chksm=cec6ec313997cc068aaf7364b9c00de3c9f991262fd8a6d00870f60fd9880d8894f6374c5cff&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508681&idx=1&sn=72f39e5d2b10d749ec02aa1e692c6d0f
+长亭安全应急响应中心::【WAF集体沦陷】Java "幽灵比特位"（Ghost Bits）引发的新型 WAF 绕过与注入攻击
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493202&idx=1&sn=ba0de89223f151234d296d5d883419e3&chksm=97e0c64d7658c81c2a5f58dcde2b125f478a04e8b77e72b8d75eef4621f4fe1789a577a751b4&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493202&idx=1&sn=ba0de89223f151234d296d5d883419e3
+长亭安全应急响应中心::【已复现】732字节、1秒root、九年无人知——Linux近年最稳定提权漏洞
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493214&idx=1&sn=0bd0bf00dcf29c2419c42c454c82f1f5&chksm=97ed6c02146eb073925b471a3c12e0e54ff9bdd2d1210582d461fa41e07ca08c6f9270a337e1&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493214&idx=1&sn=0bd0bf00dcf29c2419c42c454c82f1f5
+长亭安全应急响应中心::【已复现】Copy Fail 补丁失效——Linux 提权漏洞 Dirty Frag 紧急预警
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493223&idx=1&sn=951de34d09aadbbf791103bdc856deb1&chksm=973c878ef8618b25eb3784b3368d1259e98b5e0299c535866f977bf32640ae01ffb165074f75&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493223&idx=1&sn=951de34d09aadbbf791103bdc856deb1
