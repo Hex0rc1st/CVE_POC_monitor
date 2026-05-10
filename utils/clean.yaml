@@ -3798,3 +3798,7 @@ clean_list:
 - EpSiLoNPoInTlnk
 - threat-intel-brief-cve-2026-42208-litellm
 - CVE-2026-43284-
+- dirtyfrag-arm64
+- v8-poc-CVE-2026-5865
+- dirtycups
+- copyfail2_electric_boogaloo_fix
