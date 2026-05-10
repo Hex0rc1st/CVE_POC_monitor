@@ -3806,3 +3806,5 @@ clean_list:
 - agentbox
 - langgrinch-cve-2025-68664-analysis
 - POC-CVE-2025-1094
+- cpsniper
+- cve-2026-42208-Lab

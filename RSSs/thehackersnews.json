@@ -3453,5 +3453,10 @@
         "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
         "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
         "published": "Sat, 09 May 2026 12:46:00 +0530"
+    },
+    {
+        "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+        "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+        "published": "Sun, 10 May 2026 18:11:00 +0530"
     }
 ]
