@@ -3796,3 +3796,5 @@ clean_list:
 - dirty-frag-checker
 - dirty-frag-check
 - EpSiLoNPoInTlnk
+- threat-intel-brief-cve-2026-42208-litellm
+- CVE-2026-43284-
