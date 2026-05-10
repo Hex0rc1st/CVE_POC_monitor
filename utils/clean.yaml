@@ -3802,3 +3802,6 @@ clean_list:
 - v8-poc-CVE-2026-5865
 - dirtycups
 - copyfail2_electric_boogaloo_fix
+- CVE-PoC-CVE-2025-58434
+- agentbox
+- langgrinch-cve-2025-68664-analysis

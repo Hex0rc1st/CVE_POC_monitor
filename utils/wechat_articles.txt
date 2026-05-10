@@ -1624,3 +1624,6 @@ https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493214&idx=1&sn=0b
 长亭安全应急响应中心::【已复现】Copy Fail 补丁失效——Linux 提权漏洞 Dirty Frag 紧急预警
 http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493223&idx=1&sn=951de34d09aadbbf791103bdc856deb1&chksm=973c878ef8618b25eb3784b3368d1259e98b5e0299c535866f977bf32640ae01ffb165074f75&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493223&idx=1&sn=951de34d09aadbbf791103bdc856deb1
+奇安信cert::今日（2026年5月10日）热点网络安全漏洞动态
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505710&idx=1&sn=1bbefe5abcea4225c415ab03499775ef&chksm=ffd4135fdeabe120b9539666079a9a922b0da17e93e2f9bbf0eda28a0bcf2fece06be927bff4&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505710&idx=1&sn=1bbefe5abcea4225c415ab03499775ef
