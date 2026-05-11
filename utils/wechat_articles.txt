@@ -1630,3 +1630,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505710&idx=1&sn=1b
 360漏洞研究院::一个存在21年没有CVE的漏洞：影响 PHP 自5.1至8.5.6全版本
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497058&idx=1&sn=73d8baee545820671b00c378f49d4ae0&chksm=c28666f51e0755f643b5e53dd14a25457567e21a38b79e4488f351e3b0837f3fc0659ef8b5ae&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497058&idx=1&sn=73d8baee545820671b00c378f49d4ae0
+奇安信cert::今日（2026年5月11日）热点网络安全漏洞动态
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505719&idx=1&sn=3eb517f28c1b20f020e3f831afba60fe&chksm=ff441b78eab43643b85ced13b2ff0e0f49eb823539a557c86514dedd10092e1484df8748661c&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505719&idx=1&sn=3eb517f28c1b20f020e3f831afba60fe
