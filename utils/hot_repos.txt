@@ -127,3 +127,4 @@ https://github.com/xeloxa/CVE-2026-23918-Apache-H2-PoC
 https://github.com/philfry/cve-2026-31431-ftrace
 https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC
 https://github.com/dwisiswant0/next-16.2.4-pocs
+https://github.com/linnemanlabs/dirtyfrag-arm64
