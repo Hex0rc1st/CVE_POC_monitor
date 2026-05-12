@@ -131,3 +131,4 @@ https://github.com/linnemanlabs/dirtyfrag-arm64
 https://github.com/striga-ai/CVE-2026-34486
 https://github.com/striga-ai/CVE-2026-23918
 https://github.com/xn0tsa/nobody-puts-baby-in-a-corner
+https://github.com/BlackSnufkin/CredsHunter
