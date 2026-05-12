@@ -1638,3 +1638,6 @@ http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508706&idx=1&sn=0a47dc8
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508706&idx=1&sn=0a47dc86458f4a42dc94b1b142c304b4
 奇安信cert::今日（2026年5月12日）热点网络安全漏洞动态
 https://mp.weixin.qq.com/s/3riLTzU9cRgkB6sdpdKqvw
+360漏洞研究院::Pwn2Own Berlin 2026：LiteLLM 两套参赛方案遭赛前修复，已复现证实可 RCE
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497065&idx=1&sn=3458551a813b3e6474cc79e835dec20b&chksm=c270eb66b74f643874a6822f38aff7382c6129ae08bf13c7a3d430d3d003862426d36d39e0a4&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497065&idx=1&sn=3458551a813b3e6474cc79e835dec20b
