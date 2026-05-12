@@ -3528,5 +3528,10 @@
         "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
         "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
         "published": "Tue, 12 May 2026 20:17:00 +0530"
+    },
+    {
+        "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+        "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+        "published": "Tue, 12 May 2026 22:14:00 +0530"
     }
 ]

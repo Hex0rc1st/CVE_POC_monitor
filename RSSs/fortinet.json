@@ -1498,5 +1498,60 @@
         "title": "Out-Of-Bounds Write in administrative interface",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-127",
         "published": "Wed, 15 Apr 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Arbitrary log file read in administrative interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-138",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Command injection in CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-131",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "DoS due to unsafe function in signal handler",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-137",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Hardcoded Encryption Key Used for VPN Saved Passwords",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-129",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Improper access control on API endpoints",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-128",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Incorrect global authorization",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-136",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "OS command injection in CLI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-133",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "OTP Disclosure via Exported TokenContentProvider",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-130",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Out-of-bounds access in CAPWAP daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-123",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SQL command injection in administrative portal",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-132",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "User controlled SQL commands",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-134",
+        "published": "Tue, 12 May 2026 00:00:00 -0700"
     }
 ]
