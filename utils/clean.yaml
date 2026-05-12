@@ -3820,3 +3820,4 @@ clean_list:
 - CredsHunter
 - tanstack-compromise-checker
 - cve-2026-5718-Lab
+- CVE-2026-41940-POC-Exploit
