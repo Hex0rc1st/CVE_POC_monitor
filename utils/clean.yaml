@@ -3817,3 +3817,6 @@ clean_list:
 - CVE-2026-3888-fixed
 - CVE-2025-31133-Compose-Build-Lab
 - ASUS-AiCloud-RCE
+- CredsHunter
+- tanstack-compromise-checker
+- cve-2026-5718-Lab
