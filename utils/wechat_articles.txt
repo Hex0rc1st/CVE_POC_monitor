@@ -1641,3 +1641,5 @@ https://mp.weixin.qq.com/s/3riLTzU9cRgkB6sdpdKqvw
 360漏洞研究院::Pwn2Own Berlin 2026：LiteLLM 两套参赛方案遭赛前修复，已复现证实可 RCE
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497065&idx=1&sn=3458551a813b3e6474cc79e835dec20b&chksm=c270eb66b74f643874a6822f38aff7382c6129ae08bf13c7a3d430d3d003862426d36d39e0a4&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497065&idx=1&sn=3458551a813b3e6474cc79e835dec20b
+360漏洞研究院::360发布“龙虾”生态安全报告：23个漏洞覆盖10余款产品，智能体安全风险蔓延全行业
+https://mp.weixin.qq.com/s/AKyjmlv4vfperRsGS8njsQ
