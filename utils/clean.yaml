@@ -3814,3 +3814,5 @@ clean_list:
 - CVE-2024-12381-PoC
 - CVE-2026-42569
 - CVE-2026-8260
+- CVE-2026-3888-fixed
+- CVE-2025-31133-Compose-Build-Lab

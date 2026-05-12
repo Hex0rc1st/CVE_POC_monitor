@@ -1633,3 +1633,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497058&idx=1&sn=73
 奇安信cert::今日（2026年5月11日）热点网络安全漏洞动态
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505719&idx=1&sn=3eb517f28c1b20f020e3f831afba60fe&chksm=ff441b78eab43643b85ced13b2ff0e0f49eb823539a557c86514dedd10092e1484df8748661c&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505719&idx=1&sn=3eb517f28c1b20f020e3f831afba60fe
+微步在线研究响应中心::从OA进，靠AI横移，半数都是RCE：2026红队攻击彻底变了
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508706&idx=1&sn=0a47dc86458f4a42dc94b1b142c304b4&chksm=ce438b1d242945f2cda254862b3e02c02817191de1e29dd108584c887ad259797660f08df70d&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508706&idx=1&sn=0a47dc86458f4a42dc94b1b142c304b4
