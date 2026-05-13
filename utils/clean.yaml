@@ -3833,3 +3833,6 @@ clean_list:
 - CVE-2025-29338
 - cve-2026-29204-whmcs-clientarea-addonid
 - CVE-2024-32019-Netdata-ndsudo-PrivEsc
+- Copy-Fail-CVE-2026-31431-Lab
+- Copyfail-sh
+- mini-shai-hulud-scanner
