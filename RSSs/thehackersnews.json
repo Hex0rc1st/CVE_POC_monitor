@@ -3533,5 +3533,15 @@
         "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
         "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
         "published": "Tue, 12 May 2026 22:14:00 +0530"
+    },
+    {
+        "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
+        "link": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
+        "published": "Wed, 13 May 2026 13:38:54 +0530"
+    },
+    {
+        "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+        "link": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+        "published": "Wed, 13 May 2026 12:25:42 +0530"
     }
 ]

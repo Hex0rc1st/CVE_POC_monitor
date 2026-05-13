@@ -1646,3 +1646,10 @@ https://mp.weixin.qq.com/s/AKyjmlv4vfperRsGS8njsQ
 奇安信cert::微软5月补丁日多个产品安全漏洞风险通告：14个紧急漏洞、9个重要漏洞
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505730&idx=1&sn=77a45407d42fdb43830a4d78aa46f329&chksm=ff61199454cd5c8b8459befb326b51aa0148021cd9c2c0ba8648aefe67a19010e80ea105f666&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505730&idx=1&sn=77a45407d42fdb43830a4d78aa46f329
+360漏洞研究院::漏洞多到"溢出"！Pwn2Own 2026被迫"闭门拒客"
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497084&idx=1&sn=05bb71d0994334b4cb9aed55ef912197&chksm=c2ca1e906dc3eb04a6b7239df648b08e9b1beb680f2806cced8ef7cbd10e0c76318665e64783&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497084&idx=1&sn=05bb71d0994334b4cb9aed55ef912197
+奇安信cert::整合分析 | Fortinet 双子星高危漏洞：未认证即可远程代码执行
+https://mp.weixin.qq.com/s/NQubWOmtdjp6fbj3mAInhQ
+360漏洞研究院::漏洞多到\"溢出\"！Pwn2Own 2026被迫\"闭门拒客\"
+https://mp.weixin.qq.com/s/OEVmd5wqkQG_6vbuWch0Pw
