@@ -1403,5 +1403,10 @@
         "title": "GitLab Critical Security Release: 16.0.1",
         "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-16-0-1-released/",
         "published": "2023-05-23T00:00:00Z"
+    },
+    {
+        "title": "GitLab Patch Release: 18.11.3, 18.10.6, 18.9.7",
+        "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-11-3-released/",
+        "published": "2026-05-13T00:00:00Z"
     }
 ]
