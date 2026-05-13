@@ -1643,3 +1643,6 @@ http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497065&idx=1&sn=3458551
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497065&idx=1&sn=3458551a813b3e6474cc79e835dec20b
 360漏洞研究院::360发布“龙虾”生态安全报告：23个漏洞覆盖10余款产品，智能体安全风险蔓延全行业
 https://mp.weixin.qq.com/s/AKyjmlv4vfperRsGS8njsQ
+奇安信cert::微软5月补丁日多个产品安全漏洞风险通告：14个紧急漏洞、9个重要漏洞
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505730&idx=1&sn=77a45407d42fdb43830a4d78aa46f329&chksm=ff61199454cd5c8b8459befb326b51aa0148021cd9c2c0ba8648aefe67a19010e80ea105f666&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505730&idx=1&sn=77a45407d42fdb43830a4d78aa46f329

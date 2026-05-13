@@ -3821,3 +3821,6 @@ clean_list:
 - tanstack-compromise-checker
 - cve-2026-5718-Lab
 - CVE-2026-41940-POC-Exploit
+- SplicePrivillegeEscalationFIX
+- magento-upload-auto-submit-zoneh
+- SparstanBoogie-CVE-2024-44258
