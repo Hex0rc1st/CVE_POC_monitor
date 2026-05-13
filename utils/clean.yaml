@@ -3824,3 +3824,7 @@ clean_list:
 - SplicePrivillegeEscalationFIX
 - magento-upload-auto-submit-zoneh
 - SparstanBoogie-CVE-2024-44258
+- CVE-2026-33626-Lab
+- CVE-2026-8196
+- verify-ghsa-c4j6-fc7j-m34r
+- CVE-2026-0001
