@@ -718,5 +718,10 @@
         "title": "What Are the Key Stages of Automated Penetration Testing?",
         "link": "https://www.picussecurity.com/resource/blog/what-are-the-key-stages-of-automated-penetration-testing",
         "published": "Thu, 14 May 2026 10:35:11 GMT"
+    },
+    {
+        "title": "NGINX Rift: CVE-2026-42945 Critical Heap Buffer Overflow Vulnerability Explained",
+        "link": "https://www.picussecurity.com/resource/blog/nginx-rift-cve-2026-42945-critical-heap-buffer-overflow-vulnerability-explained",
+        "published": "Thu, 14 May 2026 17:21:50 GMT"
     }
 ]

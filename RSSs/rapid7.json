@@ -663,5 +663,15 @@
         "title": "Rapid7 Partner Academy: Driving Impact with Gold Stevie Award-Winning Partner Services Certifications",
         "link": "https://www.rapid7.com/blog/post/c-gold-stevie-award-winning-partner-services-certifications-academy",
         "published": "Wed, 13 May 2026 13:54:10 GMT"
+    },
+    {
+        "title": "CVE-2026-20182: Critical authentication bypass in Cisco Catalyst SD-WAN Controller (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-20182-critical-authentication-bypass-cisco-catalyst-sd-wan-controller-fixed",
+        "published": "Thu, 14 May 2026 16:00:00 GMT"
+    },
+    {
+        "title": "The Dark Side of Efficiency: When Network Controllers Become \"God Mode\" for Attackers",
+        "link": "https://www.rapid7.com/blog/post/tr-efficiencys-dark-side-network-controllers-in-god-mode-attackers-sd-wan",
+        "published": "Thu, 14 May 2026 16:00:00 GMT"
     }
 ]
