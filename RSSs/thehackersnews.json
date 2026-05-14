@@ -3603,5 +3603,15 @@
         "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
         "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
         "published": "Thu, 14 May 2026 21:37:46 +0530"
+    },
+    {
+        "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+        "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+        "published": "Thu, 14 May 2026 23:15:20 +0530"
+    },
+    {
+        "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+        "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+        "published": "Thu, 14 May 2026 22:52:43 +0530"
     }
 ]
