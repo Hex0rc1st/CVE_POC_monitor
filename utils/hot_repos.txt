@@ -134,3 +134,4 @@ https://github.com/xn0tsa/nobody-puts-baby-in-a-corner
 https://github.com/BlackSnufkin/CredsHunter
 https://github.com/DepthFirstDisclosures/Nginx-Rift
 https://github.com/var77/CVE-2026-2005
+https://github.com/p3Nt3st3r-sTAr/CVE-2026-42945-POC
