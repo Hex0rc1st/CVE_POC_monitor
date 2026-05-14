@@ -3568,5 +3568,15 @@
         "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
         "link": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
         "published": "Wed, 13 May 2026 18:30:00 +0530"
+    },
+    {
+        "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+        "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+        "published": "Thu, 14 May 2026 12:36:15 +0530"
+    },
+    {
+        "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+        "published": "Thu, 14 May 2026 11:30:09 +0530"
     }
 ]
