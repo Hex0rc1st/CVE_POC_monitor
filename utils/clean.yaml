@@ -3853,3 +3853,4 @@ clean_list:
 - CVE-2026-22553-InSAT-MasterSCADA-BUK-TS-MMadmServ
 - nginxrift-CVE-2026-42945
 - CVE-2026-8181
+- CVE-2026-6145
