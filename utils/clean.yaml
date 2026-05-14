@@ -3848,3 +3848,8 @@ clean_list:
 - CVE-2026-35333
 - CVE-2026-35330
 - cve-2026-45185-detection-script
+- cve-2026-42945-scan
+- nginx-rift-scanner
+- CVE-2026-22553-InSAT-MasterSCADA-BUK-TS-MMadmServ
+- nginxrift-CVE-2026-42945
+- CVE-2026-8181

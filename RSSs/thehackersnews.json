@@ -3583,5 +3583,15 @@
         "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
         "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
         "published": "Thu, 14 May 2026 14:55:50 +0530"
+    },
+    {
+        "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+        "published": "Thu, 14 May 2026 17:10:14 +0530"
+    },
+    {
+        "title": "How AI Hallucinations Are Creating Real Security Risks",
+        "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+        "published": "Thu, 14 May 2026 17:00:00 +0530"
     }
 ]
