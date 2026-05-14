@@ -1653,3 +1653,12 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497084&idx=1&sn=05
 https://mp.weixin.qq.com/s/NQubWOmtdjp6fbj3mAInhQ
 360漏洞研究院::漏洞多到\"溢出\"！Pwn2Own 2026被迫\"闭门拒客\"
 https://mp.weixin.qq.com/s/OEVmd5wqkQG_6vbuWch0Pw
+360漏洞研究院::Fragnesia -- Linux Kernel 通用提权新漏洞
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497102&idx=1&sn=df47c1b7708474e4b80af5a9fb011c5a&chksm=c24e7079a31d3818db0847ae9ab80817a01e0943eb1ae14190270438faccde71a503bab7b9ce&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497102&idx=1&sn=df47c1b7708474e4b80af5a9fb011c5a
+奇安信cert::【已复现】Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505770&idx=1&sn=7dd912798e894e61bea35d7783fe5f65&chksm=ff0807e64185d158162268f5718e8c62aa8a31da2063a4fc7c4646d363f9b813ae819d7be4dd&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505770&idx=1&sn=7dd912798e894e61bea35d7783fe5f65
+微步在线研究响应中心::NGINX爆新漏洞，特定配置下可实现远程代码执行
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508711&idx=1&sn=689a40df2241578556ccbf3e178f2c0b&chksm=cef2d1b1c9418f86fec1302a800cac093f2936f7cf2df868a5e51b384dc6df294af9c615203e&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508711&idx=1&sn=689a40df2241578556ccbf3e178f2c0b

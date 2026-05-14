@@ -133,3 +133,4 @@ https://github.com/striga-ai/CVE-2026-23918
 https://github.com/xn0tsa/nobody-puts-baby-in-a-corner
 https://github.com/BlackSnufkin/CredsHunter
 https://github.com/DepthFirstDisclosures/Nginx-Rift
+https://github.com/var77/CVE-2026-2005

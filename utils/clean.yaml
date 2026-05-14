@@ -3836,3 +3836,8 @@ clean_list:
 - Copy-Fail-CVE-2026-31431-Lab
 - Copyfail-sh
 - mini-shai-hulud-scanner
+- CVE-2026-42945
+- CVE-2025-24055-OAuth-Langfuse
+- CVE-2026-4060-PoC
+- NGINX_RIFT_SCAN_CVE_2026_42945
+- cve-2026-46391

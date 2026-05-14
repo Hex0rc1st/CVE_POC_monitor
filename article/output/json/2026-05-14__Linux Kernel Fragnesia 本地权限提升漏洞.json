@@ -1,0 +1,65 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-05-14",
+  "table_fields": {
+    "漏洞名称": "Linux Kernel Fragnesia 本地权限提升漏洞",
+    "漏洞编号": "QVD-2026-26599 ， CVE-2026-46300",
+    "公开时间": "2026-05-13",
+    "影响量级": "百万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "7.8",
+    "威胁类型": "权限提升",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-05-14 10:15 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Linux 内核是一款开源的类 UNIX 操作系统内核，作为 Linux 系统的核心组件，负责管理系统硬件资源、进程调度、内存管理、文件系统与网络通信等核心功能，为各类应用程序提供底层支撑与系统调用接口。其广泛应用于服务器、桌面终端、移动设备、嵌入式系统与云计算环境，是全球主流 IT 基础设施的核心运行载体，具备高稳定性、高可移植性与高扩展性，支持多架构、多任务与多用户并发运行，支撑着互联网、金融、政企、云计算等关键领域的业务系统稳定运转。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300)，该漏洞源于内核合并socket缓冲区时未能正确传播共享分片标记，导致攻击者可以将只读文件页缓存误当作ESP密文进行原地解密。利用此漏洞，本地非特权用户可通过splice和espintcp ULP组合操作，逐字节篡改文件页缓存（如/usr/bin/su），从而在不写入磁盘的情况下执行提权代码获取root权限。 Ubuntu 默认的 AppArmor 配置会限制非特权 user namespace，从而对公开利用形成缓解。 Fragnesia 是 Dirty Frag 漏洞家族的一个独立新变种，源自修复 Dirty Frag 时引入的新缺陷。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** cef401de7be8 到本次修复之间的所有相关内核版本 **>** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300) ，在ubuntu上使用需要加sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 建议更新系统至 2026年5月13日 或之后发布的内核版本，确保包含相关修复补丁。 临时缓解方案： 可禁用 Fragnesia 和 DirtyFrag 中存在漏洞的模块： ``` rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/fragnesia.conf ```",
+    "security_update": "建议更新系统至 2026年5月13日 或之后发布的内核版本，确保包含相关修复补丁。 临时缓解方案： 可禁用 Fragnesia 和 DirtyFrag 中存在漏洞的模块： ``` rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/fragnesia.conf ```",
+    "component_text": "Linux 内核是一款开源的类 UNIX 操作系统内核，作为 Linux 系统的核心组件，负责管理系统硬件资源、进程调度、内存管理、文件系统与网络通信等核心功能，为各类应用程序提供底层支撑与系统调用接口。其广泛应用于服务器、桌面终端、移动设备、嵌入式系统与云计算环境，是全球主流 IT 基础设施的核心运行载体，具备高稳定性、高可移植性与高扩展性，支持多架构、多任务与多用户并发运行，支撑着互联网、金融、政企、云计算等关键领域的业务系统稳定运转。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300)，该漏洞源于内核合并socket缓冲区时未能正确传播共享分片标记，导致攻击者可以将只读文件页缓存误当作ESP密文进行原地解密。利用此漏洞，本地非特权用户可通过splice和espintcp ULP组合操作，逐字节篡改文件页缓存（如/usr/bin/su），从而在不写入磁盘的情况下执行提权代码获取root权限。 Ubuntu 默认的 AppArmor 配置会限制非特权 user namespace，从而对公开利用形成缓解。 Fragnesia 是 Dirty Frag 漏洞家族的一个独立新变种，源自修复 Dirty Frag 时引入的新缺陷。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "cef401de7be8 到本次修复之间的所有相关内核版本",
+    "plain_text": "安全团队 2026-05-14 10:15 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Linux 内核是一款开源的类 UNIX 操作系统内核，作为 Linux 系统的核心组件，负责管理系统硬件资源、进程调度、内存管理、文件系统与网络通信等核心功能，为各类应用程序提供底层支撑与系统调用接口。其广泛应用于服务器、桌面终端、移动设备、嵌入式系统与云计算环境，是全球主流 IT 基础设施的核心运行载体，具备高稳定性、高可移植性与高扩展性，支持多架构、多任务与多用户并发运行，支撑着互联网、金融、政企、云计算等关键领域的业务系统稳定运转。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300)，该漏洞源于内核合并socket缓冲区时未能正确传播共享分片标记，导致攻击者可以将只读文件页缓存误当作ESP密文进行原地解密。利用此漏洞，本地非特权用户可通过splice和espintcp ULP组合操作，逐字节篡改文件页缓存（如/usr/bin/su），从而在不写入磁盘的情况下执行提权代码获取root权限。 Ubuntu 默认的 AppArmor 配置会限制非特权 user namespace，从而对公开利用形成缓解。 Fragnesia 是 Dirty Frag 漏洞家族的一个独立新变种，源自修复 Dirty Frag 时引入的新缺陷。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** cef401de7be8 到本次修复之间的所有相关内核版本 **>** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Linux Kernel Fragnesia 本地权限提升漏洞(CVE-2026-46300) ，在ubuntu上使用需要加sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 建议更新系统至 2026年5月13日 或之后发布的内核版本，确保包含相关修复补丁。 临时缓解方案： 可禁用 Fragnesia 和 DirtyFrag 中存在漏洞的模块： ``` rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/fragnesia.conf ``` **05** **参考资料** [1]https://lists.openwall.net/netdev/2026/05/13/79 [2]https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp **06** **时间线** 2026年05月14日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://lists.openwall.net/netdev/2026/05/13/79",
+    "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://lists.openwall.net/netdev/2026/05/13/79",
+      "content": "netdev - [PATCH net] net: skbuff: preserve shared-frag marker during coalescing lists.openwall.net lists / announce owl-users owl-dev john-users john-dev passwdqc-users yescrypt popa3d-users / oss-security kernel-hardening musl sabotage tlsify passwords / crypt-dev xvendor / Bugtraq Full-Disclosure linux-kernel linux- netdev linux-ext4 linux-hardening linux-cve-announce PHC Open Source and information security mailing list archives Hash Suite: Windows password security audit tool. GUI, reports in PDF. [<prev] [next>] [thread-next>] [day] [month] [year] [list] Message-ID: <20260513041635.1289541-1-vakzz@zellic.io> Date: Wed, 13 May 2026 04:16:35 +0000 From: William Bowling <vakzz@...lic.io> To: netdev@...r.kernel.org Cc: \"David S . Miller\" <davem@...emloft.net>, Eric Dumazet <edumazet@...gle.com>, Jakub Kicinski <kuba@...nel.org>, Paolo Abeni <pabeni@...hat.com>, Steffen Klassert <steffen.klassert@...unet.com>, Herbert Xu <herbert@...dor.apana.org.au>, David Ahern <dsahern@...nel.org>, William Bowling <vakzz@...lic.io> Subject: [PATCH net] net: skbuff: preserve shared-frag marker during coalescing skb_try_coalesce() can attach paged frags from @from to @to. If @from has SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same externally-owned or page-cache-backed frags, but the shared-frag marker is currently lost. That breaks the invariant relied on by later in-place writers. In particular, ESP input checks skb_has_shared_frag() before deciding whether an uncloned nonlinear skb can skip skb_cow_data(). If TCP receive coalescing has moved shared frags into an unmarked skb, ESP can see skb_has_shared_frag() as false and decrypt in place over page-cache backed frags. Propagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged frags. The tailroom copy path does not need the marker because it copies bytes into @to's linear data rather than transferring frag descriptors. Fixes: cef401de7be8 (\"net: fix possible wrong checksum generation\") Fixes: f4c50a4034e6 (\"xfrm: esp: avoid in-place decrypt on shared skb frags\") Signed-off-by: William Bowling <vakzz@...lic.io> --- net/core/skbuff.c | 2 ++ 1 file changed, 2 insertions(+) diff --git a/net/core/skbuff.c b/net/core/skbuff.c index 7dad68e3b..9c4e8d331 100644 --- a/net/core/skbuff.c +++ b/net/core/skbuff.c @@ -6200,6 +6200,8 @@ bool skb_try_coalesce(struct sk_buff *to, struct sk_buff *from, from_shinfo->frags, from_shinfo->nr_frags * sizeof(skb_frag_t)); to_shinfo->nr_frags += from_shinfo->nr_frags; + if (from_shinfo->nr_frags) + to_shinfo->flags |= from_shinfo->flags & SKBFL_SHARED_FRAG; if (!skb_cloned(from)) from_shinfo->nr_frags = 0; Powered by blists - more mailing lists"
+    },
+    {
+      "url": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+      "content": "Fragnesia: Linux Kernel Local Privilege Escalation via ESP-in-TCP | Wiz Blog Sign in Experiencing an incident? Wiz Pricing Get a demo Platform Solutions Pricing Resources Customers Company Get a demo Blog Fragnesia: Linux Kernel Local Privilege Escalation via ESP-in-TCP A new page-cache corruption vulnerability in the Dirty Frag family enables unprivileged local attackers to achieve root Merav Bar , Rami McCarthy May 13, 2026 | Researchers have disclosed a new variant in the DirtyFrag family of Linux local privilege escalation (LPE) vulnerabilities, named “Fragnesia.” The vulnerability impacts the Linux kernel’s XFRM ESP-in-TCP subsystem. The vulnerability allows unprivileged local attackers to modify read-only file contents in the kernel page cache and achieve root privileges through a deterministic page-cache corruption primitive. Per the researcher who discovered Dirty Frag, Hyunwoo Kim, Fragnesia emerged as an unintended side effect of one of the patches addressing the original Dirty Frag vulnerabilities. Technical Details Fragnesia exploits a logic flaw in the Linux XFRM ESP-in-TCP implementation, specifically involving improper handling of shared page fragments during skb coalescing. The exploit abuses a scenario where file-backed pages are spliced into a TCP receive queue before the socket transitions into espintcp ULP mode. Once ESP processing is enabled, the kernel decrypts the queued data in-place, causing controlled corruption of the underlying page cache through AES-GCM keystream manipulation. The exploit uses user and network namespaces to obtain CAP_NET_ADMIN privileges within an isolated namespace, installs a crafted ESP security association through NETLINK_XFRM , and repeatedly triggers controlled single-byte writes into cached file pages. Researchers demonstrated overwriting the first bytes of /usr/bin/su with a small ELF payload that invokes setresuid(0,0,0) and executes /bin/sh , resulting in a root shell. The modification exists only in page cache memory and does not alter the on-disk binary. Usage of AppArmor restrictions on unprivileged user namespaces, such as those default in Ubuntu, may serve as a partial mitigation , requiring additional bypasses for successful exploitation. However, unlike DirtyFrag, no host-level privileges are required. Recommendations Apply vendor kernel patches that address the underlying XFRM ESP-in-TCP vulnerability as they become available. Until patches are deployed, disable the vulnerable modules for both Fragnesia and DirtyFrag, if not required: rmmod esp4 esp6 rxrpc printf 'install esp4 /bin/false\\ninstall esp6 /bin/false\\ninstall rxrpc /bin/false\\n' > /etc/modprobe.d/fragnesia.conf Restrict or disable unprivileged user namespaces where operationally feasible. Monitor systems for suspicious namespace creation, XFRM manipulation, or abnormal use of AF_ALG. If exploitation is suspected, reboot affected systems or clear page cache contents to remove modified in-memory binaries: echo 1 | tee /proc/sys/vm/drop_caches How Can Wiz Help? Wiz customers can use the pre-built queries and advisory in the Wiz Threat Intel Center to search for relevant instances in their environment. Wiz Research will continue to update that advisory as the situation develops. References Fragnesia disclosure Tags # Research # Threat Intel Table of contents Technical Details Recommendations How Can Wiz Help? References Continue reading Introducing Wiz Audit History: Track Every Change Across your Environment Guy Silberman , Alon Weiss , Shaked Rotlevi May 12, 2026 Wiz Audit History is now GA, providing a continuous, cross-cloud timeline of changes to resource configurations and findings to accelerate incident response and simplify compliance. Mini Shai-Hulud Strikes Again: TanStack + more npm Packages Compromised Rami McCarthy , Amitai Cohen , Benjamin Read May 12, 2026 Detect and mitigate malicious npm packages linked to the latest Mini Shai-Hulud supply chain campaign targeting high-value developer too"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Linux Kernel Fragnesia 本地权限提升漏洞",
+    "vulner_number_1": "CVE-2026-46300",
+    "vulner_number_2": "漏洞编号： CVE-2026-46300",
+    "new_vulner_name": "Linux Kernel Fragnesia 本地权限提升漏洞",
+    "vulner_date": "2026年5月14日",
+    "vulner_time_line": "2026/05/14",
+    "object_name": "Linux Kernel",
+    "object_desc": "Linux Kernel Fragnesia 是 Linux 内核的一个特定分支或配置版本，作为操作系统的核心组件，负责管理系统资源、提供硬件抽象层和基础系统服务，支持多任务处理和内核模块动态加载等核心功能。",
+    "vulner_version": "6.6 ≤ Linux Kernel < 6.10",
+    "vulner_type": "权限提升",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置；Ubuntu默认AppArmor策略限制非特权user namespace形成部分缓解",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "高",
+    "vuln_level": "高危",
+    "vulner_desc": "该漏洞存在于 Linux 内核 XFRM ESP-in-TCP 子系统，skb_try_coalesce() 函数在合并 socket 缓冲区时未能正确传播 SKBFL_SHARED_FRAG 标记，导致后续 ESP 输入路径错误判断共享分片状态，在未执行 skb_cow_data() 检查的情况下直接对 page-cache 类型的分片数据进行就地解密。攻击者可通过 splice 系统调用将只读文件页缓存引入 socket，再借助 espintcp ULP 触发 TCP 接收合并，使 ESP 解密操作覆写页缓存内容，从而在无需写入磁盘的前提下篡改系统二进制文件（如 /usr/bin/su）并执行任意代码，最终实现本地权限提升至 root。",
+    "official_solution": "建议升级到最新稳定内核版本，以修复 ESP 输入处理中的安全漏洞。\n修复版本：2026年5月13日或之后发布的内核版本\n下载链接：https://lists.openwall.net/netdev/2026/05/13/79",
+    "reference_link": "https://lists.openwall.net/netdev/2026/05/13/79",
+    "reference_link1": "https://www.wiz.io/blog/fragnesia-linux-kernel-local-privilege-escalation-via-esp-in-tcp",
+    "reference_link2": ""
+  }
+}
