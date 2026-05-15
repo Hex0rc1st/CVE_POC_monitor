@@ -1671,3 +1671,6 @@ https://mp.weixin.qq.com/s/GugzE78-TsFkLO7_YbO_ig
 https://mp.weixin.qq.com/s/3nt_kHvQqHDO9E_2YKrgGg
 奇安信cert::【已复现】Linux Kernel ptrace 本地权限提升漏洞(QVD-2026-26977)安全风险通告
 https://mp.weixin.qq.com/s/SIs8VZVo_vnjeVuBB7NGsA
+360漏洞研究院::Windows 存储空间控制器提权漏洞（CVE-2026-35415）简析
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497168&idx=1&sn=7c8c29a4ec1a86e17dfc507c9c696cfb&chksm=c27404cd99446aa6809fdeb38ff7ff6a54c05f5a0f47d00cce0501e78e4a77f97169fa95e259&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497168&idx=1&sn=7c8c29a4ec1a86e17dfc507c9c696cfb

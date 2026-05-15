@@ -3862,3 +3862,7 @@ clean_list:
 - nginx-rift-detect
 - CVE-2026-43284
 - DNS-Mayhem-CVE-2026-41096-Deep-Dive
+- CVE-2026-44338-Lab
+- CVE-2026-44578-PoC
+- CVE-2026-42897
+- cve-2025-32432-replication-lab
