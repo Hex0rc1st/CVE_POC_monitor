@@ -3638,5 +3638,10 @@
         "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
         "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
         "published": "Fri, 15 May 2026 19:05:04 +0530"
+    },
+    {
+        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+        "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+        "published": "Fri, 15 May 2026 22:40:25 +0530"
     }
 ]

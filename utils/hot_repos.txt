@@ -139,3 +139,4 @@ https://github.com/friparia/NGINX_RIFT_SCAN_CVE_2026_42945
 https://github.com/orinimron123/CVE-2026-40369-EXPLOIT
 https://github.com/ynsmroztas/nextssrf
 https://github.com/rheodev/CVE-2026-42945
+https://github.com/cipherspy/CVE-2026-42945-POC
