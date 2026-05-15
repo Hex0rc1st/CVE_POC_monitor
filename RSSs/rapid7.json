@@ -678,5 +678,10 @@
         "title": "CVE-2026-0265: Authentication Bypass in Palo Alto Networks PAN-OS",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-0265-authentication-bypass-in-palo-alto-networks-pan-os",
         "published": "Thu, 14 May 2026 19:15:49 GMT"
+    },
+    {
+        "title": "Metasploit Wrap-Up 05/15/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-15-2026",
+        "published": "Fri, 15 May 2026 18:54:25 GMT"
     }
 ]
