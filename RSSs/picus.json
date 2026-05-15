@@ -723,5 +723,10 @@
         "title": "NGINX Rift: CVE-2026-42945 Critical Heap Buffer Overflow Vulnerability Explained",
         "link": "https://www.picussecurity.com/resource/blog/nginx-rift-cve-2026-42945-critical-heap-buffer-overflow-vulnerability-explained",
         "published": "Thu, 14 May 2026 17:21:50 GMT"
+    },
+    {
+        "title": "What Does Automated Penetration Testing Actually Find?",
+        "link": "https://www.picussecurity.com/resource/blog/what-does-automated-penetration-testing-actually-find",
+        "published": "Fri, 15 May 2026 07:35:34 GMT"
     }
 ]

@@ -1669,3 +1669,5 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508728&idx=1&sn=d1
 https://mp.weixin.qq.com/s/GugzE78-TsFkLO7_YbO_ig
 360漏洞研究院::Chrome沙箱中也能利用，Windows 内核特权提升漏洞（CVE-2026-40369）
 https://mp.weixin.qq.com/s/3nt_kHvQqHDO9E_2YKrgGg
+奇安信cert::【已复现】Linux Kernel ptrace 本地权限提升漏洞(QVD-2026-26977)安全风险通告
+https://mp.weixin.qq.com/s/SIs8VZVo_vnjeVuBB7NGsA

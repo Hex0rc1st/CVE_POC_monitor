@@ -3613,5 +3613,15 @@
         "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
         "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
         "published": "Thu, 14 May 2026 22:52:43 +0530"
+    },
+    {
+        "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+        "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+        "published": "Fri, 15 May 2026 11:49:04 +0530"
+    },
+    {
+        "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+        "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+        "published": "Fri, 15 May 2026 10:58:03 +0530"
     }
 ]

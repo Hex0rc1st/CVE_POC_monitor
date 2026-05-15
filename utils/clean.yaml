@@ -3858,3 +3858,7 @@ clean_list:
 - CVE-2026-42154
 - nginx-cve-2026-42945-poc
 - Scanner_CVE_2026-42945
+- nextssrf
+- nginx-rift-detect
+- CVE-2026-43284
+- DNS-Mayhem-CVE-2026-41096-Deep-Dive
