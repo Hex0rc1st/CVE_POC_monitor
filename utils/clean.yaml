@@ -3854,3 +3854,7 @@ clean_list:
 - nginxrift-CVE-2026-42945
 - CVE-2026-8181
 - CVE-2026-6145
+- CVE-2026-44338
+- CVE-2026-42154
+- nginx-cve-2026-42945-poc
+- Scanner_CVE_2026-42945

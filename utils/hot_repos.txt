@@ -136,3 +136,4 @@ https://github.com/DepthFirstDisclosures/Nginx-Rift
 https://github.com/var77/CVE-2026-2005
 https://github.com/p3Nt3st3r-sTAr/CVE-2026-42945-POC
 https://github.com/friparia/NGINX_RIFT_SCAN_CVE_2026_42945
+https://github.com/orinimron123/CVE-2026-40369-EXPLOIT

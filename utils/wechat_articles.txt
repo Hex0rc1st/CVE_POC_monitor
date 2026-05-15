@@ -1662,3 +1662,10 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505770&idx=1&sn=7d
 微步在线研究响应中心::NGINX爆新漏洞，特定配置下可实现远程代码执行
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508711&idx=1&sn=689a40df2241578556ccbf3e178f2c0b&chksm=cef2d1b1c9418f86fec1302a800cac093f2936f7cf2df868a5e51b384dc6df294af9c615203e&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508711&idx=1&sn=689a40df2241578556ccbf3e178f2c0b
+微步在线研究响应中心::npm热门依赖包遭投毒，维护者账号被接管
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508728&idx=1&sn=d1d6d71d0e04a1a7fe9bfa82a66979cd&chksm=cea49bfd6e559f2c2192ade97c249072178b17facf93fe7b1413d5f0bb26669b9cf10d30af22&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508728&idx=1&sn=d1d6d71d0e04a1a7fe9bfa82a66979cd
+360漏洞研究院::NGINX 模块堆缓冲区溢出漏洞，特定条件下可 RCE
+https://mp.weixin.qq.com/s/GugzE78-TsFkLO7_YbO_ig
+360漏洞研究院::Chrome沙箱中也能利用，Windows 内核特权提升漏洞（CVE-2026-40369）
+https://mp.weixin.qq.com/s/3nt_kHvQqHDO9E_2YKrgGg
