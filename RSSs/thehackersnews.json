@@ -3633,5 +3633,10 @@
         "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
         "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
         "published": "Fri, 15 May 2026 16:24:44 +0530"
+    },
+    {
+        "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+        "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+        "published": "Fri, 15 May 2026 19:05:04 +0530"
     }
 ]
