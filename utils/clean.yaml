@@ -3866,3 +3866,7 @@ clean_list:
 - CVE-2026-44578-PoC
 - CVE-2026-42897
 - cve-2025-32432-replication-lab
+- wazuh-nginx-cve-2026-42945-sca-lab
+- nginx-cve-2026-42945-check
+- CVE-2026-20182-POC
+- Silverpeas-AuthBypass-CVE-2024-36042
