@@ -3886,3 +3886,5 @@ clean_list:
 - apache_audit_cve-2026-23918
 - shai-scan
 - cve-2026-42945-nginx32-lab
+- CVE-2026-4882
+- cve-2024-0519-rca-research
