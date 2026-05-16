@@ -3870,3 +3870,12 @@ clean_list:
 - nginx-cve-2026-42945-check
 - CVE-2026-20182-POC
 - Silverpeas-AuthBypass-CVE-2024-36042
+- CVE-2026-45091
+- CVE-2026-41096
+- CVE-2026-45672
+- ProyectoFinalSO
+- CVE-2025-70849
+- CVE-2026-39987-marimo-rce
+- CVE-2026-36436-Public-Reference-Pack
+- CHARON
+- CVE-2026-6857
