@@ -3888,3 +3888,4 @@ clean_list:
 - cve-2026-42945-nginx32-lab
 - CVE-2026-4882
 - cve-2024-0519-rca-research
+- cve-2026-34473-root-cause-analysis
