@@ -3879,3 +3879,10 @@ clean_list:
 - CVE-2026-36436-Public-Reference-Pack
 - CHARON
 - CVE-2026-6857
+- CVE-2026-6433
+- CVE-2026-44578
+- web-server-audit_CVE-2026-42945
+- vigilant-fishstick
+- apache_audit_cve-2026-23918
+- shai-scan
+- cve-2026-42945-nginx32-lab
