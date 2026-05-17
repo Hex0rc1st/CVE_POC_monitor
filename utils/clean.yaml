@@ -3889,3 +3889,4 @@ clean_list:
 - CVE-2026-4882
 - cve-2024-0519-rca-research
 - cve-2026-34473-root-cause-analysis
+- palo-alto-cve-2026-0265-checker
