@@ -3896,3 +3896,5 @@ clean_list:
 - CVE-2026-8181-Lab
 - CVE-2026-46333
 - Info-Sys-Security-CVE-2025-55182
+- CVE-2026-28956
+- CVE-2025-59528-Flowise-RCE
