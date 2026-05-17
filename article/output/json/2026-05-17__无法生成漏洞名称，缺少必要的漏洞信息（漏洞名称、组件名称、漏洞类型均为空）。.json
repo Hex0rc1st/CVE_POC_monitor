@@ -1,0 +1,40 @@
+{
+  "mode": "llm",
+  "title": "今日（2026年5月17日）热点网络安全漏洞动态",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-05-17",
+  "table_fields": {},
+  "sections": {
+    "intro_text": "安全团队 2026-05-17 13:58 2026-05-17 | 威胁等级: **High** | 来源: SecurityOnline.info · Qualys · thehackernews 一、Linux Kernel ptrace 退出竞争条件信息泄露漏洞 (CVE-2026-46333) **本地信息泄露****PoC已公开****Linux Kernel** **受影响产品：** 受影响 Linux 内核版本（主要 2017 年后发行版，包括 CloudLinux、AlmaLinux 等默认配置，使用 OpenSSH ssh-keysign 等 setuid 组件的系统）。上游修复于内核 commit 31e62c2e。 **影响：** 本地未授权（unprivileged）用户通过 ptrace 访问检查中的退出窗口竞争条件（race in __ptrace_may_access()），可窃取特权进程文件描述符，读取 root-only 文件如 SSH 主机私钥（/etc/ssh/ssh_host_*_key）和 /etc/shadow。无需直接提权即可获取敏感凭证。PoC 已公开。 **热度原因：** 5月14-15日 Qualys 披露并附带公开 PoC，安全社区和 Linux 发行版快速响应；影响广泛服务器/容器环境，易被本地攻击者（含恶意容器逃逸后）利用窃取凭证，CISA/社区高度关注，成为近期 Linux 内核安全焦点。 **修复建议：** 立即升级到包含修复的内核版本（7.0.8、6.18.31、6.12.89 等稳定分支）。临时缓解：设置 kernel.yama.ptrace_scope=2 或更高；限制用户命名空间；监控 ptrace 相关系统调用；避免不必要 setuid 二进制暴露。更新后重启系统。 二、Next.js WebSocket Upgrade SSRF 漏洞 (CVE-2026-44578) **CVSS 8.6****High****Next.js** **受影响产品：** Next.js 自托管版本 13.4.13 至 15.5.15 和 16.0.0 至 16.2.4（使用内置 Node.js server）；Vercel 托管版不受影响。 **影响：** 未认证攻击者通过精心构造的 WebSocket 升级请求触发 SSRF，可让服务器代理请求到任意内部/外部目标（含云元数据服务、内部 API），导致数据泄露。CVSS 约 8.6（High）。 **热度原因：** 5月11-13日前后披露，PoC 快速流传；约 79,000 暴露实例被扫描发现。自托管 Next.js 流行，攻击面广，开发者社区关注度高。 **修复建议：** 升级到 15.5.16 或 16.2.5。临时缓解：在反向代理层阻挡 WebSocket 升级请求；避免直接暴露自托管服务器到公网；监控异常内部请求。 三、PraisonAI 认证绕过漏洞 (CVE-2026-44338) **CVSS 7.3****快速利用****AI Framework** **受影响产品：** PraisonAI Python 包 2.5.6 至 4.6.33（使用 legacy Flask API server）。 **影响：** 默认认证禁用，导致未认证用户可访问 /agents 和 /chat 等受保护端点，触发 AI 工作流执行。CVSS 7.3（High）。 **热度原因：** 5月11日前后披露，披露后 4 小时内即被扫描/尝试利用，体现\"快速利用\"趋势。开源 AI 框架流行，易被攻击者针对。 **修复建议：** 立即升级到 4.6.34 或更高。临时缓解：启用认证（设置 AUTH_ENABLED=True 和 token）；限制 API 服务器网络访问；监控未授权访问日志。 四、总体修复建议 最高优先（立即处理）： ① Linux Kernel ptrace 信息泄露（CVE-2026-46333，PoC 已公开）——立即升级内核；设置 ptrace_scope 限制；监控异常 ptrace 调用。 ② Next.js SSRF（CVE-2026-44578，CVSS 8.6）——升级到 15.5.16/16.2.5；限制 WebSocket 升级请求。 ③ PraisonAI 认证绕过（CVE-2026-44338）——立即升级到 4.6.34；启用 API 认证；检查未授权访问日志。 高优先级（48小时内处理）： ① 审计 SSH 主机密钥（/etc/ssh/ssh_host_*_key）和 /etc/shadow 文件权限，确认内核更新前未被窃取。 ② 扫描暴露的自托管 Next.js 实例（约 79,000 个），优先修补面向公网的节点。 优先关注本地/容器环境（Linux 内核）和暴露 Web/AI 服务；启用自动更新、内核补丁与日志监控；使用 EDR/WAF 检测异常；定期扫描暴露面。信息基于最新公开来源，漏洞动态变化，建议查阅 NVD、Qualys、厂商公告或 securityonline.info 获取最新补丁和 IoC。",
+    "security_update": "立即升级到包含修复的内核版本（7.0.8、6.18.31、6.12.89 等稳定分支）。临时缓解：设置 kernel.yama.ptrace_scope=2 或更高；限制用户命名空间；监控 ptrace 相关系统调用；避免不必要 setuid 二进制暴露。更新后重启系统。 二、Next.js WebSocket Upgrade SSRF 漏洞 (CVE-2026-44578) CVSS 8.6 High Next.js 受影响产品： Next.js 自托管版本 13.4.13 至 15.5.15 和 16.0.0 至 16.2.4（使用内置 Node.js server）；Vercel 托管版不受影响。 影响： 未认证攻击者通过精心构造的 WebSocket 升级请求触发 SSRF，可让服务器代理请求到任意内部/外部目标（含云元数据服务、内部 API），导致数据泄露。CVSS 约 8.6（High）。 热度原因： 5月11-13日前后披露，PoC 快速流传；约 79,000 暴露实例被扫描发现。自托管 Next.js 流行，攻击面广，开发者社区关注度高。 升级到 15.5.16 或 16.2.5。临时缓解：在反向代理层阻挡 WebSocket 升级请求；避免直接暴露自托管服务器到公网；监控异常内部请求。 三、PraisonAI 认证绕过漏洞 (CVE-2026-44338) CVSS 7.3 快速利用 AI Framework 受影响产品： PraisonAI Python 包 2.5.6 至 4.6.33（使用 legacy Flask API server）。 影响： 默认认证禁用，导致未认证用户可访问 /agents 和 /chat 等受保护端点，触发 AI 工作流执行。CVSS 7.3（High）。 热度原因： 5月11日前后披露，披露后 4 小时内即被扫描/尝试利用，体现\"快速利用\"趋势。开源 AI 框架流行，易被攻击者针对。 立即升级到 4.6.34 或更高。临时缓解：启用认证（设置 AUTH_ENABLED=True 和 token）；限制 API 服务器网络访问；监控未授权访问日志。 四、总体修复建议 最高优先（立即处理）： ① Linux Kernel ptrace 信息泄露（CVE-2026-46333，PoC 已公开）——立即升级内核；设置 ptrace_scope 限制；监控异常 ptrace 调用。 ② Next.js SSRF（CVE-2026-44578，CVSS 8.6）——升级到 15.5.16/16.2.5；限制 WebSocket 升级请求。 ③ PraisonAI 认证绕过（CVE-2026-44338）——立即升级到 4.6.34；启用 API 认证；检查未授权访问日志。 高优先级（48小时内处理）： ① 审计 SSH 主机密钥（/etc/ssh/ssh_host_*_key）和 /etc/shadow 文件权限，确认内核更新前未被窃取。 ② 扫描暴露的自托管 Next.js 实例（约 79,000 个），优先修补面向公网的节点。 优先关注本地/容器环境（Linux 内核）和暴露 Web/AI 服务；启用自动更新、内核补丁与日志监控；使用 EDR/WAF 检测异常；定期扫描暴露面。信息基于最新公开来源，漏洞动态变化，建议查阅 NVD、Qualys、厂商公告或 securityonline.info 获取最新补丁和 IoC。",
+    "component_text": "",
+    "vulnerability_text": "",
+    "affected_versions_text": "",
+    "plain_text": "安全团队 2026-05-17 13:58 2026-05-17 | 威胁等级: **High** | 来源: SecurityOnline.info · Qualys · thehackernews 一、Linux Kernel ptrace 退出竞争条件信息泄露漏洞 (CVE-2026-46333) **本地信息泄露****PoC已公开****Linux Kernel** **受影响产品：** 受影响 Linux 内核版本（主要 2017 年后发行版，包括 CloudLinux、AlmaLinux 等默认配置，使用 OpenSSH ssh-keysign 等 setuid 组件的系统）。上游修复于内核 commit 31e62c2e。 **影响：** 本地未授权（unprivileged）用户通过 ptrace 访问检查中的退出窗口竞争条件（race in __ptrace_may_access()），可窃取特权进程文件描述符，读取 root-only 文件如 SSH 主机私钥（/etc/ssh/ssh_host_*_key）和 /etc/shadow。无需直接提权即可获取敏感凭证。PoC 已公开。 **热度原因：** 5月14-15日 Qualys 披露并附带公开 PoC，安全社区和 Linux 发行版快速响应；影响广泛服务器/容器环境，易被本地攻击者（含恶意容器逃逸后）利用窃取凭证，CISA/社区高度关注，成为近期 Linux 内核安全焦点。 **修复建议：** 立即升级到包含修复的内核版本（7.0.8、6.18.31、6.12.89 等稳定分支）。临时缓解：设置 kernel.yama.ptrace_scope=2 或更高；限制用户命名空间；监控 ptrace 相关系统调用；避免不必要 setuid 二进制暴露。更新后重启系统。 二、Next.js WebSocket Upgrade SSRF 漏洞 (CVE-2026-44578) **CVSS 8.6****High****Next.js** **受影响产品：** Next.js 自托管版本 13.4.13 至 15.5.15 和 16.0.0 至 16.2.4（使用内置 Node.js server）；Vercel 托管版不受影响。 **影响：** 未认证攻击者通过精心构造的 WebSocket 升级请求触发 SSRF，可让服务器代理请求到任意内部/外部目标（含云元数据服务、内部 API），导致数据泄露。CVSS 约 8.6（High）。 **热度原因：** 5月11-13日前后披露，PoC 快速流传；约 79,000 暴露实例被扫描发现。自托管 Next.js 流行，攻击面广，开发者社区关注度高。 **修复建议：** 升级到 15.5.16 或 16.2.5。临时缓解：在反向代理层阻挡 WebSocket 升级请求；避免直接暴露自托管服务器到公网；监控异常内部请求。 三、PraisonAI 认证绕过漏洞 (CVE-2026-44338) **CVSS 7.3****快速利用****AI Framework** **受影响产品：** PraisonAI Python 包 2.5.6 至 4.6.33（使用 legacy Flask API server）。 **影响：** 默认认证禁用，导致未认证用户可访问 /agents 和 /chat 等受保护端点，触发 AI 工作流执行。CVSS 7.3（High）。 **热度原因：** 5月11日前后披露，披露后 4 小时内即被扫描/尝试利用，体现\"快速利用\"趋势。开源 AI 框架流行，易被攻击者针对。 **修复建议：** 立即升级到 4.6.34 或更高。临时缓解：启用认证（设置 AUTH_ENABLED=True 和 token）；限制 API 服务器网络访问；监控未授权访问日志。 四、总体修复建议 最高优先（立即处理）： ① Linux Kernel ptrace 信息泄露（CVE-2026-46333，PoC 已公开）——立即升级内核；设置 ptrace_scope 限制；监控异常 ptrace 调用。 ② Next.js SSRF（CVE-2026-44578，CVSS 8.6）——升级到 15.5.16/16.2.5；限制 WebSocket 升级请求。 ③ PraisonAI 认证绕过（CVE-2026-44338）——立即升级到 4.6.34；启用 API 认证；检查未授权访问日志。 高优先级（48小时内处理）： ① 审计 SSH 主机密钥（/etc/ssh/ssh_host_*_key）和 /etc/shadow 文件权限，确认内核更新前未被窃取。 ② 扫描暴露的自托管 Next.js 实例（约 79,000 个），优先修补面向公网的节点。 优先关注本地/容器环境（Linux 内核）和暴露 Web/AI 服务；启用自动更新、内核补丁与日志监控；使用 EDR/WAF 检测异常；定期扫描暴露面。信息基于最新公开来源，漏洞动态变化，建议查阅 NVD、Qualys、厂商公告或 securityonline.info 获取最新补丁和 IoC。"
+  },
+  "reference_links": [],
+  "reference_materials": [],
+  "payload": {
+    "vulner_name": "无法生成漏洞名称，缺少必要的漏洞信息（漏洞名称、组件名称、漏洞类型均为空）。",
+    "vulner_number_1": "CVE-2026-46333",
+    "vulner_number_2": "漏洞编号： CVE-2026-46333",
+    "new_vulner_name": "无法生成漏洞名称，缺少必要的漏洞信息（漏洞名称、组件名称、漏洞类型均为空）。",
+    "vulner_date": "2026年5月17日",
+    "vulner_time_line": "2026/05/17",
+    "object_name": "Linux Kernel",
+    "object_desc": "Linux Kernel 是开源操作系统的核心组件，提供进程管理、内存管理、文件系统、网络协议栈等基础功能。它采用模块化设计，支持多平台架构，广泛应用于服务器、移动设备和嵌入式系统等各类计算环境中。",
+    "vulner_version": "Linux Kernel (≤ 6.12.89)",
+    "vulner_type": "本地信息泄露",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置（使用OpenSSH ssh-keysign等setuid组件）",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "PoC已公开",
+    "hazard_level": "高",
+    "vuln_level": "High",
+    "vulner_desc": "**CVE-2026-46333**：Linux 内核 `__ptrace_may_access()` 函数中存在竞态条件，本地非特权用户可在特权进程退出期间通过 ptrace 访问检查的时间窗口，窃取文件描述符并读取 SSH 主机私钥及 /etc/shadow 等 root-only 文件。 **CVE-2026-44578**：Next.js 自托管版本（13.4.13 至 15.5.15、16.0.0 至 16.2.4）的 WebSocket 升级处理逻辑存在服务端请求伪造（SSRF）缺陷，未认证攻击者可通过构造恶意升级请求，将服务器作为代理访问云元数据服务及内部 API。 **CVE-2026-44338**：PraisonAI 2.5.6 至 4.6.34 版本默认禁用认证机制，未授权攻击者可直接访问 /agents、/chat 等 API 端点执行任意 AI 工作流。",
+    "official_solution": "立即升级到包含修复的内核版本\n修复版本：7.0.8、6.18.31、6.12.89\n下载链接：https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=31e62c2e",
+    "reference_link": "https://www.qualys.com/2026/05/14/cve-2026-46333/linux-kernel-ptrace-race-information-disclosure.txt",
+    "reference_link1": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=31e62c2e",
+    "reference_link2": ""
+  }
+}

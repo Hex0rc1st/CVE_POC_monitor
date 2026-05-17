@@ -3890,3 +3890,5 @@ clean_list:
 - cve-2024-0519-rca-research
 - cve-2026-34473-root-cause-analysis
 - palo-alto-cve-2026-0265-checker
+- CVE-2024-37054
+- public-passwd

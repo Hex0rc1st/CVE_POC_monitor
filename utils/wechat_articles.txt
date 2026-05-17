@@ -1680,3 +1680,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497177&idx=1&sn=64
 奇安信cert::今日（2026年5月16日）热点网络安全漏洞动态
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505856&idx=1&sn=eb8d3df614c46d54e0a827b6befd0823&chksm=ff2e8cf64361c0549c9b80f18356066f7787c3325271d109512297e1b93e539f68c7442794ad&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505856&idx=1&sn=eb8d3df614c46d54e0a827b6befd0823
+奇安信cert::今日（2026年5月17日）热点网络安全漏洞动态
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505871&idx=1&sn=7c7eb03516ce8b20b1dc9ebe22d6282a&chksm=ff100441205c8895caddc9400c76bc28cef6e57f601bdf13812ee5ab991582d7c9a6405d76b9&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505871&idx=1&sn=7c7eb03516ce8b20b1dc9ebe22d6282a
