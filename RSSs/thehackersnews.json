@@ -3653,5 +3653,10 @@
         "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
         "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
         "published": "Sun, 17 May 2026 12:43:33 +0530"
+    },
+    {
+        "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+        "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+        "published": "Sun, 17 May 2026 17:27:53 +0530"
     }
 ]
