@@ -3892,3 +3892,4 @@ clean_list:
 - palo-alto-cve-2026-0265-checker
 - CVE-2024-37054
 - public-passwd
+- cve-2025-59536-poc
