@@ -3893,3 +3893,6 @@ clean_list:
 - CVE-2024-37054
 - public-passwd
 - cve-2025-59536-poc
+- CVE-2026-8181-Lab
+- CVE-2026-46333
+- Info-Sys-Security-CVE-2025-55182

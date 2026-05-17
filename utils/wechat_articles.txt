@@ -1683,3 +1683,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505856&idx=1&sn=eb
 奇安信cert::今日（2026年5月17日）热点网络安全漏洞动态
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505871&idx=1&sn=7c7eb03516ce8b20b1dc9ebe22d6282a&chksm=ff100441205c8895caddc9400c76bc28cef6e57f601bdf13812ee5ab991582d7c9a6405d76b9&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505871&idx=1&sn=7c7eb03516ce8b20b1dc9ebe22d6282a
+360漏洞研究院::Pwn2Own Berlin 2026落幕：47个0day漏洞获129.8万美元奖金
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497186&idx=1&sn=96ee6539d677a823107721035de1cf36&chksm=c22deeaaf4b16763856e8325b9bddacba11747e7bc0acd981fb34a7b1468fe3a52faa742a662&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497186&idx=1&sn=96ee6539d677a823107721035de1cf36
