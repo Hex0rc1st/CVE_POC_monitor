@@ -3902,3 +3902,10 @@ clean_list:
 - CVE-2024-37054-PoC
 - CVE-2026-36438
 - CVE-2026-39636-vulnerability-exp
+- CVE-2026-0596-Reproduction
+- CVE-2024-27198_Lab
+- CVE-2024-37054-MLflow-reverse-shell
+- CVE-2025-34291_cors_security_scanner
+- CVE-2025-14177
+- tanscript-exploit-check
+- CVE-2026-8053-MongoDB

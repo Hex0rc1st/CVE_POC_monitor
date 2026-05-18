@@ -1689,3 +1689,9 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497186&idx=1&sn=96
 360漏洞研究院::本该在2020年被修复的Windows提权漏洞，现在竟然还存在
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497210&idx=1&sn=da59e67ea3cca10224a7fec9b740a0da&chksm=c24e3ddfcae8b9e6238bba78ecc666e3fce635efb027d7ab07f62286144c6c9e71196d401d4f&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497210&idx=1&sn=da59e67ea3cca10224a7fec9b740a0da
+奇安信cert::【已复现】Windows 内核权限提升漏洞(CVE-2026-40369)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505886&idx=2&sn=8af49d851964689aa2079dd7f3eb9763&chksm=ffbdc5ae9569f8349037482c4e33d99a6d545892e70db7fb4d7a0f8efa561969a132c26a06c7&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505886&idx=2&sn=8af49d851964689aa2079dd7f3eb9763
+奇安信cert::【已复现】Windows Cloud Files Mini Filter Driver 权限提升漏洞(CVE-2020-17103)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505886&idx=1&sn=a7df1747f0359db0ed3714efdd827b10&chksm=ff2699c381ae58c977c4cddbee853c7b7476b35639109b846787d4af0c9b94478426f9abb618&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505886&idx=1&sn=a7df1747f0359db0ed3714efdd827b10

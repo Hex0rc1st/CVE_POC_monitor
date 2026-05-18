@@ -3668,5 +3668,20 @@
         "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
         "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
         "published": "Mon, 18 May 2026 10:29:21 +0530"
+    },
+    {
+        "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+        "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+        "published": "Mon, 18 May 2026 16:53:41 +0530"
+    },
+    {
+        "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+        "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+        "published": "Mon, 18 May 2026 16:24:05 +0530"
+    },
+    {
+        "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+        "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+        "published": "Mon, 18 May 2026 14:27:26 +0530"
     }
 ]
