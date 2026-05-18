@@ -3901,3 +3901,4 @@ clean_list:
 - CVE-2026-32683
 - CVE-2024-37054-PoC
 - CVE-2026-36438
+- CVE-2026-39636-vulnerability-exp

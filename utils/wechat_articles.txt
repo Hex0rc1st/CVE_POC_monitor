@@ -1686,3 +1686,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505871&idx=1&sn=7c
 360漏洞研究院::Pwn2Own Berlin 2026落幕：47个0day漏洞获129.8万美元奖金
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497186&idx=1&sn=96ee6539d677a823107721035de1cf36&chksm=c22deeaaf4b16763856e8325b9bddacba11747e7bc0acd981fb34a7b1468fe3a52faa742a662&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497186&idx=1&sn=96ee6539d677a823107721035de1cf36
+360漏洞研究院::本该在2020年被修复的Windows提权漏洞，现在竟然还存在
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497210&idx=1&sn=da59e67ea3cca10224a7fec9b740a0da&chksm=c24e3ddfcae8b9e6238bba78ecc666e3fce635efb027d7ab07f62286144c6c9e71196d401d4f&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497210&idx=1&sn=da59e67ea3cca10224a7fec9b740a0da

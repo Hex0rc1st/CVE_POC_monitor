@@ -3658,5 +3658,15 @@
         "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
         "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
         "published": "Sun, 17 May 2026 17:27:53 +0530"
+    },
+    {
+        "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+        "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+        "published": "Mon, 18 May 2026 12:16:37 +0530"
+    },
+    {
+        "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+        "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+        "published": "Mon, 18 May 2026 10:29:21 +0530"
     }
 ]
