@@ -958,5 +958,20 @@
         "title": "Chrome Dev for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/05/chrome-dev-for-android-update_01102578415.html",
         "published": "2026-05-14T11:13:32.533-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/05/chrome-for-android-update_0370477615.html",
+        "published": "2026-05-19T13:04:05.086-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0841193308.html",
+        "published": "2026-05-19T13:02:36.900-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/05/beta-channel-update-for-chromeos_01355580383.html",
+        "published": "2026-05-19T12:02:20.381-07:00"
     }
 ]
