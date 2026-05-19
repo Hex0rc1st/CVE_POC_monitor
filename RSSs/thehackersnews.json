@@ -3718,5 +3718,20 @@
         "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
         "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
         "published": "Tue, 19 May 2026 14:53:15 +0530"
+    },
+    {
+        "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+        "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+        "published": "Tue, 19 May 2026 20:26:26 +0530"
+    },
+    {
+        "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+        "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+        "published": "Tue, 19 May 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+        "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+        "published": "Tue, 19 May 2026 16:14:45 +0530"
     }
 ]
