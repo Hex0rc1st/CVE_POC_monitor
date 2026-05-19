@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Next.js 服务器端请求伪造漏洞(CVE-2026-44578)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-05-19",
+  "table_fields": {
+    "漏洞名称": "Next.js 服务器端请求伪造漏洞",
+    "漏洞编号": "QVD-2026-26372 ， CVE-2026-44578",
+    "公开时间": "2026-05-13",
+    "影响量级": "百万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "8.6",
+    "威胁类型": "信息泄露",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-05-19 15:35 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Next.js 是基于 React 的全栈 Web 应用开发框架，支持服务端渲染、静态站点生成、API 路由等核心能力，可快速构建高性能、SEO 友好的 Web 项目，广泛用于企业官网、电商平台、管理后台等场景，支持自定义 Node.js 服务器部署，具备灵活的路由与代理配置能力，是前端生态中主流的服务端渲染框架之一。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Next.js 服务器端请求伪造漏洞(CVE-2026-44578)，该漏洞源于 WebSocket Upgrade 请求处理路径未应用与普通 HTTP 请求一致的安全检查策略，导致服务器会代理未经充分验证的外部目标请求。攻击者可以利用该漏洞，通过构造特制的 WebSocket 升级请求，迫使 Next.js 服务器向任意内部或外部地址发起请求，从而绕过网络边界防护，实现内网探测、敏感信息窃取以及云环境元数据服务访问等恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** 13.4.13 ** **>** **>** **>** **其他受影响组件** 无 **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Next.js 服务器端请求伪造漏洞(CVE-2026-44578) ，截图如下： **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Next.js 服务器端请求伪造漏洞(CVE-2026-44578) 关联的国内风险资产总数为315672个，关联IP总数为79801个。国内风险资产分布情况如下： Next.js 服务器端请求伪造漏洞(CVE-2026-44578) 关联的全球风险资产总数为2392227个，关联IP总数858168个。全球风险资产分布情况如下： **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： Next.js >= 15.5.16 Next.js 16.* >= 16.2.5 下载地址： https://github.com/vercel/next.js/releases/tag/v15.5.16 https://github.com/vercel/next.js/releases/tag/v16.2.5 修复缓解措施： 1.在修复前，不要将 Next.js 源服务器直接暴露给不受信任的网络； 2.在反向代理（如 Nginx、Caddy、Apache）层阻断 WebSocket 升级请求（如果业务不需要 WebSocket）。",
+    "security_update": "官方已发布安全补丁，请及时更新至最新版本： Next.js >= 15.5.16 Next.js 16.* >= 16.2.5 下载地址： https://github.com/vercel/next.js/releases/tag/v15.5.16 https://github.com/vercel/next.js/releases/tag/v16.2.5 修复缓解措施： 1.在修复前，不要将 Next.js 源服务器直接暴露给不受信任的网络； 2.在反向代理（如 Nginx、Caddy、Apache）层阻断 WebSocket 升级请求（如果业务不需要 WebSocket）。",
+    "component_text": "Next.js 是基于 React 的全栈 Web 应用开发框架，支持服务端渲染、静态站点生成、API 路由等核心能力，可快速构建高性能、SEO 友好的 Web 项目，广泛用于企业官网、电商平台、管理后台等场景，支持自定义 Node.js 服务器部署，具备灵活的路由与代理配置能力，是前端生态中主流的服务端渲染框架之一。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Next.js 服务器端请求伪造漏洞(CVE-2026-44578)，该漏洞源于 WebSocket Upgrade 请求处理路径未应用与普通 HTTP 请求一致的安全检查策略，导致服务器会代理未经充分验证的外部目标请求。攻击者可以利用该漏洞，通过构造特制的 WebSocket 升级请求，迫使 Next.js 服务器向任意内部或外部地址发起请求，从而绕过网络边界防护，实现内网探测、敏感信息窃取以及云环境元数据服务访问等恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "13.4.13 <= Next.js < 15.5.16 16.0.0 <= Next.js < 16.2.5",
+    "plain_text": "安全团队 2026-05-19 15:35 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Next.js 是基于 React 的全栈 Web 应用开发框架，支持服务端渲染、静态站点生成、API 路由等核心能力，可快速构建高性能、SEO 友好的 Web 项目，广泛用于企业官网、电商平台、管理后台等场景，支持自定义 Node.js 服务器部署，具备灵活的路由与代理配置能力，是前端生态中主流的服务端渲染框架之一。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Next.js 服务器端请求伪造漏洞(CVE-2026-44578)，该漏洞源于 WebSocket Upgrade 请求处理路径未应用与普通 HTTP 请求一致的安全检查策略，导致服务器会代理未经充分验证的外部目标请求。攻击者可以利用该漏洞，通过构造特制的 WebSocket 升级请求，迫使 Next.js 服务器向任意内部或外部地址发起请求，从而绕过网络边界防护，实现内网探测、敏感信息窃取以及云环境元数据服务访问等恶意行为。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 13.4.13 ** **>** **>** **>** **其他受影响组件** 无 **03** **复现情况** 目前，安全团队威胁情报中心安全研究员已成功复现 Next.js 服务器端请求伪造漏洞(CVE-2026-44578) ，截图如下： **04** **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， Next.js 服务器端请求伪造漏洞(CVE-2026-44578) 关联的国内风险资产总数为315672个，关联IP总数为79801个。国内风险资产分布情况如下： Next.js 服务器端请求伪造漏洞(CVE-2026-44578) 关联的全球风险资产总数为2392227个，关联IP总数858168个。全球风险资产分布情况如下： **05** **处置建议** **>** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： Next.js >= 15.5.16 Next.js 16.* >= 16.2.5 下载地址： https://github.com/vercel/next.js/releases/tag/v15.5.16 https://github.com/vercel/next.js/releases/tag/v16.2.5 修复缓解措施： 1.在修复前，不要将 Next.js 源服务器直接暴露给不受信任的网络； 2.在反向代理（如 Nginx、Caddy、Apache）层阻断 WebSocket 升级请求（如果业务不需要 WebSocket）。 **06** **参考资料** [1] https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r **07** **时间线** 2026年05月19日，安全团队发布安全风险通告。 **08** **漏洞情报服务** 安全团队ALPH A 威胁分析平台已支持漏洞情报订阅服务： ![图片][3] ![图片][4] ![图片][5] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r",
+      "content": "Server-side request forgery in applications using WebSocket upgrades · Advisory · vercel/next.js · GitHub Skip to content Navigation Menu Toggle navigation Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Spark Build and deploy intelligent apps GitHub Models Manage and compare prompts MCP Registry New Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community Accelerator GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search or jump to... Search code, repositories, users, issues, pull requests... Search Clear Search syntax tips Provide feedback We read every piece of feedback, and take your input very seriously. Include my email address so I can be contacted Cancel Submit feedback Saved searches Use saved searches to filter your results more quickly Name Query To see all available qualifiers, see our documentation . Cancel Create saved search Sign in Sign up Appearance settings Resetting focus You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert vercel / next.js Public Notifications You must be signed in to change notification settings Fork 31.1k Star 140k Code Issues 2.1k Pull requests 1.8k Discussions Actions Security and quality 50 Insights Additional navigation options Code Issues Pull requests Discussions Actions Security and quality Insights Server-side request forgery in applications using WebSocket upgrades High timneutkens published GHSA-c4j6-fc7j-m34r May 6, 2026 Package npm next ( npm ) Affected versions >= 13.4.13 < 15.5.16 >= 16.0.0 < 16.2.5 Patched versions 15.5.16 16.2.5 Description Impact Self-hosted applications using the built-in Node.js server can be vulnerable to server-side request forgery through crafted WebSocket upgrade requests. An attacker can cause the server to proxy requests to arbitrary internal or external destinations, which may expose internal services or cloud metadata endpoints. Vercel-hosted deployments are not affected. Fix We now apply the same safety checks to WebSocket upgrade handling that already existed for normal HTTP requests, so upgrade requests are only proxied when routing has explicitly marked them as safe external rewrites. Workarounds If you cannot upgrade immediately, do not expose the origin server directly to untrusted networks. If WebSocket upgrades are not required, block them at your reverse proxy or load balancer, and restrict origin egress to internal networks and metadata services where possible. Severity High 8.6 CVSS overall score This score calculates ove"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Next.js 服务器端请求伪造漏洞",
+    "vulner_number_1": "CVE-2026-44578",
+    "vulner_number_2": "漏洞编号： CVE-2026-44578",
+    "new_vulner_name": "Next.js 服务器端请求伪造漏洞",
+    "vulner_date": "2026年5月19日",
+    "vulner_time_line": "2026/05/19",
+    "object_name": "next",
+    "object_desc": "Next.js 是一个基于 React 的 Web 应用框架，专注于服务端渲染和静态网站生成场景，提供了文件系统路由、API 路由、图片优化等开箱即用的功能，适用于构建快速、现代的全栈 Web 应用和网站。",
+    "vulner_version": "13.4.13 ≤ next < 15.5.16 16.0.0 ≤ next < 16.2.5",
+    "vulner_type": "服务器端请求伪造",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "该漏洞可绕过网络边界防护措施，实现内网资产探测、敏感数据窃取以及云环境元数据服务端点访问",
+    "vuln_level": "高危",
+    "vulner_desc": "Next.js 内置 Node.js 服务器在处理 WebSocket 升级请求时，未应用与普通 HTTP 请求相同的安全检查策略。攻击者可通过构造特制的 WebSocket 升级请求，诱使服务器向任意内部或外部地址代理请求，从而访问内网服务或云环境元数据端点。该漏洞影响 13.4.13 及以上至 15.5.16 以下版本，以及 16.0.0 及以上至 16.2.5 以下版本。",
+    "official_solution": "升级到安全版本以修复服务端请求伪造漏洞\n修复版本：Next.js >= 15.5.16 或 Next.js 16.* >= 16.2.5\n下载链接：https://github.com/vercel/next.js/releases/tag/v15.5.16",
+    "reference_link": "https://github.com/vercel/next.js/releases/tag/v15.5.16",
+    "reference_link1": "https://github.com/vercel/next.js/releases/tag/v16.2.5",
+    "reference_link2": "https://github.com/vercel/next.js/security/advisories/GHSA-c4j6-fc7j-m34r"
+  }
+}

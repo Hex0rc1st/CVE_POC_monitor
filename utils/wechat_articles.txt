@@ -1695,3 +1695,12 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505886&idx=2&sn=8a
 奇安信cert::【已复现】Windows Cloud Files Mini Filter Driver 权限提升漏洞(CVE-2020-17103)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505886&idx=1&sn=a7df1747f0359db0ed3714efdd827b10&chksm=ff2699c381ae58c977c4cddbee853c7b7476b35639109b846787d4af0c9b94478426f9abb618&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505886&idx=1&sn=a7df1747f0359db0ed3714efdd827b10
+360漏洞研究院::“百密一疏”：轻量TCP/IP协议栈 lwIP（Lightweight IP）SMTP客户端堆溢出致RCE
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497221&idx=1&sn=c38932e8e9e9f3d254d4f115399e48a8&chksm=c2cff00af8c35ce9addc46b8cb43e818d3750a94504ff18d95f4335c1bccc1482522d44cc436&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497221&idx=1&sn=c38932e8e9e9f3d254d4f115399e48a8
+奇安信cert::【已复现】PostgreSQL pgcrypto 堆缓冲区溢出漏洞(CVE-2026-2005)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505907&idx=2&sn=205c4c3a6ab07259e746d3f430f9c72e&chksm=ffdbe987b06fdb4a656b1e77765086509bea3f0b631db424624e7f6fd0af3566a97d0ebda612&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505907&idx=2&sn=205c4c3a6ab07259e746d3f430f9c72e
+奇安信cert::【已复现】Next.js 服务器端请求伪造漏洞(CVE-2026-44578)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505907&idx=1&sn=fa84a90f4eb664f50485b423f8db03cd&chksm=ff46369deafb6f2b8effc1f96e146f93f96b4e3235b16c005ff609c8ae02af3d0746c635b3f6&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505907&idx=1&sn=fa84a90f4eb664f50485b423f8db03cd
