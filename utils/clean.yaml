@@ -3909,3 +3909,8 @@ clean_list:
 - CVE-2025-14177
 - tanscript-exploit-check
 - CVE-2026-8053-MongoDB
+- CVE-2024-37032-PoC
+- CVE-2026-34486-e-Tomcat-Tribes
+- CVE-2026-36748
+- CVE-2025-11203-PoC
+- CVE-2025-45809-PoC

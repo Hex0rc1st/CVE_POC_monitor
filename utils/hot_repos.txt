@@ -143,3 +143,4 @@ https://github.com/cipherspy/CVE-2026-42945-POC
 https://github.com/oseasfr/Scanner_CVE_2026-42945
 https://github.com/0xBlackash/CVE-2026-46333
 https://github.com/impost0r/CVE-2026-28956
+https://github.com/4xura/CVE-2026-31431-Copy-Fail
