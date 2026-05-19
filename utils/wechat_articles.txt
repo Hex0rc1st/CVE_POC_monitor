@@ -1704,3 +1704,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505907&idx=2&sn=20
 奇安信cert::【已复现】Next.js 服务器端请求伪造漏洞(CVE-2026-44578)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247505907&idx=1&sn=fa84a90f4eb664f50485b423f8db03cd&chksm=ff46369deafb6f2b8effc1f96e146f93f96b4e3235b16c005ff609c8ae02af3d0746c635b3f6&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247505907&idx=1&sn=fa84a90f4eb664f50485b423f8db03cd
+微步在线研究响应中心::Shai-Hulud投毒竞赛开场，npm 639个版本被黑
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508740&idx=1&sn=297371719e2a98f5e6ded257f2757a95&chksm=ce200f319f0574cd3d023bcd821d1b30cb92bcefe2daa1f617816c013b1f8c90ab3c46fffde1&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508740&idx=1&sn=297371719e2a98f5e6ded257f2757a95

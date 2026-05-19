@@ -3713,5 +3713,10 @@
         "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
         "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
         "published": "Tue, 19 May 2026 10:24:17 +0530"
+    },
+    {
+        "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+        "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+        "published": "Tue, 19 May 2026 14:53:15 +0530"
     }
 ]

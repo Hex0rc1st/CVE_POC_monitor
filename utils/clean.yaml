@@ -3916,3 +3916,9 @@ clean_list:
 - CVE-2025-45809-PoC
 - CVE-2026-35029-PoC
 - POC_CVE-2024-36420
+- roninforge-hono
+- roninforge-angularjs-migration
+- Dirty-Frag-CVE-2026-43284
+- webkit-cve-2024-23222
+- sql-injection-research-paper
+- CVE-2026-35030-PoC
