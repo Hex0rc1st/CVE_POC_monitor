@@ -733,5 +733,10 @@
         "title": "Dirty Frag LPE: CVE-2026-43284 and CVE-2026-43500 Deep Dive",
         "link": "https://www.picussecurity.com/resource/blog/dirty-frag-lpe-cve-2026-43284-and-cve-2026-43500-deep-dive",
         "published": "Wed, 20 May 2026 06:47:21 GMT"
+    },
+    {
+        "title": "Revisiting Voldemort, HealthKick, and GOVERSHELL: A Technical Retrospective",
+        "link": "https://www.picussecurity.com/resource/blog/revisiting-voldemort-healthkick-and-govershell-a-technical-retrospective",
+        "published": "Wed, 20 May 2026 13:00:00 GMT"
     }
 ]

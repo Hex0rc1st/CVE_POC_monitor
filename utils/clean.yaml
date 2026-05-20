@@ -3937,3 +3937,7 @@ clean_list:
 - Fragnesia-go
 - Dirtyfrag-go
 - Yellowkey-mitigation
+- coreweave-demo-2026-05
+- CVE-2025-8110-PoC
+- Fragnesia-CVE-2026-46300
+- FULL-ANALYSIS---CVE-2026-45829-ChromaDB-
