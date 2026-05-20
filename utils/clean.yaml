@@ -3928,3 +3928,8 @@ clean_list:
 - ptrace_may_dream
 - CVE-2026-42271-PoC
 - invokeai-consumer
+- cve2026
+- POC_CVE-2026-35037
+- CVE-2026-42945-NGINX-Rift-Toolkit
+- Ghost-CMS-Code-Injection-Audit-CVE-2026-26980
+- CVE-2026-31635

@@ -3743,5 +3743,10 @@
         "title": "GitHub Investigating TeamPCP Claimed Breach of ~4,000 Internal Repositories",
         "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
         "published": "Wed, 20 May 2026 09:31:15 +0530"
+    },
+    {
+        "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+        "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+        "published": "Wed, 20 May 2026 10:42:06 +0530"
     }
 ]

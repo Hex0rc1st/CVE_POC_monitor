@@ -728,5 +728,10 @@
         "title": "What Does Automated Penetration Testing Actually Find?",
         "link": "https://www.picussecurity.com/resource/blog/what-does-automated-penetration-testing-actually-find",
         "published": "Fri, 15 May 2026 07:35:34 GMT"
+    },
+    {
+        "title": "Dirty Frag LPE: CVE-2026-43284 and CVE-2026-43500 Deep Dive",
+        "link": "https://www.picussecurity.com/resource/blog/dirty-frag-lpe-cve-2026-43284-and-cve-2026-43500-deep-dive",
+        "published": "Wed, 20 May 2026 06:47:21 GMT"
     }
 ]
