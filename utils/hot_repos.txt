@@ -146,3 +146,4 @@ https://github.com/impost0r/CVE-2026-28956
 https://github.com/4xura/CVE-2026-31431-Copy-Fail
 https://github.com/itzSh4dowxZ/CVE-2024-37032-PoC
 https://github.com/0xbinder/CVE-2026-0073
+https://github.com/sgkdev/ptrace_may_dream
