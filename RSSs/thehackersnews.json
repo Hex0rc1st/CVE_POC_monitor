@@ -3748,5 +3748,15 @@
         "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
         "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
         "published": "Wed, 20 May 2026 10:42:06 +0530"
+    },
+    {
+        "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+        "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+        "published": "Wed, 20 May 2026 16:00:00 +0530"
+    },
+    {
+        "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+        "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+        "published": "Wed, 20 May 2026 13:58:26 +0530"
     }
 ]
