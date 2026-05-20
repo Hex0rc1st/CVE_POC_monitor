@@ -3922,3 +3922,9 @@ clean_list:
 - webkit-cve-2024-23222
 - sql-injection-research-paper
 - CVE-2026-35030-PoC
+- ollama-consumer
+- cve-2025-29927-nextjs
+- DirtyDecrypt
+- ptrace_may_dream
+- CVE-2026-42271-PoC
+- invokeai-consumer
