@@ -3788,5 +3788,10 @@
         "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
         "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
         "published": "Thu, 21 May 2026 09:14:11 +0530"
+    },
+    {
+        "title": "9-Year-Old Linux Kernel Flaw Enables Root Command Execution on Major Distros",
+        "link": "https://thehackernews.com/2026/05/9-year-old-linux-kernel-flaw-enables.html",
+        "published": "Thu, 21 May 2026 13:05:53 +0530"
     }
 ]

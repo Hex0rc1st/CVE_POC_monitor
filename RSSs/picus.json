@@ -738,5 +738,15 @@
         "title": "Revisiting Voldemort, HealthKick, and GOVERSHELL: A Technical Retrospective",
         "link": "https://www.picussecurity.com/resource/blog/revisiting-voldemort-healthkick-and-govershell-a-technical-retrospective",
         "published": "Wed, 20 May 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Fragnesia CVE-2026-46300: Linux Kernel LPE Vulnerability Explained",
+        "link": "https://www.picussecurity.com/resource/blog/fragnesia-cve-2026-46300-linux-kernel-lpe-vulnerability-explained",
+        "published": "Thu, 21 May 2026 08:00:00 GMT"
+    },
+    {
+        "title": "What Is an Insider Threat?",
+        "link": "https://www.picussecurity.com/resource/blog/what-is-an-insider-threat",
+        "published": "Thu, 21 May 2026 06:30:00 GMT"
     }
 ]

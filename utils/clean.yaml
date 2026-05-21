@@ -3950,3 +3950,8 @@ clean_list:
 - CVE-2026-38765
 - CVE-2026-38764
 - CVE-2026-38763
+- CVE-2024-6678
+- wordpress-vulnerable-lab
+- CVE-2026-46680
+- CVE-2025-99999
+- CVE-2026-42048
