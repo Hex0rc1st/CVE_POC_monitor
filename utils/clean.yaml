@@ -3941,3 +3941,12 @@ clean_list:
 - CVE-2025-8110-PoC
 - Fragnesia-CVE-2026-46300
 - FULL-ANALYSIS---CVE-2026-45829-ChromaDB-
+- CVE-2026-33829-Writeup
+- CVE-2026-38766
+- android-workprofile-exploit
+- cve-2026-9082
+- setcred
+- CVE-2026-9082
+- CVE-2026-38765
+- CVE-2026-38764
+- CVE-2026-38763

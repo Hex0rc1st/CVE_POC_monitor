@@ -3778,5 +3778,15 @@
         "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
         "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
         "published": "Wed, 20 May 2026 22:36:54 +0530"
+    },
+    {
+        "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
+        "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
+        "published": "Thu, 21 May 2026 09:57:01 +0530"
+    },
+    {
+        "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
+        "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
+        "published": "Thu, 21 May 2026 09:14:11 +0530"
     }
 ]
