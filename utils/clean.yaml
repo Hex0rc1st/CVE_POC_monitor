@@ -3963,3 +3963,9 @@ clean_list:
 - CVE-2026-0908-Chrome-0-day-RCE
 - CVE-2026-3102
 - mitigate_cve_2026_31431-sh
+- CVE-2026-8181-mass
+- copyfail-safe-check
+- struts-uploader-vulnerability
+- CVE-2026-5281
+- CVE-2025-50165-Windows-Graphics-Component-RCE
+- CVE-2026-20223

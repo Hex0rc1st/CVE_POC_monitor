@@ -3813,5 +3813,20 @@
         "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
         "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
         "published": "Thu, 21 May 2026 17:22:14 +0530"
+    },
+    {
+        "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
+        "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
+        "published": "Fri, 22 May 2026 14:20:18 +0530"
+    },
+    {
+        "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
+        "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
+        "published": "Fri, 22 May 2026 11:17:33 +0530"
+    },
+    {
+        "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
+        "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
+        "published": "Fri, 22 May 2026 11:06:18 +0530"
     }
 ]
