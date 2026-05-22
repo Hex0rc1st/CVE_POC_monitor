@@ -753,5 +753,10 @@
         "title": "DeepLoad Malware Explained: ClickFix Delivery and Password Stealing",
         "link": "https://www.picussecurity.com/resource/blog/deepload-malware-explained-clickfix-delivery-and-password-stealing",
         "published": "Fri, 22 May 2026 06:53:00 GMT"
+    },
+    {
+        "title": "UNC2891 Bank Heist Explained: CAKETAP Rootkit and Raspberry Pi Attack",
+        "link": "https://www.picussecurity.com/resource/blog/unc2891-bank-heist-explained-caketap-rootkit-and-raspberry-pi-attack",
+        "published": "Fri, 22 May 2026 12:15:00 GMT"
     }
 ]

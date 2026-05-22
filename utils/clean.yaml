@@ -3969,3 +3969,6 @@ clean_list:
 - CVE-2026-5281
 - CVE-2025-50165-Windows-Graphics-Component-RCE
 - CVE-2026-20223
+- CVE-2025-55423-analysis-and-reproduction
+- CVE-2026-45584
+- CVE-2026-34926
