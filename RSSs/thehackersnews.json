@@ -3828,5 +3828,15 @@
         "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
         "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
         "published": "Fri, 22 May 2026 11:06:18 +0530"
+    },
+    {
+        "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+        "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+        "published": "Fri, 22 May 2026 17:25:24 +0530"
+    },
+    {
+        "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+        "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+        "published": "Fri, 22 May 2026 17:08:12 +0530"
     }
 ]

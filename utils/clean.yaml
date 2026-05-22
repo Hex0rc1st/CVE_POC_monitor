@@ -3972,3 +3972,9 @@ clean_list:
 - CVE-2025-55423-analysis-and-reproduction
 - CVE-2026-45584
 - CVE-2026-34926
+- CVE-2026-AES-Wrap-PAD-PoC
+- CVE-2026-36228
+- CVE-2026-36226
+- ISU-SecOps-Nginx-RCE
+- CVE-2026-TDES-Wrap-PoC
+- CVE-2026-36227
