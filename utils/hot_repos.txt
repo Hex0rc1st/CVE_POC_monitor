@@ -148,3 +148,4 @@ https://github.com/itzSh4dowxZ/CVE-2024-37032-PoC
 https://github.com/0xbinder/CVE-2026-0073
 https://github.com/sgkdev/ptrace_may_dream
 https://github.com/venglin/setcred
+https://github.com/Mclisterjoeh2o/yellowkey-bitlocker
