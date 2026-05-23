@@ -3978,3 +3978,5 @@ clean_list:
 - ISU-SecOps-Nginx-RCE
 - CVE-2026-TDES-Wrap-PoC
 - CVE-2026-36227
+- CVE-2026-23813
+- CVE-2026-41901
