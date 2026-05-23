@@ -383,5 +383,10 @@
         "title": "CVE-2026-41713 - High - CVE-2026-41713: Prompt Injection via Memory Poisoning in PromptChatMemoryAdvisor",
         "link": "https://spring.io/security/cve-2026-41713",
         "published": "Fri, 08 May 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41863 - Medium - CVE-2026-41863: LLM-influenced filename used unsanitized in Path.resolve before file write in Spring AI support for Anthropic Skills API",
+        "link": "https://spring.io/security/cve-2026-41863",
+        "published": "Sat, 23 May 2026 00:00:00 GMT"
     }
 ]

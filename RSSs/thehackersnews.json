@@ -3848,5 +3848,15 @@
         "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
         "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
         "published": "Fri, 22 May 2026 23:05:02 +0530"
+    },
+    {
+        "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+        "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+        "published": "Sat, 23 May 2026 13:05:13 +0530"
+    },
+    {
+        "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+        "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+        "published": "Sat, 23 May 2026 12:53:48 +0530"
     }
 ]
