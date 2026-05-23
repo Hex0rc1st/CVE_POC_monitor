@@ -3858,5 +3858,10 @@
         "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
         "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
         "published": "Sat, 23 May 2026 12:53:48 +0530"
+    },
+    {
+        "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+        "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+        "published": "Sat, 23 May 2026 15:21:13 +0530"
     }
 ]

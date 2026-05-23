@@ -29523,5 +29523,105 @@
         "title": "Exploited in the Wild: Critical BeyondTrust Flaw (CVSS 9.9) Opens Door to Network Takeover",
         "link": "https://securityonline.info/exploited-in-the-wild-critical-beyondtrust-flaw-cvss-9-9-opens-door-to-network-takeover/",
         "published": "Sun, 15 Feb 2026 03:58:23 +0000"
+    },
+    {
+        "title": "Malicious JS Lifecycle Hooks Found Hiding Inside PHP Composer Packages",
+        "link": "https://securityonline.info/php-composer-packages-malicious-js-postinstall-backdoor/",
+        "published": "Sat, 23 May 2026 04:32:47 +0000"
+    },
+    {
+        "title": "Supply Chain Storm: Over 700 Laravel Lang Versions Poisoned with Malicious RCE Backdoor",
+        "link": "https://securityonline.info/laravel-lang-supply-chain-attack-rce-backdoor/",
+        "published": "Sat, 23 May 2026 04:24:14 +0000"
+    },
+    {
+        "title": "WantToCry Ransomware Leverages Exposed SMB for Remote Encryption Loops",
+        "link": "https://securityonline.info/wanttocry-remote-ransomware-smb-brute-force-no-local-code/",
+        "published": "Sat, 23 May 2026 01:39:29 +0000"
+    },
+    {
+        "title": "Malware-as-a-Service Exposed: Cisco Talos Unmasks Developer Behind Prolific “BadIIS” Web Server Toolkit",
+        "link": "https://securityonline.info/cisco-talos-badiis-malware-as-a-service-lwxat/",
+        "published": "Fri, 22 May 2026 09:01:55 +0000"
+    },
+    {
+        "title": "Bypassing Terminal Protections: New SHub “Reaper” Variant Abuses AppleScript to Loot macOS Endpoints",
+        "link": "https://securityonline.info/shub-reaper-macos-infostealer-applescript-mitigation-bypass/",
+        "published": "Fri, 22 May 2026 08:03:04 +0000"
+    },
+    {
+        "title": "Storm-2949 Hijacks Azure Identity and Key Vaults in Catastrophic Cloud Campaign",
+        "link": "https://securityonline.info/storm-2949-azure-control-plane-cloud-identity-compromise/",
+        "published": "Fri, 22 May 2026 07:01:58 +0000"
+    },
+    {
+        "title": "CVSS 10.0 Zero-Day: Active Attacks Exploit LiteSpeed cPanel Plugin for Root Server Access",
+        "link": "https://securityonline.info/litespeed-cpanel-plugin-privilege-escalation-cve-2026-48172/",
+        "published": "Fri, 22 May 2026 06:46:02 +0000"
+    },
+    {
+        "title": "Twill Typhoon Exploits CDN Masquerading and DLL Sideloading to Breach APJ Networks",
+        "link": "https://securityonline.info/twill-typhoon-dll-sideloading-cdn-masquerading-darktrace/",
+        "published": "Fri, 22 May 2026 06:17:27 +0000"
+    },
+    {
+        "title": "Triple CVSS 10.0 Warning: Critical Ubiquiti UniFi OS Flaws Allow Unauthenticated Remote Takeovers",
+        "link": "https://securityonline.info/ubiquiti-unifi-os-critical-vulnerabilities-cvss-10-firmware-update/",
+        "published": "Fri, 22 May 2026 04:30:40 +0000"
+    },
+    {
+        "title": "New Apache Camel K Flaw (CVE-2026-45760) Enables Cross-Namespace Attacks",
+        "link": "https://securityonline.info/apache-camel-k-cross-namespace-vulnerability-cve-2026-45760/",
+        "published": "Fri, 22 May 2026 03:12:15 +0000"
+    },
+    {
+        "title": "Five Critical vm2 Vulnerabilities Grant Instant Node.js Host RCE",
+        "link": "https://securityonline.info/vm2-sandbox-escape-vulnerabilities-cve-2026-47140-node-rce/",
+        "published": "Fri, 22 May 2026 02:30:45 +0000"
+    },
+    {
+        "title": "Print-Path RCE Exposed: Critical HP Linux Driver Flaws (CVE-2026-8631) Grant Root Privileges",
+        "link": "https://securityonline.info/hp-linux-driver-hplip-vulnerabilities-cve-2026-8631-rce/",
+        "published": "Fri, 22 May 2026 02:12:56 +0000"
+    },
+    {
+        "title": "Splunk Patches High-Severity Bugs Granting DoS and Internal Log Leaks",
+        "link": "https://securityonline.info/splunk-enterprise-security-advisories-cve-2026-20240-log-leak/",
+        "published": "Fri, 22 May 2026 01:20:03 +0000"
+    },
+    {
+        "title": "Critical Altium Enterprise Server Flaws Grant RCE and Database Access",
+        "link": "https://securityonline.info/altium-enterprise-server-vulnerabilities-cve-2026-9129-rce/",
+        "published": "Fri, 22 May 2026 01:01:53 +0000"
+    },
+    {
+        "title": "PowerDNS Fixes Flaws Granting Server Crashes and Memory Corruption",
+        "link": "https://securityonline.info/powerdns-authoritative-server-vulnerabilities-cve-2026-42001/",
+        "published": "Fri, 22 May 2026 00:17:38 +0000"
+    },
+    {
+        "title": "CISA Sound the Alarm: Langflow AI Platform and Trend Micro Added to KEV Catalog Due to Active Exploitation",
+        "link": "https://securityonline.info/cisa-kev-catalog-langflow-cve-2025-34291-trend-micro/",
+        "published": "Thu, 21 May 2026 23:29:12 +0000"
+    },
+    {
+        "title": "KongTuke Abandoning “ClickFix” to Launch Direct Microsoft Teams Attacks",
+        "link": "https://securityonline.info/kongtuke-microsoft-teams-phishing-modelorat-initial-access/",
+        "published": "Thu, 21 May 2026 12:06:57 +0000"
+    },
+    {
+        "title": "The Quota Crunch: Google Triples Antigravity CLI Allocations After New Limits Spark Developer Outrage",
+        "link": "https://securityonline.info/google-antigravity-cli-gemini-allocation-limits-quota-reset/",
+        "published": "Thu, 21 May 2026 10:43:14 +0000"
+    },
+    {
+        "title": "The Kill Switch: How an Automated Google Cloud Error Instantly Wiped Out the Railway Platform",
+        "link": "https://securityonline.info/railway-app-google-cloud-suspension-gcp-automated-account-outage/",
+        "published": "Thu, 21 May 2026 10:34:50 +0000"
+    },
+    {
+        "title": "Predating Stuxnet: How the “fast16” Malware Secretly Sabotaged Nuclear Weapons Simulations",
+        "link": "https://securityonline.info/fast16-pre-stuxnet-malware-sabotaged-nuclear-weapons-simulations/",
+        "published": "Thu, 21 May 2026 09:04:53 +0000"
     }
 ]
