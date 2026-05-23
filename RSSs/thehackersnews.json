@@ -3868,5 +3868,15 @@
         "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
         "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
         "published": "Sat, 23 May 2026 17:25:35 +0530"
+    },
+    {
+        "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+        "published": "Sat, 23 May 2026 22:05:10 +0530"
+    },
+    {
+        "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+        "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+        "published": "Sat, 23 May 2026 21:37:51 +0530"
     }
 ]
