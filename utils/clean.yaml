@@ -3992,3 +3992,5 @@ clean_list:
 - CVE-2025-55182-in-go
 - bitlocker-hardening
 - CVE-2026-20182
+- CVE-2026-23520-Educational
+- cPanel-patch-radar
