@@ -3994,3 +3994,4 @@ clean_list:
 - CVE-2026-20182
 - CVE-2026-23520-Educational
 - cPanel-patch-radar
+- Automated-scanner-CVE-2026-41940
