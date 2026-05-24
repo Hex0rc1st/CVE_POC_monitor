@@ -3989,3 +3989,6 @@ clean_list:
 - CVE-2024-42323
 - drupal-cve-2026-9082-checker
 - CVE-2026-41096-POC
+- CVE-2025-55182-in-go
+- bitlocker-hardening
+- CVE-2026-20182

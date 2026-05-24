@@ -29628,5 +29628,30 @@
         "title": "The 10,000-Bug AI: How Anthropic’s Secret “Mythos” Model is Rewriting Cyber-Resilience",
         "link": "https://securityonline.info/anthropic-project-glasswing-claude-mythos-vulnerability-detection/",
         "published": "Sun, 24 May 2026 02:16:54 +0000"
+    },
+    {
+        "title": "ConnectWise Patches Severe Code Execution Flaw in Automate",
+        "link": "https://securityonline.info/connectwise-automate-vulnerability-cve-2026-9089/",
+        "published": "Sun, 24 May 2026 07:48:58 +0000"
+    },
+    {
+        "title": "Cloud Under Siege: Persistent P2Pinfect Botnet Activity Discovered in Kubernetes Environments",
+        "link": "https://securityonline.info/p2pinfect-botnet-activity-kubernetes/",
+        "published": "Sun, 24 May 2026 07:12:48 +0000"
+    },
+    {
+        "title": "SSRF Risk in Server-Side Rendering: Patch Your Angular Applications",
+        "link": "https://securityonline.info/angular-hostname-hijacking-vulnerability/",
+        "published": "Sun, 24 May 2026 06:42:11 +0000"
+    },
+    {
+        "title": "Legitimate Software Abused: Stealthy ValleyRAT Malware Campaign Targets Enterprise Users",
+        "link": "https://securityonline.info/valleyrat-malware-campaign-teams/",
+        "published": "Sun, 24 May 2026 06:11:34 +0000"
+    },
+    {
+        "title": "Operation Saffron: Authorities Smash ‘First VPN’ Cybercrime Network",
+        "link": "https://securityonline.info/first-vpn-service-takedown-europol/",
+        "published": "Sun, 24 May 2026 05:24:30 +0000"
     }
 ]
