@@ -29653,5 +29653,30 @@
         "title": "Operation Saffron: Authorities Smash ‘First VPN’ Cybercrime Network",
         "link": "https://securityonline.info/first-vpn-service-takedown-europol/",
         "published": "Sun, 24 May 2026 05:24:30 +0000"
+    },
+    {
+        "title": "NLnet Labs Issues Urgent Security Release for Unbound Resolver",
+        "link": "https://securityonline.info/unbound-dnssec-validation-vulnerability/",
+        "published": "Mon, 25 May 2026 02:12:05 +0000"
+    },
+    {
+        "title": "Critical Unauthenticated RCE Flaw Threatens Kopia Backup Servers",
+        "link": "https://securityonline.info/kopia-ssh-proxycommand-injection-rce/",
+        "published": "Mon, 25 May 2026 01:42:25 +0000"
+    },
+    {
+        "title": "Critical TYPO3 Extension Exploit: Content Element Selector Flaw (CVE-2026-46725) Triggers Unauthenticated RCE",
+        "link": "https://securityonline.info/typo3-extension-content-element-selector-rce-cve-2026-46725/",
+        "published": "Mon, 25 May 2026 01:17:26 +0000"
+    },
+    {
+        "title": "Over-the-Air Root Risk: Seven Critical FreeBSD Security Advisories Fix Wi-Fi RCE and Kernel Flaws",
+        "link": "https://securityonline.info/freebsd-core-vulnerabilities-wifi-rce-kernel-privilege-escalation/",
+        "published": "Mon, 25 May 2026 01:01:25 +0000"
+    },
+    {
+        "title": "NGINX Fixes Critical Poolslip Flaw Allowing Remote Code Execution",
+        "link": "https://securityonline.info/nginx-heap-buffer-overflow-vulnerability/",
+        "published": "Mon, 25 May 2026 00:44:15 +0000"
     }
 ]

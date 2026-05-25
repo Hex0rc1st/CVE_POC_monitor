@@ -3995,3 +3995,7 @@ clean_list:
 - CVE-2026-23520-Educational
 - cPanel-patch-radar
 - Automated-scanner-CVE-2026-41940
+- CVE-2026-3854
+- CVE-2026-36239
+- CVE-2026-X4992-Uniswap-PoC
+- ingress-nginx-cve-2026-42945-backport
