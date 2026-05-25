@@ -3878,5 +3878,25 @@
         "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
         "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
         "published": "Sat, 23 May 2026 21:37:51 +0530"
+    },
+    {
+        "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
+        "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+        "published": "Mon, 25 May 2026 17:32:46 +0530"
+    },
+    {
+        "title": "The Alert Firehose Finally Meets Its Match",
+        "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+        "published": "Mon, 25 May 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
+        "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+        "published": "Mon, 25 May 2026 15:02:54 +0530"
+    },
+    {
+        "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+        "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+        "published": "Mon, 25 May 2026 11:29:13 +0530"
     }
 ]

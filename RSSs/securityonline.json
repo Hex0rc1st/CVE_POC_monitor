@@ -29678,5 +29678,35 @@
         "title": "NGINX Fixes Critical Poolslip Flaw Allowing Remote Code Execution",
         "link": "https://securityonline.info/nginx-heap-buffer-overflow-vulnerability/",
         "published": "Mon, 25 May 2026 00:44:15 +0000"
+    },
+    {
+        "title": "The Zero-Day Dispatch: Weekly Threat Intelligence Briefing (May 18 – May 24, 2026)",
+        "link": "https://securityonline.info/weekly-threat-intelligence-may-24-2026/",
+        "published": "Mon, 25 May 2026 10:24:19 +0000"
+    },
+    {
+        "title": "New Knowledge Deliver RCE Vulnerability Exploited in the Wild",
+        "link": "https://securityonline.info/knowledge-deliver-rce-vulnerability-cve-2026-5426/",
+        "published": "Mon, 25 May 2026 09:58:16 +0000"
+    },
+    {
+        "title": "Poisoned Code: Stealthy Malicious Go Module Backdoor Discovered in Long-Running Typosquat",
+        "link": "https://securityonline.info/malicious-go-module-backdoor-discovered/",
+        "published": "Mon, 25 May 2026 09:01:53 +0000"
+    },
+    {
+        "title": "Disrupted: How the “Trapdoor” Ad Fraud Ring Weaponized 455 Android Apps for 659 Million Daily Fake Bids",
+        "link": "https://securityonline.info/human-satori-disrupts-trapdoor-android-ad-fraud-pipeline/",
+        "published": "Mon, 25 May 2026 08:01:56 +0000"
+    },
+    {
+        "title": "Microsoft Dismantles “Fox Tempest” Code-Signing Network Fueling Global Ransomware",
+        "link": "https://securityonline.info/microsoft-disrupts-fox-tempest-malware-signing-as-a-service/",
+        "published": "Mon, 25 May 2026 07:11:17 +0000"
+    },
+    {
+        "title": "In-Memory Financial Theft: Inside Banana RAT’s Operator-Driven Attacks on Brazilian Banks",
+        "link": "https://securityonline.info/banana-rat-banking-trojan-shadow-water-063-financial-fraud/",
+        "published": "Mon, 25 May 2026 06:47:33 +0000"
     }
 ]
