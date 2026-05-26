@@ -29733,5 +29733,20 @@
         "title": "New 7-Zip Heap Buffer Overflow Disclosed with Public PoC",
         "link": "https://securityonline.info/7-zip-heap-buffer-overflow-cve-2026-48095/",
         "published": "Tue, 26 May 2026 01:00:30 +0000"
+    },
+    {
+        "title": "Android Carrier Billing Fraud Campaign Exposed by zLabs",
+        "link": "https://securityonline.info/android-carrier-billing-fraud-zlabs-report/",
+        "published": "Tue, 26 May 2026 08:10:02 +0000"
+    },
+    {
+        "title": "New Tampered Chef Malware Campaigns Discovered in Productivity Software",
+        "link": "https://securityonline.info/tampered-chef-malware-productivity-apps/",
+        "published": "Tue, 26 May 2026 07:15:17 +0000"
+    },
+    {
+        "title": "New Operation Dragon Whistle Phishing Campaign Targets Universities",
+        "link": "https://securityonline.info/operation-dragon-whistle-phishing-campaign/",
+        "published": "Tue, 26 May 2026 06:48:27 +0000"
     }
 ]
