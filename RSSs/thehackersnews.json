@@ -3908,5 +3908,35 @@
         "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
         "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
         "published": "Tue, 26 May 2026 10:49:38 +0530"
+    },
+    {
+        "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+        "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+        "published": "Tue, 26 May 2026 21:18:41 +0530"
+    },
+    {
+        "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+        "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+        "published": "Tue, 26 May 2026 17:28:00 +0530"
+    },
+    {
+        "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+        "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+        "published": "Tue, 26 May 2026 17:19:53 +0530"
+    },
+    {
+        "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+        "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+        "published": "Tue, 26 May 2026 16:00:00 +0530"
+    },
+    {
+        "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
+        "link": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
+        "published": "Tue, 26 May 2026 14:43:02 +0530"
+    },
+    {
+        "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+        "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+        "published": "Tue, 26 May 2026 12:43:05 +0530"
     }
 ]
