@@ -4029,3 +4029,7 @@ clean_list:
 - CVE-2024-6783
 - starlette-host-header-lab
 - CVE-2026-45659
+- CVE20265172poc
+- CVE-2026-26980
+- CVE20264893poc
+- CVE-2026-9560

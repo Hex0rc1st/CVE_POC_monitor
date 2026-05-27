@@ -29798,5 +29798,30 @@
         "title": "Windows Kernel Bug Exploits Browser Sandboxes",
         "link": "https://securityonline.info/windows-kernel-eop-vulnerability-poc/",
         "published": "Wed, 27 May 2026 01:01:23 +0000"
+    },
+    {
+        "title": "Linux Kernel Vulnerabilities Trigger Moxa Security Advisory",
+        "link": "https://securityonline.info/linux-kernel-vulnerabilities-trigger-moxa-security-advisory/",
+        "published": "Wed, 27 May 2026 08:18:25 +0000"
+    },
+    {
+        "title": "Massive FreePBX Exploitation Campaign Deploys JOMANGY Webshell",
+        "link": "https://securityonline.info/freepbx-exploitation-campaign-jomangy/",
+        "published": "Wed, 27 May 2026 08:15:50 +0000"
+    },
+    {
+        "title": "NVIDIA Releases Critical Security Patches for AI Frameworks",
+        "link": "https://securityonline.info/nvidia-tensorrt-llm-vulnerabilities-patches/",
+        "published": "Wed, 27 May 2026 08:09:28 +0000"
+    },
+    {
+        "title": "Global Ghost CMS Poisoning Campaign Exploits Enterprise Blogs",
+        "link": "https://securityonline.info/ghost-cms-poisoning-campaign-cve-2026-26980/",
+        "published": "Wed, 27 May 2026 07:22:23 +0000"
+    },
+    {
+        "title": "Global Malicious AI Installer Campaign Targets Developer Workstations",
+        "link": "https://securityonline.info/malicious-ai-installer-campaign-infostealer/",
+        "published": "Wed, 27 May 2026 06:37:53 +0000"
     }
 ]
