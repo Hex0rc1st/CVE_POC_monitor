@@ -29758,5 +29758,45 @@
         "title": "Security Alert: ISC Releases Patches for Critical BIND 9 Flaws",
         "link": "https://securityonline.info/critical-bind-9-flaws-patched/",
         "published": "Tue, 26 May 2026 09:18:44 +0000"
+    },
+    {
+        "title": "The Institutional Metamorphosis of Google: Sustaining Digital Hegemony in the Shadow of the Singularity",
+        "link": "https://securityonline.info/google-agentic-ai-search-sundar-pichai-interview/",
+        "published": "Wed, 27 May 2026 03:59:25 +0000"
+    },
+    {
+        "title": "The Attrition of Computational Allocation: Systemic Volatility and Quota Depreciation Within the Google Gemini Interface",
+        "link": "https://securityonline.info/gemini-resource-quotas-error-token-drain-bug/",
+        "published": "Wed, 27 May 2026 03:56:40 +0000"
+    },
+    {
+        "title": "Critical Defect Exposed: Flaw In Apache Fory Bypasses Deserialization Protections",
+        "link": "https://securityonline.info/pyfory-deserialization-policy-bypass/",
+        "published": "Wed, 27 May 2026 02:44:39 +0000"
+    },
+    {
+        "title": "Overhaul Your Site Defense: Concrete CMS Security Fixes Arrive in Version 9.5.1",
+        "link": "https://securityonline.info/concrete-cms-security-fixes-9-5-1/",
+        "published": "Wed, 27 May 2026 02:22:38 +0000"
+    },
+    {
+        "title": "Unauthenticated Execution Threatens Kubernetes Clusters",
+        "link": "https://securityonline.info/fission-router-vulnerability-patched/",
+        "published": "Wed, 27 May 2026 02:03:15 +0000"
+    },
+    {
+        "title": "GitHub Patches Critical Flaws in Enterprise Server Update",
+        "link": "https://securityonline.info/github-enterprise-server-vulnerabilities/",
+        "published": "Wed, 27 May 2026 01:59:00 +0000"
+    },
+    {
+        "title": "Dual Sandbox Bypasses Threaten PHP Applications",
+        "link": "https://securityonline.info/critical-twig-rce-flaws-patched/",
+        "published": "Wed, 27 May 2026 01:30:27 +0000"
+    },
+    {
+        "title": "Windows Kernel Bug Exploits Browser Sandboxes",
+        "link": "https://securityonline.info/windows-kernel-eop-vulnerability-poc/",
+        "published": "Wed, 27 May 2026 01:01:23 +0000"
     }
 ]

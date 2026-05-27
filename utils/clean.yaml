@@ -4025,3 +4025,7 @@ clean_list:
 - CVE-2026-43284-DirtyFrag-PoC
 - CVE-2026-5426
 - CVE-2026-2942
+- CVE-2026-41940-Linux
+- CVE-2024-6783
+- starlette-host-header-lab
+- CVE-2026-45659
