@@ -4033,3 +4033,6 @@ clean_list:
 - CVE-2026-26980
 - CVE20264893poc
 - CVE-2026-9560
+- CVE-2026-9082-PoC
+- SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298
+- CVE-2026-999999
