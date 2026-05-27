@@ -3953,5 +3953,25 @@
         "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
         "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
         "published": "Wed, 27 May 2026 15:36:32 +0530"
+    },
+    {
+        "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
+        "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
+        "published": "Wed, 27 May 2026 21:40:21 +0530"
+    },
+    {
+        "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
+        "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
+        "published": "Wed, 27 May 2026 21:14:29 +0530"
+    },
+    {
+        "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
+        "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
+        "published": "Wed, 27 May 2026 17:18:37 +0530"
+    },
+    {
+        "title": "3 SOC Steps that Shut Down Incident Risks Early",
+        "link": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
+        "published": "Wed, 27 May 2026 17:15:00 +0530"
     }
 ]
