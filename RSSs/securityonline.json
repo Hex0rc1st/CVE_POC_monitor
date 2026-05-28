@@ -29883,5 +29883,35 @@
         "title": "New Critical Flaw Discovered in Atril Document Viewer",
         "link": "https://securityonline.info/atril-single-click-rce-cve-2026-46529/",
         "published": "Thu, 28 May 2026 00:21:17 +0000"
+    },
+    {
+        "title": "North Korea-Aligned Void Dokkaebi Evolves with Binary Obfuscation",
+        "link": "https://securityonline.info/void-dokkaebi-cython-malware-invisibleferret/",
+        "published": "Thu, 28 May 2026 08:36:07 +0000"
+    },
+    {
+        "title": "CIFSwitch Local Root Exploit: Public Details and PoC Disclosed",
+        "link": "https://securityonline.info/cifswitch-local-root-exploit-poc/",
+        "published": "Thu, 28 May 2026 08:01:55 +0000"
+    },
+    {
+        "title": "New Showboat Linux Malware Targets Global Telecommunications",
+        "link": "https://securityonline.info/showboat-linux-malware-telecom-threat/",
+        "published": "Thu, 28 May 2026 07:10:39 +0000"
+    },
+    {
+        "title": "New CypherLoc Scareware Kit Implements Sophisticated Browser Locks",
+        "link": "https://securityonline.info/cypherloc-scareware-kit-browser-lock/",
+        "published": "Thu, 28 May 2026 06:04:05 +0000"
+    },
+    {
+        "title": "Emerging Deprecation Protocols Within the Codex Model Ecosystem",
+        "link": "https://securityonline.info/openai-legacy-model-deprecation-gpt-5-3-codex/",
+        "published": "Thu, 28 May 2026 04:38:05 +0000"
+    },
+    {
+        "title": "Critical FortiClient EMS Exploitation Campaign Spreads New EKZ Infostealer Payload",
+        "link": "https://securityonline.info/forticlient-ems-exploitation-ekz-infostealer/",
+        "published": "Thu, 28 May 2026 04:25:31 +0000"
     }
 ]

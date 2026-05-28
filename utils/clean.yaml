@@ -4037,3 +4037,4 @@ clean_list:
 - SOC336-Windows-OLE-Zero-Click-RCE-Exploitation-Detected-CVE-2025-21298
 - CVE-2026-999999
 - CVE-2024-4309-Analysis
+- NGINX-ngx_http_rewrite_module-heap-buffer-overflow-CVE-2026-9256
