@@ -152,3 +152,4 @@ https://github.com/Mclisterjoeh2o/yellowkey-bitlocker
 https://github.com/satchfunky/CVE-2026-41096-POC
 https://github.com/R3n3r0/CVE-2026-20700
 https://github.com/jayhutajulu1/CVE-2026-43494-PinTheft-PoC
+https://github.com/portbuster1337/CVE-2026-27771

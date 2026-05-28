@@ -718,5 +718,10 @@
         "title": "Authenticated RCE via Argument Injection in Gogs (NOT FIXED)",
         "link": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
         "published": "Thu, 28 May 2026 12:00:00 GMT"
+    },
+    {
+        "title": "Experts on Experts: Why Compliance is becoming Continuous",
+        "link": "https://www.rapid7.com/blog/post/it-cybersecurity-experts-continuous-compliance",
+        "published": "Thu, 28 May 2026 13:00:00 GMT"
     }
 ]
