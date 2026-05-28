@@ -29838,5 +29838,50 @@
         "title": "New Screening Serpens Cyberattacks Target Global Technology Professionals",
         "link": "https://securityonline.info/screening-serpens-cyberattacks-unit-42/",
         "published": "Wed, 27 May 2026 12:54:46 +0000"
+    },
+    {
+        "title": "Telemetry Interception: The Unauthorized Routing of Motorola’s Amazon Gateway",
+        "link": "https://securityonline.info/motorola-smart-feed-redirect-amazon-app/",
+        "published": "Thu, 28 May 2026 03:32:30 +0000"
+    },
+    {
+        "title": "Windows DNS Client RCE: 9.8 CVSS & Public PoC Disclosed",
+        "link": "https://securityonline.info/windows-dns-client-rce-cve-2026/",
+        "published": "Thu, 28 May 2026 03:17:51 +0000"
+    },
+    {
+        "title": "IBM Patches Critical Authentication Bypass in Engineering Platform",
+        "link": "https://securityonline.info/ibm-jazz-foundation-vulnerability-cve-2026-3660/",
+        "published": "Thu, 28 May 2026 03:03:03 +0000"
+    },
+    {
+        "title": "Veeam Patches Critical Remote Code Execution and Privilege Escalation Flaws",
+        "link": "https://securityonline.info/veeam-security-vulnerabilities-patches/",
+        "published": "Thu, 28 May 2026 02:35:55 +0000"
+    },
+    {
+        "title": "The Sunset of OpenAI’s Promotional Quotas: A Shift in the ChatGPT Pro Pricing Matrix",
+        "link": "https://securityonline.info/openai-subscription-quota-changes-mid-tier-promo/",
+        "published": "Thu, 28 May 2026 02:28:36 +0000"
+    },
+    {
+        "title": "Critical Roundcube Webmail Security Updates Fix Severe Flaws",
+        "link": "https://securityonline.info/roundcube-webmail-security-updates/",
+        "published": "Thu, 28 May 2026 02:00:59 +0000"
+    },
+    {
+        "title": "Popular npm Package shell-quote Patches Critical Command Injection Bug",
+        "link": "https://securityonline.info/shell-quote-command-injection-cve-2026-9277/",
+        "published": "Thu, 28 May 2026 01:32:55 +0000"
+    },
+    {
+        "title": "Host-Root Escape Vulnerability Uncovered in Kata Containers",
+        "link": "https://securityonline.info/kata-containers-container-escape-cve-2026-47243/",
+        "published": "Thu, 28 May 2026 01:00:23 +0000"
+    },
+    {
+        "title": "New Critical Flaw Discovered in Atril Document Viewer",
+        "link": "https://securityonline.info/atril-single-click-rce-cve-2026-46529/",
+        "published": "Thu, 28 May 2026 00:21:17 +0000"
     }
 ]
