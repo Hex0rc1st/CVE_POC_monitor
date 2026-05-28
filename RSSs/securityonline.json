@@ -29933,5 +29933,10 @@
         "title": "Critical Defect Discovered in Langflow AI Architecture",
         "link": "https://securityonline.info/langflow-oss-vulnerability-cve-2026-7524/",
         "published": "Thu, 28 May 2026 13:18:37 +0000"
+    },
+    {
+        "title": "Critical WP Maps Pro Vulnerability Actively Exploited in the Wild",
+        "link": "https://securityonline.info/wp-maps-pro-vulnerability-exploited/",
+        "published": "Thu, 28 May 2026 23:32:15 +0000"
     }
 ]
