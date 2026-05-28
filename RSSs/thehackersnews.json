@@ -3998,5 +3998,10 @@
         "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
         "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
         "published": "Thu, 28 May 2026 19:03:16 +0530"
+    },
+    {
+        "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
+        "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
+        "published": "Thu, 28 May 2026 22:54:44 +0530"
     }
 ]
