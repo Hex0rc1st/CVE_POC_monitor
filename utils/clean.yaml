@@ -4038,3 +4038,7 @@ clean_list:
 - CVE-2026-999999
 - CVE-2024-4309-Analysis
 - NGINX-ngx_http_rewrite_module-heap-buffer-overflow-CVE-2026-9256
+- BadHost-CVE-2026-48710-Exploit
+- cve_2025_47227
+- CVE-2026-48030
+- PinTheft-asm

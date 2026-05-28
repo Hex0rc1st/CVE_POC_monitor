@@ -713,5 +713,10 @@
         "title": "What is Cyber GRC? How Rapid7 is bringing compliance closer to security operations",
         "link": "https://www.rapid7.com/blog/post/so-cyber-grc-how-rapid7-brings-compliance-to-security-operations",
         "published": "Tue, 12 May 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Authenticated RCE via Argument Injection in Gogs (NOT FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-authenticated-rce-via-argument-injection-gogs-unfixed",
+        "published": "Thu, 28 May 2026 12:00:00 GMT"
     }
 ]

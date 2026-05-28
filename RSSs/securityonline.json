@@ -29913,5 +29913,15 @@
         "title": "Critical FortiClient EMS Exploitation Campaign Spreads New EKZ Infostealer Payload",
         "link": "https://securityonline.info/forticlient-ems-exploitation-ekz-infostealer/",
         "published": "Thu, 28 May 2026 04:25:31 +0000"
+    },
+    {
+        "title": "Critical Privilege Escalation Flaw Fixed in OpenVPN Connect for macOS",
+        "link": "https://securityonline.info/openvpn-connect-macos-vulnerability-patched/",
+        "published": "Thu, 28 May 2026 12:01:41 +0000"
+    },
+    {
+        "title": "State-Sponsored Actors Operationalize ROADtools Framework in Cloud Campaigns",
+        "link": "https://securityonline.info/roadtools-cloud-attack-toolkit-entra-id/",
+        "published": "Thu, 28 May 2026 09:41:28 +0000"
     }
 ]
