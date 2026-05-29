@@ -4049,3 +4049,6 @@ clean_list:
 - CVE_2024_30085
 - PoC-CVE-2025-55182
 - CVE-2025-11844-smolagents
+- zygote-CVE-2024-31317
+- aem-hunter
+- CVE-2026-40564
