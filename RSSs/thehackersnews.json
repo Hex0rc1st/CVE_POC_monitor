@@ -4003,5 +4003,10 @@
         "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
         "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
         "published": "Thu, 28 May 2026 22:54:44 +0530"
+    },
+    {
+        "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
+        "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
+        "published": "Fri, 29 May 2026 11:27:41 +0530"
     }
 ]

@@ -4048,3 +4048,4 @@ clean_list:
 - cve-2026-8697
 - CVE_2024_30085
 - PoC-CVE-2025-55182
+- CVE-2025-11844-smolagents

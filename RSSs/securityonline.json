@@ -29978,5 +29978,25 @@
         "title": "Critical Patches Fix Synology Chat Server Vulnerabilities",
         "link": "https://securityonline.info/synology-chat-server-vulnerabilities/",
         "published": "Fri, 29 May 2026 00:08:56 +0000"
+    },
+    {
+        "title": "Rising Chinese PhaaS Ecosystem Bypasses Modern Security Controls",
+        "link": "https://securityonline.info/chinese-phaas-ecosystem-mfa-threat/",
+        "published": "Fri, 29 May 2026 08:33:58 +0000"
+    },
+    {
+        "title": "China-Based Red Lamassu Targets Telecoms Across Asia",
+        "link": "https://securityonline.info/red-lamassu-threat-actor-jfmbackdoor/",
+        "published": "Fri, 29 May 2026 07:37:33 +0000"
+    },
+    {
+        "title": "Advanced Lazarus Memory-Only Toolset Deeply Analyzed by Fox-IT",
+        "link": "https://securityonline.info/lazarus-memory-only-toolset/",
+        "published": "Fri, 29 May 2026 06:33:06 +0000"
+    },
+    {
+        "title": "Oracle Releases Massive May 2026 Critical Security Patch Update",
+        "link": "https://securityonline.info/oracle-security-patch-updates-may-2026/",
+        "published": "Fri, 29 May 2026 04:40:18 +0000"
     }
 ]
