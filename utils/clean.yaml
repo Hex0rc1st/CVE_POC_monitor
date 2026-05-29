@@ -4042,3 +4042,9 @@ clean_list:
 - cve_2025_47227
 - CVE-2026-48030
 - PinTheft-asm
+- wongpress
+- Detection-Tool-Kit-for-CVE-2026-31431
+- CUPS-CVE-2024-47176
+- cve-2026-8697
+- CVE_2024_30085
+- PoC-CVE-2025-55182

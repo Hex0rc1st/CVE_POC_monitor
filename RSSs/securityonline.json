@@ -29938,5 +29938,45 @@
         "title": "Critical WP Maps Pro Vulnerability Actively Exploited in the Wild",
         "link": "https://securityonline.info/wp-maps-pro-vulnerability-exploited/",
         "published": "Thu, 28 May 2026 23:32:15 +0000"
+    },
+    {
+        "title": "Microsoft Exposes Malicious Typosquat Cluster Targeting Cloud Environments",
+        "link": "https://securityonline.info/npm-supply-chain-attack-credential-harvester/",
+        "published": "Fri, 29 May 2026 04:07:16 +0000"
+    },
+    {
+        "title": "KubeVirt Privilege Escalation Flaw Exposes Kubernetes Clusters to Takeover",
+        "link": "https://securityonline.info/kubevirt-privilege-escalation-flaw-cve-2026-7374/",
+        "published": "Fri, 29 May 2026 03:15:02 +0000"
+    },
+    {
+        "title": "The Algorithmic Backlash: DuckDuckGo Capitalizes on Google’s AI Overreach",
+        "link": "https://securityonline.info/duckduckgo-no-ai-search-surge-google-backlash/",
+        "published": "Fri, 29 May 2026 02:29:50 +0000"
+    },
+    {
+        "title": "Samba Fixes Multiple Flaws with Maximum 10.0 CVSS Scores",
+        "link": "https://securityonline.info/critical-samba-vulnerabilities-cvss-10/",
+        "published": "Fri, 29 May 2026 01:40:34 +0000"
+    },
+    {
+        "title": "New Jenkins Security Advisory Highlights Severe Plugin Flaws",
+        "link": "https://securityonline.info/jenkins-plugin-security-flaws-advisory/",
+        "published": "Fri, 29 May 2026 01:06:05 +0000"
+    },
+    {
+        "title": "Google Releases Massive Desktop Patch to Fix Critical Imperfections",
+        "link": "https://securityonline.info/google-chrome-security-update-fixes/",
+        "published": "Fri, 29 May 2026 01:00:30 +0000"
+    },
+    {
+        "title": "New GitLab Security Updates Fix Critical Flaws in Duo AI",
+        "link": "https://securityonline.info/gitlab-security-updates-duo-ai-fix/",
+        "published": "Fri, 29 May 2026 00:14:55 +0000"
+    },
+    {
+        "title": "Critical Patches Fix Synology Chat Server Vulnerabilities",
+        "link": "https://securityonline.info/synology-chat-server-vulnerabilities/",
+        "published": "Fri, 29 May 2026 00:08:56 +0000"
     }
 ]
