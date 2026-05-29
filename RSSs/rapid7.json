@@ -728,5 +728,10 @@
         "title": "Rapid7 Observed Exploitation of PAN-OS GlobalProtect Authentication Bypass Vulnerability (CVE-2026-0257)",
         "link": "https://www.rapid7.com/blog/post/etr-rapid7-observed-exploitation-of-pan-os-globalprotect-authentication-bypass-vulnerability-cve-2026-0257",
         "published": "Fri, 29 May 2026 16:49:40 GMT"
+    },
+    {
+        "title": "Metasploit Wrap Up 05/29/2026",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-29-2026",
+        "published": "Fri, 29 May 2026 19:34:41 GMT"
     }
 ]
