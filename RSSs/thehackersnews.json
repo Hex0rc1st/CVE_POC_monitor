@@ -4028,5 +4028,10 @@
         "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
         "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
         "published": "Fri, 29 May 2026 20:09:56 +0530"
+    },
+    {
+        "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+        "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+        "published": "Fri, 29 May 2026 23:37:12 +0530"
     }
 ]
