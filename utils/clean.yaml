@@ -4067,3 +4067,4 @@ clean_list:
 - CVE-2026-Bowtie2-OOB
 - CVE-2024-36401-poc
 - CVE-2026-BWA-RCE
+- CVE-2026-JBrowse-Injection
