@@ -4052,3 +4052,6 @@ clean_list:
 - zygote-CVE-2024-31317
 - aem-hunter
 - CVE-2026-40564
+- POC_CVE-2026-46716
+- chronomaly-webos
+- CVE-2025-66478-Research-Proof-of-Concept
