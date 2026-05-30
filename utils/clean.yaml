@@ -4055,3 +4055,10 @@ clean_list:
 - POC_CVE-2026-46716
 - chronomaly-webos
 - CVE-2025-66478-Research-Proof-of-Concept
+- CVE-2026-0257
+- pharmacy-sqli-CVE-2026-7392
+- RRAS-VULNERABILITY-CVE-2026-25172-CVE-2026-25173-CVE-2026--26111
+- CVE-2024-21413-Microsoft-Outlook-Remote-Code-Execution-Vulnerability
+- CVE-2026-8732
+- poc_cve-2026-42208
+- POC_CVE-2026-42589
