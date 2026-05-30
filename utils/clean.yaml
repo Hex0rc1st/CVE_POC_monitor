@@ -4068,3 +4068,5 @@ clean_list:
 - CVE-2024-36401-poc
 - CVE-2026-BWA-RCE
 - CVE-2026-JBrowse-Injection
+- CVE-2026-7465-POC
+- CVE-2026-48778-PoC
