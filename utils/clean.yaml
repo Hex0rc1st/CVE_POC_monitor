@@ -4077,3 +4077,4 @@ clean_list:
 - CVE-2026-48800-PoC
 - CVE-2026-3891-Linux
 - lwip-snmpv3-stack-overflow-cve-2026-8836-critical-embedded-rce
+- CVE-2026-23744-RCE-for-MCPjam-inspector-v1.4.2
