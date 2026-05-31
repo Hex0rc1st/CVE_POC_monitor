@@ -4075,3 +4075,5 @@ clean_list:
 - cve-2026-0013-exploit
 - HTB-DevHub
 - CVE-2026-48800-PoC
+- CVE-2026-3891-Linux
+- lwip-snmpv3-stack-overflow-cve-2026-8836-critical-embedded-rce
