@@ -4081,3 +4081,7 @@ clean_list:
 - r2rs
 - CVE-2024-1086
 - CVE-2026-45585
+- dnsmasq-cve-2026
+- TelnetdBypass-
+- MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744
+- CVE-2026-41089

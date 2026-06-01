@@ -30068,5 +30068,65 @@
         "title": "Critical MCP Toolbox Vulnerability Exposes Enterprise Databases",
         "link": "https://securityonline.info/mcp-toolbox-vulnerability-session-hijacking/",
         "published": "Sun, 31 May 2026 11:52:18 +0000"
+    },
+    {
+        "title": "Severe Plesk Privilege Escalation Flaw Patched in Linux Versions",
+        "link": "https://securityonline.info/plesk-privilege-escalation-flaw-patch/",
+        "published": "Mon, 01 Jun 2026 04:49:52 +0000"
+    },
+    {
+        "title": "The Windows 10 Sunset: HP’s Market Opportunity and the Consumer ESU Deadline",
+        "link": "https://securityonline.info/windows-10-extended-support/",
+        "published": "Mon, 01 Jun 2026 04:37:32 +0000"
+    },
+    {
+        "title": "The Dawn of AV2: AOMedia Finalizes Next-Generation Video Compression",
+        "link": "https://securityonline.info/av2-codec-v1-0-0-release/",
+        "published": "Mon, 01 Jun 2026 04:32:58 +0000"
+    },
+    {
+        "title": "The Orchestration of Ubuntu 26.10: Stonking Stingray",
+        "link": "https://securityonline.info/ubuntu-26-10-release/",
+        "published": "Mon, 01 Jun 2026 02:42:49 +0000"
+    },
+    {
+        "title": "Liquidjs CVSS 10 RCE Threatens 7.3M Monthly Users",
+        "link": "https://securityonline.info/liquidjs-remote-code-execution-cvss-10/",
+        "published": "Mon, 01 Jun 2026 02:30:01 +0000"
+    },
+    {
+        "title": "Netlogon RCE Vulnerability Under Active Attack in the Wild",
+        "link": "https://securityonline.info/netlogon-rce-vulnerability-exploited-in-the-wild/",
+        "published": "Mon, 01 Jun 2026 02:26:12 +0000"
+    },
+    {
+        "title": "Critical Langroid Vulnerability Allows RCE via Prompt Injection",
+        "link": "https://securityonline.info/langroid-vulnerability-rce-prompt-injection/",
+        "published": "Mon, 01 Jun 2026 02:02:18 +0000"
+    },
+    {
+        "title": "IBM Aspera Vulnerabilities Patched in New Security Bulletin",
+        "link": "https://securityonline.info/ibm-aspera-vulnerabilities-patch/",
+        "published": "Mon, 01 Jun 2026 01:44:33 +0000"
+    },
+    {
+        "title": "Weekly Threat Intelligence: May 25 to May 31, 2026",
+        "link": "https://securityonline.info/weekly-threat-intelligence-report/",
+        "published": "Mon, 01 Jun 2026 01:39:08 +0000"
+    },
+    {
+        "title": "Notepad++ Exploit Code and Flaws Publicly Disclosed",
+        "link": "https://securityonline.info/notepad-exploit-code-vulnerabilities/",
+        "published": "Mon, 01 Jun 2026 01:11:26 +0000"
+    },
+    {
+        "title": "Critical FreeBSD Kernel Buffer Overflow Disclosed: Public Details & PoC Out",
+        "link": "https://securityonline.info/freebsd-kernel-buffer-overflow-exploit/",
+        "published": "Mon, 01 Jun 2026 01:00:45 +0000"
+    },
+    {
+        "title": "Critical Eppendorf Bioreactor Security Flaw Disclosed",
+        "link": "https://securityonline.info/eppendorf-bioreactor-security-flaw/",
+        "published": "Mon, 01 Jun 2026 00:28:54 +0000"
     }
 ]
