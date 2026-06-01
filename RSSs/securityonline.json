@@ -30128,5 +30128,30 @@
         "title": "Critical Eppendorf Bioreactor Security Flaw Disclosed",
         "link": "https://securityonline.info/eppendorf-bioreactor-security-flaw/",
         "published": "Mon, 01 Jun 2026 00:28:54 +0000"
+    },
+    {
+        "title": "Cache Warmer RCE Flaw Patched in Magento Extension",
+        "link": "https://securityonline.info/cache-warmer-rce-flaw-magento/",
+        "published": "Mon, 01 Jun 2026 10:17:23 +0000"
+    },
+    {
+        "title": "Advanced China-Nexus Group Strikes Southeast Asian Networks",
+        "link": "https://securityonline.info/custom-linux-router-implant-malware/",
+        "published": "Mon, 01 Jun 2026 09:26:15 +0000"
+    },
+    {
+        "title": "Sophisticated Android Banking Trojan Threat Evades Detection via High-Trust Lures",
+        "link": "https://securityonline.info/android-banking-trojan-threat-overlayphantom/",
+        "published": "Mon, 01 Jun 2026 08:17:46 +0000"
+    },
+    {
+        "title": "Sophisticated GPU Cryptojacking Campaign Surfaced by Microsoft Experts",
+        "link": "https://securityonline.info/gpu-cryptojacking-campaign-ai-poisoning/",
+        "published": "Mon, 01 Jun 2026 07:11:24 +0000"
+    },
+    {
+        "title": "AI Honeypots Snare Decentralized Cryptominer Dropper",
+        "link": "https://securityonline.info/p2p-cryptominer-malware-threat/",
+        "published": "Mon, 01 Jun 2026 06:03:24 +0000"
     }
 ]

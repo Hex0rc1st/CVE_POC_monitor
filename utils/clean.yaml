@@ -4085,3 +4085,5 @@ clean_list:
 - TelnetdBypass-
 - MCPJam-Inspector-1.4.2-Remote-Code-Execution-CVE-2026-23744
 - CVE-2026-41089
+- NEXT-SSRF
+- CVE-2026-8732-POC

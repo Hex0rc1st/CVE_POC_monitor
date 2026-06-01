@@ -155,3 +155,4 @@ https://github.com/jayhutajulu1/CVE-2026-43494-PinTheft-PoC
 https://github.com/portbuster1337/CVE-2026-27771
 https://github.com/XK3NF4/CVE-2026-48778
 https://github.com/AnalyticETH/chronomaly-webos
+https://github.com/0xABCD01/CVE-2026-41089
