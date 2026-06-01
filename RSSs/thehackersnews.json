@@ -4068,5 +4068,10 @@
         "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
         "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
         "published": "Mon, 01 Jun 2026 15:01:15 +0530"
+    },
+    {
+        "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+        "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+        "published": "Mon, 01 Jun 2026 23:10:28 +0530"
     }
 ]
