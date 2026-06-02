@@ -4087,3 +4087,6 @@ clean_list:
 - CVE-2026-41089
 - NEXT-SSRF
 - CVE-2026-8732-POC
+- CVE-2026-31525
+- CVE-2026-23744-RCE
+- CVE-2026-ThreemaDesktop-ArbitraryFileRead

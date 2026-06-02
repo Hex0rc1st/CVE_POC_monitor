@@ -30153,5 +30153,70 @@
         "title": "AI Honeypots Snare Decentralized Cryptominer Dropper",
         "link": "https://securityonline.info/p2p-cryptominer-malware-threat/",
         "published": "Mon, 01 Jun 2026 06:03:24 +0000"
+    },
+    {
+        "title": "The Shai-Hulud Infiltration: Red Hat Exploited in Sovereign Supply Chain Breach",
+        "link": "https://securityonline.info/red-hat-npm-attack/",
+        "published": "Tue, 02 Jun 2026 04:35:11 +0000"
+    },
+    {
+        "title": "High-Severity Ivanti ITSM Vulnerability Exposes IT Systems",
+        "link": "https://securityonline.info/ivanti-itsm-vulnerability-privilege-escalation/",
+        "published": "Tue, 02 Jun 2026 04:29:05 +0000"
+    },
+    {
+        "title": "Twill Typhoon RAT Campaign Uses DLL Side Loading to Target APJ Networks",
+        "link": "https://securityonline.info/twill-typhoon-rat-campaign-dll-side-loading/",
+        "published": "Tue, 02 Jun 2026 04:02:05 +0000"
+    },
+    {
+        "title": "Apache Fesod SSRF Vulnerability Exposes Internal Networks",
+        "link": "https://securityonline.info/apache-fesod-ssrf-vulnerability-cve-2026-49328/",
+        "published": "Tue, 02 Jun 2026 03:55:30 +0000"
+    },
+    {
+        "title": "The Longevity Gambit: AMD Extends AM5 and Reshapes the Silicon Landscape",
+        "link": "https://securityonline.info/amd-am5-platform-support/",
+        "published": "Tue, 02 Jun 2026 03:41:32 +0000"
+    },
+    {
+        "title": "Critical KMW CCTV Vulnerability Exposes Live Surveillance Feeds",
+        "link": "https://securityonline.info/kmw-cctv-vulnerability-password-reset/",
+        "published": "Tue, 02 Jun 2026 02:55:30 +0000"
+    },
+    {
+        "title": "Anthropic Approaches IPO: The Leap to Public Capital",
+        "link": "https://securityonline.info/anthropic-confidential-ipo-filing/",
+        "published": "Tue, 02 Jun 2026 02:29:45 +0000"
+    },
+    {
+        "title": "Critical Fleet Security Vulnerabilities Threaten Multi-Tenant Clusters",
+        "link": "https://securityonline.info/fleet-security-vulnerabilities-kubernetes/",
+        "published": "Tue, 02 Jun 2026 02:22:47 +0000"
+    },
+    {
+        "title": "Severe Casdoor Identity Platform Flaws Expose Corporate Networks",
+        "link": "https://securityonline.info/casdoor-authentication-bypass-flaws/",
+        "published": "Tue, 02 Jun 2026 02:02:27 +0000"
+    },
+    {
+        "title": "Android Zero-Day Flaw Exploited in the Wild: June 2026 Patches Released",
+        "link": "https://securityonline.info/android-zero-day-flaw-june-2026/",
+        "published": "Tue, 02 Jun 2026 01:39:00 +0000"
+    },
+    {
+        "title": "Rancher Security Flaws: Multiple Vulnerabilities Threaten Kubernetes Clusters",
+        "link": "https://securityonline.info/rancher-security-flaws-cluster-privilege-escalation/",
+        "published": "Tue, 02 Jun 2026 01:30:32 +0000"
+    },
+    {
+        "title": "Critical TP-Link Router Vulnerability Demands Immediate Patching",
+        "link": "https://securityonline.info/tp-link-router-vulnerability-cve-2026-5509/",
+        "published": "Tue, 02 Jun 2026 01:02:44 +0000"
+    },
+    {
+        "title": "Critical ArcGIS Server Security Patch Fixes Severe Flaws",
+        "link": "https://securityonline.info/arcgis-server-security-patch/",
+        "published": "Tue, 02 Jun 2026 00:30:01 +0000"
     }
 ]

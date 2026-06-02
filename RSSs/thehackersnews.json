@@ -4073,5 +4073,10 @@
         "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
         "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
         "published": "Mon, 01 Jun 2026 23:10:28 +0530"
+    },
+    {
+        "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+        "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+        "published": "Tue, 02 Jun 2026 09:25:25 +0530"
     }
 ]
