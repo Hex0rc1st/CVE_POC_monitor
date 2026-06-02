@@ -30218,5 +30218,30 @@
         "title": "Critical ArcGIS Server Security Patch Fixes Severe Flaws",
         "link": "https://securityonline.info/arcgis-server-security-patch/",
         "published": "Tue, 02 Jun 2026 00:30:01 +0000"
+    },
+    {
+        "title": "Kirki Plugin Vulnerability: 150K WordPress Sites Face Critical 9.8 CVSS Privilege Escalation in the Wild",
+        "link": "https://securityonline.info/kirki-plugin-vulnerability-wordpress-takeover/",
+        "published": "Tue, 02 Jun 2026 10:11:50 +0000"
+    },
+    {
+        "title": "BlackToad Threat Actors Deploy Stealthy Phishing Lures",
+        "link": "https://securityonline.info/remcos-rat-phishing-campaign-blackout/",
+        "published": "Tue, 02 Jun 2026 10:05:40 +0000"
+    },
+    {
+        "title": "Sophisticated SilentCryptoMiner Variant Delivered via Fake Plugin Overlays",
+        "link": "https://securityonline.info/silentcryptominer-variant-fake-plugin-update/",
+        "published": "Tue, 02 Jun 2026 08:11:44 +0000"
+    },
+    {
+        "title": "Fake RVTools Installer Deploys Modular Python RAT",
+        "link": "https://securityonline.info/fake-rvtools-installer-python-rat/",
+        "published": "Tue, 02 Jun 2026 07:01:03 +0000"
+    },
+    {
+        "title": "Grandoreiro Banking Trojan Evades Defense via Lookalike Software",
+        "link": "https://securityonline.info/grandoreiro-banking-trojan-dll-side-loading/",
+        "published": "Tue, 02 Jun 2026 06:00:35 +0000"
     }
 ]

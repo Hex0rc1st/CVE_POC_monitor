@@ -4090,3 +4090,7 @@ clean_list:
 - CVE-2026-31525
 - CVE-2026-23744-RCE
 - CVE-2026-ThreemaDesktop-ArbitraryFileRead
+- CVE-2026-34156-NocoBase-Sandbox-Escape-via-Workflow-Execution-Vulnerability-
+- fragnesia-cve-2026-46300
+- CVE-2026-49009
+- redis-cve-2025-62507
