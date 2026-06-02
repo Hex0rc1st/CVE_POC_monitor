@@ -768,5 +768,10 @@
         "title": "The Return of a Ghost: Unpacking the MiniPlasma Zero-Day Exploit",
         "link": "https://www.picussecurity.com/resource/blog/the-return-of-a-ghost-unpacking-the-miniplasma-zero-day-exploit",
         "published": "Mon, 01 Jun 2026 11:31:53 GMT"
+    },
+    {
+        "title": "CanisterWorm: How TeamPCP Turned the npm Ecosystem Into a Weapon",
+        "link": "https://www.picussecurity.com/resource/blog/canisterworm-how-teampcp-turned-the-npm-ecosystem-into-a-weapon",
+        "published": "Tue, 02 Jun 2026 10:59:04 GMT"
     }
 ]

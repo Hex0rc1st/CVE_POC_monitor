@@ -4094,3 +4094,6 @@ clean_list:
 - fragnesia-cve-2026-46300
 - CVE-2026-49009
 - redis-cve-2025-62507
+- CVE-2026-8206
+- resize-image-before-upload-secure
+- CIFSwitch-Checker-CVE-2026-46243
