@@ -1558,5 +1558,10 @@
         "title": "Linux Kernel Vulnerability copy.fail - CVE-2026-31431",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-139",
         "published": "Wed, 13 May 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Linux Kernel vulnerability Dirty Frag",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-144",
+        "published": "Wed, 03 Jun 2026 00:00:00 -0700"
     }
 ]

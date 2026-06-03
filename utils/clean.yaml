@@ -4104,3 +4104,9 @@ clean_list:
 - CVE-2026-29198-POC
 - CVE-2026-27145
 - CVE-2025-48595
+- CVE-2026-10187
+- CopyFail
+- DirtyFrag
+- Fragnesia
+- CVE-2026-49943-PoC
+- hk_CVE-2025-32433

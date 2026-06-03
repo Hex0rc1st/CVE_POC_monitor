@@ -30318,5 +30318,30 @@
         "title": "Laravel CRLF Injection Vulnerability Threatens Web Applications",
         "link": "https://securityonline.info/laravel-crlf-injection-vulnerability-patch/",
         "published": "Wed, 03 Jun 2026 00:30:05 +0000"
+    },
+    {
+        "title": "Acer Router Security Flaws Earn Maximum 10.0 CVSS Scores",
+        "link": "https://securityonline.info/acer-router-security-flaws-cvss-10/",
+        "published": "Wed, 03 Jun 2026 09:38:41 +0000"
+    },
+    {
+        "title": "Sicoob SDK Banking Malware Exploits NuGet Developer Channels",
+        "link": "https://securityonline.info/sicoob-sdk-banking-malware-nuget-attack/",
+        "published": "Wed, 03 Jun 2026 08:12:31 +0000"
+    },
+    {
+        "title": "Drupal SQL Injection Exploit: Critical Flaw Exploited in the Wild with Public PoC",
+        "link": "https://securityonline.info/drupal-sql-injection-exploit-poc/",
+        "published": "Wed, 03 Jun 2026 07:54:18 +0000"
+    },
+    {
+        "title": "The Massive Gentlemen Ransomware Threat Sweeping Global Networks",
+        "link": "https://securityonline.info/gentlemen-ransomware-threat-microsoft/",
+        "published": "Wed, 03 Jun 2026 07:11:45 +0000"
+    },
+    {
+        "title": "Kimsuky HttpSpy Malware Campaign Exploits Networks via Deceptive Overlays",
+        "link": "https://securityonline.info/kimsuky-httpspy-malware-campaign-jsonping/",
+        "published": "Wed, 03 Jun 2026 06:15:00 +0000"
     }
 ]

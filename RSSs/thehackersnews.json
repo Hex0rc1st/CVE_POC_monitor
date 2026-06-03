@@ -4108,5 +4108,15 @@
         "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
         "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
         "published": "Wed, 03 Jun 2026 00:16:00 +0530"
+    },
+    {
+        "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+        "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+        "published": "Wed, 03 Jun 2026 14:03:35 +0530"
+    },
+    {
+        "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+        "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+        "published": "Wed, 03 Jun 2026 11:46:54 +0530"
     }
 ]
