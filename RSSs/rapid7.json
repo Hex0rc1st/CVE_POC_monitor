@@ -748,5 +748,10 @@
         "title": "CVE-2026-0826: Critical unauthenticated stack buffer overflow in HP Poly VVX and Trio VoIP Phones (FIXED)",
         "link": "https://www.rapid7.com/blog/post/ve-cve-2026-0826-critical-unauthenticated-stack-buffer-overflow-hp-poly-vvx-trio-voip-phones-fixed",
         "published": "Mon, 01 Jun 2026 13:00:00 GMT"
+    },
+    {
+        "title": "A Day in the Life of an MDR Analyst: Inside the Modern SOC",
+        "link": "https://www.rapid7.com/blog/post/it-day-in-the-life-mdr-analyst-inside-the-modern-soc",
+        "published": "Wed, 03 Jun 2026 16:27:08 GMT"
     }
 ]
