@@ -4138,5 +4138,25 @@
         "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
         "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
         "published": "Wed, 03 Jun 2026 15:48:52 +0530"
+    },
+    {
+        "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+        "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+        "published": "Thu, 04 Jun 2026 00:41:15 +0530"
+    },
+    {
+        "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+        "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+        "published": "Wed, 03 Jun 2026 21:59:16 +0530"
+    },
+    {
+        "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+        "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+        "published": "Wed, 03 Jun 2026 20:26:35 +0530"
+    },
+    {
+        "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+        "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+        "published": "Wed, 03 Jun 2026 19:17:09 +0530"
     }
 ]
