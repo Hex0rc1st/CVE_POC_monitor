@@ -4110,3 +4110,5 @@ clean_list:
 - Fragnesia
 - CVE-2026-49943-PoC
 - hk_CVE-2025-32433
+- Nginx_cve-2026-42945-scanner-gui
+- Rasa-cve-exp
