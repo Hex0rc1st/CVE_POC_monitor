@@ -30258,5 +30258,65 @@
         "title": "Halo Security Honored with 2026 MSP Today Product of the Year Award",
         "link": "https://securityonline.info/halo-security-honored-with-2026-msp-today-product-of-the-year-award/",
         "published": "Tue, 02 Jun 2026 12:00:39 +0000"
+    },
+    {
+        "title": "NVIDIA NVTabular Vulnerability Patched to Block Remote Code Execution",
+        "link": "https://securityonline.info/nvidia-nvtabular-vulnerability-patch/",
+        "published": "Wed, 03 Jun 2026 04:49:04 +0000"
+    },
+    {
+        "title": "The Sunset of Windsurf: Corporate Convergence and the Rise of Devin",
+        "link": "https://securityonline.info/windsurf-devin-desktop-integration/",
+        "published": "Wed, 03 Jun 2026 04:12:44 +0000"
+    },
+    {
+        "title": "HTTP/2 Bomb Exploit Details and PoC Publicly Disclosed",
+        "link": "https://securityonline.info/http2-bomb-exploit-poc-disclosed/",
+        "published": "Wed, 03 Jun 2026 04:05:31 +0000"
+    },
+    {
+        "title": "macOS Cryptocurrency Malware Powers Stealthy JINX-0164 Operations",
+        "link": "https://securityonline.info/macos-cryptocurrency-malware-jinx-0164/",
+        "published": "Wed, 03 Jun 2026 04:04:47 +0000"
+    },
+    {
+        "title": "The Silicon Harvest: Google Seeks Premium Codebases for AI Refinement",
+        "link": "https://securityonline.info/google-licenses-app-code-gemini-ai/",
+        "published": "Wed, 03 Jun 2026 03:50:57 +0000"
+    },
+    {
+        "title": "Critical Apache Solr Security Flaw Exposes Clusters to Remote Takeover",
+        "link": "https://securityonline.info/apache-solr-default-credentials-cve-2026-44825/",
+        "published": "Wed, 03 Jun 2026 02:40:03 +0000"
+    },
+    {
+        "title": "Critical GitHub Token Stealing Bug Exploits Web-Based Code Editors",
+        "link": "https://securityonline.info/github-token-stealing-bug-vscode/",
+        "published": "Wed, 03 Jun 2026 02:18:15 +0000"
+    },
+    {
+        "title": "InHand Router Flaws: Command Injection Patches Released",
+        "link": "https://securityonline.info/inhand-router-flaws-command-injection/",
+        "published": "Wed, 03 Jun 2026 02:15:31 +0000"
+    },
+    {
+        "title": "Actively Exploited Vulnerabilities Added to CISA KEV Catalog",
+        "link": "https://securityonline.info/cisa-kev-actively-exploited-vulnerabilities/",
+        "published": "Wed, 03 Jun 2026 02:07:05 +0000"
+    },
+    {
+        "title": "Critical Security Flaw Exposes Industrial IoT Converters",
+        "link": "https://securityonline.info/usr-w610-vulnerability-hardcoded-credentials/",
+        "published": "Wed, 03 Jun 2026 01:45:11 +0000"
+    },
+    {
+        "title": "Critical Langflow RCE Vulnerability Exposes AI Workflows",
+        "link": "https://securityonline.info/langflow-rce-vulnerability-shareable-playground/",
+        "published": "Wed, 03 Jun 2026 01:01:04 +0000"
+    },
+    {
+        "title": "Laravel CRLF Injection Vulnerability Threatens Web Applications",
+        "link": "https://securityonline.info/laravel-crlf-injection-vulnerability-patch/",
+        "published": "Wed, 03 Jun 2026 00:30:05 +0000"
     }
 ]

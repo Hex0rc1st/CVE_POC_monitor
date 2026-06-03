@@ -4097,3 +4097,10 @@ clean_list:
 - CVE-2026-8206
 - resize-image-before-upload-secure
 - CIFSwitch-Checker-CVE-2026-46243
+- cifswitch-check
+- cve-2026-41089-detector
+- CVE-2026-9256-POC
+- mcp-pwn
+- CVE-2026-29198-POC
+- CVE-2026-27145
+- CVE-2025-48595
