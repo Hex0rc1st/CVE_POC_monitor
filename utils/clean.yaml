@@ -4116,3 +4116,8 @@ clean_list:
 - CVE-2026-33829
 - CVE-2026-2256-
 - CVE-2026-23631
+- CVE-2026-5076
+- libheif-cve-2026-50142
+- vuln-lab-docker
+- CVE-2026-49975-POC
+- CVE-2024-1698-NotificationX-WordPress-Plugin-SQL-Injection-to-Admin-Credential-Extraction
