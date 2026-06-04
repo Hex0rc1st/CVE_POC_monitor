@@ -4112,3 +4112,7 @@ clean_list:
 - hk_CVE-2025-32433
 - Nginx_cve-2026-42945-scanner-gui
 - Rasa-cve-exp
+- HackTheBox-Facts
+- CVE-2026-33829
+- CVE-2026-2256-
+- CVE-2026-23631

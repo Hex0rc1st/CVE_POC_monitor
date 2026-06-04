@@ -30358,5 +30358,50 @@
         "title": "SideCopy XenoRAT Malware Attack Targets Afghan Networks",
         "link": "https://securityonline.info/sidecopy-xenorat-malware-attack/",
         "published": "Wed, 03 Jun 2026 10:26:02 +0000"
+    },
+    {
+        "title": "The Sovereignty of Content: Google Unveils AI Overview Opt-Out Controls",
+        "link": "https://securityonline.info/ai-overviews-opt-out/",
+        "published": "Thu, 04 Jun 2026 04:20:51 +0000"
+    },
+    {
+        "title": "React Router Vulnerabilities Patched in New Framework Releases",
+        "link": "https://securityonline.info/react-router-vulnerabilities-patch/",
+        "published": "Thu, 04 Jun 2026 02:40:36 +0000"
+    },
+    {
+        "title": "Dual CVSS 10.0 Bugs Fixed in Emergency Acer Router Patch",
+        "link": "https://securityonline.info/acer-router-flaw-patch/",
+        "published": "Thu, 04 Jun 2026 02:38:54 +0000"
+    },
+    {
+        "title": "Critical Apache Airflow Vulnerability Exposes Workflow Schedulers to Code Execution",
+        "link": "https://securityonline.info/apache-airflow-vulnerability-scheduler-flaw/",
+        "published": "Thu, 04 Jun 2026 02:28:10 +0000"
+    },
+    {
+        "title": "Critical Security Patch Resolves Flaw in NI SystemLink Enterprise",
+        "link": "https://securityonline.info/systemlink-authentication-bypass-cve-2026-9051/",
+        "published": "Thu, 04 Jun 2026 02:02:41 +0000"
+    },
+    {
+        "title": "Cisco Unified CM Vulnerability Exposed with Public Exploit Code",
+        "link": "https://securityonline.info/cisco-unified-cm-vulnerability-public-poc/",
+        "published": "Thu, 04 Jun 2026 01:59:17 +0000"
+    },
+    {
+        "title": "Everest Forms Pro Flaw Exploited in the Wild to Hijack WordPress Sites",
+        "link": "https://securityonline.info/everest-forms-pro-flaw-active-exploitation/",
+        "published": "Thu, 04 Jun 2026 01:49:20 +0000"
+    },
+    {
+        "title": "New Patches Eradicate Dangerous Axios Proxy Vulnerabilities",
+        "link": "https://securityonline.info/axios-proxy-vulnerabilities-fixed/",
+        "published": "Thu, 04 Jun 2026 01:30:45 +0000"
+    },
+    {
+        "title": "Critical RCE Flaws Fixed in Mautic Marketing Platform",
+        "link": "https://securityonline.info/mautic-security-vulnerabilities-rce/",
+        "published": "Thu, 04 Jun 2026 01:03:29 +0000"
     }
 ]
