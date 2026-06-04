@@ -159,3 +159,4 @@ https://github.com/0xABCD01/CVE-2026-41089
 https://github.com/p3Nt3st3r-sTAr/CVE-2026-8732-POC
 https://github.com/hnytgl/CVE-2026-41089
 https://github.com/ADScanPro/CVE-2026-41089-LongLogon
+https://github.com/Vanquishermacdetach/CVE-2026-41089-509
