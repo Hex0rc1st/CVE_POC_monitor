@@ -4121,3 +4121,6 @@ clean_list:
 - vuln-lab-docker
 - CVE-2026-49975-POC
 - CVE-2024-1698-NotificationX-WordPress-Plugin-SQL-Injection-to-Admin-Credential-Extraction
+- CVE-2026-20230
+- http2-bomb
+- cve-to-my-stack
