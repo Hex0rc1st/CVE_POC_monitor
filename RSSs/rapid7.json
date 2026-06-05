@@ -758,5 +758,10 @@
         "title": "How the “Swiss Cheese” model can help you choose the right MDR provider",
         "link": "https://www.rapid7.com/blog/post/dr-swiss-cheese-model-helps-choose-mdr-providers",
         "published": "Thu, 04 Jun 2026 13:53:41 GMT"
+    },
+    {
+        "title": "Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026",
+        "published": "Fri, 05 Jun 2026 17:01:48 GMT"
     }
 ]
