@@ -30453,5 +30453,80 @@
         "title": "Apache Fory Vulnerability: High Severity Flaw Bypasses Core Java Serialization Checks",
         "link": "https://securityonline.info/apache-fory-vulnerability-patch/",
         "published": "Thu, 04 Jun 2026 16:36:07 +0000"
+    },
+    {
+        "title": "Large-Scale Malvertising Network Floods Asia-Pacific Social Media Platforms",
+        "link": "https://securityonline.info/apac-malvertising-scam-campaigns-meta/",
+        "published": "Fri, 05 Jun 2026 07:40:47 +0000"
+    },
+    {
+        "title": "The Digital Sovereign: Google Wallet Pioneers Cryptographic Identity and Streamlined Commerce in Europe",
+        "link": "https://securityonline.info/google-wallet-digital-id/",
+        "published": "Fri, 05 Jun 2026 07:27:11 +0000"
+    },
+    {
+        "title": "Stealthy New Remcos RAT Variant Evades Detection Using Innovative Staging Layers",
+        "link": "https://securityonline.info/new-remcos-rat-variant-donutloader/",
+        "published": "Fri, 05 Jun 2026 06:24:49 +0000"
+    },
+    {
+        "title": "FreeRADIUS Security Patches Fix Critical Buffer Overflow Vulnerabilities",
+        "link": "https://securityonline.info/freeradius-security-patch-vulnerabilities/",
+        "published": "Fri, 05 Jun 2026 04:39:19 +0000"
+    },
+    {
+        "title": "TP-Link Patches Critical Setup Flaw Across Multiple Tapo Smart Devices",
+        "link": "https://securityonline.info/tapo-smart-device-vulnerability-fix/",
+        "published": "Fri, 05 Jun 2026 04:29:25 +0000"
+    },
+    {
+        "title": "International Law Enforcement Smashes Major Identity Forgery Ring",
+        "link": "https://securityonline.info/counterfeit-document-production-facility-busted/",
+        "published": "Fri, 05 Jun 2026 03:24:20 +0000"
+    },
+    {
+        "title": "International Law Enforcement Smashes Major Illegal Streaming Networks",
+        "link": "https://securityonline.info/illegal-streaming-networks-crackdown/",
+        "published": "Fri, 05 Jun 2026 03:16:02 +0000"
+    },
+    {
+        "title": "Teamwork Cloud RCE Vulnerability Threatens Corporate Modeling Platforms",
+        "link": "https://securityonline.info/teamwork-cloud-rce-deserialization-vulnerability/",
+        "published": "Fri, 05 Jun 2026 02:45:13 +0000"
+    },
+    {
+        "title": "Poly VoIP Phone Vulnerability Revealed with Public Exploit Code Disclosed",
+        "link": "https://securityonline.info/poly-voip-phone-vulnerability-cve-2026-0826/",
+        "published": "Fri, 05 Jun 2026 02:30:40 +0000"
+    },
+    {
+        "title": "Critical Policy Bypass Flaw Threatens OpenStack Mistral Workflow Environments",
+        "link": "https://securityonline.info/mistral-policy-bypass-flaw/",
+        "published": "Fri, 05 Jun 2026 02:02:52 +0000"
+    },
+    {
+        "title": "IBM WebSphere Security Advisory: Critical Vulnerabilities Uncovered",
+        "link": "https://securityonline.info/ibm-websphere-execution-flaws-patches/",
+        "published": "Fri, 05 Jun 2026 02:00:00 +0000"
+    },
+    {
+        "title": "Chrome Desktop Security Update Resolves Hundreds of Vulnerabilities",
+        "link": "https://securityonline.info/chrome-desktop-security-update/",
+        "published": "Fri, 05 Jun 2026 01:43:05 +0000"
+    },
+    {
+        "title": "Cisco SD-WAN Vulnerability Exploited in the Wild with Root RCE Risks",
+        "link": "https://securityonline.info/cisco-sd-wan-vulnerability-exploited/",
+        "published": "Fri, 05 Jun 2026 01:33:27 +0000"
+    },
+    {
+        "title": "53M Downloads At Risk: Critical 9.8 CVSS Vitest Remote Code Execution Vulnerabilities Disclosed",
+        "link": "https://securityonline.info/vitest-remote-code-execution-vulnerabilities/",
+        "published": "Fri, 05 Jun 2026 01:30:20 +0000"
+    },
+    {
+        "title": "SSHFS Command Execution Exploit Code Released Publicly",
+        "link": "https://securityonline.info/sshfs-command-execution-exploit/",
+        "published": "Fri, 05 Jun 2026 01:00:05 +0000"
     }
 ]

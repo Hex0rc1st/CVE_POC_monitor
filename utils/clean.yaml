@@ -4124,3 +4124,10 @@ clean_list:
 - CVE-2026-20230
 - http2-bomb
 - cve-to-my-stack
+- CVE-2026-41089-984
+- CVE-2026-3300
+- CVE-2026-26179
+- Active-Directory-BadSuccessor
+- CVE-2026-23744-MCPJAM-RCE-exploit
+- CVE-2026-41089-699
+- CVE-2026-23744-poc
