@@ -4145,3 +4145,5 @@ clean_list:
 - CVE-2026-20245
 - mediatek-wlan-heap-overflow-cve-2026-20452-filogic-router-rce
 - CVE-2026-24849
+- CVE-2026-3844-Breeze-Cache-WordPress-Plugin-Remote-Code-Execution
+- CVE-2026-48595
