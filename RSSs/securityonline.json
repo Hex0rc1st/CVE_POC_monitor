@@ -30533,5 +30533,15 @@
         "title": "The Purified Desktop: Brave Software Launches Premium, Unfettered “Origin” Browser",
         "link": "https://securityonline.info/brave-origin-browser/",
         "published": "Fri, 05 Jun 2026 11:07:00 +0000"
+    },
+    {
+        "title": "CISA Warns of Actively Exploited SolarWinds Serv-U Flaw",
+        "link": "https://securityonline.info/serv-u-vulnerability-cve-2026-28318/",
+        "published": "Sat, 06 Jun 2026 02:10:39 +0000"
+    },
+    {
+        "title": "PHANTOMPULSE Malware Analysis: Advanced Cryptographic Implants Exploiting Blockchain Networks",
+        "link": "https://securityonline.info/phantompulse-malware-analysis-blockchain-c2/",
+        "published": "Sat, 06 Jun 2026 01:41:29 +0000"
     }
 ]

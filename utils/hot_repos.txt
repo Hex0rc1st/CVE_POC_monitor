@@ -166,3 +166,4 @@ https://github.com/Darkuoremember32/CVE-2026-41089-470
 https://github.com/CrowEvaluate/CVE-2026-41089-646
 https://github.com/crixpwn/CVE-2026-8389
 https://github.com/TwoSevenOneT/CVE-2026-41096-Attack-Surface
+https://github.com/olofsatte/CVE-2026-41940-PoC
