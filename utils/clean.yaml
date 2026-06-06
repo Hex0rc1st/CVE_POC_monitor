@@ -4141,3 +4141,7 @@ clean_list:
 - cve-2026-40072-ssrf-lab
 - beyondtrust-cve-2026-1232
 - CVE-2026-4480-PoC
+- CVE-2026-42588
+- CVE-2026-20245
+- mediatek-wlan-heap-overflow-cve-2026-20452-filogic-router-rce
+- CVE-2026-24849
