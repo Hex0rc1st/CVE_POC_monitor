@@ -4174,3 +4174,4 @@ clean_list:
 - CVE-2026-41089-238
 - CVE-2026-41089-334
 - yellowkey-bitlocker-243
+- CVE-2025-57819-exploit
