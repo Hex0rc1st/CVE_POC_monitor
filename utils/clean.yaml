@@ -4175,3 +4175,6 @@ clean_list:
 - CVE-2026-41089-334
 - yellowkey-bitlocker-243
 - CVE-2025-57819-exploit
+- CVE-2026-34040-PoC
+- revvl7pro5g-unlock-root
+- CVE-2026-4480
