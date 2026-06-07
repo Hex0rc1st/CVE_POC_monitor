@@ -30583,5 +30583,10 @@
         "title": "Critical Cordova Vulnerability Threatens iOS App Data Boundaries",
         "link": "https://securityonline.info/cordova-vulnerability-inappbrowser-flaw/",
         "published": "Sun, 07 Jun 2026 14:19:43 +0000"
+    },
+    {
+        "title": "Millions of Servers At Risk: Crucial MariaDB Flaw Carries Maximum 10.0 CVSS Score",
+        "link": "https://securityonline.info/mariadb-security-flaw-cvss-10/",
+        "published": "Sun, 07 Jun 2026 19:46:48 +0000"
     }
 ]
