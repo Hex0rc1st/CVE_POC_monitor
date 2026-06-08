@@ -30588,5 +30588,40 @@
         "title": "Millions of Servers At Risk: Crucial MariaDB Flaw Carries Maximum 10.0 CVSS Score",
         "link": "https://securityonline.info/mariadb-security-flaw-cvss-10/",
         "published": "Sun, 07 Jun 2026 19:46:48 +0000"
+    },
+    {
+        "title": "The Fractured Evolution of Wireless Connectivity: Stagnant Wi-Fi 7 Adoption and the Emergence of Wi-Fi 8",
+        "link": "https://securityonline.info/wi-fi-8-standard-features/",
+        "published": "Mon, 08 Jun 2026 04:12:29 +0000"
+    },
+    {
+        "title": "Shopper Laravel Flaw Exploit Sparks Urgent E-Commerce Security Warning",
+        "link": "https://securityonline.info/shopper-laravel-flaw-exploit/",
+        "published": "Mon, 08 Jun 2026 03:00:07 +0000"
+    },
+    {
+        "title": "Verizon IMS Vulnerability: Critical VoLTE Flaw Discovered",
+        "link": "https://securityonline.info/verizon-volte-security-flaw/",
+        "published": "Mon, 08 Jun 2026 02:45:28 +0000"
+    },
+    {
+        "title": "Critical Sitefinity Vulnerabilities: CVSS 10.0 Security Alert",
+        "link": "https://securityonline.info/sitefinity-critical-vulnerabilities/",
+        "published": "Mon, 08 Jun 2026 02:15:35 +0000"
+    },
+    {
+        "title": "Collibra Platform Agent Flaws Allow Remote Code Execution Without Authentication",
+        "link": "https://securityonline.info/collibra-platform-agent-flaw-rce/",
+        "published": "Mon, 08 Jun 2026 01:52:58 +0000"
+    },
+    {
+        "title": "Weekly Threat Intelligence: June 1 to June 7, 2026",
+        "link": "https://securityonline.info/weekly-threat-intelligence-june-2026/",
+        "published": "Mon, 08 Jun 2026 01:36:25 +0000"
+    },
+    {
+        "title": "Critical Cloud Foundry Key Disclosure Bug Exposes JWT Signing Keys",
+        "link": "https://securityonline.info/cloud-foundry-key-disclosure-cve-2026-40965/",
+        "published": "Mon, 08 Jun 2026 01:24:21 +0000"
     }
 ]

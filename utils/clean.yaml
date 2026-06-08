@@ -4178,3 +4178,4 @@ clean_list:
 - CVE-2026-34040-PoC
 - revvl7pro5g-unlock-root
 - CVE-2026-4480
+- ESAPI-SQLinjection-CVE-2025-5878-Exploit
