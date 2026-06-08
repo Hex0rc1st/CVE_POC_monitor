@@ -403,5 +403,15 @@
         "title": "CVE-2026-41715 - Medium - CVE-2026-41715: Reactor Netty HTTP Client Leaks Credentials On Protocol Downgrade Redirect",
         "link": "https://spring.io/security/cve-2026-41715",
         "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41006 - High - CVE-2026-41006: Spring HATEOAS Collection+JSON/UBER deserializers do not honor Jackson configuration",
+        "link": "https://spring.io/security/cve-2026-41006",
+        "published": "Tue, 02 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41007 - High - CVE-2026-41007: Spring HATEOAS heap exhaustion through unbounded internal caching",
+        "link": "https://spring.io/security/cve-2026-41007",
+        "published": "Tue, 02 Jun 2026 00:00:00 GMT"
     }
 ]

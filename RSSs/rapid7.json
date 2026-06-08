@@ -763,5 +763,10 @@
         "title": "Weekly Metasploit Update: Apache ActiveMQ RCE, Gogs Rebase RCE, and Windows Kernel Pointer Enum",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-05-06-2026",
         "published": "Fri, 05 Jun 2026 17:01:48 GMT"
+    },
+    {
+        "title": "Critical Check Point VPN Zero-Day Exploited in the Wild (CVE-2026-50751)",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-check-point-vpn-zero-day-exploited-in-the-wild-cve-2026-50751",
+        "published": "Mon, 08 Jun 2026 17:05:16 GMT"
     }
 ]
