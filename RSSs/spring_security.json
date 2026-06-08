@@ -398,5 +398,10 @@
         "title": "CVE-2026-40984 - High - CVE-2026-40984: Micrometer HTTP server instrumentations DoS vulnerability",
         "link": "https://spring.io/security/cve-2026-40984",
         "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41715 - Medium - CVE-2026-41715: Reactor Netty HTTP Client Leaks Credentials On Protocol Downgrade Redirect",
+        "link": "https://spring.io/security/cve-2026-41715",
+        "published": "Mon, 08 Jun 2026 00:00:00 GMT"
     }
 ]
