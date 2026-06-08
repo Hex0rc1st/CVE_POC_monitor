@@ -30623,5 +30623,60 @@
         "title": "Critical Cloud Foundry Key Disclosure Bug Exposes JWT Signing Keys",
         "link": "https://securityonline.info/cloud-foundry-key-disclosure-cve-2026-40965/",
         "published": "Mon, 08 Jun 2026 01:24:21 +0000"
+    },
+    {
+        "title": "Cyber Espionage Campaign Targets Global Stock Exchange Executive",
+        "link": "https://securityonline.info/outlook-mailbox-theft-espionage/",
+        "published": "Mon, 08 Jun 2026 09:17:25 +0000"
+    },
+    {
+        "title": "Massive Smishing Error524 Campaign Evades Traditional Security Filters Worldwide",
+        "link": "https://securityonline.info/smishing-error524-campaign-report/",
+        "published": "Mon, 08 Jun 2026 09:01:19 +0000"
+    },
+    {
+        "title": "Instagram Account Recovery Flaw Exploited via AI Support Tool",
+        "link": "https://securityonline.info/instagram-account-recovery-flaw/",
+        "published": "Mon, 08 Jun 2026 08:17:17 +0000"
+    },
+    {
+        "title": "PixyNetLoader Malware Analysis: How APT28 Hides Payloads Inside PNG Files",
+        "link": "https://securityonline.info/pixynetloader-malware-analysis-apt28/",
+        "published": "Mon, 08 Jun 2026 08:15:36 +0000"
+    },
+    {
+        "title": "Redis DarkReplica Exploit: Full PoC Code and Technical Details Released",
+        "link": "https://securityonline.info/redis-darkreplica-exploit-cve-2026-23631/",
+        "published": "Mon, 08 Jun 2026 08:06:42 +0000"
+    },
+    {
+        "title": "Broadcom Fixes Critical VMware Stored XSS Bugs",
+        "link": "https://securityonline.info/vmware-stored-xss-bugs-patched/",
+        "published": "Mon, 08 Jun 2026 07:47:44 +0000"
+    },
+    {
+        "title": "Infrastructure Anomaly: GitHub Suffers Unidentified Global Outage",
+        "link": "https://securityonline.info/github-outage-today/",
+        "published": "Mon, 08 Jun 2026 07:35:53 +0000"
+    },
+    {
+        "title": "Operation FlutterBridge Malware Targets macOS Platforms with Backdoor Capabilities",
+        "link": "https://securityonline.info/operation-flutterbridge-malware-macos/",
+        "published": "Mon, 08 Jun 2026 07:11:25 +0000"
+    },
+    {
+        "title": "Financial Exposure in the Cloud: Persistent Gemini API Caching Flaw Incurs Severe Billing Anomalies",
+        "link": "https://securityonline.info/gemini-api-billing-bug/",
+        "published": "Mon, 08 Jun 2026 06:54:48 +0000"
+    },
+    {
+        "title": "Sovereign Portability: Google Password Manager Embraces Credential Exchange Protocols",
+        "link": "https://securityonline.info/google-passkey-import-export/",
+        "published": "Mon, 08 Jun 2026 06:49:48 +0000"
+    },
+    {
+        "title": "Deceptive WeedHack Malware Campaign Infects Thousands of Minecraft Players",
+        "link": "https://securityonline.info/weedhack-malware-campaign-minecraft/",
+        "published": "Mon, 08 Jun 2026 06:30:19 +0000"
     }
 ]

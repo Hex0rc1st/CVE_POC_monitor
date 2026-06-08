@@ -4179,3 +4179,10 @@ clean_list:
 - revvl7pro5g-unlock-root
 - CVE-2026-4480
 - ESAPI-SQLinjection-CVE-2025-5878-Exploit
+- WG-CVE-2026-1555-Linux
+- CVE-2024-31509
+- CVE-2024-33421
+- CVE-2026-11499
+- CVE-2025-43537
+- FreePBX-CVE-2025-57819
+- CVE-2025-32433-Exploit-edited
