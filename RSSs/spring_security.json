@@ -448,5 +448,20 @@
         "title": "CVE-2026-41845 - High - CVE-2026-41845: Spring Framework Cross-site Scripting via JavaScriptUtils",
         "link": "https://spring.io/security/cve-2026-41845",
         "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41838 - Medium - CVE-2026-41838: Spring Framework Predictable Session ID in WebSocket Module",
+        "link": "https://spring.io/security/cve-2026-41838",
+        "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41720 - High - CVE-2026-41720: Authentication Bypass with Empty Password in Spring LDAP",
+        "link": "https://spring.io/security/cve-2026-41720",
+        "published": "Mon, 08 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41844 - Medium - CVE-2026-41844: Spring Framework Open Redirect in Spring MVC and WebFlux",
+        "link": "https://spring.io/security/cve-2026-41844",
+        "published": "Mon, 08 Jun 2026 00:00:00 GMT"
     }
 ]
