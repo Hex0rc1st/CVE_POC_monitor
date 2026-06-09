@@ -538,5 +538,20 @@
         "title": "CVE-2026-41714 - Medium - CVE-2026-41714: In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`",
         "link": "https://spring.io/security/cve-2026-41714",
         "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40988 - Medium - CVE-2026-40988: Unbounded DEFLATE Inflation in SAML 2.0 Service Provider",
+        "link": "https://spring.io/security/cve-2026-40988",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41701 - Medium - CVE-2026-41701: In Spring AMQP sequential correlation IDs enable reply poisoning on fixed reply queues",
+        "link": "https://spring.io/security/cve-2026-41701",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41706 - Medium - CVE-2026-41706: Open Redirect When Using CookieRequestCache",
+        "link": "https://spring.io/security/cve-2026-41706",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
     }
 ]
