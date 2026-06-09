@@ -513,5 +513,30 @@
         "title": "CVE-2026-41729 - High - CVE-2026-41729: Spring Data REST SpEL Injection via Map Key in JSON Patch",
         "link": "https://spring.io/security/cve-2026-41729",
         "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40993 - Medium - CVE-2026-40993: Unfiltered Java Native Deserialization of SAML 2.0 Asserting Party Credentials BLOB Database Entry",
+        "link": "https://spring.io/security/cve-2026-40993",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41003 - High - CVE-2026-41003: Unencoded HTML Outputs in Spring Security May Allow Cross-Site Scripting",
+        "link": "https://spring.io/security/cve-2026-41003",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41008 - Medium - CVE-2026-41008: Spring Security Authorization Server Open Redirect via request_uri",
+        "link": "https://spring.io/security/cve-2026-41008",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41694 - Low - CVE-2026-41694: SAML Payloads Decrypted Without Valid Signature",
+        "link": "https://spring.io/security/cve-2026-41694",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41714 - Medium - CVE-2026-41714: In Spring AMQP the `RabbitConnectionFactoryBean.setUri(\"amqps://...\")` bypasses secure SSL setup, uses `TrustEverythingTrustManager`",
+        "link": "https://spring.io/security/cve-2026-41714",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
     }
 ]
