@@ -4318,5 +4318,25 @@
         "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
         "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
         "published": "Tue, 09 Jun 2026 01:47:39 +0530"
+    },
+    {
+        "title": "The Hidden Security Risk in Modern Networks: The Work Between Tools",
+        "link": "https://thehackernews.com/2026/06/the-hidden-security-risk-in-modern.html",
+        "published": "Tue, 09 Jun 2026 17:00:00 +0530"
+    },
+    {
+        "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
+        "link": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
+        "published": "Tue, 09 Jun 2026 15:20:41 +0530"
+    },
+    {
+        "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
+        "link": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
+        "published": "Tue, 09 Jun 2026 14:43:32 +0530"
+    },
+    {
+        "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+        "published": "Tue, 09 Jun 2026 11:56:14 +0530"
     }
 ]
