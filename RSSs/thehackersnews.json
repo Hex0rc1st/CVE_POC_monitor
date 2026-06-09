@@ -4338,5 +4338,20 @@
         "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
         "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
         "published": "Tue, 09 Jun 2026 11:56:14 +0530"
+    },
+    {
+        "title": "WinRAR Flaw Exploited by Russia-Aligned Groups to Deploy Stealers in Ukraine",
+        "link": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html",
+        "published": "Tue, 09 Jun 2026 17:56:10 +0530"
+    },
+    {
+        "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+        "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+        "published": "Tue, 09 Jun 2026 17:29:03 +0530"
+    },
+    {
+        "title": "Chrome V8 Zero-Day CVE-2026-11645 Exploited in the Wild - Patch Now",
+        "link": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html",
+        "published": "Tue, 09 Jun 2026 17:28:49 +0530"
     }
 ]

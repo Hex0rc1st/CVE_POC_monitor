@@ -468,5 +468,50 @@
         "title": "CVE-2026-40991 - Medium - CVE-2026-40991: XML External Entity (XXE) injection when documenting untrusted XML content",
         "link": "https://spring.io/security/cve-2026-40991",
         "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41695 - High - CVE-2026-41695: Denial of Service in Spring Data Commons Property Path Resolution",
+        "link": "https://spring.io/security/cve-2026-41695",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41696 - Medium - CVE-2026-41696: Spring Data MongoDB Bind Parameter Literal Quoting Breakout",
+        "link": "https://spring.io/security/cve-2026-41696",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41697 - Medium - CVE-2026-41697: Spring Data Relational Parameter not Escaped for Query By Example LIKE Pattern",
+        "link": "https://spring.io/security/cve-2026-41697",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41716 - High - CVE-2026-41716: Spring Data web support unbounded negative-result cache keyed on attacker-supplied property names",
+        "link": "https://spring.io/security/cve-2026-41716",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41717 - High - CVE-2026-41717: Spring Data MongoDB - SpEL Expression Injection via Annotated Query Parameter Binding",
+        "link": "https://spring.io/security/cve-2026-41717",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41711 - Medium - CVE-2026-41711: Potential Denial of Service through crafted Sort Parameters",
+        "link": "https://spring.io/security/cve-2026-41711",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41719 - Medium - CVE-2026-41719: Spring Data KeyValue - SpEL Injection vulnerability in SpelPropertyComparator",
+        "link": "https://spring.io/security/cve-2026-41719",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41721 - Medium - CVE-2026-41721: Spring Data Commons Denial of Service via Data Binding",
+        "link": "https://spring.io/security/cve-2026-41721",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41729 - High - CVE-2026-41729: Spring Data REST SpEL Injection via Map Key in JSON Patch",
+        "link": "https://spring.io/security/cve-2026-41729",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
     }
 ]
