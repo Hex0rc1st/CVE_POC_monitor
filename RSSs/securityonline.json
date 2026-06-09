@@ -30683,5 +30683,80 @@
         "title": "Check Point VPN Vulnerability Exploited in the Wild with Ransomware Links",
         "link": "https://securityonline.info/check-point-vpn-vulnerability-exploited/",
         "published": "Mon, 08 Jun 2026 12:42:40 +0000"
+    },
+    {
+        "title": "Market Shockwave: OpenAI Confidentially Files for Historic Public Offering",
+        "link": "https://securityonline.info/openai-confidential-ipo-filing/",
+        "published": "Tue, 09 Jun 2026 04:15:48 +0000"
+    },
+    {
+        "title": "Automated Fortification: iOS 27 Introduces AI-Driven Password Rectification",
+        "link": "https://securityonline.info/ios-27-password-reset/",
+        "published": "Tue, 09 Jun 2026 04:12:35 +0000"
+    },
+    {
+        "title": "Critical Kemp LoadMaster Flaws Expose Network Appliances to RCE",
+        "link": "https://securityonline.info/kemp-loadmaster-flaws-patched/",
+        "published": "Tue, 09 Jun 2026 02:02:27 +0000"
+    },
+    {
+        "title": "Emergency Patch Release Secures Apache HTTP Server Deployments Against Remote Attacks",
+        "link": "https://securityonline.info/apache-http-server-patches/",
+        "published": "Tue, 09 Jun 2026 01:56:22 +0000"
+    },
+    {
+        "title": "TP-Link Patches Critical Archer MR600 Command Injection Flaw",
+        "link": "https://securityonline.info/archer-mr600-command-injection/",
+        "published": "Tue, 09 Jun 2026 01:44:43 +0000"
+    },
+    {
+        "title": "ABB Patches Critical T-MAC Plus Terminal System Flaws",
+        "link": "https://securityonline.info/abb-t-mac-plus-vulnerabilities/",
+        "published": "Tue, 09 Jun 2026 01:30:12 +0000"
+    },
+    {
+        "title": "Jupyter Gateway Vulnerabilities: Severe CVSS 10 Exploits Uncovered",
+        "link": "https://securityonline.info/jupyter-gateway-vulnerabilities/",
+        "published": "Tue, 09 Jun 2026 01:01:02 +0000"
+    },
+    {
+        "title": "Pragmatic Refinement: Apple Rebalances Aesthetics and Performance at WWDC 2026",
+        "link": "https://securityonline.info/apple-wwdc-2026-announcements/",
+        "published": "Tue, 09 Jun 2026 00:59:40 +0000"
+    },
+    {
+        "title": "Sovereign Synthesis: Apple Unveils Gemini-Powered Siri AI and macOS Golden Gate",
+        "link": "https://securityonline.info/siri-ai-ios-27/",
+        "published": "Tue, 09 Jun 2026 00:45:26 +0000"
+    },
+    {
+        "title": "Apache MINA Patches Critical Framework Vulnerabilities",
+        "link": "https://securityonline.info/apache-mina-flaws-patched/",
+        "published": "Tue, 09 Jun 2026 00:40:43 +0000"
+    },
+    {
+        "title": "New Chrome Security Update Addresses Critical V8 Exploit in the Wild",
+        "link": "https://securityonline.info/chrome-security-update-v8-exploit/",
+        "published": "Tue, 09 Jun 2026 00:38:51 +0000"
+    },
+    {
+        "title": "Deep Integration: Apple Intelligence Anchors iOS 27 and macOS 27 Default Application Suites",
+        "link": "https://securityonline.info/apple-intelligence-wwdc-2026/",
+        "published": "Tue, 09 Jun 2026 00:20:15 +0000"
+    },
+    {
+        "title": "Sovereign Intelligence: Apple Reimagines Siri with Gemini Core Integration at WWDC 2026",
+        "link": "https://securityonline.info/siri-ai-standalone-app/",
+        "published": "Tue, 09 Jun 2026 00:17:26 +0000"
+    },
+    {
+        "title": "Malicious PyPI Package Wave Spreads Evolving Supply Chain Attacks",
+        "link": "https://securityonline.info/malicious-pypi-package-wave-threat/",
+        "published": "Tue, 09 Jun 2026 00:11:04 +0000"
+    },
+    {
+        "title": "CISA Active Exploit Catalog Expands with Critical Gateway Flaws",
+        "link": "https://securityonline.info/cisa-active-exploit-catalog-update/",
+        "published": "Tue, 09 Jun 2026 00:03:45 +0000"
     }
 ]

@@ -1709,3 +1709,5 @@ http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508740&idx=1&sn=2973717
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508740&idx=1&sn=297371719e2a98f5e6ded257f2757a95
 奇安信cert::【已复现】Linux Kernel PinTheft 本地权限提升漏洞(QVD-2026-27616)安全风险通告
 https://mp.weixin.qq.com/s/15jTRMNNSNdndbJc9gpsKA
+360漏洞研究院::【已复现】微信 Linux 版 1-Click 命令注入漏洞
+https://mp.weixin.qq.com/s/HcHuxvYb1sZjFNJNAfyLtA
