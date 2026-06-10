@@ -30808,5 +30808,65 @@
         "title": "Spring Framework Security Vulnerabilities Addressed in Critical Maintenance Updates",
         "link": "https://securityonline.info/spring-framework-security-vulnerabilities/",
         "published": "Tue, 09 Jun 2026 12:57:09 +0000"
+    },
+    {
+        "title": "Sovereign Ascent: Anthropic Deploys Flagship Fable 5 Architecture",
+        "link": "https://securityonline.info/anthropic-fable-5-model/",
+        "published": "Wed, 10 Jun 2026 04:30:47 +0000"
+    },
+    {
+        "title": "Ivanti Sentry RCE: Publicly Disclosed PoC for CVSS 10",
+        "link": "https://securityonline.info/ivanti-sentry-rce-poc-disclosed/",
+        "published": "Wed, 10 Jun 2026 03:13:30 +0000"
+    },
+    {
+        "title": "OpenSSL Security Patches Fix Remote Code Execution Risk",
+        "link": "https://securityonline.info/openssl-security-patches-rce/",
+        "published": "Wed, 10 Jun 2026 02:21:00 +0000"
+    },
+    {
+        "title": "New Microsoft Defender Zero Day Exploit Released Publicly Online",
+        "link": "https://securityonline.info/defender-zero-day-exploit-rogueplanet/",
+        "published": "Wed, 10 Jun 2026 02:09:42 +0000"
+    },
+    {
+        "title": "CISA Expands Active Exploit Catalog with Cisco, Arista, and Chromium Flaws",
+        "link": "https://securityonline.info/cisa-active-exploit-catalog-additions/",
+        "published": "Wed, 10 Jun 2026 01:58:06 +0000"
+    },
+    {
+        "title": "Microsoft Patch Tuesday Fixes Address Critical Zero-Day Flaws",
+        "link": "https://securityonline.info/microsoft-patch-tuesday-fixes/",
+        "published": "Wed, 10 Jun 2026 01:48:52 +0000"
+    },
+    {
+        "title": "High-Severity Vulnerabilities Addressed in Endpoint Manager Mobile",
+        "link": "https://securityonline.info/ivanti-epmm-security-updates/",
+        "published": "Wed, 10 Jun 2026 01:33:49 +0000"
+    },
+    {
+        "title": "Critical Rclone Command Execution Bug Threatens Cloud Environments",
+        "link": "https://securityonline.info/rclone-command-execution/",
+        "published": "Wed, 10 Jun 2026 01:33:38 +0000"
+    },
+    {
+        "title": "Critical Veeam Backup Vulnerability Exposed",
+        "link": "https://securityonline.info/veeam-backup-vulnerability-rce/",
+        "published": "Wed, 10 Jun 2026 01:31:39 +0000"
+    },
+    {
+        "title": "Critical FortiSandbox Flaw Requires Immediate Patching",
+        "link": "https://securityonline.info/cve-2026-25089-fortisandbox-patch/",
+        "published": "Wed, 10 Jun 2026 01:28:00 +0000"
+    },
+    {
+        "title": "Critical TinyMCE Cross Site Scripting Flaws Threaten Millions of Applications",
+        "link": "https://securityonline.info/tinymce-cross-site-scripting-patch/",
+        "published": "Wed, 10 Jun 2026 01:01:40 +0000"
+    },
+    {
+        "title": "MBS Universal Gateway Flaws Threaten Building Automation Networks",
+        "link": "https://securityonline.info/mbs-universal-gateway-flaws/",
+        "published": "Wed, 10 Jun 2026 00:43:11 +0000"
     }
 ]
