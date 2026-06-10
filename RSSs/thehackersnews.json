@@ -4368,5 +4368,25 @@
         "title": "Microsoft Restores Some GitHub Repos, Keeps Others Offline as Miasma Probe Continues",
         "link": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html",
         "published": "Tue, 09 Jun 2026 22:04:52 +0530"
+    },
+    {
+        "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+        "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+        "published": "Wed, 10 Jun 2026 13:07:59 +0530"
+    },
+    {
+        "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
+        "link": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html",
+        "published": "Wed, 10 Jun 2026 12:32:08 +0530"
+    },
+    {
+        "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
+        "link": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html",
+        "published": "Wed, 10 Jun 2026 10:52:01 +0530"
+    },
+    {
+        "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
+        "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
+        "published": "Wed, 10 Jun 2026 10:38:35 +0530"
     }
 ]

@@ -553,5 +553,50 @@
         "title": "CVE-2026-41706 - Medium - CVE-2026-41706: Open Redirect When Using CookieRequestCache",
         "link": "https://spring.io/security/cve-2026-41706",
         "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40985 - Medium - CVE-2026-40985: Data Binding Vulnerability in Spring Web Flow with Unified EL Parser",
+        "link": "https://spring.io/security/cve-2026-40985",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40986 - Medium - CVE-2026-40986: Spring Web Flow JS RemotingHandler renders non-HTML Response as HTML",
+        "link": "https://spring.io/security/cve-2026-40986",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40994 - High - CVE-2026-40994: Wss4jSecurityInterceptor disables WS-I BSP validation by default",
+        "link": "https://spring.io/security/cve-2026-40994",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40995 - Medium - CVE-2026-40995: X.509 authentication bypasses Spring Security account checks",
+        "link": "https://spring.io/security/cve-2026-40995",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40996 - Medium - CVE-2026-40996: Inbound WS-Security allows RSA PKCS#1 v1.5 key transport by default",
+        "link": "https://spring.io/security/cve-2026-40996",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40997 - Medium - CVE-2026-40997: SOAP security faults leak Spring Security account state",
+        "link": "https://spring.io/security/cve-2026-40997",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40998 - High - CVE-2026-40998: Jaxp13 XPath XXE via StreamSource and SAXSource",
+        "link": "https://spring.io/security/cve-2026-40998",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40999 - High - CVE-2026-40999: Spring WS SSRF via unvalidated WS-Addressing reply destinations",
+        "link": "https://spring.io/security/cve-2026-40999",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41000 - Low - CVE-2026-41000: WSS4J validation does not use configured replay cache",
+        "link": "https://spring.io/security/cve-2026-41000",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
     }
 ]

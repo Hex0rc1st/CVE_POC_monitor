@@ -30868,5 +30868,45 @@
         "title": "MBS Universal Gateway Flaws Threaten Building Automation Networks",
         "link": "https://securityonline.info/mbs-universal-gateway-flaws/",
         "published": "Wed, 10 Jun 2026 00:43:11 +0000"
+    },
+    {
+        "title": "Regulatory Alignment: Let’s Encrypt Amends Subscriber Agreement to Enforce US Sanctions and Export Compliance",
+        "link": "https://securityonline.info/lets-encrypt-subscriber-agreement/",
+        "published": "Wed, 10 Jun 2026 08:50:55 +0000"
+    },
+    {
+        "title": "Algorithmic Acceleration: Microsoft Deploys Low-Latency Core Profiles via KB5094126 Cumulative Update",
+        "link": "https://securityonline.info/windows-11-cpu-optimization/",
+        "published": "Wed, 10 Jun 2026 08:39:23 +0000"
+    },
+    {
+        "title": "Algorithmic Fluency: Google Unveils Gemini 3.5 Live Translate for Real-Time Audiocentric Mediation",
+        "link": "https://securityonline.info/gemini-live-translate-tool/",
+        "published": "Wed, 10 Jun 2026 08:34:11 +0000"
+    },
+    {
+        "title": "Deprecating the Legacy: Google Chrome Initiates Final Removal of Manifest v2 Architecture",
+        "link": "https://securityonline.info/chrome-manifest-v3-migration/",
+        "published": "Wed, 10 Jun 2026 08:30:36 +0000"
+    },
+    {
+        "title": "Architectural Exposure: Developers Extract Apple’s Subterranean Core Prompts for Siri AI",
+        "link": "https://securityonline.info/siri-ai-system-prompt/",
+        "published": "Wed, 10 Jun 2026 08:25:41 +0000"
+    },
+    {
+        "title": "COXMO Botnet Variant: New Advanced Threat Exploits Router Firmware",
+        "link": "https://securityonline.info/coxmo-botnet-variant-malware-analysis/",
+        "published": "Wed, 10 Jun 2026 08:22:19 +0000"
+    },
+    {
+        "title": "Havoc Stager Campaign Exploits Fake Invoices to Compromise Networks",
+        "link": "https://securityonline.info/havoc-stager-campaign-report/",
+        "published": "Wed, 10 Jun 2026 07:22:25 +0000"
+    },
+    {
+        "title": "Cybercriminals Deploy Malicious AI Extensions to Steal Private Chat Data",
+        "link": "https://securityonline.info/malicious-ai-extensions-steal-chats/",
+        "published": "Wed, 10 Jun 2026 06:20:43 +0000"
     }
 ]

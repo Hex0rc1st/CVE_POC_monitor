@@ -168,3 +168,4 @@ https://github.com/crixpwn/CVE-2026-8389
 https://github.com/TwoSevenOneT/CVE-2026-41096-Attack-Surface
 https://github.com/olofsatte/CVE-2026-41940-PoC
 https://github.com/strivepan/ActiveMQ-cve-2026-42588-scanner-gui
+https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-Sentry-RCE-CVE-2026-10520-CVE-2026-10523
