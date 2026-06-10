@@ -598,5 +598,10 @@
         "title": "CVE-2026-41000 - Low - CVE-2026-41000: WSS4J validation does not use configured replay cache",
         "link": "https://spring.io/security/cve-2026-41000",
         "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40987 - High - CVE-2026-40987: Remote-file synchronizer in Spring Integration writes server-supplied filename under localDirectory without canonicalization",
+        "link": "https://spring.io/security/cve-2026-40987",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
     }
 ]

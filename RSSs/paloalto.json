@@ -678,5 +678,60 @@
         "title": "CVE-2026-0243 Prisma SD-WAN: Denial of Service (DoS) Vulnerability Through IPv6 Crafted Packet (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0243",
         "published": "2026-05-13T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0271 Prisma Access Agent: Local Privilege Escalation by Authorized Users (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0271",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0267 GlobalProtect App: Information Exposure Vulnerability on macOS (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0267",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0270 Cortex XSOAR: Path Traversal Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0270",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0272 PAN-OS: Privilege Escalation (PE) Vulnerability in the Command Line Interface (CLI) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0272",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0008 Chromium: Monthly Vulnerability Update (June 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0008",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0273 PAN-OS: Authenticated Admin Command Injection Vulnerability via CLI or Web UI (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0273",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0269 PAN-OS: Denial of Service (DoS) in Tunnel Traffic Processing (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0269",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0009 Informational Bulletin: Impact assessment of OSS CVEs in Prisma SD-WAN ION (Severity: INFORMATIONAL)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0009",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0274 Cortex XSOAR: Improper Validation of Credentials in CommvaultSecurityIQ integration (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0274",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0268 Prisma Access Agent: Local Authenticated VPN Enforcement Bypass on Linux (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0268",
+        "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
+        "published": "2026-06-10T16:00:00.000Z"
     }
 ]
