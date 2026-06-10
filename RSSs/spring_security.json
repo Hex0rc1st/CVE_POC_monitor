@@ -603,5 +603,60 @@
         "title": "CVE-2026-40987 - High - CVE-2026-40987: Remote-file synchronizer in Spring Integration writes server-supplied filename under localDirectory without canonicalization",
         "link": "https://spring.io/security/cve-2026-40987",
         "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41699 - High - CVE-2026-41699: Unsafe Deserialization in Spring GraphQL",
+        "link": "https://spring.io/security/cve-2026-41699",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41700 - High - CVE-2026-41700: Cross-Site WebSocket Hijacking in Spring for GraphQL",
+        "link": "https://spring.io/security/cve-2026-41700",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41856 - High - CVE-2026-41856: Spring GraphQL Annotation Detection Vulnerability",
+        "link": "https://spring.io/security/cve-2026-41856",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41726 - Medium - CVE-2026-41726: In Spring for Apache Kafka, unbounded delegate cache keyed on user-controlled, potentially malicious selector header",
+        "link": "https://spring.io/security/cve-2026-41726",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41730 - Medium - CVE-2026-41730: Spring Data REST exposes persistence-layer internals in error responses",
+        "link": "https://spring.io/security/cve-2026-41730",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41731 - High - CVE-2026-41731: In Spring for Apache Kafka, overly broad trusted-package matching in header mappers exposes JDK classes to deserialization",
+        "link": "https://spring.io/security/cve-2026-41731",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41732 - High - CVE-2026-41732: In Spring for Apache Pulsar, overly broad trusted-package matching in header mapper exposes JDK classes to deserialization",
+        "link": "https://spring.io/security/cve-2026-41732",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41837 - Medium - CVE-2026-41837: Spring Data REST Querydsl integration exposes Jackson-hidden persistent fields as filter keys",
+        "link": "https://spring.io/security/cve-2026-41837",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41727 - Medium - CVE-2026-41727: In Spring for Apache Kafka, forged retry topic headers subvert retry routing and backoff behavior",
+        "link": "https://spring.io/security/cve-2026-41727",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41728 - High - CVE-2026-41728: Spring Data REST JSON Patch bypasses Jackson read-only property protection on nested objects and collections",
+        "link": "https://spring.io/security/cve-2026-41728",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-47838 - Medium - CVE-2026-47838: Unauthorized User Impersonation when Using X.509 Client Certificates",
+        "link": "https://spring.io/security/cve-2026-47838",
+        "published": "Tue, 09 Jun 2026 00:00:00 GMT"
     }
 ]
