@@ -778,5 +778,10 @@
         "title": "Patch Tuesday - June 2026",
         "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-june-2026",
         "published": "Tue, 09 Jun 2026 21:04:53 GMT"
+    },
+    {
+        "title": "CVE-2026-10520, CVE-2026-10523 - Multiple critical vulnerabilities affecting Ivanti Sentry",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry",
+        "published": "Wed, 10 Jun 2026 10:21:07 GMT"
     }
 ]
