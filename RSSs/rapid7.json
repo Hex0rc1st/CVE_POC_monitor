@@ -783,5 +783,10 @@
         "title": "CVE-2026-10520, CVE-2026-10523 - Multiple critical vulnerabilities affecting Ivanti Sentry",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-10520-cve-2026-10523-multiple-critical-vulnerabilities-affecting-ivanti-sentry",
         "published": "Wed, 10 Jun 2026 10:21:07 GMT"
+    },
+    {
+        "title": "Automated Threat Hunting: Turning Threat Intelligence into Executable Hunt Plans",
+        "link": "https://www.rapid7.com/blog/post/ai-automated-threat-hunting-turns-threat-intelligence-into-executable-hunt-plans",
+        "published": "Wed, 10 Jun 2026 16:26:33 GMT"
     }
 ]
