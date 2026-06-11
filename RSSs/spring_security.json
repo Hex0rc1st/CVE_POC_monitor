@@ -668,5 +668,10 @@
         "title": "CVE-2026-41001 - Medium - CVE-2026-41001: Predictable Temp Directory in Artemis Auto-configuration",
         "link": "https://spring.io/security/cve-2026-41001",
         "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41862 - High - CVE-2026-41862: Kryo deserialization of persisted context without class allowlist",
+        "link": "https://spring.io/security/cve-2026-41862",
+        "published": "Thu, 11 Jun 2026 00:00:00 GMT"
     }
 ]

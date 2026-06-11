@@ -30918,5 +30918,95 @@
         "title": "Cloud Security Report Finds Fragmented Tools Widening the Cloud Complexity Gap",
         "link": "https://securityonline.info/cloud-security-report-finds-fragmented-tools-widening-the-cloud-complexity-gap/",
         "published": "Wed, 10 Jun 2026 13:00:39 +0000"
+    },
+    {
+        "title": "Parallel Diffusion: Google Unveils DiffusionGemma to Revolutionize On-Device Intelligence",
+        "link": "https://securityonline.info/google-diffusiongemma-open-framework/",
+        "published": "Thu, 11 Jun 2026 08:55:42 +0000"
+    },
+    {
+        "title": "Multiple Security Flaws Addressed in Core Java Application Subsystems",
+        "link": "https://securityonline.info/spring-graphql-security-patches/",
+        "published": "Thu, 11 Jun 2026 08:11:11 +0000"
+    },
+    {
+        "title": "Cryptographic Expiration: Microsoft Office 2019 for Mac Faces Imminent Functionality Restrictions",
+        "link": "https://securityonline.info/office-2019-mac-read-only/",
+        "published": "Thu, 11 Jun 2026 07:51:12 +0000"
+    },
+    {
+        "title": "Untethered Diagnostics: iOS 27 Introduces On-Device Recovery Mode",
+        "link": "https://securityonline.info/ios-27-recovery-mode/",
+        "published": "Thu, 11 Jun 2026 07:23:57 +0000"
+    },
+    {
+        "title": "Fiscal Realignment: OpenAI Contemplates Sweeping Price Reductions to Counter Anthropic",
+        "link": "https://securityonline.info/openai-token-price-reduction/",
+        "published": "Thu, 11 Jun 2026 07:15:53 +0000"
+    },
+    {
+        "title": "Sovereign Intervention: EU Mandates Unhindered Third-Party AI Access to WhatsApp API",
+        "link": "https://securityonline.info/whatsapp-antitrust-api-probe/",
+        "published": "Thu, 11 Jun 2026 06:50:51 +0000"
+    },
+    {
+        "title": "PeopleSoft RCE Security Bug: New Oracle Fix",
+        "link": "https://securityonline.info/peoplesoft-rce-security-bug/",
+        "published": "Thu, 11 Jun 2026 04:40:22 +0000"
+    },
+    {
+        "title": "Splunk Enterprise Vulnerabilities: Patch CVSS 9.8 Flaws",
+        "link": "https://securityonline.info/splunk-enterprise-vulnerabilities-cvss-9-8/",
+        "published": "Thu, 11 Jun 2026 03:47:34 +0000"
+    },
+    {
+        "title": "GreatXML BitLocker Bypass: Public PoC Exploit Disclosed",
+        "link": "https://securityonline.info/greatxml-bitlocker-bypass-poc/",
+        "published": "Thu, 11 Jun 2026 03:27:17 +0000"
+    },
+    {
+        "title": "Dahua Product Vulnerabilities: Patch 3 Critical CVEs",
+        "link": "https://securityonline.info/dahua-product-vulnerabilities-2026/",
+        "published": "Thu, 11 Jun 2026 03:08:05 +0000"
+    },
+    {
+        "title": "ITScape KVM Escape: Public PoC Exploit Threatens Cloud Hosts",
+        "link": "https://securityonline.info/itscape-kvm-escape-cve-2026-46316-poc/",
+        "published": "Thu, 11 Jun 2026 03:00:31 +0000"
+    },
+    {
+        "title": "Critical Jenkins Security Advisory 2026: Patch Multiple Flaws",
+        "link": "https://securityonline.info/jenkins-security-advisory-2026-critical-cves/",
+        "published": "Thu, 11 Jun 2026 02:47:59 +0000"
+    },
+    {
+        "title": "Important GitLab Security Updates Address 12 Vulnerabilities",
+        "link": "https://securityonline.info/gitlab-security-updates-19-0-2/",
+        "published": "Thu, 11 Jun 2026 02:24:42 +0000"
+    },
+    {
+        "title": "Critical NVIDIA DALI Vulnerabilities Require Immediate Action",
+        "link": "https://securityonline.info/nvidia-dali-vulnerabilities/",
+        "published": "Thu, 11 Jun 2026 01:43:36 +0000"
+    },
+    {
+        "title": "PhpSpreadsheet RCE Vulnerability: PoC Exploit Disclosed for 312 Million Users",
+        "link": "https://securityonline.info/phpspreadsheet-rce-vulnerability-cve-2026-45034/",
+        "published": "Thu, 11 Jun 2026 01:33:50 +0000"
+    },
+    {
+        "title": "strongSwan CVE-2026-47895: Double-Free Exploit Explained",
+        "link": "https://securityonline.info/strongswan-cve-2026-47895/",
+        "published": "Thu, 11 Jun 2026 01:01:18 +0000"
+    },
+    {
+        "title": "Spring Data Vulnerabilities: Patch Five Critical Flaws Now",
+        "link": "https://securityonline.info/spring-data-vulnerabilities-patch-flaws/",
+        "published": "Thu, 11 Jun 2026 00:52:33 +0000"
+    },
+    {
+        "title": "Critical UpdraftPlus CVE-2026-10795 Exploit Targets Millions",
+        "link": "https://securityonline.info/updraftplus-cve-2026-10795-exploit/",
+        "published": "Wed, 10 Jun 2026 23:42:36 +0000"
     }
 ]
