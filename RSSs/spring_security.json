@@ -673,5 +673,15 @@
         "title": "CVE-2026-41862 - High - CVE-2026-41862: Kryo deserialization of persisted context without class allowlist",
         "link": "https://spring.io/security/cve-2026-41862",
         "published": "Thu, 11 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41708 - High - CVE-2026-41708: Spring Cloud Sleuth instrumentation of Spring TX DoS vulnerability",
+        "link": "https://spring.io/security/cve-2026-41708",
+        "published": "Thu, 11 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-47825 - High - CVE-2026-47825: Spring Cloud Gateway Server Forwards Headers from Untrusted Proxies in certain situations",
+        "link": "https://spring.io/security/cve-2026-47825",
+        "published": "Thu, 11 Jun 2026 00:00:00 GMT"
     }
 ]
