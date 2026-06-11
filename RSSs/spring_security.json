@@ -658,5 +658,15 @@
         "title": "CVE-2026-47838 - Medium - CVE-2026-47838: Unauthorized User Impersonation when Using X.509 Client Certificates",
         "link": "https://spring.io/security/cve-2026-47838",
         "published": "Tue, 09 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-40992 - Medium - CVE-2026-40992: Mail Auto-Configuration Does Not Enable SSL Hostname Verification",
+        "link": "https://spring.io/security/cve-2026-40992",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-41001 - Medium - CVE-2026-41001: Predictable Temp Directory in Artemis Auto-configuration",
+        "link": "https://spring.io/security/cve-2026-41001",
+        "published": "Wed, 10 Jun 2026 00:00:00 GMT"
     }
 ]
