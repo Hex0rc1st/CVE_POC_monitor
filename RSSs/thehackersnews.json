@@ -4443,5 +4443,20 @@
         "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Action Patch + 28 New Stories",
         "link": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
         "published": "Thu, 11 Jun 2026 18:50:41 +0530"
+    },
+    {
+        "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+        "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+        "published": "Thu, 11 Jun 2026 23:16:32 +0530"
+    },
+    {
+        "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+        "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+        "published": "Thu, 11 Jun 2026 23:13:52 +0530"
+    },
+    {
+        "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+        "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+        "published": "Thu, 11 Jun 2026 22:20:47 +0530"
     }
 ]
