@@ -31018,5 +31018,60 @@
         "title": "Automated Remediation: Microsoft Resolves Cumulative Update Rollback Failures",
         "link": "https://securityonline.info/windows-11-update-anomaly/",
         "published": "Thu, 11 Jun 2026 12:24:13 +0000"
+    },
+    {
+        "title": "Apple Removes the AFP Protocol in macOS 27",
+        "link": "https://securityonline.info/macos-27-afp-protocol-removed/",
+        "published": "Fri, 12 Jun 2026 03:20:27 +0000"
+    },
+    {
+        "title": "iOS 27 AirDrop Speed Jumps 220% in New Tests",
+        "link": "https://securityonline.info/ios-27-airdrop-speed-increase/",
+        "published": "Fri, 12 Jun 2026 03:10:38 +0000"
+    },
+    {
+        "title": "Pixel Reboot Loop Bug Hits Devices After Update",
+        "link": "https://securityonline.info/pixel-reboot-loop-bug-update/",
+        "published": "Fri, 12 Jun 2026 03:06:35 +0000"
+    },
+    {
+        "title": "Multiple Security Flaws Fixed in Major Framework Release",
+        "link": "https://securityonline.info/spring-security-vulnerabilities/",
+        "published": "Fri, 12 Jun 2026 02:30:43 +0000"
+    },
+    {
+        "title": "Chrome 149 Patches 28 Flaws, Several Critical UAF Bugs",
+        "link": "https://securityonline.info/chrome-149-security-update-28-flaws/",
+        "published": "Fri, 12 Jun 2026 02:28:24 +0000"
+    },
+    {
+        "title": "Critical 9.9 CVSS Ubiquiti UniFi OS Vulnerabilities Exposed",
+        "link": "https://securityonline.info/unifi-os-vulnerabilities-cvss-9-9/",
+        "published": "Fri, 12 Jun 2026 01:51:11 +0000"
+    },
+    {
+        "title": "ShinyHunters Strikes with Oracle PeopleSoft Exploit",
+        "link": "https://securityonline.info/shinyhunters-oracle-peoplesoft-exploit/",
+        "published": "Fri, 12 Jun 2026 01:48:32 +0000"
+    },
+    {
+        "title": "New Patches Fix Broad AMD Security Vulnerabilities",
+        "link": "https://securityonline.info/amd-security-vulnerabilities/",
+        "published": "Fri, 12 Jun 2026 01:30:16 +0000"
+    },
+    {
+        "title": "Apache Answer Vulnerabilities and Security Flaws Fixed",
+        "link": "https://securityonline.info/apache-answer-vulnerabilities/",
+        "published": "Fri, 12 Jun 2026 01:03:14 +0000"
+    },
+    {
+        "title": "Millions at Risk: 9.8 CVSS Remote Code Execution in HTTP.sys",
+        "link": "https://securityonline.info/httpsys-rce-cve-2026-47291/",
+        "published": "Fri, 12 Jun 2026 00:27:50 +0000"
+    },
+    {
+        "title": "New Patches Secure Critical Spring HATEOAS Flaws",
+        "link": "https://securityonline.info/spring-hateoas-flaws/",
+        "published": "Fri, 12 Jun 2026 00:02:55 +0000"
     }
 ]
