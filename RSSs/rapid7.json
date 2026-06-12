@@ -793,5 +793,10 @@
         "title": "Criminal AI-as-a-Service in 2026: How the Underground Market Is Operationalizing Cybercrime",
         "link": "https://www.rapid7.com/blog/post/tr-criminal-ai-underground-market-operationalizing-cybercrime-2026",
         "published": "Thu, 11 Jun 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)",
+        "link": "https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273",
+        "published": "Fri, 12 Jun 2026 13:43:04 GMT"
     }
 ]

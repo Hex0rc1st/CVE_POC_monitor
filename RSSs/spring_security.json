@@ -683,5 +683,10 @@
         "title": "CVE-2026-47825 - High - CVE-2026-47825: Spring Cloud Gateway Server Forwards Headers from Untrusted Proxies in certain situations",
         "link": "https://spring.io/security/cve-2026-47825",
         "published": "Thu, 11 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-47835 - High - CVE-2026-47835: Spring AI vector store metadata filtering to handle special characters in Elasticsearch, OpenSearch, and GemFire Vector Stores",
+        "link": "https://spring.io/security/cve-2026-47835",
+        "published": "Fri, 12 Jun 2026 00:00:00 GMT"
     }
 ]
