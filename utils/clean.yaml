@@ -4233,3 +4233,5 @@ clean_list:
 - FOSKiller
 - CVE-2026-48907
 - CVE-2026-0273
+- http2-bomb-detector
+- CVE-2026-22356

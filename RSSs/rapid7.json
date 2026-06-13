@@ -798,5 +798,10 @@
         "title": "Active Exploitation of Oracle PeopleSoft Zero-Day (CVE-2026-35273)",
         "link": "https://www.rapid7.com/blog/post/etr-active-exploitation-of-oracle-peoplesoft-zero-day-cve-2026-35273",
         "published": "Fri, 12 Jun 2026 13:43:04 GMT"
+    },
+    {
+        "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
+        "published": "Sat, 13 Jun 2026 00:22:18 GMT"
     }
 ]

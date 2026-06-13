@@ -171,3 +171,5 @@ https://github.com/strivepan/ActiveMQ-cve-2026-42588-scanner-gui
 https://github.com/watchtowrlabs/watchTowr-vs-Ivanti-Sentry-RCE-CVE-2026-10520-CVE-2026-10523
 https://github.com/QM4RS/CVE-2026-0023-Update-Ownership-PoC
 https://github.com/iDesignStudioz/yellowkey-bitlocker
+https://github.com/GenericCoding/pois0nSword
+https://github.com/ywh-jfellus/CVE-2026-48907
