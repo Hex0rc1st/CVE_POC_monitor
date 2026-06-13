@@ -4235,3 +4235,8 @@ clean_list:
 - CVE-2026-0273
 - http2-bomb-detector
 - CVE-2026-22356
+- http2-bomb-analysis-paper
+- CVE-2026-48017
+- CVE-2024-4367_test
+- CVE-2026-41490
+- CVE-2026-40864

@@ -833,5 +833,10 @@
         "title": "What Is Chain Dependent Architecture in Automated Pentesting?",
         "link": "https://www.picussecurity.com/resource/blog/what-is-chain-dependent-architecture-in-automated-pentesting",
         "published": "Fri, 12 Jun 2026 11:50:06 GMT"
+    },
+    {
+        "title": "Winget DSC and Self-Referencing LNK File Attack Explained",
+        "link": "https://www.picussecurity.com/resource/blog/winget-dsc-and-self-referencing-lnk-file-attack-explained",
+        "published": "Sat, 13 Jun 2026 07:00:00 GMT"
     }
 ]
