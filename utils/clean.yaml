@@ -4249,3 +4249,4 @@ clean_list:
 - CVE-2026-20253
 - cve-2026-5950-bind9-resolver-dos
 - laravel-framework
+- CVE-2026-5513
