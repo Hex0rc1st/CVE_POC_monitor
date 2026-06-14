@@ -4246,3 +4246,6 @@ clean_list:
 - local-mcp
 - CVE-2026-6279.py
 - vulnscope
+- CVE-2026-20253
+- cve-2026-5950-bind9-resolver-dos
+- laravel-framework
