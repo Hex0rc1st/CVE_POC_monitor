@@ -4245,3 +4245,4 @@ clean_list:
 - CVE-2026-1555-POC
 - local-mcp
 - CVE-2026-6279.py
+- vulnscope
