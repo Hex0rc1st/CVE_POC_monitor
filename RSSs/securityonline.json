@@ -31203,5 +31203,35 @@
         "title": "CodeIgniter Vulnerability Enables Arbitrary Code Execution (CVSS 9.8)",
         "link": "https://securityonline.info/codeigniter-cve-2026-48062/",
         "published": "Mon, 15 Jun 2026 00:54:41 +0000"
+    },
+    {
+        "title": "Low Carbon Cloud Computing: Repurposing Old Smartphones",
+        "link": "https://securityonline.info/low-carbon-cloud-computing/",
+        "published": "Mon, 15 Jun 2026 12:16:41 +0000"
+    },
+    {
+        "title": "Jenkins RCE Vulnerability CVE-2026-53435 Now Under Active Exploitation",
+        "link": "https://securityonline.info/jenkins-rce-vulnerability-cve-2026-53435/",
+        "published": "Mon, 15 Jun 2026 09:26:47 +0000"
+    },
+    {
+        "title": "X-VPN Installer Hijacked to Spread STX RAT Malware",
+        "link": "https://securityonline.info/x-vpn-dll-sideloading-stx-rat-campaign/",
+        "published": "Mon, 15 Jun 2026 08:02:45 +0000"
+    },
+    {
+        "title": "Firefox VPN Drops Limits for Summer Travel",
+        "link": "https://securityonline.info/firefox-built-in-vpn-summer-offer/",
+        "published": "Mon, 15 Jun 2026 07:16:07 +0000"
+    },
+    {
+        "title": "OP-512: China-Linked Hackers Hit IIS Servers With New Tool",
+        "link": "https://securityonline.info/op-512-china-linked-iis-web-shell/",
+        "published": "Mon, 15 Jun 2026 07:03:52 +0000"
+    },
+    {
+        "title": "UNC3753 Vishing Campaign Targets US Law Firms for Extortion",
+        "link": "https://securityonline.info/unc3753-vishing-campaign-law-firms/",
+        "published": "Mon, 15 Jun 2026 06:40:59 +0000"
     }
 ]
