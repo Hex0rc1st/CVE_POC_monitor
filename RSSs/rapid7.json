@@ -803,5 +803,20 @@
         "title": "Weekly Metasploit Update: New Kerberos/Certificate tracing options, and multiple new modules",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-13-06-2026",
         "published": "Sat, 13 Jun 2026 00:22:18 GMT"
+    },
+    {
+        "title": "NIS2 is raising the bar. Here’s how to turn readiness into resilience.",
+        "link": "https://www.rapid7.com/blog/post/so-nis2-compliance-turn-readiness-into-resilience",
+        "published": "Mon, 15 Jun 2026 17:29:15 GMT"
+    },
+    {
+        "title": "Does Your Security Programme Align With NIS2 Requirements?",
+        "link": "https://www.rapid7.com/blog/post/so-aligning-security-programmes-with-nis2-requirements",
+        "published": "Mon, 15 Jun 2026 17:24:20 GMT"
+    },
+    {
+        "title": "Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk",
+        "link": "https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk",
+        "published": "Mon, 15 Jun 2026 14:44:28 GMT"
     }
 ]
