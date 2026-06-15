@@ -31133,5 +31133,75 @@
         "title": "Elegant Reimagining of Apple Pay in iOS 27",
         "link": "https://securityonline.info/ios-27-apple-pay-redesign/",
         "published": "Sun, 14 Jun 2026 07:21:49 +0000"
+    },
+    {
+        "title": "The Payroll Pirate Campaign Leverages AiTM Session Hijacking to Target HR Departments",
+        "link": "https://securityonline.info/payroll-pirate-campaign-aitm-hijacking/",
+        "published": "Mon, 15 Jun 2026 04:22:39 +0000"
+    },
+    {
+        "title": "FreeBSD Privilege Escalation Flaw CVE-2026-49413 Hits the Linuxulator",
+        "link": "https://securityonline.info/freebsd-privilege-escalation-cve-2026-49413/",
+        "published": "Mon, 15 Jun 2026 04:19:09 +0000"
+    },
+    {
+        "title": "FreePBX RCE Vulnerabilities Threaten Telecom Servers",
+        "link": "https://securityonline.info/freepbx-rce-vulnerabilities/",
+        "published": "Mon, 15 Jun 2026 04:14:37 +0000"
+    },
+    {
+        "title": "Anthropic Claude Refund Guide: Navigating the Export Ban",
+        "link": "https://securityonline.info/anthropic-claude-refund-guide/",
+        "published": "Mon, 15 Jun 2026 03:31:56 +0000"
+    },
+    {
+        "title": "Linux Kernel 7.1 Release: Stability and Driver Enhancements",
+        "link": "https://securityonline.info/linux-kernel-7-1-release/",
+        "published": "Mon, 15 Jun 2026 03:27:10 +0000"
+    },
+    {
+        "title": "Codex Rate Limit Reset: OpenAI Introduces Flexible Limits",
+        "link": "https://securityonline.info/codex-rate-limit-reset/",
+        "published": "Mon, 15 Jun 2026 03:21:42 +0000"
+    },
+    {
+        "title": "Windows 11 Insider Apps Get Major Updates",
+        "link": "https://securityonline.info/windows-11-insider-app-updates/",
+        "published": "Mon, 15 Jun 2026 03:17:29 +0000"
+    },
+    {
+        "title": "Meta Moves to Curb Employee AI Usage Costs",
+        "link": "https://securityonline.info/meta-ai-usage-limits-employees/",
+        "published": "Mon, 15 Jun 2026 02:53:46 +0000"
+    },
+    {
+        "title": "Anthropic Halts Claude Fable Access Over US Export Ban",
+        "link": "https://securityonline.info/claude-fable-export-ban/",
+        "published": "Mon, 15 Jun 2026 02:50:56 +0000"
+    },
+    {
+        "title": "Critical Wazuh CVSS 10 Vulnerability Details and Proof-of-Concept Released",
+        "link": "https://securityonline.info/wazuh-cvss-10-vulnerability/",
+        "published": "Mon, 15 Jun 2026 01:48:13 +0000"
+    },
+    {
+        "title": "Old WinRAR Flaw Still Fuels Attacks on Ukraine in 2026",
+        "link": "https://securityonline.info/winrar-vulnerability-ukraine-cve-2025-8088/",
+        "published": "Mon, 15 Jun 2026 01:40:19 +0000"
+    },
+    {
+        "title": "Weekly Threat Intelligence: June 8 to June 14, 2026",
+        "link": "https://securityonline.info/weekly-threat-intelligence-vulnerability-management-report/",
+        "published": "Mon, 15 Jun 2026 01:31:36 +0000"
+    },
+    {
+        "title": "Vulnerable UEFI Shim Bootloaders Risk Broad Secure Boot Bypass",
+        "link": "https://securityonline.info/vulnerable-uefi-shim-bootloaders/",
+        "published": "Mon, 15 Jun 2026 01:15:04 +0000"
+    },
+    {
+        "title": "CodeIgniter Vulnerability Enables Arbitrary Code Execution (CVSS 9.8)",
+        "link": "https://securityonline.info/codeigniter-cve-2026-48062/",
+        "published": "Mon, 15 Jun 2026 00:54:41 +0000"
     }
 ]

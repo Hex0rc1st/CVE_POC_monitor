@@ -4250,3 +4250,5 @@ clean_list:
 - cve-2026-5950-bind9-resolver-dos
 - laravel-framework
 - CVE-2026-5513
+- CVE-2026-38812-RuoYi-SQL-Injection
+- CVE-2026-10795-Lab
