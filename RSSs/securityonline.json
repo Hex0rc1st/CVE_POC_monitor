@@ -31243,5 +31243,40 @@
         "title": "Uncanny Automator Breach: Backdoored Plugin Build Hit WordPress Sites",
         "link": "https://securityonline.info/uncanny-automator-breach/",
         "published": "Mon, 15 Jun 2026 15:25:52 +0000"
+    },
+    {
+        "title": "Three Tornado Security Vulnerabilities Patched in Version 6.5.6",
+        "link": "https://securityonline.info/tornado-security-vulnerabilities-6-5-6/",
+        "published": "Tue, 16 Jun 2026 02:31:45 +0000"
+    },
+    {
+        "title": "Vitest RCE Vulnerability (CVSS 9.8): Public PoC Disclosed for Testing Tool With 57M Weekly Downloads (CVE-2026-53633)",
+        "link": "https://securityonline.info/vitest-rce-vulnerability-cve-2026-53633/",
+        "published": "Tue, 16 Jun 2026 02:12:34 +0000"
+    },
+    {
+        "title": "Haskell TLS Vulnerability Lets Attackers Forge Trusted Certificates (CVE-2026-9648)",
+        "link": "https://securityonline.info/haskell-tls-vulnerability-cve-2026-9648/",
+        "published": "Tue, 16 Jun 2026 02:01:10 +0000"
+    },
+    {
+        "title": "Naxclow IoT Vulnerabilities: 7 Flaws Let Attackers Hijack Doorbells and Cameras",
+        "link": "https://securityonline.info/naxclow-iot-vulnerabilities/",
+        "published": "Tue, 16 Jun 2026 01:45:47 +0000"
+    },
+    {
+        "title": "FreeSWITCH Heap Buffer Overflow Bugs Expose Servers to Pre-Auth Attacks",
+        "link": "https://securityonline.info/freeswitch-heap-buffer-overflow-cve-2026-49841/",
+        "published": "Tue, 16 Jun 2026 01:01:15 +0000"
+    },
+    {
+        "title": "Thousands of phpBB Forums Exposed by Critical Authentication Bypass",
+        "link": "https://securityonline.info/phpbb-authentication-bypass-cve-2026-48611/",
+        "published": "Tue, 16 Jun 2026 00:27:40 +0000"
+    },
+    {
+        "title": "LiteSpeed cPanel Privilege Escalation Flaw Exploited in the Wild (CVE-2026-54420)",
+        "link": "https://securityonline.info/litespeed-cpanel-privilege-escalation-cve-2026-54420/",
+        "published": "Tue, 16 Jun 2026 00:00:13 +0000"
     }
 ]

@@ -4264,3 +4264,5 @@ clean_list:
 - CVE-2026-37070
 - CVE-2026-48849-Roundcube-Webmail-Stored-XSS
 - CVE-2026-37066
+- CVE-LiteLLM
+- CVE-2026-36522
