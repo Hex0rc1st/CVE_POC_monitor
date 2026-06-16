@@ -858,5 +858,25 @@
         "title": "Tengu Ransomware: Attack Chain From Initial Access to Encryption",
         "link": "https://www.picussecurity.com/resource/blog/tengu-ransomware-attack-chain-from-initial-access-to-encryption",
         "published": "Mon, 15 Jun 2026 08:30:00 GMT"
+    },
+    {
+        "title": "You Can't Launch Every Rocket. You Can't Exploit Every CVE Either.",
+        "link": "https://www.picussecurity.com/resource/blog/introducing-ttp-chain-validation",
+        "published": "Tue, 16 Jun 2026 10:58:16 GMT"
+    },
+    {
+        "title": "A Practical Guide to NCA ECC and CSCC Compliance Using Picus",
+        "link": "https://www.picussecurity.com/resource/blog/a-practical-guide-to-nca-ecc-and-cscc-compliance-using-picus",
+        "published": "Tue, 16 Jun 2026 07:12:53 GMT"
+    },
+    {
+        "title": "UNC1549 TTPs: Iranian APT Targeting Aerospace and Defense",
+        "link": "https://www.picussecurity.com/resource/blog/unc1549-ttps-iranian-apt-targeting-aerospace-and-defense",
+        "published": "Tue, 16 Jun 2026 07:00:00 GMT"
+    },
+    {
+        "title": "Splunk CVE-2026-20253: Unauthenticated Remote Code Execution Vulnerability Explained",
+        "link": "https://www.picussecurity.com/resource/blog/splunk-cve-2026-20253-unauthenticated-remote-code-execution-vulnerability-explained",
+        "published": "Tue, 16 Jun 2026 06:18:07 GMT"
     }
 ]

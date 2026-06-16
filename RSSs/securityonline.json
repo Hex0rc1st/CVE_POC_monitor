@@ -31278,5 +31278,65 @@
         "title": "LiteSpeed cPanel Privilege Escalation Flaw Exploited in the Wild (CVE-2026-54420)",
         "link": "https://securityonline.info/litespeed-cpanel-privilege-escalation-cve-2026-54420/",
         "published": "Tue, 16 Jun 2026 00:00:13 +0000"
+    },
+    {
+        "title": "Claude Fable 5 Ban: Anthropic’s Standstill with US Government",
+        "link": "https://securityonline.info/claude-fable-5-ban/",
+        "published": "Tue, 16 Jun 2026 10:26:48 +0000"
+    },
+    {
+        "title": "Microsoft Teams Workplace Check-in: Privacy Concerns",
+        "link": "https://securityonline.info/teams-workplace-checkin/",
+        "published": "Tue, 16 Jun 2026 09:26:40 +0000"
+    },
+    {
+        "title": "UNK_DeadDrop Phishing Campaigns Target Developers",
+        "link": "https://securityonline.info/unkdeaddrop-phishing-campaigns-developers/",
+        "published": "Tue, 16 Jun 2026 09:11:03 +0000"
+    },
+    {
+        "title": "Telegram Bots Receive Rich HTML and Markdown Formatting Options",
+        "link": "https://securityonline.info/telegram-bot-formatting/",
+        "published": "Tue, 16 Jun 2026 08:44:45 +0000"
+    },
+    {
+        "title": "Could Apple Build Its Own OpenClaw Competitor?",
+        "link": "https://securityonline.info/apple-openclaw-competitor-siri-agent/",
+        "published": "Tue, 16 Jun 2026 08:24:30 +0000"
+    },
+    {
+        "title": "Fluffy Wolf Phishing Attacks Push PowerLoader Malware",
+        "link": "https://securityonline.info/fluffy-wolf-phishing-attacks-powerloader/",
+        "published": "Tue, 16 Jun 2026 08:11:16 +0000"
+    },
+    {
+        "title": "curl Project Pauses Vulnerability Reports for “Summer of Bliss”",
+        "link": "https://securityonline.info/curl-summer-of-bliss/",
+        "published": "Tue, 16 Jun 2026 07:55:33 +0000"
+    },
+    {
+        "title": "AMD Silently Removes TSME Support from Ryzen CPUs",
+        "link": "https://securityonline.info/amd-removes-tsme-support/",
+        "published": "Tue, 16 Jun 2026 07:21:17 +0000"
+    },
+    {
+        "title": "Novo Nordisk Breach Exposes AI Models and Patient Data",
+        "link": "https://securityonline.info/novo-nordisk-data-breach-ai-models/",
+        "published": "Tue, 16 Jun 2026 07:12:31 +0000"
+    },
+    {
+        "title": "Inside the Stealthy Agent Tesla Infection Chain",
+        "link": "https://securityonline.info/agent-tesla-infection-chain/",
+        "published": "Tue, 16 Jun 2026 07:12:09 +0000"
+    },
+    {
+        "title": "Anthropic Claude Lawsuit: Users Sue Over Misleading Limits",
+        "link": "https://securityonline.info/anthropic-claude-lawsuit/",
+        "published": "Tue, 16 Jun 2026 07:10:25 +0000"
+    },
+    {
+        "title": "MLTBackdoor Malware Family Fuels Ransomware Attacks",
+        "link": "https://securityonline.info/mltbackdoor-malware-family/",
+        "published": "Tue, 16 Jun 2026 06:30:27 +0000"
     }
 ]

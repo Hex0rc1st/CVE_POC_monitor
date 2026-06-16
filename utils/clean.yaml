@@ -4266,3 +4266,13 @@ clean_list:
 - CVE-2026-37066
 - CVE-LiteLLM
 - CVE-2026-36522
+- CVE-2026-54420
+- CVE-2026-4480-exploit-poc
+- CVE-2026-50751
+- CVE-2026-54686
+- yellowkey-bitlocker
+- CVE-2026-20262
+- litespeed-cpanel-cve-2026-54420-fix
+- CVE-2026-53582
+- CVE-2026-54686-poc
+- CVE-2026-44881_exploit

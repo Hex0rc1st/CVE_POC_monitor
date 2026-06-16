@@ -4563,5 +4563,30 @@
         "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
         "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
         "published": "Tue, 16 Jun 2026 01:02:52 +0530"
+    },
+    {
+        "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
+        "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
+        "published": "Tue, 16 Jun 2026 16:00:41 +0530"
+    },
+    {
+        "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
+        "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
+        "published": "Tue, 16 Jun 2026 15:14:34 +0530"
+    },
+    {
+        "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
+        "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
+        "published": "Tue, 16 Jun 2026 13:44:55 +0530"
+    },
+    {
+        "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
+        "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
+        "published": "Tue, 16 Jun 2026 11:35:58 +0530"
+    },
+    {
+        "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
+        "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
+        "published": "Tue, 16 Jun 2026 11:11:52 +0530"
     }
 ]
