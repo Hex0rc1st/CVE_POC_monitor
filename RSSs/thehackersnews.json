@@ -4598,5 +4598,15 @@
         "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
         "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
         "published": "Tue, 16 Jun 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+        "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+        "published": "Wed, 17 Jun 2026 00:35:41 +0530"
+    },
+    {
+        "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
+        "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
+        "published": "Tue, 16 Jun 2026 23:11:28 +0530"
     }
 ]
