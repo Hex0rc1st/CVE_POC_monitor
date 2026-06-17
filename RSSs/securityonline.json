@@ -31363,5 +31363,65 @@
         "title": "ShapedPlugin Supply Chain Attack Exposes WordPress Sites",
         "link": "https://securityonline.info/shapedplugin-supply-chain-attack/",
         "published": "Tue, 16 Jun 2026 17:27:01 +0000"
+    },
+    {
+        "title": "Google Wear OS 7 Update: Gemini AI & Live Updates",
+        "link": "https://securityonline.info/google-wear-os-7/",
+        "published": "Wed, 17 Jun 2026 04:50:10 +0000"
+    },
+    {
+        "title": "ChatGPT Market Share Slips Below 50% As Rivals Grow",
+        "link": "https://securityonline.info/chatgpt-market-share/",
+        "published": "Wed, 17 Jun 2026 04:15:59 +0000"
+    },
+    {
+        "title": "Cloudflare DMARC Management Reaches General Availability",
+        "link": "https://securityonline.info/cloudflare-dmarc-management/",
+        "published": "Wed, 17 Jun 2026 03:49:37 +0000"
+    },
+    {
+        "title": "Google Unveils Android 17 and Innovative June Pixel Drop",
+        "link": "https://securityonline.info/android-17-features/",
+        "published": "Wed, 17 Jun 2026 03:47:09 +0000"
+    },
+    {
+        "title": "Chrome Security Update Fixes 33 Flaws, Seven Critical",
+        "link": "https://securityonline.info/chrome-security-update/",
+        "published": "Wed, 17 Jun 2026 02:41:08 +0000"
+    },
+    {
+        "title": "Fortra BoKS Vulnerability Opens Door to Remote Command Injection",
+        "link": "https://securityonline.info/fortra-boks-vulnerability/",
+        "published": "Wed, 17 Jun 2026 02:30:30 +0000"
+    },
+    {
+        "title": "GitHub Overload: Microsoft Rents Amazon Cloud Capacity",
+        "link": "https://securityonline.info/microsoft-rents-amazon-cloud/",
+        "published": "Wed, 17 Jun 2026 02:16:26 +0000"
+    },
+    {
+        "title": "Critical Yarbo Robot Vulnerability Exposes Global Fleet",
+        "link": "https://securityonline.info/yarbo-robot-vulnerability/",
+        "published": "Wed, 17 Jun 2026 02:02:49 +0000"
+    },
+    {
+        "title": "SpaceX Acquires Cursor for $60 Billion in AI Tech Buyout",
+        "link": "https://securityonline.info/spacex-acquires-cursor/",
+        "published": "Wed, 17 Jun 2026 01:47:15 +0000"
+    },
+    {
+        "title": "Cloud Foundry UAA Vulnerability Enables SAML Authentication Bypass",
+        "link": "https://securityonline.info/cloud-foundry-uaa-vulnerability/",
+        "published": "Wed, 17 Jun 2026 01:33:28 +0000"
+    },
+    {
+        "title": "NVIDIA Patches Three High-Severity NeMo Framework Code Injection Flaws",
+        "link": "https://securityonline.info/nvidia-nemo-vulnerabilities/",
+        "published": "Wed, 17 Jun 2026 01:01:58 +0000"
+    },
+    {
+        "title": "MongoDB Server Vulnerability Wave Hits Document Databases",
+        "link": "https://securityonline.info/mongodb-server-vulnerability/",
+        "published": "Wed, 17 Jun 2026 00:20:01 +0000"
     }
 ]
