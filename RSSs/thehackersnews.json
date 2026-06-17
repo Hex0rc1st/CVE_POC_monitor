@@ -4633,5 +4633,10 @@
         "title": "The Top 10 Attack Surface Exposures in 2026",
         "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
         "published": "Wed, 17 Jun 2026 16:00:00 +0530"
+    },
+    {
+        "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
+        "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
+        "published": "Wed, 17 Jun 2026 21:30:56 +0530"
     }
 ]

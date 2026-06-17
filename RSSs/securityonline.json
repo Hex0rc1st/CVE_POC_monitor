@@ -31473,5 +31473,10 @@
         "title": "Heimdal Survey: Executives Four Times More Confident About AI Risk Than the Teams Managing It",
         "link": "https://securityonline.info/heimdal-survey-executives-four-times-more-confident-about-ai-risk-than-the-teams-managing-it/",
         "published": "Wed, 17 Jun 2026 12:23:35 +0000"
+    },
+    {
+        "title": "Critical Apache Shiro LDAP Injection Flaw Uncovered",
+        "link": "https://securityonline.info/apache-shiro-ldap-injection/",
+        "published": "Wed, 17 Jun 2026 16:36:59 +0000"
     }
 ]
