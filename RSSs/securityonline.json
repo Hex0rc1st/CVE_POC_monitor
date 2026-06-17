@@ -31478,5 +31478,20 @@
         "title": "Critical Apache Shiro LDAP Injection Flaw Uncovered",
         "link": "https://securityonline.info/apache-shiro-ldap-injection/",
         "published": "Wed, 17 Jun 2026 16:36:59 +0000"
+    },
+    {
+        "title": "Splunk AI Toolkit Vulnerabilities: Critical RCE & Data Risks",
+        "link": "https://securityonline.info/splunk-ai-toolkit-vulnerabilities/",
+        "published": "Wed, 17 Jun 2026 19:26:00 +0000"
+    },
+    {
+        "title": "Active Gravity SMTP Vulnerability Exploited in the Wild",
+        "link": "https://securityonline.info/gravity-smtp-vulnerability-active-exploits/",
+        "published": "Wed, 17 Jun 2026 19:15:08 +0000"
+    },
+    {
+        "title": "Cisco ISE Vulnerabilities: Critical RCE and Info Disclosure Flaws",
+        "link": "https://securityonline.info/cisco-ise-vulnerabilities/",
+        "published": "Wed, 17 Jun 2026 18:43:37 +0000"
     }
 ]
