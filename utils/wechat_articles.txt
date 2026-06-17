@@ -1711,3 +1711,5 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508740&idx=1&sn=29
 https://mp.weixin.qq.com/s/15jTRMNNSNdndbJc9gpsKA
 360漏洞研究院::【已复现】微信 Linux 版 1-Click 命令注入漏洞
 https://mp.weixin.qq.com/s/HcHuxvYb1sZjFNJNAfyLtA
+奇安信cert::2026上半年你需要关注的高危漏洞合集！
+https://mp.weixin.qq.com/s/X69jKHzCpTmMykqPkbnE0g

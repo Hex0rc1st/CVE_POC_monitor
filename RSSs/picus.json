@@ -878,5 +878,15 @@
         "title": "Splunk CVE-2026-20253: Unauthenticated Remote Code Execution Vulnerability Explained",
         "link": "https://www.picussecurity.com/resource/blog/splunk-cve-2026-20253-unauthenticated-remote-code-execution-vulnerability-explained",
         "published": "Tue, 16 Jun 2026 06:18:07 GMT"
+    },
+    {
+        "title": "SloppyLemming Attack Techniques & BurrowShell Backdoor Explained",
+        "link": "https://www.picussecurity.com/resource/blog/sloppylemming-attack-techniques-burrowshell-backdoor-explained",
+        "published": "Wed, 17 Jun 2026 08:30:00 GMT"
+    },
+    {
+        "title": "A Practical Guide to NIS2 Directive Compliance Using Picus",
+        "link": "https://www.picussecurity.com/resource/blog/a-practical-guide-to-nis2-directive-compliance-using-picus",
+        "published": "Wed, 17 Jun 2026 06:15:01 GMT"
     }
 ]

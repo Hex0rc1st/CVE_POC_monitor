@@ -31423,5 +31423,45 @@
         "title": "MongoDB Server Vulnerability Wave Hits Document Databases",
         "link": "https://securityonline.info/mongodb-server-vulnerability/",
         "published": "Wed, 17 Jun 2026 00:20:01 +0000"
+    },
+    {
+        "title": "GoFlateLoader: The Bloated Golang Malware Smuggling Infostealers Past Scanners",
+        "link": "https://securityonline.info/goflateloader-malware/",
+        "published": "Wed, 17 Jun 2026 09:03:22 +0000"
+    },
+    {
+        "title": "Microsoft Copilot Cowork: Agentic AI System Launch",
+        "link": "https://securityonline.info/microsoft-copilot-cowork/",
+        "published": "Wed, 17 Jun 2026 08:53:57 +0000"
+    },
+    {
+        "title": "JDY Botnet Resurges: China-Nexus IoT Army Hunts New Vulnerabilities Within Hours",
+        "link": "https://securityonline.info/jdy-botnet-iot-soho/",
+        "published": "Wed, 17 Jun 2026 08:33:20 +0000"
+    },
+    {
+        "title": "Mastra Supply Chain Attack Compromises 140+ npm Packages",
+        "link": "https://securityonline.info/mastra-supply-chain-attack/",
+        "published": "Wed, 17 Jun 2026 08:04:43 +0000"
+    },
+    {
+        "title": "AdGuard Email Tracking Protection: Stop Hidden Pixels",
+        "link": "https://securityonline.info/adguard-email-tracking-protection/",
+        "published": "Wed, 17 Jun 2026 07:53:06 +0000"
+    },
+    {
+        "title": "UK to Ban Social Media for Under-16s by Spring 2027",
+        "link": "https://securityonline.info/uk-social-media-ban-under-16s/",
+        "published": "Wed, 17 Jun 2026 07:49:54 +0000"
+    },
+    {
+        "title": "SilabRAT Malware: The $5,000-a-Month Crypto-Hunting RAT Hiding Behind HijackLoader",
+        "link": "https://securityonline.info/silabrat-malware-rat/",
+        "published": "Wed, 17 Jun 2026 07:22:05 +0000"
+    },
+    {
+        "title": "WooCommerce Payment Skimmer Mimics Stripe to Steal Cards at Real Checkouts",
+        "link": "https://securityonline.info/woocommerce-payment-skimmer/",
+        "published": "Wed, 17 Jun 2026 06:49:28 +0000"
     }
 ]
