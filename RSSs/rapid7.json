@@ -818,5 +818,10 @@
         "title": "Beyond the Score: Using AI to Translate CVEs into Real-World Business Risk",
         "link": "https://www.rapid7.com/blog/post/ai-beyond-the-score-translating-cves-into-real-business-risk",
         "published": "Mon, 15 Jun 2026 14:44:28 GMT"
+    },
+    {
+        "title": "Malware à la Mode: Tracking Dropping Elephant Tradecraft Through a China-Themed Loader Chain",
+        "link": "https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain",
+        "published": "Wed, 17 Jun 2026 11:20:10 GMT"
     }
 ]

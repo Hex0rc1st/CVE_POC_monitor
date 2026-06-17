@@ -1713,3 +1713,7 @@ https://mp.weixin.qq.com/s/15jTRMNNSNdndbJc9gpsKA
 https://mp.weixin.qq.com/s/HcHuxvYb1sZjFNJNAfyLtA
 奇安信cert::2026上半年你需要关注的高危漏洞合集！
 https://mp.weixin.qq.com/s/X69jKHzCpTmMykqPkbnE0g
+奇安信cert::【已复现】Linux Kernel net/sched act_pedit 本地权限提升漏洞(CVE-2026-46331)安全风险通告
+https://mp.weixin.qq.com/s/sOwonojWvAkFVxdpa9UZsA
+360漏洞研究院::Kernel 新漏洞曝光！多款主流 Linux 发行版存在 Root 本地提权风险
+https://mp.weixin.qq.com/s/rd9AN4jERTTy7Gok01YGZQ

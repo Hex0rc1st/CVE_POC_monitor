@@ -1,0 +1,65 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Linux Kernel net/sched act_pedit 本地权限提升漏洞(CVE-2026-46331)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-06-17",
+  "table_fields": {
+    "漏洞名称": "Linux Kernel net/sched act_pedit 本地权限提升漏洞",
+    "漏洞编号": "QVD-2026-34209 ， CVE-2026-46331",
+    "公开时间": "2026-06-16",
+    "影响量级": "百万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "7.1",
+    "威胁类型": "权限提升",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-06-17 21:20 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Linux 内核是一款开源的类 Unix 操作系统内核，由 Linus Torvalds 于 1991 年首次发布，现已成为全球使用最广泛的操作系统内核之一。它支持多种硬件架构，提供进程管理、内存管理、文件系统、网络协议栈及设备驱动等核心功能，被广泛应用于服务器、桌面系统、移动设备（Android）、嵌入式系统及云计算基础设施中。Linux 内核的网络子系统（net/sched）提供了强大的流量控制（Traffic Control）框架，允许管理员通过 tc 工具对网络数据包进行分类、整形、修改和调度，其中 act_pedit（Packet Editor）动作用于在数据包传输过程中修改数据包内容。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Linux Kernel net/sched act_pedit 本地权限提升漏洞(CVE-2026-46331)，该漏洞源于 tcf_pedit_act() 函数在处理数据包编辑操作时，函数仅在循环外基于 tcfp_off_max_hint 一次性计算 skb 写时复制 COW 范围，该提示值未考虑运行时类型密钥追加的报文头部偏移，导致部分待写入内存区域未执行 COW 拷贝。攻击者可通过非特权用户命名空间配合 CAP_NET_ADMIN 权限，构造恶意 tc 流量规则，触发未 COW 的共享只读页缓存写入篡改；无需内核竞态条件，可稳定篡改 setuid-root 二进制文件的页缓存，不会持久写入磁盘，仅内存层面生效。成功利用后本地普通用户可直接获取系统 root 最高权限，从而实现完全控制服务器。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 本地存在可登录普通非特权用户账号。 **影响范围** **>** **>** **>** **>** **影响版本** v5.18 ** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议尽快将 Linux 内核升级至以下版本： Linux Kernel >= v7.1-rc7 或升级至包含修复补丁 899ee91156e57784090c5565e4f31bd7dbffbc5a 的内核版本，该补丁将 skb_ensure_writable() 移至 per-key 循环内部，确保在实际写入偏移已知时执行 COW 操作，并添加了偏移算术溢出检查；对于负偏移（如 ingress 时的 Ethernet 头部编辑），使用 skb_cow() 对 headroom 进行 COW 处理。 补丁下载地址： https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a 各发行版专项更新如下： RHEL 10：升级内核至 6.12.0-228.el10 后续安全更新版本； Debian 13：升级 6.12.90+deb13.1 以上修复内核； Ubuntu 24.04：升级 6.17.0-22 后续安全内核，同时 AppArmor 加固限制非特权 userns。",
+    "security_update": "目前官方已有可更新版本，建议尽快将 Linux 内核升级至以下版本： Linux Kernel >= v7.1-rc7 或升级至包含修复补丁 899ee91156e57784090c5565e4f31bd7dbffbc5a 的内核版本，该补丁将 skb_ensure_writable() 移至 per-key 循环内部，确保在实际写入偏移已知时执行 COW 操作，并添加了偏移算术溢出检查；对于负偏移（如 ingress 时的 Ethernet 头部编辑），使用 skb_cow() 对 headroom 进行 COW 处理。 补丁下载地址： https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a 各发行版专项更新如下： RHEL 10：升级内核至 6.12.0-228.el10 后续安全更新版本； Debian 13：升级 6.12.90+deb13.1 以上修复内核； Ubuntu 24.04：升级 6.17.0-22 后续安全内核，同时 AppArmor 加固限制非特权 userns。",
+    "component_text": "Linux 内核是一款开源的类 Unix 操作系统内核，由 Linus Torvalds 于 1991 年首次发布，现已成为全球使用最广泛的操作系统内核之一。它支持多种硬件架构，提供进程管理、内存管理、文件系统、网络协议栈及设备驱动等核心功能，被广泛应用于服务器、桌面系统、移动设备（Android）、嵌入式系统及云计算基础设施中。Linux 内核的网络子系统（net/sched）提供了强大的流量控制（Traffic Control）框架，允许管理员通过 tc 工具对网络数据包进行分类、整形、修改和调度，其中 act_pedit（Packet Editor）动作用于在数据包传输过程中修改数据包内容。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 Linux Kernel net/sched act_pedit 本地权限提升漏洞(CVE-2026-46331)，该漏洞源于 tcf_pedit_act() 函数在处理数据包编辑操作时，函数仅在循环外基于 tcfp_off_max_hint 一次性计算 skb 写时复制 COW 范围，该提示值未考虑运行时类型密钥追加的报文头部偏移，导致部分待写入内存区域未执行 COW 拷贝。攻击者可通过非特权用户命名空间配合 CAP_NET_ADMIN 权限，构造恶意 tc 流量规则，触发未 COW 的共享只读页缓存写入篡改；无需内核竞态条件，可稳定篡改 setuid-root 二进制文件的页缓存，不会持久写入磁盘，仅内存层面生效。成功利用后本地普通用户可直接获取系统 root 最高权限，从而实现完全控制服务器。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 利用条件 本地存在可登录普通非特权用户账号。",
+    "affected_versions_text": "v5.18 <= Linux Kernel < v7.1-rc7 目前已知受影响发行版本： RHEL 10.0（内核 6.12.0-228.el10） Debian 13 trixie（内核 6.12.90+deb13.1） Ubuntu 24.04.4（内核 6.17.0-22）",
+    "plain_text": "安全团队 2026-06-17 21:20 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Linux 内核是一款开源的类 Unix 操作系统内核，由 Linus Torvalds 于 1991 年首次发布，现已成为全球使用最广泛的操作系统内核之一。它支持多种硬件架构，提供进程管理、内存管理、文件系统、网络协议栈及设备驱动等核心功能，被广泛应用于服务器、桌面系统、移动设备（Android）、嵌入式系统及云计算基础设施中。Linux 内核的网络子系统（net/sched）提供了强大的流量控制（Traffic Control）框架，允许管理员通过 tc 工具对网络数据包进行分类、整形、修改和调度，其中 act_pedit（Packet Editor）动作用于在数据包传输过程中修改数据包内容。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 Linux Kernel net/sched act_pedit 本地权限提升漏洞(CVE-2026-46331)，该漏洞源于 tcf_pedit_act() 函数在处理数据包编辑操作时，函数仅在循环外基于 tcfp_off_max_hint 一次性计算 skb 写时复制 COW 范围，该提示值未考虑运行时类型密钥追加的报文头部偏移，导致部分待写入内存区域未执行 COW 拷贝。攻击者可通过非特权用户命名空间配合 CAP_NET_ADMIN 权限，构造恶意 tc 流量规则，触发未 COW 的共享只读页缓存写入篡改；无需内核竞态条件，可稳定篡改 setuid-root 二进制文件的页缓存，不会持久写入磁盘，仅内存层面生效。成功利用后本地普通用户可直接获取系统 root 最高权限，从而实现完全控制服务器。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 本地存在可登录普通非特权用户账号。 **02** **影响范围** **>** **>** **>** **>** **影响版本** v5.18 ** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议尽快将 Linux 内核升级至以下版本： Linux Kernel >= v7.1-rc7 或升级至包含修复补丁 899ee91156e57784090c5565e4f31bd7dbffbc5a 的内核版本，该补丁将 skb_ensure_writable() 移至 per-key 循环内部，确保在实际写入偏移已知时执行 COW 操作，并添加了偏移算术溢出检查；对于负偏移（如 ingress 时的 Ethernet 头部编辑），使用 skb_cow() 对 headroom 进行 COW 处理。 补丁下载地址： https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a 各发行版专项更新如下： RHEL 10：升级内核至 6.12.0-228.el10 后续安全更新版本； Debian 13：升级 6.12.90+deb13.1 以上修复内核； Ubuntu 24.04：升级 6.17.0-22 后续安全内核，同时 AppArmor 加固限制非特权 userns。 **05** **参考资料** [1]https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a [2]https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d504a978572202ef43ac5ecfec2030adda64b13e **06** **时间线** 2026年06月17日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 「 安全团队漏洞情报平台 」 重磅上线，诚邀您来体验： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a",
+    "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d504a978572202ef43ac5ecfec2030adda64b13e"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a",
+      "content": "Making sure you're not a bot! Making sure you're not a bot! Loading... You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone. Anubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is that at individual scales the additional load is ignorable, but at mass scraper levels it adds up and makes scraping much more expensive. Ultimately, this is a placeholder solution so that more time can be spent on fingerprinting and identifying headless browsers (EG: via how they do font rendering) so that the challenge proof of work page doesn't need to be presented to users that are much more likely to be legitimate. Please note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain. Protected by Anubis From Techaro . Made with ❤️ in 🇨🇦. Mascot design by CELPHASE . This website is running Anubis version 1.23.1 ."
+    },
+    {
+      "url": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d504a978572202ef43ac5ecfec2030adda64b13e",
+      "content": "Making sure you're not a bot! Making sure you're not a bot! Loading... You are seeing this because the administrator of this website has set up Anubis to protect the server against the scourge of AI companies aggressively scraping websites. This can and does cause downtime for the websites, which makes their resources inaccessible for everyone. Anubis is a compromise. Anubis uses a Proof-of-Work scheme in the vein of Hashcash, a proposed proof-of-work scheme for reducing email spam. The idea is that at individual scales the additional load is ignorable, but at mass scraper levels it adds up and makes scraping much more expensive. Ultimately, this is a placeholder solution so that more time can be spent on fingerprinting and identifying headless browsers (EG: via how they do font rendering) so that the challenge proof of work page doesn't need to be presented to users that are much more likely to be legitimate. Please note that Anubis requires the use of modern JavaScript features that plugins like JShelter will disable. Please disable JShelter or other such plugins for this domain. Protected by Anubis From Techaro . Made with ❤️ in 🇨🇦. Mascot design by CELPHASE . This website is running Anubis version 1.23.1 ."
+    }
+  ],
+  "payload": {
+    "vulner_name": "Linux Kernel net/sched act_pedit 权限提升漏洞",
+    "vulner_number_1": "CVE-2026-46331",
+    "vulner_number_2": "漏洞编号： CVE-2026-46331",
+    "new_vulner_name": "Linux Kernel net/sched act_pedit 权限提升漏洞",
+    "vulner_date": "2026年6月17日",
+    "vulner_time_line": "2026/06/17",
+    "object_name": "sched act_pedit",
+    "object_desc": "sched act_pedit 是 Linux 内核流量控制子系统中的一个数据包编辑动作模块，属于 tc（traffic control）框架的扩展。该模块通过策略规则对匹配的网络数据包进行字段修改，包括 IP 地址、端口号、MAC 地址等网络层和链路层参数。act_pedit 主要用于流量整形、路由策略调整以及网络数据包的预处理等场景。",
+    "vulner_version": "Linux Kernel ≤ v5.18 < v7.1-rc7 Linux Kernel ≤ 6.12.0-228.el10 Linux Kernel ≤ 6.12.90+deb13.1 Linux Kernel ≤ 6.17.0-22",
+    "vulner_type": "权限提升",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "本地存在可登录普通非特权用户账号",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可稳定篡改 setuid-root 二进制文件的页缓存，成功利用后本地普通用户可直接获取系统 root 最高权限",
+    "vuln_level": "高危",
+    "vulner_desc": "Linux内核net/sched act_pedit模块存在权限提升漏洞（CVE-2026-46331）。该漏洞源于tcf_pedit_act()函数在处理数据包编辑操作时，仅基于tcfp_off_max_hint在循环外一次性计算skb写时复制（COW）范围，该计算未考虑运行时类型密钥追加导致的报文头部偏移变化，致使部分待写入内存区域未执行COW拷贝。攻击者通过非特权用户命名空间配合CAP_NET_ADMIN权限，构造恶意tc流量规则，可触发对共享只读页缓存的写入篡改，稳定修改setuid-root二进制文件的页缓存而不持久化至磁盘，实现本地普通用户到root权限的提升。",
+    "official_solution": "建议将 Linux 内核升级至 v7.1-rc7 或包含修复补丁的内核版本。\n修复版本：Linux Kernel >= v7.1-rc7；RHEL 10 升级至 6.12.0-228.el10；Debian 13 升级至 6.12.90+deb13.1；Ubuntu 24.04 升级至 6.17.0-22。\n下载链接：https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a",
+    "reference_link": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=899ee91156e57784090c5565e4f31bd7dbffbc5a",
+    "reference_link1": "https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/commit/?id=d504a978572202ef43ac5ecfec2030adda64b13e",
+    "reference_link2": ""
+  }
+}
