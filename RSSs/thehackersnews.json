@@ -4648,5 +4648,30 @@
         "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
         "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
         "published": "Wed, 17 Jun 2026 23:06:28 +0530"
+    },
+    {
+        "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
+        "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
+        "published": "Thu, 18 Jun 2026 20:00:42 +0530"
+    },
+    {
+        "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
+        "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
+        "published": "Thu, 18 Jun 2026 19:42:48 +0530"
+    },
+    {
+        "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
+        "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
+        "published": "Thu, 18 Jun 2026 19:28:39 +0530"
+    },
+    {
+        "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
+        "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+        "published": "Thu, 18 Jun 2026 19:00:07 +0530"
+    },
+    {
+        "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+        "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+        "published": "Thu, 18 Jun 2026 17:28:00 +0530"
     }
 ]

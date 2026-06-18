@@ -4300,3 +4300,9 @@ clean_list:
 - CVE-2024-1813-POC
 - CVE-2025-6254
 - CVE-2025-53024
+- CVE-2026-46215-POC
+- CVE-2024-24945-NGINX-RIFT---TryHackMe-Lab-Walkthrough
+- CVE-2026-54420-LiteSpeed-Symlink-Exploit
+- cutenews-2.0-CVEs-2026-Disclosure
+- CVE-2026-50656
+- cve-2026-54316-lab
