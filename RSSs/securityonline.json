@@ -31503,5 +31503,20 @@
         "title": "Zyxel Patches Stack-Based Buffer Overflow in GS1900 Switches (CVE-2026-7273)",
         "link": "https://securityonline.info/zyxel-gs1900-buffer-overflow/",
         "published": "Thu, 18 Jun 2026 00:25:13 +0000"
+    },
+    {
+        "title": "FortiBleed: 30,791 Fortinet Firewalls Compromised in Global Credential Heist",
+        "link": "https://securityonline.info/fortibleed-fortinet-breach/",
+        "published": "Thu, 18 Jun 2026 02:06:34 +0000"
+    },
+    {
+        "title": "AI Drives 2026 Vulnerability Forecast to 66K CVEs, But Risk Stays Flat",
+        "link": "https://securityonline.info/2026-vulnerability-forecast/",
+        "published": "Thu, 18 Jun 2026 01:35:15 +0000"
+    },
+    {
+        "title": "China Influence Operations Target US AI Debate, OpenAI Warns",
+        "link": "https://securityonline.info/china-influence-operations-ai/",
+        "published": "Thu, 18 Jun 2026 01:33:10 +0000"
     }
 ]
