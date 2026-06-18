@@ -1717,3 +1717,5 @@ https://mp.weixin.qq.com/s/X69jKHzCpTmMykqPkbnE0g
 https://mp.weixin.qq.com/s/sOwonojWvAkFVxdpa9UZsA
 360漏洞研究院::Kernel 新漏洞曝光！多款主流 Linux 发行版存在 Root 本地提权风险
 https://mp.weixin.qq.com/s/rd9AN4jERTTy7Gok01YGZQ
+奇安信cert::安全热点周报：Oracle 缓解了 PeopleSoft 零日漏洞在数据窃取攻击中的利用
+https://mp.weixin.qq.com/s/CibPYDSRuZfV1GQRo4kClw
