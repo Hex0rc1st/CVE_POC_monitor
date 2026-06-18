@@ -31493,5 +31493,15 @@
         "title": "Cisco ISE Vulnerabilities: Critical RCE and Info Disclosure Flaws",
         "link": "https://securityonline.info/cisco-ise-vulnerabilities/",
         "published": "Wed, 17 Jun 2026 18:43:37 +0000"
+    },
+    {
+        "title": "i18next Prototype Pollution Flaw (CVSS 9.1) Threatens 1M+ Weekly Downloads",
+        "link": "https://securityonline.info/i18next-prototype-pollution/",
+        "published": "Thu, 18 Jun 2026 01:00:39 +0000"
+    },
+    {
+        "title": "Zyxel Patches Stack-Based Buffer Overflow in GS1900 Switches (CVE-2026-7273)",
+        "link": "https://securityonline.info/zyxel-gs1900-buffer-overflow/",
+        "published": "Thu, 18 Jun 2026 00:25:13 +0000"
     }
 ]
