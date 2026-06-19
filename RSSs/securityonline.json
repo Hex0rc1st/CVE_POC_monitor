@@ -31578,5 +31578,40 @@
         "title": "Node.js Security Updates: Urgent Action Required",
         "link": "https://securityonline.info/nodejs-security-updates/",
         "published": "Thu, 18 Jun 2026 17:42:35 +0000"
+    },
+    {
+        "title": "Apple Opens iOS to Third-Party App Stores in Brazil Under CADE Settlement",
+        "link": "https://securityonline.info/ios-third-party-app-stores-brazil/",
+        "published": "Fri, 19 Jun 2026 03:17:21 +0000"
+    },
+    {
+        "title": "F5 Patches Two Critical NGINX Flaws in HTTP/3 and HTTP/2 Modules (CVE-2026-42530, CVE-2026-42055)",
+        "link": "https://securityonline.info/nginx-vulnerabilities/",
+        "published": "Fri, 19 Jun 2026 02:23:02 +0000"
+    },
+    {
+        "title": "Critical iba Deserialization Vulnerability Exposes ibaPDA and ibaDatCoordinator to RCE (CVE-2026-8024)",
+        "link": "https://securityonline.info/iba-deserialization-vulnerability/",
+        "published": "Fri, 19 Jun 2026 02:13:25 +0000"
+    },
+    {
+        "title": "27-Year-Old OpenBSD Authentication Bypass: Details and PoC Exploit Publicly Disclosed",
+        "link": "https://securityonline.info/openbsd-pap-authentication-bypass/",
+        "published": "Fri, 19 Jun 2026 02:02:06 +0000"
+    },
+    {
+        "title": "LiteLLM Authentication Bypass via Host Header Injection (CVE-2026-49468)",
+        "link": "https://securityonline.info/litellm-authentication-bypass/",
+        "published": "Fri, 19 Jun 2026 01:35:50 +0000"
+    },
+    {
+        "title": "Langflow File Upload Flaw: Details and PoC Exploit Publicly Disclosed (CVE-2026-55450)",
+        "link": "https://securityonline.info/langflow-file-upload-flaw/",
+        "published": "Fri, 19 Jun 2026 01:00:39 +0000"
+    },
+    {
+        "title": "Rockwell Automation patches multiple ICS flaws",
+        "link": "https://securityonline.info/rockwell-factorytalk-flex-io-vulnerabilities/",
+        "published": "Fri, 19 Jun 2026 00:33:25 +0000"
     }
 ]

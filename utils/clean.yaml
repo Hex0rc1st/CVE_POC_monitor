@@ -4306,3 +4306,6 @@ clean_list:
 - cutenews-2.0-CVEs-2026-Disclosure
 - CVE-2026-50656
 - cve-2026-54316-lab
+- CVE-2026-42055
+- CVE-2026-4782
+- CVE-2026-42530
