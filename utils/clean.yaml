@@ -4313,3 +4313,8 @@ clean_list:
 - CVE-2026-10523-Ivanti-sentry
 - CVE_2026_7515
 - CVE-2024-27198-SOC-Lab
+- CVE-2026-54761-poc
+- cve-intelligence-assistant
+- CVE-2026-39259
+- cve-2026-43515-poc
+- CVE-2026-11784-Optimole-CSRF
