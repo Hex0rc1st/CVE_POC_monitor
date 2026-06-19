@@ -4683,5 +4683,15 @@
         "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
         "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
         "published": "Thu, 18 Jun 2026 23:02:14 +0530"
+    },
+    {
+        "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
+        "link": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
+        "published": "Fri, 19 Jun 2026 14:33:57 +0530"
+    },
+    {
+        "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
+        "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
+        "published": "Fri, 19 Jun 2026 12:06:09 +0530"
     }
 ]

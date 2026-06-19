@@ -31613,5 +31613,40 @@
         "title": "Rockwell Automation patches multiple ICS flaws",
         "link": "https://securityonline.info/rockwell-factorytalk-flex-io-vulnerabilities/",
         "published": "Fri, 19 Jun 2026 00:33:25 +0000"
+    },
+    {
+        "title": "UNC1151 ‘Ghostwriter’ Phishing Campaign Hijacks Gmail Accounts and 2FA Codes",
+        "link": "https://securityonline.info/unc1151-gmail-phishing/",
+        "published": "Fri, 19 Jun 2026 09:04:21 +0000"
+    },
+    {
+        "title": "Interlock and Rhysida Ransomware: IBM X-Force Maps a Shared Ecosystem",
+        "link": "https://securityonline.info/interlock-rhysida-ransomware-ecosystem/",
+        "published": "Fri, 19 Jun 2026 08:33:14 +0000"
+    },
+    {
+        "title": "1M WordPress Sites at Risk: Critical Unauthenticated Arbitrary File Deletion in Avada Builder (CVSS 9.1)",
+        "link": "https://securityonline.info/avada-builder-vulnerability/",
+        "published": "Fri, 19 Jun 2026 07:31:25 +0000"
+    },
+    {
+        "title": "APT37 NarwhalRAT Malware: A Python Backdoor Threat",
+        "link": "https://securityonline.info/apt37-narwhalrat-malware/",
+        "published": "Fri, 19 Jun 2026 07:22:56 +0000"
+    },
+    {
+        "title": "Google Calendar Adds 200 Custom Colors and a Full RGB Picker",
+        "link": "https://securityonline.info/google-calendar-custom-event-colors/",
+        "published": "Fri, 19 Jun 2026 07:04:01 +0000"
+    },
+    {
+        "title": "Claude Code Quota Reset Follows Morning Outage",
+        "link": "https://securityonline.info/claude-code-quota-reset/",
+        "published": "Fri, 19 Jun 2026 07:02:03 +0000"
+    },
+    {
+        "title": "Chrome Extension Vulnerabilities: Millions at Risk",
+        "link": "https://securityonline.info/chrome-extension-vulnerabilities/",
+        "published": "Fri, 19 Jun 2026 06:30:57 +0000"
     }
 ]
