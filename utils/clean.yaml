@@ -4319,3 +4319,5 @@ clean_list:
 - cve-2026-43515-poc
 - CVE-2026-11784-Optimole-CSRF
 - CVE-2026-54337-PoC
+- By-Poloss..-..CVE-2026-11912
+- CVE-2026-41091-PoC-Exploit
