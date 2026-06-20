@@ -4318,3 +4318,4 @@ clean_list:
 - CVE-2026-39259
 - cve-2026-43515-poc
 - CVE-2026-11784-Optimole-CSRF
+- CVE-2026-54337-PoC
