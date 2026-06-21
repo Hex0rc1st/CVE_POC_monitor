@@ -4322,3 +4322,5 @@ clean_list:
 - By-Poloss..-..CVE-2026-11912
 - CVE-2026-41091-PoC-Exploit
 - CVE-2026-37149
+- CVE-2026-11551-PoC
+- CVE-2026-11561
