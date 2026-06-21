@@ -31673,5 +31673,15 @@
         "title": "Critical ArcGIS Account Recovery Targeted in Active Attacks",
         "link": "https://securityonline.info/arcgis-account-recovery-flaw-security-bulletin/",
         "published": "Sat, 20 Jun 2026 17:23:20 +0000"
+    },
+    {
+        "title": "QNAP Patches 14 Vulnerabilities in QTS, QuTS hero, and QVP Devices",
+        "link": "https://securityonline.info/qnap-nas-vulnerabilities-qsa-26-10/",
+        "published": "Sun, 21 Jun 2026 09:12:32 +0000"
+    },
+    {
+        "title": "NPM Package Tests AI Malware Scanner Evasion",
+        "link": "https://securityonline.info/ai-malware-scanner-evasion/",
+        "published": "Sun, 21 Jun 2026 07:30:50 +0000"
     }
 ]
