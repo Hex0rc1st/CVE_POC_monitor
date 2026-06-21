@@ -4327,3 +4327,5 @@ clean_list:
 - ash-authentication-oauth2-oidc-account-takeover-cve-2026-49757-email-based-user-matching
 - CVE-2026-MSIAPService
 - CVE-2026-48908-POC
+- dotclaude-security
+- directus-security
