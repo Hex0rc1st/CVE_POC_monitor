@@ -4330,3 +4330,6 @@ clean_list:
 - dotclaude-security
 - directus-security
 - CVE-2026-4020
+- CVE-2026-48908-PoC
+- sk-cve-2026-26030-lab
+- cve-2026-25541-fuel-analysis
