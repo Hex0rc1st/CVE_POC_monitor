@@ -4333,3 +4333,6 @@ clean_list:
 - CVE-2026-48908-PoC
 - sk-cve-2026-26030-lab
 - cve-2026-25541-fuel-analysis
+- dirtyfrag-cve-2026
+- CVE-2026-21018
+- CVE-2026-40369

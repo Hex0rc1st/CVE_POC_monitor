@@ -177,3 +177,5 @@ https://github.com/watchtowrlabs/watchTowr-vs-Splunk-CVE-2026-20253
 https://github.com/watchtowrlabs/watchTowr-vs-Splunk-CVE-2026-20253
 https://github.com/sgkdev/packet_edit_meme
 https://github.com/clsmight/CVE-2026-41940-PoC
+https://github.com/papageo75/CVE-2026-48908-PoC
+https://github.com/Is4yev/CVE-2026-48909
