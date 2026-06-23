@@ -833,5 +833,10 @@
         "title": "Weekly Metasploit Update: NTLM Relay Priv Esc, MCP Server Integration, Paperclip AI RCE Chain, and more",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-19-06-2026",
         "published": "Fri, 19 Jun 2026 17:08:23 GMT"
+    },
+    {
+        "title": "Why SIEM is Moving Toward Unified Security Operations: Rapid7 Named a Major Player in IDC MarketScape",
+        "link": "https://www.rapid7.com/blog/post/dr-siem-moving-toward-unified-security-operations-rapid7-named-idc-marketscape-major-player",
+        "published": "Tue, 23 Jun 2026 17:03:34 GMT"
     }
 ]
