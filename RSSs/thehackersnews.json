@@ -4793,5 +4793,10 @@
         "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
         "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
         "published": "Tue, 23 Jun 2026 09:26:58 +0530"
+    },
+    {
+        "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+        "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+        "published": "Tue, 23 Jun 2026 14:24:32 +0530"
     }
 ]

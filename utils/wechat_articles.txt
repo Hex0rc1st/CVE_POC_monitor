@@ -1719,3 +1719,5 @@ https://mp.weixin.qq.com/s/sOwonojWvAkFVxdpa9UZsA
 https://mp.weixin.qq.com/s/rd9AN4jERTTy7Gok01YGZQ
 奇安信cert::安全热点周报：Oracle 缓解了 PeopleSoft 零日漏洞在数据窃取攻击中的利用
 https://mp.weixin.qq.com/s/CibPYDSRuZfV1GQRo4kClw
+360漏洞研究院::Joomla! 多个扩展存在未授权RCE漏洞
+https://mp.weixin.qq.com/s/VmMBhvHaVHaf9g1WkkLvlw
