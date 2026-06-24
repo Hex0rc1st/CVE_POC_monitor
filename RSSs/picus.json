@@ -938,5 +938,15 @@
         "title": "AI Broke Vulnerability Management",
         "link": "https://www.picussecurity.com/resource/report/ai-broke-vulnerability-management",
         "published": "Tue, 23 Jun 2026 10:53:59 GMT"
+    },
+    {
+        "title": "The ShinyHunters Domino Effect: One Breach, Hundreds of Victims",
+        "link": "https://www.picussecurity.com/resource/blog/the-shinyhunters-domino-effect-one-breach-hundreds-of-victims",
+        "published": "Wed, 24 Jun 2026 11:37:42 GMT"
+    },
+    {
+        "title": "How a Federal Credit Union Validates Its Security Stack Against Real-World Threats with Picus",
+        "link": "https://www.picussecurity.com/resource/case-study/how-a-federal-credit-union-validates-its-security-stack-against-real-world-threats-with-picus",
+        "published": "Wed, 24 Jun 2026 08:35:19 GMT"
     }
 ]

@@ -4343,3 +4343,7 @@ clean_list:
 - CVE-2026-8461
 - vigil
 - CVE-2026-8461-EXP
+- rootpacket-cve-2026-31431
+- PoC_CVE-2025-32432
+- HTB-NanoCorp-CVE-2024-0670
+- CVE-2026-48908-SP-Page-Builder-Joomla
