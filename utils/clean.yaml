@@ -4337,3 +4337,5 @@ clean_list:
 - CVE-2026-21018
 - CVE-2026-40369
 - nginx-ui-CVE-2026-42221-CVE-2026-42238-
+- CVE-Wordpress
+- CVE-2026-45504
