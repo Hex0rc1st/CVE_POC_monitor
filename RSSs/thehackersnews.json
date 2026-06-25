@@ -4853,5 +4853,10 @@
         "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
         "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
         "published": "Wed, 24 Jun 2026 22:49:18 +0530"
+    },
+    {
+        "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+        "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+        "published": "Thu, 25 Jun 2026 11:16:54 +0530"
     }
 ]
