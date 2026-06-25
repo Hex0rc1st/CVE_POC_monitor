@@ -1343,5 +1343,15 @@
         "title": "Chrome Dev for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_0407803975.html",
         "published": "2026-06-25T08:58:32.571-07:00"
+    },
+    {
+        "title": "Long Term Support Channel Update for ChromeOS",
+        "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0509660942.html",
+        "published": "2026-06-25T14:11:43.320-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html",
+        "published": "2026-06-25T13:55:25.118-07:00"
     }
 ]
