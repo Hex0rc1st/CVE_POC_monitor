@@ -8,7 +8,7 @@
   "wxrss_static:奇安信 CERT": "奇安信cert::【已复现】Next.js 服务器端请求伪造漏洞(CVE-2026-44578)安全风险通告",
   "wxrss_static:微步在线研究响应中心": "微步在线研究响应中心::Shai-Hulud投毒竞赛开场，npm 639个版本被黑",
   "wxrss_static:长亭安全应急响应中心": "长亭安全应急响应中心::【已复现】Copy Fail 补丁失效——Linux 提权漏洞 Dirty Frag 紧急预警",
-  "doonsec:奇安信 CERT": "奇安信cert::安全热点周报：Oracle 缓解了 PeopleSoft 零日漏洞在数据窃取攻击中的利用",
+  "doonsec:奇安信 CERT": "奇安信cert::【已复现】Gogs 远程代码执行漏洞(CVE-2026-52813)安全风险通告",
   "bruce_picker:奇安信 CERT": "奇安信cert::安全热点周报：Fortinet 发布紧急补丁修复 FortiClient 零日漏洞",
   "bruce_picker:360漏洞研究院": "360漏洞研究院::【在野漏洞预警】Chrome浏览器沙箱逃逸漏洞（CVE-2026-5281）",
   "bruce_picker:微步在线研究响应中心": "微步在线研究响应中心::Nginx曝新漏洞，特定配置下可实现任意文件读写",

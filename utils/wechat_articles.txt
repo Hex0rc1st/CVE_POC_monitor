@@ -1723,3 +1723,5 @@ https://mp.weixin.qq.com/s/CibPYDSRuZfV1GQRo4kClw
 https://mp.weixin.qq.com/s/VmMBhvHaVHaf9g1WkkLvlw
 360漏洞研究院::邮件服务器预警：Exchange 多个 SSRF 漏洞利用细节已公开
 https://mp.weixin.qq.com/s/52YAM_DXiI9hE4eXddOVlw
+奇安信cert::【已复现】Gogs 远程代码执行漏洞(CVE-2026-52813)安全风险通告
+https://mp.weixin.qq.com/s/NZYzB9yYMUWKbkXkgzD9nA

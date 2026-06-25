@@ -4358,3 +4358,5 @@ clean_list:
 - CVE-2026-7574
 - pdf.js-CVE-2024-4367
 - Cisco-Unified-Communications-Manager-Server-Side-Forgery-Request-Vulnerability-CVE-2026-20230
+- CVE-2025-61155
+- CVE-2026-4253-Scanner
