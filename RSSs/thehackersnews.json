@@ -4858,5 +4858,15 @@
         "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
         "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
         "published": "Thu, 25 Jun 2026 11:16:54 +0530"
+    },
+    {
+        "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+        "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+        "published": "Thu, 25 Jun 2026 14:53:03 +0530"
+    },
+    {
+        "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+        "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+        "published": "Thu, 25 Jun 2026 14:24:37 +0530"
     }
 ]

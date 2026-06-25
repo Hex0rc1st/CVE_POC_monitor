@@ -183,3 +183,4 @@ https://github.com/typedefabcd1234ntd/CVE-2026-2002-poc
 https://github.com/hawktrace/CVE-2026-45504
 https://github.com/anyanything/CVE-2026-8461-PoC
 https://github.com/grizzzer/CVE-2026-42978-PoC-Research
+https://github.com/0xBlackash/CVE-2026-55200
