@@ -4903,5 +4903,30 @@
         "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
         "link": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
         "published": "Fri, 26 Jun 2026 14:57:12 +0530"
+    },
+    {
+        "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+        "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+        "published": "Fri, 26 Jun 2026 19:27:55 +0530"
+    },
+    {
+        "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+        "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+        "published": "Fri, 26 Jun 2026 19:23:00 +0530"
+    },
+    {
+        "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+        "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+        "published": "Fri, 26 Jun 2026 18:01:56 +0530"
+    },
+    {
+        "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+        "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+        "published": "Fri, 26 Jun 2026 17:21:35 +0530"
+    },
+    {
+        "title": "Guardian Agents: The Next Layer of Identity Governance",
+        "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+        "published": "Fri, 26 Jun 2026 17:00:00 +0530"
     }
 ]
