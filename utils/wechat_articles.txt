@@ -1725,3 +1725,5 @@ https://mp.weixin.qq.com/s/VmMBhvHaVHaf9g1WkkLvlw
 https://mp.weixin.qq.com/s/52YAM_DXiI9hE4eXddOVlw
 奇安信cert::【已复现】Gogs 远程代码执行漏洞(CVE-2026-52813)安全风险通告
 https://mp.weixin.qq.com/s/NZYzB9yYMUWKbkXkgzD9nA
+360漏洞研究院::Cisco CUCM SSRF 漏洞 PoC 公开后遭利用，可通过文件写入提权至 Root
+https://mp.weixin.qq.com/s/DddGHEw39sExURlFcOx9Sw

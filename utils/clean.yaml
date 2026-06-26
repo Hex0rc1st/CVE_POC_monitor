@@ -4360,3 +4360,5 @@ clean_list:
 - Cisco-Unified-Communications-Manager-Server-Side-Forgery-Request-Vulnerability-CVE-2026-20230
 - CVE-2025-61155
 - CVE-2026-4253-Scanner
+- dirtyclone-CVE-2026-43503
+- CVE-2026-35273-POC
