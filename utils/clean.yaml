@@ -4362,3 +4362,6 @@ clean_list:
 - CVE-2026-4253-Scanner
 - dirtyclone-CVE-2026-43503
 - CVE-2026-35273-POC
+- Amaranth-Project
+- CVE-2026-26980-Ghost-CMS-Api
+- CVE-2026-24207
