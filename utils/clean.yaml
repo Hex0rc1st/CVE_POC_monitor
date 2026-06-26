@@ -4365,3 +4365,6 @@ clean_list:
 - Amaranth-Project
 - CVE-2026-26980-Ghost-CMS-Api
 - CVE-2026-24207
+- CVE-2026-43503-DirtyClone
+- CVE-2026-44788
+- CVE-2026-54807
