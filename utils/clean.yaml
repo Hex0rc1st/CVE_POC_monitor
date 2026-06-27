@@ -4382,3 +4382,7 @@ clean_list:
 - By-Poloss..-..CVE-2026-12432-PoC
 - htb-orion-writeup
 - traefik-stripprefix-auth-bypass-cve-2026-48020-path-normalization
+- prefect-cve-2026-5366
+- CVE-2026-5366
+- CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN
+- pagecache-lpe-containment-kit
