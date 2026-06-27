@@ -187,3 +187,4 @@ https://github.com/0xBlackash/CVE-2026-55200
 https://github.com/mooder1/dirtyclone-CVE-2026-43503
 https://github.com/do4choo/CVE-2026-3227
 https://github.com/gagaltotal/CVE-2026-26980-Ghost-CMS-Api
+https://github.com/0xBlackash/CVE-2026-43503

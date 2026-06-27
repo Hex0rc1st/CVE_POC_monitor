@@ -4379,3 +4379,6 @@ clean_list:
 - masta-cve-2026-48907
 - CVE-2026-36834
 - CVE-2026-43499
+- By-Poloss..-..CVE-2026-12432-PoC
+- htb-orion-writeup
+- traefik-stripprefix-auth-bypass-cve-2026-48020-path-normalization
