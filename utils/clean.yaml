@@ -4390,3 +4390,4 @@ clean_list:
 - laravel-filemanager-unrestricted-upload
 - CVE-2025-69212-PoC
 - CVE-2026-41940-PoC
+- CVE-2026-27654
