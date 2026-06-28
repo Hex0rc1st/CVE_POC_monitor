@@ -4386,3 +4386,6 @@ clean_list:
 - CVE-2026-5366
 - CVE-2026-0073-Android-ADBD-bypass-POC_zh_CN
 - pagecache-lpe-containment-kit
+- DirtyClone
+- laravel-filemanager-unrestricted-upload
+- CVE-2025-69212-PoC
