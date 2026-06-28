@@ -4391,3 +4391,7 @@ clean_list:
 - CVE-2025-69212-PoC
 - CVE-2026-41940-PoC
 - CVE-2026-27654
+- CVE-2026-41179
+- CVE-2026-12485
+- dirtyclone-exploit
+- DevHub-HTB-Walkthrough
