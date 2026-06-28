@@ -4395,3 +4395,4 @@ clean_list:
 - CVE-2026-12485
 - dirtyclone-exploit
 - DevHub-HTB-Walkthrough
+- CVE-2026-38751
