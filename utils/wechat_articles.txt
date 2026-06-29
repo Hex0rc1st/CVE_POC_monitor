@@ -1727,3 +1727,5 @@ https://mp.weixin.qq.com/s/52YAM_DXiI9hE4eXddOVlw
 https://mp.weixin.qq.com/s/NZYzB9yYMUWKbkXkgzD9nA
 360漏洞研究院::Cisco CUCM SSRF 漏洞 PoC 公开后遭利用，可通过文件写入提权至 Root
 https://mp.weixin.qq.com/s/DddGHEw39sExURlFcOx9Sw
+奇安信cert::【已复现】Linux Kernel DirtyClone 本地权限提升漏洞(CVE-2026-43503)安全风险通告
+https://mp.weixin.qq.com/s/0GEooIwnalbuKWgpv9eIqw
