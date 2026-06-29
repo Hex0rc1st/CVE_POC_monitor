@@ -4953,5 +4953,35 @@
         "title": "Ukraine Says Russian Intelligence Used Fake Support Texts to Steal Messaging Credentials",
         "link": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html",
         "published": "Sat, 27 Jun 2026 22:57:11 +0530"
+    },
+    {
+        "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+        "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+        "published": "Mon, 29 Jun 2026 17:27:40 +0530"
+    },
+    {
+        "title": "Why Post-Quantum Cryptography Starts With Credentials",
+        "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
+        "published": "Mon, 29 Jun 2026 17:12:16 +0530"
+    },
+    {
+        "title": "Gamaredon Expands Ukraine Attacks with New Malware and Cloud Service Abuse",
+        "link": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html",
+        "published": "Mon, 29 Jun 2026 17:10:24 +0530"
+    },
+    {
+        "title": "Microsoft Removes 119 Edge Extensions That Hid Malware in Images and Fonts",
+        "link": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html",
+        "published": "Mon, 29 Jun 2026 14:02:31 +0530"
+    },
+    {
+        "title": "Public PoC Released for Critical libssh2 CVE-2026-55200 Client-Side SSH Flaw",
+        "link": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html",
+        "published": "Mon, 29 Jun 2026 12:36:34 +0530"
+    },
+    {
+        "title": "Hijacked npm and Go Packages Use VS Code Tasks to Deploy Python Infostealer",
+        "link": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html",
+        "published": "Mon, 29 Jun 2026 11:06:06 +0530"
     }
 ]
