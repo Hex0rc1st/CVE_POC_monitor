@@ -190,3 +190,4 @@ https://github.com/gagaltotal/CVE-2026-26980-Ghost-CMS-Api
 https://github.com/0xBlackash/CVE-2026-43503
 https://github.com/gh1mau/masta-cve-2026-48907
 https://github.com/aquace/CVE-2026-41940-PoC
+https://github.com/entra1337/DirtyClone

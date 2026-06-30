@@ -5023,5 +5023,15 @@
         "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
         "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
         "published": "Tue, 30 Jun 2026 10:34:06 +0530"
+    },
+    {
+        "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+        "link": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+        "published": "Tue, 30 Jun 2026 16:48:47 +0530"
+    },
+    {
+        "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
+        "link": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+        "published": "Tue, 30 Jun 2026 14:57:58 +0530"
     }
 ]

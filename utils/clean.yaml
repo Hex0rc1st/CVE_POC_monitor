@@ -4415,3 +4415,5 @@ clean_list:
 - CVE-2026-56121-Feast-Unauth-RCE
 - CVE-2026-10580
 - CVE-2026-XXXX-atlassian-graphql-gateway-auth-bypass
+- CVE-2025-45422---Bbox
+- CVE-2026-31694-POC
