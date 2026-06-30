@@ -4407,3 +4407,11 @@ clean_list:
 - CVE-2026-48907-
 - CVE-2026-43700
 - CVE-2026-44789-n8n-PrototypePollution-RCE
+- CVE-2026-46817
+- CVE-2026-8037
+- CVE-2026-XXXX-apollo-federation-entity-auth-bypass
+- CVE-2026-27626-PoC
+- CVE-2026-XXXX-silverpeak-webgms-9.5.6-exposed-admin
+- CVE-2026-56121-Feast-Unauth-RCE
+- CVE-2026-10580
+- CVE-2026-XXXX-atlassian-graphql-gateway-auth-bypass

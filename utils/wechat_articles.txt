@@ -1729,3 +1729,5 @@ https://mp.weixin.qq.com/s/NZYzB9yYMUWKbkXkgzD9nA
 https://mp.weixin.qq.com/s/DddGHEw39sExURlFcOx9Sw
 奇安信cert::【已复现】Linux Kernel DirtyClone 本地权限提升漏洞(CVE-2026-43503)安全风险通告
 https://mp.weixin.qq.com/s/0GEooIwnalbuKWgpv9eIqw
+微步在线研究响应中心::微步 XGPT 发现 Apple 内核漏洞并获致谢
+https://mp.weixin.qq.com/s/-pUahaI_I_0nG3XeYVFWTQ

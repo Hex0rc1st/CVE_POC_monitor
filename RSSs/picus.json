@@ -973,5 +973,10 @@
         "title": "SystemBC Malware: How the Coroxy Proxy Backdoor Targets Windows",
         "link": "https://www.picussecurity.com/resource/blog/systembc-malware-how-the-coroxy-proxy-backdoor-targets-windows",
         "published": "Mon, 29 Jun 2026 07:48:06 GMT"
+    },
+    {
+        "title": "FortiBleed: Inside the Campaign That Cracked 75,000 Fortinet Firewalls",
+        "link": "https://www.picussecurity.com/resource/blog/fortibleed-inside-the-campaign-that-cracked-75000-fortinet-firewalls",
+        "published": "Tue, 30 Jun 2026 07:15:00 GMT"
     }
 ]
