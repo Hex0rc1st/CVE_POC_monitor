@@ -4417,3 +4417,6 @@ clean_list:
 - CVE-2026-XXXX-atlassian-graphql-gateway-auth-bypass
 - CVE-2025-45422---Bbox
 - CVE-2026-31694-POC
+- CVE-2026-55255-Lab
+- CVE-2026-49869
+- cve-2026-46817_PoC

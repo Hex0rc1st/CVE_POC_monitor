@@ -983,5 +983,10 @@
         "title": "A Practical Guide to SAMA Cyber Resilience Fundamental Requirements (CRFR) Compliance Using Picus",
         "link": "https://www.picussecurity.com/resource/blog/a-practical-guide-to-sama-cyber-resilience-fundamental-requirements-crfr-compliance-using-picus",
         "published": "Tue, 30 Jun 2026 11:00:01 GMT"
+    },
+    {
+        "title": "Remcos RAT Analysis: How the Windows Remote Access Trojan Operates",
+        "link": "https://www.picussecurity.com/resource/blog/remcos-rat-analysis-how-the-windows-remote-access-trojan-operates",
+        "published": "Tue, 30 Jun 2026 13:00:00 GMT"
     }
 ]
