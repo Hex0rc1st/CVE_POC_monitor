@@ -5073,5 +5073,25 @@
         "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
         "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
         "published": "Wed, 01 Jul 2026 09:24:22 +0530"
+    },
+    {
+        "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+        "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+        "published": "Wed, 01 Jul 2026 12:50:51 +0530"
+    },
+    {
+        "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+        "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+        "published": "Wed, 01 Jul 2026 12:16:17 +0530"
+    },
+    {
+        "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+        "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+        "published": "Wed, 01 Jul 2026 11:16:03 +0530"
+    },
+    {
+        "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+        "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+        "published": "Wed, 01 Jul 2026 11:02:12 +0530"
     }
 ]

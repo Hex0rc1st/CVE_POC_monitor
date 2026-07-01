@@ -988,5 +988,10 @@
         "title": "Remcos RAT Analysis: How the Windows Remote Access Trojan Operates",
         "link": "https://www.picussecurity.com/resource/blog/remcos-rat-analysis-how-the-windows-remote-access-trojan-operates",
         "published": "Tue, 30 Jun 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Amadey Malware Explained: How the Windows Botnet Loader and RAT Work",
+        "link": "https://www.picussecurity.com/resource/blog/amadey-malware-explained-how-the-windows-botnet-loader-and-rat-work",
+        "published": "Wed, 01 Jul 2026 07:09:28 GMT"
     }
 ]
