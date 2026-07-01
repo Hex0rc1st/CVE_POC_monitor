@@ -192,3 +192,4 @@ https://github.com/gh1mau/masta-cve-2026-48907
 https://github.com/aquace/CVE-2026-41940-PoC
 https://github.com/entra1337/DirtyClone
 https://github.com/0xsha/CVE-2026-6307
+https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451
