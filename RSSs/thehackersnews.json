@@ -5128,5 +5128,25 @@
         "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
         "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
         "published": "Wed, 01 Jul 2026 18:29:19 +0530"
+    },
+    {
+        "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
+        "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
+        "published": "Thu, 02 Jul 2026 01:10:06 +0530"
+    },
+    {
+        "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
+        "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
+        "published": "Thu, 02 Jul 2026 00:58:07 +0530"
+    },
+    {
+        "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
+        "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
+        "published": "Wed, 01 Jul 2026 23:23:06 +0530"
+    },
+    {
+        "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
+        "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
+        "published": "Wed, 01 Jul 2026 22:48:50 +0530"
     }
 ]
