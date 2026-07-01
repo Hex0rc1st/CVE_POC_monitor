@@ -4426,3 +4426,8 @@ clean_list:
 - BobSentry
 - CVE-2026-43735
 - cve-2025-24054-lab
+- cve-2026-23111-poc
+- CVE-2026-56011-Lab
+- spryCVE-2026-10520
+- CVE-2026-6307
+- CVE-2026-53694-NoMachine-LPE

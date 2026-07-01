@@ -1438,5 +1438,10 @@
         "title": "GitLab Patch Release: 19.1.1, 19.0.3, 18.11.6",
         "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-1-1-released/",
         "published": "2026-06-24T00:00:00Z"
+    },
+    {
+        "title": "GitLab Patch Release: 18.8.11",
+        "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-18-8-11-released/",
+        "published": "2026-07-01T00:00:00Z"
     }
 ]
