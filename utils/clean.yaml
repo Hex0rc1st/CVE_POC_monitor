@@ -4424,3 +4424,5 @@ clean_list:
 - Incident-Response-Report-TeamCity-Compromise-CVE-2024-27198-
 - CVE-2026-51947-Advisory
 - BobSentry
+- CVE-2026-43735
+- cve-2025-24054-lab
