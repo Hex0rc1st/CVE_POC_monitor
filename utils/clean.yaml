@@ -4440,3 +4440,4 @@ clean_list:
 - CVE-2026-30784-rustdesk-poc
 - Linux-Kernel-Vulnerabilities-CVE-2026-23111
 - CVE-2026-12166_CVE-2026-12167_CVE-2026-12168
+- Vulnerability-scanner
