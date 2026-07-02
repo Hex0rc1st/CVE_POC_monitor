@@ -5158,5 +5158,15 @@
         "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
         "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
         "published": "Thu, 02 Jul 2026 11:16:45 +0530"
+    },
+    {
+        "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
+        "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
+        "published": "Thu, 02 Jul 2026 14:43:13 +0530"
+    },
+    {
+        "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
+        "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
+        "published": "Thu, 02 Jul 2026 13:30:49 +0530"
     }
 ]
