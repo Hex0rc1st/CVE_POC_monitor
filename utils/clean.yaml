@@ -4435,3 +4435,6 @@ clean_list:
 - Netscaler-CVE-2026-8451
 - CVE-2026-20896
 - CVE-2026-52813
+- llama-factory-webui-rce-cve-2026-58116-trust-remote-code-model-path-injection
+- CVE-2026-XXXX-atlassian-email-enumeration
+- CVE-2026-30784-rustdesk-poc

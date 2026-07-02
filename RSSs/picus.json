@@ -993,5 +993,10 @@
         "title": "Amadey Malware Explained: How the Windows Botnet Loader and RAT Work",
         "link": "https://www.picussecurity.com/resource/blog/amadey-malware-explained-how-the-windows-botnet-loader-and-rat-work",
         "published": "Wed, 01 Jul 2026 07:09:28 GMT"
+    },
+    {
+        "title": "Is Automated Penetration Testing Safe to Run in Production?",
+        "link": "https://www.picussecurity.com/resource/blog/is-automated-penetration-testing-safe-to-run-in-production",
+        "published": "Thu, 02 Jul 2026 07:15:01 GMT"
     }
 ]

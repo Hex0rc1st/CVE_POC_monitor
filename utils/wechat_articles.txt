@@ -1731,3 +1731,5 @@ https://mp.weixin.qq.com/s/DddGHEw39sExURlFcOx9Sw
 https://mp.weixin.qq.com/s/0GEooIwnalbuKWgpv9eIqw
 微步在线研究响应中心::微步 XGPT 发现 Apple 内核漏洞并获致谢
 https://mp.weixin.qq.com/s/-pUahaI_I_0nG3XeYVFWTQ
+微步在线研究响应中心::libseccomp 修复数个漏洞，可导致绕过seccomp限制
+https://mp.weixin.qq.com/s/J5V7q5ZUsjfCVe9ziwVg9Q

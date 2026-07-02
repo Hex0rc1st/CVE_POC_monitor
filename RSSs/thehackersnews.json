@@ -5148,5 +5148,15 @@
         "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
         "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
         "published": "Wed, 01 Jul 2026 22:48:50 +0530"
+    },
+    {
+        "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
+        "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
+        "published": "Thu, 02 Jul 2026 12:54:23 +0530"
+    },
+    {
+        "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
+        "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
+        "published": "Thu, 02 Jul 2026 11:16:45 +0530"
     }
 ]
