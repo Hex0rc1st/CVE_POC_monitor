@@ -4448,3 +4448,4 @@ clean_list:
 - opensource_defect_repair_cc
 - CVE-2026-49468-LiteLLM-Auth-Bypass
 - CVE-2026-11387
+- CVE-2025-69212_PoC

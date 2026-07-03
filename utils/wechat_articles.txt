@@ -1739,3 +1739,5 @@ https://mp.weixin.qq.com/s/0mQcoUGa_IL4s6D_eJMVww
 https://mp.weixin.qq.com/s/ikzBT0BpPap4weQnDKCsKg
 奇安信cert::【已复现】Adobe ColdFusion 路径穿越漏洞(CVE-2026-48282)安全风险通告
 https://mp.weixin.qq.com/s/ajj-jgIxb9QIViikNIK9Hw
+360漏洞研究院::7月20日！360 AI漏洞挖掘智能体 “图龙锋” 开放试用
+https://mp.weixin.qq.com/s/oeahD6nzVswsVH83dFE3Sw
