@@ -5213,5 +5213,15 @@
         "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
         "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
         "published": "Fri, 03 Jul 2026 21:37:15 +0530"
+    },
+    {
+        "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+        "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+        "published": "Sat, 04 Jul 2026 01:10:01 +0530"
+    },
+    {
+        "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+        "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+        "published": "Sat, 04 Jul 2026 00:25:24 +0530"
     }
 ]
