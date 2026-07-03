@@ -1733,3 +1733,5 @@ https://mp.weixin.qq.com/s/0GEooIwnalbuKWgpv9eIqw
 https://mp.weixin.qq.com/s/-pUahaI_I_0nG3XeYVFWTQ
 微步在线研究响应中心::libseccomp 修复数个漏洞，可导致绕过seccomp限制
 https://mp.weixin.qq.com/s/J5V7q5ZUsjfCVe9ziwVg9Q
+360漏洞研究院::Adobe ColdFusion 多个漏洞细节已公开，可导致远程代码执行
+https://mp.weixin.qq.com/s/0mQcoUGa_IL4s6D_eJMVww
