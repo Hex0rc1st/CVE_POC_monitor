@@ -998,5 +998,15 @@
         "title": "Is Automated Penetration Testing Safe to Run in Production?",
         "link": "https://www.picussecurity.com/resource/blog/is-automated-penetration-testing-safe-to-run-in-production",
         "published": "Thu, 02 Jul 2026 07:15:01 GMT"
+    },
+    {
+        "title": "Who Uses Automated Penetration Testing?",
+        "link": "https://www.picussecurity.com/resource/blog/who-uses-automated-penetration-testing",
+        "published": "Fri, 03 Jul 2026 07:30:01 GMT"
+    },
+    {
+        "title": "CVE-2026-35273: Oracle PeopleSoft RCE Zero-Day Explained",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-35273-oracle-peoplesoft-rce-zero-day-explained",
+        "published": "Fri, 03 Jul 2026 06:33:01 GMT"
     }
 ]
