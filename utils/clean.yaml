@@ -4451,3 +4451,5 @@ clean_list:
 - CVE-2025-69212_PoC
 - pbck-exploit
 - CVE-2026-5524-PoC
+- CVE-2026-34038
+- CVE-2024-21413-Outlook-Assessment
