@@ -4453,3 +4453,6 @@ clean_list:
 - CVE-2026-5524-PoC
 - CVE-2026-34038
 - CVE-2024-21413-Outlook-Assessment
+- mitigate-cve-2026-23869-react-server-component-loops
+- mcp-guard
+- apache-activemq-rce-research
