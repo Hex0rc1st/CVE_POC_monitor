@@ -4458,3 +4458,4 @@ clean_list:
 - apache-activemq-rce-research
 - snortrule_2026
 - CVE-2026-54415-PoC
+- CVE-2026-53360-POC
