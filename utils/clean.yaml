@@ -4449,3 +4449,5 @@ clean_list:
 - CVE-2026-49468-LiteLLM-Auth-Bypass
 - CVE-2026-11387
 - CVE-2025-69212_PoC
+- pbck-exploit
+- CVE-2026-5524-PoC

@@ -863,5 +863,10 @@
         "title": "Formalizing Red Teaming Offensive Methodology as a Multi-Agent AI Architecture",
         "link": "https://www.rapid7.com/blog/post/so-red-teaming-offensive-methodology-multi-agent-ai-architecture",
         "published": "Thu, 02 Jul 2026 13:32:24 GMT"
+    },
+    {
+        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026/",
+        "published": "Fri, 03 Jul 2026 22:11:22 GMT"
     }
 ]
