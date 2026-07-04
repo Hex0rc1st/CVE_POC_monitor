@@ -4456,3 +4456,5 @@ clean_list:
 - mitigate-cve-2026-23869-react-server-component-loops
 - mcp-guard
 - apache-activemq-rce-research
+- snortrule_2026
+- CVE-2026-54415-PoC
