@@ -5283,5 +5283,10 @@
         "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
         "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
         "published": "Mon, 06 Jul 2026 21:58:59 +0530"
+    },
+    {
+        "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+        "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+        "published": "Tue, 07 Jul 2026 00:04:26 +0530"
     }
 ]
