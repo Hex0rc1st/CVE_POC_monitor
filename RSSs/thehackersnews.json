@@ -5273,5 +5273,15 @@
         "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
         "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
         "published": "Mon, 06 Jul 2026 18:31:14 +0530"
+    },
+    {
+        "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+        "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+        "published": "Mon, 06 Jul 2026 23:07:01 +0530"
+    },
+    {
+        "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+        "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+        "published": "Mon, 06 Jul 2026 21:58:59 +0530"
     }
 ]
