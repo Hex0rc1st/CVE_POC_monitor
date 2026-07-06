@@ -4465,3 +4465,5 @@ clean_list:
 - CVE-2025-59382-QNAP-Password-Reset-Account-Takeover
 - asdsadsadasdasdsadsad
 - CVE-2026-10104-POC
+- CVE-2026-0920
+- CVE-2026-25555

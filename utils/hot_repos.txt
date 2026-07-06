@@ -196,3 +196,4 @@ https://github.com/watchtowrlabs/watchTowr-vs-Netscaler-CVE-2026-8451
 https://github.com/J4ck3LSyN-Gen2/CVE-2026-6307-Longinus
 https://github.com/huynambka/cve-2026-26114-poc
 https://github.com/dinosn/apache-activemq-rce-research
+https://github.com/0xBlackash/CVE-2026-46242
