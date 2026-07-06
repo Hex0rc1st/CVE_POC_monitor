@@ -4468,3 +4468,9 @@ clean_list:
 - CVE-2026-0920
 - CVE-2026-25555
 - Linux-Kernel-Copy-Fail-CVE-2026-31431-
+- CVE-2026-33453
+- HTB-Abducted-Writeup
+- chimera
+- cve-2026-49352-poc
+- CVE-2026-27172
+- CVE-2026-33454
