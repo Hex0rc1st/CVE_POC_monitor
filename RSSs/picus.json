@@ -1008,5 +1008,10 @@
         "title": "CVE-2026-35273: Oracle PeopleSoft RCE Zero-Day Explained",
         "link": "https://www.picussecurity.com/resource/blog/cve-2026-35273-oracle-peoplesoft-rce-zero-day-explained",
         "published": "Fri, 03 Jul 2026 06:33:01 GMT"
+    },
+    {
+        "title": "How The Gentlemen Ransomware Spreads and Encrypts Entire Networks",
+        "link": "https://www.picussecurity.com/resource/blog/how-the-gentlemen-ransomware-spreads-and-encrypts-entire-networks",
+        "published": "Mon, 06 Jul 2026 06:35:00 GMT"
     }
 ]
