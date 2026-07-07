@@ -5308,5 +5308,20 @@
         "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
         "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
         "published": "Tue, 07 Jul 2026 14:40:51 +0530"
+    },
+    {
+        "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+        "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+        "published": "Tue, 07 Jul 2026 19:34:50 +0530"
+    },
+    {
+        "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+        "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+        "published": "Tue, 07 Jul 2026 18:57:20 +0530"
+    },
+    {
+        "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+        "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+        "published": "Tue, 07 Jul 2026 18:57:09 +0530"
     }
 ]

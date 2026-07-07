@@ -1749,3 +1749,6 @@ http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493232&idx=1&sn=af7a21a
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493232&idx=1&sn=af7a21ab113b9f220345289c75ef5b3c
 360漏洞研究院::【已复现】Linux FUSE page cache 越界写本地提权漏洞
 https://mp.weixin.qq.com/s/8z3EhwgnTyTj6Hkq8dDNCQ
+奇安信cert::【已复现】Linux FUSE page cache 本地权限提升漏洞(CVE-2026-31694)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506544&idx=1&sn=42b3e199efc8c80fa8238ce6e03b1b26&chksm=ff293a412daab1ae8497c1c68783767e318a8c1742cbed450b1d343707c6019ce0442fab95b2&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506544&idx=1&sn=42b3e199efc8c80fa8238ce6e03b1b26

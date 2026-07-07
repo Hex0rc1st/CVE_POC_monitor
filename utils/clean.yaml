@@ -4484,3 +4484,8 @@ clean_list:
 - SourceCodester-Class-and-Exam-Timetabling-System-1.0-CVE-2026-
 - Januscape-Hotfix
 - CVE-2026-14191
+- RedTeamBrasil-CVE-2025-64459
+- CVE-2026-39492
+- CVE-2026-14762-PoC-Exploit
+- CVE-2026-48611-phpBB
+- dasel-cve-exercise
