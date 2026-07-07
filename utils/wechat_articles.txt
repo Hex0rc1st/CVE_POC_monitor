@@ -1741,3 +1741,11 @@ https://mp.weixin.qq.com/s/ikzBT0BpPap4weQnDKCsKg
 https://mp.weixin.qq.com/s/ajj-jgIxb9QIViikNIK9Hw
 360漏洞研究院::7月20日！360 AI漏洞挖掘智能体 “图龙锋” 开放试用
 https://mp.weixin.qq.com/s/oeahD6nzVswsVH83dFE3Sw
+微步在线研究响应中心::原创漏洞 | NGINX堆缓冲区溢出漏洞
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508753&idx=1&sn=b5ee55949e117ad9e73d583f957368c4&chksm=ce7ed3233037659948d6e0f8f5c4e6a2851c603e506048f638007cc91399fa960b869125f3cb&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508753&idx=1&sn=b5ee55949e117ad9e73d583f957368c4
+长亭安全应急响应中心::【已复现】Gogs 组织名称路径遍历导致 Git hooks 远程代码执行漏洞（CVE-2026-52813）
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493232&idx=1&sn=af7a21ab113b9f220345289c75ef5b3c&chksm=97b305f4c48a6608ea5adc391aafa7d2f5eddafd8c1b71831ff24314be19b1041ba549816d58&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493232&idx=1&sn=af7a21ab113b9f220345289c75ef5b3c
+360漏洞研究院::【已复现】Linux FUSE page cache 越界写本地提权漏洞
+https://mp.weixin.qq.com/s/8z3EhwgnTyTj6Hkq8dDNCQ

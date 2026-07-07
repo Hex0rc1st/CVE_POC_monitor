@@ -873,5 +873,10 @@
         "title": "A Day With Your Vector Command Red Team Pod",
         "link": "https://www.rapid7.com/blog/post/so-ditl-day-with-your-vector-command-red-team-pod",
         "published": "Mon, 06 Jul 2026 14:26:46 GMT"
+    },
+    {
+        "title": "Weekly Metasploit Update: Modules for SMB-to-Meterpreter, Peyara Remote Mouse RCE exploit, and more",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-07-03-2026",
+        "published": "Fri, 03 Jul 2026 22:11:22 GMT"
     }
 ]
