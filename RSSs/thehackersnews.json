@@ -5288,5 +5288,15 @@
         "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
         "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
         "published": "Tue, 07 Jul 2026 00:04:26 +0530"
+    },
+    {
+        "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+        "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+        "published": "Tue, 07 Jul 2026 12:10:47 +0530"
+    },
+    {
+        "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+        "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+        "published": "Tue, 07 Jul 2026 10:46:51 +0530"
     }
 ]
