@@ -4474,3 +4474,8 @@ clean_list:
 - cve-2026-49352-poc
 - CVE-2026-27172
 - CVE-2026-33454
+- CVE-2026-53359
+- CVE-2026-54350-Budibase-NoSQL-Injection
+- cve-2026-25262-sm8450-research
+- W_RENAQETANA
+- CVE-2026-42980-POC
