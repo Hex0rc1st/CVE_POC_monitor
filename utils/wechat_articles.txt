@@ -1752,3 +1752,9 @@ https://mp.weixin.qq.com/s/8z3EhwgnTyTj6Hkq8dDNCQ
 奇安信cert::【已复现】Linux FUSE page cache 本地权限提升漏洞(CVE-2026-31694)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506544&idx=1&sn=42b3e199efc8c80fa8238ce6e03b1b26&chksm=ff293a412daab1ae8497c1c68783767e318a8c1742cbed450b1d343707c6019ce0442fab95b2&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506544&idx=1&sn=42b3e199efc8c80fa8238ce6e03b1b26
+360漏洞研究院::【高危预警】XWiki Platform /skin/ 端点路径穿越漏洞（CVE-2026-34151）
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497627&idx=2&sn=187fd1230f33d7afa881bd9536a28834&chksm=c2f426f20d212a702b093bc501b307886a1ed7e1738861459eccf0a254dceed9ee43ffe38136&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497627&idx=2&sn=187fd1230f33d7afa881bd9536a28834
+360漏洞研究院::用友 U8cloud 系统全版本 XChangeServlet 接口存在 SQL 注入漏洞可导致 RCE
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497627&idx=1&sn=8aa92da184a945bd74d0c924306960b8&chksm=c2e59f152ec425525d4f94f329d645f3a9580f6344a0f5c8616cc5acacd52ba38083957621c8&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497627&idx=1&sn=8aa92da184a945bd74d0c924306960b8
