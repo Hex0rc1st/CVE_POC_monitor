@@ -1758,3 +1758,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497627&idx=2&sn=18
 360漏洞研究院::用友 U8cloud 系统全版本 XChangeServlet 接口存在 SQL 注入漏洞可导致 RCE
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497627&idx=1&sn=8aa92da184a945bd74d0c924306960b8&chksm=c2e59f152ec425525d4f94f329d645f3a9580f6344a0f5c8616cc5acacd52ba38083957621c8&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497627&idx=1&sn=8aa92da184a945bd74d0c924306960b8
+奇安信cert::【已复现】XWiki Platform 路径遍历漏洞(CVE-2026-34151)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506557&idx=1&sn=d7eb5aede839ae98a836d43c69b5e28d&chksm=ff0490e17595d42afb95ed1b41305ae428b3283b89c8a962ddf0f3c1dd963104207a19459ba9&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506557&idx=1&sn=d7eb5aede839ae98a836d43c69b5e28d
