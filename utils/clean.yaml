@@ -4503,3 +4503,4 @@ clean_list:
 - CVE-2026-40047
 - CVE-2026-35204
 - mcp-doorman
+- tetragon-dirtyfrag
