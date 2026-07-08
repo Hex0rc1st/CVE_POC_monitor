@@ -733,5 +733,75 @@
         "title": "CVE-2026-0266 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0266",
         "published": "2026-06-10T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0282 PAN-OS: File Deletion Vulnerability in Management Web Interface (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0282",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0287 PAN-OS: Denial of Service Vulnerabilities in Network Traffic Processing (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0287",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0277  Prisma Access Agent: Improper Certificate Validation on iOS (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0277",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0281 PAN-OS: Information Disclosure Vulnerability in Management Web Interface (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0281",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0278 Prisma Access Agent: Multiple DLP Policy Bypass Vulnerabilities on Windows (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0278",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0279 PAN-OS: Multiple Cross-Site Scripting (XSS) Vulnerabilities  (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0279",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0283 PAN-OS: Authentication Bypass Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0283",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0288 PAN-OS: Buffer Overflow Vulnerabilities in User-ID Terminal Server Agent (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0288",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0276 Cortex XDR Broker VM: Privilege Escalation (PE) Vulnerability (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0276",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0285 PAN-OS: Server-Side Request Forgery Vulnerability in Management Web Interface (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0285",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0280 PAN-OS: IPv6 Firewall Policy Bypass (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0280",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0010 Chromium and Prisma Browser: Monthly Vulnerability Update (July 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0010",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0286 PAN-OS: Authenticated Command Injection in CLI (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0286",
+        "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
+        "published": "2026-07-08T16:00:00.000Z"
     }
 ]
