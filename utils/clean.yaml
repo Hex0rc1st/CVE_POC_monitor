@@ -4489,3 +4489,8 @@ clean_list:
 - CVE-2026-14762-PoC-Exploit
 - CVE-2026-48611-phpBB
 - dasel-cve-exercise
+- CVE-2026-0257-GlobalProtect-Bypass
+- CVE-2026-8206-Kirki-WP
+- ScannerBadEpoll
+- cve-2024-7254-app-lab
+- CVE-2026-49777-WooCommerce-RCE
