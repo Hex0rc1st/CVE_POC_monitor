@@ -4494,3 +4494,6 @@ clean_list:
 - ScannerBadEpoll
 - cve-2024-7254-app-lab
 - CVE-2026-49777-WooCommerce-RCE
+- CVE-2024-33452
+- 2026LiFedCVESA
+- CVE-2026-56290
