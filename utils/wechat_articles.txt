@@ -1764,3 +1764,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506557&idx=1&sn=d7
 360漏洞研究院::【已复现】隐藏15年的 Linux Kernel 提权漏洞 GhostLock（CVE-2026-43499）
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013&chksm=c2ada4f554357327cd977666ea3cdb793dba1dfe4464d451b59879249bab415bb19e9401cd18&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013
+奇安信cert::【已复现】用友U8cloud XChangeServlet SQL注入漏洞(QVD-2026-38848)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506571&idx=1&sn=c291af83bbb50b32b4cefb969edf12c5&chksm=ff6df9dc176102d7e121bdb6d5d40f88dc6bf0b00e73d7dda5ca3b5c3f1f8a0a1425a0021d22&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506571&idx=1&sn=c291af83bbb50b32b4cefb969edf12c5

@@ -4515,3 +4515,6 @@ clean_list:
 - CVE-2026-40473
 - -linx-server-vulnerability-report
 - CVE-2026-43503
+- wtf-audit-trail
+- CVE-2026-8037-POC
+- ccs-demo
