@@ -4511,3 +4511,7 @@ clean_list:
 - CVE-2026-50181
 - CVE-2026-50131
 - CVE-2026-43499-armv7
+- CVE-Mikrotik-2026
+- CVE-2026-40473
+- -linx-server-vulnerability-report
+- CVE-2026-43503
