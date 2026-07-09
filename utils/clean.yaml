@@ -4504,3 +4504,10 @@ clean_list:
 - CVE-2026-35204
 - mcp-doorman
 - tetragon-dirtyfrag
+- CVE-2026-53571
+- Ubiquiti-CVE
+- CVE-2026-54519
+- CVE-2026-54520
+- CVE-2026-50181
+- CVE-2026-50131
+- CVE-2026-43499-armv7

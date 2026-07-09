@@ -1761,3 +1761,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497627&idx=1&sn=8a
 奇安信cert::【已复现】XWiki Platform 路径遍历漏洞(CVE-2026-34151)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506557&idx=1&sn=d7eb5aede839ae98a836d43c69b5e28d&chksm=ff0490e17595d42afb95ed1b41305ae428b3283b89c8a962ddf0f3c1dd963104207a19459ba9&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506557&idx=1&sn=d7eb5aede839ae98a836d43c69b5e28d
+360漏洞研究院::【已复现】隐藏15年的 Linux Kernel 提权漏洞 GhostLock（CVE-2026-43499）
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013&chksm=c2ada4f554357327cd977666ea3cdb793dba1dfe4464d451b59879249bab415bb19e9401cd18&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013
