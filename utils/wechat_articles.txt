@@ -1770,3 +1770,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506571&idx=1&sn=c2
 360漏洞研究院::【已复现】安卓16/17 Firefox 一键式远程 root 利用链被公开
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497648&idx=1&sn=2f63f556e31db880443d4ad4ca2c2154&chksm=c27633b52d568d57c0404a124810517458dd02d4130835c4ea4eb6ef444c065462284d671b2a&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497648&idx=1&sn=2f63f556e31db880443d4ad4ca2c2154
+奇安信cert::安全热点周报：Adobe ColdFusion 曝高危漏洞，披露后两小时内即遭利用
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506579&idx=1&sn=91e99060ffe9719d45562a11733bdd78&chksm=ff9f9a26e5c98c19e83591b576f494cf703dd57c3bbcbb0bea0e21399f680c84a9fdbdff31ed&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506579&idx=1&sn=91e99060ffe9719d45562a11733bdd78

@@ -4525,3 +4525,9 @@ clean_list:
 - reactorwatch-pentest
 - CVE-2026-50979
 - CVE-2026-50980
+- CVE-2026-54390
+- CVE-2026-40860
+- CVE-2025-20720
+- CVE-2026-49049
+- CVE-2026-40859
+- openclaw-hardening-check
