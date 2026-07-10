@@ -4521,3 +4521,7 @@ clean_list:
 - ghostlink-writeup
 - CVE-2026-56423-MISP-deleteSelection-BrokenAccessControl
 - CVE-2026-43499-pja110
+- CVE-2026-40858
+- reactorwatch-pentest
+- CVE-2026-50979
+- CVE-2026-50980
