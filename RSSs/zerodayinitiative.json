@@ -198,5 +198,10 @@
         "title": "The June 2026 Apple Security Update Review",
         "link": "https://www.thezdi.com/blog/2026/6/30/the-june-2026-apple-security-update-review",
         "published": "Wed, 01 Jul 2026 15:03:53 +0000"
+    },
+    {
+        "title": "CVE-2026-47291: Remote Code Execution in the Windows HTTP.sys",
+        "link": "https://www.thezdi.com/blog/2026/7/9/cve-2026-47291-remote-code-execution-in-the-windows-httpsys",
+        "published": "Fri, 10 Jul 2026 14:00:00 +0000"
     }
 ]

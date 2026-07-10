@@ -4531,3 +4531,4 @@ clean_list:
 - CVE-2026-49049
 - CVE-2026-40859
 - openclaw-hardening-check
+- cve-2026-9558-poc

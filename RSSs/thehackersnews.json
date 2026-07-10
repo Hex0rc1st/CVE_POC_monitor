@@ -5463,5 +5463,40 @@
         "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
         "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
         "published": "Fri, 10 Jul 2026 13:40:12 +0530"
+    },
+    {
+        "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+        "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+        "published": "Fri, 10 Jul 2026 19:49:50 +0530"
+    },
+    {
+        "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+        "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+        "published": "Fri, 10 Jul 2026 18:45:23 +0530"
+    },
+    {
+        "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+        "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+        "published": "Fri, 10 Jul 2026 17:17:43 +0530"
+    },
+    {
+        "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+        "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+        "published": "Fri, 10 Jul 2026 17:09:40 +0530"
+    },
+    {
+        "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+        "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+        "published": "Fri, 10 Jul 2026 17:00:02 +0530"
+    },
+    {
+        "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+        "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+        "published": "Fri, 10 Jul 2026 16:26:23 +0530"
+    },
+    {
+        "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+        "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+        "published": "Fri, 10 Jul 2026 16:00:20 +0530"
     }
 ]
