@@ -202,3 +202,6 @@ https://github.com/J4ck3LSyN-Gen2/CVE-2026-39047
 https://github.com/Ymsniper/Whisper_Bully
 https://github.com/imbas007/CVE-2026-48282
 https://github.com/szybnev/cve-2026-20896-gitea-poc
+https://github.com/yellow-key/yellowkey-bitlocker
+https://github.com/pubglite55/oppo-ghostlock
+https://github.com/0xBlackash/CVE-2026-43499

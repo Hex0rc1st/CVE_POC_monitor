@@ -1767,3 +1767,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497639&idx=1&sn=83
 奇安信cert::【已复现】用友U8cloud XChangeServlet SQL注入漏洞(QVD-2026-38848)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506571&idx=1&sn=c291af83bbb50b32b4cefb969edf12c5&chksm=ff6df9dc176102d7e121bdb6d5d40f88dc6bf0b00e73d7dda5ca3b5c3f1f8a0a1425a0021d22&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506571&idx=1&sn=c291af83bbb50b32b4cefb969edf12c5
+360漏洞研究院::【已复现】安卓16/17 Firefox 一键式远程 root 利用链被公开
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497648&idx=1&sn=2f63f556e31db880443d4ad4ca2c2154&chksm=c27633b52d568d57c0404a124810517458dd02d4130835c4ea4eb6ef444c065462284d671b2a&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497648&idx=1&sn=2f63f556e31db880443d4ad4ca2c2154

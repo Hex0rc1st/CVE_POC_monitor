@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】安卓16/17 Firefox 一键式远程 root 利用链被公开",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-07-10",
+  "table_fields": {
+    "漏洞名称": "Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞",
+    "漏洞编号": "CVE-2026-10702",
+    "公开时间": "2026-06-02",
+    "POC状态": "已公开",
+    "漏洞类型": "代码执行",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "7.5",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-07-10 11:30 Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞（CVE-2026-10702，CVSS 7.5）已公开完整利用细节，攻击者可通过诱导用户访问恶意网页，在 Firefox 浏览器进程中触发内存破坏，进而实现远程代码执行。 **利用前置条件：** - 攻击者需要诱导目标用户访问包含恶意 JavaScript 的网页。 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围** 受影响的软件版本： Firefox 151.0.3 之前的所有版本 **修复建议** **正式防护方案** 立即更新至 Firefox 151.0.3 及更高版本 **漏洞描述** 近日，安全研究员公开了 Firefox JavaScript 引擎 SpiderMonkey 中存在的 JIT 编译优化缺陷漏洞（CVE-2026-10702）。该漏洞源于 JIT 优化过程中对 JavaScript 对象类型状态校验不足，攻击者可通过构造特殊 JavaScript 代码诱导引擎生成错误优化结果，导致类型混淆问题。 攻击者利用该缺陷可使 JavaScript 引擎错误解析对象内存结构，进一步构造任意地址读写能力，泄露关键内存信息并绕过 ASLR 等安全防护机制，最终在 Firefox 浏览器进程中实现代码执行。 在完整攻击链中，CVE-2026-10702 作为浏览器入口漏洞，用于突破 Firefox 内容进程限制获取用户态执行权限；随后结合[【已复现】隐藏15年的 Linux Kernel 提权漏洞 GhostLock（CVE-2026-43499）](https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013&scene=21#wechat_redirect) 中的 stack-UAF 内存安全缺陷，实现浏览器沙箱逃逸和内核权限提升，最终获取 ROOT 权限。 **漏洞复现** 安全研究团队已成功复现 CVE-2026-10702 结合 GhostLock（CVE-2026-43499）的完整攻击链。 复现过程中，攻击者首先构造恶意 JavaScript 页面，通过 Firefox JIT 编译漏洞触发浏览器进程代码执行。随后利用浏览器进程权限调用 Linux 内核相关攻击路径，结合 GhostLock 漏洞触发内核权限提升，实现从浏览器用户态到内核态的权限突破。 CVE-2026-10702 Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞复现 **时间线** 2026年7月10日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 立即更新至 Firefox 151.0.3 及更高版本",
+    "component_text": "",
+    "vulnerability_text": "近日，安全研究员公开了 Firefox JavaScript 引擎 SpiderMonkey 中存在的 JIT 编译优化缺陷漏洞（CVE-2026-10702）。该漏洞源于 JIT 优化过程中对 JavaScript 对象类型状态校验不足，攻击者可通过构造特殊 JavaScript 代码诱导引擎生成错误优化结果，导致类型混淆问题。 攻击者利用该缺陷可使 JavaScript 引擎错误解析对象内存结构，进一步构造任意地址读写能力，泄露关键内存信息并绕过 ASLR 等安全防护机制，最终在 Firefox 浏览器进程中实现代码执行。 在完整攻击链中，CVE-2026-10702 作为浏览器入口漏洞，用于突破 Firefox 内容进程限制获取用户态执行权限；随后结合[【已复现】隐藏15年的 Linux Kernel 提权漏洞 GhostLock（CVE-2026-43499）](https://mp.weixin.qq.com/s? biz=Mzk0ODM3NTU5MA==&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013&scene=21#wechat_redirect) 中的 stack-UAF 内存安全缺陷，实现浏览器沙箱逃逸和内核权限提升，最终获取 ROOT 权限。 漏洞复现 安全研究团队已成功复现 CVE-2026-10702 结合 GhostLock（CVE-2026-43499）的完整攻击链。 复现过程中，攻击者首先构造恶意 JavaScript 页面，通过 Firefox JIT 编译漏洞触发浏览器进程代码执行。随后利用浏览器进程权限调用 Linux 内核相关攻击路径，结合 GhostLock 漏洞触发内核权限提升，实现从浏览器用户态到内核态的权限突破。 CVE-2026-10702 Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞复现",
+    "affected_versions_text": "Firefox 151.0.3 之前的所有版本",
+    "plain_text": "安全研究团队 安全研究团队 2026-07-10 11:30 Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞（CVE-2026-10702，CVSS 7.5）已公开完整利用细节，攻击者可通过诱导用户访问恶意网页，在 Firefox 浏览器进程中触发内存破坏，进而实现远程代码执行。 **利用前置条件：** - 攻击者需要诱导目标用户访问包含恶意 JavaScript 的网页。 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围** 受影响的软件版本： Firefox 151.0.3 之前的所有版本 **02** **修复建议** **正式防护方案** 立即更新至 Firefox 151.0.3 及更高版本 **03** **漏洞描述** 近日，安全研究员公开了 Firefox JavaScript 引擎 SpiderMonkey 中存在的 JIT 编译优化缺陷漏洞（CVE-2026-10702）。该漏洞源于 JIT 优化过程中对 JavaScript 对象类型状态校验不足，攻击者可通过构造特殊 JavaScript 代码诱导引擎生成错误优化结果，导致类型混淆问题。 攻击者利用该缺陷可使 JavaScript 引擎错误解析对象内存结构，进一步构造任意地址读写能力，泄露关键内存信息并绕过 ASLR 等安全防护机制，最终在 Firefox 浏览器进程中实现代码执行。 在完整攻击链中，CVE-2026-10702 作为浏览器入口漏洞，用于突破 Firefox 内容进程限制获取用户态执行权限；随后结合[【已复现】隐藏15年的 Linux Kernel 提权漏洞 GhostLock（CVE-2026-43499）](https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497639&idx=1&sn=83a8c8294bef3eb172241998da5c4013&scene=21#wechat_redirect) 中的 stack-UAF 内存安全缺陷，实现浏览器沙箱逃逸和内核权限提升，最终获取 ROOT 权限。 **04** **漏洞复现** 安全研究团队已成功复现 CVE-2026-10702 结合 GhostLock（CVE-2026-43499）的完整攻击链。 复现过程中，攻击者首先构造恶意 JavaScript 页面，通过 Firefox JIT 编译漏洞触发浏览器进程代码执行。随后利用浏览器进程权限调用 Linux 内核相关攻击路径，结合 GhostLock 漏洞触发内核权限提升，实现从浏览器用户态到内核态的权限突破。 CVE-2026-10702 Firefox JavaScript 引擎 JIT 编译优化缺陷漏洞复现 **05** **时间线** 2026年7月10日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://nvd.nist.gov/vuln/detail/CVE-2026-10702 07 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://nvd.nist.gov/vuln/detail/CVE-2026-10702"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10702",
+      "content": "NVD - CVE-2026-10702 You are viewing this page in an unauthorized frame window. This is a potential security issue, you are being redirected to https://nvd.nist.gov An official website of the United States government Here's how you know Official websites use .gov A .gov website belongs to an official government organization in the United States. Secure .gov websites use HTTPS A lock ( ) or https:// means you've safely connected to the .gov website. Share sensitive information only on official, secure websites. NVD MENU General Expand or Collapse NVD Dashboard News and Status Updates FAQ Visualizations Legal Disclaimer Vulnerabilities Expand or Collapse Search & Statistics Weakness Types Data Feeds Vendor Comments CVMAP Vulnerability Metrics Expand or Collapse CVSS v4.0 Calculators CVSS v3.x Calculators CVSS v2.0 Calculator Products Expand or Collapse CPE Dictionary CPE Search CPE Statistics SWID Developers Expand or Collapse Start Here Request an API Key Vulnerabilities Products Data Sources Terms of Use Contact NVD Other Sites Expand or Collapse Checklist (NCP) Repository Configurations (CCE) 800-53 Controls SCAP Search Expand or Collapse Vulnerability Search CPE Search Information Technology Laboratory National Vulnerability Database National Vulnerability Database NVD Vulnerabilities CVE-2026-10702 Detail Modified After Enrichment This CVE record has been updated after NVD enrichment efforts were completed. Enrichment data supplied by the NVD may require amendment due to these changes. Description JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 151.0.3. Metrics CVSS Version 4.0 CVSS Version 3.x CVSS Version 2.0 NVD enrichment efforts reference publicly available information to associate vector strings. CVSS information contributed by other sources is also displayed. CVSS 4.0 Severity and Vector Strings: NIST: NVD N/A NVD assessment not yet provided. CVSS 3.x Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. ADP: CISA-ADP Base Score: 4.3 MEDIUM Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L ADP: redhat-SADP Base Score: 7.5 HIGH Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H CVSS 2.0 Severity and Vector Strings: NIST: NVD Base Score: N/A NVD assessment not yet provided. References to Advisories, Solutions, and Tools By selecting these links, you will be leaving NIST webspace. We have provided these links to other web sites because they may have information that would be of interest to you. No inferences should be drawn on account of other sites being referenced, or not, from this page. There may be other web sites that are more appropriate for your purpose. NIST does not necessarily endorse the views expressed, or concur with the facts presented on these sites. Further, NIST does not endorse any commercial products that may be mentioned on these sites. Please address comments about this page to [email protected] . URL Source(s) Tag(s) https://access.redhat.com/security/cve/CVE-2026-10702 redhat-SADP https://bugzilla.mozilla.org/show_bug.cgi?id=2040903 Mozilla Corporation Permissions Required https://bugzilla.redhat.com/show_bug.cgi?id=2484118 redhat-SADP https://security.access.redhat.com/data/csaf/v2/vex/2026/cve-2026-10702.json redhat-SADP https://www.mozilla.org/security/advisories/mfsa2026-54/ Mozilla Corporation Vendor Advisory Weakness Enumeration CWE-ID CWE Name Source CWE-733 Compiler Optimization Removal or Modification of Security-critical Code redhat-SADP CWE-843 Access of Resource Using Incompatible Type ('Type Confusion') CISA-ADP Known Affected Software Configurations Switch to CPE 2.2 CPEs loading, please wait. Denotes Vulnerable Software Are we missing a CPE here? Please let us know . Change History 6 change records found show changes CVE Modified by redhat-SADP 6/29/2026 11:17:07 PM Action Type Old Value New Value Added CVSS V3.1 AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H Added CWE CWE-733 Added Reference https://ac"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Firefox JIT编译器代码执行漏洞",
+    "vulner_number_1": "CVE-2026-10702",
+    "vulner_number_2": "漏洞编号： CVE-2026-10702",
+    "new_vulner_name": "Firefox JIT编译器代码执行漏洞",
+    "vulner_date": "2026年7月10日",
+    "vulner_time_line": "2026/07/10",
+    "object_name": "Firefox SpiderMonkey JavaScript Engine JIT Component",
+    "object_desc": "Firefox SpiderMonkey JavaScript Engine JIT Component 是 Mozilla Firefox 浏览器的 JavaScript 引擎中负责即时编译的核心组件。该组件通过将 JavaScript 代码动态编译为本地机器码来提升脚本执行效率，支持多种优化技术以加快运行时性能。",
+    "vulner_version": "Firefox ≤ 151.0.3",
+    "vulner_type": "代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可通过构造恶意网页诱导受害者访问，利用该漏洞使 JavaScript 引擎生成错误优化代码，进而引发类型混淆并破坏内存结构，获取任意地址读写能力，泄露敏感内存信息并绕过 ASLR 等安全缓解机制，最终在浏览器进程中实现代码执行",
+    "vuln_level": "高危",
+    "vulner_desc": "Firefox JavaScript 引擎 SpiderMonkey 的 JIT 编译器在优化阶段对对象类型状态校验存在缺陷，攻击者通过构造特殊 JavaScript 代码可诱导引擎生成错误优化指令，导致类型混淆。 利用该漏洞可破坏对象内存布局解析，实现任意地址读写，泄露敏感内存信息并绕过 ASLR 等防护机制，最终在 Firefox 浏览器进程中完成代码执行。",
+    "official_solution": "立即更新 Firefox 至修复版本\n修复版本：Firefox 151.0.3 及更高版本\n下载链接：https://www.mozilla.org/firefox/download/",
+    "reference_link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10702",
+    "reference_link1": "https://nvd.nist.gov",
+    "reference_link2": "https://access.redhat.com/security/cve/CVE-2026-10702"
+  }
+}

@@ -4518,3 +4518,6 @@ clean_list:
 - wtf-audit-trail
 - CVE-2026-8037-POC
 - ccs-demo
+- ghostlink-writeup
+- CVE-2026-56423-MISP-deleteSelection-BrokenAccessControl
+- CVE-2026-43499-pja110
