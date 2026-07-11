@@ -4543,3 +4543,5 @@ clean_list:
 - CVE-2024-27198-teamcity-auth-bypass
 - CVE-2026-59734-POC
 - CVE-2026-29145-Everything
+- CVE-2026-15282
+- CVE-2026-38526-PoC-htb-nexus-
