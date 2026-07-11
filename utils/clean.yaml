@@ -4534,3 +4534,10 @@ clean_list:
 - cve-2026-9558-poc
 - CVE-2026-46242
 - CVE-2026-40887
+- CVE-2024-13985
+- CVE-2026-29116
+- CVE-2026-29114
+- Drupal-CVE-2026-9082
+- CVE-2026-29115
+- cybermeowfia-termux
+- CVE-2024-27198-teamcity-auth-bypass
