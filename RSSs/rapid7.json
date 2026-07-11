@@ -883,5 +883,10 @@
         "title": "Security Teams Are Ready To Become More Preemptive. What’s Holding Them Back?",
         "link": "https://www.rapid7.com/blog/post/dr-teams-ready-for-preemptive-security-mdr-survey",
         "published": "Wed, 08 Jul 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Weekly Metasploit Update: Exploits for FlowiseAI CSV Agent and MacOS Package Kit",
+        "link": "https://www.rapid7.com/blog/post/pt-weekly-metasploit-update-exploits-for-flowiseai-csv-agent-and-macos-package-kit",
+        "published": "Sat, 11 Jul 2026 00:32:34 GMT"
     }
 ]
