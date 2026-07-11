@@ -4541,3 +4541,5 @@ clean_list:
 - CVE-2026-29115
 - cybermeowfia-termux
 - CVE-2024-27198-teamcity-auth-bypass
+- CVE-2026-59734-POC
+- CVE-2026-29145-Everything
