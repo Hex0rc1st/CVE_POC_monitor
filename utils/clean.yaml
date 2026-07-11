@@ -4545,3 +4545,7 @@ clean_list:
 - CVE-2026-29145-Everything
 - CVE-2026-15282
 - CVE-2026-38526-PoC-htb-nexus-
+- CVE-2026-38526-PoC-htb-nexus
+- CVE-2026-0740-mass
+- CVE-2026-14894
+- CVE-2026-29000-PoC
