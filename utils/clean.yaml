@@ -4555,3 +4555,4 @@ clean_list:
 - CVE-2026-43865
 - CVE-2026-43499-popsicle
 - openvz-cve-patch-2026
+- CVE-2026-43866
