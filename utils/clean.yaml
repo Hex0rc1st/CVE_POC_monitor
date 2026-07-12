@@ -4550,3 +4550,5 @@ clean_list:
 - CVE-2026-14894
 - CVE-2026-29000-PoC
 - CVE-2026-20127-Exploit-Extension
+- samsung-bixby-command-execution-cve-2026-21055-improper-component-export
+- CVE-2026-4631-cockpit-RCE

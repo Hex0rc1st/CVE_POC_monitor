@@ -1043,5 +1043,10 @@
         "title": "Gamaredon (Primitive Bear) APT Profile and MITRE ATT&CK Breakdown",
         "link": "https://www.picussecurity.com/resource/blog/gamaredon-primitive-bear-apt-profile-and-mitre-attck-breakdown",
         "published": "Sat, 11 Jul 2026 08:30:00 GMT"
+    },
+    {
+        "title": "CVE-2025-3248 and CVE-2026-5027: Langflow RCE Vulnerabilities Explained",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2025-3248-cve-2026-5027-langflow-rce",
+        "published": "Sun, 12 Jul 2026 08:00:00 GMT"
     }
 ]
