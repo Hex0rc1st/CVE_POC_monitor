@@ -205,3 +205,4 @@ https://github.com/szybnev/cve-2026-20896-gitea-poc
 https://github.com/yellow-key/yellowkey-bitlocker
 https://github.com/pubglite55/oppo-ghostlock
 https://github.com/0xBlackash/CVE-2026-43499
+https://github.com/x-spy/CVE-2026-43499-popsicle
