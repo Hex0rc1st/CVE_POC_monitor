@@ -4549,3 +4549,4 @@ clean_list:
 - CVE-2026-0740-mass
 - CVE-2026-14894
 - CVE-2026-29000-PoC
+- CVE-2026-20127-Exploit-Extension
