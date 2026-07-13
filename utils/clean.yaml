@@ -4557,3 +4557,5 @@ clean_list:
 - openvz-cve-patch-2026
 - CVE-2026-43866
 - Ph-n-t-ch-CVE-2024-40842-XProtectRemediatorDubRobber-Information-Leak-tr-n-macOS
+- CVE-2026-53805
+- Mi8E5-Unlocker-by-CVE-2026-43499

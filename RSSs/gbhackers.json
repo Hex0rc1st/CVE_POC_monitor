@@ -7673,5 +7673,35 @@
         "title": "Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware",
         "link": "https://gbhackers.com/citrixbleed-2-to-hijack-mfa/",
         "published": "Fri, 10 Jul 2026 12:57:45 +0000"
+    },
+    {
+        "title": "New VEXAIoT AI Agents Autonomously Exploit IoT Vulnerabilities With 95% Success Rate",
+        "link": "https://gbhackers.com/new-vexaiot-ai-agents-autonomously-exploit-iot-vulnerabilities/",
+        "published": "Mon, 13 Jul 2026 06:57:28 +0000"
+    },
+    {
+        "title": "Jscrambler npm Supply Chain Attack Steals Cloud Credentials and Crypto Wallet Secrets",
+        "link": "https://gbhackers.com/jscrambler-npm-supply-chain-attack-steals-cloud-credentials/",
+        "published": "Mon, 13 Jul 2026 06:28:44 +0000"
+    },
+    {
+        "title": "Exposed Server Unmasks Evilginx Operators Stealing Microsoft 365 Sessions and OAuth Tokens",
+        "link": "https://gbhackers.com/evilginx-operators-stealing-microsoft-365/",
+        "published": "Mon, 13 Jul 2026 06:24:27 +0000"
+    },
+    {
+        "title": "Operation Capsule Vault Uses Malicious ISO Files and Process Injection to Deliver RokRAT",
+        "link": "https://gbhackers.com/operation-capsule-vault-uses-iso-files/",
+        "published": "Mon, 13 Jul 2026 05:46:20 +0000"
+    },
+    {
+        "title": "Microsoft Tests AI-Powered Copilot Tool to Diagnose Windows 11 Performance Issues",
+        "link": "https://gbhackers.com/microsoft-tests-ai-powered-copilot-tool-to-diagnose/",
+        "published": "Mon, 13 Jul 2026 04:41:11 +0000"
+    },
+    {
+        "title": "New GhostCommit Technique Hides Exploits in Images to Evade AI Code Reviewers",
+        "link": "https://gbhackers.com/new-ghostcommit-technique-hides-exploits/",
+        "published": "Mon, 13 Jul 2026 04:00:35 +0000"
     }
 ]
