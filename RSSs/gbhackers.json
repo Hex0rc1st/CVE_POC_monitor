@@ -7728,5 +7728,30 @@
         "title": "Critical WordPress OAuth SSO Plugin Flaw Allows Unauthenticated Attackers to Gain Admin Access",
         "link": "https://gbhackers.com/critical-wordpress-oauth-sso-plugin-flaw/",
         "published": "Mon, 13 Jul 2026 08:20:33 +0000"
+    },
+    {
+        "title": "Torq and Criminal IP Partner to Deliver Decision-Ready Threat Intelligence for Autonomous SOC Operations",
+        "link": "https://gbhackers.com/torq-criminal-ip-autonomous-soc-threat-intelligence/",
+        "published": "Mon, 13 Jul 2026 16:31:00 +0000"
+    },
+    {
+        "title": "Russian FSB-Linked Turla Hackers Target French Ministries, Embassies, and Defense Entities",
+        "link": "https://gbhackers.com/russian-fsb-linked-turla-hackers/",
+        "published": "Mon, 13 Jul 2026 13:32:10 +0000"
+    },
+    {
+        "title": "Hackers Can Exploit RabbitMQ OAuth Flaw to Access Every Message, Queue, and User",
+        "link": "https://gbhackers.com/rabbitmq-oauth-vulnerability/",
+        "published": "Mon, 13 Jul 2026 13:17:53 +0000"
+    },
+    {
+        "title": "Adaptive Malware Could Evade Signature Detection by Regenerating Its Attack Capabilities",
+        "link": "https://gbhackers.com/adaptive-malware-attack/",
+        "published": "Mon, 13 Jul 2026 13:06:35 +0000"
+    },
+    {
+        "title": "Attackers Combine MCP Recon With Cloud Metadata SSRF to Steal Service Account Tokens",
+        "link": "https://gbhackers.com/mcp-recon-with-cloud-metadata-ssrf/",
+        "published": "Mon, 13 Jul 2026 12:26:12 +0000"
     }
 ]
