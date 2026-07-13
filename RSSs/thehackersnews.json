@@ -5543,5 +5543,25 @@
         "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
         "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
         "published": "Mon, 13 Jul 2026 13:00:00 +0530"
+    },
+    {
+        "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+        "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+        "published": "Mon, 13 Jul 2026 18:33:33 +0530"
+    },
+    {
+        "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+        "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+        "published": "Mon, 13 Jul 2026 17:24:46 +0530"
+    },
+    {
+        "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+        "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+        "published": "Mon, 13 Jul 2026 17:07:05 +0530"
+    },
+    {
+        "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+        "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
+        "published": "Mon, 13 Jul 2026 16:32:33 +0530"
     }
 ]

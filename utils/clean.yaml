@@ -4568,3 +4568,15 @@ clean_list:
 - oppo-pgem10-ghostlock
 - CVE2024
 - CVE-2026-57829
+- CVE-2026-36214-osTicket-XSS
+- CVE-2026-46529-Atril-PDF-RCE
+- CVE-2026-48907-Joomla-JCE-RCE
+- Android-CVE-2026-43499
+- CVE-2024-52046-Apache-MINA-RCE
+- uaf-exploit-cve-2026-23415
+- CVE-2026-6307-Chrome-V8-Sandbox-Escape
+- CVE-2026-40047-Apache-Camel-Docling-Injection
+- CVE-2026-46453
+- CVE-2026-46454
+- CVE-2026-35204-Helm-Plugin-Traversal
+- CVE-2026-56291.yaml
