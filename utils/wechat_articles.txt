@@ -1773,3 +1773,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497648&idx=1&sn=2f
 奇安信cert::安全热点周报：Adobe ColdFusion 曝高危漏洞，披露后两小时内即遭利用
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506579&idx=1&sn=91e99060ffe9719d45562a11733bdd78&chksm=ff9f9a26e5c98c19e83591b576f494cf703dd57c3bbcbb0bea0e21399f680c84a9fdbdff31ed&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506579&idx=1&sn=91e99060ffe9719d45562a11733bdd78
+360漏洞研究院::Windows HTTP.sys 内核 RCE 漏洞 PoC 已公开，特定条件下可触发远程蓝屏
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497657&idx=1&sn=365803110fbc443a3a13e1c5a71ff7f7&chksm=c242a926926144f1c2999b26be8b38ee3aa85d87c94eeed5edf3785dd2f799ffafc8506b0684&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497657&idx=1&sn=365803110fbc443a3a13e1c5a71ff7f7

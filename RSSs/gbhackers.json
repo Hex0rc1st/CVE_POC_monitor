@@ -7623,5 +7623,55 @@
         "title": "Cisco Catalyst Center Vulnerability Allows Attackers to Escalate Privileges",
         "link": "https://gbhackers.com/cisco-catalyst-center/",
         "published": "Fri, 14 Nov 2025 14:12:22 +0000"
+    },
+    {
+        "title": "Cybersecurity Newsletter Weekly – The 40 Biggest Cybersecurity Stories – Accenture Breach, AI Attack, Exploits Releases, Data Breaches & More",
+        "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-july-6-10-2026/",
+        "published": "Sun, 12 Jul 2026 14:23:29 +0000"
+    },
+    {
+        "title": "AWS GovCloud Credential Leak Leads CISA to Share Critical Cyber Incident Lessons",
+        "link": "https://gbhackers.com/aws-govcloud-credential-leak-leads-cisa/",
+        "published": "Sat, 11 Jul 2026 10:34:32 +0000"
+    },
+    {
+        "title": "Hackers Infect C++ and C# Project Files to Spread Multi-Stage Windows Backdoor",
+        "link": "https://gbhackers.com/c-c-project-files-windows-backdoor/",
+        "published": "Sat, 11 Jul 2026 09:50:17 +0000"
+    },
+    {
+        "title": "Zimbra Releases Security Patch for Stored XSS Vulnerability in Classic Web Client",
+        "link": "https://gbhackers.com/zimbra-releases-security-patch-stored-xss/",
+        "published": "Sat, 11 Jul 2026 08:53:51 +0000"
+    },
+    {
+        "title": "Dell BIOS Flaw Lets Attackers Extract Plaintext Passwords Without Brute Force",
+        "link": "https://gbhackers.com/dell-bios-flaw-extract-plaintext-password-brute-force/",
+        "published": "Sat, 11 Jul 2026 07:56:35 +0000"
+    },
+    {
+        "title": "Top 10 Best Cloud Security Providers – 2026 Review",
+        "link": "https://gbhackers.com/best-cloud-security-providers/",
+        "published": "Fri, 10 Jul 2026 15:39:02 +0000"
+    },
+    {
+        "title": "Top 10 Best Social Engineering Testing Companies in 2026",
+        "link": "https://gbhackers.com/social-engineering-testing-companies/",
+        "published": "Fri, 10 Jul 2026 15:33:36 +0000"
+    },
+    {
+        "title": "281 Android VPN Apps Expose Users to Traffic Leaks, Tracking and Tunnel Hijacking",
+        "link": "https://gbhackers.com/281-android-vpn-apps-expose-users-to-traffic-leaks/",
+        "published": "Fri, 10 Jul 2026 13:33:31 +0000"
+    },
+    {
+        "title": "Forg365 PhaaS Uses Telegram and AI Lures to Hijack Microsoft 365 Accounts",
+        "link": "https://gbhackers.com/forg365-phaas-uses-telegram-hijack-microsoft-365-accounts/",
+        "published": "Fri, 10 Jul 2026 12:58:17 +0000"
+    },
+    {
+        "title": "Hackers Exploit CitrixBleed 2 to Hijack MFA-Protected Sessions and Deploy DragonForce Ransomware",
+        "link": "https://gbhackers.com/citrixbleed-2-to-hijack-mfa/",
+        "published": "Fri, 10 Jul 2026 12:57:45 +0000"
     }
 ]

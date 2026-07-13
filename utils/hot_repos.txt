@@ -206,3 +206,4 @@ https://github.com/yellow-key/yellowkey-bitlocker
 https://github.com/pubglite55/oppo-ghostlock
 https://github.com/0xBlackash/CVE-2026-43499
 https://github.com/x-spy/CVE-2026-43499-popsicle
+https://github.com/Linuxoid-cn/Mi8E5-Unlocker-by-CVE-2026-43499
