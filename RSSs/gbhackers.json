@@ -7703,5 +7703,30 @@
         "title": "New GhostCommit Technique Hides Exploits in Images to Evade AI Code Reviewers",
         "link": "https://gbhackers.com/new-ghostcommit-technique-hides-exploits/",
         "published": "Mon, 13 Jul 2026 04:00:35 +0000"
+    },
+    {
+        "title": "Debian 13.6 Released With Security Updates for Linux, Apache, Curl, QEMU, and More",
+        "link": "https://gbhackers.com/debian-13-6-released-with-security-updates/",
+        "published": "Mon, 13 Jul 2026 10:56:07 +0000"
+    },
+    {
+        "title": "BusySnake Stealer Uses Reverse SSH Tunnels and AI-Generated Loaders to Evade Detection",
+        "link": "https://gbhackers.com/busysnake-stealer-uses-reverse-ssh/",
+        "published": "Mon, 13 Jul 2026 10:40:03 +0000"
+    },
+    {
+        "title": "CISA Warns of Actively Exploited iCagenda and Balbooa Forms File Upload Flaws",
+        "link": "https://gbhackers.com/cisa-warns-of-actively-exploited-icagenda-and-balbooa/",
+        "published": "Mon, 13 Jul 2026 08:35:30 +0000"
+    },
+    {
+        "title": "Spear-Phishing Campaign Uses Proton Drive Links and LNK Files to Deliver SpyGlace",
+        "link": "https://gbhackers.com/spear-phishing-uses-proton-drive/",
+        "published": "Mon, 13 Jul 2026 08:23:17 +0000"
+    },
+    {
+        "title": "Critical WordPress OAuth SSO Plugin Flaw Allows Unauthenticated Attackers to Gain Admin Access",
+        "link": "https://gbhackers.com/critical-wordpress-oauth-sso-plugin-flaw/",
+        "published": "Mon, 13 Jul 2026 08:20:33 +0000"
     }
 ]
