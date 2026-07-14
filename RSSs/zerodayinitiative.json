@@ -203,5 +203,10 @@
         "title": "CVE-2026-47291: Remote Code Execution in the Windows HTTP.sys",
         "link": "https://www.thezdi.com/blog/2026/7/9/cve-2026-47291-remote-code-execution-in-the-windows-httpsys",
         "published": "Fri, 10 Jul 2026 14:00:00 +0000"
+    },
+    {
+        "title": "The July 2026 Security Update Review",
+        "link": "https://www.thezdi.com/blog/2026/7/14/the-july-2026-security-update-review",
+        "published": "Tue, 14 Jul 2026 17:56:54 +0000"
     }
 ]

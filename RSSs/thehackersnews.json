@@ -5633,5 +5633,15 @@
         "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
         "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
         "published": "Tue, 14 Jul 2026 22:22:37 +0530"
+    },
+    {
+        "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
+        "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
+        "published": "Tue, 14 Jul 2026 23:47:57 +0530"
+    },
+    {
+        "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
+        "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+        "published": "Tue, 14 Jul 2026 22:57:23 +0530"
     }
 ]
