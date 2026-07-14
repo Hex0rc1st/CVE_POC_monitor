@@ -5628,5 +5628,10 @@
         "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
         "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
         "published": "Tue, 14 Jul 2026 19:18:07 +0530"
+    },
+    {
+        "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
+        "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
+        "published": "Tue, 14 Jul 2026 22:22:37 +0530"
     }
 ]
