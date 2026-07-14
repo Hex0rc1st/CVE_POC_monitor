@@ -7753,5 +7753,50 @@
         "title": "Attackers Combine MCP Recon With Cloud Metadata SSRF to Steal Service Account Tokens",
         "link": "https://gbhackers.com/mcp-recon-with-cloud-metadata-ssrf/",
         "published": "Mon, 13 Jul 2026 12:26:12 +0000"
+    },
+    {
+        "title": "SAP July 2026 Patch Day Fixes Critical NetWeaver, Approuter, and Commerce Cloud Vulnerabilities",
+        "link": "https://gbhackers.com/sap-july-2026-patch-day-fixes-vulnerabilities/",
+        "published": "Tue, 14 Jul 2026 08:09:12 +0000"
+    },
+    {
+        "title": "WinFsp Race Condition Flaw Allows Attackers to Gain SYSTEM-Level Access on Windows",
+        "link": "https://gbhackers.com/winfsp-race-condition-flaw/",
+        "published": "Tue, 14 Jul 2026 07:56:32 +0000"
+    },
+    {
+        "title": "Why programming true randomness in emulators is a developer worst nightmare",
+        "link": "https://gbhackers.com/why-programming-true-randomness-in-emulators-is-a-developer-worst-nightmare/",
+        "published": "Tue, 14 Jul 2026 06:03:42 +0000"
+    },
+    {
+        "title": "ShinyHunters Hackers Abuse Salesforce OAuth to Bypass MFA and Exfiltrate CRM Data",
+        "link": "https://gbhackers.com/salesforce-oauth-abused/",
+        "published": "Tue, 14 Jul 2026 05:44:26 +0000"
+    },
+    {
+        "title": "Pro-Iran Hacktivist Groups Launch DDoS and Hack-and-Leak Attacks Against Critical Infrastructure",
+        "link": "https://gbhackers.com/hacktivist-groups-launch-ddos/",
+        "published": "Tue, 14 Jul 2026 05:18:30 +0000"
+    },
+    {
+        "title": "ModHeader Chrome Extension Exposes 900,000 Users to Potential Browsing History Theft",
+        "link": "https://gbhackers.com/modheader-chrome-extension-exposes-900000-users/",
+        "published": "Tue, 14 Jul 2026 04:42:45 +0000"
+    },
+    {
+        "title": "Critical ServiceNow AI Platform Flaw Allows Unauthenticated Attackers to Escape Sandbox and Execute Remote Code",
+        "link": "https://gbhackers.com/critical-servicenow-ai-platform-flaw/",
+        "published": "Tue, 14 Jul 2026 04:28:21 +0000"
+    },
+    {
+        "title": "Telegram’s t.me Domain Suspended, Breaking Invite and Channel Links Worldwide",
+        "link": "https://gbhackers.com/telegrams-t-me-domain-suspended/",
+        "published": "Tue, 14 Jul 2026 04:17:25 +0000"
+    },
+    {
+        "title": "NSA Warns Russian State-Sponsored Hackers Exploiting Vulnerable Routers to Target Critical Infrastructure",
+        "link": "https://gbhackers.com/nsa-warns-russian-state-sponsored-hackers-exploiting-vulnerable-routers/",
+        "published": "Tue, 14 Jul 2026 03:48:40 +0000"
     }
 ]

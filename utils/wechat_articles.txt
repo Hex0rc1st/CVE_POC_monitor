@@ -1776,3 +1776,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506579&idx=1&sn=91
 360漏洞研究院::Windows HTTP.sys 内核 RCE 漏洞 PoC 已公开，特定条件下可触发远程蓝屏
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497657&idx=1&sn=365803110fbc443a3a13e1c5a71ff7f7&chksm=c242a926926144f1c2999b26be8b38ee3aa85d87c94eeed5edf3785dd2f799ffafc8506b0684&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497657&idx=1&sn=365803110fbc443a3a13e1c5a71ff7f7
+奇安信cert::【已复现、利用难度高】Windows HTTP.sys 整数溢出漏洞(CVE-2026-47291)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506606&idx=1&sn=623d2ac0057653292d595cf9145bbe3f&chksm=ffe1aacbe2f97455a4cc5d57723b4348170407a18ef45b1b1ec9d60747777bee8a513ffe1368&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506606&idx=1&sn=623d2ac0057653292d595cf9145bbe3f
