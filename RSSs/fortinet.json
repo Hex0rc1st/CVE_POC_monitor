@@ -1578,5 +1578,60 @@
         "title": "Second-Order OS Command Injection via JSON Input on start vnc feature",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-141",
         "published": "Tue, 09 Jun 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Buffer overread in authd and wad daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-154",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Cross-Site Scripting in Domain parameter",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-149",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Header injection in Web Filter warning page",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-152",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Header injection in captive portal authentication form",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-153",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Missed certificate verification in AD Connector communication with FortiClient EMS",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-147",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Out of bounds read in GUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-146",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Path traversal in CLI command allows deletion of root file system",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-151",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SSL-VPN Reflected XSS",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-150",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Stack Buffer Overflow in Log Report",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-148",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Supers override fails to properly override supervisor address",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-155",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Unauthenticated VNC access exposed on all interfaces",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-145",
+        "published": "Tue, 14 Jul 2026 00:00:00 -0700"
     }
 ]

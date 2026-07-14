@@ -4587,3 +4587,5 @@ clean_list:
 - htb-connected-writeup
 - CVE-2026-46457
 - CVE-2026-15706
+- ninja-form-exploit
+- CVE-2026-43499-Poc-Analysis

@@ -5623,5 +5623,10 @@
         "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
         "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
         "published": "Tue, 14 Jul 2026 16:51:35 +0530"
+    },
+    {
+        "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
+        "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
+        "published": "Tue, 14 Jul 2026 19:18:07 +0530"
     }
 ]
