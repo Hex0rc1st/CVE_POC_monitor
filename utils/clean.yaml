@@ -4585,3 +4585,4 @@ clean_list:
 - CVE-2026-52614
 - threat-simlab
 - htb-connected-writeup
+- CVE-2026-46457
