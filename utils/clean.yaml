@@ -4580,3 +4580,5 @@ clean_list:
 - CVE-2026-46454
 - CVE-2026-35204-Helm-Plugin-Traversal
 - CVE-2026-56291.yaml
+- CVE-2017-7921-Writeup-2026
+- CVE-2026-43499-OnePlus15
