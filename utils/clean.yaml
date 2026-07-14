@@ -4582,3 +4582,6 @@ clean_list:
 - CVE-2026-56291.yaml
 - CVE-2017-7921-Writeup-2026
 - CVE-2026-43499-OnePlus15
+- CVE-2026-52614
+- threat-simlab
+- htb-connected-writeup
