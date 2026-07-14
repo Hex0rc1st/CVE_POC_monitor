@@ -5603,5 +5603,25 @@
         "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
         "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
         "published": "Tue, 14 Jul 2026 14:32:48 +0530"
+    },
+    {
+        "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
+        "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
+        "published": "Tue, 14 Jul 2026 18:16:18 +0530"
+    },
+    {
+        "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
+        "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
+        "published": "Tue, 14 Jul 2026 17:25:00 +0530"
+    },
+    {
+        "title": "How Pentera Turns AI Security Workflows into Validation Engines",
+        "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
+        "published": "Tue, 14 Jul 2026 17:00:00 +0530"
+    },
+    {
+        "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
+        "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+        "published": "Tue, 14 Jul 2026 16:51:35 +0530"
     }
 ]

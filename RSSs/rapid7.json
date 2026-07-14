@@ -893,5 +893,10 @@
         "title": "Rapid7 and Mindshare Partner to Accelerate Cyber Resilience Across the Middle East",
         "link": "https://www.rapid7.com/blog/post/c-rapid7-mindware-middle-east-cybersecurity-partnership",
         "published": "Tue, 14 Jul 2026 08:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
+        "published": "Tue, 14 Jul 2026 13:00:00 GMT"
     }
 ]

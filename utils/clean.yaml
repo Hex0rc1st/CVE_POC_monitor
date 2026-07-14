@@ -4586,3 +4586,4 @@ clean_list:
 - threat-simlab
 - htb-connected-writeup
 - CVE-2026-46457
+- CVE-2026-15706
