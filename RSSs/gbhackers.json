@@ -7833,5 +7833,55 @@
         "title": "Cybercriminals Target Turkish Banks With 8,400 Phishing Domains and 6,600 Scam Ads",
         "link": "https://gbhackers.com/turkish-banks-with-8400-phishing/",
         "published": "Tue, 14 Jul 2026 12:13:39 +0000"
+    },
+    {
+        "title": "SheetAgent RAT Runs 14 Virtual Machine Checks and Self-Deletes When Analysis Is Detected",
+        "link": "https://gbhackers.com/sheetagent-rat-runs-14-virtual-machine/",
+        "published": "Wed, 15 Jul 2026 09:02:34 +0000"
+    },
+    {
+        "title": "FaceTime Scammers Combine Credential Theft, Remote-Access Apps, and iOS Exploits for Device Takeover.",
+        "link": "https://gbhackers.com/facetime-scammers-combine-credential-theft/",
+        "published": "Wed, 15 Jul 2026 07:21:09 +0000"
+    },
+    {
+        "title": "Microsoft Fixes Multiple Windows RDP Flaws Exposing Sensitive Data Over the Network",
+        "link": "https://gbhackers.com/microsoft-fixes-multiple-windows-rdp-flaws/",
+        "published": "Wed, 15 Jul 2026 07:03:10 +0000"
+    },
+    {
+        "title": "Critical SonicWall SMA 1000 SSRF and Remote Code Execution Flaws Actively Exploited in the Wild",
+        "link": "https://gbhackers.com/critical-sonicwall-sma-1000-ssrf-and-remote-code-execution-flaws/",
+        "published": "Wed, 15 Jul 2026 06:45:31 +0000"
+    },
+    {
+        "title": "Hackers Abuse OAuth Device Codes and Entra ID Enrollment for Persistent SaaS Access",
+        "link": "https://gbhackers.com/oauth-device-codes-and-entra-id-abused/",
+        "published": "Wed, 15 Jul 2026 06:37:53 +0000"
+    },
+    {
+        "title": "Google Chrome 150 Update Fixes 15 Security Vulnerabilities, Including 2 Critical Use-After-Free Flaws",
+        "link": "https://gbhackers.com/google-chrome-150-update-fixes-15-security-vulnerabilities/",
+        "published": "Wed, 15 Jul 2026 06:32:33 +0000"
+    },
+    {
+        "title": "Critical Claude for Chrome Flaw Lets Malicious Extensions Read Gmail, Google Docs, and Calendar",
+        "link": "https://gbhackers.com/critical-claude-for-chrome-flaw/",
+        "published": "Wed, 15 Jul 2026 06:19:12 +0000"
+    },
+    {
+        "title": "China-Linked Hackers Weaponize Claude Code and DeepSeek in Government Intrusion Campaign",
+        "link": "https://gbhackers.com/claude-code-and-deepseek-weaponized/",
+        "published": "Wed, 15 Jul 2026 06:06:30 +0000"
+    },
+    {
+        "title": "Fortinet Patches 7 Security Flaws Affecting FortiOS, FortiProxy, FortiPAM, FortiSASE, and FortiSandbox",
+        "link": "https://gbhackers.com/fortinet-patches-7-security-flaws/",
+        "published": "Wed, 15 Jul 2026 06:02:08 +0000"
+    },
+    {
+        "title": "Notepad++ v8.9.7 Security Update Fixes 5 Vulnerabilities, Including Stack Buffer Overflow and Zip Slip Flaws",
+        "link": "https://gbhackers.com/notepad-v8-9-7-security-update-fixes-5-vulnerabilities/",
+        "published": "Wed, 15 Jul 2026 05:51:11 +0000"
     }
 ]

@@ -4598,3 +4598,11 @@ clean_list:
 - CVE-2026-50657
 - HTB-Snapped-Writeup
 - duchamp-root
+- cve-2026-27483-lab
+- CVE-2026-43499-so-build
+- CVE-2026-59827
+- CVE-2026-46585
+- CVE-2026-56164-EXP
+- VIVO_GKI6.6_CVE2026-43499
+- cve-2026-48282-pentest-lab
+- x200-cve-2026-43499
