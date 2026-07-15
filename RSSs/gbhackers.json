@@ -7883,5 +7883,40 @@
         "title": "Notepad++ v8.9.7 Security Update Fixes 5 Vulnerabilities, Including Stack Buffer Overflow and Zip Slip Flaws",
         "link": "https://gbhackers.com/notepad-v8-9-7-security-update-fixes-5-vulnerabilities/",
         "published": "Wed, 15 Jul 2026 05:51:11 +0000"
+    },
+    {
+        "title": "Russian-Speaking Hacker Uses Gemini CLI to Deploy C2 Botnet in Six Minutes",
+        "link": "https://gbhackers.com/gemini-cli-to-deploy-c2-botnet/",
+        "published": "Wed, 15 Jul 2026 13:16:00 +0000"
+    },
+    {
+        "title": "OkoBot Malware Uses ClickFix and SeedHunter to Steal Ledger and Trezor Seed Phrases",
+        "link": "https://gbhackers.com/okobot-malware-uses-clickfix/",
+        "published": "Wed, 15 Jul 2026 12:46:03 +0000"
+    },
+    {
+        "title": "Microsoft Blocks Windows 11 Security Update on Dell PCs Over Intel Driver Causing Shutdowns and Battery Drain",
+        "link": "https://gbhackers.com/microsoft-blocks-windows-11-security-update-on-dell/",
+        "published": "Wed, 15 Jul 2026 12:43:06 +0000"
+    },
+    {
+        "title": "3 Russian Nationals Indicted for Running Bulletproof Hosting Network Behind $62 Million Cyberattacks",
+        "link": "https://gbhackers.com/3-russian-nationals-indicted-for-running-bulletproof-hosting-network/",
+        "published": "Wed, 15 Jul 2026 12:26:23 +0000"
+    },
+    {
+        "title": "LabubaRAT Rust Malware Masquerades as NVIDIA Software to Backdoor Windows Systems",
+        "link": "https://gbhackers.com/labubarat-rust-malware/",
+        "published": "Wed, 15 Jul 2026 11:41:46 +0000"
+    },
+    {
+        "title": "Dell Warns of Critical PowerProtect Data Domain Flaws Allowing Remote Attackers to Take Complete Control",
+        "link": "https://gbhackers.com/dell-warns-of-critical-powerprotect-data-domain-flaws/",
+        "published": "Wed, 15 Jul 2026 10:30:18 +0000"
+    },
+    {
+        "title": "11 Malicious NuGet Game Cheat Packages Deploy Pepesoft Windows Surveillance Malware",
+        "link": "https://gbhackers.com/11-malicious-nuget-game-cheat-packages/",
+        "published": "Wed, 15 Jul 2026 10:03:46 +0000"
     }
 ]

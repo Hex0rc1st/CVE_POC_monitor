@@ -903,5 +903,10 @@
         "title": "Patch Tuesday - July 2026",
         "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
         "published": "Tue, 14 Jul 2026 22:00:26 GMT"
+    },
+    {
+        "title": "Investigating Persistence Mechanisms in AWS",
+        "link": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
+        "published": "Wed, 15 Jul 2026 13:00:00 GMT"
     }
 ]

@@ -4609,3 +4609,7 @@ clean_list:
 - auto_extract_offsets
 - CVE-2026-13001
 - CVE-2026-46587
+- CVE-2024-5082
+- CVE-2026-46588
+- CVE-2026-58635-PoC
+- CVE-2026-46590
