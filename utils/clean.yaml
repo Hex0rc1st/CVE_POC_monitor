@@ -4606,3 +4606,6 @@ clean_list:
 - VIVO_GKI6.6_CVE2026-43499
 - cve-2026-48282-pentest-lab
 - x200-cve-2026-43499
+- auto_extract_offsets
+- CVE-2026-13001
+- CVE-2026-46587

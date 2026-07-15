@@ -5653,5 +5653,15 @@
         "title": "Two SonicWall SMA 1000 Zero-Days Exploited, One Could Enable Admin Commands",
         "link": "https://thehackernews.com/2026/07/two-sonicwall-sma-1000-zero-days.html",
         "published": "Wed, 15 Jul 2026 11:00:21 +0530"
+    },
+    {
+        "title": "Cursor Flaw Lets Malicious Cloned Repositories Trigger Windows Code Execution",
+        "link": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html",
+        "published": "Wed, 15 Jul 2026 16:25:22 +0530"
+    },
+    {
+        "title": "Compromised AsyncAPI npm Packages Deliver Multi-Stage Botnet Malware",
+        "link": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html",
+        "published": "Wed, 15 Jul 2026 14:46:13 +0530"
     }
 ]
