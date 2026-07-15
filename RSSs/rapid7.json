@@ -898,5 +898,10 @@
         "title": "CVE-2026-55040: Microsoft SharePoint JWT Token Authentication Bypass (FIXED)",
         "link": "https://www.rapid7.com/blog/post/ve-cve-2026-55040-microsoft-sharepoint-jwt-token-authentication-bypass-fixed",
         "published": "Tue, 14 Jul 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Patch Tuesday - July 2026",
+        "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-july-2026",
+        "published": "Tue, 14 Jul 2026 22:00:26 GMT"
     }
 ]
