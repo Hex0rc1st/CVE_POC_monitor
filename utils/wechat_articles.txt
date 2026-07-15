@@ -1779,3 +1779,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497657&idx=1&sn=36
 奇安信cert::【已复现、利用难度高】Windows HTTP.sys 整数溢出漏洞(CVE-2026-47291)安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506606&idx=1&sn=623d2ac0057653292d595cf9145bbe3f&chksm=ffe1aacbe2f97455a4cc5d57723b4348170407a18ef45b1b1ec9d60747777bee8a513ffe1368&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506606&idx=1&sn=623d2ac0057653292d595cf9145bbe3f
+奇安信cert::微软7月补丁日多个产品安全漏洞风险通告：2个在野利用、43个紧急漏洞
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506617&idx=1&sn=c75e95b55101fd5c8ab87eee2f9bbde4&chksm=ff8cfa6972b5ae0c028b7425759e3f9bafb39922f790479dac1798375cf3f42bf7e86b110ed8&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506617&idx=1&sn=c75e95b55101fd5c8ab87eee2f9bbde4

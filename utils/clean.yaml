@@ -4589,3 +4589,9 @@ clean_list:
 - CVE-2026-15706
 - ninja-form-exploit
 - CVE-2026-43499-Poc-Analysis
+- CVE-2025-60357
+- Logitech-G-Cloud-GhostLock-CVE-2026-43499
+- CVE-2026-15409
+- CVE-2026-36669-FengOffice
+- CVE-2026-55511
+- CVE-2026-15410
