@@ -4595,3 +4595,6 @@ clean_list:
 - CVE-2026-36669-FengOffice
 - CVE-2026-55511
 - CVE-2026-15410
+- CVE-2026-50657
+- HTB-Snapped-Writeup
+- duchamp-root
