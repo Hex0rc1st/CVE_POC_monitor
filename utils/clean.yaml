@@ -4613,3 +4613,6 @@ clean_list:
 - CVE-2026-46588
 - CVE-2026-58635-PoC
 - CVE-2026-46590
+- CVE-2026-52199
+- almalinux-januscape-mitigation
+- rapid7-CVE-2026-15409
