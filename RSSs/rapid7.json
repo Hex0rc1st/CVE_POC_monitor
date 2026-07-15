@@ -908,5 +908,10 @@
         "title": "Investigating Persistence Mechanisms in AWS",
         "link": "https://www.rapid7.com/blog/post/dr-investigating-aws-persistence-mechanisms",
         "published": "Wed, 15 Jul 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Rapid7 MDR Team Discovers New SonicWall SMA1000 Zero Days being Actively Exploited (CVE-2026-15409, CVE-2026-15410)",
+        "link": "https://www.rapid7.com/blog/post/etr-rapid7-mdr-team-discovers-new-sonicwall-sma1000-zero-days-being-actively-exploited-cve-2026-15409-cve-2026-15410",
+        "published": "Wed, 15 Jul 2026 16:19:26 GMT"
     }
 ]
