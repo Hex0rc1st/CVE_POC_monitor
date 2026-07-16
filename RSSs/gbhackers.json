@@ -7943,5 +7943,40 @@
         "title": "China-Linked Daxin Backdoor Resurfaces in Taiwan Alongside New STUPIG SYSTEM-Level Malware",
         "link": "https://gbhackers.com/stupig-system-level-malware/",
         "published": "Thu, 16 Jul 2026 05:10:25 +0000"
+    },
+    {
+        "title": "CISA Warns of Actively Exploited Oracle E-Business Suite Flaw",
+        "link": "https://gbhackers.com/cisa-warns-of-actively-exploited-oracle-e-business-suite-flaw/",
+        "published": "Thu, 16 Jul 2026 09:21:57 +0000"
+    },
+    {
+        "title": "Hackers Pair Stolen Wallet Databases With Keychain Passwords for Offline Crypto Theft",
+        "link": "https://gbhackers.com/hackers-pair-stolen-wallet-databases/",
+        "published": "Thu, 16 Jul 2026 08:54:54 +0000"
+    },
+    {
+        "title": "Splunk Enterprise Flaws Expose Stored Credentials and Allow Arbitrary SPL Searches",
+        "link": "https://gbhackers.com/splunk-enterprise-flaws-expose-stored-credentials/",
+        "published": "Thu, 16 Jul 2026 08:52:37 +0000"
+    },
+    {
+        "title": "Critical JetBrains Flaws Impact IntelliJ IDEA, TeamCity, and YouTrack Users",
+        "link": "https://gbhackers.com/critical-jetbrains-flaws-impact-intellij-idea/",
+        "published": "Thu, 16 Jul 2026 08:15:32 +0000"
+    },
+    {
+        "title": "Malicious AI Agents Attempt Reverse Shells, Credential Theft, and Persistent SSH Access",
+        "link": "https://gbhackers.com/ai-agents-attempt-reverse-shells/",
+        "published": "Thu, 16 Jul 2026 07:44:30 +0000"
+    },
+    {
+        "title": "F5 Fixes 3 NGINX Flaws Enabling Potential Remote Code Execution, Memory Disclosure, and DoS Attacks",
+        "link": "https://gbhackers.com/f5-fixes-3-nginx-flaws/",
+        "published": "Thu, 16 Jul 2026 06:53:08 +0000"
+    },
+    {
+        "title": "Kratos PhaaS Targets Microsoft 365 Users With SharePoint Links and Cloudflare Anti-Bot Checks",
+        "link": "https://gbhackers.com/kratos-phaas-targets-microsoft-365/",
+        "published": "Thu, 16 Jul 2026 06:36:15 +0000"
     }
 ]

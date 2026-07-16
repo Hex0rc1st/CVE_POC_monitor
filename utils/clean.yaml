@@ -4622,3 +4622,10 @@ clean_list:
 - CVE-2026-57155
 - CVE-2025-21333
 - CVE-2022-25477
+- CVE-2026-46592
+- CVE-2026-43499-S25U
+- CVE-2026-8838-Mitigation-and-Detection
+- CVE-2026-8388-Mitigation-and-Detection
+- Vulnerability-Prediction-in-Software-Dependencies-Using-Machine-Learning
+- CVE-2026-50369
+- SonicWall-SMA1000-Zero-Day-IoC-Check
