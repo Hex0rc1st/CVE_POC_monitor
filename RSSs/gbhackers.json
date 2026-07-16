@@ -7993,5 +7993,25 @@
         "title": "Critical Zoom Workplace Flaw Lets Unauthenticated Attackers Take Over Accounts Remotely",
         "link": "https://gbhackers.com/critical-zoom-workplace-flaw/",
         "published": "Thu, 16 Jul 2026 10:40:36 +0000"
+    },
+    {
+        "title": "Millions of Shark Robot Vacuums Vulnerable to Unpatched Remote Code Execution Flaw",
+        "link": "https://gbhackers.com/millions-of-shark-robot-vacuums-vulnerable/",
+        "published": "Thu, 16 Jul 2026 13:08:06 +0000"
+    },
+    {
+        "title": "Hackers Exploit SonicWall SMA1000 Zero-Days to Execute Commands as Root",
+        "link": "https://gbhackers.com/hackers-exploit-sonicwall-sma1000-zero-days/",
+        "published": "Thu, 16 Jul 2026 12:43:50 +0000"
+    },
+    {
+        "title": "New Framework Redefines AI Penetration Testing Around Prompt Injection and Behavioral Objective Violations",
+        "link": "https://gbhackers.com/ai-penetration-testing/",
+        "published": "Thu, 16 Jul 2026 12:38:56 +0000"
+    },
+    {
+        "title": "Next.js Announces July Security Release to Fix 4 High-Severity and 5 Medium Flaws",
+        "link": "https://gbhackers.com/next-js-announces-july-security-release/",
+        "published": "Thu, 16 Jul 2026 11:57:13 +0000"
     }
 ]

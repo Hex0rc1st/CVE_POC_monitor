@@ -4635,3 +4635,6 @@ clean_list:
 - CVE-2026-57821-PoC-Exploit
 - WP-Contest-Gallery-28.1.4-Exploit
 - CVE-2026-54992-PoC
+- CVE-2026-46726
+- secveri-cve-2026-50011-positive
+- IonStack-CVE-2026-43499-jinghu
