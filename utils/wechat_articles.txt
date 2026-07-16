@@ -1785,3 +1785,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506617&idx=1&sn=c7
 微步在线研究响应中心::微步情报局发现并协助修复Eclipse Jetty 12 路径穿越漏洞
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508760&idx=1&sn=dc6529b7677375b6b25b63a962ed7fed&chksm=ceb88e3063b77cc9f2b311b95686fc9c7fae6ce3070cc9766312c5c3250b601dcd2a27f9efe7&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508760&idx=1&sn=dc6529b7677375b6b25b63a962ed7fed
+360漏洞研究院::【已复现】SonicWall SMA1000 满分 SSRF 漏洞遭在野利用(CVE-2026-15409)
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497666&idx=1&sn=41793b4844e30803ebc4355a0dc0d0d6&chksm=c21d0b88606fd0d384d61e4d375df754693593c4afc7d5c683d0002a33bffddda8436554e791&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497666&idx=1&sn=41793b4844e30803ebc4355a0dc0d0d6
