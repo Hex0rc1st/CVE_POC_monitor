@@ -211,3 +211,4 @@ https://github.com/impost0r/Rie
 https://github.com/Linuxoid-cn/CVE-2026-43499-Poc-Analysis
 https://github.com/Colorful-glassblock/duchamp-root
 https://github.com/remmons-r7/rapid7-CVE-2026-15409
+https://github.com/BuSung-dev/CVE-2026-43499-S25U
