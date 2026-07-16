@@ -4616,3 +4616,7 @@ clean_list:
 - CVE-2026-52199
 - almalinux-januscape-mitigation
 - rapid7-CVE-2026-15409
+- ghostlock-rothko
+- CVE-2026-21955
+- CyberMeowfia-ace3
+- CVE-2026-57155
