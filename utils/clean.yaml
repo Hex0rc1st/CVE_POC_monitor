@@ -4647,3 +4647,10 @@ clean_list:
 - CVE-2026-14431
 - cve_2026_43499_sm-t878u
 - CVE-2026-48203
+- CVE-2026-43499-RMX5200
+- CVE-2025-8110-gogs-poc
+- CVE-2026-48204
+- CVE-2026-50416-writeup-and-poc
+- maew-hyperos-omega-infinity
+- cve-2026-43499
+- CVE-2026-15583

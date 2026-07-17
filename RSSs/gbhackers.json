@@ -8063,5 +8063,45 @@
         "title": "GoSerpent Silently Steals Government Files for Weeks Before Sending Them to Hackers",
         "link": "https://gbhackers.com/goserpent-steals-government-files/",
         "published": "Fri, 17 Jul 2026 06:59:23 +0000"
+    },
+    {
+        "title": "New Starland RAT Steals Browser Credentials and Scans for Over 40 Crypto Wallets",
+        "link": "https://gbhackers.com/starland-rat-steals-browser-credentials/",
+        "published": "Fri, 17 Jul 2026 13:40:48 +0000"
+    },
+    {
+        "title": "Hackers Hide Lua Loaders in Fake TTF Files to Deploy Remcos, XWorm, and Agent Tesla",
+        "link": "https://gbhackers.com/lua-loaders-in-fake-ttf-files/",
+        "published": "Fri, 17 Jul 2026 13:22:58 +0000"
+    },
+    {
+        "title": "LegacyHive Windows Zero-Day Lets Attackers Hijack Administrator Registry Hives",
+        "link": "https://gbhackers.com/legacyhive-windows-zero-day/",
+        "published": "Fri, 17 Jul 2026 12:36:05 +0000"
+    },
+    {
+        "title": "Hackers Breached an IIS Server and Deployed Ransomware Across the Network the Next Day",
+        "link": "https://gbhackers.com/iis-server-breached/",
+        "published": "Fri, 17 Jul 2026 12:28:40 +0000"
+    },
+    {
+        "title": "AWS Billing Bug Displays Trillion-Dollar Cost Estimates to Cloud Customers",
+        "link": "https://gbhackers.com/aws-billing-bug-displays-trillion-dollar-cost-estimates/",
+        "published": "Fri, 17 Jul 2026 12:19:00 +0000"
+    },
+    {
+        "title": "New NadMesh Botnet Uses 20+ RCE Vectors to Hijack AI and MCP Infrastructure",
+        "link": "https://gbhackers.com/new-nadmesh-botnet/",
+        "published": "Fri, 17 Jul 2026 10:55:58 +0000"
+    },
+    {
+        "title": "TP-Link Kasa Camera Flaws Let Attackers Steal Admin Credentials and Geolocation Data",
+        "link": "https://gbhackers.com/tp-link-kasa-camera-flaws/",
+        "published": "Fri, 17 Jul 2026 09:48:17 +0000"
+    },
+    {
+        "title": "CISA Warns of Two Fortinet FortiSandbox Flaws Exploited to Execute Commands",
+        "link": "https://gbhackers.com/cisa-warns-of-two-fortinet-fortisandbox-flaws/",
+        "published": "Fri, 17 Jul 2026 09:19:00 +0000"
     }
 ]
