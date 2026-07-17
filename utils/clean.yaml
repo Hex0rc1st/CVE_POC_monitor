@@ -4641,3 +4641,4 @@ clean_list:
 - CVE-2026-43499_OPPO-MT6835
 - xi-sem.github.io
 - CVE-2026-55579
+- kernel-c-to-rust-spike

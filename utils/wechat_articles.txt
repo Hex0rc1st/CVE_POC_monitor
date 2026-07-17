@@ -1788,3 +1788,6 @@ https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508760&idx=1&sn=dc
 360漏洞研究院::【已复现】SonicWall SMA1000 满分 SSRF 漏洞遭在野利用(CVE-2026-15409)
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497666&idx=1&sn=41793b4844e30803ebc4355a0dc0d0d6&chksm=c21d0b88606fd0d384d61e4d375df754693593c4afc7d5c683d0002a33bffddda8436554e791&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497666&idx=1&sn=41793b4844e30803ebc4355a0dc0d0d6
+奇安信cert::微软创纪录的漏洞补丁月意味了什么
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506691&idx=1&sn=948c5c08a0dfa7e76a03bf5ac4537588&chksm=ff6f4c528e40138ef8a096c8954f18ff0b861aa5d05cfbe23a73bb2b6526a75f2ca88587aff7&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506691&idx=1&sn=948c5c08a0dfa7e76a03bf5ac4537588
