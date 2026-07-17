@@ -4638,3 +4638,6 @@ clean_list:
 - CVE-2026-46726
 - secveri-cve-2026-50011-positive
 - IonStack-CVE-2026-43499-jinghu
+- CVE-2026-43499_OPPO-MT6835
+- xi-sem.github.io
+- CVE-2026-55579
