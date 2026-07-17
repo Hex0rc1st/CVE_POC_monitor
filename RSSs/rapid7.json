@@ -918,5 +918,10 @@
         "title": "Sunsetting the Public AttackerKB Platform",
         "link": "https://www.rapid7.com/blog/post/ve-sunsetting-public-attackerkb-platform",
         "published": "Thu, 16 Jul 2026 13:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-58644: Microsoft SharePoint Server Unauthenticated Remote Code Execution Vulnerability Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-58644-microsoft-sharepoint-server-unauthenticated-remote-code-execution-vulnerability-exploited-in-the-wild",
+        "published": "Fri, 17 Jul 2026 18:18:53 GMT"
     }
 ]
