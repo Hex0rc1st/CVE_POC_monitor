@@ -5808,5 +5808,10 @@
         "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
         "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
         "published": "Sat, 18 Jul 2026 01:50:53 +0530"
+    },
+    {
+        "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+        "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+        "published": "Sat, 18 Jul 2026 02:50:10 +0530"
     }
 ]
