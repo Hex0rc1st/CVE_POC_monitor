@@ -1791,3 +1791,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497666&idx=1&sn=41
 奇安信cert::微软创纪录的漏洞补丁月意味了什么
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506691&idx=1&sn=948c5c08a0dfa7e76a03bf5ac4537588&chksm=ff6f4c528e40138ef8a096c8954f18ff0b861aa5d05cfbe23a73bb2b6526a75f2ca88587aff7&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506691&idx=1&sn=948c5c08a0dfa7e76a03bf5ac4537588
+360漏洞研究院::玩家加入房间即可触发远程攻击！《帝国时代II》曝高危 RCE 漏洞
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497675&idx=1&sn=e2ca15a6336da37a2f52dc40cad9ac13&chksm=c2756c511d957cac026e45f40e118673d5dc478e1aac4ed618923bc19c47e62acc00f4745008&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497675&idx=1&sn=e2ca15a6336da37a2f52dc40cad9ac13

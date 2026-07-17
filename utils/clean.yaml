@@ -4642,3 +4642,5 @@ clean_list:
 - xi-sem.github.io
 - CVE-2026-55579
 - kernel-c-to-rust-spike
+- CVE-2026-47323
+- CVE-2026-14266

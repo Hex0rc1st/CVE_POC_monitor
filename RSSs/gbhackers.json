@@ -8048,5 +8048,20 @@
         "title": "AnyDesk Zero-Day Flaw Allows Local Attackers to Trigger System-Wide Denial-of-Service",
         "link": "https://gbhackers.com/anydesk-zero-day-flaw/",
         "published": "Fri, 17 Jul 2026 05:00:20 +0000"
+    },
+    {
+        "title": "Hackers Use Paste-and-Run Commands to Deploy ClickLock Stealer Against Mac Users",
+        "link": "https://gbhackers.com/clicklock-stealer-against-mac-users/",
+        "published": "Fri, 17 Jul 2026 09:03:01 +0000"
+    },
+    {
+        "title": "GPT-5.6 Codex Reportedly Wipes Files From Home Directories",
+        "link": "https://gbhackers.com/gpt-5-6-codex-reportedly-wipes-files-from-home-directories/",
+        "published": "Fri, 17 Jul 2026 07:42:20 +0000"
+    },
+    {
+        "title": "GoSerpent Silently Steals Government Files for Weeks Before Sending Them to Hackers",
+        "link": "https://gbhackers.com/goserpent-steals-government-files/",
+        "published": "Fri, 17 Jul 2026 06:59:23 +0000"
     }
 ]
