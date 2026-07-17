@@ -5758,5 +5758,15 @@
         "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
         "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
         "published": "Fri, 17 Jul 2026 12:12:23 +0530"
+    },
+    {
+        "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+        "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+        "published": "Fri, 17 Jul 2026 14:26:39 +0530"
+    },
+    {
+        "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+        "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+        "published": "Fri, 17 Jul 2026 14:16:45 +0530"
     }
 ]

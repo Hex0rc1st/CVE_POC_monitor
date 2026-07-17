@@ -4644,3 +4644,6 @@ clean_list:
 - kernel-c-to-rust-spike
 - CVE-2026-47323
 - CVE-2026-14266
+- CVE-2026-14431
+- cve_2026_43499_sm-t878u
+- CVE-2026-48203
