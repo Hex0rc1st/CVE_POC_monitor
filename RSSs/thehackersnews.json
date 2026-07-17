@@ -5803,5 +5803,10 @@
         "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
         "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
         "published": "Sat, 18 Jul 2026 00:24:51 +0530"
+    },
+    {
+        "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+        "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+        "published": "Sat, 18 Jul 2026 01:50:53 +0530"
     }
 ]
