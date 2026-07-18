@@ -219,3 +219,4 @@ https://github.com/47Cid/wp2shell-lab
 https://github.com/XaocZenon/CVE-2026-20896
 https://github.com/dinosn/wp2shell-lab
 https://github.com/NULL200OK/WP2Shell
+https://github.com/BuSung-dev/Root-My-Galaxy
