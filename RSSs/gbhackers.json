@@ -8103,5 +8103,25 @@
         "title": "CISA Warns of Two Fortinet FortiSandbox Flaws Exploited to Execute Commands",
         "link": "https://gbhackers.com/cisa-warns-of-two-fortinet-fortisandbox-flaws/",
         "published": "Fri, 17 Jul 2026 09:19:00 +0000"
+    },
+    {
+        "title": "Critical WordPress Core Flaw Lets Anonymous Hackers Gain Remote Code Execution",
+        "link": "https://gbhackers.com/critical-wordpress-core-flaw/",
+        "published": "Sat, 18 Jul 2026 08:47:43 +0000"
+    },
+    {
+        "title": "EY Data Breach – Hackers Access Third-Party IT Support Platform and Steal Client Tax Documents",
+        "link": "https://gbhackers.com/ey-data-breach-third-party-it-support-tax-documents/",
+        "published": "Sat, 18 Jul 2026 08:16:55 +0000"
+    },
+    {
+        "title": "OpenSSL DoS Vulnerability Lets Remote Attackers Exhaust Server Memory With an 11-Byte Payload",
+        "link": "https://gbhackers.com/openssl-dos-vulnerability/",
+        "published": "Sat, 18 Jul 2026 07:33:38 +0000"
+    },
+    {
+        "title": "Citrix Secure Access Client Flaw Lets Low-Privileged Windows Users Gain SYSTEM Privileges",
+        "link": "https://gbhackers.com/citrix-secure-access-client-flaw/",
+        "published": "Sat, 18 Jul 2026 06:46:38 +0000"
     }
 ]

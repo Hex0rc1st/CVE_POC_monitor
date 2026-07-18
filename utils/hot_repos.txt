@@ -215,3 +215,4 @@ https://github.com/BuSung-dev/CVE-2026-43499-S25U
 https://github.com/DavidCarliez/CVE-2026-58635-PoC
 https://github.com/Shirouuu/CVE-2025-8110-gogs-poc
 https://github.com/karollooool/CVE-2026-50416-writeup-and-poc
+https://github.com/47Cid/wp2shell-lab

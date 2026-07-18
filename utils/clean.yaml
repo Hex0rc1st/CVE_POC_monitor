@@ -4667,3 +4667,6 @@ clean_list:
 - badepoll-selinux-disabler
 - CVE-2026-41940-analysis
 - GhostLock-for-OnePlus
+- ghostlock-selinux-disabler
+- WP2Shell
+- smt878u-ionstack-poc
