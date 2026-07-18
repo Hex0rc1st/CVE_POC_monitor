@@ -4655,3 +4655,11 @@ clean_list:
 - cve-2026-43499
 - CVE-2026-15583
 - cve-2026-47777
+- wordpress-cve-2026-63030
+- wp2shell-cve-2026-63030-root-cause
+- vivo-x-fold6-ghostlock
+- merge-authz-test
+- android-selinux-disabler
+- CVE-2026-44262-
+- wp2shell-lab
+- CVE-2026-63030
