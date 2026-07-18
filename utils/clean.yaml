@@ -4670,3 +4670,5 @@ clean_list:
 - ghostlock-selinux-disabler
 - WP2Shell
 - smt878u-ionstack-poc
+- zephyr-lwm2m-firmware-update-oob-read-cve-2026-10672-truncated-package-uri
+- zero2shell-50
