@@ -4663,3 +4663,7 @@ clean_list:
 - CVE-2026-44262-
 - wp2shell-lab
 - CVE-2026-63030
+- wp2shell
+- badepoll-selinux-disabler
+- CVE-2026-41940-analysis
+- GhostLock-for-OnePlus
