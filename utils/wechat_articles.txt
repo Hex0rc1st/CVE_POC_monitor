@@ -1801,3 +1801,6 @@ https://mp.weixin.qq.com/s/oFe4Iv_iKPiI51itrWEowA
 360漏洞研究院::用友 YonBIP 高级版及NC Cloud datacollectservlet 接口存在RCE漏洞
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497684&idx=1&sn=59b736c6c04f071c9ff71d204fba97a0&chksm=c2644ef7d99fb72b61344eb7cc85416b08d517fd880e985dc40701341e8b1cedf7414c8e4022&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497684&idx=1&sn=59b736c6c04f071c9ff71d204fba97a0
+长亭安全应急响应中心::【已复现】无需账号、默认配置即可 getshell——WordPress Core 远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493240&idx=1&sn=ea02a6459d38e2e217e4863121873578&chksm=972d6b37ba93011017f885642139a9847311ffa6bd7a34dd800ed1f462a05cb17ad417e63fb9&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493240&idx=1&sn=ea02a6459d38e2e217e4863121873578
