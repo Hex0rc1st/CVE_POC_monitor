@@ -4675,3 +4675,5 @@ clean_list:
 - CVE-2026-43499-For-Xiaomi-17T-chagall
 - CVE-2026-51385
 - CVE-2026-39200
+- Wp2Shell
+- CVE-2026-46215-exploit-linux-7.0-uaf-stable
