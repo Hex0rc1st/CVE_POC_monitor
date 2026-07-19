@@ -5823,5 +5823,10 @@
         "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
         "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
         "published": "Sun, 19 Jul 2026 18:48:56 +0530"
+    },
+    {
+        "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+        "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+        "published": "Mon, 20 Jul 2026 02:12:49 +0530"
     }
 ]
