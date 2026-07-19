@@ -223,3 +223,4 @@ https://github.com/BuSung-dev/Root-My-Galaxy
 https://github.com/Icex0/wp2shell-poc
 https://github.com/0xsha/wp2shell
 https://github.com/ZephrFish/wp2shell-scanner
+https://github.com/codeb0ssx/Ultimate-wp2shell

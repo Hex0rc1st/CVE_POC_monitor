@@ -4677,3 +4677,7 @@ clean_list:
 - CVE-2026-39200
 - Wp2Shell
 - CVE-2026-46215-exploit-linux-7.0-uaf-stable
+- CVE-2026-56290_PoC
+- wp2shell-scanner
+- CVE-Writeups
+- CVE-2026-48907_PoC
