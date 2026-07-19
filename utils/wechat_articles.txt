@@ -1804,3 +1804,6 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497684&idx=1&sn=59
 长亭安全应急响应中心::【已复现】无需账号、默认配置即可 getshell——WordPress Core 远程代码执行漏洞
 http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493240&idx=1&sn=ea02a6459d38e2e217e4863121873578&chksm=972d6b37ba93011017f885642139a9847311ffa6bd7a34dd800ed1f462a05cb17ad417e63fb9&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493240&idx=1&sn=ea02a6459d38e2e217e4863121873578
+360漏洞研究院::非插件漏洞，WordPress 未授权 SQL 注入漏洞链可导致RCE
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497694&idx=1&sn=adb7cec152fdfb5c36a66805f42f11a5&chksm=c231de25c36df4cbc3368f5cf55dfae06d2de4a37d75d92cb85feb67f8b03661c17c6543185a&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497694&idx=1&sn=adb7cec152fdfb5c36a66805f42f11a5
