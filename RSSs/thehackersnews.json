@@ -5813,5 +5813,15 @@
         "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
         "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
         "published": "Sat, 18 Jul 2026 02:50:10 +0530"
+    },
+    {
+        "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+        "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+        "published": "Sun, 19 Jul 2026 19:00:55 +0530"
+    },
+    {
+        "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+        "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+        "published": "Sun, 19 Jul 2026 18:48:56 +0530"
     }
 ]

@@ -4684,3 +4684,4 @@ clean_list:
 - Langflow-cve-2026-33017-exploit
 - CVE-2025-64512
 - wp2shell-compromise-scanner-plugin
+- CVE-2026-43499-cloudflare-gate
