@@ -4683,3 +4683,4 @@ clean_list:
 - CVE-2026-48907_PoC
 - Langflow-cve-2026-33017-exploit
 - CVE-2025-64512
+- wp2shell-compromise-scanner-plugin
