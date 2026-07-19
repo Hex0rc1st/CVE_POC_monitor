@@ -226,3 +226,4 @@ https://github.com/ZephrFish/wp2shell-scanner
 https://github.com/codeb0ssx/Ultimate-wp2shell
 https://github.com/4minx/CVE-2026-63030
 https://github.com/bahartanir/wp2shell-scanner
+https://github.com/yellowkey-bitlocker/YellowKey-Bitlocker
