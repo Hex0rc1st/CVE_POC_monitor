@@ -1807,3 +1807,6 @@ https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493240&idx=1&sn=ea
 360漏洞研究院::非插件漏洞，WordPress 未授权 SQL 注入漏洞链可导致RCE
 http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497694&idx=1&sn=adb7cec152fdfb5c36a66805f42f11a5&chksm=c231de25c36df4cbc3368f5cf55dfae06d2de4a37d75d92cb85feb67f8b03661c17c6543185a&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497694&idx=1&sn=adb7cec152fdfb5c36a66805f42f11a5
+奇安信cert::【已复现】无需账号密码即可 RCE——WordPress REST API 批处理路由混淆与 SQL 注入组合利用安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506720&idx=1&sn=395e656dda950f7619cc76f2d3e05d1e&chksm=ff698784dedd969c2df4431b4fa85e584e4243e8600863d3189055924a45e0ee87b355b97782&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506720&idx=1&sn=395e656dda950f7619cc76f2d3e05d1e
