@@ -4696,3 +4696,5 @@ clean_list:
 - wp2shell-poc
 - CVE-2026-60121-CVE-2026-61498
 - sxwp2shell
+- CVE-2026-5029-Exploit
+- CVE-2026-49086

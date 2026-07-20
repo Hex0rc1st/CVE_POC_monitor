@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "默认配置即可触发——Fastjson 1.2.83 远程代码执行漏洞(QVD-2026-43021)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-07-20",
+  "table_fields": {
+    "漏洞名称": "Fastjson 1.2.83 远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-43021",
+    "公开时间": "2026-07-20",
+    "影响量级": "百万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "9.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "未公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "未公开",
+    "技术细节状态": "未公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-07-20 20:15 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Fastjson 是阿里巴巴开源的一款高性能 Java JSON 解析库，以其出色的解析速度和简洁的 API 设计在国内Java生态系统中占据主导地位，广泛应用于企业后端服务、微服务网关、数据接口层等核心业务场景。该库支持将 Java 对象序列化为 JSON 字符串，以及将 JSON 字符串反序列化为 Java 对象，提供了丰富的配置选项和扩展能力，被大量国内企业和开发者集成到各类 Web 应用、API 接口和中间件系统中，是 Java 领域使用最广泛的 JSON 处理组件之一。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到Fastjson 1.2.83 远程代码执行漏洞(QVD-2026-43021)，该漏洞源于组件反序列化内部类型校验逻辑存在缺陷，突破传统 AutoType 黑白名单防护机制；仅未开启 SafeMode 的实例可被攻击，且无需目标服务 classpath 存在任何第三方 gadget 利用类，传统删除危险依赖、更新黑名单的防御手段完全失效。攻击者可构造携带恶意 JSON 载荷，通过网络请求传入目标服务，触发 Fastjson 原生内部逻辑完成任意代码执行。 该漏洞无需攻击者获取账号权限、无需用户交互，默认配置即可触发，成功利用后攻击者可完全控制服务器，窃取业务数据、植入木马、横向渗透内网，造成核心业务沦陷、数据泄露等严重后果。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1.目标系统使用 Fastjson 1.2.83 或更早版本进行 JSON 解析处理。 2.目标系统接收并解析外部不可信的 JSON 输入数据（如 HTTP 请求体）。 3.目标系统未开启 SafeMode 模式或未完全禁用 AutoType 功能。 4.攻击者能够向目标系统发送构造的恶意 JSON 数据。 **影响范围** **>** **>** **>** **>** **影响版本** 1.2.68 ** **>** **>** **>** **其他受影响组件** 无 **处置建议** **>** **>** **>** **>** **安全更新** 官方暂未发布 1.x 系列的修复补丁。最根本的解决方案是评估业务影响后，将 Fastjson 迁移至不受此漏洞影响的 Fastjson 2.x 版本，以规避1.x系列存在的安全漏洞与反序列化风险。 升级地址: https://github.com/alibaba/fastjson2 注意: 升级前请务必备份数据， 按官方迁移指南调整 API 调用及配置，并在测试环境完成功能与性能验证，确保业务兼容性。 临时缓解措施： 启用安全模式 (SafeMode)：这是最有效的临时缓解方案，可以完全禁用 AutoType 功能。 代码配置：ParserConfig.getGlobalInstance().setSafeMode(true); JVM 参数：-Dfastjson.parser.safeMode=true 配置文件：fastjson.parser.safeMode=true",
+    "security_update": "官方暂未发布 1.x 系列的修复补丁。最根本的解决方案是评估业务影响后，将 Fastjson 迁移至不受此漏洞影响的 Fastjson 2.x 版本，以规避1.x系列存在的安全漏洞与反序列化风险。 升级地址: https://github.com/alibaba/fastjson2 注意: 升级前请务必备份数据， 按官方迁移指南调整 API 调用及配置，并在测试环境完成功能与性能验证，确保业务兼容性。 临时缓解措施： 启用安全模式 (SafeMode)：这是最有效的临时缓解方案，可以完全禁用 AutoType 功能。 代码配置：ParserConfig.getGlobalInstance().setSafeMode(true); JVM 参数：-Dfastjson.parser.safeMode=true 配置文件：fastjson.parser.safeMode=true",
+    "component_text": "Fastjson 是阿里巴巴开源的一款高性能 Java JSON 解析库，以其出色的解析速度和简洁的 API 设计在国内Java生态系统中占据主导地位，广泛应用于企业后端服务、微服务网关、数据接口层等核心业务场景。该库支持将 Java 对象序列化为 JSON 字符串，以及将 JSON 字符串反序列化为 Java 对象，提供了丰富的配置选项和扩展能力，被大量国内企业和开发者集成到各类 Web 应用、API 接口和中间件系统中，是 Java 领域使用最广泛的 JSON 处理组件之一。",
+    "vulnerability_text": "近日，安全团队监测到Fastjson 1.2.83 远程代码执行漏洞(QVD-2026-43021)，该漏洞源于组件反序列化内部类型校验逻辑存在缺陷，突破传统 AutoType 黑白名单防护机制；仅未开启 SafeMode 的实例可被攻击，且无需目标服务 classpath 存在任何第三方 gadget 利用类，传统删除危险依赖、更新黑名单的防御手段完全失效。攻击者可构造携带恶意 JSON 载荷，通过网络请求传入目标服务，触发 Fastjson 原生内部逻辑完成任意代码执行。 该漏洞无需攻击者获取账号权限、无需用户交互，默认配置即可触发，成功利用后攻击者可完全控制服务器，窃取业务数据、植入木马、横向渗透内网，造成核心业务沦陷、数据泄露等严重后果。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 利用条件 1.目标系统使用 Fastjson 1.2.83 或更早版本进行 JSON 解析处理。 2.目标系统接收并解析外部不可信的 JSON 输入数据（如 HTTP 请求体）。 3.目标系统未开启 SafeMode 模式或未完全禁用 AutoType 功能。 4.攻击者能够向目标系统发送构造的恶意 JSON 数据。",
+    "affected_versions_text": "1.2.68 <= Fastjson 1.x <= 1.2.83",
+    "plain_text": "安全团队 2026-07-20 20:15 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Fastjson 是阿里巴巴开源的一款高性能 Java JSON 解析库，以其出色的解析速度和简洁的 API 设计在国内Java生态系统中占据主导地位，广泛应用于企业后端服务、微服务网关、数据接口层等核心业务场景。该库支持将 Java 对象序列化为 JSON 字符串，以及将 JSON 字符串反序列化为 Java 对象，提供了丰富的配置选项和扩展能力，被大量国内企业和开发者集成到各类 Web 应用、API 接口和中间件系统中，是 Java 领域使用最广泛的 JSON 处理组件之一。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到Fastjson 1.2.83 远程代码执行漏洞(QVD-2026-43021)，该漏洞源于组件反序列化内部类型校验逻辑存在缺陷，突破传统 AutoType 黑白名单防护机制；仅未开启 SafeMode 的实例可被攻击，且无需目标服务 classpath 存在任何第三方 gadget 利用类，传统删除危险依赖、更新黑名单的防御手段完全失效。攻击者可构造携带恶意 JSON 载荷，通过网络请求传入目标服务，触发 Fastjson 原生内部逻辑完成任意代码执行。 该漏洞无需攻击者获取账号权限、无需用户交互，默认配置即可触发，成功利用后攻击者可完全控制服务器，窃取业务数据、植入木马、横向渗透内网，造成核心业务沦陷、数据泄露等严重后果。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1.目标系统使用 Fastjson 1.2.83 或更早版本进行 JSON 解析处理。 2.目标系统接收并解析外部不可信的 JSON 输入数据（如 HTTP 请求体）。 3.目标系统未开启 SafeMode 模式或未完全禁用 AutoType 功能。 4.攻击者能够向目标系统发送构造的恶意 JSON 数据。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 1.2.68 ** **>** **>** **>** **其他受影响组件** 无 **03** **处置建议** **>** **>** **>** **>** **安全更新** 官方暂未发布 1.x 系列的修复补丁。最根本的解决方案是评估业务影响后，将 Fastjson 迁移至不受此漏洞影响的 Fastjson 2.x 版本，以规避1.x系列存在的安全漏洞与反序列化风险。 升级地址: https://github.com/alibaba/fastjson2 注意: 升级前请务必备份数据， 按官方迁移指南调整 API 调用及配置，并在测试环境完成功能与性能验证，确保业务兼容性。 临时缓解措施： 启用安全模式 (SafeMode)：这是最有效的临时缓解方案，可以完全禁用 AutoType 功能。 代码配置：ParserConfig.getGlobalInstance().setSafeMode(true); JVM 参数：-Dfastjson.parser.safeMode=true 配置文件：fastjson.parser.safeMode=true **04** **参考资料** [1]https://x.com/k_firsov/status/2078872296476057713 **05** **时间线** 2026年07月20日，安全团队发布安全风险通告。 **06** **漏洞情报服务** 「 安全团队漏洞情报平台 」 重磅上线，诚邀您来体验： ![图片][0] ![图片][1] ![图片][2] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://x.com/k_firsov/status/2078872296476057713"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://x.com/k_firsov/status/2078872296476057713",
+      "content": "Kirill Firsov on X: \"Confirmed across 1.2.68-&gt; 1.2.83. What makes it dangerous: no gadget dependency at all. It doesn't matter which libraries the target ships or how locked-down the classpath is - the usual \"remove the vulnerable class\" mitigations simply don't apply here.\" / X Post Log in Sign up Post Kirill Firsov @k_firsov Replying to @k_firsov Confirmed across 1.2.68-> 1.2.83. What makes it dangerous: no gadget dependency at all. It doesn't matter which libraries the target ships or how locked-down the classpath is - the usual \"remove the vulnerable class\" mitigations simply don't apply here. 3:59 PM · Jul 19, 2026 7K Views 2 0 2 11 0 1 1 Read 2 replies New to X? Sign up now to get your own personalized timeline! Sign up with Google Sign up with Apple Create account By signing up, you agree to the Terms of Service and Privacy Policy , including Cookie Use. Relevant people Kirill Firsov @ k_firsov Follow Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. Don't miss what's happening People on X are the first to know. Log in Sign up Trending now"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Fastjson 1.2.83远程代码执行漏洞",
+    "vulner_number_1": "",
+    "vulner_number_2": "",
+    "new_vulner_name": "Fastjson 1.2.83远程代码执行漏洞",
+    "vulner_date": "2026年7月20日",
+    "vulner_time_line": "2026/07/20",
+    "object_name": "Fastjson",
+    "object_desc": "Fastjson 是阿里巴巴开源的 Java JSON 解析库，主要提供 JSON 格式数据的序列化与反序列化功能，支持 Java 对象与 JSON 字符串之间的高效转换。该库因性能优异而广泛应用于 Java Web 服务、数据存储及接口交互等场景。",
+    "vulner_version": "1.2.68 ≤ Fastjson ≤ 1.2.83",
+    "vulner_type": "远程代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "未开启 SafeMode 且未完全禁用 AutoType",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "高",
+    "vuln_level": "高危",
+    "vulner_desc": "Fastjson 1.2.83 存在远程代码执行漏洞（QVD-2026-43021），该漏洞源于组件反序列化过程中内部类型校验逻辑存在缺陷，攻击者可构造恶意 JSON 载荷突破 AutoType 黑白名单防护机制。成功利用此漏洞无需目标服务 classpath 存在任何第三方 gadget 利用类，传统的删除危险依赖或更新黑名单等防御手段对此漏洞完全失效。攻击者通过向目标系统发送恶意构造的 JSON 数据，即可触发框架原生逻辑执行任意代码。在未开启 SafeMode 的默认配置下，攻击者即可实现服务器完全控制。",
+    "official_solution": "建议迁移至 Fastjson 2.x 以彻底规避 1.x 系列漏洞风险，临时可启用安全模式禁用 AutoType 功能。 修复方式：迁移至 Fastjson 2.x；临时缓解：启用 SafeMode（代码配置 ParserConfig.getGlobalInstance().setSafeMode(true) 或 JVM 参数 -Dfastjson.parser.safeMode=true）。\n下载链接：https://github.com/alibaba/fastjson2",
+    "reference_link": "https://x.com/k_firsov/status/2078872296476057713",
+    "reference_link1": "https://github.com/alibaba/fastjson2",
+    "reference_link2": "https://github.com/alibaba/fastjson2/releases"
+  }
+}

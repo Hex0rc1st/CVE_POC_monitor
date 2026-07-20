@@ -1078,5 +1078,10 @@
         "title": "What questions should you ask a vendor before buying an automated pentesting tool?",
         "link": "https://www.picussecurity.com/resource/blog/what-questions-should-you-ask-a-vendor-before-buying-an-automated-pentesting-tool",
         "published": "Mon, 20 Jul 2026 06:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-63030 and CVE-2026-60137 (wp2shell): WordPress RCE Explained",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-63030-and-cve-2026-60137-wp2shell-wordpress-rce-explained",
+        "published": "Mon, 20 Jul 2026 11:33:20 GMT"
     }
 ]

@@ -1810,3 +1810,12 @@ https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497694&idx=1&sn=ad
 奇安信cert::【已复现】无需账号密码即可 RCE——WordPress REST API 批处理路由混淆与 SQL 注入组合利用安全风险通告
 http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506720&idx=1&sn=395e656dda950f7619cc76f2d3e05d1e&chksm=ff698784dedd969c2df4431b4fa85e584e4243e8600863d3189055924a45e0ee87b355b97782&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506720&idx=1&sn=395e656dda950f7619cc76f2d3e05d1e
+360漏洞研究院::【安全预警】Fastjson 1.2.83 无需 Gadget 远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497703&idx=1&sn=a12eb2516731dc41232c385912dca5aa&chksm=c290b93ad63528982dee13e7541962e40f5b6246092e8296ae1c00b9d926fad8b37234f41dfa&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497703&idx=1&sn=a12eb2516731dc41232c385912dca5aa
+奇安信cert::默认配置即可触发——Fastjson 1.2.83 远程代码执行漏洞(QVD-2026-43021)安全风险通告
+http://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ==&mid=2247506826&idx=1&sn=698026bd2f9f9bcb779983f6d24a6bb0&chksm=ff38d14cb4e742f473095659fb3c11c308d095cb596e63f85409faab02474e3b006cac3c1e26&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506826&idx=1&sn=698026bd2f9f9bcb779983f6d24a6bb0
+长亭安全应急响应中心::【已复现】无需 gadget、黑名单失效--Fastjson 1.2.83 远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493249&idx=1&sn=117bdf1acec5e7493910c2335141d0c5&chksm=9724795991bd29e2ee1356adce1aa55098ae1be8d71f9c5603a91732424a478991c4aca4882f&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493249&idx=1&sn=117bdf1acec5e7493910c2335141d0c5
