@@ -1822,3 +1822,6 @@ https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493249&idx=1&sn=11
 微步在线研究响应中心::已复现 | Fastjson 远程代码执行漏洞
 http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508765&idx=1&sn=85045c797b884bb9e4f0c5a29224178f&chksm=ce25b23848d767cc8db414b99b7a095da79ff5ba157c38cbf5b866da79299e545a08e325bfbd&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508765&idx=1&sn=85045c797b884bb9e4f0c5a29224178f
+360漏洞研究院::【已复现】Fastjson 1.2.83 无需 Gadget 远程代码执行漏洞二次更新
+http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497710&idx=1&sn=4242954be62603ebac46c2aab7bdb09b&chksm=c2062afdbb91052ac79946c6f2e0be1a14e3546361dcf39402fd43f2897f10b54aa6bebb93da&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497710&idx=1&sn=4242954be62603ebac46c2aab7bdb09b

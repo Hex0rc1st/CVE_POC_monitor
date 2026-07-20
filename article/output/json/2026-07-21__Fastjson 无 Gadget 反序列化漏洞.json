@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Fastjson 1.2.83 无需 Gadget 远程代码执行漏洞二次更新",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-07-21",
+  "table_fields": {
+    "漏洞名称": "Fastjson 无 Gadget 远程代码执行漏洞",
+    "漏洞编号": "LDYVUL-2026-00130847",
+    "公开时间": "2026-07-20",
+    "POC状态": "未公开",
+    "漏洞类型": "反序列化",
+    "EXP状态": "未公开",
+    "利用可能性": "高",
+    "技术细节状态": "未公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-07-21 00:32 Fastjson 1.x 曝出无需 Gadget 依赖的远程代码执行漏洞，攻击者通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，实现服务器远程代码执行。该漏洞突破传统依赖 Gadget 类和黑名单过滤的防护方式，可能导致服务器权限获取、敏感数据泄露等安全风险。 **利用前置条件：** - 攻击者能够通过网络访问使用 Fastjson 的应用接口 - 目标环境未启用 Fastjson SafeMode 安全模式 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **漏洞影响范围****** 受影响的软件版本： Fastjson <= 1.2.83 **修复建议****** **防护方案** 建议升级至 Fastjson 2.x 系列版本，避免继续使用存在安全风险的 Fastjson 1.x 分支。升级前需根据官方迁移指南完成兼容性测试。 **缓解措施** 对无法立即升级的 Fastjson 1.x 环境，建议启用 Fastjson SafeMode 安全模式，关闭危险类型解析能力。 启用方式： - 通过代码启用：ParserConfig.getGlobalInstance().setSafeMode(true); - 通过 JVM 参数启用：-Dfastjson.parser.safeMode=true - 通过配置文件启用：fastjson.parser.safeMode=true **漏洞描述** 近日，安全研究人员披露了 Fastjson 中存在的远程代码执行漏洞。该漏洞源于 Fastjson 内部类型处理机制存在安全缺陷，通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，实现远程代码执行。 安全研究员 Kirill Firsov 在 X 上分享的 RCE 利用演示 **漏洞复现****** 安全研究团队已成功复现 Fastjson 无 Gadget 远程代码执行漏洞。通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，在目标环境中成功执行系统命令，并启动计算器程序，验证了攻击者可利用该漏洞实现远程代码执行。 Fastjson 无 Gadget 远程代码执行漏洞复现 **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **时间线** 2026年7月20日，安全研究团队发布首次安全风险预警。 2026年7月21日，安全研究团队更新二次安全风险通告。",
+    "security_update": "防护方案 建议升级至 Fastjson 2.x 系列版本，避免继续使用存在安全风险的 Fastjson 1.x 分支。升级前需根据官方迁移指南完成兼容性测试。 缓解措施 对无法立即升级的 Fastjson 1.x 环境，建议启用 Fastjson SafeMode 安全模式，关闭危险类型解析能力。 启用方式： - 通过代码启用：ParserConfig.getGlobalInstance().setSafeMode(true); - 通过 JVM 参数启用：-Dfastjson.parser.safeMode=true - 通过配置文件启用：fastjson.parser.safeMode=true",
+    "component_text": "",
+    "vulnerability_text": "近日，安全研究人员披露了 Fastjson 中存在的远程代码执行漏洞。该漏洞源于 Fastjson 内部类型处理机制存在安全缺陷，通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，实现远程代码执行。 安全研究员 Kirill Firsov 在 X 上分享的 RCE 利用演示 漏洞复现 安全研究团队已成功复现 Fastjson 无 Gadget 远程代码执行漏洞。通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，在目标环境中成功执行系统命令，并启动计算器程序，验证了攻击者可利用该漏洞实现远程代码执行。 Fastjson 无 Gadget 远程代码执行漏洞复现 产品侧支持情况 360安全智能体： 支持该漏洞攻击的智能分析 。 360测绘云 Quake ：默认支持该产品的指纹识别。 360高级持续性威胁预警系统 ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 360资产与漏洞检测管理系统 ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 本地安全大脑 ：默认支持该漏洞的PoC检测。",
+    "affected_versions_text": "Fastjson <= 1.2.83",
+    "plain_text": "安全研究团队 安全研究团队 2026-07-21 00:32 Fastjson 1.x 曝出无需 Gadget 依赖的远程代码执行漏洞，攻击者通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，实现服务器远程代码执行。该漏洞突破传统依赖 Gadget 类和黑名单过滤的防护方式，可能导致服务器权限获取、敏感数据泄露等安全风险。 **利用前置条件：** - 攻击者能够通过网络访问使用 Fastjson 的应用接口 - 目标环境未启用 Fastjson SafeMode 安全模式 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、修复方案、技术原理与复现细节，建议用户立即升级。 **01** **漏洞影响范围****** 受影响的软件版本： Fastjson <= 1.2.83 **02** **修复建议****** **防护方案** 建议升级至 Fastjson 2.x 系列版本，避免继续使用存在安全风险的 Fastjson 1.x 分支。升级前需根据官方迁移指南完成兼容性测试。 **缓解措施** 对无法立即升级的 Fastjson 1.x 环境，建议启用 Fastjson SafeMode 安全模式，关闭危险类型解析能力。 启用方式： - 通过代码启用：ParserConfig.getGlobalInstance().setSafeMode(true); - 通过 JVM 参数启用：-Dfastjson.parser.safeMode=true - 通过配置文件启用：fastjson.parser.safeMode=true **03** **漏洞描述** 近日，安全研究人员披露了 Fastjson 中存在的远程代码执行漏洞。该漏洞源于 Fastjson 内部类型处理机制存在安全缺陷，通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，实现远程代码执行。 安全研究员 Kirill Firsov 在 X 上分享的 RCE 利用演示 **04** **漏洞复现****** 安全研究团队已成功复现 Fastjson 无 Gadget 远程代码执行漏洞。通过构造恶意 JSON 数据触发 Fastjson 内部执行逻辑，在目标环境中成功执行系统命令，并启动计算器程序，验证了攻击者可利用该漏洞实现远程代码执行。 Fastjson 无 Gadget 远程代码执行漏洞复现 **05** **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年7月22日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **06** **时间线** 2026年7月20日，安全研究团队发布首次安全风险预警。 2026年7月21日，安全研究团队更新二次安全风险通告。 **07** 参考链接 https://x.com/k_firsov/status/2078872293745570032 08 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://x.com/k_firsov/status/2078872293745570032"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://x.com/k_firsov/status/2078872293745570032",
+      "content": "Kirill Firsov on X: \"We found a gadget-free RCE in Fastjson 1.2.83 - the final release of the 1.x line, and still one of the most widely-deployed Java JSON libraries in production today, even with 2.x around. No classpath gadget. One payload-&gt; RCE. https://t.co/8pbjl1M8y7\" / X Post Log in Sign up Post Kirill Firsov @k_firsov We found a gadget-free RCE in Fastjson 1.2.83 - the final release of the 1.x line, and still one of the most widely-deployed Java JSON libraries in production today, even with 2.x around. No classpath gadget. One payload-> RCE. 00:00 3:59 PM · Jul 19, 2026 61.4K Views 40 0 4 0 78 0 7 8 404 0 4 0 4 172 0 1 7 2 Read 40 replies New to X? Sign up now to get your own personalized timeline! Sign up with Google Sign up with Apple Create account By signing up, you agree to the Terms of Service and Privacy Policy , including Cookie Use. Relevant people Kirill Firsov @ k_firsov Follow Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. Don't miss what's happening People on X are the first to know. Log in Sign up Trending now"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Fastjson 无 Gadget 反序列化漏洞",
+    "vulner_number_1": "",
+    "vulner_number_2": "",
+    "new_vulner_name": "Fastjson 无 Gadget 反序列化漏洞",
+    "vulner_date": "2026年7月21日",
+    "vulner_time_line": "2026/07/21",
+    "object_name": "Fastjson",
+    "object_desc": "Fastjson 是阿里巴巴开源的 Java 语言高性能 JSON 解析库，主要用于 JSON 数据的序列化与反序列化操作。该组件提供高效的解析性能和简洁的 API 接口，广泛应用于 Java Web 服务、API 数据传输及配置文件处理等场景。",
+    "vulner_version": "Fastjson ≤ 1.2.83",
+    "vulner_type": "反序列化",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "攻击者能够访问使用 Fastjson 解析 JSON 数据的应用接口，且目标环境未启用 SafeMode 安全模式",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "可导致服务器权限被非法获取、敏感数据泄露",
+    "vuln_level": "严重",
+    "vulner_desc": "Fastjson 1.2.83（1.x系列最终版本）存在远程代码执行漏洞。该漏洞位于JSON解析时的内部类型处理机制，攻击者通过构造恶意JSON载荷可触发反序列化流程，无需依赖任何第三方Gadget即可在目标系统上执行任意命令。",
+    "official_solution": "升级至 Fastjson 2.x 系列或启用 SafeMode 安全模式\n修复版本：Fastjson 2.x 系列；SafeMode 启用方式：代码 ParserConfig.getGlobalInstance().setSafeMode(true)、JVM 参数 -Dfastjson.parser.safeMode=true、配置文件 fastjson.parser.safeMode=true\n下载链接：https://github.com/alibaba/fastjson2/releases",
+    "reference_link": "https://x.com/k_firsov/status/2078872293745570032",
+    "reference_link1": "https://t.co/8pbjl1M8y7\"",
+    "reference_link2": ""
+  }
+}
