@@ -8123,5 +8123,45 @@
         "title": "Citrix Secure Access Client Flaw Lets Low-Privileged Windows Users Gain SYSTEM Privileges",
         "link": "https://gbhackers.com/citrix-secure-access-client-flaw/",
         "published": "Sat, 18 Jul 2026 06:46:38 +0000"
+    },
+    {
+        "title": "U.S. Charges Three Russian Nationals Over International Cyberattacks Costing Victims More Than $62 Million",
+        "link": "https://gbhackers.com/u-s-charges-three-russian-nationals/",
+        "published": "Mon, 20 Jul 2026 06:42:21 +0000"
+    },
+    {
+        "title": "PENTDEM AI Pentesting Daemon Uses 34 Security Tools to Automate WAF Bypass and Attack Chains",
+        "link": "https://gbhackers.com/pentdem-ai-pentesting-daemon-uses-34-security-tools/",
+        "published": "Mon, 20 Jul 2026 06:21:32 +0000"
+    },
+    {
+        "title": "Weekly Cybersecurity Newsletter – The 50 Biggest Cybersecurity Stories – Microsoft Patch, AI Attack, Exploits Releases, Data Breaches & More",
+        "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-july-13-17-2026/",
+        "published": "Mon, 20 Jul 2026 06:08:29 +0000"
+    },
+    {
+        "title": "GoldenEyeDog Threat Group Behind DigiCert Code-Signing Certificate Attack",
+        "link": "https://gbhackers.com/goldeneyedog-threat-group/",
+        "published": "Mon, 20 Jul 2026 06:03:57 +0000"
+    },
+    {
+        "title": "Kimai Docker Vulnerability Exposes Default APP_SECRET, Enabling Account Takeover",
+        "link": "https://gbhackers.com/kimai-docker-vulnerability-exposes-default-app_secret/",
+        "published": "Mon, 20 Jul 2026 05:53:31 +0000"
+    },
+    {
+        "title": "North Korean Contagious Interview Campaign Hides OTTERCOOKIE Malware in SVG Images",
+        "link": "https://gbhackers.com/ottercookie-malware-in-svg-images/",
+        "published": "Mon, 20 Jul 2026 05:39:02 +0000"
+    },
+    {
+        "title": "Furtex Linux Toolkit Uses io_uring and eBPF to Bypass EDR and Falco Detection",
+        "link": "https://gbhackers.com/furtex-linux-toolkit/",
+        "published": "Mon, 20 Jul 2026 05:31:59 +0000"
+    },
+    {
+        "title": "Hugging Face Security Breach Exposes Internal Datasets, Credentials, and Tokens",
+        "link": "https://gbhackers.com/hugging-face-security-breach-exposes-internal-datasets/",
+        "published": "Mon, 20 Jul 2026 04:35:52 +0000"
     }
 ]

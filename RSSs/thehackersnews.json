@@ -5828,5 +5828,15 @@
         "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
         "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
         "published": "Mon, 20 Jul 2026 02:12:49 +0530"
+    },
+    {
+        "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+        "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+        "published": "Mon, 20 Jul 2026 10:57:26 +0530"
+    },
+    {
+        "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+        "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+        "published": "Mon, 20 Jul 2026 10:45:39 +0530"
     }
 ]

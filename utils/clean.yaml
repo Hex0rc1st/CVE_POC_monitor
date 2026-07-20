@@ -4686,3 +4686,9 @@ clean_list:
 - wp2shell-compromise-scanner-plugin
 - CVE-2026-43499-cloudflare-gate
 - nginx-map-risk-audit
+- CVE-2025-57819-POC
+- EXPLOIT-CVE-2026-63030
+- wp2shell-checker
+- ghostlock-vagrant-box
+- CVE-2026-48206
+- CVE-2026-4858
