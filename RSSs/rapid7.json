@@ -933,5 +933,10 @@
         "title": "CVE-2026-63030: wp2shell a Critical Remote Code Execution Vulnerability in WordPress Core",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63030-wp2shell-a-critical-remote-code-execution-vulnerability-in-wordpress-core",
         "published": "Fri, 17 Jul 2026 22:23:03 GMT"
+    },
+    {
+        "title": "From a Single Alert to 1,000 Files: Inside an Exposed WebDAV Malware Delivery Lab",
+        "link": "https://www.rapid7.com/blog/post/tr-exposed-webdav-malware-delivery-lab-analysis",
+        "published": "Mon, 20 Jul 2026 13:00:00 GMT"
     }
 ]

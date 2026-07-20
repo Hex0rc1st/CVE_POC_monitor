@@ -1819,3 +1819,6 @@ https://mp.weixin.qq.com/s?__biz=MzU5NDgxODU1MQ%3D%3D&mid=2247506826&idx=1&sn=69
 长亭安全应急响应中心::【已复现】无需 gadget、黑名单失效--Fastjson 1.2.83 远程代码执行漏洞
 http://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg==&mid=2247493249&idx=1&sn=117bdf1acec5e7493910c2335141d0c5&chksm=9724795991bd29e2ee1356adce1aa55098ae1be8d71f9c5603a91732424a478991c4aca4882f&scene=0&xtrack=1#rd
 https://mp.weixin.qq.com/s?__biz=MzIwMDk1MjMyMg%3D%3D&mid=2247493249&idx=1&sn=117bdf1acec5e7493910c2335141d0c5
+微步在线研究响应中心::已复现 | Fastjson 远程代码执行漏洞
+http://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw==&mid=2247508765&idx=1&sn=85045c797b884bb9e4f0c5a29224178f&chksm=ce25b23848d767cc8db414b99b7a095da79ff5ba157c38cbf5b866da79299e545a08e325bfbd&scene=0&xtrack=1#rd
+https://mp.weixin.qq.com/s?__biz=Mzg5MTc3ODY4Mw%3D%3D&mid=2247508765&idx=1&sn=85045c797b884bb9e4f0c5a29224178f
