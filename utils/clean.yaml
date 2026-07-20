@@ -4692,3 +4692,7 @@ clean_list:
 - ghostlock-vagrant-box
 - CVE-2026-48206
 - CVE-2026-4858
+- CVE-2026-49042
+- wp2shell-poc
+- CVE-2026-60121-CVE-2026-61498
+- sxwp2shell
