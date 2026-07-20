@@ -4685,3 +4685,4 @@ clean_list:
 - CVE-2025-64512
 - wp2shell-compromise-scanner-plugin
 - CVE-2026-43499-cloudflare-gate
+- nginx-map-risk-audit
