@@ -4700,3 +4700,5 @@ clean_list:
 - CVE-2026-49086
 - CVE-2026-41089-Netlogon-RCE
 - CVE-2026-13156
+- CVE-2026-42533
+- ScreenOff
