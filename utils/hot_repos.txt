@@ -230,3 +230,4 @@ https://github.com/yellowkey-bitlocker/YellowKey-Bitlocker
 https://github.com/own2pwn-fr/wp2shell-detect
 https://github.com/J4ck3LSyN-Gen2/CVE-2026-63030-wp2r00t
 https://github.com/ekomsSavior/wp2shell
+https://github.com/yellowkeys/YellowKey-Bitlocker-CVE-2026-45585

@@ -4698,3 +4698,5 @@ clean_list:
 - sxwp2shell
 - CVE-2026-5029-Exploit
 - CVE-2026-49086
+- CVE-2026-41089-Netlogon-RCE
+- CVE-2026-13156
