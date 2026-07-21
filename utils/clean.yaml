@@ -4713,3 +4713,6 @@ clean_list:
 - CVE-2026-43499-Redmi-Turbo5
 - CVE-2026-49365
 - CVE-2026-9198_exploit
+- CVE-2026-27654-PoC
+- CVE-2026-53913
+- CVE-2026-9973-exploit

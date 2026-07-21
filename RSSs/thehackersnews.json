@@ -5893,5 +5893,30 @@
         "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
         "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
         "published": "Tue, 21 Jul 2026 11:59:26 +0530"
+    },
+    {
+        "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
+        "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
+        "published": "Tue, 21 Jul 2026 19:34:57 +0530"
+    },
+    {
+        "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
+        "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
+        "published": "Tue, 21 Jul 2026 18:48:31 +0530"
+    },
+    {
+        "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
+        "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
+        "published": "Tue, 21 Jul 2026 17:28:00 +0530"
+    },
+    {
+        "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
+        "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
+        "published": "Tue, 21 Jul 2026 17:12:23 +0530"
+    },
+    {
+        "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
+        "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
+        "published": "Tue, 21 Jul 2026 16:54:50 +0530"
     }
 ]
