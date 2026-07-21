@@ -5918,5 +5918,20 @@
         "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
         "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
         "published": "Tue, 21 Jul 2026 16:54:50 +0530"
+    },
+    {
+        "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+        "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+        "published": "Tue, 21 Jul 2026 21:36:12 +0530"
+    },
+    {
+        "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
+        "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
+        "published": "Tue, 21 Jul 2026 20:39:28 +0530"
+    },
+    {
+        "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
+        "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
+        "published": "Tue, 21 Jul 2026 20:27:51 +0530"
     }
 ]
