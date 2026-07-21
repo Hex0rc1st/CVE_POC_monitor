@@ -4702,3 +4702,8 @@ clean_list:
 - CVE-2026-13156
 - CVE-2026-42533
 - ScreenOff
+- CVE-2026-49099
+- CVE-2026-6875
+- n8n-cve-2026-21858
+- CVE-2026-27971_POC
+- dirty-frag-cve-2026-mitigation

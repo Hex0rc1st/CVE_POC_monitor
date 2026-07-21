@@ -1083,5 +1083,10 @@
         "title": "CVE-2026-63030 and CVE-2026-60137 (wp2shell): WordPress RCE Explained",
         "link": "https://www.picussecurity.com/resource/blog/cve-2026-63030-and-cve-2026-60137-wp2shell-wordpress-rce-explained",
         "published": "Mon, 20 Jul 2026 11:33:20 GMT"
+    },
+    {
+        "title": "What Do Your First 90 Days With an Automated Pentesting Tool Look Like?",
+        "link": "https://www.picussecurity.com/resource/blog/what-do-your-first-90-days-with-an-automated-pentesting-tool-look-like",
+        "published": "Tue, 21 Jul 2026 07:15:00 GMT"
     }
 ]

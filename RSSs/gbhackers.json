@@ -8198,5 +8198,55 @@
         "title": "Microsoft Releases Emergency Windows 11 Update to Fix Intel IPF Driver Performance Issues",
         "link": "https://gbhackers.com/microsoft-releases-emergency-windows-11-update-to-fix-intel-ipf-driver-performance-issues/",
         "published": "Mon, 20 Jul 2026 09:56:25 +0000"
+    },
+    {
+        "title": "Hackers Exploit SonicWall SMA Zero-Days to Gain Root Access and Deploy ORANGETAIL Webshell",
+        "link": "https://gbhackers.com/hackers-exploit-sonicwall-sma-zero-days-to-gain-root-access/",
+        "published": "Tue, 21 Jul 2026 08:47:21 +0000"
+    },
+    {
+        "title": "Iran-Linked APT42 Uses AI-Assisted Phishing and TAMECAT Backdoor to Target Defense Officials",
+        "link": "https://gbhackers.com/apt42-uses-ai-assisted-phishing/",
+        "published": "Tue, 21 Jul 2026 08:40:14 +0000"
+    },
+    {
+        "title": "Abbott Confirms Cyberattack After Unauthorized Access to Cancer Diagnostics Systems",
+        "link": "https://gbhackers.com/abbott-confirms-cyberattack-after-unauthorized-access/",
+        "published": "Tue, 21 Jul 2026 08:13:52 +0000"
+    },
+    {
+        "title": "Linux Kernel Team Publishes 440 CVE Security Advisories Within 24 Hours",
+        "link": "https://gbhackers.com/linux-kernel-team-publishes-440-cve-security-advisories/",
+        "published": "Tue, 21 Jul 2026 07:43:24 +0000"
+    },
+    {
+        "title": "AgentBaiting Uses Fake AI Skills and MCP Servers to Deliver SmartLoader and StealC Malware",
+        "link": "https://gbhackers.com/agentbaiting-uses-fake-ai-skills/",
+        "published": "Tue, 21 Jul 2026 07:34:19 +0000"
+    },
+    {
+        "title": "Critical Gitea Flaw Lets Public-Only Tokens Write to Private Repositories and Trigger Actions Workflows",
+        "link": "https://gbhackers.com/critical-gitea-flaw-trigger-actions-workflows/",
+        "published": "Tue, 21 Jul 2026 07:34:10 +0000"
+    },
+    {
+        "title": "Fileless Stealer and PureRAT Raid Browser Passwords, Telegram Sessions, and Crypto Wallets",
+        "link": "https://gbhackers.com/fileless-stealer-and-purerat-raid-browser/",
+        "published": "Tue, 21 Jul 2026 06:44:11 +0000"
+    },
+    {
+        "title": "European Password Manager Passwork Shares Codebase and Updates With FSTEC-Certified Russian Firm",
+        "link": "https://gbhackers.com/passwork-shares-codebase-and-updates-with-fstec-certified-russian-firm/",
+        "published": "Tue, 21 Jul 2026 06:03:04 +0000"
+    },
+    {
+        "title": "Bit2Watt Attack Turns AI Data Centers Into Cyber-Physical Threats to Local Power Grids",
+        "link": "https://gbhackers.com/bit2watt-attack-turns-ai-data-centers/",
+        "published": "Tue, 21 Jul 2026 05:48:05 +0000"
+    },
+    {
+        "title": "Paidwork Data Breach Exposes 23.3 Million Accounts, Banking Data and bcrypt Password Hashes",
+        "link": "https://gbhackers.com/paidwork-data-breach-exposes-23-3-million-accounts/",
+        "published": "Tue, 21 Jul 2026 05:27:45 +0000"
     }
 ]
