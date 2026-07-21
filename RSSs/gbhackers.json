@@ -8248,5 +8248,30 @@
         "title": "Paidwork Data Breach Exposes 23.3 Million Accounts, Banking Data and bcrypt Password Hashes",
         "link": "https://gbhackers.com/paidwork-data-breach-exposes-23-3-million-accounts/",
         "published": "Tue, 21 Jul 2026 05:27:45 +0000"
+    },
+    {
+        "title": "Microsoft Defender XDR Blind Spot Lets Public C2 Traffic Evade Detection Queries",
+        "link": "https://gbhackers.com/microsoft-defender-xdr-blind-spot/",
+        "published": "Tue, 21 Jul 2026 11:54:05 +0000"
+    },
+    {
+        "title": "Hackers Use Cruciferra Crypter to Disable EDR and Deploy XWorm, Remcos, and AsyncRAT",
+        "link": "https://gbhackers.com/cruciferra-crypter-to-disable-edr/",
+        "published": "Tue, 21 Jul 2026 11:42:40 +0000"
+    },
+    {
+        "title": "Hackers Exploit ServiceNow AI Platform Flaw to Gain Unauthenticated Remote Code Execution",
+        "link": "https://gbhackers.com/hackers-exploit-servicenow-ai-platform-flaw-to-gain-unauthenticated-remote-code-execution/",
+        "published": "Tue, 21 Jul 2026 10:57:05 +0000"
+    },
+    {
+        "title": "JADEPUFFER Deploys ENCFORGE Ransomware Built to Destroy AI Models and Training Data",
+        "link": "https://gbhackers.com/jadepuffer-deploys-encforge-ransomware/",
+        "published": "Tue, 21 Jul 2026 10:57:00 +0000"
+    },
+    {
+        "title": "AsyncAPI Supply Chain Attack Deploys Miasma Backdoor Through Trusted npm Workflows",
+        "link": "https://gbhackers.com/asyncapi-supply-chain-attack/",
+        "published": "Tue, 21 Jul 2026 09:48:05 +0000"
     }
 ]

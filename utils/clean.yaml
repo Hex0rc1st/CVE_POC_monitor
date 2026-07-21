@@ -4707,3 +4707,9 @@ clean_list:
 - n8n-cve-2026-21858
 - CVE-2026-27971_POC
 - dirty-frag-cve-2026-mitigation
+- drupal-openai-provider-ssrf-cve-2026-13233
+- CVE-2025-20352
+- mcpshield
+- CVE-2026-43499-Redmi-Turbo5
+- CVE-2026-49365
+- CVE-2026-9198_exploit
