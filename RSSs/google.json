@@ -1563,5 +1563,15 @@
         "title": "Stable Channel Update for Desktop",
         "link": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0256605430.html",
         "published": "2026-07-21T13:52:46.928-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/07/beta-channel-update-for-chromeos_01283968434.html",
+        "published": "2026-07-21T22:47:44.444-07:00"
+    },
+    {
+        "title": "Long Term Support Channel Update for ChromeOS",
+        "link": "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for_01808936655.html",
+        "published": "2026-07-21T22:42:46.398-07:00"
     }
 ]

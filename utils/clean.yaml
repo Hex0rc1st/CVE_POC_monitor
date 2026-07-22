@@ -4719,3 +4719,6 @@ clean_list:
 - CVE-2026-50522
 - CVE-2026-43499-PoC-Scanner
 - CVE-2026-50055
+- PoC-CVE-2025-69419
+- Bedside.htb_solved
+- CVE-2026-55993
