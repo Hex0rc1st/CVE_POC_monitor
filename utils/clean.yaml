@@ -4727,3 +4727,6 @@ clean_list:
 - CVE-2026-45729
 - CVE-2026-56139
 - Report-XZ-Utils-CVE-2024-3094
+- PoC-CVE-2025-69421
+- wp2shell-vulnerability-scanner
+- wp2shell-poc-fulljs
