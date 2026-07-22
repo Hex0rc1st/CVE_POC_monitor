@@ -8328,5 +8328,50 @@
         "title": "OpenAI Exploits Zero-Day to Gain Internet Access and Compromise Hugging Face Servers",
         "link": "https://gbhackers.com/openai-compromise-hugging-face-servers/",
         "published": "Wed, 22 Jul 2026 04:46:07 +0000"
+    },
+    {
+        "title": "CISA Warns WordPress Core SQL Injection Vulnerability Is Actively Exploited in Attacks",
+        "link": "https://gbhackers.com/cisa-warns-wordpress-core-sql-injection-vulnerability/",
+        "published": "Wed, 22 Jul 2026 11:33:32 +0000"
+    },
+    {
+        "title": "Zimbra 10.1.20 Fixes Critical SNMP Command Injection and Multiple XSS Flaws",
+        "link": "https://gbhackers.com/zimbra-10-1-20-fixes-critical-snmp-command-injection-and-multiple-xss-flaws/",
+        "published": "Wed, 22 Jul 2026 10:32:31 +0000"
+    },
+    {
+        "title": "FBI Warns Scammers Use AI Deepfakes and Fake IC3 Websites to Target Fraud Victims",
+        "link": "https://gbhackers.com/fbi-warns-scammers-use-ai-deepfakes-target-fraud-victims/",
+        "published": "Wed, 22 Jul 2026 10:18:58 +0000"
+    },
+    {
+        "title": "Critical ASUS Router Flaw Lets Remote MITM Attackers Execute Arbitrary Commands",
+        "link": "https://gbhackers.com/critical-asus-router-flaw/",
+        "published": "Wed, 22 Jul 2026 10:04:38 +0000"
+    },
+    {
+        "title": "Hackers Clone Microsoft Login Portals to Capture Credentials and Session Tokens in Real Time",
+        "link": "https://gbhackers.com/hackers-clone-microsoft-login-portals/",
+        "published": "Wed, 22 Jul 2026 09:59:23 +0000"
+    },
+    {
+        "title": "North Korean Hackers Use Fake Job Interviews to Deploy PylangGhost and GolangGhost RATs",
+        "link": "https://gbhackers.com/north-korean-hackers-use-fake-job-interviews/",
+        "published": "Wed, 22 Jul 2026 09:35:25 +0000"
+    },
+    {
+        "title": "SolarWinds Serv-U Update Fixes 15 Critical Vulnerabilities Enabling Remote Code Execution as Root",
+        "link": "https://gbhackers.com/solarwinds-serv-u-update-fixes-15-critical-vulnerabilities/",
+        "published": "Wed, 22 Jul 2026 08:45:23 +0000"
+    },
+    {
+        "title": "Threat Actor Turns Claude Opus Into Automated AI-Powered Penetration Testing Platform",
+        "link": "https://gbhackers.com/threat-actor-turns-claude-opus-into-automated-ai-platform/",
+        "published": "Wed, 22 Jul 2026 08:34:08 +0000"
+    },
+    {
+        "title": "Police Dismantle Kratos Phishing-as-a-Service Platform and Take Down Over 200 Servers",
+        "link": "https://gbhackers.com/police-dismantle-kratos-phishing-as-a-service-platform/",
+        "published": "Wed, 22 Jul 2026 06:41:19 +0000"
     }
 ]

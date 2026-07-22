@@ -4722,3 +4722,8 @@ clean_list:
 - PoC-CVE-2025-69419
 - Bedside.htb_solved
 - CVE-2026-55993
+- PoC-CVE-2025-69420
+- CVE-2026-55994
+- CVE-2026-45729
+- CVE-2026-56139
+- Report-XZ-Utils-CVE-2024-3094
