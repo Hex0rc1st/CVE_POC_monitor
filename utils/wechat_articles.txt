@@ -1827,3 +1827,7 @@ http://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA==&mid=2247497710&idx=1&sn=4242954
 https://mp.weixin.qq.com/s?__biz=Mzk0ODM3NTU5MA%3D%3D&mid=2247497710&idx=1&sn=4242954be62603ebac46c2aab7bdb09b
 360漏洞研究院::国家级赛事“天网杯”启动 360提供全方位技术支持
 https://mp.weixin.qq.com/s/p1GrtoeWfRky4vCA1NzUBw
+微步在线研究响应中心::新增受影响场景，Fastjson远程代码执行漏洞三次更新
+https://mp.weixin.qq.com/s/VORXbD0VvNio7ETVhiGr9w
+奇安信cert::Oracle 2026年7月补丁日多产品高危漏洞安全风险通告
+https://mp.weixin.qq.com/s/HZm_WSiMvObEbLPlCclcBg

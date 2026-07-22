@@ -233,3 +233,4 @@ https://github.com/ekomsSavior/wp2shell
 https://github.com/yellowkeys/YellowKey-Bitlocker-CVE-2026-45585
 https://github.com/ikow/wp2shell
 https://github.com/Dere3046/ScreenOff
+https://github.com/jaf0rk/CVE-2026-9973-exploit
