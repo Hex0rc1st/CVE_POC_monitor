@@ -5938,5 +5938,20 @@
         "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
         "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
         "published": "Wed, 22 Jul 2026 00:16:32 +0530"
+    },
+    {
+        "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
+        "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
+        "published": "Wed, 22 Jul 2026 11:30:06 +0530"
+    },
+    {
+        "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
+        "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
+        "published": "Wed, 22 Jul 2026 10:27:52 +0530"
+    },
+    {
+        "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+        "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+        "published": "Wed, 22 Jul 2026 09:48:33 +0530"
     }
 ]
