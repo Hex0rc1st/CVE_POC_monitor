@@ -5993,5 +5993,10 @@
         "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
         "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
         "published": "Thu, 23 Jul 2026 12:04:36 +0530"
+    },
+    {
+        "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+        "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+        "published": "Thu, 23 Jul 2026 13:34:35 +0530"
     }
 ]

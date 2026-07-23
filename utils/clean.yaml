@@ -4751,3 +4751,9 @@ clean_list:
 - CVE-2026-64600
 - CVE-2026-43499-aristotle-apk
 - CVE-2026-43499-aristotle
+- CVE-2025-32432-POC
+- CVE-2026-56121_exploit
+- CVE-2026-42533-nginx
+- CVE-2026-0560-lollms
+- rmx3888-cve-2026-43499-config
+- CVE-2026-63766_exploit
