@@ -8448,5 +8448,50 @@
         "title": "New TrickBot Malware Variant Uses DNS Tunneling for Command-and-Control",
         "link": "https://gbhackers.com/trickbot-malware-variant-uses-dns/",
         "published": "Thu, 23 Jul 2026 06:59:15 +0000"
+    },
+    {
+        "title": "New Kimi K3 AI Agent Uncovers Redis Remote Code Execution Flaws in Just 27 Minutes",
+        "link": "https://gbhackers.com/new-kimi-k3-ai-agent-uncovers-redis-remote-code-execution-flaws/",
+        "published": "Thu, 23 Jul 2026 13:04:46 +0000"
+    },
+    {
+        "title": "New TriBack Loader Evades EDR Using Signed Binaries and Win32 Callback APIs",
+        "link": "https://gbhackers.com/triback-loader-evades-edr/",
+        "published": "Thu, 23 Jul 2026 12:56:02 +0000"
+    },
+    {
+        "title": "Critical FreePBX Flaws Let Unauthenticated Attackers Execute Code and Take Over Administrator Accounts",
+        "link": "https://gbhackers.com/critical-freepbx-flaws/",
+        "published": "Thu, 23 Jul 2026 11:30:08 +0000"
+    },
+    {
+        "title": "Critical FreeRDP Clipboard Flaw Could Let Malicious RDP Servers Execute Code",
+        "link": "https://gbhackers.com/critical-freerdp-clipboard-flaw/",
+        "published": "Thu, 23 Jul 2026 11:19:36 +0000"
+    },
+    {
+        "title": "Hackers Turn GitHub Actions Into a Global Botnet for Attacking Web Hosting Servers",
+        "link": "https://gbhackers.com/github-actions-into-a-global-botnet/",
+        "published": "Thu, 23 Jul 2026 11:14:50 +0000"
+    },
+    {
+        "title": "Exim Vulnerability Lets Attackers Access Files Outside the Mail Spool",
+        "link": "https://gbhackers.com/exim-vulnerability-2/",
+        "published": "Thu, 23 Jul 2026 11:12:24 +0000"
+    },
+    {
+        "title": "New Windows Stealer Uses AI Profiling to Identify High-Value Corporate Victims",
+        "link": "https://gbhackers.com/windows-stealer-uses-ai-profiling/",
+        "published": "Thu, 23 Jul 2026 10:32:36 +0000"
+    },
+    {
+        "title": "Critical Check Point SmartConsole Flaw Exploited in the Wild to Bypass Authentication",
+        "link": "https://gbhackers.com/critical-check-point-smartconsole-flaw/",
+        "published": "Thu, 23 Jul 2026 09:54:06 +0000"
+    },
+    {
+        "title": "Ubuntu Snap-Confine Vulnerability Allows Unprivileged Users to Execute Code as Root",
+        "link": "https://gbhackers.com/ubuntu-snap-confine-vulnerability/",
+        "published": "Thu, 23 Jul 2026 09:35:59 +0000"
     }
 ]
