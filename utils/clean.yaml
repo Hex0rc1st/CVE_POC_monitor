@@ -4747,3 +4747,7 @@ clean_list:
 - cve-2026-34486-tomcat_encrypt_bypass_reproduction
 - cve-2025-55182-react2shell_reproduction
 - cve-2025-2783-chrome_sandbox_escape_reproduction
+- CVE-2026-27641-Flask-Reuploaded
+- CVE-2026-64600
+- CVE-2026-43499-aristotle-apk
+- CVE-2026-43499-aristotle
