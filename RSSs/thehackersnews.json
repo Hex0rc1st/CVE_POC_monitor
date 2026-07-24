@@ -6068,5 +6068,15 @@
         "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
         "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
         "published": "Fri, 24 Jul 2026 15:39:24 +0530"
+    },
+    {
+        "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+        "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+        "published": "Fri, 24 Jul 2026 17:23:55 +0530"
+    },
+    {
+        "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
+        "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
+        "published": "Fri, 24 Jul 2026 17:15:17 +0530"
     }
 ]
