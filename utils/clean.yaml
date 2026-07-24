@@ -4778,3 +4778,6 @@ clean_list:
 - CVE-2025-27520
 - PoC-CVE-2026-46331
 - CVE-2026-65650
+- CVE-2025-63408
+- code-shield
+- cve-2026-43499-CyberMeowfia

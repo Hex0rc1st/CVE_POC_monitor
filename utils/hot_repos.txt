@@ -237,3 +237,4 @@ https://github.com/jaf0rk/CVE-2026-9973-exploit
 https://github.com/mcipekci/wp2shell
 https://github.com/gagaltotal/CVE-2026-43499-PoC-Scanner
 https://github.com/aniqfakhrul/CVE-2026-54121
+https://github.com/0xBlackash/CVE-2026-64600
