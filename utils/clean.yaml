@@ -4757,3 +4757,5 @@ clean_list:
 - CVE-2026-0560-lollms
 - rmx3888-cve-2026-43499-config
 - CVE-2026-63766_exploit
+- POC-CVE-2026-60206
+- CVE-2026-60206
