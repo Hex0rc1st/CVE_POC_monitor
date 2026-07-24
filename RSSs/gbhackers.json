@@ -8563,5 +8563,15 @@
         "title": "Claude Cowork Sandbox Escape Flaw Lets Attackers Access SSH Keys and Cloud Credentials",
         "link": "https://gbhackers.com/claude-cowork-sandbox-escape-flaw/",
         "published": "Fri, 24 Jul 2026 06:41:56 +0000"
+    },
+    {
+        "title": "Golden Chickens Launches Four Modular Malware Families to Steal Chrome Credentials and Hijack Browser Sessions",
+        "link": "https://gbhackers.com/four-modular-malware-families/",
+        "published": "Fri, 24 Jul 2026 10:53:38 +0000"
+    },
+    {
+        "title": "SourTrade Browser-Assembled Malware Defeats Hash-Based Detection by Design",
+        "link": "https://gbhackers.com/sourtrade-browser-assembled/",
+        "published": "Fri, 24 Jul 2026 10:10:28 +0000"
     }
 ]

@@ -4772,3 +4772,6 @@ clean_list:
 - cve-2024-3400-panos_rce_reproduction
 - CVE-2026-47761
 - cve-2025-43564-tomcat_put_rce_reproduction
+- CVE-2026-65761
+- CVE-2026-9198
+- CVE-2026-63030-CVE-2026-60137
