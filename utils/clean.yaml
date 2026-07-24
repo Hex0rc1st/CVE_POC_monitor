@@ -4759,3 +4759,6 @@ clean_list:
 - CVE-2026-63766_exploit
 - POC-CVE-2026-60206
 - CVE-2026-60206
+- cve-2024-23897-jenkins_lfi_reproduction
+- cve-2024-1708-connectwise_rce_reproduction
+- Pangolin-Nostromo-CVE-kev-snapshot-datamap
