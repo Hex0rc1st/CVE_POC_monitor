@@ -4762,3 +4762,13 @@ clean_list:
 - cve-2024-23897-jenkins_lfi_reproduction
 - cve-2024-1708-connectwise_rce_reproduction
 - Pangolin-Nostromo-CVE-kev-snapshot-datamap
+- cve-2025-0282-ivanti_rce_reproduction
+- SLSA_verifier_app
+- cve-2025-32433-erlang_ssh_rce_reproduction
+- cve-2025-53779-kerberos_bypass_reproduction
+- cve-2024-49113-ldap_nightmare_reproduction
+- ricerca-tesi
+- Pangolin-Nostromo-CVE-datamap-pwa
+- cve-2024-3400-panos_rce_reproduction
+- CVE-2026-47761
+- cve-2025-43564-tomcat_put_rce_reproduction

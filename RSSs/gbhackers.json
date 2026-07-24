@@ -8528,5 +8528,40 @@
         "title": "Next.js Patches Nine Security Flaws Enabling SSRF, Middleware Bypass, DoS, and Internal Endpoint Disclosure",
         "link": "https://gbhackers.com/next-js-patches-nine-security-flaws/",
         "published": "Fri, 24 Jul 2026 04:38:37 +0000"
+    },
+    {
+        "title": "JetBrains Patches Multiple Vulnerabilities Affecting IntelliJ IDEA and TeamCity",
+        "link": "https://gbhackers.com/jetbrains-patches-multiple-vulnerabilities/",
+        "published": "Fri, 24 Jul 2026 09:23:49 +0000"
+    },
+    {
+        "title": "Australian Energy Giant Origin Confirms Data Breach Exposes Customer Data",
+        "link": "https://gbhackers.com/australian-energy-giant-origin-confirms-data-breach/",
+        "published": "Fri, 24 Jul 2026 09:03:29 +0000"
+    },
+    {
+        "title": "Apache Syncope Flaws Let Users Gain Admin Roles and Execute Remote Code",
+        "link": "https://gbhackers.com/apache-syncope-flaws/",
+        "published": "Fri, 24 Jul 2026 08:54:04 +0000"
+    },
+    {
+        "title": "Hotel Wi-Fi DNS Poisoning Attacks Hijack Microsoft 365 Accounts Without Phishing",
+        "link": "https://gbhackers.com/hotel-wi-fi-dns-poisoning-attacks/",
+        "published": "Fri, 24 Jul 2026 07:43:30 +0000"
+    },
+    {
+        "title": "Google Chrome 150 Update Fixes Four High-Severity Security Vulnerabilities",
+        "link": "https://gbhackers.com/google-chrome-150-update/",
+        "published": "Fri, 24 Jul 2026 07:33:09 +0000"
+    },
+    {
+        "title": "Lampion Malware Targets Portuguese Users With Multistage Phishing and 750MB RAT Payload",
+        "link": "https://gbhackers.com/lampion-malware-targets-portuguese/",
+        "published": "Fri, 24 Jul 2026 07:00:08 +0000"
+    },
+    {
+        "title": "Claude Cowork Sandbox Escape Flaw Lets Attackers Access SSH Keys and Cloud Credentials",
+        "link": "https://gbhackers.com/claude-cowork-sandbox-escape-flaw/",
+        "published": "Fri, 24 Jul 2026 06:41:56 +0000"
     }
 ]
