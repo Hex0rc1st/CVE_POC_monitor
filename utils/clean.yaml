@@ -4791,3 +4791,5 @@ clean_list:
 - CVE-2026-12960
 - CVE-2026-54900
 - ai-cyber-threats-and-cve-mitigation-tracker-2026
+- CVE-2026-54121
+- CVE-2026-65694-PoC

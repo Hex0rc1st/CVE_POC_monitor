@@ -6093,5 +6093,20 @@
         "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
         "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
         "published": "Sat, 25 Jul 2026 14:04:15 +0530"
+    },
+    {
+        "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
+        "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
+        "published": "Sat, 25 Jul 2026 15:44:21 +0530"
+    },
+    {
+        "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
+        "published": "Sat, 25 Jul 2026 15:44:03 +0530"
+    },
+    {
+        "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
+        "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
+        "published": "Sat, 25 Jul 2026 15:23:41 +0530"
     }
 ]
