@@ -4793,3 +4793,5 @@ clean_list:
 - ai-cyber-threats-and-cve-mitigation-tracker-2026
 - CVE-2026-54121
 - CVE-2026-65694-PoC
+- CVE-2026-48908-Joomla-SP-Page-Builder-RCE
+- WordPress-CVE-2026-63030-Analysis
