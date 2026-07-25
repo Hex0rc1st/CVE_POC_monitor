@@ -239,3 +239,4 @@ https://github.com/gagaltotal/CVE-2026-43499-PoC-Scanner
 https://github.com/aniqfakhrul/CVE-2026-54121
 https://github.com/0xBlackash/CVE-2026-64600
 https://github.com/yellowkey-exploit/YellowKey-Bitlocker
+https://github.com/imbas007/POC-CVE-2026-60206
