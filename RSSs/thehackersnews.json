@@ -6113,5 +6113,10 @@
         "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
         "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
         "published": "Sat, 25 Jul 2026 18:22:43 +0530"
+    },
+    {
+        "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
+        "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
+        "published": "Sun, 26 Jul 2026 00:18:44 +0530"
     }
 ]
