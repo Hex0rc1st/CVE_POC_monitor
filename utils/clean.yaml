@@ -4802,3 +4802,6 @@ clean_list:
 - siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization
 - CVE-2026-15981
 - CVE-2026-58480
+- CVE-2026-43499-root-KernelSU
+- ABK_CVE_Fix_Module
+- CVE-2026-60137-With-Skip-SSL
