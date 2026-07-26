@@ -4797,3 +4797,8 @@ clean_list:
 - WordPress-CVE-2026-63030-Analysis
 - CVE-2026-16723
 - CVE-2026-58480-Blocksy-Companion-Pro-RCE
+- CVE-2026-10818
+- advisory001
+- siyuan-mcp-admin-takeover-cve-2026-66012-missing-authorization
+- CVE-2026-15981
+- CVE-2026-58480
