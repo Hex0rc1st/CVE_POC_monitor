@@ -4808,3 +4808,5 @@ clean_list:
 - CVE-2026-60137_CVE-2026-63030
 - CVE-2026-58138
 - CVE-2026-4861
+- CVE-2026-root
+- pv2-victim
