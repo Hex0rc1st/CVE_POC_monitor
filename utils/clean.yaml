@@ -4815,3 +4815,6 @@ clean_list:
 - CVE-2024-4367-hands-on
 - CVE-2026-15013
 - CVE-2026-54121-CertiGhost
+- CVE-2026-65008
+- CVE-2026-57973
+- CVE-2026-43499-pmg110-root
