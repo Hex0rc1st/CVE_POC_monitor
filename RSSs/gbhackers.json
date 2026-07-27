@@ -8623,5 +8623,55 @@
         "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories– SonicWall Zero-Day, Cl0p Windchill Attack, AI-Weaponized Threats, Data Breaches & More",
         "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-july-20-24-2026/",
         "published": "Sun, 26 Jul 2026 19:22:21 +0000"
+    },
+    {
+        "title": "vBulletin Pre-Auth RCE Flaw Allows Remote PHP Code Execution",
+        "link": "https://gbhackers.com/vbulletin-pre-auth-rce-flaw/",
+        "published": "Mon, 27 Jul 2026 11:11:46 +0000"
+    },
+    {
+        "title": "Over 70 Fake Windows App Sites Could Turn Trusted Downloads Into Malware",
+        "link": "https://gbhackers.com/over-70-fake-windows-app-sites/",
+        "published": "Mon, 27 Jul 2026 10:59:58 +0000"
+    },
+    {
+        "title": "GitHub Adds Dependabot Cooldown to Stop Poisoned Dependencies",
+        "link": "https://gbhackers.com/github-adds-dependabot-cooldown/",
+        "published": "Mon, 27 Jul 2026 10:37:10 +0000"
+    },
+    {
+        "title": "Crypto Criminals Use Social Media Profiling to Select Victims for Violent Wrench Attacks",
+        "link": "https://gbhackers.com/violent-wrench-attacks/",
+        "published": "Mon, 27 Jul 2026 10:05:58 +0000"
+    },
+    {
+        "title": "Iranian Hackers Exploit Rockwell, Schneider and Siemens PLCs Across U.S. Critical Infrastructure",
+        "link": "https://gbhackers.com/iranian-hackers-exploit-rockwell/",
+        "published": "Mon, 27 Jul 2026 08:39:40 +0000"
+    },
+    {
+        "title": "Windows WalletService Flaw Lets Standard Users Gain SYSTEM Privileges",
+        "link": "https://gbhackers.com/windows-walletservice-flaw/",
+        "published": "Mon, 27 Jul 2026 08:31:46 +0000"
+    },
+    {
+        "title": "New usbliter8 SecureROM Exploit Enables iOS 27 Jailbreak on iPhone 11 Pro",
+        "link": "https://gbhackers.com/usbliter8-securerom-exploit-ios-27-jailbreak-on-iphone-11-pro/",
+        "published": "Mon, 27 Jul 2026 08:06:41 +0000"
+    },
+    {
+        "title": "Microsoft Introduces KMS Hardware-Secured for Windows Server Activation",
+        "link": "https://gbhackers.com/microsoft-introduces-kms-hardware-secured/",
+        "published": "Mon, 27 Jul 2026 07:49:09 +0000"
+    },
+    {
+        "title": "AWS Launches Claude Opus 5 With Advanced Agentic Coding and Cybersecurity Capabilities",
+        "link": "https://gbhackers.com/aws-launches-claude-opus-5-with-advanced-agentic-coding/",
+        "published": "Mon, 27 Jul 2026 07:11:54 +0000"
+    },
+    {
+        "title": "Apple Biome Data Reveals Safari Activity, Wallet Transactions and Location Visits",
+        "link": "https://gbhackers.com/apple-biome-data-framework/",
+        "published": "Mon, 27 Jul 2026 07:07:56 +0000"
     }
 ]

@@ -6118,5 +6118,15 @@
         "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
         "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
         "published": "Sun, 26 Jul 2026 00:18:44 +0530"
+    },
+    {
+        "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+        "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+        "published": "Mon, 27 Jul 2026 14:18:47 +0530"
+    },
+    {
+        "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+        "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+        "published": "Mon, 27 Jul 2026 13:31:23 +0530"
     }
 ]

@@ -4810,3 +4810,8 @@ clean_list:
 - CVE-2026-4861
 - CVE-2026-root
 - pv2-victim
+- CVE-2026-9830
+- CVE-2024-4367-hands-on-01
+- CVE-2024-4367-hands-on
+- CVE-2026-15013
+- CVE-2026-54121-CertiGhost
