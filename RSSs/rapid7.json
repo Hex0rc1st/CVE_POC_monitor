@@ -973,5 +973,10 @@
         "title": "The Next Evolution of MDR: Preemptive Defense and Agentic Investigation",
         "link": "https://www.rapid7.com/blog/post/dr-the-next-evolution-mdr-preemptive-defense-agentic-investigation",
         "published": "Tue, 28 Jul 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232)",
+        "link": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
+        "published": "Tue, 28 Jul 2026 18:32:03 GMT"
     }
 ]
