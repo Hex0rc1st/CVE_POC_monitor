@@ -1143,5 +1143,10 @@
         "title": "How a Lean Security Team Turned Tabletop Exercises into Live, Continuous Validation with Picus",
         "link": "https://www.picussecurity.com/resource/case-study/lean-security-team-continuous-validation-with-picus",
         "published": "Mon, 27 Jul 2026 08:20:15 GMT"
+    },
+    {
+        "title": "Astaroth (Guildma) Uses Steganography and Ngrok for C2 Resilience",
+        "link": "https://www.picussecurity.com/resource/blog/astaroth-guildma-uses-steganography-and-ngrok-for-c2-resilience",
+        "published": "Tue, 28 Jul 2026 06:00:00 GMT"
     }
 ]

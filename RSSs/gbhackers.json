@@ -8698,5 +8698,40 @@
         "title": "Europol Launches Project COMPASS to Disrupt ‘The Com’ Cybercrime Network Targeting Minors",
         "link": "https://gbhackers.com/europol-launches-project-compass/",
         "published": "Mon, 27 Jul 2026 11:36:17 +0000"
+    },
+    {
+        "title": "Hackers Pose as IT Helpdesk on Microsoft Teams to Deploy GoGRPC Backdoor",
+        "link": "https://gbhackers.com/gogrpc-backdoor-deployed/",
+        "published": "Tue, 28 Jul 2026 06:34:15 +0000"
+    },
+    {
+        "title": "Multiple FFmpeg Flaws Allow Arbitrary Memory Corruption via Malicious Videos",
+        "link": "https://gbhackers.com/multiple-ffmpeg-flaws/",
+        "published": "Tue, 28 Jul 2026 06:17:31 +0000"
+    },
+    {
+        "title": "Operation STANDOFF Uses GitHub Redirects Across 44 Servers to Hide Multi-Malware C2 Traffic",
+        "link": "https://gbhackers.com/operation-standoff-uses-github/",
+        "published": "Tue, 28 Jul 2026 05:45:30 +0000"
+    },
+    {
+        "title": "Apple iOS 26.6 Update Fixes Flaws Allowing Kernel-Level Code Execution and Root Access",
+        "link": "https://gbhackers.com/apple-ios-26-6-update-fixes-flaws/",
+        "published": "Tue, 28 Jul 2026 05:38:59 +0000"
+    },
+    {
+        "title": "OpenAI CEO Sam Altman Claims AI Has Reached Singularity as Systems Begin Improving Themselves",
+        "link": "https://gbhackers.com/openai-ceo-sam-altman-claims-ai-has-reached-singularity/",
+        "published": "Tue, 28 Jul 2026 05:11:58 +0000"
+    },
+    {
+        "title": "Operation BlueDash Maintains Redundant Remote Access Even After One RMM Tool Is Removed",
+        "link": "https://gbhackers.com/operation-bluedash/",
+        "published": "Tue, 28 Jul 2026 05:08:30 +0000"
+    },
+    {
+        "title": "ShinyHunters Claims EY Data Breach, Threatens to Leak Stolen Client Tax Data",
+        "link": "https://gbhackers.com/shinyhunters-claims-ey-data-breach/",
+        "published": "Tue, 28 Jul 2026 04:53:55 +0000"
     }
 ]
