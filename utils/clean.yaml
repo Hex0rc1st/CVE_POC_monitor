@@ -4818,3 +4818,7 @@ clean_list:
 - CVE-2026-65008
 - CVE-2026-57973
 - CVE-2026-43499-pmg110-root
+- CVE-2026-27577
+- fastjson-rce-lab
+- CVE-2026-61511
+- SPIP-CVE-2024-23659-
