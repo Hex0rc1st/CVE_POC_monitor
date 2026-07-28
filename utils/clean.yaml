@@ -4829,3 +4829,7 @@ clean_list:
 - NGINX_2026_CVE_Bundle_CTI_Report
 - Image-WebP
 - SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479
+- Root-My-Device
+- SELinux-Permissive-Only-CVE-2025-21479
+- cve-2026-64725-poc
+- RefluxFS_CVE-2026-64600

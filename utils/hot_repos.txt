@@ -243,3 +243,4 @@ https://github.com/imbas007/POC-CVE-2026-60206
 https://github.com/tc4dy/CVE-2026-54121-PoC-Exploit
 https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU
 https://github.com/imbas007/CVE-2026-42533
+https://github.com/marcgoam/CVE-2026-54121-CertiGhost

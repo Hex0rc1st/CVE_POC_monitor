@@ -8758,5 +8758,30 @@
         "title": "Dysphoria IoT Botnet Uses Blockchain Domains and 200,000 Devices for DDoS Attacks",
         "link": "https://gbhackers.com/dysphoria-iot-botnet/",
         "published": "Tue, 28 Jul 2026 07:47:15 +0000"
+    },
+    {
+        "title": "CastleLoader Campaign Deploys NeedleStealer to Steal Crypto Wallet Seeds and Browser Sessions",
+        "link": "https://gbhackers.com/castleloader-campaign-deploys-needlestealer/",
+        "published": "Tue, 28 Jul 2026 11:36:44 +0000"
+    },
+    {
+        "title": "Critical TeamCity Flaw Lets Unauthenticated Attackers Execute System Commands",
+        "link": "https://gbhackers.com/critical-teamcity-flaw/",
+        "published": "Tue, 28 Jul 2026 10:58:50 +0000"
+    },
+    {
+        "title": "Chinese Hackers Use RedRelay Multi-Hop Network to Conceal Global Cyber Operations",
+        "link": "https://gbhackers.com/redrelay-multi-hop-network/",
+        "published": "Tue, 28 Jul 2026 10:38:26 +0000"
+    },
+    {
+        "title": "AI-Discovered Linux Kernel Zero-Day Enables Root Privilege Escalation",
+        "link": "https://gbhackers.com/ai-discovered-linux-kernel-zero-day/",
+        "published": "Tue, 28 Jul 2026 10:34:07 +0000"
+    },
+    {
+        "title": "Tengu Mirai Botnet Uses Watchdog Reboots and Binary Bricking to Resist Removal",
+        "link": "https://gbhackers.com/tengu-mirai-botnet-uses-watchdog/",
+        "published": "Tue, 28 Jul 2026 09:47:56 +0000"
     }
 ]
