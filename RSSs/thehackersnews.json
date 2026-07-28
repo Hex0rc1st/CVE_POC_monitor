@@ -6183,5 +6183,20 @@
         "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
         "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
         "published": "Tue, 28 Jul 2026 13:34:44 +0530"
+    },
+    {
+        "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+        "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+        "published": "Tue, 28 Jul 2026 19:03:47 +0530"
+    },
+    {
+        "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+        "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+        "published": "Tue, 28 Jul 2026 18:26:14 +0530"
+    },
+    {
+        "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+        "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+        "published": "Tue, 28 Jul 2026 17:25:20 +0530"
     }
 ]

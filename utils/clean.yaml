@@ -4833,3 +4833,9 @@ clean_list:
 - SELinux-Permissive-Only-CVE-2025-21479
 - cve-2026-64725-poc
 - RefluxFS_CVE-2026-64600
+- CVE-2024-28987
+- CP-PLUS-EZ-P21-CVE-2026-65893-65894
+- cve-2026-59891-control-lab
+- CVE-2026-53921
+- CVE-2025-71389_exploit
+- cve-2026-61511
