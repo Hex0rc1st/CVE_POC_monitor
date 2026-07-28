@@ -953,5 +953,10 @@
         "title": "CVE-2026-16232: Critical Check Point SmartConsole Authentication Bypass Exploited in the Wild",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-16232-critical-check-point-smartconsole-authentication-bypass-exploited-in-the-wild",
         "published": "Thu, 23 Jul 2026 11:57:30 GMT"
+    },
+    {
+        "title": "Rapid7 and Exclusive Networks expand partnership to modernize security operations and accelerate customer success",
+        "link": "https://www.rapid7.com/blog/post/c-exclusive-networks-partnership-accelerating-customer-success",
+        "published": "Tue, 28 Jul 2026 08:00:00 GMT"
     }
 ]

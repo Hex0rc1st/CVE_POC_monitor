@@ -6173,5 +6173,15 @@
         "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
         "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
         "published": "Tue, 28 Jul 2026 10:13:53 +0530"
+    },
+    {
+        "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+        "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+        "published": "Tue, 28 Jul 2026 13:41:22 +0530"
+    },
+    {
+        "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+        "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+        "published": "Tue, 28 Jul 2026 13:34:44 +0530"
     }
 ]

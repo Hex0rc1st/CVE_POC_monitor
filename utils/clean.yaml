@@ -4822,3 +4822,10 @@ clean_list:
 - fastjson-rce-lab
 - CVE-2026-61511
 - SPIP-CVE-2024-23659-
+- CVE-2026-64600-Exploit
+- SIL-CVE-2026
+- CVE-2026-53264
+- CVE-2026-14856-TastyIgniter
+- NGINX_2026_CVE_Bundle_CTI_Report
+- Image-WebP
+- SELinux-Permissive-Only-version-of-Cheese-aka-CVE-2025-21479
