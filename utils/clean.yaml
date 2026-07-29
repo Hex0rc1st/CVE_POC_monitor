@@ -4849,3 +4849,7 @@ clean_list:
 - CVE-2026-33718
 - CVE-2026-16475-PoC
 - CVE-2026-61511-PoC-Exploit
+- CVE-2024-1813-Proof-of-Concept
+- CVE-2026-57811-Proof-of-Concept
+- CVE-2026-61511-POC
+- CVE-2026-50522-Proof-of-Concept
