@@ -6278,5 +6278,10 @@
         "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
         "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
         "published": "Wed, 29 Jul 2026 21:01:15 +0530"
+    },
+    {
+        "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+        "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+        "published": "Wed, 29 Jul 2026 23:40:00 +0530"
     }
 ]
