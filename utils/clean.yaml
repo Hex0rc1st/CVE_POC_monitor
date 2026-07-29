@@ -4839,3 +4839,5 @@ clean_list:
 - CVE-2026-53921
 - CVE-2025-71389_exploit
 - cve-2026-61511
+- Ultimate-CVE-2026-61511
+- CVE_2026_31694
