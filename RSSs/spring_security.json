@@ -688,5 +688,35 @@
         "title": "CVE-2026-47835 - High - CVE-2026-47835: Spring AI vector store metadata filtering to handle special characters in Elasticsearch, OpenSearch, and GemFire Vector Stores",
         "link": "https://spring.io/security/cve-2026-47835",
         "published": "Fri, 12 Jun 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47858 - HIGH - CVE-2026-47858: live information startup mode is vulnerable for remote code execution",
+        "link": "https://spring.io/security/cve-2026-47858",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47873 - HIGH - CVE-2026-47873: Spring Tools Docker integration publishes unauthenticated debug (JDWP) and JMX ports on all network interfaces",
+        "link": "https://spring.io/security/cve-2026-47873",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59326 - LOW - CVE-2026-59326: HTTP Proxy Credentials Logged in Plaintext by the Spring Boot Language Server",
+        "link": "https://spring.io/security/cve-2026-59326",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47882 - LOW - CVE-2026-47882: Spring Boot DevTools remote secret generated with a non-cryptographic PRNG",
+        "link": "https://spring.io/security/cve-2026-47882",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59327 - MEDIUM - CVE-2026-59327: Cleartext Storage of Spring Boot DevTools Remote Secret in Eclipse Launch Configurations",
+        "link": "https://spring.io/security/cve-2026-59327",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
+        "link": "https://spring.io/security/cve-2026-59328",
+        "published": "Wed, 29 Jul 2026 00:00:00 GMT"
     }
 ]
