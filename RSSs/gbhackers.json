@@ -8828,5 +8828,55 @@
         "title": "NGINX Heap Overflow Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
         "link": "https://gbhackers.com/nginx-heap-overflow-flaw/",
         "published": "Wed, 29 Jul 2026 03:53:17 +0000"
+    },
+    {
+        "title": "Russian Intelligence Hackers Target Signal Backup Recovery Keys in Account Takeover Attacks",
+        "link": "https://gbhackers.com/signal-keys-targeted/",
+        "published": "Wed, 29 Jul 2026 11:51:54 +0000"
+    },
+    {
+        "title": "NVIDIA BlueField Flaw Lets VM Users Execute Code via Crafted Messages",
+        "link": "https://gbhackers.com/nvidia-bluefield-flaw/",
+        "published": "Wed, 29 Jul 2026 11:41:30 +0000"
+    },
+    {
+        "title": "Threat Actor Claims Revolut Data Breach Exposes Financial Records of 75 Million Users",
+        "link": "https://gbhackers.com/threat-actor-claims-revolut-data-breach/",
+        "published": "Wed, 29 Jul 2026 11:36:22 +0000"
+    },
+    {
+        "title": "CISA Urges Critical Infrastructure Operators to Isolate Vital OT Systems During Cyberattacks",
+        "link": "https://gbhackers.com/cisa-urges-critical-infrastructure-operators-to-isolate-vital-ot-systems/",
+        "published": "Wed, 29 Jul 2026 11:04:25 +0000"
+    },
+    {
+        "title": "Joyfill npm Supply-Chain Attack Deploys RAT and Developer Credential Stealer",
+        "link": "https://gbhackers.com/joyfill-npm-supply-chain-attack/",
+        "published": "Wed, 29 Jul 2026 10:47:01 +0000"
+    },
+    {
+        "title": "Houston City College Data Breach Impacts 832,000 Students and Alumni",
+        "link": "https://gbhackers.com/houston-city-college-data-breach-impacts-832000/",
+        "published": "Wed, 29 Jul 2026 10:34:29 +0000"
+    },
+    {
+        "title": "Fake Web3 Job Interview Software Delivers Infostealer to Steal Crypto Wallets and Passwords",
+        "link": "https://gbhackers.com/fake-web3-job-interview-software/",
+        "published": "Wed, 29 Jul 2026 09:54:33 +0000"
+    },
+    {
+        "title": "Check Point SmartConsole Zero-Day Lets Unauthenticated Attackers Gain Full Admin Access",
+        "link": "https://gbhackers.com/check-point-smartconsole-zero-day/",
+        "published": "Wed, 29 Jul 2026 09:21:21 +0000"
+    },
+    {
+        "title": "Attackers Abuse GitHub Actions Workflow to Publish Provenance-Signed npm Malware",
+        "link": "https://gbhackers.com/github-actions-abused/",
+        "published": "Wed, 29 Jul 2026 09:18:15 +0000"
+    },
+    {
+        "title": "Critical WordPress Plugin Backdoor Exposes 20,000 Sites to Full Administrator Takeover",
+        "link": "https://gbhackers.com/critical-wordpress-plugin-backdoor-exposes-20000-sites/",
+        "published": "Wed, 29 Jul 2026 09:06:43 +0000"
     }
 ]
