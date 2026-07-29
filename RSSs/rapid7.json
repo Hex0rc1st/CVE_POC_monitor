@@ -978,5 +978,10 @@
         "title": "Check Point SmartConsole Authentication Bypass Technical Analysis (CVE-2026-16232)",
         "link": "https://www.rapid7.com/blog/post/ra-check-point-smartconsole-authentication-bypass-technical-analysis-cve-2026-16232",
         "published": "Tue, 28 Jul 2026 18:32:03 GMT"
+    },
+    {
+        "title": "CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63077-critical-unauthenticated-remote-code-execution-in-jetbrains-teamcity",
+        "published": "Wed, 29 Jul 2026 16:16:48 GMT"
     }
 ]

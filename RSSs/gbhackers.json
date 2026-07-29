@@ -8878,5 +8878,25 @@
         "title": "Critical WordPress Plugin Backdoor Exposes 20,000 Sites to Full Administrator Takeover",
         "link": "https://gbhackers.com/critical-wordpress-plugin-backdoor-exposes-20000-sites/",
         "published": "Wed, 29 Jul 2026 09:06:43 +0000"
+    },
+    {
+        "title": "Sweet Security Brings Autonomous Protection to the AI Enterprise with New Blocking Capabilities",
+        "link": "https://gbhackers.com/sweet-security-agentic-ai-blocking/",
+        "published": "Wed, 29 Jul 2026 14:19:40 +0000"
+    },
+    {
+        "title": "Critical Ruflo MCP Bridge Flaw Allows Full AI Agent Platform Takeover",
+        "link": "https://gbhackers.com/critical-ruflo-mcp-bridge-flaw/",
+        "published": "Wed, 29 Jul 2026 13:51:23 +0000"
+    },
+    {
+        "title": "Critical VMware vCenter Flaws Let Remote Attackers Bypass Authentication and Execute Code",
+        "link": "https://gbhackers.com/critical-vmware-vcenter-flaws/",
+        "published": "Wed, 29 Jul 2026 13:37:35 +0000"
+    },
+    {
+        "title": "macOS ClickFix Attacks Use Fake CAPTCHAs to Deploy Atomic Stealer and Hijack Crypto Wallets",
+        "link": "https://gbhackers.com/macos-clickfix-attacks-use-fake-captchas/",
+        "published": "Wed, 29 Jul 2026 12:42:49 +0000"
     }
 ]

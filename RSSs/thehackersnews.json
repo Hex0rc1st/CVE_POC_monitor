@@ -6268,5 +6268,15 @@
         "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
         "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
         "published": "Wed, 29 Jul 2026 16:43:10 +0530"
+    },
+    {
+        "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+        "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+        "published": "Wed, 29 Jul 2026 21:09:30 +0530"
+    },
+    {
+        "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+        "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+        "published": "Wed, 29 Jul 2026 21:01:15 +0530"
     }
 ]
