@@ -6213,5 +6213,10 @@
         "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
         "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
         "published": "Wed, 29 Jul 2026 00:29:07 +0530"
+    },
+    {
+        "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+        "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+        "published": "Wed, 29 Jul 2026 09:50:57 +0530"
     }
 ]

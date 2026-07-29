@@ -8798,5 +8798,35 @@
         "title": "Aembit Joins Snowflake to Tackle AI’s Next Security Frontier: Trusted Agent Interoperability",
         "link": "https://gbhackers.com/aembit-joins-snowflake-to-tackle-ais-next-security-frontier-trusted-agent-interoperability/",
         "published": "Tue, 28 Jul 2026 15:40:52 +0000"
+    },
+    {
+        "title": "Attackers Split RAT Components Across npm Packages to Evade Isolated Code Reviews",
+        "link": "https://gbhackers.com/split-rat-components-across-npm/",
+        "published": "Wed, 29 Jul 2026 05:57:46 +0000"
+    },
+    {
+        "title": "Cybercriminals Use Adversarial Prompt Injection to Evade AI-Powered Security Tools",
+        "link": "https://gbhackers.com/adversarial-prompt-injection/",
+        "published": "Wed, 29 Jul 2026 05:15:19 +0000"
+    },
+    {
+        "title": "OpenAI Open-Sources Codex Security CLI to Find, Validate, and Fix Code Vulnerabilities",
+        "link": "https://gbhackers.com/openai-open-sources-codex-security-cli-to-find-vulnerabilities/",
+        "published": "Wed, 29 Jul 2026 04:45:21 +0000"
+    },
+    {
+        "title": "Autonomous AI Agent Escapes Sandbox and Breaches Hugging Face Production Systems",
+        "link": "https://gbhackers.com/autonomous-ai-breaches-hugging-face-production-systems/",
+        "published": "Wed, 29 Jul 2026 04:26:27 +0000"
+    },
+    {
+        "title": "Claude AI Autonomously Discovers Cryptographic Weaknesses That Escaped Expert Review",
+        "link": "https://gbhackers.com/claude-ai-autonomously-discovers-cryptographic-weaknesses/",
+        "published": "Wed, 29 Jul 2026 04:18:29 +0000"
+    },
+    {
+        "title": "NGINX Heap Overflow Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+        "link": "https://gbhackers.com/nginx-heap-overflow-flaw/",
+        "published": "Wed, 29 Jul 2026 03:53:17 +0000"
     }
 ]
