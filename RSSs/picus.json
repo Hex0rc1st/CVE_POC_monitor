@@ -1148,5 +1148,25 @@
         "title": "Astaroth (Guildma) Uses Steganography and Ngrok for C2 Resilience",
         "link": "https://www.picussecurity.com/resource/blog/astaroth-guildma-uses-steganography-and-ngrok-for-c2-resilience",
         "published": "Tue, 28 Jul 2026 06:00:00 GMT"
+    },
+    {
+        "title": "HOLLOWGRAPH Backdoor Turns Microsoft 365 Calendars Into a C2 Channel",
+        "link": "https://www.picussecurity.com/resource/blog/hollowgraph-backdoor-turns-microsoft-365-calendars-into-a-c2-channel",
+        "published": "Wed, 29 Jul 2026 09:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-31635 (DirtyDecrypt) Linux Kernel Privilege Escalation Explained",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-31635-dirtydecrypt-linux-kernel-privilege-escalation-explained",
+        "published": "Wed, 29 Jul 2026 08:37:14 GMT"
+    },
+    {
+        "title": "INC Ransomware Explained: How It Attacks Healthcare and Education",
+        "link": "https://www.picussecurity.com/resource/blog/inc-ransomware-explained-how-it-attacks-healthcare-and-education",
+        "published": "Wed, 29 Jul 2026 08:00:00 GMT"
+    },
+    {
+        "title": "Capitalize on Mythos Hype to Fix Your Exposure and Vulnerability Management",
+        "link": "https://www.picussecurity.com/resource/report/capitalize-on-mythos-hype-to-fix-your-exposure-and-vulnerability-management",
+        "published": "Wed, 29 Jul 2026 06:54:05 GMT"
     }
 ]
