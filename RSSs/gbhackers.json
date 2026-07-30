@@ -8993,5 +8993,10 @@
         "title": "Home Assistant FFmpeg Flaw Lets Attackers Steal Supervisor Tokens and Execute Code as Root",
         "link": "https://gbhackers.com/home-assistant-ffmpeg-flaw/",
         "published": "Thu, 30 Jul 2026 09:44:55 +0000"
+    },
+    {
+        "title": "AtlasRAT Uses Four-Stage In-Memory Loader to Keylog and Inject Malware Into WeChat",
+        "link": "https://gbhackers.com/atlasrat-uses-four-stage-in-memory/",
+        "published": "Thu, 30 Jul 2026 12:11:01 +0000"
     }
 ]
