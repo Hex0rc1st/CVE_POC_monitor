@@ -8963,5 +8963,35 @@
         "title": "Copybara Abuses Android Accessibility for Keylogging, Screen Streaming and Remote Control",
         "link": "https://gbhackers.com/copybara-abuses-android/",
         "published": "Thu, 30 Jul 2026 07:14:49 +0000"
+    },
+    {
+        "title": "CISA Adds Cisco Secure Firewall Management Flaw to Exploited Vulnerabilities List",
+        "link": "https://gbhackers.com/cisa-adds-cisco-secure-firewall-management-flaw/",
+        "published": "Thu, 30 Jul 2026 11:45:20 +0000"
+    },
+    {
+        "title": "Linux XMRig Botnet Abuses PAM for Fileless Monero Mining and Persistent Access",
+        "link": "https://gbhackers.com/linux-xmrig-botnet/",
+        "published": "Thu, 30 Jul 2026 10:44:14 +0000"
+    },
+    {
+        "title": "New GenieLocker Ransomware Encrypts Windows, Linux and VMware ESXi Systems",
+        "link": "https://gbhackers.com/new-genielocker-ransomware-encrypts-windows-linux-and-vmware-esxi-systems/",
+        "published": "Thu, 30 Jul 2026 10:23:03 +0000"
+    },
+    {
+        "title": "Top 10 Best Tools for Simulated DDoS Attacks in 2026",
+        "link": "https://gbhackers.com/simulated-ddos-attack-tools/",
+        "published": "Thu, 30 Jul 2026 10:04:26 +0000"
+    },
+    {
+        "title": "Hackers Exploit Nearly 1 in 4 Vulnerabilities Before or on Disclosure Day",
+        "link": "https://gbhackers.com/hackers-exploit-nearly-1-in-4-vulnerabilities/",
+        "published": "Thu, 30 Jul 2026 10:02:04 +0000"
+    },
+    {
+        "title": "Home Assistant FFmpeg Flaw Lets Attackers Steal Supervisor Tokens and Execute Code as Root",
+        "link": "https://gbhackers.com/home-assistant-ffmpeg-flaw/",
+        "published": "Thu, 30 Jul 2026 09:44:55 +0000"
     }
 ]

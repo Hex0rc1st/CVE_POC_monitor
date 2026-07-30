@@ -983,5 +983,10 @@
         "title": "CVE-2026-63077: Critical unauthenticated remote code execution in JetBrains TeamCity",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63077-critical-unauthenticated-remote-code-execution-in-jetbrains-teamcity",
         "published": "Wed, 29 Jul 2026 16:16:48 GMT"
+    },
+    {
+        "title": "Critical VMware vCenter Vulnerabilities Allow Authentication Bypass and Remote Code Execution (CVE-2026-59309, CVE-2026-59310)",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-vmware-vcenter-vulnerabilities-allow-authentication-bypass-and-remote-code-execution-cve-2026-59309-cve-2026-59310",
+        "published": "Thu, 30 Jul 2026 10:35:21 GMT"
     }
 ]

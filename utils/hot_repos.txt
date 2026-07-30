@@ -248,3 +248,4 @@ https://github.com/sfewer-r7/CVE-2026-16232
 https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479
 https://github.com/mwnickerson/certighost-bof
 https://github.com/WitAqua-tools/Root-My-Device
+https://github.com/Zer0SumGam3/CVE-2026-66066-POC
