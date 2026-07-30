@@ -4859,3 +4859,4 @@ clean_list:
 - cve-2025-5915
 - smartpwn
 - CVE-2025-49091-Gajim-RCE
+- CVE-2026-43499-A34
