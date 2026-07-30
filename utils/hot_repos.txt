@@ -245,3 +245,4 @@ https://github.com/woshimaniubi8/CVE-2026-43499-root-KernelSU
 https://github.com/imbas007/CVE-2026-42533
 https://github.com/marcgoam/CVE-2026-54121-CertiGhost
 https://github.com/sfewer-r7/CVE-2026-16232
+https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479

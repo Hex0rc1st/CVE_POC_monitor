@@ -6283,5 +6283,10 @@
         "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
         "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
         "published": "Wed, 29 Jul 2026 23:40:00 +0530"
+    },
+    {
+        "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
+        "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+        "published": "Thu, 30 Jul 2026 10:38:39 +0530"
     }
 ]

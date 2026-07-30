@@ -8903,5 +8903,50 @@
         "title": "Top 10 Best Security Configuration Assessment Tools in 2026",
         "link": "https://gbhackers.com/security-configuration-assessment-tools/",
         "published": "Wed, 29 Jul 2026 19:27:42 +0000"
+    },
+    {
+        "title": "Google Chrome 151 Fixes 370 Security Flaws, Including 7 Critical Bugs",
+        "link": "https://gbhackers.com/google-chrome-151-fixes-370-security-flaws/",
+        "published": "Thu, 30 Jul 2026 06:21:44 +0000"
+    },
+    {
+        "title": "North Korean Hackers Compromise Popular npm Packages to Target Developer Environments",
+        "link": "https://gbhackers.com/north-korean-compromise-npm-packages/",
+        "published": "Thu, 30 Jul 2026 06:20:00 +0000"
+    },
+    {
+        "title": "GitLab Patches 13 Security Flaws Enabling Data Exposure, CI/CD Tampering and DoS Attacks",
+        "link": "https://gbhackers.com/gitlab-patches-13-security-flaws/",
+        "published": "Thu, 30 Jul 2026 06:17:43 +0000"
+    },
+    {
+        "title": "Node.js Patches 11 Security Flaws Enabling Memory Exhaustion, File Access and Request Smuggling",
+        "link": "https://gbhackers.com/node-js-patches-11-security-flaws/",
+        "published": "Thu, 30 Jul 2026 06:04:07 +0000"
+    },
+    {
+        "title": "TA488 Exploits Outlook Half-Click Flaw to Deploy Persistent OWAReaper Backdoor",
+        "link": "https://gbhackers.com/outlook-half-click-flaw/",
+        "published": "Thu, 30 Jul 2026 05:44:10 +0000"
+    },
+    {
+        "title": "Claude Global Outage Hits Users With “529 Overloaded” Error Messages",
+        "link": "https://gbhackers.com/claude-global-outage-hits-users/",
+        "published": "Thu, 30 Jul 2026 04:58:26 +0000"
+    },
+    {
+        "title": "Microsoft Word Copilot Flaw Lets Hidden Prompts Spread Self-Propagating AI Worms Across Documents",
+        "link": "https://gbhackers.com/microsoft-copilot-word-flaw/",
+        "published": "Thu, 30 Jul 2026 04:57:45 +0000"
+    },
+    {
+        "title": "Hackers Can Compromise Tor Browser Users by Exploiting Firefox JIT Flaw",
+        "link": "https://gbhackers.com/hackers-can-compromise-tor-browser-users/",
+        "published": "Thu, 30 Jul 2026 04:31:12 +0000"
+    },
+    {
+        "title": "Critical Rails Flaw Lets Unauthenticated Attackers Read Server Files and Execute Code",
+        "link": "https://gbhackers.com/critical-rails-flaw/",
+        "published": "Thu, 30 Jul 2026 04:03:53 +0000"
     }
 ]
