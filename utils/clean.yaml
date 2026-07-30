@@ -4857,3 +4857,4 @@ clean_list:
 - CVE-2026-10702
 - Kimai-CVE-2026-49865-POC
 - cve-2025-5915
+- smartpwn

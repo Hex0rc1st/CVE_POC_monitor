@@ -246,3 +246,5 @@ https://github.com/imbas007/CVE-2026-42533
 https://github.com/marcgoam/CVE-2026-54121-CertiGhost
 https://github.com/sfewer-r7/CVE-2026-16232
 https://github.com/CamsShaft/SELinux-Permissive-Only-CVE-2025-21479
+https://github.com/mwnickerson/certighost-bof
+https://github.com/WitAqua-tools/Root-My-Device

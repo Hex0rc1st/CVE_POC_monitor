@@ -8948,5 +8948,20 @@
         "title": "Critical Rails Flaw Lets Unauthenticated Attackers Read Server Files and Execute Code",
         "link": "https://gbhackers.com/critical-rails-flaw/",
         "published": "Thu, 30 Jul 2026 04:03:53 +0000"
+    },
+    {
+        "title": "Hackers Pose as IT Helpdesk on Microsoft Teams to Deploy Chaos Ransomware",
+        "link": "https://gbhackers.com/it-helpdesk-on-microsoft-teams/",
+        "published": "Thu, 30 Jul 2026 08:57:13 +0000"
+    },
+    {
+        "title": "Work Panel Vishing Platform Automates Enterprise Account Takeovers and MFA Theft",
+        "link": "https://gbhackers.com/work-panel-vishing-platform/",
+        "published": "Thu, 30 Jul 2026 08:03:24 +0000"
+    },
+    {
+        "title": "Copybara Abuses Android Accessibility for Keylogging, Screen Streaming and Remote Control",
+        "link": "https://gbhackers.com/copybara-abuses-android/",
+        "published": "Thu, 30 Jul 2026 07:14:49 +0000"
     }
 ]
