@@ -4864,3 +4864,6 @@ clean_list:
 - pd2425-cve-2026-43499-config
 - Metasploit-CVE-2026-54121-Certighost
 - Dirty-Frag-Research-CVE-2026-43284-
+- CVE-2026-8347
+- vamp-forticheck
+- SG-2026-0013
