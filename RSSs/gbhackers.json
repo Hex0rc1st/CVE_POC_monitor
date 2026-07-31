@@ -9053,5 +9053,45 @@
         "title": "Anthropic Confirms Claude AI Models Hacked 3 Organizations During Cybersecurity Evaluations",
         "link": "https://gbhackers.com/anthropic-confirms-claude-ai-models-hacked-3-organizations/",
         "published": "Fri, 31 Jul 2026 04:55:26 +0000"
+    },
+    {
+        "title": "Keycloak Flaw Exposes Users’ Personal Data to Restricted Admins",
+        "link": "https://gbhackers.com/keycloak-flaw-exposes-users-personal-data/",
+        "published": "Fri, 31 Jul 2026 13:00:00 +0000"
+    },
+    {
+        "title": "Ransomware Killers Overwrite Security Process Memory Without Terminating Applications",
+        "link": "https://gbhackers.com/ransomware-killers-overwrite-security-process/",
+        "published": "Fri, 31 Jul 2026 11:17:21 +0000"
+    },
+    {
+        "title": "Critical JetBrains TeamCity Flaw Enables Unauthenticated Remote Code Execution",
+        "link": "https://gbhackers.com/critical-jetbrains-teamcity-flaw/",
+        "published": "Fri, 31 Jul 2026 10:47:38 +0000"
+    },
+    {
+        "title": "Google Uses AI to Fix 1,072 Chrome Security Vulnerabilities",
+        "link": "https://gbhackers.com/google-uses-ai-to-fix-1072-chrome-vulnerabilities/",
+        "published": "Fri, 31 Jul 2026 10:18:47 +0000"
+    },
+    {
+        "title": "ClickFix Campaign Uses EtherHiding to Hide Malware and Exposes DPRK Wallet Trail",
+        "link": "https://gbhackers.com/clickfix-campaign-uses-etherhiding/",
+        "published": "Fri, 31 Jul 2026 09:52:09 +0000"
+    },
+    {
+        "title": "BlackTech APT Uses New BlueShell Linux Backdoor in Attacks on Japanese Organizations",
+        "link": "https://gbhackers.com/blueshell-linux-backdoor/",
+        "published": "Fri, 31 Jul 2026 08:58:43 +0000"
+    },
+    {
+        "title": "Critical Adobe Campaign Flaw Lets Attackers Execute Arbitrary Code",
+        "link": "https://gbhackers.com/critical-adobe-campaign-flaw/",
+        "published": "Fri, 31 Jul 2026 08:50:20 +0000"
+    },
+    {
+        "title": "Critical SolarWinds Web Help Desk Flaw Lets Attackers Bypass SAML Authentication",
+        "link": "https://gbhackers.com/critical-solarwinds-web-help-desk-flaw/",
+        "published": "Fri, 31 Jul 2026 08:10:06 +0000"
     }
 ]
