@@ -4869,3 +4869,10 @@ clean_list:
 - SG-2026-0013
 - cicd-goat-vapt-writeup
 - CVE-2026-PENDING-EMS
+- CVE-2026-PENDING-AAVISHKAR-1
+- CVE-2026-47668
+- OVSwrap-CVE-2026-64531-Mitigation-Tool
+- baton-retool
+- CVE-2026-63563
+- CVE-2026-21858-and-CVE-2025-68613
+- CICD-Goat-Vapt-Writeup

@@ -1648,5 +1648,25 @@
         "title": "Chrome Beta for Desktop Update",
         "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update_01933553911.html",
         "published": "2026-07-30T07:28:35.498-07:00"
+    },
+    {
+        "title": "Long Term Support Channel Update for ChromeOS",
+        "link": "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for_02055466180.html",
+        "published": "2026-07-30T16:20:35.428-07:00"
+    },
+    {
+        "title": "Chrome Beta for iOS Update",
+        "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update_0466681406.html",
+        "published": "2026-07-30T15:13:32.514-07:00"
+    },
+    {
+        "title": "Chrome Beta for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_015820283.html",
+        "published": "2026-07-30T12:28:31.977-07:00"
+    },
+    {
+        "title": "Chrome Dev for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_01641604455.html",
+        "published": "2026-07-30T10:58:32.109-07:00"
     }
 ]
