@@ -9003,5 +9003,55 @@
         "title": "OpenMatter Network Calls on Enterprise Leaders to Rethink AI Security Before the Next Rogue AI Crisis",
         "link": "https://gbhackers.com/openmatter-network-ai-security-rethink/",
         "published": "Thu, 30 Jul 2026 16:44:35 +0000"
+    },
+    {
+        "title": "Recon-Only SSH Attack Leaves No Malware but Signals a Second-Stage Intrusion",
+        "link": "https://gbhackers.com/recon-only-ssh-attack/",
+        "published": "Fri, 31 Jul 2026 07:35:43 +0000"
+    },
+    {
+        "title": "PHP Patches 3 Security Flaws Enabling SQL Injection, Memory Corruption and DoS Attacks",
+        "link": "https://gbhackers.com/php-patches-3-security-flaws-enabling-sql-injection/",
+        "published": "Fri, 31 Jul 2026 06:53:39 +0000"
+    },
+    {
+        "title": "Chinese-Speaking Hacker Uses DeepSeek Agent to Launch Autonomous Cyberattacks",
+        "link": "https://gbhackers.com/hacker-uses-deepseek-agent/",
+        "published": "Fri, 31 Jul 2026 06:50:33 +0000"
+    },
+    {
+        "title": "ShutterGap Exposes Millions of Misconfigured AWS Resources to Attackers",
+        "link": "https://gbhackers.com/shuttergap-exposes-millions-of-misconfigured-aws-resources/",
+        "published": "Fri, 31 Jul 2026 06:28:30 +0000"
+    },
+    {
+        "title": "Astaroth Banking Trojan Adds WhatsApp Web Spambot to Spread Malware Across Brazil",
+        "link": "https://gbhackers.com/astaroth-banking-trojan/",
+        "published": "Fri, 31 Jul 2026 06:13:46 +0000"
+    },
+    {
+        "title": "CISA Urges Water Utilities to Remove Publicly Exposed PLCs From the Internet",
+        "link": "https://gbhackers.com/cisa-urges-water-utilities-to-remove-publicly-exposed-plcs/",
+        "published": "Fri, 31 Jul 2026 05:42:28 +0000"
+    },
+    {
+        "title": "CosmosEscape Vulnerability Enables Full Takeover of Azure Cosmos DB Databases",
+        "link": "https://gbhackers.com/cosmosescape-vulnerability/",
+        "published": "Fri, 31 Jul 2026 05:33:06 +0000"
+    },
+    {
+        "title": "OctLurk and SilkLurk Backdoors Target Central Asian Governments in Cyberespionage Campaign",
+        "link": "https://gbhackers.com/octlurk-and-silklurk-backdoors/",
+        "published": "Fri, 31 Jul 2026 05:08:39 +0000"
+    },
+    {
+        "title": "Analog Devices Confirms Cyberattack After Hackers Exfiltrate Files From Company Systems",
+        "link": "https://gbhackers.com/analog-devices-confirms-cyberattack/",
+        "published": "Fri, 31 Jul 2026 05:03:13 +0000"
+    },
+    {
+        "title": "Anthropic Confirms Claude AI Models Hacked 3 Organizations During Cybersecurity Evaluations",
+        "link": "https://gbhackers.com/anthropic-confirms-claude-ai-models-hacked-3-organizations/",
+        "published": "Fri, 31 Jul 2026 04:55:26 +0000"
     }
 ]

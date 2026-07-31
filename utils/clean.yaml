@@ -4860,3 +4860,7 @@ clean_list:
 - smartpwn
 - CVE-2025-49091-Gajim-RCE
 - CVE-2026-43499-A34
+- CVE-2026-39875-macOS-CUPS
+- pd2425-cve-2026-43499-config
+- Metasploit-CVE-2026-54121-Certighost
+- Dirty-Frag-Research-CVE-2026-43284-
