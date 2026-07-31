@@ -4867,3 +4867,5 @@ clean_list:
 - CVE-2026-8347
 - vamp-forticheck
 - SG-2026-0013
+- cicd-goat-vapt-writeup
+- CVE-2026-PENDING-EMS
