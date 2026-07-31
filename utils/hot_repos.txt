@@ -250,3 +250,4 @@ https://github.com/mwnickerson/certighost-bof
 https://github.com/WitAqua-tools/Root-My-Device
 https://github.com/Zer0SumGam3/CVE-2026-66066-POC
 https://github.com/shinthink/CVE-2026-57827
+https://github.com/rails/rails-forensics-CVE-2026-66066
