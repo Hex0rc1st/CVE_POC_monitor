@@ -4876,3 +4876,4 @@ clean_list:
 - CVE-2026-63563
 - CVE-2026-21858-and-CVE-2025-68613
 - CICD-Goat-Vapt-Writeup
+- uefi_bootkit_softlanding
