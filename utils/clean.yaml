@@ -4884,3 +4884,10 @@ clean_list:
 - CVE-2026-8239
 - CVE-2025-15001-Exploit
 - Wp2shell-ioc-scanner
+- SMTPXploit
+- security-research
+- SentinelMind
+- CVE-2026-13157
+- Incident-Analysis-Response-Check-Point-Security-Gateway-CVE-2024-24919-LFI-Exploitation
+- Cyber-Defenders-lab-
+- CVE-2026-52370
