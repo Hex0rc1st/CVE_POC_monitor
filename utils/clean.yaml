@@ -4891,3 +4891,6 @@ clean_list:
 - Incident-Analysis-Response-Check-Point-Security-Gateway-CVE-2024-24919-LFI-Exploitation
 - Cyber-Defenders-lab-
 - CVE-2026-52370
+- CVE-2026-13158
+- CVE-2026-53625-GLPI-PoC
+- CVE-2026-8237
