@@ -4879,3 +4879,8 @@ clean_list:
 - uefi_bootkit_softlanding
 - CVE-2026-13152
 - cve-2026-10702
+- CVE-2026-53576
+- CVE-2025-7384
+- CVE-2026-8239
+- CVE-2025-15001-Exploit
+- Wp2shell-ioc-scanner

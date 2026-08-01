@@ -9093,5 +9093,30 @@
         "title": "Critical SolarWinds Web Help Desk Flaw Lets Attackers Bypass SAML Authentication",
         "link": "https://gbhackers.com/critical-solarwinds-web-help-desk-flaw/",
         "published": "Fri, 31 Jul 2026 08:10:06 +0000"
+    },
+    {
+        "title": "Autonomous AI Agent Exploits Zero-Day to Breach Hugging Face Infrastructure",
+        "link": "https://gbhackers.com/autonomous-ai-agent-exploits-zero-day/",
+        "published": "Sat, 01 Aug 2026 08:32:42 +0000"
+    },
+    {
+        "title": "Arch Linux Suspends AUR Package Adoptions to Block Ongoing Malicious Commit Campaign",
+        "link": "https://gbhackers.com/arch-linux-suspends-aur-package-adoptions/",
+        "published": "Sat, 01 Aug 2026 08:05:29 +0000"
+    },
+    {
+        "title": "CRPx0 Ransomware Claims Hyundai Turkey Breach, Steals 1.5GB of Assessment Data",
+        "link": "https://gbhackers.com/crpx0-ransomware-claims-hyundai-turkey-breach/",
+        "published": "Sat, 01 Aug 2026 07:40:04 +0000"
+    },
+    {
+        "title": "HackerOne Mandates ID Verification Before Bug Bounty Report Submissions",
+        "link": "https://gbhackers.com/hackerone-mandates-id-verification/",
+        "published": "Sat, 01 Aug 2026 07:04:41 +0000"
+    },
+    {
+        "title": "MacSync Stealer RAT Uses Fake Claude Guides to Steal Passwords and Crypto Wallets",
+        "link": "https://gbhackers.com/macsync-stealer-rat-uses-fake-claude-guides/",
+        "published": "Sat, 01 Aug 2026 06:50:22 +0000"
     }
 ]
