@@ -4896,3 +4896,6 @@ clean_list:
 - CVE-2026-8237
 - ieee-aast-ctf-2026-CVE-III
 - CVE-2025-69212-for-myself
+- AppEnumGuard
+- HORiZonstack
+- CVE-2025-68937
