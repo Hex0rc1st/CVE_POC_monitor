@@ -252,3 +252,6 @@ https://github.com/Zer0SumGam3/CVE-2026-66066-POC
 https://github.com/shinthink/CVE-2026-57827
 https://github.com/rails/rails-forensics-CVE-2026-66066
 https://github.com/yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585
+https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus
+https://github.com/Mohammad-008/rsfiles-CVE-2026-57827
+https://github.com/datfooldive/ghostlock-emerald
