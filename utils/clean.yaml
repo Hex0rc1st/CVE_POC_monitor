@@ -4942,3 +4942,12 @@ clean_list:
 - ovswrap-poc
 - CVE-2026-12250
 - CVE-2026-43637-cornac
+- fastjson-check
+- CVE-2026-64560-Analysis
+- checkpoint-smartconsole-poc
+- CVE-2026-26114-Patch
+- Certighost-CVE-2026-54121
+- pdfjs-cve-2024-4367-poc
+- ghostlock-myron-tw
+- POC-CVE-2026-54121-Certighost-
+- kindarails2shell-poc
