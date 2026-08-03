@@ -4928,3 +4928,7 @@ clean_list:
 - CVE-2026-12940-Langflow-Unauth-RCE
 - CVE-2026-7777-Rust-Use-After-Free-in-Unsafe-Web-Server
 - CVE-2026-63223-POC
+- cve-2026-poc-collection
+- nextjs-middleware-auth-bypass-lab
+- CVE-2026-39987_PoC
+- CVE-2026-52887-NocoBase-SQLi-RCE

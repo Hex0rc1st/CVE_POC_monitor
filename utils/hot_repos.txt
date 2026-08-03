@@ -255,3 +255,4 @@ https://github.com/yellowkeybitlocker/YellowKey-Bitlocker-CVE-2026-45585
 https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus
 https://github.com/Mohammad-008/rsfiles-CVE-2026-57827
 https://github.com/datfooldive/ghostlock-emerald
+https://github.com/alex193a/Root-My-Pixel

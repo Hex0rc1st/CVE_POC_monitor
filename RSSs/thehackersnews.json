@@ -6398,5 +6398,15 @@
         "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
         "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
         "published": "Sat, 01 Aug 2026 22:47:22 +0530"
+    },
+    {
+        "title": "N-able Says Attackers Take Over N-central Servers After Initial Fix Proves Incomplete",
+        "link": "https://thehackernews.com/2026/08/n-able-says-attackers-take-over-n.html",
+        "published": "Mon, 03 Aug 2026 12:11:46 +0530"
+    },
+    {
+        "title": "Hugging Face Diffusers Flaws Could Let Model Repositories Execute Arbitrary Code",
+        "link": "https://thehackernews.com/2026/08/hugging-face-diffusers-flaws-could-let.html",
+        "published": "Mon, 03 Aug 2026 12:10:31 +0530"
     }
 ]

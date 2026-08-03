@@ -9138,5 +9138,40 @@
         "title": "SabPaisa Partners with AccuKnox for Zero Trust AI-Powered Cloud Security to Secure Its Payments Platform",
         "link": "https://gbhackers.com/sabpaisa-partners-with-accuknox-for-zero-trust-ai-powered-cloud-security-to-secure-its-payments-platform/",
         "published": "Sun, 02 Aug 2026 18:39:49 +0000"
+    },
+    {
+        "title": "Critical N-able N-central Flaw Actively Exploited to Gain God-Mode Access to MSP Networks",
+        "link": "https://gbhackers.com/critical-n-able-n-central-flaw-actively-exploited/",
+        "published": "Mon, 03 Aug 2026 06:55:29 +0000"
+    },
+    {
+        "title": "Metasploit Exploit Targets Critical Ruby on Rails Active Storage RCE Flaw",
+        "link": "https://gbhackers.com/metasploit-exploit-targets-critical-ruby-on-rails/",
+        "published": "Mon, 03 Aug 2026 06:26:49 +0000"
+    },
+    {
+        "title": "CareCloud Data Breach Exposes Patients’ Health, Social Security and Credit Card Data",
+        "link": "https://gbhackers.com/carecloud-data-breach-exposes-patients-data/",
+        "published": "Mon, 03 Aug 2026 05:55:11 +0000"
+    },
+    {
+        "title": "SonicWall SMA Zero-Days Let Attackers Turn One WebSocket Request Into Root Control",
+        "link": "https://gbhackers.com/sonicwall-sma-zero-days/",
+        "published": "Mon, 03 Aug 2026 05:47:58 +0000"
+    },
+    {
+        "title": "Hackers Exploit Critical Arista VeloCloud Flaw to Execute OS Commands",
+        "link": "https://gbhackers.com/hackers-exploit-critical-arista-velocloud-flaw/",
+        "published": "Mon, 03 Aug 2026 05:37:19 +0000"
+    },
+    {
+        "title": "Coldcard Firmware Flaw Lets Hackers Steal $70 Million in Bitcoin From 1,196 Addresses",
+        "link": "https://gbhackers.com/coldcard-firmware-flaw/",
+        "published": "Mon, 03 Aug 2026 05:26:57 +0000"
+    },
+    {
+        "title": "XCSSET v40 Infects Xcode Projects to Hijack Chrome and Trojanize Telegram on Macs",
+        "link": "https://gbhackers.com/xcsset-v40-infects-xcode-projects/",
+        "published": "Mon, 03 Aug 2026 05:04:45 +0000"
     }
 ]
