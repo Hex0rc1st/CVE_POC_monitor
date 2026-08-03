@@ -4932,3 +4932,13 @@ clean_list:
 - nextjs-middleware-auth-bypass-lab
 - CVE-2026-39987_PoC
 - CVE-2026-52887-NocoBase-SQLi-RCE
+- CVE-2026-17583
+- CVE-2026-65321-pyathena
+- CVE-2026-9848
+- flowise-arbitrary-file-read-getFileFromStorage
+- CVE-2026-60137
+- CVE-2026-63720-datamodel-code-generator
+- CVE-2026-60004-POC
+- ovswrap-poc
+- CVE-2026-12250
+- CVE-2026-43637-cornac
