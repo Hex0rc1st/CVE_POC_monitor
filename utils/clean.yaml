@@ -4907,3 +4907,4 @@ clean_list:
 - CVE-2026-9809
 - CVE-2024-40422
 - gha-lab-7ccf56a2a4
+- CVE-2026-1337-AI-Coding-Assistant-Prompt-Injection-to-Sandbox-Escape
