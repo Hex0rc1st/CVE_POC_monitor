@@ -4996,3 +4996,11 @@ clean_list:
 - CVE-2026-22001-SPHINCS-WOTS-Weak-Randomness-Forgeable-Signature
 - CVE-2026-22011-iOS-MDM-Profile-Delivery-over-HTTP
 - CVE-2026-22010-Android-Intent-Redirection-to-Exported-Component
+- CVE-2026-22014-GraphQL-Persisted-Queries-Injection-via-ID-Manipulation
+- wp2exp-2026
+- CVE-2026-17566
+- CVE-2026-22015-Serverless-Function-Environment-Variable-Injection-via-Event
+- CVE-2026-22016-IPFS-CID-Spoofing-via-Multihash-Length-Extension
+- CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication
+- CVE-2026-52102-PoC
+- cve-2025-53770-research

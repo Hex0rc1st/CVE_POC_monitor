@@ -9258,5 +9258,40 @@
         "title": "Critical Check Point Flaw Lets Unauthenticated Attackers Execute Commands on Management Servers",
         "link": "https://gbhackers.com/critical-check-point-flaw/",
         "published": "Tue, 04 Aug 2026 07:04:59 +0000"
+    },
+    {
+        "title": "Six Flowise Vulnerabilities Enable Remote Code Execution on AI Workflow Servers",
+        "link": "https://gbhackers.com/six-flowise-vulnerabilities/",
+        "published": "Tue, 04 Aug 2026 14:24:30 +0000"
+    },
+    {
+        "title": "DarkSword Server Combines iPhone Exploits With Fake Apple ID Login Page",
+        "link": "https://gbhackers.com/darksword-server-combines-iphone/",
+        "published": "Tue, 04 Aug 2026 13:53:57 +0000"
+    },
+    {
+        "title": "Fake Xeno Roblox Cheats Deliver Java RAT That Steals Discord and Gaming Accounts",
+        "link": "https://gbhackers.com/fake-xeno-roblox-cheats-java-rat/",
+        "published": "Tue, 04 Aug 2026 13:25:03 +0000"
+    },
+    {
+        "title": "OpenAI Shuts Down ChatGPT Accounts Powering a Cambodia-Based Scam Factory",
+        "link": "https://gbhackers.com/openai-shuts-down-chatgpt-2/",
+        "published": "Tue, 04 Aug 2026 12:56:47 +0000"
+    },
+    {
+        "title": "Shai-Hulud Supply Chain Attack Compromises Keyv and Hundreds of npm Packages",
+        "link": "https://gbhackers.com/shai-hulud-supply-chain-attack-compromises-keyv/",
+        "published": "Tue, 04 Aug 2026 12:54:35 +0000"
+    },
+    {
+        "title": "OWASP Introduces Subtractive Security Top 10 to Eliminate Attack Paths and Reduce Cyber Risk",
+        "link": "https://gbhackers.com/owasp-introduces-subtractive-security-top-10/",
+        "published": "Tue, 04 Aug 2026 12:33:25 +0000"
+    },
+    {
+        "title": "CISA Adds Exploited N-able N-central Flaw Enabling Remote Admin Takeover to KEV",
+        "link": "https://gbhackers.com/cisa-adds-exploited-n-able-n-central-flaw/",
+        "published": "Tue, 04 Aug 2026 12:22:35 +0000"
     }
 ]
