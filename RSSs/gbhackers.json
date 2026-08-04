@@ -9183,5 +9183,30 @@
         "title": "North Korea Rebuilt Its Antivirus Using ClamAV and Gave It Four Different Names",
         "link": "https://gbhackers.com/north-korea-rebuilt-its-antivirus/",
         "published": "Mon, 03 Aug 2026 11:48:55 +0000"
+    },
+    {
+        "title": "ChocoShell Steals Microsoft 365 Tokens and Browser Sessions From Travelers",
+        "link": "https://gbhackers.com/chocoshell-steals-microsoft-365/",
+        "published": "Tue, 04 Aug 2026 06:24:18 +0000"
+    },
+    {
+        "title": "NullReceiver Is Harder to Discover but Still Exposes a Reusable Attacker Wallet",
+        "link": "https://gbhackers.com/nullreceiver-wallet-trail/",
+        "published": "Tue, 04 Aug 2026 05:37:43 +0000"
+    },
+    {
+        "title": "Apple Removes Telegram From App Store Worldwide",
+        "link": "https://gbhackers.com/apple-removes-telegram-from-app-store/",
+        "published": "Tue, 04 Aug 2026 05:37:19 +0000"
+    },
+    {
+        "title": "Thermo Fisher DNA Analysis Software Flaw Lets Attackers Secretly Alter Test Data",
+        "link": "https://gbhackers.com/thermo-fisher-dna-analysis-software-flaw/",
+        "published": "Tue, 04 Aug 2026 05:12:26 +0000"
+    },
+    {
+        "title": "Malware Can Steal Google’s Synced Passkeys Without Password or Fingerprint",
+        "link": "https://gbhackers.com/malware-can-steal-googles-synced-passkeys/",
+        "published": "Tue, 04 Aug 2026 04:58:25 +0000"
     }
 ]

@@ -4972,3 +4972,6 @@ clean_list:
 - CVE-2026-21013-PDF-JavaScript-Injection-via-Embedded-Script
 - CVE-2026-21019-Kubernetes-CronJob-Suspended-Execution-via-Time-Manipulation
 - Rail-OT-Protector
+- pac4j-check
+- POC-CVE-2026-58048
+- CVE-2026-23479-Redis-UAF-Proof-of-Concept
