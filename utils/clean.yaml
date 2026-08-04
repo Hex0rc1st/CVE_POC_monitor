@@ -4975,3 +4975,7 @@ clean_list:
 - pac4j-check
 - POC-CVE-2026-58048
 - CVE-2026-23479-Redis-UAF-Proof-of-Concept
+- CVE-2026-63223
+- CVE-2026-52680_exploit
+- cve-2026-45033-class
+- CVE-2026-18577

@@ -256,3 +256,5 @@ https://github.com/boxiaolanya2008/CVE-2026-43499-Neo11Plus
 https://github.com/Mohammad-008/rsfiles-CVE-2026-57827
 https://github.com/datfooldive/ghostlock-emerald
 https://github.com/alex193a/Root-My-Pixel
+https://github.com/imbas007/CVE-2026-60004-POC
+https://github.com/royaleybovich/CVE-2026-3854-lab
