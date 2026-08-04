@@ -9208,5 +9208,55 @@
         "title": "Malware Can Steal Google’s Synced Passkeys Without Password or Fingerprint",
         "link": "https://gbhackers.com/malware-can-steal-googles-synced-passkeys/",
         "published": "Tue, 04 Aug 2026 04:58:25 +0000"
+    },
+    {
+        "title": "Russian Access Broker Sells Network Access to Ransomware Gangs While Spying on Ukraine",
+        "link": "https://gbhackers.com/russian-access-broker-sells-network/",
+        "published": "Tue, 04 Aug 2026 11:56:07 +0000"
+    },
+    {
+        "title": "China Is Training Military AI With Knowledge Extracted From American Models",
+        "link": "https://gbhackers.com/china-ai-ecosystem/",
+        "published": "Tue, 04 Aug 2026 11:27:15 +0000"
+    },
+    {
+        "title": "18 Malicious npm Packages Deploy Cross-Platform RAT Against Alibaba Developers",
+        "link": "https://gbhackers.com/18-malicious-npm-packages/",
+        "published": "Tue, 04 Aug 2026 11:07:52 +0000"
+    },
+    {
+        "title": "Critical Gitea Flaw Lets Unauthenticated Attackers Read Server Files and Execute Code",
+        "link": "https://gbhackers.com/critical-gitea-flaw/",
+        "published": "Tue, 04 Aug 2026 09:40:58 +0000"
+    },
+    {
+        "title": "macOS CUPS Flaw Lets Local Attackers Write Arbitrary Files as Root",
+        "link": "https://gbhackers.com/macos-cups-flaw/",
+        "published": "Tue, 04 Aug 2026 09:31:38 +0000"
+    },
+    {
+        "title": "Critical Adobe Campaign Flaws Let Unauthenticated Attackers Execute Arbitrary Code",
+        "link": "https://gbhackers.com/critical-adobe-campaign-flaws/",
+        "published": "Tue, 04 Aug 2026 09:22:25 +0000"
+    },
+    {
+        "title": "Fake AI Tools Target Developers With Infostealers to Steal Credentials and Cloud Secrets",
+        "link": "https://gbhackers.com/fake-ai-tools/",
+        "published": "Tue, 04 Aug 2026 09:06:20 +0000"
+    },
+    {
+        "title": "Apache NiFi Flaw Enable Security Bypass and Memory Corruption",
+        "link": "https://gbhackers.com/apache-nifi-flaw-enable-security-bypass/",
+        "published": "Tue, 04 Aug 2026 07:38:52 +0000"
+    },
+    {
+        "title": "OctLurk-Linked Hackers Deploy BINDCLOAK Backdoor Against Middle East Governments",
+        "link": "https://gbhackers.com/bindcloak-backdoor-deployed/",
+        "published": "Tue, 04 Aug 2026 07:30:13 +0000"
+    },
+    {
+        "title": "Critical Check Point Flaw Lets Unauthenticated Attackers Execute Commands on Management Servers",
+        "link": "https://gbhackers.com/critical-check-point-flaw/",
+        "published": "Tue, 04 Aug 2026 07:04:59 +0000"
     }
 ]

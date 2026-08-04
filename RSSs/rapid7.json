@@ -1023,5 +1023,10 @@
         "title": "Metasploit Pro 5.1 Released",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-pro-5-1-released",
         "published": "Mon, 03 Aug 2026 14:48:13 GMT"
+    },
+    {
+        "title": "CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
+        "published": "Tue, 04 Aug 2026 11:11:54 GMT"
     }
 ]

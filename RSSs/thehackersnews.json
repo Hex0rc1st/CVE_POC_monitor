@@ -6453,5 +6453,15 @@
         "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
         "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
         "published": "Tue, 04 Aug 2026 12:30:13 +0530"
+    },
+    {
+        "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+        "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+        "published": "Tue, 04 Aug 2026 16:06:27 +0530"
+    },
+    {
+        "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+        "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+        "published": "Tue, 04 Aug 2026 14:33:23 +0530"
     }
 ]
