@@ -6528,5 +6528,15 @@
         "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
         "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
         "published": "Wed, 05 Aug 2026 16:05:29 +0530"
+    },
+    {
+        "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+        "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+        "published": "Wed, 05 Aug 2026 19:57:30 +0530"
+    },
+    {
+        "title": "Trojanized npm Packages Decode C2 IP From Ethereum Recipient Addresses",
+        "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+        "published": "Wed, 05 Aug 2026 19:11:27 +0530"
     }
 ]

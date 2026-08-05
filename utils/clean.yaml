@@ -5022,3 +5022,7 @@ clean_list:
 - CVE-2026-0092
 - AxHunter
 - linux-lpe-2026
+- bc-check
+- CVE-2026-68004
+- craftcms-cve-2025-32432-rce
+- poc-CVE-2026-23489

@@ -9333,5 +9333,55 @@
         "title": "Compromised Microsoft Copilot Accounts Let Hackers Impersonate CEOs and Steal $247,500",
         "link": "https://gbhackers.com/compromised-microsoft-copilot-accounts/",
         "published": "Wed, 05 Aug 2026 05:04:57 +0000"
+    },
+    {
+        "title": "New Research: The Confidence Gap Between CISOs and Their Boards Is Real, and It’s Measurable",
+        "link": "https://gbhackers.com/ciso-board-confidence-gap-research/",
+        "published": "Wed, 05 Aug 2026 15:21:41 +0000"
+    },
+    {
+        "title": "Uppsala Security Becomes First Blockchain Intelligence Company to Join Cyber Threat Alliance",
+        "link": "https://gbhackers.com/uppsala-security-joins-cyber-threat-alliance/",
+        "published": "Wed, 05 Aug 2026 15:05:20 +0000"
+    },
+    {
+        "title": "Four Million Malware Reports Reveal a Widespread No-DNS C2 Blind Spot",
+        "link": "https://gbhackers.com/widespread-no-dns-c2-blind-spot/",
+        "published": "Wed, 05 Aug 2026 14:23:13 +0000"
+    },
+    {
+        "title": "Stolen Greatness Tokens Provide Microsoft 365 Access More Than Two Weeks After Phishing",
+        "link": "https://gbhackers.com/stolen-greatness-authentication-tokens/",
+        "published": "Wed, 05 Aug 2026 14:06:19 +0000"
+    },
+    {
+        "title": "Microsoft Paid Record $20 Million in Bug Bounties to 562 Security Researchers Worldwide",
+        "link": "https://gbhackers.com/microsoft-paid-record-20-million-in-bug-bounties/",
+        "published": "Wed, 05 Aug 2026 13:45:55 +0000"
+    },
+    {
+        "title": "OVSwrap Open vSwitch Flaw Lets Unprivileged Linux Users Gain Root Access",
+        "link": "https://gbhackers.com/ovswrap-open-vswitch-flaw/",
+        "published": "Wed, 05 Aug 2026 13:29:31 +0000"
+    },
+    {
+        "title": "15 TP-Link Omada Flaws Exploit Zero-Touch Provisioning to Hijack Devices and Infiltrate Networks",
+        "link": "https://gbhackers.com/15-tp-link-omada-flaws-exploit-zero-touch-provisioning/",
+        "published": "Wed, 05 Aug 2026 10:47:15 +0000"
+    },
+    {
+        "title": "Fake Open VSX Extensions Hijack AMD, Azure, Salesforce and Government Namespaces",
+        "link": "https://gbhackers.com/fake-open-vsx-extensions/",
+        "published": "Wed, 05 Aug 2026 09:40:27 +0000"
+    },
+    {
+        "title": "ScreenConnect Attackers Hide Windows, Delete Installers and Masquerade as Software Updates",
+        "link": "https://gbhackers.com/screenconnect-attackers-hide-windows/",
+        "published": "Wed, 05 Aug 2026 09:10:15 +0000"
+    },
+    {
+        "title": "Critical Veeam ONE Flaw Lets Unauthenticated Attackers Execute Code Remotely",
+        "link": "https://gbhackers.com/critical-veeam-one-flaw/",
+        "published": "Wed, 05 Aug 2026 08:38:15 +0000"
     }
 ]
