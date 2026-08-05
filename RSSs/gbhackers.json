@@ -9298,5 +9298,40 @@
         "title": "Airlock Digital Unveils Agentic AI Control & Governance to Extend Preventative Endpoint Security",
         "link": "https://gbhackers.com/airlock-digital-unveils-agentic-ai-control-governance-to-extend-preventative-endpoint-security/",
         "published": "Tue, 04 Aug 2026 13:05:00 +0000"
+    },
+    {
+        "title": "Django Flaws Let Attackers Trigger RCE, SSRF, DoS, and XSS Attacks",
+        "link": "https://gbhackers.com/django-flaws/",
+        "published": "Wed, 05 Aug 2026 06:38:51 +0000"
+    },
+    {
+        "title": "7-Zip Default Setting Lets Extracted Files Bypass Windows SmartScreen",
+        "link": "https://gbhackers.com/7-zip-default-setting/",
+        "published": "Wed, 05 Aug 2026 06:38:04 +0000"
+    },
+    {
+        "title": "Mythos 5 and GPT-5.6-Sol AI Agents Broke Cyber Test Boundaries and Targeted Real Users",
+        "link": "https://gbhackers.com/mythos-5-and-gpt-5-6-sol-ai-agents-broke-cyber-test-boundaries/",
+        "published": "Wed, 05 Aug 2026 06:06:49 +0000"
+    },
+    {
+        "title": "Ransomware Attack Abuses Legitimate Windows Tool to Evade Traditional Containment",
+        "link": "https://gbhackers.com/ransomware-abuses-windows-tool/",
+        "published": "Wed, 05 Aug 2026 05:42:29 +0000"
+    },
+    {
+        "title": "Botnet Scans Router Diagnostic Tools for OS Command Injection Vulnerabilities",
+        "link": "https://gbhackers.com/botnet-scans-router-diagnostic-tools/",
+        "published": "Wed, 05 Aug 2026 05:15:28 +0000"
+    },
+    {
+        "title": "1-Click RCE Vulnerability in Cursor, VS Code, and Google Antigravity Lets Attackers Execute Arbitrary Code",
+        "link": "https://gbhackers.com/1-click-rce-vulnerability-in-cursor-vs-code-and-google-antigravity/",
+        "published": "Wed, 05 Aug 2026 05:14:54 +0000"
+    },
+    {
+        "title": "Compromised Microsoft Copilot Accounts Let Hackers Impersonate CEOs and Steal $247,500",
+        "link": "https://gbhackers.com/compromised-microsoft-copilot-accounts/",
+        "published": "Wed, 05 Aug 2026 05:04:57 +0000"
     }
 ]

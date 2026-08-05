@@ -5013,3 +5013,6 @@ clean_list:
 - copyfail-guard
 - CVE-2024-4577-Lab-and-Analysis
 - CVE-2026-67689-FineAdmin.Mvc-vulnerability
+- wp2shell-CVE-2026-63030
+- CVE-2026-17532
+- tryhackme-monikerlink-writeup
