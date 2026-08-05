@@ -5004,3 +5004,4 @@ clean_list:
 - CVE-2026-22017-Firmware-Update-via-BLE-Without-Authentication
 - CVE-2026-52102-PoC
 - cve-2025-53770-research
+- CVE-2026-60137-WordPress-Core-SQL-Injection-PoC

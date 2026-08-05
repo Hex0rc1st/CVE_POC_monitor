@@ -1683,5 +1683,15 @@
         "title": "Chrome Stable for iOS Update",
         "link": "http://chromereleases.googleblog.com/2026/08/chrome-stable-for-ios-update.html",
         "published": "2026-08-04T10:43:32.912-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos.html",
+        "published": "2026-08-04T15:52:52.089-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop.html",
+        "published": "2026-08-04T13:20:22.274-07:00"
     }
 ]
