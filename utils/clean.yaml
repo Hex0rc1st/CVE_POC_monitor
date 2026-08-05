@@ -5005,3 +5005,11 @@ clean_list:
 - CVE-2026-52102-PoC
 - cve-2025-53770-research
 - CVE-2026-60137-WordPress-Core-SQL-Injection-PoC
+- CVE-2026-67687-ICS-Park-Smart-Park-Management-System-v2.0
+- milvus-auth-audit
+- esp32-cve-2025-27840-power-trace-experiment
+- CVE-2024-21413-Microsoft-Outlook-Moniker-Link-Vulnerability
+- CVE-2026-54917-SeaweedFS-Cross-Bucket-Traversal
+- copyfail-guard
+- CVE-2024-4577-Lab-and-Analysis
+- CVE-2026-67689-FineAdmin.Mvc-vulnerability
