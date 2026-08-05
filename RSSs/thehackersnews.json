@@ -6493,5 +6493,20 @@
         "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
         "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
         "published": "Wed, 05 Aug 2026 11:17:19 +0530"
+    },
+    {
+        "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+        "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+        "published": "Wed, 05 Aug 2026 14:53:03 +0530"
+    },
+    {
+        "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
+        "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
+        "published": "Wed, 05 Aug 2026 13:23:50 +0530"
+    },
+    {
+        "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+        "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+        "published": "Wed, 05 Aug 2026 13:10:39 +0530"
     }
 ]

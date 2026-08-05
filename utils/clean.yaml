@@ -5016,3 +5016,7 @@ clean_list:
 - wp2shell-CVE-2026-63030
 - CVE-2026-17532
 - tryhackme-monikerlink-writeup
+- CVE-2026-60137-CVE-2026-63030
+- fastjson-cve-2026-16723
+- CVE-2026-44024_exploit
+- CVE-2026-0092
