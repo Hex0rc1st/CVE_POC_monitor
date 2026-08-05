@@ -6508,5 +6508,25 @@
         "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
         "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
         "published": "Wed, 05 Aug 2026 13:10:39 +0530"
+    },
+    {
+        "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+        "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+        "published": "Wed, 05 Aug 2026 17:13:27 +0530"
+    },
+    {
+        "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+        "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+        "published": "Wed, 05 Aug 2026 17:13:19 +0530"
+    },
+    {
+        "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+        "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+        "published": "Wed, 05 Aug 2026 16:34:23 +0530"
+    },
+    {
+        "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+        "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+        "published": "Wed, 05 Aug 2026 16:05:29 +0530"
     }
 ]

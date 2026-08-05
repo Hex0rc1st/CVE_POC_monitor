@@ -5020,3 +5020,5 @@ clean_list:
 - fastjson-cve-2026-16723
 - CVE-2026-44024_exploit
 - CVE-2026-0092
+- AxHunter
+- linux-lpe-2026
