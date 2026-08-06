@@ -260,3 +260,4 @@ https://github.com/imbas007/CVE-2026-60004-POC
 https://github.com/royaleybovich/CVE-2026-3854-lab
 https://github.com/HackSpeak/CVE-2026-64531
 https://github.com/helper-beeps/trezor-cve-2026-65058
+https://github.com/rechandra/wp2exp-2026

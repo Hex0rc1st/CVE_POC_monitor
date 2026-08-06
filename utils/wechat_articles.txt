@@ -1831,3 +1831,7 @@ https://mp.weixin.qq.com/s/p1GrtoeWfRky4vCA1NzUBw
 https://mp.weixin.qq.com/s/VORXbD0VvNio7ETVhiGr9w
 奇安信cert::Oracle 2026年7月补丁日多产品高危漏洞安全风险通告
 https://mp.weixin.qq.com/s/HZm_WSiMvObEbLPlCclcBg
+360漏洞研究院::统信软件联合360开展图龙锋安全测试 共筑国产操作系统安全防线
+https://mp.weixin.qq.com/s/o7UDKouMwBRB_5y8rTEGdg
+360漏洞研究院::“磐石之盾”拓展企业AI场景：金蝶灵基接入360图龙锋
+https://mp.weixin.qq.com/s/tcZdjhi4-DHaTOBP7JSJyQ
