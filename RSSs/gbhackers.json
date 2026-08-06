@@ -9423,5 +9423,45 @@
         "title": "CISA Alerts Issues on Actively Exploited TeamCity Remote Code Execution Vulnerability",
         "link": "https://gbhackers.com/cisa-alerts-issues-on-actively-exploited-teamcity/",
         "published": "Thu, 06 Aug 2026 07:53:45 +0000"
+    },
+    {
+        "title": "Critical Paperclip AI Agent Flaws Allow Unauthenticated Remote Code Execution",
+        "link": "https://gbhackers.com/critical-paperclip-ai-agent-flaws/",
+        "published": "Thu, 06 Aug 2026 13:21:32 +0000"
+    },
+    {
+        "title": "Fake Xeno Roblox Executor Delivers Powercat Java Stealer Through Discord",
+        "link": "https://gbhackers.com/powercat-java-stealer/",
+        "published": "Thu, 06 Aug 2026 13:15:51 +0000"
+    },
+    {
+        "title": "Cloudflare Launches Open-Source OS to Secure AI Agents’ Access to Internal Data",
+        "link": "https://gbhackers.com/cloudflare-launches-open-source-os-to-secure-ai-agents/",
+        "published": "Thu, 06 Aug 2026 12:31:20 +0000"
+    },
+    {
+        "title": "Vanta Stealer Uses PyArmor to Steal Browser Passwords, Crypto Wallets and Discord Tokens",
+        "link": "https://gbhackers.com/vanta-stealer-uses-pyarmor/",
+        "published": "Thu, 06 Aug 2026 12:01:32 +0000"
+    },
+    {
+        "title": "KHunt Toolkit Turns Oracle SQL Injection Into SYSTEM-Level RCE and Credential Theft",
+        "link": "https://gbhackers.com/khunt-exposes-credentials/",
+        "published": "Thu, 06 Aug 2026 11:35:36 +0000"
+    },
+    {
+        "title": "Meta Confirms AI Model Launched Autonomous Attack on Another Organization",
+        "link": "https://gbhackers.com/ai-agents-hack-four-online-services/",
+        "published": "Thu, 06 Aug 2026 11:29:10 +0000"
+    },
+    {
+        "title": "Critical Jenkins Deserialization Flaw Allows Attackers to Execute Code on Controllers",
+        "link": "https://gbhackers.com/critical-jenkins-deserialization-flaw/",
+        "published": "Thu, 06 Aug 2026 11:12:56 +0000"
+    },
+    {
+        "title": "PoC Released for Linux Kernel STP Use-After-Free Vulnerability",
+        "link": "https://gbhackers.com/poc-released-for-linux-kernel-stp/",
+        "published": "Thu, 06 Aug 2026 11:00:04 +0000"
     }
 ]

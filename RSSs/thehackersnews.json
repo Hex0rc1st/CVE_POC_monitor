@@ -6588,5 +6588,25 @@
         "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
         "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
         "published": "Thu, 06 Aug 2026 12:21:43 +0530"
+    },
+    {
+        "title": "Over 4,400 Rockwell PLCs Exposed Online, 22 Found in Water Attack Cities",
+        "link": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html",
+        "published": "Thu, 06 Aug 2026 17:46:58 +0530"
+    },
+    {
+        "title": "CryptoJS Weak RNG Behind $5.7 Million in Drains Affects Five Crypto Wallet Apps",
+        "link": "https://thehackernews.com/2026/08/cryptojs-weak-rng-behind-57-million-in.html",
+        "published": "Thu, 06 Aug 2026 17:19:48 +0530"
+    },
+    {
+        "title": "Apple iCloud Private Relay Can Expose Real IPs Through WebKit Proxy Bypasses",
+        "link": "https://thehackernews.com/2026/08/webkit-proxy-bypasses-can-expose-real.html",
+        "published": "Thu, 06 Aug 2026 17:03:08 +0530"
+    },
+    {
+        "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+        "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+        "published": "Thu, 06 Aug 2026 17:00:00 +0530"
     }
 ]
