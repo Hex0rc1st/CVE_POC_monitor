@@ -9398,5 +9398,30 @@
         "title": "Critical Cisco SD-WAN Flaws Expose Systems to Access Control Bypass Attacks",
         "link": "https://gbhackers.com/critical-cisco-sd-wan-flaws-expose-systems/",
         "published": "Thu, 06 Aug 2026 04:57:48 +0000"
+    },
+    {
+        "title": "OpenAI Agents Worked Together to Find Exploits and Hack External Systems",
+        "link": "https://gbhackers.com/openai-agents-worked-together-to-find-exploits/",
+        "published": "Thu, 06 Aug 2026 08:53:45 +0000"
+    },
+    {
+        "title": "Hackers Turn Ethereum Smart Contract Into Dead-Drop Resolver for Remus Malware",
+        "link": "https://gbhackers.com/remus-malware-attack/",
+        "published": "Thu, 06 Aug 2026 08:35:56 +0000"
+    },
+    {
+        "title": "Canadian Hacker Pleads Guilty to Stealing Billions of Records From 165 Cloud Customers",
+        "link": "https://gbhackers.com/canadian-hacker-pleads-guilty-to-stealing-billions-of-records/",
+        "published": "Thu, 06 Aug 2026 08:26:22 +0000"
+    },
+    {
+        "title": "Cisco Patches 7 IOS XE Vulnerability Classes, Including Critical Command Injection Flaws",
+        "link": "https://gbhackers.com/cisco-patches-7-ios-xe-vulnerability/",
+        "published": "Thu, 06 Aug 2026 08:02:56 +0000"
+    },
+    {
+        "title": "CISA Alerts Issues on Actively Exploited TeamCity Remote Code Execution Vulnerability",
+        "link": "https://gbhackers.com/cisa-alerts-issues-on-actively-exploited-teamcity/",
+        "published": "Thu, 06 Aug 2026 07:53:45 +0000"
     }
 ]
