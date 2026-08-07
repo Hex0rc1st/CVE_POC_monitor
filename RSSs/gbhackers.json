@@ -9528,5 +9528,10 @@
         "title": "Claude in Chrome Exploit Lets Attackers Steal Gmail Codes and Take Over Slack, X, and Claude.ai Accounts",
         "link": "https://gbhackers.com/claude-in-chrome-exploit/",
         "published": "Fri, 07 Aug 2026 07:43:23 +0000"
+    },
+    {
+        "title": "New NatJack NAT Attack Lets Hackers Hijack TCP Connections and DNS Responses",
+        "link": "https://gbhackers.com/new-natjack-nat-attack/",
+        "published": "Fri, 07 Aug 2026 11:04:13 +0000"
     }
 ]
