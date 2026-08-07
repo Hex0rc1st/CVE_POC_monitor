@@ -6673,5 +6673,20 @@
         "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
         "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
         "published": "Fri, 07 Aug 2026 18:26:23 +0530"
+    },
+    {
+        "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+        "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+        "published": "Sat, 08 Aug 2026 00:18:17 +0530"
+    },
+    {
+        "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
+        "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
+        "published": "Fri, 07 Aug 2026 23:59:08 +0530"
+    },
+    {
+        "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
+        "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
+        "published": "Fri, 07 Aug 2026 23:46:13 +0530"
     }
 ]
