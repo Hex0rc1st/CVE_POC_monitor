@@ -1028,5 +1028,10 @@
         "title": "CVE-2026-18577: N-able N-central Authentication Bypass Exploited in the Wild",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-18577-n-able-n-central-authentication-bypass-exploited-in-the-wild",
         "published": "Tue, 04 Aug 2026 11:11:54 GMT"
+    },
+    {
+        "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
+        "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
+        "published": "Fri, 07 Aug 2026 14:32:47 GMT"
     }
 ]
