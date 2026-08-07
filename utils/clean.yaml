@@ -5049,3 +5049,7 @@ clean_list:
 - CVE-2026-44613
 - CVE-2026-11961
 - lynis2pdf
+- CVE-2026-64564
+- CVE-2026-64640
+- one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow
+- tcp-zerocopy-sm
