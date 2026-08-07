@@ -1835,3 +1835,5 @@ https://mp.weixin.qq.com/s/HZm_WSiMvObEbLPlCclcBg
 https://mp.weixin.qq.com/s/o7UDKouMwBRB_5y8rTEGdg
 360漏洞研究院::“磐石之盾”拓展企业AI场景：金蝶灵基接入360图龙锋
 https://mp.weixin.qq.com/s/tcZdjhi4-DHaTOBP7JSJyQ
+360漏洞研究院::\"中国版Mythos\"图龙锋接入山石网科，AI漏洞挖掘能力拓展至网安产品
+https://mp.weixin.qq.com/s/VcVF1LrtIc2DL-1wgvYtuw

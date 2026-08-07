@@ -5053,3 +5053,5 @@ clean_list:
 - CVE-2026-64640
 - one-multiply-too-many-cve-2026-70638-llama-cpp-android-jni-integer-overflow
 - tcp-zerocopy-sm
+- Zapscape-Fix
+- CVE-2026-0049

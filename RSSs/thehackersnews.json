@@ -6658,5 +6658,15 @@
         "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
         "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
         "published": "Fri, 07 Aug 2026 13:48:35 +0530"
+    },
+    {
+        "title": "Growing Up The Hard Way",
+        "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
+        "published": "Fri, 07 Aug 2026 17:25:26 +0530"
+    },
+    {
+        "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
+        "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
+        "published": "Fri, 07 Aug 2026 16:40:33 +0530"
     }
 ]
