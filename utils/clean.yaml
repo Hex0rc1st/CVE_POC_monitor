@@ -5055,3 +5055,5 @@ clean_list:
 - tcp-zerocopy-sm
 - Zapscape-Fix
 - CVE-2026-0049
+- go-without-bounds-cve-2026-67822-stack-overflow-in-tenda-w6-s-wifissidset
+- CVE-2026-41242

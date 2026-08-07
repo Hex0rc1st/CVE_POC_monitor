@@ -9533,5 +9533,10 @@
         "title": "New NatJack NAT Attack Lets Hackers Hijack TCP Connections and DNS Responses",
         "link": "https://gbhackers.com/new-natjack-nat-attack/",
         "published": "Fri, 07 Aug 2026 11:04:13 +0000"
+    },
+    {
+        "title": "Windows Hello Key Abuse Lets Attackers Access Microsoft Entra ID Accounts",
+        "link": "https://gbhackers.com/windows-hello-key-abuse/",
+        "published": "Fri, 07 Aug 2026 12:50:37 +0000"
     }
 ]
