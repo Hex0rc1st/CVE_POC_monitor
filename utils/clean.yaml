@@ -5048,3 +5048,4 @@ clean_list:
 - CVE-2024-24210
 - CVE-2026-44613
 - CVE-2026-11961
+- lynis2pdf
