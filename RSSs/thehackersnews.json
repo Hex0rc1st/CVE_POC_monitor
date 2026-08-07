@@ -6608,5 +6608,25 @@
         "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
         "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
         "published": "Thu, 06 Aug 2026 17:00:00 +0530"
+    },
+    {
+        "title": "New Zapscape KVM Flaw Could Let Privileged L1 Guest Code Escape to Linux Hosts",
+        "link": "https://thehackernews.com/2026/08/new-zapscape-kvm-flaw-could-let.html",
+        "published": "Thu, 06 Aug 2026 23:28:30 +0530"
+    },
+    {
+        "title": "Cisco Patches 12 SD-WAN and IOS XE Flaws, Including Three 9.8 CVSS Score Bugs",
+        "link": "https://thehackernews.com/2026/08/cisco-patches-12-sd-wan-and-ios-xe.html",
+        "published": "Thu, 06 Aug 2026 22:43:15 +0530"
+    },
+    {
+        "title": "New Interrupt Injection Attack Can Bypass Spectre v2 Defenses on Intel and AMD CPUs",
+        "link": "https://thehackernews.com/2026/08/new-interrupt-injection-attack-can.html",
+        "published": "Thu, 06 Aug 2026 21:47:13 +0530"
+    },
+    {
+        "title": "ThreatsDay: Odysseus RCE, Samsung One-Click Takeover, iCloud Backdoor Fight + 27 More Stories",
+        "link": "https://thehackernews.com/2026/08/threatsday-odysseus-rce-samsung-one.html",
+        "published": "Thu, 06 Aug 2026 20:54:31 +0530"
     }
 ]
