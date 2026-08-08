@@ -5068,3 +5068,4 @@ clean_list:
 - CVE-2026-64638-PoC-Exploit
 - GhostLock-Galaxy
 - CVE-2026-60004-poc-gitea
+- CVE-2026-64600-RefluXFS
