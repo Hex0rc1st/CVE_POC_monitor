@@ -264,3 +264,4 @@ https://github.com/rechandra/wp2exp-2026
 https://github.com/BlackSnufkin/AxHunter
 https://github.com/sowarma/wp2shell-PoC
 https://github.com/Meowkis/tcp-zerocopy-sm
+https://github.com/wxxsfxyzm/GhostLock-Galaxy
