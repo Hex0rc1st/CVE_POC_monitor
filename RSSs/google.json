@@ -1738,5 +1738,15 @@
         "title": "Chrome Dev for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update.html",
         "published": "2026-08-07T05:28:32.386-07:00"
+    },
+    {
+        "title": "Chrome Dev for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update.html",
+        "published": "2026-08-07T16:28:32.534-07:00"
+    },
+    {
+        "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/08/dev-channel-update-for-chromeos.html",
+        "published": "2026-08-07T16:05:37.206-07:00"
     }
 ]
