@@ -5060,3 +5060,4 @@ clean_list:
 - teamcity-CVE-2026-63077-pcap
 - CVE-2026-64638-POC
 - CVE-2026-71557-poc
+- CVE-2026-18953
