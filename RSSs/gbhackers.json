@@ -9538,5 +9538,40 @@
         "title": "Windows Hello Key Abuse Lets Attackers Access Microsoft Entra ID Accounts",
         "link": "https://gbhackers.com/windows-hello-key-abuse/",
         "published": "Fri, 07 Aug 2026 12:50:37 +0000"
+    },
+    {
+        "title": "WordPress XSS2Shell Flaw Enables Attackers to Achieve Remote Code Execution",
+        "link": "https://gbhackers.com/critical-wordpress-vulnerability/",
+        "published": "Sat, 08 Aug 2026 08:27:58 +0000"
+    },
+    {
+        "title": "Bugtraq Is Back: The Original Full Disclosure Mailing List Is Live Again",
+        "link": "https://gbhackers.com/bugtraq-is-back-the-original-full-disclosure-mailing-list-is-live-again/",
+        "published": "Sat, 08 Aug 2026 08:24:17 +0000"
+    },
+    {
+        "title": "18-Year-Old Linux Kernel SCTP Vulnerability Lets Attackers Gain Root and Escape Containers",
+        "link": "https://gbhackers.com/18-year-old-linux-kernel-sctp-vulnerability/",
+        "published": "Sat, 08 Aug 2026 08:02:13 +0000"
+    },
+    {
+        "title": "Fake Zoom Installer Uses .NET Downloader to Deploy Overlord RAT on macOS",
+        "link": "https://gbhackers.com/fake-zoom-installer-uses-net-downloader/",
+        "published": "Sat, 08 Aug 2026 07:32:32 +0000"
+    },
+    {
+        "title": "Critical macOS RCE Vulnerability Allows Attackers to Gain Root Access Without Password",
+        "link": "https://gbhackers.com/critical-macos-rce-vulnerability/",
+        "published": "Sat, 08 Aug 2026 07:12:02 +0000"
+    },
+    {
+        "title": "Russian Hackers Use AI Slopsquatting to Publish 700+ Malicious npm Packages",
+        "link": "https://gbhackers.com/russian-hackers-use-ai-slopsquatting/",
+        "published": "Sat, 08 Aug 2026 06:58:29 +0000"
+    },
+    {
+        "title": "Storm-1175 Launches StormEncryptor Ransomware Attacks Using N-able Security Flaw",
+        "link": "https://gbhackers.com/storm-1175-launches-stormencryptor-ransomware-attacks/",
+        "published": "Sat, 08 Aug 2026 06:33:22 +0000"
     }
 ]
