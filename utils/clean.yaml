@@ -5073,3 +5073,4 @@ clean_list:
 - CVE-2026-19195-PoC
 - XSS2Shell
 - CVE-2026-9645-ScadaBR-Analysis
+- Repository-name-cve-2026-64638-wordpress-scanner
