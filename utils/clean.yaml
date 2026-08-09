@@ -5077,3 +5077,5 @@ clean_list:
 - RedSun-
 - Root-My-Galaxy
 - CVE_2026_57827
+- CVE-2026-64638-XSS-to-Shell-PoC
+- CVE-2026-4282-Scanner
