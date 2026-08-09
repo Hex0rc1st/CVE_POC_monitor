@@ -267,3 +267,4 @@ https://github.com/Meowkis/tcp-zerocopy-sm
 https://github.com/wxxsfxyzm/GhostLock-Galaxy
 https://github.com/sfewer-r7/CVE-2026-63077
 https://github.com/Boreas37/CVE-2026-64638-PoC
+https://github.com/Linuxhackingid-official/XSS2Shell-CVE-2026-64638
