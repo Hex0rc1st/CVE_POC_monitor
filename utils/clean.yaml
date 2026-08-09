@@ -5071,3 +5071,4 @@ clean_list:
 - CVE-2026-64600-RefluXFS
 - CVE-2026-19193-PoC
 - CVE-2026-19195-PoC
+- XSS2Shell
