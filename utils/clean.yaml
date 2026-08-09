@@ -5076,3 +5076,4 @@ clean_list:
 - Repository-name-cve-2026-64638-wordpress-scanner
 - RedSun-
 - Root-My-Galaxy
+- CVE_2026_57827
