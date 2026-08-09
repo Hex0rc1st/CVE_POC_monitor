@@ -5079,3 +5079,5 @@ clean_list:
 - CVE_2026_57827
 - CVE-2026-64638-XSS-to-Shell-PoC
 - CVE-2026-4282-Scanner
+- By-Poloss..-..CVE-2026-15038-POC
+- xss2shell
