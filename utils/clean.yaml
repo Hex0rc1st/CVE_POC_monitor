@@ -5072,3 +5072,4 @@ clean_list:
 - CVE-2026-19193-PoC
 - CVE-2026-19195-PoC
 - XSS2Shell
+- CVE-2026-9645-ScadaBR-Analysis
