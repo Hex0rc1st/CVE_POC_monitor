@@ -9623,5 +9623,50 @@
         "title": "Claude-Powered AI Agent Exploits API Authorization Flaw to Hack Gym Booking System",
         "link": "https://gbhackers.com/claude-powered-ai-agent-exploits-api-authorization-flaw/",
         "published": "Mon, 10 Aug 2026 06:27:07 +0000"
+    },
+    {
+        "title": "Play Ransomware Masquerades as PsExec to Blend Into Legitimate Windows Administration",
+        "link": "https://gbhackers.com/play-ransomware-minics-psexec/",
+        "published": "Mon, 10 Aug 2026 11:32:39 +0000"
+    },
+    {
+        "title": "GitHub Expands Dependabot Malware Alerts to Detect Malicious Packages Across 8 Ecosystems",
+        "link": "https://gbhackers.com/github-expands-dependabot-malware-alerts/",
+        "published": "Mon, 10 Aug 2026 11:29:29 +0000"
+    },
+    {
+        "title": "Fake Solidity Pro Extensions Turn Trusted Developer Tooling Into Credential-Stealing Malware",
+        "link": "https://gbhackers.com/fake-solidity-pro-extensions/",
+        "published": "Mon, 10 Aug 2026 10:47:02 +0000"
+    },
+    {
+        "title": "HP ThinPro TPM Flaw Lets Attackers Bypass Full Disk Encryption and Steal LUKS Keys",
+        "link": "https://gbhackers.com/hp-thinpro-tpm-flaw/",
+        "published": "Mon, 10 Aug 2026 10:22:48 +0000"
+    },
+    {
+        "title": "Atlassian Rovo AI Vulnerability Lets Attackers Steal Enterprise Data With a Single Click",
+        "link": "https://gbhackers.com/atlassian-rovo-ai-vulnerability/",
+        "published": "Mon, 10 Aug 2026 10:12:48 +0000"
+    },
+    {
+        "title": "WordPress Supply Chain Attack Exploits BdThemes Plugins to Create Rogue Admin Accounts and Install Webshells",
+        "link": "https://gbhackers.com/wordpress-supply-chain-attack-exploits-bdthemes-plugins/",
+        "published": "Mon, 10 Aug 2026 10:06:56 +0000"
+    },
+    {
+        "title": "Sophos Warns Unprotected Endpoints Let Interlock Credential Theft Go Undetected",
+        "link": "https://gbhackers.com/interlock-credential-theft/",
+        "published": "Mon, 10 Aug 2026 09:43:47 +0000"
+    },
+    {
+        "title": "Apple Private Cloud Compute Path Traversal Flaw Lets Attackers Write Files as Root",
+        "link": "https://gbhackers.com/apple-private-cloud-compute-path-traversal-flaw/",
+        "published": "Mon, 10 Aug 2026 09:36:32 +0000"
+    },
+    {
+        "title": "Ransomware Attackers Compromise Multiple Employees Inside the Same Company",
+        "link": "https://gbhackers.com/multiple-employees-account-compromised/",
+        "published": "Mon, 10 Aug 2026 09:14:23 +0000"
     }
 ]
