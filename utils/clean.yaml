@@ -5085,3 +5085,4 @@ clean_list:
 - CVE-2026-39987-Poc
 - cs50-cybersecurity-final-project
 - CVE-2024-29943-but-with-wasm
+- sctphantom

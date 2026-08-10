@@ -9583,5 +9583,30 @@
         "title": "Cybersecurity Newsletter Weekly – Top 50 Biggest Cybersecurity Stories – $70M Bitcoin Heist,Google Passkey Theft, Copilot CEO Fraud,Chrome 151 & Claude Exploits & More",
         "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-august-3-7-2026/",
         "published": "Mon, 10 Aug 2026 02:15:37 +0000"
+    },
+    {
+        "title": "Payroll Pirates Abuse Microsoft Graph to Find HR and Finance Staff After Account Compromise",
+        "link": "https://gbhackers.com/payroll-pirates-abuse-microsoft-graph/",
+        "published": "Mon, 10 Aug 2026 05:58:00 +0000"
+    },
+    {
+        "title": "Claude Code Child Process Can Read Its Own OAuth Token From macOS Keychain",
+        "link": "https://gbhackers.com/macos-keychain-access/",
+        "published": "Mon, 10 Aug 2026 05:30:52 +0000"
+    },
+    {
+        "title": "Metabase 0-Day Flaw Exploited in Attack to Inject Arbitrary SQL and Steal Database Credentials",
+        "link": "https://gbhackers.com/metabase-0-day-flaw/",
+        "published": "Mon, 10 Aug 2026 05:22:24 +0000"
+    },
+    {
+        "title": "New CSS Bomb Attacks Let Hackers Steal Passwords and Tokens From Webmail Users",
+        "link": "https://gbhackers.com/new-css-bomb-attacks-let-hackers-steal-passwords-and-tokens/",
+        "published": "Mon, 10 Aug 2026 05:10:06 +0000"
+    },
+    {
+        "title": "Levi Strauss Hit by Cyberattack, Hackers Use Social Engineering to Steal Corporate Data",
+        "link": "https://gbhackers.com/levi-strauss-hit-by-cyberattack/",
+        "published": "Mon, 10 Aug 2026 04:54:34 +0000"
     }
 ]
