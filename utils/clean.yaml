@@ -5081,3 +5081,5 @@ clean_list:
 - CVE-2026-4282-Scanner
 - By-Poloss..-..CVE-2026-15038-POC
 - xss2shell
+- amasty-chekout-POC-rce
+- CVE-2026-39987-Poc
