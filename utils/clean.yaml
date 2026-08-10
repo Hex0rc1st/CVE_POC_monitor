@@ -5086,3 +5086,6 @@ clean_list:
 - cs50-cybersecurity-final-project
 - CVE-2024-29943-but-with-wasm
 - sctphantom
+- spring-retry-toolkit
+- CVE-2025-59528-PoC
+- CVE-2026-20685
