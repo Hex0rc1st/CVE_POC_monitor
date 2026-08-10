@@ -5097,3 +5097,4 @@ clean_list:
 - CVE-2026-15598
 - agxprobe
 - CVE-2026-14802
+- CVE-2026-64824-PoC

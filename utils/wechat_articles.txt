@@ -1837,3 +1837,5 @@ https://mp.weixin.qq.com/s/o7UDKouMwBRB_5y8rTEGdg
 https://mp.weixin.qq.com/s/tcZdjhi4-DHaTOBP7JSJyQ
 360漏洞研究院::\"中国版Mythos\"图龙锋接入山石网科，AI漏洞挖掘能力拓展至网安产品
 https://mp.weixin.qq.com/s/VcVF1LrtIc2DL-1wgvYtuw
+360漏洞研究院::“中国版Mythos”图龙锋开放试用首月：近500家企业申请接入，累计发现近9000漏洞
+https://mp.weixin.qq.com/s/8TeqsZLiR6LlWRVeXFdz7A
