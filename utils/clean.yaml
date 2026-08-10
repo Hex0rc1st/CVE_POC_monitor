@@ -5098,3 +5098,6 @@ clean_list:
 - agxprobe
 - CVE-2026-14802
 - CVE-2026-64824-PoC
+- CVE-2026-65891
+- spring-eol-check
+- CVE-2026-34348
