@@ -5083,3 +5083,5 @@ clean_list:
 - xss2shell
 - amasty-chekout-POC-rce
 - CVE-2026-39987-Poc
+- cs50-cybersecurity-final-project
+- CVE-2024-29943-but-with-wasm
