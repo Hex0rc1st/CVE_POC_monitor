@@ -5089,3 +5089,7 @@ clean_list:
 - spring-retry-toolkit
 - CVE-2025-59528-PoC
 - CVE-2026-20685
+- CVE-2026-19264
+- GhostLock-GOT-W29
+- CVE-2026-9086-poc
+- CVE-2026-2005
