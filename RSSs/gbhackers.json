@@ -9728,5 +9728,30 @@
         "title": "CISA Urges Organizations to Patch Exposed VPNs and Segment Networks Against Gunra Ransomware",
         "link": "https://gbhackers.com/gunra-ransomware-attack/",
         "published": "Tue, 11 Aug 2026 05:06:57 +0000"
+    },
+    {
+        "title": "Mozilla Rotates Firefox and Thunderbird GPG Signing Key After Private GitHub Exposure",
+        "link": "https://gbhackers.com/mozilla-rotates-firefox-and-thunderbird-gpg-signing-key/",
+        "published": "Tue, 11 Aug 2026 10:54:47 +0000"
+    },
+    {
+        "title": "Critical Rancher Flaw Lets Authenticated Users Gain Full Admin Access to All Managed Clusters",
+        "link": "https://gbhackers.com/critical-rancher-flaw/",
+        "published": "Tue, 11 Aug 2026 10:32:45 +0000"
+    },
+    {
+        "title": "ErrTraffic Combines WordPress Hacks, Blockchain C2 and Rotating Malware Domains in One Delivery Network",
+        "link": "https://gbhackers.com/errtraffic-combines-wordpress-hacks/",
+        "published": "Tue, 11 Aug 2026 10:20:41 +0000"
+    },
+    {
+        "title": "GhostJacking Attacks Let Hackers Hijack AI Agents and Steal Cloud Credentials",
+        "link": "https://gbhackers.com/ghostjacking-attacks/",
+        "published": "Tue, 11 Aug 2026 10:11:40 +0000"
+    },
+    {
+        "title": "CISA Warns SonicWall SMA1000 Flaws Are Exploited in Ransomware Attacks",
+        "link": "https://gbhackers.com/cisa-warns-sonicwall-sma1000-flaws/",
+        "published": "Tue, 11 Aug 2026 09:48:45 +0000"
     }
 ]
