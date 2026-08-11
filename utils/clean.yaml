@@ -5101,3 +5101,4 @@ clean_list:
 - CVE-2026-65891
 - spring-eol-check
 - CVE-2026-34348
+- CVE-2026-2764-but-with-wasm
