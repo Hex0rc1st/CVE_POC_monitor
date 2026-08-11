@@ -5105,3 +5105,7 @@ clean_list:
 - ragflow-audit
 - CVE-2026-2766-but-with-wasm
 - stormencryptor-ncentral-defense
+- CVE-2026-64638-XSS2Shell_Lab
+- aegisagent
+- GhostLock-OPPO-PCKM00
+- ghostlock-cve-2026-43499-4.19-k40
