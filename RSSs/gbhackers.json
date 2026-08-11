@@ -9678,5 +9678,55 @@
         "title": "CISA Flags Progress LoadMaster Command Injection Vulnerability Exploited in the Wild",
         "link": "https://gbhackers.com/cisa-flags-progress-loadmaster-command-injection-vulnerability/",
         "published": "Mon, 10 Aug 2026 12:32:35 +0000"
+    },
+    {
+        "title": "Hackers Pivot Through Private APN to Sabotage Siemens PLCs at Polish Power Plant",
+        "link": "https://gbhackers.com/siemens-plc-network/",
+        "published": "Tue, 11 Aug 2026 08:12:33 +0000"
+    },
+    {
+        "title": "CiscoClamAV Vulnerabilities Let Remote Attackers Crash Antivirus Scanning With Crafted Files",
+        "link": "https://gbhackers.com/clamav-vulnerabilities/",
+        "published": "Tue, 11 Aug 2026 07:15:18 +0000"
+    },
+    {
+        "title": "Anthropic Adds Invisible Watermarks to Claude AI-Generated Text and Signed Metadata to Files",
+        "link": "https://gbhackers.com/anthropic-adds-invisible-watermarks-to-claude-ai-generated-text/",
+        "published": "Tue, 11 Aug 2026 07:03:55 +0000"
+    },
+    {
+        "title": "OpenAI Launches GPT-5.6-Cyber to Find Zero-Day Vulnerabilities and Develop Exploit Chains",
+        "link": "https://gbhackers.com/openai-launches-gpt-5-6-cyber-to-find-zero-day-vulnerabilities/",
+        "published": "Tue, 11 Aug 2026 06:58:35 +0000"
+    },
+    {
+        "title": "DeadLock Ransomware Disables Windows Defender, Backups and Event Logs Before Encrypting Files",
+        "link": "https://gbhackers.com/deadlock-ransomware-attack/",
+        "published": "Tue, 11 Aug 2026 06:53:19 +0000"
+    },
+    {
+        "title": "Pass-the-Passkey Attack Exploits Windows and Entra ID to Bypass MFA",
+        "link": "https://gbhackers.com/pass-the-passkey-attack-exploits-windows-and-entra-id/",
+        "published": "Tue, 11 Aug 2026 06:23:03 +0000"
+    },
+    {
+        "title": "New Abyssos RAT Hijacks Browser Sessions, Steals Credentials and Gives Attackers Remote VNC Access",
+        "link": "https://gbhackers.com/abyssos-rat-hijacks-browser-sessions/",
+        "published": "Tue, 11 Aug 2026 05:43:59 +0000"
+    },
+    {
+        "title": "Red Hat Kubernetes Flaw Allows Attackers to Escalate Privileges to Cluster-Admin",
+        "link": "https://gbhackers.com/red-hat-kubernetes-flaw/",
+        "published": "Tue, 11 Aug 2026 05:43:27 +0000"
+    },
+    {
+        "title": "Claude Code Auto Mode Blocks 89% of Dangerous Commands and Prompt Injection Attacks",
+        "link": "https://gbhackers.com/claude-code-auto-mode-blocks-attacks/",
+        "published": "Tue, 11 Aug 2026 05:12:10 +0000"
+    },
+    {
+        "title": "CISA Urges Organizations to Patch Exposed VPNs and Segment Networks Against Gunra Ransomware",
+        "link": "https://gbhackers.com/gunra-ransomware-attack/",
+        "published": "Tue, 11 Aug 2026 05:06:57 +0000"
     }
 ]

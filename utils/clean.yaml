@@ -5109,3 +5109,5 @@ clean_list:
 - aegisagent
 - GhostLock-OPPO-PCKM00
 - ghostlock-cve-2026-43499-4.19-k40
+- CVE-2026-44401
+- CVE-2026-48710
