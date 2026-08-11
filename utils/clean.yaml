@@ -5102,3 +5102,6 @@ clean_list:
 - spring-eol-check
 - CVE-2026-34348
 - CVE-2026-2764-but-with-wasm
+- ragflow-audit
+- CVE-2026-2766-but-with-wasm
+- stormencryptor-ncentral-defense
