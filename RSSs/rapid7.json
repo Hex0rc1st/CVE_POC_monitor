@@ -1033,5 +1033,15 @@
         "title": "Rapid7 Analysis: Unauthenticated Remote Code Execution in JetBrains TeamCity (CVE-2026-63077)",
         "link": "https://www.rapid7.com/blog/post/ra-unauthenticated-rce-in-jetbrains-teamcity-cve-2026-63077",
         "published": "Fri, 07 Aug 2026 14:32:47 GMT"
+    },
+    {
+        "title": "Rapid7 Analysis: Microsoft SharePoint JWT Token Authentication Bypass (CVE-2026-55040)",
+        "link": "https://www.rapid7.com/blog/post/ra-microsoft-sharepoint-jwt-token-authentication-bypass-cve-2026-55040",
+        "published": "Tue, 11 Aug 2026 13:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-63520: Microsoft SharePoint Remote Code Execution (FIXED)",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-63520-microsoft-sharepoint-remote-code-execution-fixed",
+        "published": "Tue, 11 Aug 2026 13:00:00 GMT"
     }
 ]

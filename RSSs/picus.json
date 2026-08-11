@@ -1213,5 +1213,20 @@
         "title": "Gunra Ransomware: Multithreaded ChaCha20 Encryption Explained",
         "link": "https://www.picussecurity.com/resource/blog/gunra-ransomware-multithreaded-chacha20-encryption-explained",
         "published": "Tue, 11 Aug 2026 07:42:40 GMT"
+    },
+    {
+        "title": "Picus Research Finds Defenses Block Only 37% of Post-Compromise Attacker Actions",
+        "link": "https://www.picussecurity.com/resource/press-release/picus-research-finds-defenses-block-only-37-of-post-compromise-attacker-actions",
+        "published": "Tue, 11 Aug 2026 12:53:47 GMT"
+    },
+    {
+        "title": "What 338 Million Attack Simulations Reveal About Enterprise Defenses",
+        "link": "https://www.picussecurity.com/resource/webinar/what-338-million-attack-simulations-reveal-about-enterprise-defenses",
+        "published": "Tue, 11 Aug 2026 12:30:38 GMT"
+    },
+    {
+        "title": "BlueReport2026",
+        "link": "https://www.picussecurity.com/resource/report/blue-report-2026",
+        "published": "Tue, 11 Aug 2026 12:28:42 GMT"
     }
 ]

@@ -5113,3 +5113,4 @@ clean_list:
 - CVE-2026-48710
 - cve-2026-62737-lab
 - CVE-2026-17106
+- two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal
