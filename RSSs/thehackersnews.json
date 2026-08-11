@@ -6813,5 +6813,20 @@
         "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
         "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
         "published": "Wed, 12 Aug 2026 00:06:47 +0530"
+    },
+    {
+        "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+        "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+        "published": "Wed, 12 Aug 2026 01:40:55 +0530"
+    },
+    {
+        "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+        "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+        "published": "Wed, 12 Aug 2026 01:06:37 +0530"
+    },
+    {
+        "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+        "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+        "published": "Wed, 12 Aug 2026 00:38:47 +0530"
     }
 ]
