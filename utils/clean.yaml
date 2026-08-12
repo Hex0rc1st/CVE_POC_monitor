@@ -5119,3 +5119,4 @@ clean_list:
 - DataPrivacy-CVE-2025-23211
 - F9360-CVE43499
 - iqoo-temp-root
+- CVE-2024-52806-PoC
