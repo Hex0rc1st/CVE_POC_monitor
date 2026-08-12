@@ -6848,5 +6848,10 @@
         "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
         "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
         "published": "Wed, 12 Aug 2026 11:45:58 +0530"
+    },
+    {
+        "title": "Attackers Exploit VMware vCenter Vulnerability to Gain Persistent Remote Access",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-vmware-vcenter.html",
+        "published": "Wed, 12 Aug 2026 14:31:54 +0530"
     }
 ]
