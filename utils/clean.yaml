@@ -5117,3 +5117,4 @@ clean_list:
 - CVE-2026-67846-BOOM-NBDTLB
 - cve-feedback-tracker
 - DataPrivacy-CVE-2025-23211
+- F9360-CVE43499

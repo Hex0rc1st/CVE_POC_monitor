@@ -9793,5 +9793,30 @@
         "title": "Docker CopyEscape Vulnerability Enables Host File Overwrite and Root Code Execution",
         "link": "https://gbhackers.com/docker-copyescape-vulnerability/",
         "published": "Wed, 12 Aug 2026 05:00:17 +0000"
+    },
+    {
+        "title": "The Best Network Traffic Analysis (NTA) Tools, Compared and Priced (2026)",
+        "link": "https://gbhackers.com/nta-tools-compared-features-pricing/",
+        "published": "Wed, 12 Aug 2026 08:25:16 +0000"
+    },
+    {
+        "title": "Microsoft Outlook RCE Vulnerability Lets Attackers Execute Code Remotely",
+        "link": "https://gbhackers.com/microsoft-outlook-rce-vulnerability/",
+        "published": "Wed, 12 Aug 2026 08:24:28 +0000"
+    },
+    {
+        "title": "Project CAV3RN Uses Google Apps Script and DNS to Hide C2 Traffic in Israeli Cyberespionage Attacks",
+        "link": "https://gbhackers.com/project-cav3rn-uses-google-apps/",
+        "published": "Wed, 12 Aug 2026 07:44:42 +0000"
+    },
+    {
+        "title": "Windows AFD.sys Zero-Day Exploited by Lazarus Hackers to Gain SYSTEM Access",
+        "link": "https://gbhackers.com/windows-afd-sys-zero-day-exploited-by-lazarus-hackers/",
+        "published": "Wed, 12 Aug 2026 07:38:58 +0000"
+    },
+    {
+        "title": "Fake Corporate VPN Test Creates Scheduled Task and Downloads Malware on Windows",
+        "link": "https://gbhackers.com/fake-corporate-vpn-test/",
+        "published": "Wed, 12 Aug 2026 06:38:32 +0000"
     }
 ]

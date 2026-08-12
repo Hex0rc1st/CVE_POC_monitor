@@ -6828,5 +6828,25 @@
         "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
         "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
         "published": "Wed, 12 Aug 2026 00:38:47 +0530"
+    },
+    {
+        "title": "Malicious LiteLLM Releases Tied to Trivy Hack May Have Exposed 2,100+ Organizations",
+        "link": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html",
+        "published": "Wed, 12 Aug 2026 13:34:52 +0530"
+    },
+    {
+        "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+        "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+        "published": "Wed, 12 Aug 2026 13:01:40 +0530"
+    },
+    {
+        "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+        "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+        "published": "Wed, 12 Aug 2026 12:11:38 +0530"
+    },
+    {
+        "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+        "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+        "published": "Wed, 12 Aug 2026 11:45:58 +0530"
     }
 ]
