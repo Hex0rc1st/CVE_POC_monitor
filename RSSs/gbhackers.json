@@ -9853,5 +9853,20 @@
         "title": "Malicious CCleaner Installer Patches Chrome Security Extension to Deploy Browser Spyware",
         "link": "https://gbhackers.com/malicious-ccleaner-installer/",
         "published": "Wed, 12 Aug 2026 10:20:02 +0000"
+    },
+    {
+        "title": "ShieldBreak Windows Defender 0-Day Lets Attackers Bypass Microsoft Patch and Gain SYSTEM Privileges",
+        "link": "https://gbhackers.com/shieldbreak-windows-defender-0-day/",
+        "published": "Wed, 12 Aug 2026 13:38:42 +0000"
+    },
+    {
+        "title": "Hackers Exploit Critical VMware vCenter Flaw to Deploy Reverse SSH Across 47 Countries",
+        "link": "https://gbhackers.com/hackers-exploit-critical-vmware-vcenter-flaw/",
+        "published": "Wed, 12 Aug 2026 12:27:22 +0000"
+    },
+    {
+        "title": "CISA Warns Critical Metabase SQL Injection Flaw Lets Unauthenticated Attackers Gain Admin Access",
+        "link": "https://gbhackers.com/cisa-warns-critical-metabase-sql-injection-flaw/",
+        "published": "Wed, 12 Aug 2026 12:02:03 +0000"
     }
 ]

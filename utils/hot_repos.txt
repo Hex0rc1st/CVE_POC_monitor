@@ -272,3 +272,4 @@ https://github.com/Boreas37/CVE-2026-64638-PoC-XSS2Shell-
 https://github.com/masasron/CopyEscape-CVE-2026-17106
 https://github.com/enessakircolak/CVE-2025-7771
 https://github.com/sgkdev/bad_garbage
+https://github.com/Knz-source/CVE-2026-23111-POC-noddlenpottato
