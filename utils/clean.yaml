@@ -5116,3 +5116,4 @@ clean_list:
 - two-dots-and-a-slash-cve-2026-18907-tecno-hi-browser-download-path-traversal
 - CVE-2026-67846-BOOM-NBDTLB
 - cve-feedback-tracker
+- DataPrivacy-CVE-2025-23211
