@@ -1633,5 +1633,45 @@
         "title": "Unauthenticated VNC access exposed on all interfaces",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-145",
         "published": "Tue, 14 Jul 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Broken access control in the RADIUS type admin group",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Content-Encoding WAF Evasion",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-157",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "FGFM Authentication Weakening via CLI Configuration",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-160",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "HTTP/2 Bomb CVE-2026-49975",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Heap overflow in kernel driver due to missing size validation",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Server-Side Request Forgery (SSRF)",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-159",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Stack buffer overflow in WAD",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-161",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "UI DoS attack",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
+        "published": "Wed, 12 Aug 2026 00:00:00 -0700"
     }
 ]

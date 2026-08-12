@@ -5120,3 +5120,9 @@ clean_list:
 - F9360-CVE43499
 - iqoo-temp-root
 - CVE-2024-52806-PoC
+- PluckCMS-CSRF-RCE
+- CVE-2026-0075
+- CVE-2026-69263
+- CVE-2026-44402
+- CVE-2026-23111-POC-noddlenpottato
+- CVE-2026-27344

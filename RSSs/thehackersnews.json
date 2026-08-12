@@ -6858,5 +6858,15 @@
         "title": "Adobe Patches Three CVSS 10.0 ColdFusion and Campaign Classic Flaws",
         "link": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html",
         "published": "Wed, 12 Aug 2026 16:43:03 +0530"
+    },
+    {
+        "title": "OpenAI, Anthropic, Google API Flaw Let Weaker AI Models Decode Stronger Models' Reasoning",
+        "link": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html",
+        "published": "Wed, 12 Aug 2026 17:17:38 +0530"
+    },
+    {
+        "title": "Enterprise Defenses Recovered at the Edge and Collapsed Inside",
+        "link": "https://thehackernews.com/2026/08/enterprise-defenses-recovered-at-edge.html",
+        "published": "Wed, 12 Aug 2026 17:11:34 +0530"
     }
 ]
