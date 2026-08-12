@@ -803,5 +803,60 @@
         "title": "CVE-2026-0284 PAN-OS: XML Injection Vulnerability in Large Scale VPN (LSVPN) (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0284",
         "published": "2026-07-08T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0291 Prisma Access Agent: Authenticated Limited File Deletion on Linux (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0291",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0295 GlobalProtect App: Local Privilege Escalation via Race Condition on macOS (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0295",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0293 Prisma Access Agent: Anti-Tamper Protection Bypass on Windows (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0293",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0292 Prisma Access Agent: Local Security Inspection Bypass Vulnerability on Windows (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0292",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0297 GlobalProtect App: Buffer Overflow Vulnerability during UDP Tunnel Handshake (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0297",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0301 PAN-OS: Information Disclosure Vulnerability in URL Filtering (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0301",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0294 Prisma Access Agent: Local Privilege Escalation (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0294",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0299 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0299",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0011 Chromium: Monthly Vulnerability Update (August 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0011",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0296 GlobalProtect App: Improper Certificate Validation Bypass Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0296",
+        "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
+        "published": "2026-08-12T16:00:00.000Z"
     }
 ]
