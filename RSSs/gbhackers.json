@@ -9768,5 +9768,30 @@
         "title": "Plug & Pwn Attack Exploits Windows PnP to Gain SYSTEM Access With Zero Clicks",
         "link": "https://gbhackers.com/plug-pwn-attack-exploits-windows-pnp/",
         "published": "Tue, 11 Aug 2026 12:06:33 +0000"
+    },
+    {
+        "title": "Microsoft Patch Tuesday Update August 2026 Fixes Actively Exploited Windows Zero-Day",
+        "link": "https://gbhackers.com/microsoft-patch-tuesday-update-august-2026/",
+        "published": "Wed, 12 Aug 2026 05:49:49 +0000"
+    },
+    {
+        "title": "DEF CON Attendees Allegedly Jam Plane Wi‑Fi, Launch ‘Evil Twin’ Phishing Attack",
+        "link": "https://gbhackers.com/def-con-attendees-allegedly-jam-plane-wi-fi/",
+        "published": "Wed, 12 Aug 2026 05:32:40 +0000"
+    },
+    {
+        "title": "Zoom Zero-Click ‘Zoomsday’ Flaw Lets Meeting Participants Execute Code on Other Users’ Devices",
+        "link": "https://gbhackers.com/zoom-zero-click-zoomsday-flaw/",
+        "published": "Wed, 12 Aug 2026 05:04:51 +0000"
+    },
+    {
+        "title": "One ClickFix Lure Can Give Hackers a Persistent Remote Shell Through New CNCMachineRMS RAT",
+        "link": "https://gbhackers.com/cncmachinerms-rat/",
+        "published": "Wed, 12 Aug 2026 05:00:51 +0000"
+    },
+    {
+        "title": "Docker CopyEscape Vulnerability Enables Host File Overwrite and Root Code Execution",
+        "link": "https://gbhackers.com/docker-copyescape-vulnerability/",
+        "published": "Wed, 12 Aug 2026 05:00:17 +0000"
     }
 ]
