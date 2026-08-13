@@ -9868,5 +9868,35 @@
         "title": "CISA Warns Critical Metabase SQL Injection Flaw Lets Unauthenticated Attackers Gain Admin Access",
         "link": "https://gbhackers.com/cisa-warns-critical-metabase-sql-injection-flaw/",
         "published": "Wed, 12 Aug 2026 12:02:03 +0000"
+    },
+    {
+        "title": "Kimwolf v7 Removes Exploitation Code and Leaves Infection to External Loaders",
+        "link": "https://gbhackers.com/kimwolf-v7-removes-exploitation/",
+        "published": "Thu, 13 Aug 2026 06:12:31 +0000"
+    },
+    {
+        "title": "China-Linked Hackers Use Autonomous AI Agents to Breach Taiwan Government Systems",
+        "link": "https://gbhackers.com/china-linked-hackers-breach-taiwan-government-systems/",
+        "published": "Thu, 13 Aug 2026 06:09:24 +0000"
+    },
+    {
+        "title": "Phantom Stealer Uses PNG Steganography and PowerShell Injection to Steal Credentials",
+        "link": "https://gbhackers.com/phantom-stealer-uses-png-steganography/",
+        "published": "Thu, 13 Aug 2026 05:52:55 +0000"
+    },
+    {
+        "title": "City-Forum Hackers Target Salesforce and ServiceNow Instances Worldwide for Data Theft",
+        "link": "https://gbhackers.com/city-forum-hackers-target-salesforce-and-servicenow-instances/",
+        "published": "Thu, 13 Aug 2026 05:30:14 +0000"
+    },
+    {
+        "title": "Palo Alto GlobalProtect Vulnerabilities Enable SYSTEM and Root-Level Access",
+        "link": "https://gbhackers.com/palo-alto-globalprotect-vulnerabilities/",
+        "published": "Thu, 13 Aug 2026 05:10:07 +0000"
+    },
+    {
+        "title": "WordPress RCE Vulnerability Lets Authenticated Authors Execute Remote Code",
+        "link": "https://gbhackers.com/wordpress-rce-vulnerability/",
+        "published": "Thu, 13 Aug 2026 05:00:24 +0000"
     }
 ]
