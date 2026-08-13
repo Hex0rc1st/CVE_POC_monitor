@@ -9898,5 +9898,55 @@
         "title": "WordPress RCE Vulnerability Lets Authenticated Authors Execute Remote Code",
         "link": "https://gbhackers.com/wordpress-rce-vulnerability/",
         "published": "Thu, 13 Aug 2026 05:00:24 +0000"
+    },
+    {
+        "title": "CISA Adds Actively Exploited Windows WinSock Vulnerability to KEV Catalog",
+        "link": "https://gbhackers.com/cisa-adds-actively-exploited-windows-winsock-vulnerability/",
+        "published": "Thu, 13 Aug 2026 11:08:27 +0000"
+    },
+    {
+        "title": "Wireshark 4.6.8 Released to Patch 28 Security Vulnerabilities",
+        "link": "https://gbhackers.com/wireshark-4-6-8-released/",
+        "published": "Thu, 13 Aug 2026 10:53:39 +0000"
+    },
+    {
+        "title": "Armored Likho Turns Windows Microphones Into Automated Eavesdropping Devices",
+        "link": "https://gbhackers.com/likho-hijacks-microphones/",
+        "published": "Thu, 13 Aug 2026 10:41:00 +0000"
+    },
+    {
+        "title": "Cloudflare Mitigates 23.2 Million DDoS Attacks as 1 Tbps Attacks Surge 519%",
+        "link": "https://gbhackers.com/cloudflare-mitigates-23-2-million-ddos-attacks/",
+        "published": "Thu, 13 Aug 2026 10:39:23 +0000"
+    },
+    {
+        "title": "6,330 Internet-Exposed ICS Devices Near U.S. Data Centers Put Cooling and Power Systems at Risk",
+        "link": "https://gbhackers.com/6330-internet-exposed-ics-devices/",
+        "published": "Thu, 13 Aug 2026 10:04:45 +0000"
+    },
+    {
+        "title": "Critical Adobe Commerce Flaw Lets Unauthenticated Attackers Escalate Privileges",
+        "link": "https://gbhackers.com/critical-adobe-commerce-flaw/",
+        "published": "Thu, 13 Aug 2026 08:36:18 +0000"
+    },
+    {
+        "title": "WhatsApp Introduces On-Device Scam Alert to Detect Fraud Messages",
+        "link": "https://gbhackers.com/whatsapp-introduces-on-device-scam-alert/",
+        "published": "Thu, 13 Aug 2026 08:21:06 +0000"
+    },
+    {
+        "title": "Adobe ColdFusion Critical Vulnerabilities Enable Arbitrary Code Execution",
+        "link": "https://gbhackers.com/adobe-coldfusion-critical-vulnerabilities-2/",
+        "published": "Thu, 13 Aug 2026 08:12:33 +0000"
+    },
+    {
+        "title": "Akira Ransomware Reboots Windows Into Safe Mode to Disable EDR and Microsoft Defender",
+        "link": "https://gbhackers.com/akira-ransomware-reboots-windows/",
+        "published": "Thu, 13 Aug 2026 07:41:26 +0000"
+    },
+    {
+        "title": "Gunra Ransomware Uses Up to 100 ChaCha20 Threads to Rapidly Encrypt Linux Systems",
+        "link": "https://gbhackers.com/gunra-ransomware-attack-2/",
+        "published": "Thu, 13 Aug 2026 07:06:22 +0000"
     }
 ]

@@ -5137,3 +5137,4 @@ clean_list:
 - CVE-2026-65640-
 - nginx-rift-check
 - the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex
+- GhostLock
