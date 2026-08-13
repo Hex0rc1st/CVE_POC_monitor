@@ -6878,5 +6878,10 @@
         "title": "Lazarus Exploits Windows Zero-Day to Gain SYSTEM Access and Deploy Backdoor",
         "link": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
         "published": "Wed, 12 Aug 2026 23:09:27 +0530"
+    },
+    {
+        "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
+        "published": "Thu, 13 Aug 2026 11:39:48 +0530"
     }
 ]

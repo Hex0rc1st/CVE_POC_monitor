@@ -5132,3 +5132,7 @@ clean_list:
 - CVE-2026-68820
 - CVE-2026-66804-CrossDevice-Service-EoP
 - CVE-2026-41940-Security-Patch
+- cve-2025-21479-iqoo11pro
+- CVE-2026-9999-exploit
+- CVE-2026-65640-
+- nginx-rift-check
