@@ -9948,5 +9948,25 @@
         "title": "Gunra Ransomware Uses Up to 100 ChaCha20 Threads to Rapidly Encrypt Linux Systems",
         "link": "https://gbhackers.com/gunra-ransomware-attack-2/",
         "published": "Thu, 13 Aug 2026 07:06:22 +0000"
+    },
+    {
+        "title": "Microsoft Exchange Server Vulnerabilities Allow DoS, Privilege Escalation, and RCE",
+        "link": "https://gbhackers.com/microsoft-exchange-server-vulnerabilities-2/",
+        "published": "Thu, 13 Aug 2026 12:58:15 +0000"
+    },
+    {
+        "title": "Critical Dell VMware vSphere Client Flaw Lets Remote Attackers Execute Commands as Root",
+        "link": "https://gbhackers.com/critical-dell-vmware-vsphere-client-flaw/",
+        "published": "Thu, 13 Aug 2026 12:39:03 +0000"
+    },
+    {
+        "title": "Trump Administration Authorizes Cyber Operations Against Foreign Criminal Networks",
+        "link": "https://gbhackers.com/trump-administration-authorizes-cyber-operations/",
+        "published": "Thu, 13 Aug 2026 12:32:44 +0000"
+    },
+    {
+        "title": "LiteLLM Hack Exposes Secrets From 2,488 Companies Across 118,829 CI Runner Dumps",
+        "link": "https://gbhackers.com/litellm-hack-exposes-secrets/",
+        "published": "Thu, 13 Aug 2026 11:58:56 +0000"
     }
 ]
