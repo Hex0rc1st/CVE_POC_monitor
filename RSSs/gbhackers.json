@@ -9968,5 +9968,10 @@
         "title": "LiteLLM Hack Exposes Secrets From 2,488 Companies Across 118,829 CI Runner Dumps",
         "link": "https://gbhackers.com/litellm-hack-exposes-secrets/",
         "published": "Thu, 13 Aug 2026 11:58:56 +0000"
+    },
+    {
+        "title": "Jewelbug Uses Public Google Docs as Malware Command-and-Control Delivery Channel",
+        "link": "https://gbhackers.com/jewelbug-uses-public-google-docs/",
+        "published": "Thu, 13 Aug 2026 13:41:49 +0000"
     }
 ]

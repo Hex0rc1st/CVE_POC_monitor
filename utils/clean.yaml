@@ -5139,3 +5139,4 @@ clean_list:
 - the-sanitizer-is-the-weapon-cve-2026-68749-cve-2026-68750-quadratic-dos-in-elixir-html-sanitize-ex
 - GhostLock
 - CVE-2026-25938-FUXA-Unauthenticated-RCE
+- CVE-2026-53413

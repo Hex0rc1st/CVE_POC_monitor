@@ -274,3 +274,4 @@ https://github.com/enessakircolak/CVE-2025-7771
 https://github.com/sgkdev/bad_garbage
 https://github.com/Knz-source/CVE-2026-23111-POC-noddlenpottato
 https://github.com/aramosf/CVE-2026-68138
+https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP
