@@ -5130,3 +5130,5 @@ clean_list:
 - CVE-2026-14840
 - CVE-2026-14282
 - CVE-2026-68820
+- CVE-2026-66804-CrossDevice-Service-EoP
+- CVE-2026-41940-Security-Patch
