@@ -5140,3 +5140,4 @@ clean_list:
 - GhostLock
 - CVE-2026-25938-FUXA-Unauthenticated-RCE
 - CVE-2026-53413
+- cve-2026-43499-m3q-azf1
