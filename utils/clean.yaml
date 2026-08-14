@@ -5143,3 +5143,5 @@ clean_list:
 - cve-2026-43499-m3q-azf1
 - CVE-2026-72550-poc
 - OpenSTA-Exploit
+- KSuRoot
+- cve-analysis-lab
