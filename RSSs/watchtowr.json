@@ -298,5 +298,10 @@
         "title": "It’s 37oC, And All We Can Think About Is ColdFusion (Adobe ColdFusion Security Bulletin APSB26-68 CVE Bonanza)",
         "link": "https://labs.watchtowr.com/its-37oc-and-all-we-can-think-about-is-coldfusion-adobe-coldfusion-security-bulletin-apsb26-68-cve-bonanza/",
         "published": "Thu, 02 Jul 2026 16:38:28 GMT"
+    },
+    {
+        "title": "You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))",
+        "link": "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/",
+        "published": "Fri, 14 Aug 2026 07:08:20 GMT"
     }
 ]
