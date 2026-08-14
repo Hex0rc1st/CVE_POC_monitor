@@ -5142,3 +5142,4 @@ clean_list:
 - CVE-2026-53413
 - cve-2026-43499-m3q-azf1
 - CVE-2026-72550-poc
+- OpenSTA-Exploit
