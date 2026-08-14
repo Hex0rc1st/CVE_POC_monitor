@@ -5145,3 +5145,5 @@ clean_list:
 - OpenSTA-Exploit
 - KSuRoot
 - cve-analysis-lab
+- CVE-2026-64600-RefluXFS-PoC
+- CVE-Analysis-Lab
