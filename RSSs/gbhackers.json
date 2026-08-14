@@ -9973,5 +9973,30 @@
         "title": "Jewelbug Uses Public Google Docs as Malware Command-and-Control Delivery Channel",
         "link": "https://gbhackers.com/jewelbug-uses-public-google-docs/",
         "published": "Thu, 13 Aug 2026 13:41:49 +0000"
+    },
+    {
+        "title": "Fortinet FortiWeb and FortiClient Flaws Let Unauthenticated Attackers Gain Access and Execute Arbitrary Code",
+        "link": "https://gbhackers.com/fortinet-fortiweb-and-forticlient-flaws/",
+        "published": "Fri, 14 Aug 2026 05:54:40 +0000"
+    },
+    {
+        "title": "Aeternum Hides Malware Commands on Polygon Blockchain Where Server Takedowns Can’t Erase Them",
+        "link": "https://gbhackers.com/aeternum-hides-malware-commands/",
+        "published": "Fri, 14 Aug 2026 05:38:30 +0000"
+    },
+    {
+        "title": "Trezor Shipping Provider Data Breach Exposes Personal Data of 13,689 Customers",
+        "link": "https://gbhackers.com/trezor-shipping-provider-data-breach/",
+        "published": "Fri, 14 Aug 2026 05:37:32 +0000"
+    },
+    {
+        "title": "Beacon CRM Data Breach Exposes Customer Data via Compromised AWS Access Key",
+        "link": "https://gbhackers.com/beacon-crm-data-breach-exposes-customer-data/",
+        "published": "Fri, 14 Aug 2026 05:23:05 +0000"
+    },
+    {
+        "title": "New AmnesiaStealer Malware Targets macOS Users via ClickFix Attacks",
+        "link": "https://gbhackers.com/new-amnesiastealer-malware-targets-macos-users/",
+        "published": "Fri, 14 Aug 2026 05:06:17 +0000"
     }
 ]
