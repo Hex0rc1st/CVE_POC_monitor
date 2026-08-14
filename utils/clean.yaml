@@ -5147,3 +5147,7 @@ clean_list:
 - cve-analysis-lab
 - CVE-2026-64600-RefluXFS-PoC
 - CVE-Analysis-Lab
+- CVE-2026-54433
+- CVE-2026-54356
+- CVE-2026-46300_Fragnesia
+- Kerberos-CVE-2026-27912
