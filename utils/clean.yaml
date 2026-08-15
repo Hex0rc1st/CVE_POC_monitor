@@ -5156,3 +5156,5 @@ clean_list:
 - CVE-2026-43499-ZFOLD4
 - CVE-2025-70559
 - S2-072
+- CVE-2024-45519-Zimbra-Real-Fix
+- bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork
