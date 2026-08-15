@@ -10058,5 +10058,20 @@
         "title": "Microsoft Copilot App Overhaul Merges Personal Chats and Ends Podcasts, Deep Research",
         "link": "https://gbhackers.com/microsoft-copilot-update-merges-chats-retires-podcast/",
         "published": "Sat, 15 Aug 2026 07:20:59 +0000"
+    },
+    {
+        "title": "Microsoft Entra ID Makes Passkeys Default, Retires SMS and Voice MFA in 2027 for Better Security",
+        "link": "https://gbhackers.com/microsoft-entra-id-makes-passkeys-default/",
+        "published": "Sat, 15 Aug 2026 08:31:17 +0000"
+    },
+    {
+        "title": "Ruby 4.0 Marshal.load RCE Gadget Chain Exposes Critical Deserialization Risk",
+        "link": "https://gbhackers.com/ruby-4-0-marshal-load-rce-gadget-chain/",
+        "published": "Sat, 15 Aug 2026 08:02:08 +0000"
+    },
+    {
+        "title": "Download More RAM Attack Bypasses Windows VBS, HVCI and Disables Microsoft Defender",
+        "link": "https://gbhackers.com/download-more-ram-attack-bypasses-windows-vbs/",
+        "published": "Sat, 15 Aug 2026 07:43:27 +0000"
     }
 ]
