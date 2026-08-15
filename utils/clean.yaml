@@ -5154,3 +5154,4 @@ clean_list:
 - CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation
 - CVE-2026-13610
 - CVE-2026-43499-ZFOLD4
+- CVE-2025-70559
