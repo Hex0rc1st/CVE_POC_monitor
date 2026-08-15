@@ -278,3 +278,4 @@ https://github.com/Rat5ak/CVE-2026-66804-CrossDevice-Service-EoP
 https://github.com/pemarine/cve-2026-41940-PoC
 https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452
 https://github.com/hmascs/KSuRoot
+https://github.com/opaxial/CVE-2026-9830
