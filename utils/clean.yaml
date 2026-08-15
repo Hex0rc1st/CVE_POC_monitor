@@ -5163,3 +5163,9 @@ clean_list:
 - Windows-WinSock-UAF-Mitigation
 - CVE-2026-58231
 - CVE-2026-8794
+- CVE-2026-6440
+- CVE-2026-53587
+- CVEX2SHEL
+- cve-2026-71362-magento-lab
+- cve-2026-43499-honor
+- PoCs
