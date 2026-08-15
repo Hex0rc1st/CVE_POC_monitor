@@ -5158,3 +5158,6 @@ clean_list:
 - S2-072
 - CVE-2024-45519-Zimbra-Real-Fix
 - bring-your-own-key-cve-2026-73678-unauthenticated-rce-in-mindsdb-cowork
+- Metabase-Setup-Endpoint-SQLi-Fix
+- CVE-2026-8793
+- Windows-WinSock-UAF-Mitigation
