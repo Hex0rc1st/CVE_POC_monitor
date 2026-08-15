@@ -5161,3 +5161,5 @@ clean_list:
 - Metabase-Setup-Endpoint-SQLi-Fix
 - CVE-2026-8793
 - Windows-WinSock-UAF-Mitigation
+- CVE-2026-58231
+- CVE-2026-8794
