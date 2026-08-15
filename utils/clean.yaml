@@ -5152,3 +5152,4 @@ clean_list:
 - CVE-2026-46300_Fragnesia
 - Kerberos-CVE-2026-27912
 - CVE-2024-4577-Exploitation-AsyncRAT-Deployment-DFIR-Investigation
+- CVE-2026-13610
