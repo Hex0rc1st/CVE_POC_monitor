@@ -5177,3 +5177,6 @@ clean_list:
 - CVE-2025-11740
 - CVE-2026-73633
 - CVE-2026-72898-safe-detection
+- cve-mck-2026
+- xss2shell-check
+- CVE-2026-73678-PoC
