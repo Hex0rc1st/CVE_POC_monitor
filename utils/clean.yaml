@@ -5170,3 +5170,5 @@ clean_list:
 - cve-2026-43499-honor
 - PoCs
 - flar3ad
+- CVE-2026-73847-emlog-PoC
+- CVE-2026-73519-WolfStack-PoC
