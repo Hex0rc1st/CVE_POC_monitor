@@ -5174,3 +5174,4 @@ clean_list:
 - CVE-2026-73519-WolfStack-PoC
 - Windows-Defender-Security-Auditor-CVE-2026-50656-
 - cve-2025-5781_FreePBX
+- CVE-2025-11740
