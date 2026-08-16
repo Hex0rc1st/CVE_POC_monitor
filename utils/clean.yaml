@@ -5176,3 +5176,4 @@ clean_list:
 - cve-2025-5781_FreePBX
 - CVE-2025-11740
 - CVE-2026-73633
+- CVE-2026-72898-safe-detection
