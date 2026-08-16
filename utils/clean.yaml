@@ -5172,3 +5172,5 @@ clean_list:
 - flar3ad
 - CVE-2026-73847-emlog-PoC
 - CVE-2026-73519-WolfStack-PoC
+- Windows-Defender-Security-Auditor-CVE-2026-50656-
+- cve-2025-5781_FreePBX
