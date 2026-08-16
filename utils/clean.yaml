@@ -5180,3 +5180,4 @@ clean_list:
 - cve-mck-2026
 - xss2shell-check
 - CVE-2026-73678-PoC
+- root-my-s9280
