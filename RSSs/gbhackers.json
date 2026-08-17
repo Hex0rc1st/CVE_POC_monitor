@@ -10123,5 +10123,15 @@
         "title": "Evooo1Bot Turns Compromised Routers Into DDoS Bots and Anonymous Proxy Nodes",
         "link": "https://gbhackers.com/linux-botnet-dubbed-evooo1bot/",
         "published": "Mon, 17 Aug 2026 06:24:49 +0000"
+    },
+    {
+        "title": "Misconfigured Microsoft Power Pages Likely Exposed 27 Million Records to ExfilSquad",
+        "link": "https://gbhackers.com/misconfigured-microsoft-power-pages/",
+        "published": "Mon, 17 Aug 2026 09:33:55 +0000"
+    },
+    {
+        "title": "HoneyMyte Upgrades CoolClient With Windows Kernel Rootkit to Hide Malware and C2 Connections",
+        "link": "https://gbhackers.com/honeymyte-upgrades-coolclient/",
+        "published": "Mon, 17 Aug 2026 09:03:51 +0000"
     }
 ]
