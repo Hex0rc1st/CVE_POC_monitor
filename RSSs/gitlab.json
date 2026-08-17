@@ -1983,5 +1983,15 @@
         "title": "GitLab Patch Release: 19.2.2, 19.1.4, 19.0.6",
         "link": "https://docs.gitlab.com/ja-jp/releases/patches/patch-release-gitlab-19-2-2-released/",
         "published": "2026-08-12T00:00:00Z"
+    },
+    {
+        "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
+        "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-2-4-released/",
+        "published": "2026-08-17T00:00:00Z"
+    },
+    {
+        "title": "GitLab Critical Patch Release: 19.2.4, 19.1.6, 19.0.8, 18.11.11",
+        "link": "https://docs.gitlab.com/ja-jp/releases/patches/patch-release-gitlab-19-2-4-released/",
+        "published": "2026-08-17T00:00:00Z"
     }
 ]

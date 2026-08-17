@@ -6988,5 +6988,20 @@
         "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
         "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
         "published": "Mon, 17 Aug 2026 18:53:51 +0530"
+    },
+    {
+        "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+        "published": "Tue, 18 Aug 2026 00:14:17 +0530"
+    },
+    {
+        "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+        "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+        "published": "Mon, 17 Aug 2026 23:52:09 +0530"
+    },
+    {
+        "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+        "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+        "published": "Mon, 17 Aug 2026 23:11:06 +0530"
     }
 ]
