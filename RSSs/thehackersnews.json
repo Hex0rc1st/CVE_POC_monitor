@@ -6883,5 +6883,95 @@
         "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
         "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
         "published": "Thu, 13 Aug 2026 11:39:48 +0530"
+    },
+    {
+        "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+        "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+        "published": "Mon, 17 Aug 2026 14:59:55 +0530"
+    },
+    {
+        "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+        "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+        "published": "Mon, 17 Aug 2026 13:06:19 +0530"
+    },
+    {
+        "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+        "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+        "published": "Sat, 15 Aug 2026 14:08:46 +0530"
+    },
+    {
+        "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+        "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+        "published": "Sat, 15 Aug 2026 12:54:04 +0530"
+    },
+    {
+        "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+        "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+        "published": "Sat, 15 Aug 2026 00:18:46 +0530"
+    },
+    {
+        "title": "IAM Compliance Requirements and Best Practices",
+        "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
+        "published": "Fri, 14 Aug 2026 22:49:49 +0530"
+    },
+    {
+        "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+        "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+        "published": "Fri, 14 Aug 2026 18:38:56 +0530"
+    },
+    {
+        "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
+        "link": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
+        "published": "Fri, 14 Aug 2026 16:37:45 +0530"
+    },
+    {
+        "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
+        "link": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
+        "published": "Fri, 14 Aug 2026 16:27:00 +0530"
+    },
+    {
+        "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
+        "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+        "published": "Fri, 14 Aug 2026 16:14:34 +0530"
+    },
+    {
+        "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
+        "link": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+        "published": "Fri, 14 Aug 2026 15:08:56 +0530"
+    },
+    {
+        "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
+        "link": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
+        "published": "Fri, 14 Aug 2026 13:24:18 +0530"
+    },
+    {
+        "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+        "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+        "published": "Fri, 14 Aug 2026 00:15:12 +0530"
+    },
+    {
+        "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
+        "link": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
+        "published": "Thu, 13 Aug 2026 23:47:10 +0530"
+    },
+    {
+        "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
+        "link": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
+        "published": "Thu, 13 Aug 2026 20:30:29 +0530"
+    },
+    {
+        "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
+        "link": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
+        "published": "Thu, 13 Aug 2026 19:13:14 +0530"
+    },
+    {
+        "title": "WindRelay Android Malware Turns Victims' Phones Into NFC Relays for Payment Fraud",
+        "link": "https://thehackernews.com/2026/08/windrelay-android-malware-turns-victims.html",
+        "published": "Thu, 13 Aug 2026 17:23:14 +0530"
+    },
+    {
+        "title": "North Korean Remote Workers Are Infiltrating Government and Businesses: How to Expose Them Before Hiring",
+        "link": "https://thehackernews.com/2026/08/north-korean-remote-workers-are.html",
+        "published": "Thu, 13 Aug 2026 17:15:00 +0530"
     }
 ]
