@@ -5184,3 +5184,5 @@ clean_list:
 - EITS-Portal-Exploit-CVE-2026-31367-PoC
 - CVE-2026-74251
 - ave263-chain
+- CVE-2026-59310
+- CVE-2026-68138

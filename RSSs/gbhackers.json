@@ -10098,5 +10098,30 @@
         "title": "McDonald’s, Vodafone Hit in Massive Azure Credential Theft Campaign",
         "link": "https://gbhackers.com/mcdonalds-vodafone-hit-in-massive-azure-credential-theft-campaign/",
         "published": "Mon, 17 Aug 2026 04:59:20 +0000"
+    },
+    {
+        "title": "Malicious Google Apps Script Profiles Crypto Victims Before Delivering Signed Windows Malware",
+        "link": "https://gbhackers.com/malicious-google-apps-script-attack/",
+        "published": "Mon, 17 Aug 2026 07:56:42 +0000"
+    },
+    {
+        "title": "GeoServer Pre-Auth SQL Injection Flaw Lets Attackers Gain Remote Code Execution",
+        "link": "https://gbhackers.com/geoserver-pre-auth-sql-injection-flaw/",
+        "published": "Mon, 17 Aug 2026 07:29:32 +0000"
+    },
+    {
+        "title": "ChainDrop Publishes Initial Malware Without Stealing a Long-Lived npm Token",
+        "link": "https://gbhackers.com/chaindrop-exploits-npm/",
+        "published": "Mon, 17 Aug 2026 07:13:40 +0000"
+    },
+    {
+        "title": "Weekly Recap! – Top 50 Biggest Cybersecurity Stories of the Week: Apple Spyware, Zoom Zero-Click RCE, VMware vCenter Exploits, Microsoft Patch Day & More",
+        "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-august-10-14-2026/",
+        "published": "Mon, 17 Aug 2026 06:38:45 +0000"
+    },
+    {
+        "title": "Evooo1Bot Turns Compromised Routers Into DDoS Bots and Anonymous Proxy Nodes",
+        "link": "https://gbhackers.com/linux-botnet-dubbed-evooo1bot/",
+        "published": "Mon, 17 Aug 2026 06:24:49 +0000"
     }
 ]
