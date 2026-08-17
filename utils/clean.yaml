@@ -5190,3 +5190,4 @@ clean_list:
 - golang-x-text
 - vivo_iqoo_neo_9_root_research_on_CVE-2025-21479
 - CVE-2026-40345
+- CVE-2026-13714
