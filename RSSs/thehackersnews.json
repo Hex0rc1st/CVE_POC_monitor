@@ -7003,5 +7003,10 @@
         "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
         "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
         "published": "Mon, 17 Aug 2026 23:11:06 +0530"
+    },
+    {
+        "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+        "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+        "published": "Tue, 18 Aug 2026 02:33:04 +0530"
     }
 ]
