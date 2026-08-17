@@ -5187,3 +5187,4 @@ clean_list:
 - CVE-2026-59310
 - CVE-2026-68138
 - cve-2026-41042
+- golang-x-text
