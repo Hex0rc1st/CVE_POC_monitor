@@ -5181,3 +5181,5 @@ clean_list:
 - xss2shell-check
 - CVE-2026-73678-PoC
 - root-my-s9280
+- EITS-Portal-Exploit-CVE-2026-31367-PoC
+- CVE-2026-74251
