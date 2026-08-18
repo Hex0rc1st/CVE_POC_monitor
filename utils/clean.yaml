@@ -5193,3 +5193,4 @@ clean_list:
 - CVE-2026-13714
 - CVE-2026-65400
 - CVE-2026-69099-poc
+- CVE-2024-40275_Scanner
