@@ -279,3 +279,4 @@ https://github.com/pemarine/cve-2026-41940-PoC
 https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-PreAuth-RCE-CVE-2026-8452
 https://github.com/hmascs/KSuRoot
 https://github.com/opaxial/CVE-2026-9830
+https://github.com/R0rt1z2/GhostLock-5.10
