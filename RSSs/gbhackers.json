@@ -10233,5 +10233,15 @@
         "title": "Kimsuky Uses Local AI Development Environment to Expand Cyber Espionage Tooling in Operation GitPower",
         "link": "https://gbhackers.com/kimsuky-uses-local-ai-development-environment-to-expand-cyber-espionage-tooling-in-operation-gitpower/",
         "published": "Tue, 18 Aug 2026 10:07:44 +0000"
+    },
+    {
+        "title": "Projextor Abuses Cross-Platform Electron Framework to Conceal Malware Activity",
+        "link": "https://gbhackers.com/projextor-infection-technique/",
+        "published": "Tue, 18 Aug 2026 13:32:52 +0000"
+    },
+    {
+        "title": "Critical MLflow SSRF Flaw Exploited in the Wild",
+        "link": "https://gbhackers.com/critical-mlflow-ssrf-flaw-exploited-in-the-wild/",
+        "published": "Tue, 18 Aug 2026 13:09:50 +0000"
     }
 ]

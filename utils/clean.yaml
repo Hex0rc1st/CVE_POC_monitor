@@ -5199,3 +5199,4 @@ clean_list:
 - fastgpt-sandbox-audit
 - CVE-2026-14669
 - ghostlock-cve-2026-43499
+- cve-2026-15748
