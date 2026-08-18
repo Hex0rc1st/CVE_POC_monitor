@@ -5196,3 +5196,4 @@ clean_list:
 - CVE-2024-40275_Scanner
 - ShieldBreak
 - CVE-2026-19478-PoC
+- fastgpt-sandbox-audit
