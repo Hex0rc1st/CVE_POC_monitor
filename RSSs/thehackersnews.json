@@ -7038,5 +7038,20 @@
         "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
         "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
         "published": "Tue, 18 Aug 2026 18:08:20 +0530"
+    },
+    {
+        "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+        "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+        "published": "Tue, 18 Aug 2026 23:17:22 +0530"
+    },
+    {
+        "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+        "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+        "published": "Tue, 18 Aug 2026 23:14:05 +0530"
+    },
+    {
+        "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+        "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "published": "Tue, 18 Aug 2026 22:28:16 +0530"
     }
 ]
