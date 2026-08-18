@@ -5197,3 +5197,5 @@ clean_list:
 - ShieldBreak
 - CVE-2026-19478-PoC
 - fastgpt-sandbox-audit
+- CVE-2026-14669
+- ghostlock-cve-2026-43499
