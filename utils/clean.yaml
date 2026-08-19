@@ -5208,3 +5208,7 @@ clean_list:
 - CVE-2026-18504-CVE-2026-16732
 - CVE-2026-19598-PoC
 - CVE-2026-43499_HW-CLT-AL01
+- ghostlock-custom
+- s26-m1q-ghostlock-selinux
+- CVE-2024-8068-CVE-2024-8069
+- CVE-2026-56848
