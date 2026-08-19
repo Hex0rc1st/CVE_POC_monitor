@@ -10263,5 +10263,25 @@
         "title": "Critical Microsoft Copilot CoSnitch Flaw Lets Hackers Steal Sensitive Data With One Click",
         "link": "https://gbhackers.com/critical-microsoft-copilot-cosnitch-flaw/",
         "published": "Wed, 19 Aug 2026 04:55:10 +0000"
+    },
+    {
+        "title": "RAVEN Tool Steals Entire Elasticsearch Databases and Rebuilds Deleted Backdoors",
+        "link": "https://gbhackers.com/elasticsearch-databases-theft/",
+        "published": "Wed, 19 Aug 2026 07:46:04 +0000"
+    },
+    {
+        "title": "Critical Apache HttpComponents Client Flaw Lets Attackers Impersonate Servers",
+        "link": "https://gbhackers.com/critical-apache-httpcomponents-client-flaw/",
+        "published": "Wed, 19 Aug 2026 07:36:04 +0000"
+    },
+    {
+        "title": "CISA Warns Hackers Are Actively Exploiting VMware vCenter Path Traversal Flaw",
+        "link": "https://gbhackers.com/cisa-warns-vmware-vcenter-path-traversal-flaw/",
+        "published": "Wed, 19 Aug 2026 06:27:32 +0000"
+    },
+    {
+        "title": "Fake Claude Install Guide Steals Mac Passwords and Turns Trusted Crypto Wallet Apps Into Phishing Traps",
+        "link": "https://gbhackers.com/fake-claude-steals-mac-passwords/",
+        "published": "Wed, 19 Aug 2026 06:21:03 +0000"
     }
 ]
