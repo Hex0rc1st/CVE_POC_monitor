@@ -7088,5 +7088,15 @@
         "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
         "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
         "published": "Wed, 19 Aug 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
+        "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
+        "published": "Thu, 20 Aug 2026 00:32:40 +0530"
+    },
+    {
+        "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+        "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+        "published": "Wed, 19 Aug 2026 23:36:44 +0530"
     }
 ]
