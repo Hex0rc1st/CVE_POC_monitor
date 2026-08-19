@@ -5226,3 +5226,5 @@ clean_list:
 - cve-2026-41940-PoC
 - CVE-2026-61241
 - CVE-2026-64849.yaml
+- certighost
+- CVE-2026-15748
