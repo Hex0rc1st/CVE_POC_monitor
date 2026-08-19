@@ -5223,3 +5223,4 @@ clean_list:
 - CVE-2025-24893_Analysis
 - SCTPhantom-CVE-2026-64564
 - CVE-2026-53365
+- cve-2026-41940-PoC
