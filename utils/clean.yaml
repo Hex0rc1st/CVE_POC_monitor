@@ -5203,3 +5203,6 @@ clean_list:
 - CVE-2026-19501-poc
 - CVE-2026-19500-poc
 - CVE-2026-19598
+- CVE-2026-34486---unauthenticated-RCE-via-Java-deserialization
+- CVE-2026-64849
+- CVE-2026-18504-CVE-2026-16732
