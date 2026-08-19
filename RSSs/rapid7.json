@@ -1078,5 +1078,10 @@
         "title": "Rapid7 and Licencias OnLine Partner to Accelerate Cybersecurity Maturity across Latin America",
         "link": "https://www.rapid7.com/blog/post/c-licencias-online-partnership-accelerates-latam-cybersecurity-maturity-latin-america",
         "published": "Wed, 19 Aug 2026 12:00:00 GMT"
+    },
+    {
+        "title": "CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway",
+        "published": "Wed, 19 Aug 2026 16:46:06 GMT"
     }
 ]
