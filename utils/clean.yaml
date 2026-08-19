@@ -5221,3 +5221,5 @@ clean_list:
 - grav-cve-2024-28116
 - CVE-2026-47858
 - CVE-2025-24893_Analysis
+- SCTPhantom-CVE-2026-64564
+- CVE-2026-53365
