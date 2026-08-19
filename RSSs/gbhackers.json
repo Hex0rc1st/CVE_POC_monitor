@@ -10243,5 +10243,25 @@
         "title": "Critical MLflow SSRF Flaw Exploited in the Wild",
         "link": "https://gbhackers.com/critical-mlflow-ssrf-flaw-exploited-in-the-wild/",
         "published": "Tue, 18 Aug 2026 13:09:50 +0000"
+    },
+    {
+        "title": "Hackers Abuse Thousands of WordPress Sites to Spread StopAndProtect Malware via ClickFix",
+        "link": "https://gbhackers.com/hackers-abuse-thousands-of-wordpress-sites/",
+        "published": "Wed, 19 Aug 2026 05:28:47 +0000"
+    },
+    {
+        "title": "Cl0p Hackers Exploit PTC Windchill Vulnerability to Deploy Custom Web Shell and Steal Data",
+        "link": "https://gbhackers.com/cl0p-exploits-windchill-vulnerability/",
+        "published": "Wed, 19 Aug 2026 05:20:00 +0000"
+    },
+    {
+        "title": "Medusa Ransomware Attacks 300+ Critical Infrastructure Organizations Using Double Extortion",
+        "link": "https://gbhackers.com/medusa-ransomware-attacks-300-critical-infrastructure-organizations/",
+        "published": "Wed, 19 Aug 2026 05:13:18 +0000"
+    },
+    {
+        "title": "Critical Microsoft Copilot CoSnitch Flaw Lets Hackers Steal Sensitive Data With One Click",
+        "link": "https://gbhackers.com/critical-microsoft-copilot-cosnitch-flaw/",
+        "published": "Wed, 19 Aug 2026 04:55:10 +0000"
     }
 ]
