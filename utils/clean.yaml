@@ -5219,3 +5219,4 @@ clean_list:
 - rails_admin
 - POC-CVE-2026-63030-CVE-2026-60137-
 - grav-cve-2024-28116
+- CVE-2026-47858
