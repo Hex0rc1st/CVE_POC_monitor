@@ -10408,5 +10408,15 @@
         "title": "ClearFake Fake CAPTCHA Campaigns Use New WordlistLoader to Deploy Amatera Stealer",
         "link": "https://gbhackers.com/clearfake-fake-captcha-campaigns/",
         "published": "Thu, 20 Aug 2026 08:06:40 +0000"
+    },
+    {
+        "title": "CyberPanel Pre-Auth RCE Flaws Let Attackers Gain Remote Server Access",
+        "link": "https://gbhackers.com/cyberpanel-pre-auth-rce-flaws/",
+        "published": "Thu, 20 Aug 2026 09:15:43 +0000"
+    },
+    {
+        "title": "Claude AI Finds Authentication Bypass Flaws in Multiple SAML Implementations",
+        "link": "https://gbhackers.com/claude-ai-finds-authentication-bypass-flaws/",
+        "published": "Thu, 20 Aug 2026 08:50:55 +0000"
     }
 ]
