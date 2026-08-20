@@ -10458,5 +10458,15 @@
         "title": "Cisco BroadWorks Vulnerability Allows Remote Attackers to Access Sensitive Files",
         "link": "https://gbhackers.com/cisco-broadworks-vulnerability/",
         "published": "Thu, 20 Aug 2026 11:42:09 +0000"
+    },
+    {
+        "title": "MacSync Stealer Uses 30+ Rotating Domains to Steal macOS Credentials and Exfiltrate Data",
+        "link": "https://gbhackers.com/macsync-stealer-uses-30-rotating-domains/",
+        "published": "Thu, 20 Aug 2026 13:27:06 +0000"
+    },
+    {
+        "title": "New CRLF Desync Attack Lets Hackers Steal HTTPOnly Cookies and Hijack Accounts",
+        "link": "https://gbhackers.com/new-crlf-desync-attack/",
+        "published": "Thu, 20 Aug 2026 13:18:20 +0000"
     }
 ]
