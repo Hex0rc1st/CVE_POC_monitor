@@ -10418,5 +10418,25 @@
         "title": "Claude AI Finds Authentication Bypass Flaws in Multiple SAML Implementations",
         "link": "https://gbhackers.com/claude-ai-finds-authentication-bypass-flaws/",
         "published": "Thu, 20 Aug 2026 08:50:55 +0000"
+    },
+    {
+        "title": "Hackers Use Fake CAPTCHA to Deploy Malware That Shuts Down Endpoint Security",
+        "link": "https://gbhackers.com/fake-captcha-to-deploy-malware/",
+        "published": "Thu, 20 Aug 2026 11:12:34 +0000"
+    },
+    {
+        "title": "Red Hat Kubernetes Flaw Lets Unauthenticated Attackers Access Internal Cluster Services",
+        "link": "https://gbhackers.com/red-hat-kubernetes-flaw-2/",
+        "published": "Thu, 20 Aug 2026 10:49:16 +0000"
+    },
+    {
+        "title": "Splunk Fixes 17 Vulnerabilities Including Critical MCP Server RCE",
+        "link": "https://gbhackers.com/splunk-fixes-17-vulnerabilities/",
+        "published": "Thu, 20 Aug 2026 10:34:25 +0000"
+    },
+    {
+        "title": "Hackers Create Hidden Microsoft 365 Inbox Rules to Conceal Vendor Payment Fraud",
+        "link": "https://gbhackers.com/microsoft-365-inbox-rules/",
+        "published": "Thu, 20 Aug 2026 10:28:26 +0000"
     }
 ]
