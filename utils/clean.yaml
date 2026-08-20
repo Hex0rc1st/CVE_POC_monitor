@@ -5235,3 +5235,6 @@ clean_list:
 - CVE-2025-68999-POC
 - keycloak-cve-2026-18963-hunt
 - memory-poisoning-axis
+- cve-2026-63030-lab
+- CVE-2024-4947-PoC
+- k50g-pocof4gt-cve-2026-43499-test
