@@ -5230,3 +5230,4 @@ clean_list:
 - CVE-2026-15748
 - cve-2025-21479_iqooneo8
 - React2shell-Research
+- CVE-2026-2796-escape-wasm-by-using-wasm
