@@ -5231,3 +5231,4 @@ clean_list:
 - cve-2025-21479_iqooneo8
 - React2shell-Research
 - CVE-2026-2796-escape-wasm-by-using-wasm
+- cve-resid-nb-80
