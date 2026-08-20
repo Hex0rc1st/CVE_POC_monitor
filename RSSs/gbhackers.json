@@ -10393,5 +10393,20 @@
         "title": "Critical Snowflake GitHub Actions Flaw Allows Attackers to Steal Internal Jira Credentials",
         "link": "https://gbhackers.com/critical-snowflake-github-actions-flaw/",
         "published": "Thu, 20 Aug 2026 05:03:02 +0000"
+    },
+    {
+        "title": "Hackers Trick AI Agents Into Telling Users to Install the Malware Themselves",
+        "link": "https://gbhackers.com/hackers-trick-ai-agents/",
+        "published": "Thu, 20 Aug 2026 08:48:03 +0000"
+    },
+    {
+        "title": "Zimbra RCE Vulnerability Lets Remote Attackers Execute System Commands",
+        "link": "https://gbhackers.com/zimbra-rce-vulnerability/",
+        "published": "Thu, 20 Aug 2026 08:31:18 +0000"
+    },
+    {
+        "title": "ClearFake Fake CAPTCHA Campaigns Use New WordlistLoader to Deploy Amatera Stealer",
+        "link": "https://gbhackers.com/clearfake-fake-captcha-campaigns/",
+        "published": "Thu, 20 Aug 2026 08:06:40 +0000"
     }
 ]
