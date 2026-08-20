@@ -1018,5 +1018,10 @@
         "title": "cve-2026-59302 - LOW - Potential for logging sensitive data in Spring Cloud Stream",
         "link": "https://spring.io/security/cve-2026-59302",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59305 - LOW - Partition interceptor may be improperly added while sending message",
+        "link": "https://spring.io/security/cve-2026-59305",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]

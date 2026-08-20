@@ -7173,5 +7173,10 @@
         "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
         "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
         "published": "Fri, 21 Aug 2026 01:29:19 +0530"
+    },
+    {
+        "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+        "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+        "published": "Fri, 21 Aug 2026 01:52:35 +0530"
     }
 ]
