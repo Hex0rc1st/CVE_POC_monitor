@@ -933,5 +933,90 @@
         "title": "cve-2026-59314 - LOW - Spring Framework response splitting in ContentDisposition",
         "link": "https://spring.io/security/cve-2026-59314",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47836 - HIGH - Spring Cloud Config Server Susceptible To TOCTOU Attack When Using SVN",
+        "link": "https://spring.io/security/cve-2026-47836",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47837 - MEDIUM - Spring Cloud Config Server Monitor Endpoint Does Not Validate Webhook Requests",
+        "link": "https://spring.io/security/cve-2026-47837",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47879 - HIGH - Spring Cloud Gateway SSRF and native file access with gRPC",
+        "link": "https://spring.io/security/cve-2026-47879",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47894 - MEDIUM - Spring Cloud Config Server Native Environment Repository Exposure",
+        "link": "https://spring.io/security/cve-2026-47894",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59284 - HIGH - Spring Cloud Commons no allow list for writable env actuator endpoint",
+        "link": "https://spring.io/security/cve-2026-59284",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59291 - LOW - Potential arbitrary file read and SSRF vulnerability in Spring Cloud Function",
+        "link": "https://spring.io/security/cve-2026-59291",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59295 - MEDIUM - Micrometer instrumentation of Apache HttpAsyncClient DoS vulnerability",
+        "link": "https://spring.io/security/cve-2026-59295",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59296 - MEDIUM - Micrometer StatsD and Logging meter registries line-protocol and log injection vulnerability",
+        "link": "https://spring.io/security/cve-2026-59296",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59297 - LOW - Spring Cloud Function can incorrectly determine if URI is secure",
+        "link": "https://spring.io/security/cve-2026-59297",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59298 - LOW - Potential for improper filtering of HTTP headers in Spring Cloud Function",
+        "link": "https://spring.io/security/cve-2026-59298",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59299 - LOW - Composition lookup can potentially poison base function in Spring Cloud Function",
+        "link": "https://spring.io/security/cve-2026-59299",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59300 - LOW - Potential for logging sensitive data in Spring Cloud Function AWS",
+        "link": "https://spring.io/security/cve-2026-59300",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59301 - LOW - Potential for logging sensitive data in Spring Cloud Function Azure",
+        "link": "https://spring.io/security/cve-2026-59301",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59303 - LOW - Dynamic destination cache size is not properly bound in Spring Cloud Stream",
+        "link": "https://spring.io/security/cve-2026-59303",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59304 - LOW - Improper caching of the original content type in Spring Cloud Stream Avro",
+        "link": "https://spring.io/security/cve-2026-59304",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59306 - LOW - Potential for deserialization of untrusted types in Spring Cloud Stream",
+        "link": "https://spring.io/security/cve-2026-59306",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59302 - LOW - Potential for logging sensitive data in Spring Cloud Stream",
+        "link": "https://spring.io/security/cve-2026-59302",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]
