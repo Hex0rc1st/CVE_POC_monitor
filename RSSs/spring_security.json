@@ -823,5 +823,115 @@
         "title": "cve-2026-59274 - MEDIUM - Unbounded decompression in UnZipTransformer enables zip-bomb DoS",
         "link": "https://spring.io/security/cve-2026-59274",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47884 - MEDIUM - Spring Framework Improper Path Limitation in XsltView",
+        "link": "https://spring.io/security/cve-2026-47884",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47886 - MEDIUM - Spring Framework Denial of Service via Unbounded Exponentiation in SpEL Expressions",
+        "link": "https://spring.io/security/cve-2026-47886",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47887 - MEDIUM - Spring Framework Open Redirect in UrlFileNameViewController",
+        "link": "https://spring.io/security/cve-2026-47887",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47888 - MEDIUM - Spring Framework Memory Leak via SETUP Frame in RSocketMessageHandler",
+        "link": "https://spring.io/security/cve-2026-47888",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47885 - MEDIUM - Spring Framework maxPartSize Ignored in PartEventHttpMessageReader",
+        "link": "https://spring.io/security/cve-2026-47885",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47883 - MEDIUM - Spring Framework Open Redirect in UrlHandlerFilter",
+        "link": "https://spring.io/security/cve-2026-47883",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47891 - MEDIUM - Spring Framework maxInMemorySize Bypassed in Jaxb2Decoder",
+        "link": "https://spring.io/security/cve-2026-47891",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47890 - LOW - Spring Framework Server Sent Event stream corruption while rendering fragments",
+        "link": "https://spring.io/security/cve-2026-47890",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47893 - LOW - Spring Framework Request Headers Included in Exception Reasons in HandshakeWebsocketService",
+        "link": "https://spring.io/security/cve-2026-47893",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47889 - MEDIUM - Spring Framework sameSite Attribute Dropped in JettyCoreServerHttpResponse",
+        "link": "https://spring.io/security/cve-2026-47889",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47892 - MEDIUM - Spring Framework Header Predicate Bypass in WebFlux Functional Endpoints",
+        "link": "https://spring.io/security/cve-2026-47892",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59281 - MEDIUM - Spring Framework Cross-site Scripting via EscapedErrors",
+        "link": "https://spring.io/security/cve-2026-59281",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59282 - MEDIUM - Spring Framework Denial of Service via Unbounded List Growth in Data Binding",
+        "link": "https://spring.io/security/cve-2026-59282",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59283 - MEDIUM - Spring Framework Safety Guard Bypass via SpEL Expression Compilation",
+        "link": "https://spring.io/security/cve-2026-59283",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59280 - MEDIUM - Spring Framework Path Traversal via Backslash in SpringTemplateLoader",
+        "link": "https://spring.io/security/cve-2026-59280",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59285 - HIGH - Spring for GraphQL Unsafe Deserialization in pagination support",
+        "link": "https://spring.io/security/cve-2026-59285",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59286 - HIGH - Spring for GraphQL loads Untrusted Resources in GraphiQL support",
+        "link": "https://spring.io/security/cve-2026-59286",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59287 - MEDIUM - Spring for GraphQL WebSocket Client Denial of Service",
+        "link": "https://spring.io/security/cve-2026-59287",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59289 - HIGH - Spring for GraphQL Denial of Service via pagination support",
+        "link": "https://spring.io/security/cve-2026-59289",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59288 - HIGH - Spring for GraphQL Information Exposure in GraphiQL support",
+        "link": "https://spring.io/security/cve-2026-59288",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59313 - LOW - Server Sent Event stream corruption in Spring MVC functional web framework",
+        "link": "https://spring.io/security/cve-2026-59313",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59314 - LOW - Spring Framework response splitting in ContentDisposition",
+        "link": "https://spring.io/security/cve-2026-59314",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]
