@@ -718,5 +718,110 @@
         "title": "cve-2026-59328 - MEDIUM - CVE-2026-59328: Cross-Site Scripting in Eclipse Spring Boot Starter Wizard Dependency Tooltips",
         "link": "https://spring.io/security/cve-2026-59328",
         "published": "Wed, 29 Jul 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47859 - MEDIUM - Unbounded memory allocation in RFC6587SyslogDeserializer (octet-counted framing) — remote DoS",
+        "link": "https://spring.io/security/cve-2026-47859",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47856 - MEDIUM - JsonToObjectTransformer resolves the json__TypeId__ message header to an arbitrary class without an allow-list",
+        "link": "https://spring.io/security/cve-2026-47856",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47860 - MEDIUM - Unbounded decompression of attacker-supplied compressed message bodies",
+        "link": "https://spring.io/security/cve-2026-47860",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47861 - MEDIUM - UDP adapter sends ack to attacker-supplied host:port parsed from packet body, even when acknowledge=false",
+        "link": "https://spring.io/security/cve-2026-47861",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47862 - MEDIUM - ZipTransformer uses file_name header to build workDirectory path without sanitization",
+        "link": "https://spring.io/security/cve-2026-47862",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47864 - MEDIUM - Unsafe Java deserialization in SerializingHttpMessageConverter — remote code execution",
+        "link": "https://spring.io/security/cve-2026-47864",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47880 - MEDIUM - DefaultJmsHeaderMapper copies all JMS user properties into MessageHeaders without excluding framework-significant names",
+        "link": "https://spring.io/security/cve-2026-47880",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59272 - MEDIUM - Log4j2 AmqpAppender disables TLS hostname verification by default",
+        "link": "https://spring.io/security/cve-2026-59272",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59271 - MEDIUM - Admin password disclosed in BrokerNotAliveException message",
+        "link": "https://spring.io/security/cve-2026-59271",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59278 - MEDIUM - In Spring for Apache Kafka, SSRF via DNS resolution triggered by untrusted java.net types in header mapper default trusted packages",
+        "link": "https://spring.io/security/cve-2026-59278",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59275 - MEDIUM - Remote JVM termination: nested-array Java deserialization bypasses allowlist, triggers StackOverflowError, default JavaLangErrorHandler calls System.exit(99)",
+        "link": "https://spring.io/security/cve-2026-59275",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59307 - HIGH - Deserialization allow-list silently bypassed: setBeanClassLoader replaces deserializer but mapper keeps stale reference",
+        "link": "https://spring.io/security/cve-2026-59307",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59293 - MEDIUM - SMB minimum protocol dialect defaults to SMB1",
+        "link": "https://spring.io/security/cve-2026-59293",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59292 - LOW - World-readable metadata file in PropertiesPersistingMetadataStore (insecure temp-file permissions)",
+        "link": "https://spring.io/security/cve-2026-59292",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59317 - MEDIUM - In Spring for Apache Kafka, missing header validation in DeadLetterPublishingRecovererFactory enables denial of service via a poison-pill loop",
+        "link": "https://spring.io/security/cve-2026-59317",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59321 - MEDIUM - Shared JSR-223 ScriptEngine evaluated concurrently without THREADING check",
+        "link": "https://spring.io/security/cve-2026-59321",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59311 - MEDIUM - Fixed predictable /tmp/ziptransformer work directory enables symlink pre-creation",
+        "link": "https://spring.io/security/cve-2026-59311",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59324 - HIGH - fluxTransform shared RequestMessageHolder causes cross-message header leakage under async fluxFunction",
+        "link": "https://spring.io/security/cve-2026-59324",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59322 - MEDIUM - EmbeddedHeadersJsonMessageMapper default gives wire peer full control of MessageHeaders",
+        "link": "https://spring.io/security/cve-2026-59322",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59320 - MEDIUM - In Spring AMQP the link credit never replenished on listener exception path",
+        "link": "https://spring.io/security/cve-2026-59320",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59274 - MEDIUM - Unbounded decompression in UnZipTransformer enables zip-bomb DoS",
+        "link": "https://spring.io/security/cve-2026-59274",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]

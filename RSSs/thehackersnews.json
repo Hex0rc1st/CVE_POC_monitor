@@ -7153,5 +7153,10 @@
         "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
         "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
         "published": "Thu, 20 Aug 2026 18:54:28 +0530"
+    },
+    {
+        "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+        "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+        "published": "Thu, 20 Aug 2026 20:06:27 +0530"
     }
 ]
