@@ -1083,5 +1083,10 @@
         "title": "CVE-2026-19490: Critical Vulnerability Affecting Citrix NetScaler ADC and NetScaler Gateway",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-19490-critical-vulnerability-affecting-citrix-netscaler-adc-and-netscaler-gateway",
         "published": "Wed, 19 Aug 2026 16:46:06 GMT"
+    },
+    {
+        "title": "Codex Curl Test Blog Post 20260820150831",
+        "link": "https://www.rapid7.com/blog/codex-curl-test-blog-post-20260820150831",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]

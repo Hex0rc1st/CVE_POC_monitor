@@ -5238,3 +5238,4 @@ clean_list:
 - cve-2026-63030-lab
 - CVE-2024-4947-PoC
 - k50g-pocof4gt-cve-2026-43499-test
+- the-same-key-opens-every-box-cve-2026-71960-hard-coded-jwt-secret-in-cudy-wr3000-mesh-mqtt
