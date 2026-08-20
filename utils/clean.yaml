@@ -5232,3 +5232,5 @@ clean_list:
 - React2shell-Research
 - CVE-2026-2796-escape-wasm-by-using-wasm
 - cve-resid-nb-80
+- CVE-2025-68999-POC
+- keycloak-cve-2026-18963-hunt
