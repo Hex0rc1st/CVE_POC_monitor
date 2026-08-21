@@ -10533,5 +10533,20 @@
         "title": "Quarkslab Says Anti-Reversing Software Should Return Plausible Wrong Answers Instead of Crashing",
         "link": "https://gbhackers.com/llm-assisted-reverse-engineering/",
         "published": "Fri, 21 Aug 2026 10:00:46 +0000"
+    },
+    {
+        "title": "UAT-10147 Compromises Web Servers to Deploy BadIIS for SEO Fraud and Data Theft",
+        "link": "https://gbhackers.com/uat-10147-compromises-web-servers/",
+        "published": "Fri, 21 Aug 2026 11:30:16 +0000"
+    },
+    {
+        "title": "Critical N-Able PassPortal Extension Flaw Gives Attackers Full Password Vault Access",
+        "link": "https://gbhackers.com/critical-n-able-passportal-extension-flaw/",
+        "published": "Fri, 21 Aug 2026 11:23:51 +0000"
+    },
+    {
+        "title": "OpenAI Frontier Models Get Zero Data Retention With Private Safety Processing",
+        "link": "https://gbhackers.com/openai-frontier-models-get-zero-data-retention/",
+        "published": "Fri, 21 Aug 2026 11:07:22 +0000"
     }
 ]

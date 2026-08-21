@@ -1108,5 +1108,20 @@
         "title": "cve-2026-47874 - MEDIUM - Reactor Netty HTTP Server Denial of Service With Pipelined Requests",
         "link": "https://spring.io/security/cve-2026-47874",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47851 - HIGH - Unbounded recursion over attacker-controlled PDF outline tree in Spring AI PDF Document Reader",
+        "link": "https://spring.io/security/cve-2026-47851",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47852 - HIGH - Predictable cache directory location allows local ONNX model substitution in Spring AI",
+        "link": "https://spring.io/security/cve-2026-47852",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59279 - HIGH - Unbounded persistent session allocation via repeated initialize requests",
+        "link": "https://spring.io/security/cve-2026-59279",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]
