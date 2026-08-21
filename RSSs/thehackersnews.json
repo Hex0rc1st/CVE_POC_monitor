@@ -7183,5 +7183,10 @@
         "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
         "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
         "published": "Fri, 21 Aug 2026 11:36:11 +0530"
+    },
+    {
+        "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+        "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+        "published": "Fri, 21 Aug 2026 12:34:25 +0530"
     }
 ]

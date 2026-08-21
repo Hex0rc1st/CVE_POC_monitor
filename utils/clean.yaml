@@ -5242,3 +5242,4 @@ clean_list:
 - CVE-2026-73570
 - CVE-2026-69836
 - CVE-2026-69191-FileRise-Authentication-Bypass
+- CVE-2026-39113
