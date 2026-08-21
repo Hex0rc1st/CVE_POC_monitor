@@ -1123,5 +1123,20 @@
         "title": "cve-2026-59279 - HIGH - Unbounded persistent session allocation via repeated initialize requests",
         "link": "https://spring.io/security/cve-2026-59279",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47834 - MEDIUM - Spring Data JPA Sort expression validation bypass",
+        "link": "https://spring.io/security/cve-2026-47834",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47849 - HIGH - Spring Data REST allows mutation of identifier and version properties via JSON Patch",
+        "link": "https://spring.io/security/cve-2026-47849",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47850 - MEDIUM - Spring Data REST allows mutation of the version property of immutable aggregates via PUT",
+        "link": "https://spring.io/security/cve-2026-47850",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]

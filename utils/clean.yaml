@@ -5244,3 +5244,4 @@ clean_list:
 - CVE-2026-69191-FileRise-Authentication-Bypass
 - CVE-2026-39113
 - CVE-2026-41567
+- CVE-2026-43499-IQOO-Neo10-Analysis
