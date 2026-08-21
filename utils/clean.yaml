@@ -5246,3 +5246,5 @@ clean_list:
 - CVE-2026-41567
 - CVE-2026-43499-IQOO-Neo10-Analysis
 - Cve-2026-64638
+- CVE-2025-69212-Exploit
+- rendering-code-outside-the-sandbox-cve-2026-76036-dawn-webgpu-buffer-overflow-in-chrome-on-android
