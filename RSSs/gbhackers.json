@@ -10468,5 +10468,35 @@
         "title": "New CRLF Desync Attack Lets Hackers Steal HTTPOnly Cookies and Hijack Accounts",
         "link": "https://gbhackers.com/new-crlf-desync-attack/",
         "published": "Thu, 20 Aug 2026 13:18:20 +0000"
+    },
+    {
+        "title": "New Manic Android Malware Targets 169 Apps, Steals PINs and Exfiltrates Data via Wi-Fi Mesh",
+        "link": "https://gbhackers.com/new-manic-android-malware-targets-169-apps/",
+        "published": "Fri, 21 Aug 2026 06:27:36 +0000"
+    },
+    {
+        "title": "Hackers Use Fake Google Gemini Installer to Deploy Vidar Stealer and Steal Browser Credentials",
+        "link": "https://gbhackers.com/fake-google-gemini-installer/",
+        "published": "Fri, 21 Aug 2026 06:22:04 +0000"
+    },
+    {
+        "title": "Compromised Rust Crate With 18,000+ Downloads Steals Source Code During Builds",
+        "link": "https://gbhackers.com/compromised-rust-crate-with-18000-downloads-steals-source-code/",
+        "published": "Fri, 21 Aug 2026 06:07:20 +0000"
+    },
+    {
+        "title": "Windows Defender Driver Abuse Enables Kernel-Level EDR and Antivirus Bypass",
+        "link": "https://gbhackers.com/windows-defender-driver/",
+        "published": "Fri, 21 Aug 2026 05:53:19 +0000"
+    },
+    {
+        "title": "Microsoft Entra ID RCE Flaw Lets Unauthorized Attackers Execute Code Remotely",
+        "link": "https://gbhackers.com/microsoft-entra-id-rce-flaw/",
+        "published": "Fri, 21 Aug 2026 05:30:33 +0000"
+    },
+    {
+        "title": "SilkParasite Uses Google Drive as C2 to Hide RAT Traffic Inside Trusted Cloud Services",
+        "link": "https://gbhackers.com/silkparasite-uses-google-drive/",
+        "published": "Fri, 21 Aug 2026 05:22:13 +0000"
     }
 ]

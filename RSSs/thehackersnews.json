@@ -7178,5 +7178,10 @@
         "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
         "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
         "published": "Fri, 21 Aug 2026 01:52:35 +0530"
+    },
+    {
+        "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+        "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+        "published": "Fri, 21 Aug 2026 11:36:11 +0530"
     }
 ]

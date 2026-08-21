@@ -283,3 +283,4 @@ https://github.com/R0rt1z2/GhostLock-5.10
 https://github.com/davkharrr/CVE-2026-19478-PoC
 https://github.com/Jvr2022/CVE-2026-40345
 https://github.com/lanicer/cve-2026-41940-PoC
+https://github.com/kyos-public/keycloak-cve-2026-18963-hunt
