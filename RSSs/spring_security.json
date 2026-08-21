@@ -1073,5 +1073,40 @@
         "title": "cve-2026-59277 - LOW - Spring Security InetAddressMatchers Incomplete Internal Network Classification",
         "link": "https://spring.io/security/cve-2026-59277",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47843 - LOW - Reactor Netty may incorrectly route traffic due to DNS resolver reuse",
+        "link": "https://spring.io/security/cve-2026-47843",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47844 - MEDIUM - Reactor Netty HTTP Server Leaks Exception Details",
+        "link": "https://spring.io/security/cve-2026-47844",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47848 - MEDIUM - Reactor Netty WebSocket Client Leaks Credentials On Redirect",
+        "link": "https://spring.io/security/cve-2026-47848",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47857 - MEDIUM - Reactor Core windowTimeout fair-backpressure stream hang due to 20-bit index wrap-around",
+        "link": "https://spring.io/security/cve-2026-47857",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47845 - MEDIUM - Reactor Netty HTTP Server may incorrectly evaluate proxy addresses",
+        "link": "https://spring.io/security/cve-2026-47845",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47863 - MEDIUM - Reactor Core bufferTimeout fair-backpressure pipeline permanently hangs when upstream delivers items during an active flush",
+        "link": "https://spring.io/security/cve-2026-47863",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47874 - MEDIUM - Reactor Netty HTTP Server Denial of Service With Pipelined Requests",
+        "link": "https://spring.io/security/cve-2026-47874",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]
