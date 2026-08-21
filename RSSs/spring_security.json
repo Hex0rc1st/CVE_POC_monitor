@@ -1023,5 +1023,55 @@
         "title": "cve-2026-59305 - LOW - Partition interceptor may be improperly added while sending message",
         "link": "https://spring.io/security/cve-2026-59305",
         "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-41707 - HIGH - Spring Security DPoPProofJwtDecoderFactory vulnerable to DPoP Proof Replay",
+        "link": "https://spring.io/security/cve-2026-41707",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47841 - HIGH - WebAuthn User Verification Bypass via Session Serialization",
+        "link": "https://spring.io/security/cve-2026-47841",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47842 - MEDIUM - Deterministic AES/CBC Encryption in Spring Security AesBytesEncryptor Allows Ciphertext Correlation",
+        "link": "https://spring.io/security/cve-2026-47842",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47875 - MEDIUM - JobParameterDeserializer bypasses the trusted-type allowlist",
+        "link": "https://spring.io/security/cve-2026-47875",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47877 - HIGH - Spring Security Authorization Server Default Consent Page is vulnerable to Cross-Site Scripting (XSS)",
+        "link": "https://spring.io/security/cve-2026-47877",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47878 - MEDIUM - Unsafe Java deserialization in DefaultExecutionContextSerializer without class allowlist",
+        "link": "https://spring.io/security/cve-2026-47878",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-47881 - MEDIUM - Denial of Service in Spring Batch FlatFileItemReader via Malformed Input File",
+        "link": "https://spring.io/security/cve-2026-47881",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59270 - CRITICAL - Spring Security embedded UnboundID LDAP server exposes well-known administrative bind DN on all network interfaces",
+        "link": "https://spring.io/security/cve-2026-59270",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59276 - MEDIUM - Timing Attack via Non-Constant-Time Comparison of Sensitive Values",
+        "link": "https://spring.io/security/cve-2026-59276",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
+    },
+    {
+        "title": "cve-2026-59277 - LOW - Spring Security InetAddressMatchers Incomplete Internal Network Classification",
+        "link": "https://spring.io/security/cve-2026-59277",
+        "published": "Thu, 20 Aug 2026 00:00:00 GMT"
     }
 ]
