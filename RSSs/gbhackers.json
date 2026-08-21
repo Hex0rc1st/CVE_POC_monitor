@@ -10508,5 +10508,20 @@
         "title": "Peer2Profit Turns Employee Devices Into AstroProxy Nodes That Can Expose Internal Networks",
         "link": "https://gbhackers.com/peer2profit-proxy-threat/",
         "published": "Fri, 21 Aug 2026 07:26:22 +0000"
+    },
+    {
+        "title": "Critical Spring Security LDAP Flaw Lets Remote Attackers Read and Modify Directory Data",
+        "link": "https://gbhackers.com/critical-spring-security-ldap-flaw/",
+        "published": "Fri, 21 Aug 2026 09:27:56 +0000"
+    },
+    {
+        "title": "Head Mare APT Exploits TrueConf Server RCE Flaws to Deliver PhantomCore Malware",
+        "link": "https://gbhackers.com/head-mare-apt-exploits-trueconf-server-rce-flaws/",
+        "published": "Fri, 21 Aug 2026 09:17:46 +0000"
+    },
+    {
+        "title": "Google Chrome 151 Update Fixes 7 Security Flaws Enabling Remote Code Execution and Sandbox Escape",
+        "link": "https://gbhackers.com/google-chrome-151-update-fixes-7-security-flaws/",
+        "published": "Fri, 21 Aug 2026 08:56:13 +0000"
     }
 ]
