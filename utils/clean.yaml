@@ -5241,3 +5241,4 @@ clean_list:
 - the-same-key-opens-every-box-cve-2026-71960-hard-coded-jwt-secret-in-cudy-wr3000-mesh-mqtt
 - CVE-2026-73570
 - CVE-2026-69836
+- CVE-2026-69191-FileRise-Authentication-Bypass
