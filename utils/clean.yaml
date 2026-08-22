@@ -5251,3 +5251,4 @@ clean_list:
 - oieh-router-checker
 - CVE-2026-0740-upload-template
 - CVE-2026-74252
+- CVE-2026-62911
