@@ -5252,3 +5252,5 @@ clean_list:
 - CVE-2026-0740-upload-template
 - CVE-2026-74252
 - CVE-2026-62911
+- CVE-2026-32475
+- Cisco-ASA-vulnerability-research
