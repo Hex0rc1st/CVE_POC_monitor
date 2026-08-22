@@ -5250,3 +5250,4 @@ clean_list:
 - rendering-code-outside-the-sandbox-cve-2026-76036-dawn-webgpu-buffer-overflow-in-chrome-on-android
 - oieh-router-checker
 - CVE-2026-0740-upload-template
+- CVE-2026-74252
