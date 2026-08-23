@@ -5259,3 +5259,4 @@ clean_list:
 - CVE-2026-78122-POC
 - dynamo-vuln-triage
 - GhostLock-H80GT
+- mcpjam-to-root
