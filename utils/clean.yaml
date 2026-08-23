@@ -5260,3 +5260,4 @@ clean_list:
 - dynamo-vuln-triage
 - GhostLock-H80GT
 - mcpjam-to-root
+- ghostlock-cve-2026-64560
