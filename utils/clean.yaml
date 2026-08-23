@@ -5263,3 +5263,4 @@ clean_list:
 - ghostlock-cve-2026-64560
 - cve-2026-0013-poc
 - CVE-2024-9264-in-Grafana-11.x
+- poc_cve_2026_19681
