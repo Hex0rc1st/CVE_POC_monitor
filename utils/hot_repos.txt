@@ -286,3 +286,4 @@ https://github.com/lanicer/cve-2026-41940-PoC
 https://github.com/kyos-public/keycloak-cve-2026-18963-hunt
 https://github.com/snothin/ghostlock-s26
 https://github.com/SneakyNachos/CVE-2026-2796-escape-wasm-by-using-wasm
+https://github.com/absholi7ly/Elementor-Pro-Unauthenticated-Arbitrary-File-Upload-to-RCE
