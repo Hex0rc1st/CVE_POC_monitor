@@ -5261,3 +5261,4 @@ clean_list:
 - GhostLock-H80GT
 - mcpjam-to-root
 - ghostlock-cve-2026-64560
+- cve-2026-0013-poc
