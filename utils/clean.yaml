@@ -5258,3 +5258,4 @@ clean_list:
 - Gitlab-CVE-2026-19478
 - CVE-2026-78122-POC
 - dynamo-vuln-triage
+- GhostLock-H80GT
