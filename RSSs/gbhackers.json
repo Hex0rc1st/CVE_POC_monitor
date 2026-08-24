@@ -10593,5 +10593,50 @@
         "title": "Anthropic Brings Claude Mythos 5 to Cyber Defenders for Vulnerability Scanning and Patching",
         "link": "https://gbhackers.com/anthropic-brings-claude-mythos-5-vulnerability-scanning-and-patching/",
         "published": "Mon, 24 Aug 2026 05:00:12 +0000"
+    },
+    {
+        "title": "New SynkLoader Malware Uses Fake Windows Lock Screen to Steal Passwords and Pivot Networks",
+        "link": "https://gbhackers.com/new-synkloader-malware/",
+        "published": "Mon, 24 Aug 2026 08:30:35 +0000"
+    },
+    {
+        "title": "New macOS Malware Clones Your Logged-In Browser and Gives Hackers Remote Control.",
+        "link": "https://gbhackers.com/logged-in-session-theft/",
+        "published": "Mon, 24 Aug 2026 07:50:05 +0000"
+    },
+    {
+        "title": "Windows 11 Update Triggers Game Crashes on Systems With RGB Lighting Drivers",
+        "link": "https://gbhackers.com/windows-11-update-triggers-game-crashes/",
+        "published": "Mon, 24 Aug 2026 07:33:07 +0000"
+    },
+    {
+        "title": "Critical WordPress Pods Flaw Lets Unauthenticated Attackers Gain Admin Access",
+        "link": "https://gbhackers.com/critical-wordpress-pods-flaw/",
+        "published": "Mon, 24 Aug 2026 07:22:41 +0000"
+    },
+    {
+        "title": "AWS Network Firewall Adds Rule Hit Counts to Identify Unused Security Rules",
+        "link": "https://gbhackers.com/aws-network-firewall-adds-rule-hit-counts/",
+        "published": "Mon, 24 Aug 2026 07:15:34 +0000"
+    },
+    {
+        "title": "macOS ClickFix Crimekit Uses Polygon Smart Contracts to Deploy AMOS Stealer and XMRig Miner",
+        "link": "https://gbhackers.com/crimekit-uses-polygon-smart-contracts/",
+        "published": "Mon, 24 Aug 2026 07:03:24 +0000"
+    },
+    {
+        "title": "First Android Malware Targeting Car Head Units Uses Firmware Updates to Build Proxy Botnet",
+        "link": "https://gbhackers.com/android-malware-campaign/",
+        "published": "Mon, 24 Aug 2026 06:11:10 +0000"
+    },
+    {
+        "title": "Critical isolated-vm Flaw Lets Attackers Escape Sandbox and Hijack Host Control Flow",
+        "link": "https://gbhackers.com/critical-isolated-vm-flaw/",
+        "published": "Mon, 24 Aug 2026 05:56:52 +0000"
+    },
+    {
+        "title": "RedC2 Turns Compromised Linux Machines Into SOCKS5 Proxies for Internal Network Pivoting",
+        "link": "https://gbhackers.com/redc2-4-0-linux-implant/",
+        "published": "Mon, 24 Aug 2026 05:55:42 +0000"
     }
 ]

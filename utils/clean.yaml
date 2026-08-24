@@ -5310,3 +5310,5 @@ clean_list:
 - patch-CVE-2026-10520
 - patch-CVE-2026-22024
 - patch-CVE-2026-07219
+- CVE-2025-48595-Exploit
+- CVE-2026-18963_analyst
