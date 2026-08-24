@@ -5312,3 +5312,7 @@ clean_list:
 - patch-CVE-2026-07219
 - CVE-2025-48595-Exploit
 - CVE-2026-18963_analyst
+- CVE-2026-43499-NAM-AL00
+- CVE154_AY-2026-2027-S1
+- ghostlock-k419-adapter
+- POC-CVE-2026-19679
