@@ -5316,3 +5316,5 @@ clean_list:
 - CVE154_AY-2026-2027-S1
 - ghostlock-k419-adapter
 - POC-CVE-2026-19679
+- POC-CVE-2026-18963
+- POC-CVE-2026-19626
