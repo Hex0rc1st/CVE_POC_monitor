@@ -5266,3 +5266,4 @@ clean_list:
 - poc_cve_2026_19681
 - CVE-2026-66916
 - CVE-2026-66917
+- dependency-vulnerability-patch-agent-fastapi-cve-patch-bot-v2026-b60
