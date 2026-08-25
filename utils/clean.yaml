@@ -5335,3 +5335,6 @@ clean_list:
 - CVE-2026-5281-CVE-2026-11057-fullchain
 - Keycloak_CVE-2026-18963_PoC
 - gha-lab-f1c8785cc8
+- gha-lab-aaaaa1cc3e
+- CVE-2026-41551
+- Exploit-For-CVE-2026-18963
