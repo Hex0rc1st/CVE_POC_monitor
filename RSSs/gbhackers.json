@@ -10683,5 +10683,25 @@
         "title": "5 Palo Alto GlobalProtect Flaws Let Attackers Gain SYSTEM/Root Access and Steal AD Passwords",
         "link": "https://gbhackers.com/5-palo-alto-globalprotect-flaws/",
         "published": "Tue, 25 Aug 2026 04:51:46 +0000"
+    },
+    {
+        "title": "EvilTokens Abuses Microsoft Device Codes to Hijack Accounts Without Stealing Passwords",
+        "link": "https://gbhackers.com/microsoft-device-codes-abuse/",
+        "published": "Tue, 25 Aug 2026 06:55:30 +0000"
+    },
+    {
+        "title": "TP-Link Archer Command Injection Flaws Enable Root-Level Code Execution",
+        "link": "https://gbhackers.com/tp-link-archer-command-injection-flaws/",
+        "published": "Tue, 25 Aug 2026 06:34:28 +0000"
+    },
+    {
+        "title": "Fake GTA 6 Demo Sites Spread Vidar Stealer to Hijack Authenticated Browser Sessions",
+        "link": "https://gbhackers.com/fake-gta-6-demo-sites/",
+        "published": "Tue, 25 Aug 2026 06:26:13 +0000"
+    },
+    {
+        "title": "WeedHack Malware Spreads Through SEO-Poisoned Minecraft Sites Despite C2 Disruption",
+        "link": "https://gbhackers.com/weedhack-malware-campaign/",
+        "published": "Tue, 25 Aug 2026 05:41:25 +0000"
     }
 ]
