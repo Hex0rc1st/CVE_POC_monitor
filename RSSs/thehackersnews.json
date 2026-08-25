@@ -7263,5 +7263,10 @@
         "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
         "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
         "published": "Tue, 25 Aug 2026 11:42:35 +0530"
+    },
+    {
+        "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+        "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+        "published": "Tue, 25 Aug 2026 14:04:07 +0530"
     }
 ]
