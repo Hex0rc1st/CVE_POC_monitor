@@ -10703,5 +10703,25 @@
         "title": "WeedHack Malware Spreads Through SEO-Poisoned Minecraft Sites Despite C2 Disruption",
         "link": "https://gbhackers.com/weedhack-malware-campaign/",
         "published": "Tue, 25 Aug 2026 05:41:25 +0000"
+    },
+    {
+        "title": "Anthropic Expands Claude MCP Security With Enterprise-Managed Identity Controls",
+        "link": "https://gbhackers.com/anthropic-expands-claude-mcp-security-with-enterprise-managed-identity-controls/",
+        "published": "Tue, 25 Aug 2026 08:47:48 +0000"
+    },
+    {
+        "title": "Critical miniOrange SAML SSO Flaws Let Attackers Take Over WordPress Admin Accounts",
+        "link": "https://gbhackers.com/critical-miniorange-saml-sso-flaws/",
+        "published": "Tue, 25 Aug 2026 08:36:37 +0000"
+    },
+    {
+        "title": "Critical Red Hat Keycloak Password Reset Flaw Enables Unauthenticated Account Takeover",
+        "link": "https://gbhackers.com/critical-red-hat-keycloak-password-reset-flaw/",
+        "published": "Tue, 25 Aug 2026 08:23:26 +0000"
+    },
+    {
+        "title": "Hackers Place Fake Codex Download Above Legitimate OpenAI Result to Infect Mac Users",
+        "link": "https://gbhackers.com/fake-codex-download/",
+        "published": "Tue, 25 Aug 2026 08:20:43 +0000"
     }
 ]
