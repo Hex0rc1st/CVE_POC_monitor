@@ -1839,3 +1839,5 @@ https://mp.weixin.qq.com/s/tcZdjhi4-DHaTOBP7JSJyQ
 https://mp.weixin.qq.com/s/VcVF1LrtIc2DL-1wgvYtuw
 360漏洞研究院::“中国版Mythos”图龙锋开放试用首月：近500家企业申请接入，累计发现近9000漏洞
 https://mp.weixin.qq.com/s/8TeqsZLiR6LlWRVeXFdz7A
+360漏洞研究院::360图龙锋发现Codex、Claude Code等高价值漏洞，入选工信部CAIVD最高级技术支撑单位
+https://mp.weixin.qq.com/s/h-qy2_wC2EGNabtt__8NbQ
