@@ -5332,3 +5332,4 @@ clean_list:
 - CVE-2026-12295-UXXS-in-my-wasm
 - CVE-2026-16348
 - CVE-2026-18963
+- CVE-2026-5281-CVE-2026-11057-fullchain
