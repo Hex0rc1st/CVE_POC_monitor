@@ -5346,3 +5346,5 @@ clean_list:
 - SkeletonKey
 - Palimpsest
 - pixel-ksu-root
+- CVE-2026-17532-lab
+- CVE-2026-4692-trust-me-im-in-rdm
