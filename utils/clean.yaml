@@ -5349,3 +5349,5 @@ clean_list:
 - CVE-2026-17532-lab
 - CVE-2026-4692-trust-me-im-in-rdm
 - keycloak-CVE-2026-18963
+- CVE-2026-32635-Angular-XSS-Mitigation-
+- CVE-2026-26211

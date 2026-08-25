@@ -7298,5 +7298,10 @@
         "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
         "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
         "published": "Tue, 25 Aug 2026 18:13:51 +0530"
+    },
+    {
+        "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+        "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+        "published": "Tue, 25 Aug 2026 19:37:37 +0530"
     }
 ]
