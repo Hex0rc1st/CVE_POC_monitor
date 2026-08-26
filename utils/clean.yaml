@@ -5351,3 +5351,4 @@ clean_list:
 - keycloak-CVE-2026-18963
 - CVE-2026-32635-Angular-XSS-Mitigation-
 - CVE-2026-26211
+- Exploit-CVE-2026-56705
