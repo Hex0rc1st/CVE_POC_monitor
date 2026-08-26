@@ -10803,5 +10803,15 @@
         "title": "Linux Turns 35 as Open-Source Kernel Powers Global Critical Infrastructure",
         "link": "https://gbhackers.com/linux-turns-35-as-open-source-kernel/",
         "published": "Wed, 26 Aug 2026 07:45:58 +0000"
+    },
+    {
+        "title": "NVIDIA NemoClaw Vulnerability Lets Attackers Hijack AI Agents via DNS Rebinding",
+        "link": "https://gbhackers.com/nvidia-nemoclaw-vulnerability/",
+        "published": "Wed, 26 Aug 2026 09:30:26 +0000"
+    },
+    {
+        "title": "Microsoft SharePoint Flaws Let Unauthenticated Attackers Execute Remote Code",
+        "link": "https://gbhackers.com/microsoft-sharepoint-flaws/",
+        "published": "Wed, 26 Aug 2026 09:04:28 +0000"
     }
 ]

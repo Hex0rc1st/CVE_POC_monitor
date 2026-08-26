@@ -5354,3 +5354,5 @@ clean_list:
 - Exploit-CVE-2026-56705
 - CVE-2026-55040
 - hdwebmobile-photo-video-reviews
+- CVE-2026-19632
+- CVE-2026-53613-poc
