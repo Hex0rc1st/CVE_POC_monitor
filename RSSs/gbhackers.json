@@ -10828,5 +10828,10 @@
         "title": "Google Chrome 152 Patches 327 Security Flaws, Including 10 Critical Vulnerabilities",
         "link": "https://gbhackers.com/google-chrome-152-patches-327-security-flaws/",
         "published": "Wed, 26 Aug 2026 10:06:08 +0000"
+    },
+    {
+        "title": "Hackers Turn Trusted npm Mirrors Into Hosts for Fake Cloudflare ClickFix Pages.",
+        "link": "https://gbhackers.com/fake-cloudflare-clickfix-pages/",
+        "published": "Wed, 26 Aug 2026 10:55:50 +0000"
     }
 ]
