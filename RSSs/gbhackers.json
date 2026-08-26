@@ -10833,5 +10833,25 @@
         "title": "Hackers Turn Trusted npm Mirrors Into Hosts for Fake Cloudflare ClickFix Pages.",
         "link": "https://gbhackers.com/fake-cloudflare-clickfix-pages/",
         "published": "Wed, 26 Aug 2026 10:55:50 +0000"
+    },
+    {
+        "title": "Iran-Linked Hackers Use Reverse SSH Tunnels to Reach Deep Inside Compromised Networks",
+        "link": "https://gbhackers.com/reverse-ssh-tunnels/",
+        "published": "Wed, 26 Aug 2026 12:39:47 +0000"
+    },
+    {
+        "title": "Critical WatchGuard Agent Flaws Let Unauthenticated Attackers Execute Remote Code",
+        "link": "https://gbhackers.com/critical-watchguard-agent-flaws/",
+        "published": "Wed, 26 Aug 2026 12:28:30 +0000"
+    },
+    {
+        "title": "SonicWall NetExtender Flaw Lets Attackers Write Arbitrary Files as Root",
+        "link": "https://gbhackers.com/sonicwall-netextender-flaw/",
+        "published": "Wed, 26 Aug 2026 12:18:33 +0000"
+    },
+    {
+        "title": "Fake Claude Desktop Installer Deploys SectopRAT Using DLL Sideloading and Blockchain C2",
+        "link": "https://gbhackers.com/fake-claude-desktop-installer/",
+        "published": "Wed, 26 Aug 2026 11:57:23 +0000"
     }
 ]

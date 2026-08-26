@@ -5359,3 +5359,6 @@ clean_list:
 - CVE-2026-76904
 - CVE-2026-63072
 - -CVE-2026-48907-
+- CVE-2025-2945-pgAdmin-RCE
+- ghostlock-infinix-hot70
+- CVE-2026-75604
