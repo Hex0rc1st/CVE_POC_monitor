@@ -290,3 +290,4 @@ https://github.com/absholi7ly/Elementor-Pro-Unauthenticated-Arbitrary-File-Uploa
 https://github.com/prot0tw/Keycloak_CVE-2026-18963_PoC
 https://github.com/Red-Darkin/CVE-2026-18963-keycloak
 https://github.com/JingMatrix/pixel-ksu-root
+https://github.com/rafabd1/CVE-2026-75604-poc

@@ -10758,5 +10758,40 @@
         "title": "AI-Assisted ToxNetV2 Linux Botnet Uses LLM to Generate Shell and SSH Commands",
         "link": "https://gbhackers.com/toxnetv2-linux-botnet/",
         "published": "Tue, 25 Aug 2026 13:27:54 +0000"
+    },
+    {
+        "title": "AI-Powered Balonx Sistema PhaaS Harvests Credentials From Over 1,100 Banking Users",
+        "link": "https://gbhackers.com/ai-powered-balonx-sistema/",
+        "published": "Wed, 26 Aug 2026 06:56:24 +0000"
+    },
+    {
+        "title": "OpenSSL Flaws Allow Remote Attackers to Crash Servers With Malformed Packets",
+        "link": "https://gbhackers.com/openssl-flaws/",
+        "published": "Wed, 26 Aug 2026 06:34:49 +0000"
+    },
+    {
+        "title": "Hackers Hide Malware Inside Plain English Words to Infect Windows Users With Amatera Stealer",
+        "link": "https://gbhackers.com/windows-users-with-amatera-stealer/",
+        "published": "Wed, 26 Aug 2026 05:43:29 +0000"
+    },
+    {
+        "title": "Microsoft Teams Outage Disrupts Meetings and Screen Sharing for Users",
+        "link": "https://gbhackers.com/microsoft-teams-outage-disrupts-meetings-and-screen-sharing/",
+        "published": "Wed, 26 Aug 2026 05:11:14 +0000"
+    },
+    {
+        "title": "CISA Red Team Achieves Full Domain Compromise Across Critical Infrastructure Networks",
+        "link": "https://gbhackers.com/cisa-red-team-achieves-full-domain-compromise/",
+        "published": "Wed, 26 Aug 2026 05:07:33 +0000"
+    },
+    {
+        "title": "Core Werewolf Hackers Deploy New CoreRAT Malware Against Russian Government and Defense Organizations",
+        "link": "https://gbhackers.com/core-werewolf-espionage-cluster/",
+        "published": "Wed, 26 Aug 2026 04:56:39 +0000"
+    },
+    {
+        "title": "WhatsApp Passkeys Now Protect Over 1 Billion Users Against Account Takeover Attacks",
+        "link": "https://gbhackers.com/whatsapp-passkeys-now-protect-over-1-billion-users/",
+        "published": "Wed, 26 Aug 2026 04:51:41 +0000"
     }
 ]
