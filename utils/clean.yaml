@@ -5356,3 +5356,6 @@ clean_list:
 - hdwebmobile-photo-video-reviews
 - CVE-2026-19632
 - CVE-2026-53613-poc
+- CVE-2026-76904
+- CVE-2026-63072
+- -CVE-2026-48907-

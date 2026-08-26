@@ -10813,5 +10813,20 @@
         "title": "Microsoft SharePoint Flaws Let Unauthenticated Attackers Execute Remote Code",
         "link": "https://gbhackers.com/microsoft-sharepoint-flaws/",
         "published": "Wed, 26 Aug 2026 09:04:28 +0000"
+    },
+    {
+        "title": "Iran-Linked Hackers Abuse Legitimate Deno Runtime to Hide Dindoor Backdoor on Windows Systems",
+        "link": "https://gbhackers.com/windows-backdoor-dubbed-dindoor/",
+        "published": "Wed, 26 Aug 2026 10:29:39 +0000"
+    },
+    {
+        "title": "Critical WordPress TranslatePress Flaw Lets Attackers Take Over Admin Accounts",
+        "link": "https://gbhackers.com/critical-wordpress-translatepress-flaw/",
+        "published": "Wed, 26 Aug 2026 10:18:20 +0000"
+    },
+    {
+        "title": "Google Chrome 152 Patches 327 Security Flaws, Including 10 Critical Vulnerabilities",
+        "link": "https://gbhackers.com/google-chrome-152-patches-327-security-flaws/",
+        "published": "Wed, 26 Aug 2026 10:06:08 +0000"
     }
 ]
