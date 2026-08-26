@@ -1673,5 +1673,10 @@
         "title": "UI DoS attack",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
         "published": "Wed, 12 Aug 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Vulnerability in OpenSSL library",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
+        "published": "Fri, 01 Apr 2022 00:00:00 -0700"
     }
 ]
