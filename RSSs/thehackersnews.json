@@ -7378,5 +7378,45 @@
         "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
         "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
         "published": "Thu, 27 Aug 2026 12:35:28 +0530"
+    },
+    {
+        "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+        "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+        "published": "Thu, 27 Aug 2026 20:43:00 +0530"
+    },
+    {
+        "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+        "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+        "published": "Thu, 27 Aug 2026 20:42:16 +0530"
+    },
+    {
+        "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+        "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+        "published": "Thu, 27 Aug 2026 19:09:56 +0530"
+    },
+    {
+        "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+        "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+        "published": "Thu, 27 Aug 2026 17:26:30 +0530"
+    },
+    {
+        "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+        "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+        "published": "Thu, 27 Aug 2026 17:26:26 +0530"
+    },
+    {
+        "title": "What the Data Says About AI in Security Operations in 2026",
+        "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+        "published": "Thu, 27 Aug 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+        "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+        "published": "Thu, 27 Aug 2026 16:30:57 +0530"
+    },
+    {
+        "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+        "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+        "published": "Thu, 27 Aug 2026 15:03:38 +0530"
     }
 ]
