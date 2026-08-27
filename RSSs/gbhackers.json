@@ -10858,5 +10858,40 @@
         "title": "Russia-Linked Operators Used ChatGPT to Run a Secretive Online Influence Campaign",
         "link": "https://gbhackers.com/chatgpt-abuse-exposed/",
         "published": "Wed, 26 Aug 2026 13:28:27 +0000"
+    },
+    {
+        "title": "Critical Veeam ONE Flaw Lets Unauthenticated Attackers Coerce SMB Authentication From Service Accounts",
+        "link": "https://gbhackers.com/critical-veeam-one-flaw-2/",
+        "published": "Thu, 27 Aug 2026 09:30:34 +0000"
+    },
+    {
+        "title": "GitLab Duo Claude AI Agent Flaw Lets Attackers Execute Arbitrary Commands in CI Pipelines",
+        "link": "https://gbhackers.com/gitlab-duo-claude-ai-agent-flaw/",
+        "published": "Thu, 27 Aug 2026 09:24:53 +0000"
+    },
+    {
+        "title": "Russian Cyber Espionage Infrastructure Uses Evilginx and OAuth Phishing to Steal Accounts",
+        "link": "https://gbhackers.com/russian-cyber-espionage/",
+        "published": "Thu, 27 Aug 2026 06:26:28 +0000"
+    },
+    {
+        "title": "SLEEPWALKER Backdoor Uses Magic Packet, DLL Side-Loading and In-Memory Shellcode Execution",
+        "link": "https://gbhackers.com/sleepwalker-backdoor/",
+        "published": "Thu, 27 Aug 2026 05:55:32 +0000"
+    },
+    {
+        "title": "AnonyMousKIT PhaaS Automates Apple ID, Device Passcode, and Live 2FA Harvesting Across Five Channels",
+        "link": "https://gbhackers.com/anonymouskit-phaas-platform/",
+        "published": "Thu, 27 Aug 2026 05:09:55 +0000"
+    },
+    {
+        "title": "Ubiquiti Fixes 22 UniFi Flaws Enabling Command Injection, Authentication Bypass and Privilege Escalation",
+        "link": "https://gbhackers.com/ubiquiti-fixes-22-unifi-flaws/",
+        "published": "Thu, 27 Aug 2026 05:02:53 +0000"
+    },
+    {
+        "title": "Apache Tomcat Flaws Let Attackers Bypass Authentication and Security Controls, Trigger DoS Attacks",
+        "link": "https://gbhackers.com/apache-tomcat-flaws-3/",
+        "published": "Thu, 27 Aug 2026 04:51:32 +0000"
     }
 ]

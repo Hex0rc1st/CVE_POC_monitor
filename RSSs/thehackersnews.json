@@ -7368,5 +7368,15 @@
         "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
         "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
         "published": "Wed, 26 Aug 2026 21:05:05 +0530"
+    },
+    {
+        "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+        "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+        "published": "Thu, 27 Aug 2026 13:43:11 +0530"
+    },
+    {
+        "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+        "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+        "published": "Thu, 27 Aug 2026 12:35:28 +0530"
     }
 ]
