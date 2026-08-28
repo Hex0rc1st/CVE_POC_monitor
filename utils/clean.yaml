@@ -5370,3 +5370,5 @@ clean_list:
 - CVE-Ubiquiti
 - CVE-2026-8467
 - Cisco-CVE-2026-20303-More
+- CVE-2026-20131-Post-Incident-Written-Report
+- CVE-2026-70463

@@ -292,3 +292,4 @@ https://github.com/Red-Darkin/CVE-2026-18963-keycloak
 https://github.com/JingMatrix/pixel-ksu-root
 https://github.com/rafabd1/CVE-2026-75604-poc
 https://github.com/yellowkeycve2026/YellowKey-BitLocker-CVE-2026-45585
+https://github.com/EQSTLab/CVE-2026-72898

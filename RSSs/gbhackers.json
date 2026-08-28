@@ -10893,5 +10893,55 @@
         "title": "Apache Tomcat Flaws Let Attackers Bypass Authentication and Security Controls, Trigger DoS Attacks",
         "link": "https://gbhackers.com/apache-tomcat-flaws-3/",
         "published": "Thu, 27 Aug 2026 04:51:32 +0000"
+    },
+    {
+        "title": "PaperCut Warns of Actively Exploited Vulnerability Affecting NG and MF Servers",
+        "link": "https://gbhackers.com/papercut-warns-of-actively-exploited-vulnerability/",
+        "published": "Fri, 28 Aug 2026 05:13:50 +0000"
+    },
+    {
+        "title": "Critical cPanel Vulnerability Allows Attackers to Gain Full Root Control of Servers",
+        "link": "https://gbhackers.com/critical-cpanel-vulnerability/",
+        "published": "Fri, 28 Aug 2026 04:59:15 +0000"
+    },
+    {
+        "title": "Active Directory SPN Misconfigurations Enable Kerberoasting Without Account Lockouts",
+        "link": "https://gbhackers.com/active-directory-spn-misconfigurations-enable-kerberoasting/",
+        "published": "Fri, 28 Aug 2026 04:53:29 +0000"
+    },
+    {
+        "title": "AWS Security Teams Can Correlate CloudTrail, VPC and Route 53 Logs to Detect Attacks",
+        "link": "https://gbhackers.com/aws-threat-hunting/",
+        "published": "Thu, 27 Aug 2026 13:23:30 +0000"
+    },
+    {
+        "title": "Hackers Exploit CVE-2023-49105 to Steal Nuclear Records From Philippine Research Agency",
+        "link": "https://gbhackers.com/cve-2023-49105-flaw-exploited/",
+        "published": "Thu, 27 Aug 2026 12:55:19 +0000"
+    },
+    {
+        "title": "CISA Warns of Actively Exploited Citrix NetScaler ADC and Gateway Vulnerability",
+        "link": "https://gbhackers.com/cisa-warns-citrix-netscaler-adc-and-gateway-vulnerability/",
+        "published": "Thu, 27 Aug 2026 11:07:32 +0000"
+    },
+    {
+        "title": "Hackers Are Targeting AI Servers to Steal API Keys and Hijack Computing Power",
+        "link": "https://gbhackers.com/ai-servers-to-steal-api-keys/",
+        "published": "Thu, 27 Aug 2026 11:03:57 +0000"
+    },
+    {
+        "title": "TP-Link Kasa Smart Home Flaw Lets Attackers Forge Control Messages and Take Control of Devices",
+        "link": "https://gbhackers.com/tp-link-kasa-smart-home-flaw/",
+        "published": "Thu, 27 Aug 2026 10:52:45 +0000"
+    },
+    {
+        "title": "Ransomware Hacker Uses AI to Plan Attacks and Compromises More Than 20 Organizations",
+        "link": "https://gbhackers.com/ransomware-hacker-uses-ai/",
+        "published": "Thu, 27 Aug 2026 09:57:57 +0000"
+    },
+    {
+        "title": "CISA Warns of Actively Exploited Microsoft SQL Server RCE Vulnerability",
+        "link": "https://gbhackers.com/microsoft-sql-server-rce-vulnerability/",
+        "published": "Thu, 27 Aug 2026 09:49:47 +0000"
     }
 ]
