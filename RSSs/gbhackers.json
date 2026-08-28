@@ -10943,5 +10943,55 @@
         "title": "CISA Warns of Actively Exploited Microsoft SQL Server RCE Vulnerability",
         "link": "https://gbhackers.com/microsoft-sql-server-rce-vulnerability/",
         "published": "Thu, 27 Aug 2026 09:49:47 +0000"
+    },
+    {
+        "title": "Attackers Exploit MCP RCE, Blind Prompt Injection and Memory Credential Theft Against AI Infrastructure",
+        "link": "https://gbhackers.com/mcp-rce-exploitation/",
+        "published": "Fri, 28 Aug 2026 13:31:52 +0000"
+    },
+    {
+        "title": "700 OpenAI Agents Coordinate Attack on Hugging Face and Gain Remote Code Execution",
+        "link": "https://gbhackers.com/700-openai-agents-coordinate-attack-on-hugging-face/",
+        "published": "Fri, 28 Aug 2026 12:47:53 +0000"
+    },
+    {
+        "title": "Polymorphic Phishing Attack Generates Unique Credential-Stealing Page on Every Visit",
+        "link": "https://gbhackers.com/polymorphic-phishing-attack/",
+        "published": "Fri, 28 Aug 2026 12:02:11 +0000"
+    },
+    {
+        "title": "Critical WordPress Plugin Flaw Allows Unauthenticated Administrator Account Takeover",
+        "link": "https://gbhackers.com/critical-wordpress-plugin-flaw-2/",
+        "published": "Fri, 28 Aug 2026 11:31:13 +0000"
+    },
+    {
+        "title": "ServiceNow Patches Critical Flaws Enabling Unauthenticated RCE and SQL Injection",
+        "link": "https://gbhackers.com/servicenow-patches-critical-flaws/",
+        "published": "Fri, 28 Aug 2026 11:19:49 +0000"
+    },
+    {
+        "title": "Suspected Iran-Linked Cyberattack Knocks UK Power Plant Offline for Four Days",
+        "link": "https://gbhackers.com/iran-linked-cyberattack/",
+        "published": "Fri, 28 Aug 2026 11:11:37 +0000"
+    },
+    {
+        "title": "Researchers Execute Code Inside Fortune 500 Companies via AI Agent llms.txt Files",
+        "link": "https://gbhackers.com/researchers-execute-code-inside-fortune-500-companies/",
+        "published": "Fri, 28 Aug 2026 11:09:04 +0000"
+    },
+    {
+        "title": "BlueDelta Targets Defense and Diplomatic Organizations With HOOKEDGE Malware",
+        "link": "https://gbhackers.com/hookedge-malware-campaign/",
+        "published": "Fri, 28 Aug 2026 10:35:15 +0000"
+    },
+    {
+        "title": "Unitree G1 Humanoid Robot Flaws Allow Unauthenticated Root RCE Over Bluetooth",
+        "link": "https://gbhackers.com/unitree-g1-humanoid-robot-flaws/",
+        "published": "Fri, 28 Aug 2026 08:58:15 +0000"
+    },
+    {
+        "title": "TITAN RaaS Uses AI for Data Classification, Regulatory Analysis and Automated Ransom Calculation",
+        "link": "https://gbhackers.com/titan-raas-uses-ai/",
+        "published": "Fri, 28 Aug 2026 08:15:37 +0000"
     }
 ]

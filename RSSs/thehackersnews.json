@@ -7423,5 +7423,60 @@
         "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
         "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
         "published": "Fri, 28 Aug 2026 00:06:19 +0530"
+    },
+    {
+        "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+        "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+        "published": "Fri, 28 Aug 2026 22:42:15 +0530"
+    },
+    {
+        "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+        "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+        "published": "Fri, 28 Aug 2026 21:50:46 +0530"
+    },
+    {
+        "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+        "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+        "published": "Fri, 28 Aug 2026 21:26:55 +0530"
+    },
+    {
+        "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+        "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+        "published": "Fri, 28 Aug 2026 20:57:26 +0530"
+    },
+    {
+        "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+        "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+        "published": "Fri, 28 Aug 2026 17:37:24 +0530"
+    },
+    {
+        "title": "Key Reasons Why Identity Fabric Matters in 2026",
+        "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+        "published": "Fri, 28 Aug 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+        "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+        "published": "Fri, 28 Aug 2026 16:50:32 +0530"
+    },
+    {
+        "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+        "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+        "published": "Fri, 28 Aug 2026 16:28:29 +0530"
+    },
+    {
+        "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+        "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+        "published": "Fri, 28 Aug 2026 15:15:15 +0530"
+    },
+    {
+        "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+        "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+        "published": "Fri, 28 Aug 2026 13:55:36 +0530"
+    },
+    {
+        "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+        "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+        "published": "Fri, 28 Aug 2026 13:50:59 +0530"
     }
 ]

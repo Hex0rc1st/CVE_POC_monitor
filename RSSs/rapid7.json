@@ -1098,5 +1098,15 @@
         "title": "Identity-as-a-Service: Uncovering Dark Web Marketplaces Trading Executive SSNs",
         "link": "https://www.rapid7.com/blog/post/tr-identity-as-a-service-dark-web-marketplaces-executive-ssn",
         "published": "Thu, 27 Aug 2026 13:51:55 GMT"
+    },
+    {
+        "title": "Metasploit Wrap Up: Payloads and Exploits, and Scanners, Oh my!",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-payloads-exploits-scanners",
+        "published": "Fri, 28 Aug 2026 14:57:18 GMT"
+    },
+    {
+        "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
+        "published": "Fri, 28 Aug 2026 10:09:12 GMT"
     }
 ]
