@@ -5375,3 +5375,7 @@ clean_list:
 - CVE-2026-82286-gpt-crawler-Arbitrary-File-Write
 - your-bot-my-inbox-cve-2026-68929-fastgpt-unauthenticated-wechat-channel-hijack
 - hdwebmobile-formula-pricing
+- cve-2026-42533
+- CVE-2026-21962-Blog
+- PaperCut-CVE-2026-81578-82078
+- spring-cvss-check
