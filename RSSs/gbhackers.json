@@ -10993,5 +10993,25 @@
         "title": "TITAN RaaS Uses AI for Data Classification, Regulatory Analysis and Automated Ransom Calculation",
         "link": "https://gbhackers.com/titan-raas-uses-ai/",
         "published": "Fri, 28 Aug 2026 08:15:37 +0000"
+    },
+    {
+        "title": "Hackers Compromise TanStack Query npm Package to Steal Developer Credentials",
+        "link": "https://gbhackers.com/hackers-compromise-tanstack-query-npm-package/",
+        "published": "Sat, 29 Aug 2026 08:29:01 +0000"
+    },
+    {
+        "title": "Critical Gogs Flaw Enables Remote Code Execution Through Path Traversal",
+        "link": "https://gbhackers.com/critical-gogs-flaw-enables-remote-code-execution/",
+        "published": "Sat, 29 Aug 2026 08:03:29 +0000"
+    },
+    {
+        "title": "Hackers Use Fake Cloudflare CAPTCHA to Deploy TerminalFix Reverse Tunnel",
+        "link": "https://gbhackers.com/hackers-use-fake-cloudflare-captcha/",
+        "published": "Sat, 29 Aug 2026 07:44:38 +0000"
+    },
+    {
+        "title": "Chinese Hackers Deploy PackClient RAT via Tax-Themed Phishing Attacks to Steal Data",
+        "link": "https://gbhackers.com/chinese-hackers-deploy-packclient-rat/",
+        "published": "Sat, 29 Aug 2026 07:19:08 +0000"
     }
 ]
