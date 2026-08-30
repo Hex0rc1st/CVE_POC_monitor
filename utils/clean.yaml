@@ -5382,3 +5382,8 @@ clean_list:
 - cve-2026-82222-poc
 - cve-2026-25262-msm8909-PoC
 - givewp-cve-2026-82222-rce-lab
+- CVE-2026-18741
+- CVE-2026-12513
+- ctf-proof-82282
+- CVE-2026-79483-FastGPT-NoSQL-Injection
+- ghostlock-oppo-watch3pro

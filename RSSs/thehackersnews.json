@@ -7493,5 +7493,10 @@
         "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
         "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
         "published": "Sat, 29 Aug 2026 21:55:03 +0530"
+    },
+    {
+        "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+        "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+        "published": "Sun, 30 Aug 2026 13:06:33 +0530"
     }
 ]
