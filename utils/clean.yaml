@@ -5387,3 +5387,6 @@ clean_list:
 - ctf-proof-82282
 - CVE-2026-79483-FastGPT-NoSQL-Injection
 - ghostlock-oppo-watch3pro
+- My-Exploits
+- CVE-2026-38192
+- CVE-2025-0324-axis-vapix-privesc
