@@ -7498,5 +7498,30 @@
         "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
         "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
         "published": "Sun, 30 Aug 2026 13:06:33 +0530"
+    },
+    {
+        "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+        "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+        "published": "Mon, 31 Aug 2026 17:44:00 +0530"
+    },
+    {
+        "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+        "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+        "published": "Mon, 31 Aug 2026 17:17:24 +0530"
+    },
+    {
+        "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+        "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+        "published": "Mon, 31 Aug 2026 17:01:47 +0530"
+    },
+    {
+        "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+        "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+        "published": "Mon, 31 Aug 2026 14:34:55 +0530"
+    },
+    {
+        "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+        "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+        "published": "Mon, 31 Aug 2026 13:26:53 +0530"
     }
 ]

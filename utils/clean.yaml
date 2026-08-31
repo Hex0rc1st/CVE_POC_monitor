@@ -5390,3 +5390,10 @@ clean_list:
 - My-Exploits
 - CVE-2026-38192
 - CVE-2025-0324-axis-vapix-privesc
+- cve-2025-20333
+- POC-CVE-2026-0073
+- new-cve-2026
+- CVE-2026-82222
+- CVE-2026-76569
+- ghostlock-x200-app
+- weakrng-sweep

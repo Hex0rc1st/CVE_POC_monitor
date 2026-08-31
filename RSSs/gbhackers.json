@@ -11033,5 +11033,55 @@
         "title": "OpenAI Warns Astra AI Model May Develop Zero-Day Exploits and Launch Autonomous Cyberattacks",
         "link": "https://gbhackers.com/openai-warns-astra-ai-model/",
         "published": "Mon, 31 Aug 2026 04:57:54 +0000"
+    },
+    {
+        "title": "Aurora Ransomware Hackers Use Cursor AI Agent for Hands-On Exploitation and ESXi Attacks",
+        "link": "https://gbhackers.com/cursor-ai-powered-ransomware/",
+        "published": "Mon, 31 Aug 2026 13:33:59 +0000"
+    },
+    {
+        "title": "HardBreacher Exploit Targets Kaspersky Endpoint Security Zero-Day for Windows 11 Privilege Escalation",
+        "link": "https://gbhackers.com/hardbreacher-exploit-targets-kaspersky-endpoint-security/",
+        "published": "Mon, 31 Aug 2026 13:18:45 +0000"
+    },
+    {
+        "title": "Chrome and Edge Extensions Strip CSP and Inject JavaScript to Drain EVM, Solana and Tron Wallets",
+        "link": "https://gbhackers.com/chrome-and-edge-extensions/",
+        "published": "Mon, 31 Aug 2026 12:48:45 +0000"
+    },
+    {
+        "title": "Metasploit Adds Exploit for PaperCut MF/NG Zero-Day RCE Vulnerabilities",
+        "link": "https://gbhackers.com/metasploit-adds-exploit-for-papercut-mf-ng-zero-day/",
+        "published": "Mon, 31 Aug 2026 12:06:08 +0000"
+    },
+    {
+        "title": "OpenClaw 2.0 Released With Enhanced AI Agent Security and Credential Protection",
+        "link": "https://gbhackers.com/openclaw-2-0-released/",
+        "published": "Mon, 31 Aug 2026 12:02:36 +0000"
+    },
+    {
+        "title": "Shai-Hulud Trinitite Worm Infects Popular TanStack Query npm Package to Steal Developer Secrets",
+        "link": "https://gbhackers.com/shai-hulud-trinitite-worm/",
+        "published": "Mon, 31 Aug 2026 10:21:35 +0000"
+    },
+    {
+        "title": "Microsoft Defender Bug Triggers False “Antivirus Turned Off” Alerts on Windows",
+        "link": "https://gbhackers.com/microsoft-defender-bug-triggers-false-antivirus-turned-off-alerts/",
+        "published": "Mon, 31 Aug 2026 09:51:33 +0000"
+    },
+    {
+        "title": "AI Shopping Assistant Vulnerabilities Enable Remote Code Execution on Retailer’s Servers",
+        "link": "https://gbhackers.com/ai-shopping-assistant-vulnerabilities/",
+        "published": "Mon, 31 Aug 2026 09:33:26 +0000"
+    },
+    {
+        "title": "Android 17 Adds New Network Security Features to Block 2G SMS Blaster Attacks",
+        "link": "https://gbhackers.com/android-17-adds-new-network-security-features/",
+        "published": "Mon, 31 Aug 2026 09:17:07 +0000"
+    },
+    {
+        "title": "Magecart Hackers Abuse Ethereum Smart Contracts to Steal Card Data From 40+ Online Stores",
+        "link": "https://gbhackers.com/magecart-campaign-3/",
+        "published": "Mon, 31 Aug 2026 09:06:19 +0000"
     }
 ]
