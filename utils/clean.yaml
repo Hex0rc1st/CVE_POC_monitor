@@ -5399,3 +5399,12 @@ clean_list:
 - weakrng-sweep
 - gha-lab-8e9316151c
 - tomcat85-check
+- CVE-2026-82329
+- CVE-2026-27472-and-CVE-2026-27474
+- CVE-2026-27475
+- postgresql-cve-2026-14662
+- CVE-2026-0768
+- CVE-2026-75855
+- CVE-2026-43499-poc
+- tomcat-line-check
+- k50g-pocof4gt-cve-2026-43499-poc

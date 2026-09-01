@@ -11088,5 +11088,55 @@
         "title": "CISA Flags Multiple PaperCut NG/MF Flaws Exploited in the Wild",
         "link": "https://gbhackers.com/cisa-flags-multiple-papercut-ng-mf-flaws/",
         "published": "Tue, 01 Sep 2026 04:47:27 +0000"
+    },
+    {
+        "title": "AI-Enhanced BraZetsu Malware Powers Underground Market Selling Access to Corporate Networks",
+        "link": "https://gbhackers.com/ai-enhanced-brazetsu-malware/",
+        "published": "Tue, 01 Sep 2026 09:39:01 +0000"
+    },
+    {
+        "title": "Fake OpenAI, Anthropic and DeepSeek Crawlers Target .env Files and Cloud Credentials",
+        "link": "https://gbhackers.com/fake-openai-anthropic-and-deepseek/",
+        "published": "Tue, 01 Sep 2026 08:34:58 +0000"
+    },
+    {
+        "title": "SLEEPWALKER Malware Uses Raw Packets, DNS and VMware VMCI for Covert Communications",
+        "link": "https://gbhackers.com/sleepwalker-malware/",
+        "published": "Tue, 01 Sep 2026 08:25:07 +0000"
+    },
+    {
+        "title": "WordPress Uses Frontier AI Tools to Detect Vulnerabilities Before They Can Be Exploited",
+        "link": "https://gbhackers.com/wordpress-uses-frontier-ai-tools-to-detect-vulnerabilities/",
+        "published": "Tue, 01 Sep 2026 08:25:03 +0000"
+    },
+    {
+        "title": "Fake Claude Opus 5 App Deploys RevStealer to Steal Passwords, Crypto Wallets and Sessions",
+        "link": "https://gbhackers.com/fake-claude-opus-5-app/",
+        "published": "Tue, 01 Sep 2026 07:54:51 +0000"
+    },
+    {
+        "title": "Malicious npm Package Steals GitHub, Cloud, and CI/CD Secrets and Spreads to Other Packages",
+        "link": "https://gbhackers.com/npm-supply-chain-attack-2/",
+        "published": "Tue, 01 Sep 2026 07:17:16 +0000"
+    },
+    {
+        "title": "Fire Ant Hackers Compromise Cisco Routers and TACACS Servers to Target Critical Infrastructure",
+        "link": "https://gbhackers.com/fire-ant-campaign/",
+        "published": "Tue, 01 Sep 2026 06:48:02 +0000"
+    },
+    {
+        "title": "PoC Released for Microsoft Exchange CVE-2026-62911 Pre-Auth RCE Attack Chain",
+        "link": "https://gbhackers.com/poc-released-for-microsoft-exchange-cve-2026-62911/",
+        "published": "Tue, 01 Sep 2026 06:24:56 +0000"
+    },
+    {
+        "title": "Hackers Launch Password Spraying Attacks Against AWS Root Accounts at 150+ Organizations",
+        "link": "https://gbhackers.com/hackers-launch-password-spraying-attacks-against-aws-root-accounts-at-150-organizations/",
+        "published": "Tue, 01 Sep 2026 06:18:22 +0000"
+    },
+    {
+        "title": "13 Malicious Packagist Themes Exploit iPhone Vulnerabilities to Steal Crypto Wallet Seeds",
+        "link": "https://gbhackers.com/iphone-vulnerabilities-exploited/",
+        "published": "Tue, 01 Sep 2026 06:08:55 +0000"
     }
 ]
