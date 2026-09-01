@@ -5397,3 +5397,5 @@ clean_list:
 - CVE-2026-76569
 - ghostlock-x200-app
 - weakrng-sweep
+- gha-lab-8e9316151c
+- tomcat85-check
