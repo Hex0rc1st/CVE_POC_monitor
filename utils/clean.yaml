@@ -5408,3 +5408,9 @@ clean_list:
 - CVE-2026-43499-poc
 - tomcat-line-check
 - k50g-pocof4gt-cve-2026-43499-poc
+- gha-lab-0ba60e6456
+- CVE-2026-36130
+- cve-2025-11142-axis-mediaclip-rce
+- CVE-2026-31321
+- CVE-2026-82592
+- CVE-2025-39401
