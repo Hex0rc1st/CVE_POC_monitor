@@ -1108,5 +1108,10 @@
         "title": "PaperCut NG/MF Critical Zero-Day Exploited in the Wild",
         "link": "https://www.rapid7.com/blog/post/etr-papercut-ng-mf-critical-zero-day-exploited-in-the-wild",
         "published": "Fri, 28 Aug 2026 10:09:12 GMT"
+    },
+    {
+        "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
+        "published": "Wed, 02 Sep 2026 16:58:45 GMT"
     }
 ]
