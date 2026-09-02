@@ -1983,5 +1983,20 @@
         "title": "Chrome Stable for iOS Update",
         "link": "http://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update.html",
         "published": "2026-09-01T08:13:32.597-07:00"
+    },
+    {
+        "title": "Chrome for Android",
+        "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android.html",
+        "published": "2026-09-01T16:00:00.000-07:00"
+    },
+    {
+        "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/09/beta-channel-update-for-chromeos.html",
+        "published": "2026-09-01T15:18:19.761-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop.html",
+        "published": "2026-09-01T13:53:44.103-07:00"
     }
 ]
