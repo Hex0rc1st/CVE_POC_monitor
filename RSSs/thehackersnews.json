@@ -7598,5 +7598,35 @@
         "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
         "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
         "published": "Wed, 02 Sep 2026 12:26:30 +0530"
+    },
+    {
+        "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+        "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+        "published": "Wed, 02 Sep 2026 19:36:59 +0530"
+    },
+    {
+        "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+        "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+        "published": "Wed, 02 Sep 2026 19:14:16 +0530"
+    },
+    {
+        "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+        "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+        "published": "Wed, 02 Sep 2026 18:42:45 +0530"
+    },
+    {
+        "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+        "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+        "published": "Wed, 02 Sep 2026 17:52:02 +0530"
+    },
+    {
+        "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+        "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+        "published": "Wed, 02 Sep 2026 17:00:00 +0530"
+    },
+    {
+        "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+        "published": "Wed, 02 Sep 2026 16:23:49 +0530"
     }
 ]

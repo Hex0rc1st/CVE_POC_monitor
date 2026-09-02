@@ -5423,3 +5423,10 @@ clean_list:
 - CVE-2026-84361-poc
 - gha-lab-6ab39df295
 - CVE-2026-9586
+- dast
+- SmarterMail-CVE-2026-24423-
+- POC-CVE-2026-5027
+- CVE-2026-1555
+- gha-lab-d9fd584b12
+- CVE-2026-71981
+- CVE-2026-78839

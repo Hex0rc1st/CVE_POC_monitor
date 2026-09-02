@@ -11178,5 +11178,55 @@
         "title": "Boston Scientific Cyberattack Disrupts Manufacturing and Product Shipments",
         "link": "https://gbhackers.com/boston-scientific-cyberattack/",
         "published": "Tue, 01 Sep 2026 10:28:20 +0000"
+    },
+    {
+        "title": "Firefox for iPhone Adds Built-In Ad Blocker to Block Third-Party Ads and Trackers",
+        "link": "https://gbhackers.com/firefox-for-iphone-adds-built-in-ad-blocker/",
+        "published": "Wed, 02 Sep 2026 13:25:47 +0000"
+    },
+    {
+        "title": "255 Fake Accounts Used to Send Malicious Excel Files to 80,000 Freelancers",
+        "link": "https://gbhackers.com/excel-malware-campaign/",
+        "published": "Wed, 02 Sep 2026 13:15:27 +0000"
+    },
+    {
+        "title": "Singularity Rootkit Bypasses Elastic Defend eBPF Module Load Detection",
+        "link": "https://gbhackers.com/singularity-rootkit-bypasses-elastic-defend/",
+        "published": "Wed, 02 Sep 2026 13:00:54 +0000"
+    },
+    {
+        "title": "Claude AI Develops Working RCE Exploit Against WAGO PLC With Researcher Assistance",
+        "link": "https://gbhackers.com/claude-ai-develops-working-rce-exploit/",
+        "published": "Wed, 02 Sep 2026 12:51:11 +0000"
+    },
+    {
+        "title": "Hackers Exploit LiteLLM Admin API Flaw to Turn Read-Only Access Into Full Server Takeover",
+        "link": "https://gbhackers.com/hackers-exploit-litellm-admin-api-flaw/",
+        "published": "Wed, 02 Sep 2026 11:35:28 +0000"
+    },
+    {
+        "title": "Palo Alto Networks Acquires Console to Add Agentic AI Workflows to Cortex",
+        "link": "https://gbhackers.com/palo-alto-networks-acquires-console-to-add-agentic-ai-workflows-to-cortex/",
+        "published": "Wed, 02 Sep 2026 11:27:51 +0000"
+    },
+    {
+        "title": "The Gentlemen Ransomware Hackers Use TukTuk C2 to Steal Credentials and Disable EDR Security",
+        "link": "https://gbhackers.com/tuktuk-c2-framework/",
+        "published": "Wed, 02 Sep 2026 11:25:41 +0000"
+    },
+    {
+        "title": "FreeRDP 3.31.0 Fixes 22 Security Flaws Including Heap Overflow and Pre-Auth DoS Bugs",
+        "link": "https://gbhackers.com/freerdp-3-31-0-fixes-22-security-flaws/",
+        "published": "Wed, 02 Sep 2026 11:08:50 +0000"
+    },
+    {
+        "title": "Critical SonicWall SMA 1000 Vulnerabilities Actively Exploited in the Wild",
+        "link": "https://gbhackers.com/critical-sonicwall-sma-1000-vulnerabilities/",
+        "published": "Wed, 02 Sep 2026 09:57:29 +0000"
+    },
+    {
+        "title": "Hackers Breach Brazilian Financial Firms and Execute Hundreds of Fraudulent Transactions",
+        "link": "https://gbhackers.com/brazilian-financial-firms/",
+        "published": "Wed, 02 Sep 2026 09:12:20 +0000"
     }
 ]
