@@ -7573,5 +7573,30 @@
         "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
         "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
         "published": "Tue, 01 Sep 2026 22:49:24 +0530"
+    },
+    {
+        "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+        "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+        "published": "Wed, 02 Sep 2026 14:48:02 +0530"
+    },
+    {
+        "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+        "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+        "published": "Wed, 02 Sep 2026 14:40:23 +0530"
+    },
+    {
+        "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+        "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+        "published": "Wed, 02 Sep 2026 13:17:13 +0530"
+    },
+    {
+        "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+        "published": "Wed, 02 Sep 2026 12:38:50 +0530"
+    },
+    {
+        "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+        "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+        "published": "Wed, 02 Sep 2026 12:26:30 +0530"
     }
 ]
