@@ -11233,5 +11233,55 @@
         "title": "Threat Intelligence: Definition, Benefits, and Use Cases",
         "link": "https://gbhackers.com/threat-intelligence-definition-benefits-and-use-cases/",
         "published": "Wed, 02 Sep 2026 16:46:02 +0000"
+    },
+    {
+        "title": "StreamRAT Abuses Android Accessibility, MediaProjection and HVNC for Full Device Takeover",
+        "link": "https://gbhackers.com/streamrat-abuses-android/",
+        "published": "Thu, 03 Sep 2026 09:25:46 +0000"
+    },
+    {
+        "title": "WordPress Plugin Flaw Lets Attackers Turn SQL Injection Into Complete Site Takeover",
+        "link": "https://gbhackers.com/wordpress-plugin-flaw-5/",
+        "published": "Thu, 03 Sep 2026 09:19:04 +0000"
+    },
+    {
+        "title": "Sangoma Switchvox RCE Flaw Actively Exploited in Wild via Unauthenticated SQL Injection",
+        "link": "https://gbhackers.com/sangoma-switchvox-rce-flaw/",
+        "published": "Thu, 03 Sep 2026 09:04:13 +0000"
+    },
+    {
+        "title": "Three HP Easy Start Flaws Let Attackers Gain Root Privileges on macOS",
+        "link": "https://gbhackers.com/three-hp-easy-start-flaws/",
+        "published": "Thu, 03 Sep 2026 08:48:10 +0000"
+    },
+    {
+        "title": "Critical Cisco Nexus 9000 Flaw Lets Remote Attackers Execute Code as Root Without Authentication",
+        "link": "https://gbhackers.com/critical-cisco-nexus-9000-flaw/",
+        "published": "Thu, 03 Sep 2026 08:30:03 +0000"
+    },
+    {
+        "title": "Ransomware Hackers Can Go From Network Access to Encryption in Less Than 24 Hours",
+        "link": "https://gbhackers.com/rapid-ransomware-deployment/",
+        "published": "Thu, 03 Sep 2026 08:11:20 +0000"
+    },
+    {
+        "title": "CISA Warns SonicWall SMA1000 Flaws Are Actively Exploited in Attacks",
+        "link": "https://gbhackers.com/cisa-warns-sonicwall-sma1000-flaws-2/",
+        "published": "Thu, 03 Sep 2026 07:33:13 +0000"
+    },
+    {
+        "title": "Spring Ring Campaign Uses Teams Vishing, PowerShell RAT and NTLM Relay Attacks",
+        "link": "https://gbhackers.com/spring-ring-campaign/",
+        "published": "Thu, 03 Sep 2026 07:16:23 +0000"
+    },
+    {
+        "title": "Earth Berberoka-Linked Hackers Target Brazil With Linux Malware and SEO Poisoning",
+        "link": "https://gbhackers.com/earth-berberoka-hits-brazil/",
+        "published": "Thu, 03 Sep 2026 06:28:50 +0000"
+    },
+    {
+        "title": "GitSpawn Flaw Enables Arbitrary Code Execution in Claude Code, Codex, Cursor and Grok",
+        "link": "https://gbhackers.com/gitspawn-flaw-enables-arbitrary-code-execution/",
+        "published": "Thu, 03 Sep 2026 05:32:32 +0000"
     }
 ]
