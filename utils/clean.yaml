@@ -5431,3 +5431,5 @@ clean_list:
 - CVE-2026-71981
 - CVE-2026-78839
 - gha-lab-becf103a54
+- employee-pulse-survey-enps-engine-fastapi-cve-patch-bot-v2026-b63
+- regtech-aml-compliance-auditor-fastapi-cve-patch-bot-v2026-b63
