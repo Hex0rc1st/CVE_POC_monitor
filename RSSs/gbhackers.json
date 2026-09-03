@@ -11283,5 +11283,40 @@
         "title": "GitSpawn Flaw Enables Arbitrary Code Execution in Claude Code, Codex, Cursor and Grok",
         "link": "https://gbhackers.com/gitspawn-flaw-enables-arbitrary-code-execution/",
         "published": "Thu, 03 Sep 2026 05:32:32 +0000"
+    },
+    {
+        "title": "Fake Acquisition Scam Uses Forged NDAs to Demand €626,000 Corporate Payment.",
+        "link": "https://gbhackers.com/fake-acquisition-scam/",
+        "published": "Thu, 03 Sep 2026 13:34:40 +0000"
+    },
+    {
+        "title": "Rogue ScreenConnect Clients Spread Worm-Like Malware Across Connected Windows Systems",
+        "link": "https://gbhackers.com/rogue-screenconnect-clients/",
+        "published": "Thu, 03 Sep 2026 13:15:55 +0000"
+    },
+    {
+        "title": "QR Phishing Hits Record Levels as Attackers Hide Malicious Links Inside QR Codes",
+        "link": "https://gbhackers.com/qr-codes-attack/",
+        "published": "Thu, 03 Sep 2026 12:12:02 +0000"
+    },
+    {
+        "title": "Microsoft to Automatically Enable Memory Integrity on Windows Devices to Block Kernel Attacks",
+        "link": "https://gbhackers.com/microsoft-to-automatically-enable-memory-integrity/",
+        "published": "Thu, 03 Sep 2026 11:57:34 +0000"
+    },
+    {
+        "title": "New $7 SweepLED Gadget Detects Hidden Cameras With 94% Accuracy in 5 Seconds",
+        "link": "https://gbhackers.com/new-7-sweepled-gadget-detects-hidden-cameras/",
+        "published": "Thu, 03 Sep 2026 11:44:53 +0000"
+    },
+    {
+        "title": "Avast Antivirus Zero-Day PoC Lets Attackers Dump SAM Database and Gain SYSTEM Shell",
+        "link": "https://gbhackers.com/avast-antivirus-zero-day-poc/",
+        "published": "Thu, 03 Sep 2026 11:25:46 +0000"
+    },
+    {
+        "title": "HTML-Rendered QR Phishing Evades Image Extraction and OCR-Based Email Scanning",
+        "link": "https://gbhackers.com/html-rendered-qr-phishing/",
+        "published": "Thu, 03 Sep 2026 11:14:29 +0000"
     }
 ]

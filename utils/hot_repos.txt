@@ -295,3 +295,4 @@ https://github.com/yellowkeycve2026/YellowKey-BitLocker-CVE-2026-45585
 https://github.com/EQSTLab/CVE-2026-72898
 https://github.com/dinosn/givewp-cve-2026-82222-rce-lab
 https://github.com/dinosn/cve-2026-82329-jfrog-artifactory
+https://github.com/ByteV0rtex/CVE-2026-65343
