@@ -7708,5 +7708,20 @@
         "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
         "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
         "published": "Fri, 04 Sep 2026 14:18:45 +0530"
+    },
+    {
+        "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+        "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+        "published": "Fri, 04 Sep 2026 21:27:15 +0530"
+    },
+    {
+        "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+        "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+        "published": "Fri, 04 Sep 2026 20:50:19 +0530"
+    },
+    {
+        "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+        "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+        "published": "Fri, 04 Sep 2026 20:21:13 +0530"
     }
 ]

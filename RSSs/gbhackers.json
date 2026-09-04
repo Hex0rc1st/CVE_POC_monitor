@@ -11368,5 +11368,50 @@
         "title": "OpenAI GPT-6 Astra Discovers Zero-Day Flaws and Builds Working Exploits in Cyber Tests",
         "link": "https://gbhackers.com/openai-gpt-6-astra-discovers-zero-day-flaws/",
         "published": "Fri, 04 Sep 2026 05:08:38 +0000"
+    },
+    {
+        "title": "Hackers Turn HiveMQ and Element Messenger Into Control Channels for Windows Backdoors",
+        "link": "https://gbhackers.com/hivemq-powers-backdoor/",
+        "published": "Fri, 04 Sep 2026 13:38:33 +0000"
+    },
+    {
+        "title": "OpenAI Agents Collude on Public Wiki to Share Sandbox Bypass and Evasion Techniques",
+        "link": "https://gbhackers.com/openai-agents-collude-on-public-wiki/",
+        "published": "Fri, 04 Sep 2026 13:21:00 +0000"
+    },
+    {
+        "title": "ShipMonk Data Breach Exposes Personal Data of 67,000 Additional Trezor Customers",
+        "link": "https://gbhackers.com/shipmonk-data-breach-exposes-personal-data/",
+        "published": "Fri, 04 Sep 2026 12:52:42 +0000"
+    },
+    {
+        "title": "NodeStealer Spyware Adds Keylogging, Screenshot Capture and Facebook Data Theft",
+        "link": "https://gbhackers.com/nodestealer-spyware-malware/",
+        "published": "Fri, 04 Sep 2026 12:18:19 +0000"
+    },
+    {
+        "title": "Microsoft Teams Adds QR Code Protection to Block Phishing and Fraud",
+        "link": "https://gbhackers.com/microsoft-teams-adds-qr-code-protection/",
+        "published": "Fri, 04 Sep 2026 11:32:45 +0000"
+    },
+    {
+        "title": "MECCHA CHAMELEON Flaw Lets Malicious Custom Maps Achieve Remote Code Execution",
+        "link": "https://gbhackers.com/meccha-chameleon-flaw/",
+        "published": "Fri, 04 Sep 2026 11:16:43 +0000"
+    },
+    {
+        "title": "Critical Super Forms WordPress Flaw Actively Exploited to Achieve Remote Code Execution",
+        "link": "https://gbhackers.com/critical-super-forms-wordpress-flaw-actively-exploited/",
+        "published": "Fri, 04 Sep 2026 10:50:38 +0000"
+    },
+    {
+        "title": "Plex Urges Users to Update Media Server as Multiple Security Flaws Are Discovered",
+        "link": "https://gbhackers.com/plex-urges-users-to-update-media-server/",
+        "published": "Fri, 04 Sep 2026 10:39:42 +0000"
+    },
+    {
+        "title": "Hackers Abuse AI-Era ASCII Smuggling to Hide Phishing Content in Millions of Emails",
+        "link": "https://gbhackers.com/ai-era-ascii-smuggling/",
+        "published": "Fri, 04 Sep 2026 10:14:43 +0000"
     }
 ]
