@@ -11323,5 +11323,50 @@
         "title": "Fewer attacks, more force: Link11’s European Cyber Report finds new DDoS records for the first half of 2026",
         "link": "https://gbhackers.com/fewer-attacks-more-force-link11s-european-cyber-report-finds-new-ddos-records-for-the-first-half-of-2026/",
         "published": "Thu, 03 Sep 2026 16:47:51 +0000"
+    },
+    {
+        "title": "Chinese-Speaking Hackers Use Claude, Qwen and DeepSeek AI Agents to Attack Government Systems",
+        "link": "https://gbhackers.com/ai-powered-government-attacks/",
+        "published": "Fri, 04 Sep 2026 09:00:44 +0000"
+    },
+    {
+        "title": "TP-Link Archer AX55 Flaws Enable Remote Code Execution and Admin Password Theft",
+        "link": "https://gbhackers.com/tp-link-archer-ax55-flaws/",
+        "published": "Fri, 04 Sep 2026 08:56:28 +0000"
+    },
+    {
+        "title": "Microsoft 365 Direct Send Bypass Lets Attackers Spoof Internal Users Without Credentials",
+        "link": "https://gbhackers.com/microsoft-365-security-bypass/",
+        "published": "Fri, 04 Sep 2026 07:58:07 +0000"
+    },
+    {
+        "title": "Google Chrome V8 Flaw Actively Exploited in the Wild, Update Released",
+        "link": "https://gbhackers.com/google-chrome-v8-flaw/",
+        "published": "Fri, 04 Sep 2026 07:18:17 +0000"
+    },
+    {
+        "title": "CrowdStrike Falcon Zero-Day Lets Attackers Escalate Privileges on Windows Systems",
+        "link": "https://gbhackers.com/crowdstrike-falcon-zero-day/",
+        "published": "Fri, 04 Sep 2026 07:04:57 +0000"
+    },
+    {
+        "title": "Contagious Interview Operators Move Beyond Git Hooks With Trojanized Mac Applications",
+        "link": "https://gbhackers.com/contagious-interview-operators/",
+        "published": "Fri, 04 Sep 2026 06:58:18 +0000"
+    },
+    {
+        "title": "Hackers Compromise More Than 14,500 Dahua Security Cameras in Massive Campaign",
+        "link": "https://gbhackers.com/dahua-security-cameras/",
+        "published": "Fri, 04 Sep 2026 06:20:35 +0000"
+    },
+    {
+        "title": "LLMjacking Attack Abuses Leaked AWS Credentials to Hijack Amazon Bedrock AI Models",
+        "link": "https://gbhackers.com/llmjacking-attack-abuses-leaked-aws-credentials/",
+        "published": "Fri, 04 Sep 2026 05:26:20 +0000"
+    },
+    {
+        "title": "OpenAI GPT-6 Astra Discovers Zero-Day Flaws and Builds Working Exploits in Cyber Tests",
+        "link": "https://gbhackers.com/openai-gpt-6-astra-discovers-zero-day-flaws/",
+        "published": "Fri, 04 Sep 2026 05:08:38 +0000"
     }
 ]

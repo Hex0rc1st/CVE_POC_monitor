@@ -5449,3 +5449,14 @@ clean_list:
 - CVE-2026-31787
 - gha-lab-fb6df3d456
 - CVE-Chamilo-LMS
+- CVE-2026-25057
+- CVE-2026-82329-poc
+- gha-lab-f894926966
+- CVE-2025-8518
+- CVE-2026-85046
+- gha-lab-aa1cbc9bcf
+- gha-lab-ba981941f0
+- gha-lab-3b0a828a69
+- CVE-2026-53488
+- gha-lab-6926364d94
+- CVE-2025-34158-CVE-2020-5741
