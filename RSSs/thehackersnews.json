@@ -7738,5 +7738,15 @@
         "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
         "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
         "published": "Sat, 05 Sep 2026 19:47:02 +0530"
+    },
+    {
+        "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+        "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+        "published": "Sat, 05 Sep 2026 22:22:33 +0530"
+    },
+    {
+        "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+        "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+        "published": "Sat, 05 Sep 2026 21:35:08 +0530"
     }
 ]
