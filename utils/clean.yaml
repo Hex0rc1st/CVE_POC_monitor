@@ -5478,3 +5478,10 @@ clean_list:
 - gha-lab-d14c91f1bb
 - thymeleaf-check
 - gha-lab-51c6b6d0a0
+- gha-lab-ed7a1740c4
+- POC-CVE-2026-7873
+- EXPLOIT-CVE-2026-22778
+- gha-lab-4a8fad8536
+- CVE-2025-4255---Buffer-Overflow
+- Langflow-RCE-CVE-2025-3248
+- gha-lab-85f022290a
