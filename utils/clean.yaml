@@ -5489,3 +5489,8 @@ clean_list:
 - gpgsm-cve-2026-57062-cms-gcm-short-tag
 - CVE-2026-75865
 - cve-2026-32475-elementor-pro-lab
+- cyberthreat_DBSproject
+- CVE-2026-18366
+- cve_2026_14894
+- CVE-2026-3326
+- xiaomi15-dada-cve-2026-64560
