@@ -7748,5 +7748,10 @@
         "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
         "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
         "published": "Sat, 05 Sep 2026 21:35:08 +0530"
+    },
+    {
+        "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+        "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+        "published": "Sun, 06 Sep 2026 01:44:47 +0530"
     }
 ]
