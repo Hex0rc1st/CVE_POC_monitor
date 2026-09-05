@@ -5485,3 +5485,7 @@ clean_list:
 - CVE-2025-4255---Buffer-Overflow
 - Langflow-RCE-CVE-2025-3248
 - gha-lab-85f022290a
+- cve-2026-6471-postgres-logical-decoding-dlopen
+- gpgsm-cve-2026-57062-cms-gcm-short-tag
+- CVE-2026-75865
+- cve-2026-32475-elementor-pro-lab
