@@ -5498,3 +5498,6 @@ clean_list:
 - employee-pulse-survey-enps-engine-fastapi-cve-patch-bot-v2026-b65
 - regtech-aml-compliance-auditor-fastapi-cve-patch-bot-v2026-b65
 - distributed-pubsub-websocket-bus-fastapi-cve-patch-bot-v2026-b65
+- privilege-escalation-cve-collection
+- CVE--2025-13407
+- hazel-cve-2026-43499

@@ -7753,5 +7753,15 @@
         "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
         "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
         "published": "Sun, 06 Sep 2026 01:44:47 +0530"
+    },
+    {
+        "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+        "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+        "published": "Sun, 06 Sep 2026 15:02:38 +0530"
+    },
+    {
+        "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+        "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+        "published": "Sun, 06 Sep 2026 14:04:20 +0530"
     }
 ]
