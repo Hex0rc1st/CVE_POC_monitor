@@ -5494,3 +5494,7 @@ clean_list:
 - cve_2026_14894
 - CVE-2026-3326
 - xiaomi15-dada-cve-2026-64560
+- CVE-2026-82222-MassExploit
+- employee-pulse-survey-enps-engine-fastapi-cve-patch-bot-v2026-b65
+- regtech-aml-compliance-auditor-fastapi-cve-patch-bot-v2026-b65
+- distributed-pubsub-websocket-bus-fastapi-cve-patch-bot-v2026-b65
