@@ -5501,3 +5501,4 @@ clean_list:
 - privilege-escalation-cve-collection
 - CVE--2025-13407
 - hazel-cve-2026-43499
+- mikrotrick-poc
