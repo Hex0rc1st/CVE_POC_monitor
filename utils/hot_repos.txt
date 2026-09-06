@@ -300,3 +300,4 @@ https://github.com/TarPeg007/CVE-2026-19490
 https://github.com/ynsmroztas/CVE-2026-82329-JFrog-Artifactory-Auth-Bypass
 https://github.com/dinosn/cve-2026-32475-elementor-pro-lab
 https://github.com/quyicheng03-boop/xiaomi15-dada-cve-2026-64560
+https://github.com/dinosn/mikrotrick-poc
