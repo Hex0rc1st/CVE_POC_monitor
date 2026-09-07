@@ -11493,5 +11493,55 @@
         "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
         "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-august-31-september-5-2026/",
         "published": "Mon, 07 Sep 2026 06:09:26 +0000"
+    },
+    {
+        "title": "PoisonedRefresh Malware Backdoors F5 BIG-IP Servers With Memory-Only PHP Web Shells",
+        "link": "https://gbhackers.com/poisonedrefresh-malware/",
+        "published": "Mon, 07 Sep 2026 13:14:17 +0000"
+    },
+    {
+        "title": "Natural Resources Wales Data Breach Exposes Sensitive Employee Diversity Data",
+        "link": "https://gbhackers.com/natural-resources-wales-data-breach/",
+        "published": "Mon, 07 Sep 2026 12:16:39 +0000"
+    },
+    {
+        "title": "ConnectWise ScreenConnect Remote Access Flaw Impacts Guest File Transfer Sessions",
+        "link": "https://gbhackers.com/connectwise-screenconnect-remote-access-flaw/",
+        "published": "Mon, 07 Sep 2026 12:02:00 +0000"
+    },
+    {
+        "title": "Global Phishing Campaign Abuses Google Infrastructure to Evade Security and Steal Credentials",
+        "link": "https://gbhackers.com/global-phishing-campaign/",
+        "published": "Mon, 07 Sep 2026 11:59:21 +0000"
+    },
+    {
+        "title": "OpenAI Commits $1 Billion in Daybreak AI Cyber Tools to Protect Critical Infrastructure",
+        "link": "https://gbhackers.com/openai-commits-1-billion-in-daybreak-ai-cyber-tools/",
+        "published": "Mon, 07 Sep 2026 11:49:34 +0000"
+    },
+    {
+        "title": "Tengu Mirai-Style Linux Bot Hides as Kernel Worker to Launch DDoS and Proxy Attacks",
+        "link": "https://gbhackers.com/tengu-mirai-style-linux-bot/",
+        "published": "Mon, 07 Sep 2026 11:31:58 +0000"
+    },
+    {
+        "title": "The 12 Best Wireless / Wi-Fi Security Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-wifi-security-solutions-compared/",
+        "published": "Mon, 07 Sep 2026 11:25:23 +0000"
+    },
+    {
+        "title": "The 12 Best Network Sandboxing Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-network-sandboxing-compared/",
+        "published": "Mon, 07 Sep 2026 11:24:01 +0000"
+    },
+    {
+        "title": "The 12 Best Software-Defined Perimeter (SDP) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-sdp-solutions-compared/",
+        "published": "Mon, 07 Sep 2026 11:22:30 +0000"
+    },
+    {
+        "title": "The 12 Best Secure Web Gateway (SWG) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-secure-web-gateway-compared/",
+        "published": "Mon, 07 Sep 2026 11:19:07 +0000"
     }
 ]

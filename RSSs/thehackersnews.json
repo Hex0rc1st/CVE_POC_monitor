@@ -7773,5 +7773,20 @@
         "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
         "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
         "published": "Mon, 07 Sep 2026 13:23:04 +0530"
+    },
+    {
+        "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+        "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+        "published": "Mon, 07 Sep 2026 17:15:00 +0530"
+    },
+    {
+        "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+        "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+        "published": "Mon, 07 Sep 2026 17:06:39 +0530"
+    },
+    {
+        "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+        "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+        "published": "Mon, 07 Sep 2026 16:50:14 +0530"
     }
 ]

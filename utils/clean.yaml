@@ -5516,3 +5516,10 @@ clean_list:
 - CVE-2026-42031-SQL-Injection-Scanner
 - gha-lab-8aba6b05dc
 - galaxy-a37-root
+- CVE-2026-11991-Exploit
+- CVE-2026-82329-JFrog-Artifactory-
+- CVE-2026-36392
+- gha-lab-00d54c717d
+- CVE-2026-33234
+- mcp-security-index
+- CVE-2026-81780-Hash-Form
