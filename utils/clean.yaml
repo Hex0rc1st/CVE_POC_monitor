@@ -5508,3 +5508,11 @@ clean_list:
 - React2Shell-CVE-2025-55182-Exploit
 - ai-tool-poisoning-guard
 - CVE-2026-52924
+- exploit-mikrotik-2026
+- CVE-2026-28576-poc
+- CVE-2026-86218
+- CVE-2026-13181-CVE-2026-13182-CVE-2026-13183-CVE-2026-13184
+- gitssrf-gim-cve-parent
+- CVE-2026-42031-SQL-Injection-Scanner
+- gha-lab-8aba6b05dc
+- galaxy-a37-root
