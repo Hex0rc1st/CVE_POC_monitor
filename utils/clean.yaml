@@ -5502,3 +5502,9 @@ clean_list:
 - CVE--2025-13407
 - hazel-cve-2026-43499
 - mikrotrick-poc
+- regtech-aml-compliance-auditor-fastapi-cve-patch-bot-v2026-b67
+- employee-pulse-survey-enps-engine-fastapi-cve-patch-bot-v2026-b67
+- gha-lab-5511dc3f73
+- React2Shell-CVE-2025-55182-Exploit
+- ai-tool-poisoning-guard
+- CVE-2026-52924
