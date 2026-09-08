@@ -1678,5 +1678,60 @@
         "title": "Vulnerability in OpenSSL library",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
         "published": "Fri, 01 Apr 2022 00:00:00 -0700"
+    },
+    {
+        "title": "Arbitrary process termination from exposed minifilter communication port",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-165",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Broken Access control on Websocket streams",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-164",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Cron Job Injection in Remote Backup",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-167",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Improper Authentication of FortiPAM Server",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-168",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "JWT used for authentication in web GUI signed with static key",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-170",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Null Pointer Dereference in Log Report",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-173",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Open Redirect on FortiSIEM",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-169",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Unauthenticated Control of NAT Rules Leading to Exposure of Sensitive Information",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-166",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Uncontrolled Resource Consumption in SNMP",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-172",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Workflow session email approval process bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-171",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "ZTNA Portal Improper Certificate Validation",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174",
+        "published": "Tue, 08 Sep 2026 00:00:00 -0700"
     }
 ]
