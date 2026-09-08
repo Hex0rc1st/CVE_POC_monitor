@@ -5523,3 +5523,16 @@ clean_list:
 - CVE-2026-33234
 - mcp-security-index
 - CVE-2026-81780-Hash-Form
+- employee-pulse-survey-enps-engine-fastapi-cve-patch-bot-v2026-b68
+- distributed-pubsub-websocket-bus-fastapi-cve-patch-bot-v2026-b67
+- hdwebmobile-booking-appointments
+- cve-2026-75650-magento-validation-lab
+- regtech-aml-compliance-auditor-fastapi-cve-patch-bot-v2026-b68
+- cve-2026-40369-exploit
+- CVE-2026-83548-CVE-2026-83549
+- CVE-2026-52307
+- distributed-pubsub-websocket-bus-fastapi-cve-patch-bot-v2026-b68
+- stylesmuggler-adobe-patches
+- POC-AIOWPM-CVE-2026-19949
+- stylesmuggler-adobe-patches-mageos
+- CVE-2026-8732-PoC
