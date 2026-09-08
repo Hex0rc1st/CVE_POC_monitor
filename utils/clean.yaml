@@ -5536,3 +5536,7 @@ clean_list:
 - POC-AIOWPM-CVE-2026-19949
 - stylesmuggler-adobe-patches-mageos
 - CVE-2026-8732-PoC
+- netty-http-check
+- CVE-2026-57811
+- CVE-2026-8069
+- CVE-2026-72744-poc
