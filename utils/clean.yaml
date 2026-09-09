@@ -5547,3 +5547,8 @@ clean_list:
 - TLPE
 - CVE-2026-62201-OpenClaw-SSRF
 - CVE-2026-67401
+- CVE-2024-44625-Gogs-RCE-0.13.0
+- CVE-2026-74586
+- CVE-2026-67401-cPanel-EmailTrack-SQLi
+- Mikrotrick_POC
+- CVE-2026-79387-PbootCMS-SQL-Injection
