@@ -5540,3 +5540,6 @@ clean_list:
 - CVE-2026-57811
 - CVE-2026-8069
 - CVE-2026-72744-poc
+- CVE-2026-83991-writeup-and-poc
+- Certighost_CVE-2026-54121
+- CVE-2026-19089-WooCommerce-Tyche
