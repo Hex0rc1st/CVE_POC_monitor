@@ -11593,5 +11593,55 @@
         "title": "The 12 Best Managed Firewall Services, Compared and Priced",
         "link": "https://gbhackers.com/best-managed-firewall-services-compared/",
         "published": "Tue, 08 Sep 2026 10:20:03 +0000"
+    },
+    {
+        "title": "Hackers Weaponize Agentic AI to Automate Reconnaissance, Exploitation and Post-Exploitation",
+        "link": "https://gbhackers.com/agentic-ai-automates-cyberattacks/",
+        "published": "Wed, 09 Sep 2026 09:12:08 +0000"
+    },
+    {
+        "title": "Hackers Exploit Critical FortiGate Flaw to Deploy AI-Assisted PivotC2 RAT",
+        "link": "https://gbhackers.com/hackers-exploit-critical-fortigate-flaw/",
+        "published": "Wed, 09 Sep 2026 08:57:51 +0000"
+    },
+    {
+        "title": "Windows Defender ShieldCrash 0-Day Lets Attackers Read Arbitrary Files as SYSTEM",
+        "link": "https://gbhackers.com/windows-defender-shieldcrash-0-day/",
+        "published": "Wed, 09 Sep 2026 08:40:41 +0000"
+    },
+    {
+        "title": "DeepSeek, Alibaba and Chinese AI Firms Extract Billions of Tokens From U.S. AI Models",
+        "link": "https://gbhackers.com/u-s-ai-models-targeted/",
+        "published": "Wed, 09 Sep 2026 08:29:35 +0000"
+    },
+    {
+        "title": "The 12 Best Managed XDR Services, Compared and Priced",
+        "link": "https://gbhackers.com/best-managed-xdr-compared/",
+        "published": "Wed, 09 Sep 2026 08:07:16 +0000"
+    },
+    {
+        "title": "The 12 Best Managed Detection & Response (MDR) Services, Compared and Priced",
+        "link": "https://gbhackers.com/best-mdr-services-compared/",
+        "published": "Wed, 09 Sep 2026 07:56:00 +0000"
+    },
+    {
+        "title": "The 12 Best Extended Detection & Response (XDR) Platforms, Compared and Priced",
+        "link": "https://gbhackers.com/best-xdr-platforms-compared/",
+        "published": "Wed, 09 Sep 2026 07:51:50 +0000"
+    },
+    {
+        "title": "The 12 Best Endpoint Detection & Response (EDR) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-edr-solutions-compared/",
+        "published": "Wed, 09 Sep 2026 07:46:47 +0000"
+    },
+    {
+        "title": "The 12 Best Antivirus Software for Mac, Compared and Priced",
+        "link": "https://gbhackers.com/best-mac-antivirus-compared/",
+        "published": "Wed, 09 Sep 2026 07:39:07 +0000"
+    },
+    {
+        "title": "cPanel EmailTrack SQL Injection Flaw Lets Attackers Execute Code as Root",
+        "link": "https://gbhackers.com/cpanel-emailtrack-sql-injection-flaw/",
+        "published": "Wed, 09 Sep 2026 07:27:09 +0000"
     }
 ]

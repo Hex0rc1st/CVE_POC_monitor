@@ -5543,3 +5543,7 @@ clean_list:
 - CVE-2026-83991-writeup-and-poc
 - Certighost_CVE-2026-54121
 - CVE-2026-19089-WooCommerce-Tyche
+- CVE-2024-2961-XXE-Exploit
+- TLPE
+- CVE-2026-62201-OpenClaw-SSRF
+- CVE-2026-67401

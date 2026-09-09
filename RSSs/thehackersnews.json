@@ -7853,5 +7853,40 @@
         "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
         "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
         "published": "Tue, 08 Sep 2026 19:18:16 +0530"
+    },
+    {
+        "title": "Chrome V8 Zero-Day Exploited in the Wild Enables Code Execution Inside Sandbox",
+        "link": "https://thehackernews.com/2026/09/chrome-v8-zero-day-exploited-in-wild.html",
+        "published": "Wed, 09 Sep 2026 14:41:03 +0530"
+    },
+    {
+        "title": "New cPanel Flaw Lets a Hosting Account With Mail Privileges Run Code as Root",
+        "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account.html",
+        "published": "Wed, 09 Sep 2026 13:49:32 +0530"
+    },
+    {
+        "title": "F5 BIG-IP APM Malware Injects a PHP Web Shell Into Memory, Evading Disk Scans",
+        "link": "https://thehackernews.com/2026/09/f5-big-ip-apm-malware-injects-php-web.html",
+        "published": "Wed, 09 Sep 2026 13:06:49 +0530"
+    },
+    {
+        "title": "Researcher Drops New Microsoft Defender PoC Showing ShieldBreak Patch Can Be Bypassed",
+        "link": "https://thehackernews.com/2026/09/researcher-drops-new-microsoft-defender.html",
+        "published": "Wed, 09 Sep 2026 12:17:27 +0530"
+    },
+    {
+        "title": "SAP Patches CVSS 10.0 Kernel Flaw Enabling Unauthenticated Remote Code Execution",
+        "link": "https://thehackernews.com/2026/09/sap-patches-cvss-100-kernel-flaw.html",
+        "published": "Wed, 09 Sep 2026 11:55:45 +0530"
+    },
+    {
+        "title": "Microsoft Patches Record 974 Flaws, Including Two Exploited Windows Zero-Days",
+        "link": "https://thehackernews.com/2026/09/microsoft-patches-record-974-flaws.html",
+        "published": "Wed, 09 Sep 2026 10:11:29 +0530"
+    },
+    {
+        "title": "N-able N-central Pre-Auth RCE Flaw Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/n-able-n-central-pre-auth-rce-flaw.html",
+        "published": "Wed, 09 Sep 2026 09:57:51 +0530"
     }
 ]
