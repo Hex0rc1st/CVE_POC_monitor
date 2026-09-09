@@ -1128,5 +1128,10 @@
         "title": "Patch Tuesday - September 2026",
         "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-september-2026",
         "published": "Tue, 08 Sep 2026 21:44:04 GMT"
+    },
+    {
+        "title": "Credentialed Pre-Port Discovery: Don't Probe the Host, Ask it",
+        "link": "https://www.rapid7.com/blog/post/pt-credentialed-pre-port-discovery-asking-host",
+        "published": "Wed, 09 Sep 2026 15:16:34 GMT"
     }
 ]

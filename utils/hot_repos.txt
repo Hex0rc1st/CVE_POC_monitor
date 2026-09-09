@@ -305,3 +305,4 @@ https://github.com/ynsmroztas/KeySniper
 https://github.com/mobilehackinglab/CVE-2026-28576-poc
 https://github.com/Supersonic/TLPE
 https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
+https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche

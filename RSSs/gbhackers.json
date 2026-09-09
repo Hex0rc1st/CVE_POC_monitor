@@ -11643,5 +11643,50 @@
         "title": "cPanel EmailTrack SQL Injection Flaw Lets Attackers Execute Code as Root",
         "link": "https://gbhackers.com/cpanel-emailtrack-sql-injection-flaw/",
         "published": "Wed, 09 Sep 2026 07:27:09 +0000"
+    },
+    {
+        "title": "Hackers Abuse Google CAPTCHA, WebDAV and BNB Smart Chain to Deploy Credential-Stealing Malware",
+        "link": "https://gbhackers.com/google-captcha-abuse/",
+        "published": "Wed, 09 Sep 2026 13:27:51 +0000"
+    },
+    {
+        "title": "FortiPAM Chrome Extension Vulnerability Lets Malicious Sites Control Browser Proxy and Record Tabs",
+        "link": "https://gbhackers.com/fortipam-chrome-extension-vulnerability/",
+        "published": "Wed, 09 Sep 2026 13:18:50 +0000"
+    },
+    {
+        "title": "SpyCloud 2026 Identity Threat Report Finds Non-Human Identities Are Now the Leading Path into the Enterprise",
+        "link": "https://gbhackers.com/spycloud-2026-identity-threat-report-finds-non-human-identities-are-now-the-leading-path-into-the-enterprise/",
+        "published": "Wed, 09 Sep 2026 12:54:03 +0000"
+    },
+    {
+        "title": "Iran-Linked Hackers Use Fake LinkedIn Job Offers to Deploy NodeRabbit and PollCat RATs",
+        "link": "https://gbhackers.com/fake-linkedin-job-offers/",
+        "published": "Wed, 09 Sep 2026 12:52:20 +0000"
+    },
+    {
+        "title": "Critical ArangoDB Bugs Expose Entire Databases and Enable Remote Code Execution as Root",
+        "link": "https://gbhackers.com/arango-vulnerabilities/",
+        "published": "Wed, 09 Sep 2026 12:28:35 +0000"
+    },
+    {
+        "title": "Critical MapLibre GL JS Vulnerability Enables Zero-Click XSS Attacks",
+        "link": "https://gbhackers.com/critical-maplibre-gl-js-vulnerability/",
+        "published": "Wed, 09 Sep 2026 11:34:34 +0000"
+    },
+    {
+        "title": "GoldFactory Weaponizes Open-Source Vwork App Cloner in Gigabud Banking Malware Attacks",
+        "link": "https://gbhackers.com/gigabud-banking-malware/",
+        "published": "Wed, 09 Sep 2026 10:49:58 +0000"
+    },
+    {
+        "title": "Windows BitLocker Flaw Lets Attackers Execute Code on Vulnerable Systems",
+        "link": "https://gbhackers.com/windows-bitlocker-flaw-2/",
+        "published": "Wed, 09 Sep 2026 10:28:35 +0000"
+    },
+    {
+        "title": "ChatGPT Flaw Could Let Attackers Steal Gmail Data Across User Accounts",
+        "link": "https://gbhackers.com/chatgpt-flaw/",
+        "published": "Wed, 09 Sep 2026 10:19:04 +0000"
     }
 ]

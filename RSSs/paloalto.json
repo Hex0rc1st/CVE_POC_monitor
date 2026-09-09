@@ -858,5 +858,55 @@
         "title": "CVE-2026-0298 GlobalProtect App: Code Execution Vulnerability in Windows Pre-Logon Access Provider (PLAP) (Severity: MEDIUM)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0298",
         "published": "2026-08-12T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0308 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability in the Web Interface (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0308",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0304 Cortex XDR Broker VM: Privilege Escalation Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0304",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0309 PAN-OS: Authenticated Command Injection in CLI with Luna HSM Configuration (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0309",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0306 Prisma Access Agent: EndPoint DLP Bypass Vulnerability on Windows (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0306",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0012 Chromium: Monthly Vulnerability Update (September 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0012",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0302 Checkov by Prisma Cloud: OS Command Injection Vulnerability (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0302",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0305",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0303 Checkov by Prisma Cloud: Code Execution via Auto-Loaded Configuration File (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0303",
+        "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
+        "published": "2026-09-09T16:00:00.000Z"
     }
 ]
