@@ -5562,3 +5562,6 @@ clean_list:
 - CVE-2026-42613
 - CVE-2026-13181-Telerik
 - cve-2026-86060
+- CVE-2026-0303
+- CVE-2026-78804_Dolibarr_authenticated_SQL_injection
+- CVE-2026-73786

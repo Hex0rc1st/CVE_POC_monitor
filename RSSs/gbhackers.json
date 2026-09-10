@@ -11738,5 +11738,40 @@
         "title": "Hackers Use LLMs to Generate Exploit Scripts and Automate Post-Exploitation Across Latin America",
         "link": "https://gbhackers.com/llm-powered-cyberattacks/",
         "published": "Thu, 10 Sep 2026 06:02:43 +0000"
+    },
+    {
+        "title": "Hackers Can Turn Vulnerable LiteLLM AI Gateways Into Root Access and Cloud Credential Theft",
+        "link": "https://gbhackers.com/litellm-ai-gateways/",
+        "published": "Thu, 10 Sep 2026 12:56:58 +0000"
+    },
+    {
+        "title": "Skullcandy Dime 3 Bluetooth Flaw Lets Nearby Attackers Hijack Audio and Microphone",
+        "link": "https://gbhackers.com/skullcandy-dime-3-bluetooth-flaw/",
+        "published": "Thu, 10 Sep 2026 12:28:44 +0000"
+    },
+    {
+        "title": "Hackers Steal Active Directory Password Hashes Without Attacking Domain Controllers Directly",
+        "link": "https://gbhackers.com/hackers-steal-active-directory-password-hashes/",
+        "published": "Thu, 10 Sep 2026 12:00:28 +0000"
+    },
+    {
+        "title": "Fake GTA 6 Installer Steals Browser Passwords, Discord Tokens and Crypto Data From Gamers",
+        "link": "https://gbhackers.com/fake-gta-6-installer/",
+        "published": "Thu, 10 Sep 2026 11:43:44 +0000"
+    },
+    {
+        "title": "Apple Xcode Integer Underflow Flaw Lets Crafted Archives Leak Memory and Crash Builds",
+        "link": "https://gbhackers.com/apple-xcode-integer-underflow-flaw/",
+        "published": "Thu, 10 Sep 2026 11:41:46 +0000"
+    },
+    {
+        "title": "Palo Alto PAN-OS Buffer Overflow Lets Attackers Execute Arbitrary Code as Root",
+        "link": "https://gbhackers.com/palo-alto-pan-os-buffer-overflow/",
+        "published": "Thu, 10 Sep 2026 11:39:18 +0000"
+    },
+    {
+        "title": "New Phishing Attack Uses Blob URLs to Hide Malicious Pages From Security Scanners",
+        "link": "https://gbhackers.com/phishing-attack-uses-blob-urls/",
+        "published": "Thu, 10 Sep 2026 10:57:11 +0000"
     }
 ]

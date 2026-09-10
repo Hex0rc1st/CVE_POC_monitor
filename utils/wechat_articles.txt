@@ -1843,3 +1843,5 @@ https://mp.weixin.qq.com/s/8TeqsZLiR6LlWRVeXFdz7A
 https://mp.weixin.qq.com/s/h-qy2_wC2EGNabtt__8NbQ
 360漏洞研究院::覆盖车联网、信创、AI等领域，360入选工信部六大漏洞专业库技术支撑单位
 https://mp.weixin.qq.com/s/mYyTkLv21_d1XfFe7jqmTg
+360漏洞研究院::【已复现】从 Zerocopy 到 Root：Linux RDS 本地提权漏洞 ZcopyReaper（CVE-2026-43502）
+https://mp.weixin.qq.com/s/rcVNsnvcN3nQsScciPusWg
