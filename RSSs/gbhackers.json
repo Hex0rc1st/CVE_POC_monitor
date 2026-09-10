@@ -11688,5 +11688,55 @@
         "title": "ChatGPT Flaw Could Let Attackers Steal Gmail Data Across User Accounts",
         "link": "https://gbhackers.com/chatgpt-flaw/",
         "published": "Wed, 09 Sep 2026 10:19:04 +0000"
+    },
+    {
+        "title": "OpenAI Builds ‘Defense Factory’ as AI Agents Gain Ability to Chain Cyber Exploits",
+        "link": "https://gbhackers.com/openai-builds-defense-factory/",
+        "published": "Thu, 10 Sep 2026 09:24:37 +0000"
+    },
+    {
+        "title": "Hackers Pose as IT Support to Hijack Microsoft 365 Accounts With Fake Passkey Alerts",
+        "link": "https://gbhackers.com/microsoft-365-accounts-hijacked/",
+        "published": "Thu, 10 Sep 2026 09:19:40 +0000"
+    },
+    {
+        "title": "12 Best Application Control & Allowlisting Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-application-control-compared-2/",
+        "published": "Thu, 10 Sep 2026 08:24:10 +0000"
+    },
+    {
+        "title": "12 Best Patch Management Software Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-patch-management-compared-2/",
+        "published": "Thu, 10 Sep 2026 08:19:50 +0000"
+    },
+    {
+        "title": "The 12 Best Mobile Threat Defense (MTD) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-mobile-threat-defense-compared/",
+        "published": "Thu, 10 Sep 2026 08:15:56 +0000"
+    },
+    {
+        "title": "The 12 Best Mobile Device Management (MDM) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-mdm-solutions-compared/",
+        "published": "Thu, 10 Sep 2026 08:09:20 +0000"
+    },
+    {
+        "title": "The 12 Best Unified Endpoint Management (UEM) Solutions, Compared and Priced",
+        "link": "https://gbhackers.com/best-uem-solutions-compared/",
+        "published": "Thu, 10 Sep 2026 08:02:52 +0000"
+    },
+    {
+        "title": "New AI Workflow Identity Hijacking Attack Lets Hackers Exfiltrate Sensitive Data",
+        "link": "https://gbhackers.com/new-ai-workflow-identity-hijacking-attack/",
+        "published": "Thu, 10 Sep 2026 07:51:21 +0000"
+    },
+    {
+        "title": "Hackers Use ClickFix Lures to Deploy MacSync Stealer and Bypass macOS Security.",
+        "link": "https://gbhackers.com/clickfix-lures-target-macos/",
+        "published": "Thu, 10 Sep 2026 07:01:43 +0000"
+    },
+    {
+        "title": "Hackers Use LLMs to Generate Exploit Scripts and Automate Post-Exploitation Across Latin America",
+        "link": "https://gbhackers.com/llm-powered-cyberattacks/",
+        "published": "Thu, 10 Sep 2026 06:02:43 +0000"
     }
 ]

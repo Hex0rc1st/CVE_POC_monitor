@@ -7923,5 +7923,15 @@
         "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
         "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
         "published": "Wed, 09 Sep 2026 22:04:05 +0530"
+    },
+    {
+        "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+        "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+        "published": "Thu, 10 Sep 2026 12:42:55 +0530"
+    },
+    {
+        "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+        "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+        "published": "Thu, 10 Sep 2026 12:34:01 +0530"
     }
 ]

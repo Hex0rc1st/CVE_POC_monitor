@@ -5555,3 +5555,10 @@ clean_list:
 - CVE-2025-27636-RCE-in-Apache-Camel
 - CVE-2026-72815-poc
 - RootMyVivo-Exploit
+- CVE-2026-60137-and-CVE-2026-63030
+- CVE-2026-53519
+- inference-gateway-PoC
+- CVE-2026-28496
+- CVE-2026-42613
+- CVE-2026-13181-Telerik
+- cve-2026-86060
