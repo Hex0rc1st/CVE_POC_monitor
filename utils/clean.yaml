@@ -5552,3 +5552,4 @@ clean_list:
 - CVE-2026-67401-cPanel-EmailTrack-SQLi
 - Mikrotrick_POC
 - CVE-2026-79387-PbootCMS-SQL-Injection
+- CVE-2025-27636-RCE-in-Apache-Camel
