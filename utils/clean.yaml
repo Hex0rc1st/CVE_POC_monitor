@@ -5553,3 +5553,5 @@ clean_list:
 - Mikrotrick_POC
 - CVE-2026-79387-PbootCMS-SQL-Injection
 - CVE-2025-27636-RCE-in-Apache-Camel
+- CVE-2026-72815-poc
+- RootMyVivo-Exploit
