@@ -1845,3 +1845,5 @@ https://mp.weixin.qq.com/s/h-qy2_wC2EGNabtt__8NbQ
 https://mp.weixin.qq.com/s/mYyTkLv21_d1XfFe7jqmTg
 360漏洞研究院::【已复现】从 Zerocopy 到 Root：Linux RDS 本地提权漏洞 ZcopyReaper（CVE-2026-43502）
 https://mp.weixin.qq.com/s/rcVNsnvcN3nQsScciPusWg
+360漏洞研究院::【已复现】GitLab 满分路径遍历漏洞，可未授权读取服务器任意文件（CVE-2026-85706）
+https://mp.weixin.qq.com/s/dzLXMIpIiqWwJSpDD-OL2g

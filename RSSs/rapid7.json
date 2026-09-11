@@ -1133,5 +1133,10 @@
         "title": "Credentialed Pre-Port Discovery: Don't Probe the Host, Ask it",
         "link": "https://www.rapid7.com/blog/post/pt-credentialed-pre-port-discovery-asking-host",
         "published": "Wed, 09 Sep 2026 15:16:34 GMT"
+    },
+    {
+        "title": "Metasploit Wrap Up: This One Goes to Sixteen!",
+        "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-goes-to-sixteen",
+        "published": "Fri, 11 Sep 2026 13:35:11 GMT"
     }
 ]

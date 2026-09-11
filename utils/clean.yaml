@@ -5572,3 +5572,13 @@ clean_list:
 - CVE-2026-20516
 - CVE-2026-51990
 - AfterLife
+- CVE-2026-19794
+- netty-resolver-dns-check
+- CVE-2026-15253
+- CVE-2026-79298
+- CVE-2026-41089-Netlogon-RCE-PoC
+- CVE-2026-85706_docker_exp
+- cve-2026-22732-poc
+- CVE-2026-65540
+- secdim-assurance-drift-challenge
+- the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss

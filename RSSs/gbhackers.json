@@ -11778,5 +11778,55 @@
         "title": "OpenMatter Network Realigns Leadership Team to Accelerate Global Commercial Growth",
         "link": "https://gbhackers.com/openmatter-network-realigns-leadership-team-to-accelerate-global-commercial-growth/",
         "published": "Thu, 10 Sep 2026 16:24:26 +0000"
+    },
+    {
+        "title": "Researchers Uncover 10,000+ Malware Loaders Behind YouTube and SEO Poisoning Campaign",
+        "link": "https://gbhackers.com/10000-malware-loaders/",
+        "published": "Fri, 11 Sep 2026 12:24:51 +0000"
+    },
+    {
+        "title": "VLC Media Player Flaws Let Attackers Corrupt Memory and Leak Sensitive Data",
+        "link": "https://gbhackers.com/vlc-media-player-flaws/",
+        "published": "Fri, 11 Sep 2026 12:03:52 +0000"
+    },
+    {
+        "title": "CISA Adds Exploited MikroTik RouterOS Flaws to Security Alert",
+        "link": "https://gbhackers.com/cisa-adds-exploited-mikrotik-routeros-flaws/",
+        "published": "Fri, 11 Sep 2026 11:57:40 +0000"
+    },
+    {
+        "title": "cPanel Urges Users to Patch ConfigServer Firewall Remote Code Execution Flaw",
+        "link": "https://gbhackers.com/cpanel-urges-users-to-patch-configserver-firewall/",
+        "published": "Fri, 11 Sep 2026 11:20:03 +0000"
+    },
+    {
+        "title": "Hackers Weaponize AI Safety Guardrails to Hide Malware From LLM-Powered Security Scanners",
+        "link": "https://gbhackers.com/ai-safety-guardrails/",
+        "published": "Fri, 11 Sep 2026 10:51:16 +0000"
+    },
+    {
+        "title": "Critical GitLab Flaws Let Attackers Read Arbitrary Files, Steal Credentials and Execute Code",
+        "link": "https://gbhackers.com/critical-gitlab-flaws/",
+        "published": "Fri, 11 Sep 2026 10:13:55 +0000"
+    },
+    {
+        "title": "Hackers Exploit JFrog Artifactory Flaws to Bypass Authentication and Gain Admin Access",
+        "link": "https://gbhackers.com/hackers-exploit-jfrog-artifactory-flaws/",
+        "published": "Fri, 11 Sep 2026 09:59:29 +0000"
+    },
+    {
+        "title": "Okta Patches Auth0 and Access Gateway Vulnerabilities Let Attackers Enable XSS, Authentication Bypass and SQL Injection",
+        "link": "https://gbhackers.com/okta-patches-auth0-and-access-gateway-vulnerabilities/",
+        "published": "Fri, 11 Sep 2026 09:42:59 +0000"
+    },
+    {
+        "title": "New IoT Malware Uses Public Linux Exploits to Gain Root and Launch DDoS Attacks",
+        "link": "https://gbhackers.com/iot-malware-attacks/",
+        "published": "Fri, 11 Sep 2026 09:07:58 +0000"
+    },
+    {
+        "title": "CISA Urges Service Providers to Provide Transparent Updates During Major IT and OT Outages",
+        "link": "https://gbhackers.com/cisa-urges-service-providers-to-provide-transparent-updates/",
+        "published": "Fri, 11 Sep 2026 07:47:42 +0000"
     }
 ]
