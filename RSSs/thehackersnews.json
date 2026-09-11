@@ -7988,5 +7988,25 @@
         "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
         "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
         "published": "Fri, 11 Sep 2026 17:00:00 +0530"
+    },
+    {
+        "title": "GitLab CVSS 10 File-Read Flaw Draws In-the-Wild Probes After Disclosure",
+        "link": "https://thehackernews.com/2026/09/gitlab-cvss-10-file-read-flaw-draws-in.html",
+        "published": "Fri, 11 Sep 2026 22:00:18 +0530"
+    },
+    {
+        "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+        "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+        "published": "Fri, 11 Sep 2026 21:45:29 +0530"
+    },
+    {
+        "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+        "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+        "published": "Fri, 11 Sep 2026 19:59:47 +0530"
+    },
+    {
+        "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+        "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+        "published": "Fri, 11 Sep 2026 19:40:20 +0530"
     }
 ]
