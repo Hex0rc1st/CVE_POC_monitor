@@ -5568,3 +5568,7 @@ clean_list:
 - CVE-2026-18351
 - Exploit-CVE-2026-18351
 - scadapack-secure-lock-poc
+- CVE-2026-82222-PoC
+- CVE-2026-20516
+- CVE-2026-51990
+- AfterLife

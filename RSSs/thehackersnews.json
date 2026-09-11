@@ -7963,5 +7963,25 @@
         "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
         "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
         "published": "Thu, 10 Sep 2026 23:17:38 +0530"
+    },
+    {
+        "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+        "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+        "published": "Fri, 11 Sep 2026 13:01:05 +0530"
+    },
+    {
+        "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+        "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+        "published": "Fri, 11 Sep 2026 12:44:09 +0530"
+    },
+    {
+        "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+        "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+        "published": "Fri, 11 Sep 2026 12:16:18 +0530"
+    },
+    {
+        "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+        "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+        "published": "Fri, 11 Sep 2026 11:49:59 +0530"
     }
 ]
