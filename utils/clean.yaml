@@ -5565,3 +5565,6 @@ clean_list:
 - CVE-2026-0303
 - CVE-2026-78804_Dolibarr_authenticated_SQL_injection
 - CVE-2026-73786
+- CVE-2026-18351
+- Exploit-CVE-2026-18351
+- scadapack-secure-lock-poc
