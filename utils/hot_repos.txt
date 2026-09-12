@@ -306,3 +306,7 @@ https://github.com/mobilehackinglab/CVE-2026-28576-poc
 https://github.com/Supersonic/TLPE
 https://github.com/karollooool/CVE-2026-83991-writeup-and-poc
 https://github.com/abraxas/CVE-2026-19089-WooCommerce-Tyche
+https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC
+https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research
+https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon
+https://github.com/guneykabel/cve-2026-85706

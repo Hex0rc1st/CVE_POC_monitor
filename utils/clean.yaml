@@ -5582,3 +5582,4 @@ clean_list:
 - CVE-2026-65540
 - secdim-assurance-drift-challenge
 - the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss
+- CVE-2026-21858-n8n-FullChain
