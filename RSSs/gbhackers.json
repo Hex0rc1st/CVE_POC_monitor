@@ -11828,5 +11828,30 @@
         "title": "CISA Urges Service Providers to Provide Transparent Updates During Major IT and OT Outages",
         "link": "https://gbhackers.com/cisa-urges-service-providers-to-provide-transparent-updates/",
         "published": "Fri, 11 Sep 2026 07:47:42 +0000"
+    },
+    {
+        "title": "Threat Actors Use Claude AI Agents to Automate Cyberattacks and Steal Sensitive Data",
+        "link": "https://gbhackers.com/threat-actors-use-claude-ai-agents-to-automate-cyberattacks-and-steal-sensitive-data/",
+        "published": "Sat, 12 Sep 2026 08:40:16 +0000"
+    },
+    {
+        "title": "China-Linked Hackers Chain Chrome Zero-Day With Windows Kernel Flaw in Attacks",
+        "link": "https://gbhackers.com/china-linked-hackers-chain-chrome-zero-day/",
+        "published": "Sat, 12 Sep 2026 08:04:47 +0000"
+    },
+    {
+        "title": "New Phishing Campaign Abuses Windows Mshta.exe to Steal Credentials and Secrets",
+        "link": "https://gbhackers.com/new-phishing-campaign-abuses-windows-mshta-exe/",
+        "published": "Sat, 12 Sep 2026 06:16:51 +0000"
+    },
+    {
+        "title": "OpenAI Agents Flood RubyGems With 2,000 Packages and Exploit Build System for RCE",
+        "link": "https://gbhackers.com/openai-agents-flood-rubygems-with-2000-packages/",
+        "published": "Sat, 12 Sep 2026 06:03:55 +0000"
+    },
+    {
+        "title": "CISA Warns of Critical GitLab Vulnerability Exploited in Attacks",
+        "link": "https://gbhackers.com/cisa-warns-of-critical-gitlab-vulnerability-exploited-in-attacks/",
+        "published": "Sat, 12 Sep 2026 05:17:40 +0000"
     }
 ]

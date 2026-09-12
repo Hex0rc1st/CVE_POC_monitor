@@ -8008,5 +8008,10 @@
         "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
         "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
         "published": "Fri, 11 Sep 2026 19:40:20 +0530"
+    },
+    {
+        "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+        "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+        "published": "Sat, 12 Sep 2026 14:37:56 +0530"
     }
 ]

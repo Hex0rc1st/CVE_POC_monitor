@@ -5583,3 +5583,10 @@ clean_list:
 - secdim-assurance-drift-challenge
 - the-callback-that-outlived-the-page-cve-2026-78997-uc-browser-android-universal-xss
 - CVE-2026-21858-n8n-FullChain
+- CVE-2026-77771
+- CVE-2026-43499-POCO-X3-GT
+- ghostlock-s26
+- tomcat-cve-2025-24813-lab
+- jetty-line-check
+- cve-2026-86547-mrubyc-op-enter
+- CVE-2026-80099
