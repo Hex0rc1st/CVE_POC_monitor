@@ -5590,3 +5590,7 @@ clean_list:
 - jetty-line-check
 - cve-2026-86547-mrubyc-op-enter
 - CVE-2026-80099
+- CVE-2026-86218-N-central-IOC-Toolkit
+- gitlab-cve-2026-85706-ioc
+- asus_i005-CVE-2026-43499
+- CVE-2026-78006-POC
