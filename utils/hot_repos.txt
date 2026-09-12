@@ -310,3 +310,4 @@ https://github.com/SyntaxMethod/CVE-2026-41089-Netlogon-RCE-PoC
 https://github.com/SyntaxMethod/CVE-2026-42978-PoC-Research
 https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon
 https://github.com/guneykabel/cve-2026-85706
+https://github.com/ZeroDayEvil/CVE-2026-20805-PoC
