@@ -5594,3 +5594,9 @@ clean_list:
 - gitlab-cve-2026-85706-ioc
 - asus_i005-CVE-2026-43499
 - CVE-2026-78006-POC
+- PoC-CVE-2025-24071
+- Vulnerability-DLink-CVE-2025-14659
+- ghostlock-kit
+- CVE-2024-2044
+- cotonti-commentswidget-poc
+- CVE-2026-77770
