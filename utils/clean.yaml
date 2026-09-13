@@ -5600,3 +5600,8 @@ clean_list:
 - CVE-2024-2044
 - cotonti-commentswidget-poc
 - CVE-2026-77770
+- CVE-2026-78006
+- CVE-2026-23980
+- JFrog_CVE-2026-65615-ByGLM
+- CVE-2025-38352-PoC
+- CVE-2026-24332

@@ -312,3 +312,5 @@ https://github.com/ZeroDayVPN/CVE-2026-41089-Netlogon
 https://github.com/guneykabel/cve-2026-85706
 https://github.com/ZeroDayEvil/CVE-2026-20805-PoC
 https://github.com/ynsmroztas/GitLabSniper
+https://github.com/mhtsec/CVE-2026-85706
+https://github.com/Faceless0x7/CVE-2026-89012
