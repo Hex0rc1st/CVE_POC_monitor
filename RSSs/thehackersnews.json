@@ -8048,5 +8048,25 @@
         "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
         "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
         "published": "Mon, 14 Sep 2026 17:28:00 +0530"
+    },
+    {
+        "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+        "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+        "published": "Mon, 14 Sep 2026 23:32:13 +0530"
+    },
+    {
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "published": "Mon, 14 Sep 2026 23:31:49 +0530"
+    },
+    {
+        "title": "Telegram Desktop Flaw Lets Hidden JavaScript Exfiltrate Messages From HTML Exports",
+        "link": "https://thehackernews.com/2026/09/telegram-desktop-flaw-lets-hidden.html",
+        "published": "Mon, 14 Sep 2026 23:28:16 +0530"
+    },
+    {
+        "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+        "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+        "published": "Mon, 14 Sep 2026 22:26:30 +0530"
     }
 ]
