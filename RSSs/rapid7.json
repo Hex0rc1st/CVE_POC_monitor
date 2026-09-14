@@ -1143,5 +1143,15 @@
         "title": "The Fraud Ecosystem: A Transition From Known Marketplaces to a Fragmented Environment",
         "link": "https://www.rapid7.com/blog/post/tr-fraud-ecosystem-fragmenting-marketplaces",
         "published": "Fri, 11 Sep 2026 13:33:33 GMT"
+    },
+    {
+        "title": "Rapid7 Named Among Notable Vendors in Forrester MDR Landscape: Why the Future is Exposure-informed, Preemptive MDR",
+        "link": "https://www.rapid7.com/blog/post/dr-forrester-mdr-landscape-notable-vendor-preemptive",
+        "published": "Mon, 14 Sep 2026 14:51:07 GMT"
+    },
+    {
+        "title": "CVE-2026-85706: Critical GitLab Path Traversal Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-85706-critical-gitlab-path-traversal-exploited-in-the-wild",
+        "published": "Mon, 14 Sep 2026 10:02:57 GMT"
     }
 ]
