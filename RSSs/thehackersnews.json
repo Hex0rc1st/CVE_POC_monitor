@@ -8028,5 +8028,10 @@
         "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
         "link": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
         "published": "Sun, 13 Sep 2026 15:41:48 +0530"
+    },
+    {
+        "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+        "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
+        "published": "Mon, 14 Sep 2026 12:54:39 +0530"
     }
 ]

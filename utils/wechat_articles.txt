@@ -1847,3 +1847,5 @@ https://mp.weixin.qq.com/s/mYyTkLv21_d1XfFe7jqmTg
 https://mp.weixin.qq.com/s/rcVNsnvcN3nQsScciPusWg
 360漏洞研究院::【已复现】GitLab 满分路径遍历漏洞，可未授权读取服务器任意文件（CVE-2026-85706）
 https://mp.weixin.qq.com/s/dzLXMIpIiqWwJSpDD-OL2g
+微步在线研究响应中心::已复现 | 搜狗输入法 1-click RCE
+https://mp.weixin.qq.com/s/m-alNYyQLozh3Nqc8uRrwA
