@@ -5612,3 +5612,4 @@ clean_list:
 - ghost-hoock
 - cve-2026-52910-poc
 - CVE-2026-90782-s2opc-status-clobber
+- CVE-2026-69328
