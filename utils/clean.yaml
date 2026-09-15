@@ -5613,3 +5613,7 @@ clean_list:
 - cve-2026-52910-poc
 - CVE-2026-90782-s2opc-status-clobber
 - CVE-2026-69328
+- CVE-2026-76461
+- CVE-2025-64512_PoC
+- xz-utils-backdoor-case-study
+- CVE-2026-24733

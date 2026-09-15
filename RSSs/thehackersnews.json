@@ -8068,5 +8068,20 @@
         "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
         "link": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
         "published": "Mon, 14 Sep 2026 22:26:30 +0530"
+    },
+    {
+        "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
+        "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
+        "published": "Tue, 15 Sep 2026 12:22:16 +0530"
+    },
+    {
+        "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
+        "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
+        "published": "Tue, 15 Sep 2026 11:41:11 +0530"
+    },
+    {
+        "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
+        "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
+        "published": "Tue, 15 Sep 2026 11:01:05 +0530"
     }
 ]

@@ -11878,5 +11878,55 @@
         "title": "Top 5 AI Gateways for Enterprise (2026 Guide)",
         "link": "https://gbhackers.com/top-5-ai-gateways-for-enterprise-2026-guide/",
         "published": "Fri, 11 Sep 2026 16:29:46 +0000"
+    },
+    {
+        "title": "Marimo RCE Flaw Lets Hackers Steal AWS Credentials and Pivot to Bastion Host in 8 Seconds",
+        "link": "https://gbhackers.com/marimo-rce-flaw/",
+        "published": "Tue, 15 Sep 2026 09:58:24 +0000"
+    },
+    {
+        "title": "DDRop Attack Forces Intel TDX Confidential VMs Into Debug Mode and Exposes Memory",
+        "link": "https://gbhackers.com/intel-tdx-under-attack/",
+        "published": "Tue, 15 Sep 2026 09:57:18 +0000"
+    },
+    {
+        "title": "Linux Kernel ZcopyReaper Vulnerability Lets Local Attackers Gain Root Privileges",
+        "link": "https://gbhackers.com/linux-kernel-zcopyreaper-vulnerability/",
+        "published": "Tue, 15 Sep 2026 08:18:47 +0000"
+    },
+    {
+        "title": "Microsoft Offers $60,000 Bounty for Critical Cross-Tenant Vulnerabilities",
+        "link": "https://gbhackers.com/microsoft-offers-60000-bounty/",
+        "published": "Tue, 15 Sep 2026 08:08:26 +0000"
+    },
+    {
+        "title": "Hackers Deploy Agentic AI to Automate Exploitation and Mass Credential Harvesting",
+        "link": "https://gbhackers.com/agentic-ai-exploitation/",
+        "published": "Tue, 15 Sep 2026 07:46:50 +0000"
+    },
+    {
+        "title": "12 Best CNAPP Platforms Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-cnapp-compared/",
+        "published": "Tue, 15 Sep 2026 06:49:50 +0000"
+    },
+    {
+        "title": "12 Best CWPP Solutions Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-cwpp-compared/",
+        "published": "Tue, 15 Sep 2026 06:43:35 +0000"
+    },
+    {
+        "title": "11 Best CSPM Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-cspm-compared/",
+        "published": "Tue, 15 Sep 2026 06:37:15 +0000"
+    },
+    {
+        "title": "12 Best Enterprise Browsers Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-enterprise-browsers-compared/",
+        "published": "Tue, 15 Sep 2026 06:32:28 +0000"
+    },
+    {
+        "title": "12 Best Browser Isolation Solutions Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-browser-isolation-compared/",
+        "published": "Tue, 15 Sep 2026 06:27:05 +0000"
     }
 ]
