@@ -8098,5 +8098,15 @@
         "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
         "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
         "published": "Tue, 15 Sep 2026 16:42:32 +0530"
+    },
+    {
+        "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
+        "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
+        "published": "Tue, 15 Sep 2026 21:59:51 +0530"
+    },
+    {
+        "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
+        "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
+        "published": "Tue, 15 Sep 2026 20:53:19 +0530"
     }
 ]
