@@ -8108,5 +8108,10 @@
         "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
         "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
         "published": "Tue, 15 Sep 2026 20:53:19 +0530"
+    },
+    {
+        "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
+        "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
+        "published": "Wed, 16 Sep 2026 00:24:14 +0530"
     }
 ]
