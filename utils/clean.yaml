@@ -5617,3 +5617,11 @@ clean_list:
 - CVE-2025-64512_PoC
 - xz-utils-backdoor-case-study
 - CVE-2026-24733
+- cve-2024-36401-security-simulator
+- pedit-cow
+- CVE-2025-5548-FreeFloat-FTP-Lab
+- CVE-2026-79551-Tenda
+- CVE-2025-47928
+- CVE-2026-59346-POC
+- CVE-2026-76461-Detection-Kit-
+- CVE-2026-59550

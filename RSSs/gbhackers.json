@@ -11928,5 +11928,40 @@
         "title": "12 Best Browser Isolation Solutions Compared (2026): Features & Pricing",
         "link": "https://gbhackers.com/best-browser-isolation-compared/",
         "published": "Tue, 15 Sep 2026 06:27:05 +0000"
+    },
+    {
+        "title": "Google Search Makes It Harder to See Where a Link Really Goes Before You Click",
+        "link": "https://gbhackers.com/harder-link-verification/",
+        "published": "Tue, 15 Sep 2026 13:42:27 +0000"
+    },
+    {
+        "title": "Phishing Attacks Abuse Trusted Email Infrastructure and URL Cloaking to Evade Security Filters",
+        "link": "https://gbhackers.com/trusted-email-abuse/",
+        "published": "Tue, 15 Sep 2026 13:04:34 +0000"
+    },
+    {
+        "title": "Hackers Actively Exploit Critical WooCommerce Plugin Vulnerability to Upload PHP Backdoors",
+        "link": "https://gbhackers.com/woocommerce-plugin-vulnerability/",
+        "published": "Tue, 15 Sep 2026 12:05:55 +0000"
+    },
+    {
+        "title": "Weekly Cybersecurity Newsletter – Top 50 Biggest Cybersecurity Stories of the Week",
+        "link": "https://gbhackers.com/weekly-cybersecurity-newsletter-september-7-12-2026/",
+        "published": "Tue, 15 Sep 2026 11:44:54 +0000"
+    },
+    {
+        "title": "WordPress Events Calendar Vulnerabilities Let Hackers Take Over 600,000 Websites",
+        "link": "https://gbhackers.com/wordpress-events-calendar-vulnerabilities/",
+        "published": "Tue, 15 Sep 2026 11:24:16 +0000"
+    },
+    {
+        "title": "Red Heron Hackers Exploit Critical Gitea RCE to Steal Source Code and Deploy Linux Rootkit",
+        "link": "https://gbhackers.com/red-heron-hackers-exploit-critical-gitea-rce/",
+        "published": "Tue, 15 Sep 2026 11:16:17 +0000"
+    },
+    {
+        "title": "Telegram Desktop XSS Vulnerability Lets Attackers Steal Entire Chat Histories",
+        "link": "https://gbhackers.com/telegram-desktop-xss-vulnerability-lets-attackers-steal-entire-chat-histories/",
+        "published": "Tue, 15 Sep 2026 10:11:25 +0000"
     }
 ]

@@ -8083,5 +8083,20 @@
         "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
         "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
         "published": "Tue, 15 Sep 2026 11:01:05 +0530"
+    },
+    {
+        "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
+        "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
+        "published": "Tue, 15 Sep 2026 17:22:28 +0530"
+    },
+    {
+        "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
+        "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
+        "published": "Tue, 15 Sep 2026 16:56:36 +0530"
+    },
+    {
+        "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
+        "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
+        "published": "Tue, 15 Sep 2026 16:42:32 +0530"
     }
 ]

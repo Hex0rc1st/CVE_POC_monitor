@@ -1153,5 +1153,10 @@
         "title": "CVE-2026-85706: Critical GitLab Path Traversal Exploited in the Wild",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-85706-critical-gitlab-path-traversal-exploited-in-the-wild",
         "published": "Mon, 14 Sep 2026 10:02:57 GMT"
+    },
+    {
+        "title": "CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild",
+        "published": "Tue, 15 Sep 2026 12:22:50 GMT"
     }
 ]
