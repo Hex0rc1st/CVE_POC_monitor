@@ -1849,3 +1849,5 @@ https://mp.weixin.qq.com/s/rcVNsnvcN3nQsScciPusWg
 https://mp.weixin.qq.com/s/dzLXMIpIiqWwJSpDD-OL2g
 微步在线研究响应中心::已复现 | 搜狗输入法 1-click RCE
 https://mp.weixin.qq.com/s/m-alNYyQLozh3Nqc8uRrwA
+微步在线研究响应中心::已复现 | Langflow post-auth RCE
+https://mp.weixin.qq.com/s/A0h3oCFG6EB8TEomt5Pxbw

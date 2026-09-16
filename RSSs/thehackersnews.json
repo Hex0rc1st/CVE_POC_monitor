@@ -8113,5 +8113,15 @@
         "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
         "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
         "published": "Wed, 16 Sep 2026 00:24:14 +0530"
+    },
+    {
+        "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+        "published": "Wed, 16 Sep 2026 11:18:28 +0530"
+    },
+    {
+        "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+        "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
+        "published": "Wed, 16 Sep 2026 10:48:06 +0530"
     }
 ]
