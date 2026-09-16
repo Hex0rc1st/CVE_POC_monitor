@@ -11988,5 +11988,55 @@
         "title": "Google Chrome 153 Released With Fixes for 42 Security Vulnerabilities",
         "link": "https://gbhackers.com/google-chrome-153-released/",
         "published": "Wed, 16 Sep 2026 05:00:54 +0000"
+    },
+    {
+        "title": "GhostCode Abuses Microsoft Entra Device Enrollment to Maintain Access After Token Revocation",
+        "link": "https://gbhackers.com/ghostcode-abuses-microsoft-entra/",
+        "published": "Wed, 16 Sep 2026 13:41:39 +0000"
+    },
+    {
+        "title": "VectraRAT Malware-as-a-Service Lets Hackers Bypass UAC and Hijack Windows Systems",
+        "link": "https://gbhackers.com/vectrarat-malware-as-a-service/",
+        "published": "Wed, 16 Sep 2026 13:11:23 +0000"
+    },
+    {
+        "title": "TP-Link Tapo Camera Flaw Lets Attackers Gain Admin Access Without Password",
+        "link": "https://gbhackers.com/tp-link-tapo-camera-flaw/",
+        "published": "Wed, 16 Sep 2026 12:33:57 +0000"
+    },
+    {
+        "title": "Chinese-Speaking Hackers Use Noodle RAT Backdoor to Spy on Windows and Linux Systems",
+        "link": "https://gbhackers.com/noodle-rat-backdoor/",
+        "published": "Wed, 16 Sep 2026 12:28:34 +0000"
+    },
+    {
+        "title": "Axoflow Launches AxoDetect, Bringing Detection Into the Pipeline and Making the SIEM Optional",
+        "link": "https://gbhackers.com/axoflow-launches-axodetect-bringing-detection-into-the-pipeline-and-making-the-siem-optional/",
+        "published": "Wed, 16 Sep 2026 11:58:22 +0000"
+    },
+    {
+        "title": "Smishing Triad Hackers Use JWR Phishing Kit to Steal Cards, OTPs and Bank Credentials",
+        "link": "https://gbhackers.com/jwr-phishing-kit/",
+        "published": "Wed, 16 Sep 2026 11:57:57 +0000"
+    },
+    {
+        "title": "CenterPoint Energy Confirms Data Breach Exposing Customers’ Personal Information",
+        "link": "https://gbhackers.com/centerpoint-energy-confirms-data-breach/",
+        "published": "Wed, 16 Sep 2026 11:40:21 +0000"
+    },
+    {
+        "title": "Parallels Desktop Flaw Lets Unprivileged Mac Users Gain Root Access",
+        "link": "https://gbhackers.com/parallels-desktop-flaw/",
+        "published": "Wed, 16 Sep 2026 11:29:45 +0000"
+    },
+    {
+        "title": "Acronis Backup Plugin Vulnerability Exploited in the Wild to Gain Elevated Linux Privileges",
+        "link": "https://gbhackers.com/acronis-backup-plugin-vulnerability/",
+        "published": "Wed, 16 Sep 2026 09:57:44 +0000"
+    },
+    {
+        "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/12-best-kubernetes-security-tools-compared-2026-features-pricing/",
+        "published": "Wed, 16 Sep 2026 09:52:52 +0000"
     }
 ]

@@ -8123,5 +8123,50 @@
         "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
         "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
         "published": "Wed, 16 Sep 2026 10:48:06 +0530"
+    },
+    {
+        "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "published": "Wed, 16 Sep 2026 21:20:59 +0530"
+    },
+    {
+        "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+        "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+        "published": "Wed, 16 Sep 2026 20:57:49 +0530"
+    },
+    {
+        "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+        "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+        "published": "Wed, 16 Sep 2026 20:06:44 +0530"
+    },
+    {
+        "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+        "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+        "published": "Wed, 16 Sep 2026 19:07:07 +0530"
+    },
+    {
+        "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+        "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+        "published": "Wed, 16 Sep 2026 18:44:05 +0530"
+    },
+    {
+        "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+        "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+        "published": "Wed, 16 Sep 2026 17:28:00 +0530"
+    },
+    {
+        "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+        "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
+        "published": "Wed, 16 Sep 2026 16:45:58 +0530"
+    },
+    {
+        "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+        "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+        "published": "Wed, 16 Sep 2026 16:45:48 +0530"
+    },
+    {
+        "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "published": "Wed, 16 Sep 2026 16:38:54 +0530"
     }
 ]
