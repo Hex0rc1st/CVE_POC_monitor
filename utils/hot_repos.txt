@@ -315,3 +315,4 @@ https://github.com/ynsmroztas/GitLabSniper
 https://github.com/mhtsec/CVE-2026-85706
 https://github.com/Faceless0x7/CVE-2026-89012
 https://github.com/ctdal/cve-2026-41940-PoC
+https://github.com/Ping-2o/ios.CVE-2026-84616-84607
