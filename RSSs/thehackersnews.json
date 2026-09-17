@@ -8168,5 +8168,50 @@
         "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
         "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
         "published": "Wed, 16 Sep 2026 16:38:54 +0530"
+    },
+    {
+        "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+        "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+        "published": "Thu, 17 Sep 2026 18:00:00 +0530"
+    },
+    {
+        "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+        "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+        "published": "Thu, 17 Sep 2026 17:20:00 +0530"
+    },
+    {
+        "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+        "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+        "published": "Thu, 17 Sep 2026 16:20:53 +0530"
+    },
+    {
+        "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+        "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+        "published": "Thu, 17 Sep 2026 15:35:45 +0530"
+    },
+    {
+        "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+        "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+        "published": "Thu, 17 Sep 2026 15:23:38 +0530"
+    },
+    {
+        "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+        "link": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+        "published": "Thu, 17 Sep 2026 13:30:29 +0530"
+    },
+    {
+        "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+        "link": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+        "published": "Thu, 17 Sep 2026 13:00:01 +0530"
+    },
+    {
+        "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+        "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+        "published": "Thu, 17 Sep 2026 12:09:40 +0530"
+    },
+    {
+        "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+        "link": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+        "published": "Thu, 17 Sep 2026 10:43:46 +0530"
     }
 ]
