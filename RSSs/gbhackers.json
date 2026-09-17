@@ -12038,5 +12038,30 @@
         "title": "12 Best Kubernetes Security Tools Compared (2026): Features & Pricing",
         "link": "https://gbhackers.com/12-best-kubernetes-security-tools-compared-2026-features-pricing/",
         "published": "Wed, 16 Sep 2026 09:52:52 +0000"
+    },
+    {
+        "title": "Docker Sandboxes Vulnerabilities Let Malicious Guests Escape Workspace and Access Host Files",
+        "link": "https://gbhackers.com/docker-sandboxes-vulnerabilities/",
+        "published": "Thu, 17 Sep 2026 07:17:56 +0000"
+    },
+    {
+        "title": "Hackers Turn AI Agent Into a Cyber Weapon After Deleting Its Safety Refusals",
+        "link": "https://gbhackers.com/ai-agent-into-a-cyber-weapon/",
+        "published": "Thu, 17 Sep 2026 07:00:10 +0000"
+    },
+    {
+        "title": "Jenkins Patches 20 Plugin Flaws Leading to RCE, XSS and Credential Theft",
+        "link": "https://gbhackers.com/jenkins-patches-20-plugin-flaws/",
+        "published": "Thu, 17 Sep 2026 06:21:07 +0000"
+    },
+    {
+        "title": "NightEagle Hackers Target Russian Companies Using GhostContainer Backdoor",
+        "link": "https://gbhackers.com/nighteagle-target-russian-companies/",
+        "published": "Thu, 17 Sep 2026 05:41:54 +0000"
+    },
+    {
+        "title": "Critical Check Point Vulnerability Allows Remote Root Code Execution Without Authentication",
+        "link": "https://gbhackers.com/critical-check-point-vulnerability/",
+        "published": "Thu, 17 Sep 2026 05:23:21 +0000"
     }
 ]
