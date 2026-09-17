@@ -5639,3 +5639,6 @@ clean_list:
 - cve-2025-57819-freepbx-range
 - cve-2026-59827-metabase-cyber-range
 - ghostlock-pfem10
+- CVE-2026-76460
+- rep-openai-artifactory
+- bigint-buffer-js
