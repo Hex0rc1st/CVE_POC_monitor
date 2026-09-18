@@ -12118,5 +12118,55 @@
         "title": "How Pentest Companies Adapt In The Era of AI",
         "link": "https://gbhackers.com/how-pentest-companies-adapt-in-the-era-of-ai/",
         "published": "Fri, 18 Sep 2026 04:12:58 +0000"
+    },
+    {
+        "title": "PeckBirdy C2 Traffic Seen Across Enterprise Networks While Hiding Behind Casino Domains",
+        "link": "https://gbhackers.com/casino-domains-hide-c2-traffic/",
+        "published": "Fri, 18 Sep 2026 13:43:38 +0000"
+    },
+    {
+        "title": "Feral Wolf Hackers Exploit Confluence and 1C to Deploy GenieLocker Ransomware",
+        "link": "https://gbhackers.com/genielocker-ransomware/",
+        "published": "Fri, 18 Sep 2026 13:02:07 +0000"
+    },
+    {
+        "title": "New SETTRA Ransomware Uses MeshAgent RMM and BYOVD to Encrypt Windows Systems",
+        "link": "https://gbhackers.com/settra-ransomware/",
+        "published": "Fri, 18 Sep 2026 12:50:05 +0000"
+    },
+    {
+        "title": "JADEPUFFER Evolves Agentic Ransomware to Target AI Models and Training Data",
+        "link": "https://gbhackers.com/agentic-ransomware-to-target-ai-models/",
+        "published": "Fri, 18 Sep 2026 12:23:02 +0000"
+    },
+    {
+        "title": "Google Chrome 153 Update Fixes 16 Security Flaws, Including Two Critical Vulnerabilities",
+        "link": "https://gbhackers.com/google-chrome-153-update-fixes-16-security-flaws/",
+        "published": "Fri, 18 Sep 2026 10:36:04 +0000"
+    },
+    {
+        "title": "ChatGPT Phishing Campaign Targets Both Work and Personal OpenAI Accounts",
+        "link": "https://gbhackers.com/chatgpt-phishing-campaign/",
+        "published": "Fri, 18 Sep 2026 10:22:51 +0000"
+    },
+    {
+        "title": "Linux Kernel Hit by 4 LPE Flaws Enabling Attackers to Gain Root Shell",
+        "link": "https://gbhackers.com/linux-kernel-hit-by-4-lpe-flaws/",
+        "published": "Fri, 18 Sep 2026 10:22:48 +0000"
+    },
+    {
+        "title": "Over 100,000 WordPress Sites Exposed to RCE Through Tutor LMS Vulnerability",
+        "link": "https://gbhackers.com/tutor-lms-vulnerability/",
+        "published": "Fri, 18 Sep 2026 10:04:39 +0000"
+    },
+    {
+        "title": "Researchers Find Security Risks in 73.6% of 61,500 Abandoned IoT Apps",
+        "link": "https://gbhackers.com/researchers-find-security-risks-in-73-6-of-61500-abandoned-iot-apps/",
+        "published": "Fri, 18 Sep 2026 09:45:37 +0000"
+    },
+    {
+        "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
+        "link": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
+        "published": "Fri, 18 Sep 2026 09:31:53 +0000"
     }
 ]

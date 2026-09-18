@@ -8243,5 +8243,25 @@
         "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
         "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
         "published": "Fri, 18 Sep 2026 11:47:25 +0530"
+    },
+    {
+        "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+        "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+        "published": "Fri, 18 Sep 2026 18:17:04 +0530"
+    },
+    {
+        "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
+        "link": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
+        "published": "Fri, 18 Sep 2026 16:31:16 +0530"
+    },
+    {
+        "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+        "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+        "published": "Fri, 18 Sep 2026 16:31:01 +0530"
+    },
+    {
+        "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+        "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+        "published": "Fri, 18 Sep 2026 16:10:06 +0530"
     }
 ]
