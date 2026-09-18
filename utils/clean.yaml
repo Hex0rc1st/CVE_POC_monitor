@@ -5642,3 +5642,7 @@ clean_list:
 - CVE-2026-76460
 - rep-openai-artifactory
 - bigint-buffer-js
+- CVE-2026-18574
+- CVE-2026-91843
+- CVE-2026-77179
+- CVE-2026-81642
