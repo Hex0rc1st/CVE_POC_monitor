@@ -8263,5 +8263,15 @@
         "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
         "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
         "published": "Fri, 18 Sep 2026 16:10:06 +0530"
+    },
+    {
+        "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
+        "link": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
+        "published": "Fri, 18 Sep 2026 22:26:19 +0530"
+    },
+    {
+        "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
+        "link": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
+        "published": "Fri, 18 Sep 2026 20:54:16 +0530"
     }
 ]

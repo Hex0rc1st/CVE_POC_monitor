@@ -317,3 +317,4 @@ https://github.com/Faceless0x7/CVE-2026-89012
 https://github.com/ctdal/cve-2026-41940-PoC
 https://github.com/Ping-2o/ios.CVE-2026-84616-84607
 https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT
+https://github.com/arvindear/wp2shell-PoC
