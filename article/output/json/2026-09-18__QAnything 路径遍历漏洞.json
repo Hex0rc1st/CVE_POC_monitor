@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "无需认证！本地知识库 QAnything 任意文件写入漏洞可提权至 Root RCE（CVE-2026-88533）",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-09-18",
+  "table_fields": {
+    "漏洞名称": "QAnything 未授权任意文件创建漏洞",
+    "漏洞编号": "CVE-2026-88533",
+    "公开时间": "2026-09-18",
+    "POC状态": "已公开",
+    "漏洞类型": "路径遍历",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-09-18 15:06 QAnything 被披露存在未授权任意文件创建漏洞（CVE-2026-88533）。公开研究显示，文件上传接口对客户端可控文件名缺少充分的路径约束，未经身份认证的远程攻击者可通过网络访问目标服务并利用该缺陷，将新文件写入进程权限允许的非预期目录；在研究者验证的官方 Docker 部署场景中，后端进程以 root 权限运行，攻击者可进一步结合 Python 启动加载机制，在后端重新启动后触发 root 权限代码执行。 **利用前置条件：** - 目标 QAnything 服务需可被攻击者通过网络访问 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、临时修复方案、技术原理与复现细节。 **漏洞影响范围** 已公开研究确认的影响范围： QAnything v1.4.x ≤ 受影响版本 ≤ v2.0.0 **修复建议** **正式防护方案** 截至目前，QAnything 官方尚未发布针对 CVE-2026-88533 的明确修复版本。建议受影响用户持续关注 QAnything 官方仓库及后续安全公告。 **临时修复方案** - 通过防火墙、安全组或 ACL 限制 QAnything 默认 8777 端口，仅允许可信 IP 或内网访问，避免服务直接暴露至公网。 - 避免 QAnything 后端进程或容器以 root 权限运行，并限制其对非业务目录的写权限。 **漏洞描述** 近日，安全研究人员披露了 QAnything 中存在的路径遍历及任意文件创建漏洞（CVE-2026-88533）。该问题位于文件上传处理流程，服务端会对客户端提交的文件名进行解码和基础处理，但未对路径分隔符、上级目录引用及绝对路径进行充分约束，后续文件路径拼接逻辑可能因此指向预期上传目录之外的位置。攻击者在无需身份认证的情况下，可通过公开的知识库及文件上传接口提交特制文件名，使服务端在进程权限允许范围内创建攻击者控制的新文件。公开研究进一步指出，官方 Docker 部署中的后端默认以 root 权限运行，因此当新文件被写入可在后续程序启动阶段自动加载的位置时，可在服务重启后触发代码执行并获得 root 权限，漏洞危害较高。 **漏洞复现** 相关安全团队 漏洞研究院已成功复现 QAnything 未授权任意文件创建漏洞（CVE-2026-88533）。在未登录状态下，通过文件上传流程可使服务端将测试文件创建到正常上传目录之外的位置，验证了文件名路径校验缺失导致的未授权任意新文件创建能力。 CVE-2026-88533 QAnything 未授权任意文件创建漏洞复现 **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **时间线** 2026年9月18日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 截至目前，QAnything 官方尚未发布针对 CVE-2026-88533 的明确修复版本。建议受影响用户持续关注 QAnything 官方仓库及后续安全公告。 临时修复方案 - 通过防火墙、安全组或 ACL 限制 QAnything 默认 8777 端口，仅允许可信 IP 或内网访问，避免服务直接暴露至公网。 - 避免 QAnything 后端进程或容器以 root 权限运行，并限制其对非业务目录的写权限。",
+    "component_text": "",
+    "vulnerability_text": "近日，安全研究人员披露了 QAnything 中存在的路径遍历及任意文件创建漏洞（CVE-2026-88533）。该问题位于文件上传处理流程，服务端会对客户端提交的文件名进行解码和基础处理，但未对路径分隔符、上级目录引用及绝对路径进行充分约束，后续文件路径拼接逻辑可能因此指向预期上传目录之外的位置。攻击者在无需身份认证的情况下，可通过公开的知识库及文件上传接口提交特制文件名，使服务端在进程权限允许范围内创建攻击者控制的新文件。公开研究进一步指出，官方 Docker 部署中的后端默认以 root 权限运行，因此当新文件被写入可在后续程序启动阶段自动加载的位置时，可在服务重启后触发代码执行并获得 root 权限，漏洞危害较高。 漏洞复现 相关安全团队 漏洞研究院已成功复现 QAnything 未授权任意文件创建漏洞（CVE-2026-88533）。在未登录状态下，通过文件上传流程可使服务端将测试文件创建到正常上传目录之外的位置，验证了文件名路径校验缺失导致的未授权任意新文件创建能力。 CVE-2026-88533 QAnything 未授权任意文件创建漏洞复现 产品侧支持情况 360安全智能体： 支持该漏洞攻击的智能分析 。 360测绘云 Quake ：默认支持该产品的指纹识别。 360高级持续性威胁预警系统 ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 360资产与漏洞检测管理系统 ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 本地安全大脑 ：默认支持该漏洞的PoC检测。",
+    "affected_versions_text": "QAnything v1.4.x ≤ 受影响版本 ≤ v2.0.0",
+    "plain_text": "安全研究团队 安全研究团队 2026-09-18 15:06 QAnything 被披露存在未授权任意文件创建漏洞（CVE-2026-88533）。公开研究显示，文件上传接口对客户端可控文件名缺少充分的路径约束，未经身份认证的远程攻击者可通过网络访问目标服务并利用该缺陷，将新文件写入进程权限允许的非预期目录；在研究者验证的官方 Docker 部署场景中，后端进程以 root 权限运行，攻击者可进一步结合 Python 启动加载机制，在后端重新启动后触发 root 权限代码执行。 **利用前置条件：** - 目标 QAnything 服务需可被攻击者通过网络访问 目前 **360漏洞挖掘智能体已成功复现该漏洞** 。本文包含完整影响范围、临时修复方案、技术原理与复现细节。 **01** **漏洞影响范围** 已公开研究确认的影响范围： QAnything v1.4.x ≤ 受影响版本 ≤ v2.0.0 **02** **修复建议** **正式防护方案** 截至目前，QAnything 官方尚未发布针对 CVE-2026-88533 的明确修复版本。建议受影响用户持续关注 QAnything 官方仓库及后续安全公告。 **临时修复方案** - 通过防火墙、安全组或 ACL 限制 QAnything 默认 8777 端口，仅允许可信 IP 或内网访问，避免服务直接暴露至公网。 - 避免 QAnything 后端进程或容器以 root 权限运行，并限制其对非业务目录的写权限。 **03** **漏洞描述** 近日，安全研究人员披露了 QAnything 中存在的路径遍历及任意文件创建漏洞（CVE-2026-88533）。该问题位于文件上传处理流程，服务端会对客户端提交的文件名进行解码和基础处理，但未对路径分隔符、上级目录引用及绝对路径进行充分约束，后续文件路径拼接逻辑可能因此指向预期上传目录之外的位置。攻击者在无需身份认证的情况下，可通过公开的知识库及文件上传接口提交特制文件名，使服务端在进程权限允许范围内创建攻击者控制的新文件。公开研究进一步指出，官方 Docker 部署中的后端默认以 root 权限运行，因此当新文件被写入可在后续程序启动阶段自动加载的位置时，可在服务重启后触发代码执行并获得 root 权限，漏洞危害较高。 **04** **漏洞复现** 相关安全团队 漏洞研究院已成功复现 QAnything 未授权任意文件创建漏洞（CVE-2026-88533）。在未登录状态下，通过文件上传流程可使服务端将测试文件创建到正常上传目录之外的位置，验证了文件名路径校验缺失导致的未授权任意新文件创建能力。 CVE-2026-88533 QAnything 未授权任意文件创建漏洞复现 **05** **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年9月20日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **06** **时间线** 2026年9月18日，安全研究团队发布本安全风险通告。 **07** 参考链接 https://github.com/HEMLOCK-LYK/CVE-2026-88533 08 更多漏洞情报 建议您订阅360数字安全-漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 相关安全团队 漏洞研究院，隶属于360数字安全集团。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://github.com/HEMLOCK-LYK/CVE-2026-88533"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/HEMLOCK-LYK/CVE-2026-88533",
+      "content": "GitHub - HEMLOCK-LYK/CVE-2026-88533: PoC and lab reproduction for CVE-2026-88533 · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert HEMLOCK-LYK / CVE-2026-88533 Public Notifications You must be signed in to change notification settings Fork 0 Star 0 Code Issues 0 Pull requests 0 Actions Projects Security and quality 0 Insights Additional navigation options Code Issues Pull requests Actions Projects Security and quality Insights main Branches Tags Go to file Code Open more actions menu Latest commit History 3 Commits 3 Commits Folders and files Name Name Last commit message Last commit date evidence evidence screenshots screenshots DISCLAIMER.md DISCLAIMER.md README.md README.md docker-compose-lab.yaml docker-compose-lab.yaml poc_qanything_cve_2026_88533.py poc_qanything_cve_2026_88533.py View all files Repository files navigation README More items CVE-2026-88533: Unauthenticated Arbitrary File Write → Root RCE in QAnything CVE ID : CVE-2026-88533 (assigned by MITRE, record publication pending) Product : QAnything by netease-youdao — open-source RAG / knowledge-base QA platform Affected : v1.4.x through v2.0.0 (default branch qanything-v2 , through final commit 65de104 ) Fixed version : none — project unmaintained since 2025-03-12; the only sanitization fix (PR #483) lives on the legacy master branch and was never merged into qanything-v2 Weakness : CWE-22 Path Traversal Impact : Unauthenticated arbitrary file creation → Remote Code Execution as uid=0(root) Discoverer : Yankui Li Summary The file upload endpoint POST /api/local_doc_qa/upload_files takes the attacker-controlled multipart filename and uses it as the destination path without sanitizing path separators. urllib.parse.unquote() expands %2f back to / , full-width character filtering and length truncation leave ../ and absolute paths intact, and os.path.join(base, name) discards the base entirely when name is absolute . The resulting open(file_location, \"wb\") writes attacker-controlled content anywhere the process can reach — inside a root container by default. Because the product requires no authentication anywhere ( user_i"
+    }
+  ],
+  "payload": {
+    "vulner_name": "QAnything 路径遍历漏洞",
+    "vulner_number_1": "CVE-2026-88533",
+    "vulner_number_2": "漏洞编号： CVE-2026-88533",
+    "new_vulner_name": "QAnything 路径遍历漏洞",
+    "vulner_date": "2026年9月18日",
+    "vulner_time_line": "2026/09/18",
+    "object_name": "QAnything",
+    "object_desc": "QAnything 是一款基于检索增强生成（RAG）技术的本地知识库问答系统，支持多种格式文档的智能解析与问答，可离线部署以保障数据隐私安全，适用于企业知识管理、智能客服辅助等场景。",
+    "vulner_version": "QAnything v1.4.0 ≤ QAnything ≤ v2.0.0",
+    "vulner_type": "路径遍历",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可利用该漏洞在服务器任意路径创建文件，结合系统配置或依赖组件的加载机制，存在代码执行风险。",
+    "vuln_level": "严重",
+    "vulner_desc": "QAnything 文件上传接口 `POST /api/local_doc_qa/upload_files` 对攻击者可控的文件名字段未进行充分校验，经 `urllib.parse.unquote()` 解码后可直接包含路径分隔符或上级目录引用；由于拼接路径时使用 `os.path.join()` 且未过滤绝对路径，特制文件名可绕过基础目录约束，导致进程权限范围内的任意文件创建。在默认以 root 权限运行的 Docker 部署中，攻击者可通过写入启动时自动加载的位置实现 root 权限的远程代码执行。该漏洞影响 v1.4.x 至 v2.0.0 版本。",
+    "official_solution": "建议通过访问控制限制 QAnything 8777 端口暴露至公网，并持续关注官方仓库后续安全公告。 修复方式：目前官方尚未发布修复版本，建议限制端口访问并关注官方安全公告。\n下载链接：https://github.com/HEMLOCK-LYK/CVE-2026-88533",
+    "reference_link": "https://github.com/HEMLOCK-LYK/CVE-2026-88533",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

@@ -1851,3 +1851,7 @@ https://mp.weixin.qq.com/s/dzLXMIpIiqWwJSpDD-OL2g
 https://mp.weixin.qq.com/s/m-alNYyQLozh3Nqc8uRrwA
 微步在线研究响应中心::已复现 | Langflow post-auth RCE
 https://mp.weixin.qq.com/s/A0h3oCFG6EB8TEomt5Pxbw
+360漏洞研究院::无需认证！本地知识库 QAnything 任意文件写入漏洞可提权至 Root RCE（CVE-2026-88533）
+https://mp.weixin.qq.com/s/qWZEFKixXDj3asXm7Hme-A
+奇安信cert::【已复现】CUPS 本地权限提升漏洞(QVD-2026-70361)安全风险通告
+https://mp.weixin.qq.com/s/HnPHtleUt3p-k0Ri6bO0_A

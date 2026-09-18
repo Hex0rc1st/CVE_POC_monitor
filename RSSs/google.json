@@ -2168,5 +2168,25 @@
         "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
         "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos_01216216096.html",
         "published": "2026-09-16T21:52:16.365-07:00"
+    },
+    {
+        "title": "Chrome for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01970946217.html",
+        "published": "2026-09-17T16:25:23.998-07:00"
+    },
+    {
+        "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/09/dev-channel-update-for-chromeos.html",
+        "published": "2026-09-17T15:34:54.546-07:00"
+    },
+    {
+        "title": "Extended Stable Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_0130771745.html",
+        "published": "2026-09-17T13:03:37.365-07:00"
+    },
+    {
+        "title": "Stable Channel Update for Desktop",
+        "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0194356994.html",
+        "published": "2026-09-17T13:03:34.440-07:00"
     }
 ]

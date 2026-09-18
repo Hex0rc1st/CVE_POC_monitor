@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【已复现】CUPS 本地权限提升漏洞(QVD-2026-70361)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-09-18",
+  "table_fields": {
+    "漏洞名称": "CUPS 本地权限提升漏洞",
+    "漏洞编号": "QVD-2026-70361",
+    "公开时间": "2026-09-17",
+    "影响量级": "十万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "7.8",
+    "威胁类型": "权限提升",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 安全团队 2026-09-18 14:50 ● **漏洞详情** **>** **>** **>** **>** **影响组件** CUPS 是 OpenPrinting 维护的开源打印系统，是 Linux/Unix 平台事实上的打印服务标准，组件包括调度进程 cupsd、过滤器/后端框架以及 Web 管理界面；cups-filters 提供 serial、parallel 等后端。除桌面打印场景外，CUPS 还广泛部署于多用户主机、共享开发机、CI Runner 与打印服务器，常以 root 权限运行 cupsd 并提供本地打印管理接口。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 CUPS 本地权限提升漏洞(QVD-2026-70361)，该漏洞源于利用链将多个配置与权限边界缺陷串联：具备 lpadmin 组成员的本地攻击者首先利用以 root 权限运行的 serial 后端改写 /etc/cups/cups-files.conf，再通过畸形 IPP 订阅请求使 cupsd 崩溃并由 systemd 自动重启，从而以攻击者控制的 ServerBin 目录重启服务，最终由 cupsd 以 root 身份执行被替换的 cups-exec，获得交互式 root shell。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1. 本地账号且属于 lpadmin 组；目标使用 systemd； 2. 本地 CUPS 服务活跃； 3. 存在以 root 运行的特权 serial 后端。 **影响范围** **>** **>** **>** **>** **影响版本** Ubuntu 26.04 LTS（cups 2.4.16-1ubuntu1.3、cups-filters 2.0.1-0ubuntu4.1）；PoC 自述支持 AMD64/ARM64。其他满足“systemd + 本地 CUPS 服务 + 特权 serial 后端 + 标准 Ubuntu CUPS 路径”条件的 Ubuntu/Debian 发行版可能同样受影响。 **复现情况** 目前， 安全团队已成功复现 CUPS 本地权限提升漏洞(QVD-2026-70361) ，截图如下： **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， CUPS 本地权限提升漏洞(QVD-2026-70361) 关联的国内风险资产总数为30511个，关联IP总数为28139个。国内风险资产分布情况如下： CUPS 本地权限提升漏洞(QVD-2026-70361) 关联的全球风险资产总数为183759个，关联IP总数为179797个。全球风险资产分布情况如下： **处置建议** **>** **>** **>** **>** **安全更新** 截至 2026 年 9 月 18 日，上游 OpenPrinting 与各发行版尚未发布针对该利用链的安全公告、CVE 编号或补丁。建议持续关注以下渠道，并在补丁发布后第一时间更新： https://github.com/OpenPrinting/cups/security/advisories https://github.com/OpenPrinting/cups-filters/security/advisories 临时缓解措施： 1. 收紧 lpadmin 权限：审计并清理 lpadmin 组成员，仅保留可信管理员；getent group lpadmin。 2. 处置特权 serial 后端：不需要串口打印的主机可卸载 cups-filters 对应的 serial 后端或移除后端文件；仅在必要时保留，并配合 AppArmor 等强制访问控制限制 cupsd 对 /etc/cups、/etc/cups/interfaces 的写入。 3. 审计打印队列：使用 lpstat -v/检查 printers.conf，排查设备 URI 指向 serial:/ 且路径不是真实串口设备（如指向 /etc/cups/...）的队列，发现后立即删除。",
+    "security_update": "截至 2026 年 9 月 18 日，上游 OpenPrinting 与各发行版尚未发布针对该利用链的安全公告、CVE 编号或补丁。建议持续关注以下渠道，并在补丁发布后第一时间更新： https://github.com/OpenPrinting/cups/security/advisories https://github.com/OpenPrinting/cups-filters/security/advisories 临时缓解措施： 1. 收紧 lpadmin 权限：审计并清理 lpadmin 组成员，仅保留可信管理员；getent group lpadmin。 2. 处置特权 serial 后端：不需要串口打印的主机可卸载 cups-filters 对应的 serial 后端或移除后端文件；仅在必要时保留，并配合 AppArmor 等强制访问控制限制 cupsd 对 /etc/cups、/etc/cups/interfaces 的写入。 3. 审计打印队列：使用 lpstat -v/检查 printers.conf，排查设备 URI 指向 serial:/ 且路径不是真实串口设备（如指向 /etc/cups/...）的队列，发现后立即删除。",
+    "component_text": "CUPS 是 OpenPrinting 维护的开源打印系统，是 Linux/Unix 平台事实上的打印服务标准，组件包括调度进程 cupsd、过滤器/后端框架以及 Web 管理界面；cups-filters 提供 serial、parallel 等后端。除桌面打印场景外，CUPS 还广泛部署于多用户主机、共享开发机、CI Runner 与打印服务器，常以 root 权限运行 cupsd 并提供本地打印管理接口。",
+    "vulnerability_text": "近日，安全团队监测到 CUPS 本地权限提升漏洞(QVD-2026-70361)，该漏洞源于利用链将多个配置与权限边界缺陷串联：具备 lpadmin 组成员的本地攻击者首先利用以 root 权限运行的 serial 后端改写 /etc/cups/cups-files.conf，再通过畸形 IPP 订阅请求使 cupsd 崩溃并由 systemd 自动重启，从而以攻击者控制的 ServerBin 目录重启服务，最终由 cupsd 以 root 身份执行被替换的 cups-exec，获得交互式 root shell。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 利用条件 1. 本地账号且属于 lpadmin 组；目标使用 systemd； 2. 本地 CUPS 服务活跃； 3. 存在以 root 运行的特权 serial 后端。",
+    "affected_versions_text": "Ubuntu 26.04 LTS（cups 2.4.16-1ubuntu1.3、cups-filters 2.0.1-0ubuntu4.1）；PoC 自述支持 AMD64/ARM64。其他满足“systemd + 本地 CUPS 服务 + 特权 serial 后端 + 标准 Ubuntu CUPS 路径”条件的 Ubuntu/Debian 发行版可能同样受影响。",
+    "plain_text": "安全团队 安全团队 2026-09-18 14:50 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** CUPS 是 OpenPrinting 维护的开源打印系统，是 Linux/Unix 平台事实上的打印服务标准，组件包括调度进程 cupsd、过滤器/后端框架以及 Web 管理界面；cups-filters 提供 serial、parallel 等后端。除桌面打印场景外，CUPS 还广泛部署于多用户主机、共享开发机、CI Runner 与打印服务器，常以 root 权限运行 cupsd 并提供本地打印管理接口。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 CUPS 本地权限提升漏洞(QVD-2026-70361)，该漏洞源于利用链将多个配置与权限边界缺陷串联：具备 lpadmin 组成员的本地攻击者首先利用以 root 权限运行的 serial 后端改写 /etc/cups/cups-files.conf，再通过畸形 IPP 订阅请求使 cupsd 崩溃并由 systemd 自动重启，从而以攻击者控制的 ServerBin 目录重启服务，最终由 cupsd 以 root 身份执行被替换的 cups-exec，获得交互式 root shell。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 1. 本地账号且属于 lpadmin 组；目标使用 systemd； 2. 本地 CUPS 服务活跃； 3. 存在以 root 运行的特权 serial 后端。 **02** **影响范围** **>** **>** **>** **>** **影响版本** Ubuntu 26.04 LTS（cups 2.4.16-1ubuntu1.3、cups-filters 2.0.1-0ubuntu4.1）；PoC 自述支持 AMD64/ARM64。其他满足“systemd + 本地 CUPS 服务 + 特权 serial 后端 + 标准 Ubuntu CUPS 路径”条件的 Ubuntu/Debian 发行版可能同样受影响。 **03** **复现情况** 目前， 安全团队已成功复现 CUPS 本地权限提升漏洞(QVD-2026-70361) ，截图如下： **04** **受影响资产情况** 安全团队鹰图资产测绘平台数据显示， CUPS 本地权限提升漏洞(QVD-2026-70361) 关联的国内风险资产总数为30511个，关联IP总数为28139个。国内风险资产分布情况如下： CUPS 本地权限提升漏洞(QVD-2026-70361) 关联的全球风险资产总数为183759个，关联IP总数为179797个。全球风险资产分布情况如下： **05** **处置建议** **>** **>** **>** **>** **安全更新** 截至 2026 年 9 月 18 日，上游 OpenPrinting 与各发行版尚未发布针对该利用链的安全公告、CVE 编号或补丁。建议持续关注以下渠道，并在补丁发布后第一时间更新： https://github.com/OpenPrinting/cups/security/advisories https://github.com/OpenPrinting/cups-filters/security/advisories 临时缓解措施： 1. 收紧 lpadmin 权限：审计并清理 lpadmin 组成员，仅保留可信管理员；getent group lpadmin。 2. 处置特权 serial 后端：不需要串口打印的主机可卸载 cups-filters 对应的 serial 后端或移除后端文件；仅在必要时保留，并配合 AppArmor 等强制访问控制限制 cupsd 对 /etc/cups、/etc/cups/interfaces 的写入。 3. 审计打印队列：使用 lpstat -v/检查 printers.conf，排查设备 URI 指向 serial:/ 且路径不是真实串口设备（如指向 /etc/cups/...）的队列，发现后立即删除。 **06** **参考资料** [1] https://github.com/v12-security/pocs/tree/main/cups/cups2root **07** **时间线** 2026年09月18日，安全团队发布安全风险通告。 **08** **漏洞情报服务** 「 安全团队漏洞情报平台 」 重磅上线，诚邀您来体验： ![图片][3] ![图片][4] ![图片][5] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/v12-security/pocs/tree/main/cups/cups2root"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/v12-security/pocs/tree/main/cups/cups2root",
+      "content": "pocs/cups/cups2root at main · v12-security/pocs · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert v12-security / pocs Public Notifications You must be signed in to change notification settings Fork 151 Star 999 Code Pull requests 0 Actions Security and quality 0 Insights Additional navigation options Code Pull requests Actions Security and quality Insights Files Expand file tree main Breadcrumbs pocs / cups / cups2root / Copy path Directory actions More options More options Directory actions More options More options Latest commit History History History main Breadcrumbs pocs / cups / cups2root / Copy path Top Folders and files Name Name Last commit message Last commit date parent directory .. README.md README.md cups2root.py cups2root.py View all files README.md Outline cups2root Abstract This PoC chains CUPS configuration and privilege-boundary flaws to open an interactive root shell from a local account in the lpadmin group: the privileged serial backend can overwrite /etc/cups/cups-files.conf ; a malformed IPP request crash-restarts CUPS with an attacker-controlled ServerBin directory; the restarted daemon executes a replacement cups-exec as root. The exploit preserves the original configuration, supports AMD64 and ARM64, and removes its queue and local artifacts after the root shell exits. Exploitation Run the PoC as a local user whose supplementary groups include lpadmin and whose primary group is neither lpadmin , root , nor a configured CUPS SystemGroup : python3 cups2root.py The target must use systemd, have an active local CUPS service and serial backend, and provide the standard Ubuntu CUPS paths used by the exploit. No third-party Python dependencies are required. After exploitation succeeds, the PoC opens an interactive root shell. Exit the shell to let it remove the temporary setuid shell and other artifacts. How It Works The PoC creates a raw serial printer whose device URI points at /etc/cups/cups-files.conf . Because the serial backend runs as root, print data replaces the configuration from the backend's 2,048-byte offset. It injects the caller's primary group as "
+    }
+  ],
+  "payload": {
+    "vulner_name": "CUPS权限提升漏洞",
+    "vulner_number_1": "",
+    "vulner_number_2": "",
+    "new_vulner_name": "CUPS权限提升漏洞",
+    "vulner_date": "2026年9月18日",
+    "vulner_time_line": "2026/09/18",
+    "object_name": "CUPS",
+    "object_desc": "CUPS（Common Unix Printing System）是类Unix操作系统上的标准打印系统，负责管理打印机队列、驱动加载和打印协议支持，为桌面和服务器环境提供统一的打印服务。",
+    "vulner_version": "CUPS ≤ 2.4.16-1ubuntu1.3 (Ubuntu 26.04 LTS) cups-filters ≤ 2.0.1-0ubuntu4.1 (Ubuntu 26.04 LTS)",
+    "vulner_type": "权限提升",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "本地账号属于 lpadmin 组；目标使用 systemd；本地 CUPS 服务活跃；存在以 root 运行的特权 serial 后端",
+    "trigger_mode": "本地",
+    "utilize_difficulty": "高",
+    "hazard_level": "CVSS 3.1 评分 7.8；威胁类型为权限提升；影响量级十万级；POC、EXP、技术细节均已公开",
+    "vuln_level": "高危",
+    "vulner_desc": "该漏洞为一个本地权限提升利用链，攻击者利用CUPS中serial后端以root权限运行的特性，通过创建原始串口打印机将攻击者可控内容写入/etc/cups/cups-files.conf配置文件；随后发送畸形IPP订阅请求触发cupsd崩溃，在systemd重启服务时以攻击者预先设置的ServerBin目录加载，从而实现以root身份执行替换后的cups-exec二进制文件，最终获得交互式root shell。整个利用过程涉及配置注入、服务崩溃重启及权限边界跨越的组合缺陷。",
+    "official_solution": "关注上游安全公告，采用临时缓解措施收紧lpadmin权限并移除特权serial后端。",
+    "reference_link": "https://github.com/v12-security/pocs/tree/main/cups/cups2root",
+    "reference_link1": "https://github.com/OpenPrinting/cups/security/advisories",
+    "reference_link2": "https://github.com/OpenPrinting/cups-filters/security/advisories"
+  }
+}
