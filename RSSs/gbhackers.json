@@ -12168,5 +12168,20 @@
         "title": "Critical pgAdmin Authentication Bypass Lets Attackers Login as Administrator Without Credentials",
         "link": "https://gbhackers.com/critical-pgadmin-authentication-bypass/",
         "published": "Fri, 18 Sep 2026 09:31:53 +0000"
+    },
+    {
+        "title": "North Korean WaterPlum Hackers Target IT Professionals With Fake Job Interviews to Steal Crypto",
+        "link": "https://gbhackers.com/north-korean-waterplum-hackers-target-it-professionals/",
+        "published": "Sat, 19 Sep 2026 09:01:16 +0000"
+    },
+    {
+        "title": "AI-Powered RatHat Android Trojan Steals Bank Credentials, PINs and MFA Codes",
+        "link": "https://gbhackers.com/ai-powered-rathat-android-trojan-steals-bank-credentials/",
+        "published": "Sat, 19 Sep 2026 08:29:06 +0000"
+    },
+    {
+        "title": "PowerShell Malware Abuses Registry and DNS TXT Records to Deploy XMRig Crypto Miner",
+        "link": "https://gbhackers.com/powershell-malware-abuses-registry-and-dns-txt-records/",
+        "published": "Sat, 19 Sep 2026 07:11:04 +0000"
     }
 ]

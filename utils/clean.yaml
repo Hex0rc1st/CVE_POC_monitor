@@ -5648,3 +5648,6 @@ clean_list:
 - CVE-2026-81642
 - CVE-2026-93453
 - K80Pro-miro-CVE-2026-64560
+- -Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318
+- cve-2025-55182-lab
+- CVE-2024-57521-RuoYi-SQLi

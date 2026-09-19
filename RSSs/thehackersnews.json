@@ -8278,5 +8278,25 @@
         "title": "Public Exploits Released for Four Linux Kernel Flaws That Enable Local Root",
         "link": "https://thehackernews.com/2026/09/public-exploits-released-for-four-linux.html",
         "published": "Fri, 18 Sep 2026 23:32:24 +0530"
+    },
+    {
+        "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+        "published": "Sat, 19 Sep 2026 13:48:54 +0530"
+    },
+    {
+        "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+        "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+        "published": "Sat, 19 Sep 2026 13:21:34 +0530"
+    },
+    {
+        "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+        "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+        "published": "Sat, 19 Sep 2026 12:44:54 +0530"
+    },
+    {
+        "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+        "published": "Sat, 19 Sep 2026 11:54:10 +0530"
     }
 ]
