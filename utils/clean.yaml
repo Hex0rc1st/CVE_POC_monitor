@@ -5651,3 +5651,5 @@ clean_list:
 - -Help-vivo-Y200i-5.10.218-GKI-CVE-2026-43499-stack-reclaim-reaches-0x300-need-0x318
 - cve-2025-55182-lab
 - CVE-2024-57521-RuoYi-SQLi
+- CVE-2026-93659-writeup
+- cve-2026-75157-poc
