@@ -1855,3 +1855,5 @@ https://mp.weixin.qq.com/s/A0h3oCFG6EB8TEomt5Pxbw
 https://mp.weixin.qq.com/s/qWZEFKixXDj3asXm7Hme-A
 奇安信cert::【已复现】CUPS 本地权限提升漏洞(QVD-2026-70361)安全风险通告
 https://mp.weixin.qq.com/s/HnPHtleUt3p-k0Ri6bO0_A
+360漏洞研究院::【已复现】WordPress 核心主题预览缺陷可导致RCE漏洞（Click2Shell）
+https://mp.weixin.qq.com/s/gCzjmru9awQp-YrMH3MyPg
