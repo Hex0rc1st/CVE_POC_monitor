@@ -1857,3 +1857,5 @@ https://mp.weixin.qq.com/s/qWZEFKixXDj3asXm7Hme-A
 https://mp.weixin.qq.com/s/HnPHtleUt3p-k0Ri6bO0_A
 360漏洞研究院::【已复现】WordPress 核心主题预览缺陷可导致RCE漏洞（Click2Shell）
 https://mp.weixin.qq.com/s/gCzjmru9awQp-YrMH3MyPg
+奇安信cert::【已复现】WordPress Click2Shell 核心预认证远程代码执行漏洞(QVD-2026-70986)安全风险通告
+https://mp.weixin.qq.com/s/yAkS1WJ431Zx7nW5FNmv7Q
