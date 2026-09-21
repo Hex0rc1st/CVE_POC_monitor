@@ -12238,5 +12238,30 @@
         "title": "Hackers Exploit TanStack Supply Chain Attack to Steal 170 Private CrowdSec Repositories",
         "link": "https://gbhackers.com/hackers-exploit-tanstack-supply-chain-attack/",
         "published": "Mon, 21 Sep 2026 05:18:47 +0000"
+    },
+    {
+        "title": "NightEagle Uses BlueKeep and DCSync to Move Toward Active Directory Domain Controllers",
+        "link": "https://gbhackers.com/nighteagle-attack-chain/",
+        "published": "Mon, 21 Sep 2026 13:27:36 +0000"
+    },
+    {
+        "title": "10 Malicious npm Packages Linked to Runtime Malware Campaign With Millions of Downloads",
+        "link": "https://gbhackers.com/10-malicious-npm-packages/",
+        "published": "Mon, 21 Sep 2026 12:49:50 +0000"
+    },
+    {
+        "title": "PAYLOAD Ransomware Abuses Active Directory Group Policy to Disrupt Entire Windows Domain",
+        "link": "https://gbhackers.com/payload-ransomware-abuses-active-directory-group-policy/",
+        "published": "Mon, 21 Sep 2026 11:54:18 +0000"
+    },
+    {
+        "title": "New Rapuncel Infostealer Abuses Microsoft-Signed Driver to Disable 145 Security Tools",
+        "link": "https://gbhackers.com/new-rapuncel-infostealer-abuses-microsoft-signed-driver/",
+        "published": "Mon, 21 Sep 2026 11:36:46 +0000"
+    },
+    {
+        "title": "BigDiskBuster Windows Defender DoS Vulnerability Blocks Platform and Signature Updates",
+        "link": "https://gbhackers.com/bigdiskbuster-windows-defender-dos-vulnerability/",
+        "published": "Mon, 21 Sep 2026 11:01:28 +0000"
     }
 ]

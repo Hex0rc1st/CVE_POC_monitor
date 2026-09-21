@@ -319,3 +319,4 @@ https://github.com/Ping-2o/ios.CVE-2026-84616-84607
 https://github.com/P34NUT2/CVE-2025-32432-exploit-by-P34NUT
 https://github.com/arvindear/wp2shell-PoC
 https://github.com/TheAndersMadsen/humane-aipin-ghostlock
+https://github.com/Malwation/CVE-2026-43786
