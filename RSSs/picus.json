@@ -1303,5 +1303,10 @@
         "title": "How Click2Shell Exploits WordPress Theme Installation for RCE",
         "link": "https://www.picussecurity.com/resource/blog/how-click2shell-exploits-wordpress-theme-installation-for-rce",
         "published": "Mon, 21 Sep 2026 07:48:52 GMT"
+    },
+    {
+        "title": "A Practical Guide to DPDPA Compliance Using Picus",
+        "link": "https://www.picussecurity.com/resource/blog/a-practical-guide-to-dpdpa-compliance-using-picus",
+        "published": "Mon, 21 Sep 2026 14:19:18 GMT"
     }
 ]
