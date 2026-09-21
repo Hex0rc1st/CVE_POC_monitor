@@ -12188,5 +12188,55 @@
         "title": "Google Gemini AI Hacked 3 Real Companies After Cybersecurity Test Exposed It to Internet",
         "link": "https://gbhackers.com/google-gemini-ai-hacked-3-real-companies/",
         "published": "Sat, 19 Sep 2026 13:16:43 +0000"
+    },
+    {
+        "title": "North Korea’s Hangro VPN Certificate Exposes Internal Network and Russia-Linked Infrastructure",
+        "link": "https://gbhackers.com/hangro-vpn-exposure/",
+        "published": "Mon, 21 Sep 2026 09:33:25 +0000"
+    },
+    {
+        "title": "Hackers Abuse Microsoft Teams to Pose as IT Support and Steal Employee Passwords",
+        "link": "https://gbhackers.com/hackers-abuse-microsoft-teams/",
+        "published": "Mon, 21 Sep 2026 09:09:24 +0000"
+    },
+    {
+        "title": "New Cache Key Injection Attack Lets Hackers Bypass Access Controls and Poison Nginx Caches",
+        "link": "https://gbhackers.com/new-cache-key-injection-attack/",
+        "published": "Mon, 21 Sep 2026 08:58:08 +0000"
+    },
+    {
+        "title": "Hackers Weaponize Terraform Lock Files to Infect DevOps Engineers With macOS Backdoors",
+        "link": "https://gbhackers.com/terraform-lock-files/",
+        "published": "Mon, 21 Sep 2026 08:53:58 +0000"
+    },
+    {
+        "title": "HEIF Heist Image Flaws Let Attackers Gain RCE Across Meta, Slack and GitHub Enterprise",
+        "link": "https://gbhackers.com/heif-heist-image-flaws/",
+        "published": "Mon, 21 Sep 2026 08:17:05 +0000"
+    },
+    {
+        "title": "New Remus Infostealer Steals OpenAI and Anthropic API Tokens, Passwords and Crypto Wallets",
+        "link": "https://gbhackers.com/remus-infostealer-campaign/",
+        "published": "Mon, 21 Sep 2026 07:19:52 +0000"
+    },
+    {
+        "title": "Exim Mail Server Hit by 4 Security Flaws Enabling SMTP Smuggling and Heap Corruption",
+        "link": "https://gbhackers.com/exim-mail-server-hit-by-4-security-flaws/",
+        "published": "Mon, 21 Sep 2026 06:48:53 +0000"
+    },
+    {
+        "title": "EtherHiding Malware Abuses Polygon Blockchain to Hide C2 and Steal Banking Credentials",
+        "link": "https://gbhackers.com/etherhiding-malware-attack/",
+        "published": "Mon, 21 Sep 2026 05:51:05 +0000"
+    },
+    {
+        "title": "BragJack Attack Hijacks AI Assistants in 5 Popular Browsers With Zero Clicks",
+        "link": "https://gbhackers.com/bragjack-attack-hijacks-ai-assistants/",
+        "published": "Mon, 21 Sep 2026 05:35:16 +0000"
+    },
+    {
+        "title": "Hackers Exploit TanStack Supply Chain Attack to Steal 170 Private CrowdSec Repositories",
+        "link": "https://gbhackers.com/hackers-exploit-tanstack-supply-chain-attack/",
+        "published": "Mon, 21 Sep 2026 05:18:47 +0000"
     }
 ]

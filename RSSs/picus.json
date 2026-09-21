@@ -1298,5 +1298,10 @@
         "title": "Inside the OpenAI-RubyGems Incident: Did AI Agents Attack RubyGems?",
         "link": "https://www.picussecurity.com/resource/blog/openai-rubygems-incident-ai-agents",
         "published": "Tue, 15 Sep 2026 13:52:51 GMT"
+    },
+    {
+        "title": "How Click2Shell Exploits WordPress Theme Installation for RCE",
+        "link": "https://www.picussecurity.com/resource/blog/how-click2shell-exploits-wordpress-theme-installation-for-rce",
+        "published": "Mon, 21 Sep 2026 07:48:52 GMT"
     }
 ]
