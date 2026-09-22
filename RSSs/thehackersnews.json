@@ -8398,5 +8398,35 @@
         "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
         "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
         "published": "Tue, 22 Sep 2026 15:08:18 +0530"
+    },
+    {
+        "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+        "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+        "published": "Tue, 22 Sep 2026 23:59:39 +0530"
+    },
+    {
+        "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+        "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+        "published": "Tue, 22 Sep 2026 23:33:10 +0530"
+    },
+    {
+        "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+        "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+        "published": "Tue, 22 Sep 2026 23:28:15 +0530"
+    },
+    {
+        "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+        "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+        "published": "Tue, 22 Sep 2026 22:33:31 +0530"
+    },
+    {
+        "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+        "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+        "published": "Tue, 22 Sep 2026 22:11:12 +0530"
+    },
+    {
+        "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+        "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+        "published": "Tue, 22 Sep 2026 21:44:04 +0530"
     }
 ]
