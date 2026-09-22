@@ -8368,5 +8368,35 @@
         "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
         "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
         "published": "Tue, 22 Sep 2026 11:01:59 +0530"
+    },
+    {
+        "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+        "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+        "published": "Tue, 22 Sep 2026 18:00:00 +0530"
+    },
+    {
+        "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+        "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+        "published": "Tue, 22 Sep 2026 17:59:00 +0530"
+    },
+    {
+        "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+        "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+        "published": "Tue, 22 Sep 2026 17:15:00 +0530"
+    },
+    {
+        "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+        "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+        "published": "Tue, 22 Sep 2026 17:08:40 +0530"
+    },
+    {
+        "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+        "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+        "published": "Tue, 22 Sep 2026 16:47:41 +0530"
+    },
+    {
+        "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+        "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+        "published": "Tue, 22 Sep 2026 15:08:18 +0530"
     }
 ]

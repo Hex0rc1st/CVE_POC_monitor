@@ -5684,3 +5684,7 @@ clean_list:
 - CVE-2026-13355
 - CVE-2026-19658
 - CVE-2026-93485
+- CVE-2026-51772-CVE-2026-51772
+- CVE-2026-51772-CVE-2026-51773
+- linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-
+- CVE-2026-68376-Ubuntu-7.0.0-30-Poc

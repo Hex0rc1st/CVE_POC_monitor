@@ -1865,3 +1865,5 @@ https://mp.weixin.qq.com/s/8p2W2lV8qQ9BOm0YHUj6bw
 https://mp.weixin.qq.com/s/WfgXSesERNF77648ydOPOw
 微步在线研究响应中心::假期挖洞不卡壳，X漏洞计划焕新升级！
 https://mp.weixin.qq.com/s/99n5l7ozCGf1ZJdXyHGPXQ
+奇安信cert::【已复现】Microsoft SharePoint 远程代码执行漏洞(CVE-2026-65660)安全风险通告
+https://mp.weixin.qq.com/s/rMPj6tVo23jasLZxzSq7YQ

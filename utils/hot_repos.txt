@@ -321,3 +321,4 @@ https://github.com/arvindear/wp2shell-PoC
 https://github.com/TheAndersMadsen/humane-aipin-ghostlock
 https://github.com/Malwation/CVE-2026-43786
 https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob
+https://github.com/Wh02m1/CVE-2026-78306
