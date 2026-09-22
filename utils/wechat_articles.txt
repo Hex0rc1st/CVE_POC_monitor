@@ -1859,3 +1859,9 @@ https://mp.weixin.qq.com/s/HnPHtleUt3p-k0Ri6bO0_A
 https://mp.weixin.qq.com/s/gCzjmru9awQp-YrMH3MyPg
 奇安信cert::【已复现】WordPress Click2Shell 核心预认证远程代码执行漏洞(QVD-2026-70986)安全风险通告
 https://mp.weixin.qq.com/s/yAkS1WJ431Zx7nW5FNmv7Q
+360漏洞研究院::国内首部智能体安全漏洞治理蓝皮书发布！
+https://mp.weixin.qq.com/s/8p2W2lV8qQ9BOm0YHUj6bw
+360漏洞研究院::【已复现】WordPress 无需认证的零点击存储型 XSS 可导致 RCE（Comment2Shell）
+https://mp.weixin.qq.com/s/WfgXSesERNF77648ydOPOw
+微步在线研究响应中心::假期挖洞不卡壳，X漏洞计划焕新升级！
+https://mp.weixin.qq.com/s/99n5l7ozCGf1ZJdXyHGPXQ
