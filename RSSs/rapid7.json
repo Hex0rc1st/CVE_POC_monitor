@@ -1158,5 +1158,10 @@
         "title": "CVE-2026-76461: Critical Cisco Secure Email Gateway Vulnerability Exploited in the Wild",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-76461-critical-cisco-secure-email-gateway-vulnerability-exploited-in-the-wild",
         "published": "Tue, 15 Sep 2026 12:22:50 GMT"
+    },
+    {
+        "title": "CVE-2026-94127: Critical Unauthenticated RCE in F5 BIG-IP APM",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-94127-critical-unauthenticated-rce-in-f5-big-ip-apm",
+        "published": "Wed, 23 Sep 2026 08:43:39 GMT"
     }
 ]

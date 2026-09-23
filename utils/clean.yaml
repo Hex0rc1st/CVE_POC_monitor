@@ -5694,3 +5694,7 @@ clean_list:
 - CVE-2025-22457-vulnserver-lab
 - CVE-2026-87902-A-working-PoC-for-WordPress-s-critical-path-traversal
 - CVE-2026-90847
+- CVE-2026-1769-WriteUp
+- CVE-2026-87902
+- CVE-2026-94127
+- CVE-2026-94545

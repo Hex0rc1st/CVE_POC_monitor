@@ -8428,5 +8428,25 @@
         "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
         "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
         "published": "Tue, 22 Sep 2026 21:44:04 +0530"
+    },
+    {
+        "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+        "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+        "published": "Wed, 23 Sep 2026 13:59:48 +0530"
+    },
+    {
+        "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+        "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+        "published": "Wed, 23 Sep 2026 13:59:24 +0530"
+    },
+    {
+        "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+        "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+        "published": "Wed, 23 Sep 2026 12:34:40 +0530"
+    },
+    {
+        "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+        "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+        "published": "Wed, 23 Sep 2026 11:00:09 +0530"
     }
 ]
