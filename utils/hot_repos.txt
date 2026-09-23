@@ -323,3 +323,4 @@ https://github.com/Malwation/CVE-2026-43786
 https://github.com/devrodT2/CVE-2026-28609-matroska-pcm-oob
 https://github.com/Wh02m1/CVE-2026-78306
 https://github.com/abraxas/CVE-2026-87902
+https://github.com/ressl/cve-2026-87902-poc
