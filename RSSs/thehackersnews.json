@@ -8448,5 +8448,40 @@
         "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
         "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
         "published": "Wed, 23 Sep 2026 11:00:09 +0530"
+    },
+    {
+        "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+        "link": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+        "published": "Wed, 23 Sep 2026 21:36:41 +0530"
+    },
+    {
+        "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+        "link": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+        "published": "Wed, 23 Sep 2026 19:47:58 +0530"
+    },
+    {
+        "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+        "link": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+        "published": "Wed, 23 Sep 2026 19:22:46 +0530"
+    },
+    {
+        "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+        "link": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+        "published": "Wed, 23 Sep 2026 17:46:00 +0530"
+    },
+    {
+        "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+        "link": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+        "published": "Wed, 23 Sep 2026 17:17:19 +0530"
+    },
+    {
+        "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+        "link": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+        "published": "Wed, 23 Sep 2026 17:17:13 +0530"
+    },
+    {
+        "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+        "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+        "published": "Wed, 23 Sep 2026 16:42:18 +0530"
     }
 ]

@@ -12338,5 +12338,55 @@
         "title": "Critical F5 BIG-IP APM Flaw Actively Exploited for Remote Code Execution",
         "link": "https://gbhackers.com/critical-f5-big-ip-apm-flaw/",
         "published": "Wed, 23 Sep 2026 04:52:42 +0000"
+    },
+    {
+        "title": "Fake Crypto Wallet App Delivers PamStealer Malware That Hijacks Mac Credentials",
+        "link": "https://gbhackers.com/fake-crypto-wallet-app/",
+        "published": "Wed, 23 Sep 2026 13:21:30 +0000"
+    },
+    {
+        "title": "Exvicy ClickFix Malware-as-a-Service Copies ErrTraffic to Hijack WordPress Sites",
+        "link": "https://gbhackers.com/exvicy-clickfix-malware/",
+        "published": "Wed, 23 Sep 2026 12:29:44 +0000"
+    },
+    {
+        "title": "HPE Networking Analytics Engine Flaws Let Attackers Gain Root Access",
+        "link": "https://gbhackers.com/hpe-networking-analytics-engine-flaws-let-attackers-gain-root-access/",
+        "published": "Wed, 23 Sep 2026 11:47:34 +0000"
+    },
+    {
+        "title": "Cybercriminals Abandon Domains but Keep the Hosting Networks Behind Malware Campaigns",
+        "link": "https://gbhackers.com/malware-hosting-networks/",
+        "published": "Wed, 23 Sep 2026 11:40:52 +0000"
+    },
+    {
+        "title": "SolarWinds Observability Flaws Let Unauthenticated Attackers Execute Remote Code",
+        "link": "https://gbhackers.com/solarwinds-observability-flaws/",
+        "published": "Wed, 23 Sep 2026 11:32:55 +0000"
+    },
+    {
+        "title": "Microsoft Warns of EvilTokens AI Phishing Service Hijacking Thousands of Accounts",
+        "link": "https://gbhackers.com/eviltokens-ai-phishing/",
+        "published": "Wed, 23 Sep 2026 10:25:35 +0000"
+    },
+    {
+        "title": "Graphalgo Malware Uses Malicious Terraform Providers and Go Modules to Deploy RAT",
+        "link": "https://gbhackers.com/graphalgo-malware/",
+        "published": "Wed, 23 Sep 2026 10:00:39 +0000"
+    },
+    {
+        "title": "NVIDIA Infrastructure Controller Hit by 14 Flaws Enabling Code Execution and Privilege Escalation",
+        "link": "https://gbhackers.com/nvidia-infrastructure-controller-hit-by-14-flaws-enabling-code-execution-and-privilege-escalation/",
+        "published": "Wed, 23 Sep 2026 09:25:02 +0000"
+    },
+    {
+        "title": "ManageEngine RCE Flaw Enables SYSTEM Code Execution From Windows Login Screen",
+        "link": "https://gbhackers.com/manageengine-rce-flaw/",
+        "published": "Wed, 23 Sep 2026 09:17:33 +0000"
+    },
+    {
+        "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
+        "link": "https://gbhackers.com/critical-wordpress-flaw/",
+        "published": "Wed, 23 Sep 2026 09:10:16 +0000"
     }
 ]

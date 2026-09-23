@@ -1163,5 +1163,10 @@
         "title": "CVE-2026-94127: Critical Unauthenticated RCE in F5 BIG-IP APM",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-94127-critical-unauthenticated-rce-in-f5-big-ip-apm",
         "published": "Wed, 23 Sep 2026 08:43:39 GMT"
+    },
+    {
+        "title": "How dynamic application security testing validates risk at runtime",
+        "link": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
+        "published": "Wed, 23 Sep 2026 13:49:39 GMT"
     }
 ]
