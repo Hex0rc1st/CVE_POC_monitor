@@ -8483,5 +8483,15 @@
         "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
         "link": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
         "published": "Wed, 23 Sep 2026 16:42:18 +0530"
+    },
+    {
+        "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+        "link": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+        "published": "Wed, 23 Sep 2026 23:36:30 +0530"
+    },
+    {
+        "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+        "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+        "published": "Wed, 23 Sep 2026 22:23:10 +0530"
     }
 ]

@@ -233,5 +233,10 @@
         "title": "The Apple Security Update Review for September 2026",
         "link": "https://www.thezdi.com/blog/2026/9/16/the-apple-security-update-review-for-september-2026",
         "published": "Wed, 16 Sep 2026 19:58:14 +0000"
+    },
+    {
+        "title": "CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer",
+        "link": "https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer",
+        "published": "Wed, 23 Sep 2026 19:03:34 +0000"
     }
 ]

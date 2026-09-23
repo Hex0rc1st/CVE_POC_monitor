@@ -2003,5 +2003,10 @@
         "title": "GitLab Critical Patch Release: 19.3.2, 19.2.6, 19.1.8",
         "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-3-2-released/",
         "published": "2026-09-10T00:00:00Z"
+    },
+    {
+        "title": "GitLab Critical Patch Release: 19.4.1, 19.3.3, 19.2.7",
+        "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-1-released/",
+        "published": "2026-09-23T00:00:00Z"
     }
 ]
