@@ -5688,3 +5688,9 @@ clean_list:
 - CVE-2026-51772-CVE-2026-51773
 - linux-kernel-zero-day-mitigation-zero-downtime-kernel-defense-
 - CVE-2026-68376-Ubuntu-7.0.0-30-Poc
+- CVE-2026-93616-PoC
+- CVE-2026-90898
+- cve-2026-87902-wordpress-lfi-lab
+- CVE-2025-22457-vulnserver-lab
+- CVE-2026-87902-A-working-PoC-for-WordPress-s-critical-path-traversal
+- CVE-2026-90847

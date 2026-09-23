@@ -12313,5 +12313,30 @@
         "title": "D-Link DIR-822A Router Vulnerability Scores CVSS 10.0 With Public PoC Available",
         "link": "https://gbhackers.com/d-link-dir-822a-router-vulnerability/",
         "published": "Tue, 22 Sep 2026 08:58:31 +0000"
+    },
+    {
+        "title": "Researchers Find Malware That Uses AI Models Instead of Human Hackers for Control",
+        "link": "https://gbhackers.com/malware-driven-ai-models/",
+        "published": "Wed, 23 Sep 2026 05:52:17 +0000"
+    },
+    {
+        "title": "Hackers Exploit Check Point 0-Day Flaw to Execute Code on Management Servers",
+        "link": "https://gbhackers.com/hackers-exploit-check-point-0-day-flaw/",
+        "published": "Wed, 23 Sep 2026 05:17:22 +0000"
+    },
+    {
+        "title": "Stealthy WordPress Malware Uses Must-Use Plugin and Ethereum EtherHiding for Persistent Backdoor Access",
+        "link": "https://gbhackers.com/stealthy-wordpress-malware/",
+        "published": "Wed, 23 Sep 2026 05:17:17 +0000"
+    },
+    {
+        "title": "ShinyHunters Claims FBI Breach Exposed Data of All Employees and Applicants",
+        "link": "https://gbhackers.com/shinyhunters-claims-fbi-breach-exposed-data/",
+        "published": "Wed, 23 Sep 2026 05:06:06 +0000"
+    },
+    {
+        "title": "Critical F5 BIG-IP APM Flaw Actively Exploited for Remote Code Execution",
+        "link": "https://gbhackers.com/critical-f5-big-ip-apm-flaw/",
+        "published": "Wed, 23 Sep 2026 04:52:42 +0000"
     }
 ]
