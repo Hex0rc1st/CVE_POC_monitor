@@ -8493,5 +8493,20 @@
         "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
         "link": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
         "published": "Wed, 23 Sep 2026 22:23:10 +0530"
+    },
+    {
+        "title": "OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files",
+        "link": "https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html",
+        "published": "Thu, 24 Sep 2026 12:37:25 +0530"
+    },
+    {
+        "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+        "link": "https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html",
+        "published": "Thu, 24 Sep 2026 12:02:03 +0530"
+    },
+    {
+        "title": "Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html",
+        "published": "Thu, 24 Sep 2026 11:06:18 +0530"
     }
 ]

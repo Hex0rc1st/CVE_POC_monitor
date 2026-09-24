@@ -5702,3 +5702,4 @@ clean_list:
 - honor-6.12.38-43499-research
 - cve-2026-94504
 - CVE-2026-84543
+- wordpress-cve-2026-87902

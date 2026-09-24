@@ -12388,5 +12388,55 @@
         "title": "Critical WordPress Flaw Lets Unauthenticated Attackers Execute Remote Code",
         "link": "https://gbhackers.com/critical-wordpress-flaw/",
         "published": "Wed, 23 Sep 2026 09:10:16 +0000"
+    },
+    {
+        "title": "Hackers Exploit Check Point VPN RCE and Management Zero-Day in Attacks",
+        "link": "https://gbhackers.com/hackers-exploit-check-point-vpn-rce-and-management-zero-day/",
+        "published": "Thu, 24 Sep 2026 09:41:25 +0000"
+    },
+    {
+        "title": "Operation Conflict Compass Deploys VelvetCake PowerShell Malware Through Malicious LNK Files",
+        "link": "https://gbhackers.com/velvetcake-powershell-malware/",
+        "published": "Thu, 24 Sep 2026 09:34:36 +0000"
+    },
+    {
+        "title": "New Windows Malware Built to Survive Takedowns With a Hidden P2P Command Network",
+        "link": "https://gbhackers.com/p2p-command-network/",
+        "published": "Thu, 24 Sep 2026 08:36:41 +0000"
+    },
+    {
+        "title": "Microsoft Rebuilds the SOC With AI Agents to Fight Machine-Speed Cyberattacks",
+        "link": "https://gbhackers.com/ai-powered-soc/",
+        "published": "Thu, 24 Sep 2026 07:55:06 +0000"
+    },
+    {
+        "title": "RemControl Android Malware Targets 30+ Banking Apps to Steal PINs and Credentials",
+        "link": "https://gbhackers.com/remcontrol-android-malware/",
+        "published": "Thu, 24 Sep 2026 07:21:59 +0000"
+    },
+    {
+        "title": "cPanel Permissions Flaw Allows Local Users to Read Other Accounts’ Calendar Data",
+        "link": "https://gbhackers.com/cpanel-permissions-flaw/",
+        "published": "Thu, 24 Sep 2026 07:08:28 +0000"
+    },
+    {
+        "title": "New Galago Ransomware Operation Emerges With Links to Panzer Extortion Group",
+        "link": "https://gbhackers.com/galago-ransomware-operation/",
+        "published": "Thu, 24 Sep 2026 06:06:25 +0000"
+    },
+    {
+        "title": "GitLab Email Token Lets Attackers Push Code to Main and Execute CI/CD Jobs",
+        "link": "https://gbhackers.com/gitlab-email-token/",
+        "published": "Thu, 24 Sep 2026 05:57:33 +0000"
+    },
+    {
+        "title": "Apache Tomcat 11.0.26 Fixes 12 Security Flaws Enabling WebSocket Bypass and DoS Attacks",
+        "link": "https://gbhackers.com/apache-tomcat-11-0-26-fixes-12-security-flaws/",
+        "published": "Thu, 24 Sep 2026 05:33:29 +0000"
+    },
+    {
+        "title": "Fake Firefox Extension Hijacks Google Accounts Without Stealing Passwords First",
+        "link": "https://gbhackers.com/fake-firefox-extension/",
+        "published": "Thu, 24 Sep 2026 05:15:38 +0000"
     }
 ]

@@ -327,3 +327,4 @@ https://github.com/ressl/cve-2026-87902-poc
 https://github.com/vulpecuna/CVE-2026-87902
 https://github.com/dinosn/cve-2026-87902-wordpress-lfi-lab
 https://github.com/oliveiralimajr/CVE_2026_87902
+https://github.com/petermalone/CVE-2026-84543
