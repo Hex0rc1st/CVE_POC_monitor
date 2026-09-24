@@ -12438,5 +12438,10 @@
         "title": "Fake Firefox Extension Hijacks Google Accounts Without Stealing Passwords First",
         "link": "https://gbhackers.com/fake-firefox-extension/",
         "published": "Thu, 24 Sep 2026 05:15:38 +0000"
+    },
+    {
+        "title": "Roundcube Webmail Flaw Lets Attackers Trigger SQL Injection Without Authentication",
+        "link": "https://gbhackers.com/roundcube-webmail-flaw/",
+        "published": "Thu, 24 Sep 2026 09:56:01 +0000"
     }
 ]

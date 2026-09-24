@@ -1168,5 +1168,10 @@
         "title": "How dynamic application security testing validates risk at runtime",
         "link": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
         "published": "Wed, 23 Sep 2026 13:49:39 GMT"
+    },
+    {
+        "title": "When Business Email Compromise Starts Rewriting Reality",
+        "link": "https://www.rapid7.com/blog/post/ve-business-email-compromise-rewriting-reality-zimbra-cve",
+        "published": "Thu, 24 Sep 2026 13:00:00 GMT"
     }
 ]

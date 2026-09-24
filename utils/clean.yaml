@@ -5703,3 +5703,10 @@ clean_list:
 - cve-2026-94504
 - CVE-2026-84543
 - wordpress-cve-2026-87902
+- TGSEC-Qtzuu123
+- cve-2026-87902
+- CVE-2026-43284-DIRTY-FRAG-
+- Dji_ble_vuln
+- netis-cve-2026-36539
+- CVE-2026-96515
+- wp-secure-mcp

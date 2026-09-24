@@ -1308,5 +1308,20 @@
         "title": "A Practical Guide to DPDPA Compliance Using Picus",
         "link": "https://www.picussecurity.com/resource/blog/a-practical-guide-to-dpdpa-compliance-using-picus",
         "published": "Mon, 21 Sep 2026 14:19:18 GMT"
+    },
+    {
+        "title": "Picus Security Announces The Validation Summit ’26 Featuring Keynote Speaker Mikko Hyppönen",
+        "link": "https://www.picussecurity.com/resource/press-release/the-validation-summit-2026-mikko-hypponen-ai-security",
+        "published": "Thu, 24 Sep 2026 14:00:03 GMT"
+    },
+    {
+        "title": "CVE-2026-94127 Explained: F5 BIG-IP APM Heap Overflow Attack",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-94127-explained-f5-big-ip-apm-heap-overflow-attack",
+        "published": "Thu, 24 Sep 2026 13:49:19 GMT"
+    },
+    {
+        "title": "Prove You’re Ready for Mythos-Class AI Attacks",
+        "link": "https://www.picussecurity.com/resource/webinar/prove-youre-ready-for-mythos-class-ai-attacks",
+        "published": "Thu, 24 Sep 2026 13:03:02 GMT"
     }
 ]
