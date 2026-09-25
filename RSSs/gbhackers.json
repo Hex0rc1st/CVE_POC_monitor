@@ -12473,5 +12473,40 @@
         "title": "Cloudflare Containers Flaw Could Expose Data From Other Customers’ Workloads",
         "link": "https://gbhackers.com/cloudflare-containers-flaw/",
         "published": "Fri, 25 Sep 2026 05:52:33 +0000"
+    },
+    {
+        "title": "Salmon Introduces Execution Verification Infrastructure (EVI) for Securing AI Agents and Autonomous Systems",
+        "link": "https://gbhackers.com/salmon-introduces-execution-verification-infrastructure-evi-for-securing-ai-agents-and-autonomous-systems/",
+        "published": "Fri, 25 Sep 2026 13:37:32 +0000"
+    },
+    {
+        "title": "14-Year-Old Linux Kernel Vulnerability Enables Root Access and Docker Escape",
+        "link": "https://gbhackers.com/14-year-old-linux-kernel-vulnerability/",
+        "published": "Fri, 25 Sep 2026 12:48:13 +0000"
+    },
+    {
+        "title": "ServiceNow Security Flaws Allow Attackers to Execute SQL and Modify Instance Data",
+        "link": "https://gbhackers.com/servicenow-security-flaws/",
+        "published": "Fri, 25 Sep 2026 10:58:04 +0000"
+    },
+    {
+        "title": "Rogue AI Agents Tried to Hack Public Websites After Data Retrieval Failed",
+        "link": "https://gbhackers.com/rogue-ai-agents-tried-to-hack-public-websites/",
+        "published": "Fri, 25 Sep 2026 10:41:35 +0000"
+    },
+    {
+        "title": "CISA Flags WSO2 Security Flaw Under Active Exploitation",
+        "link": "https://gbhackers.com/cisa-flags-wso2-security-flaw/",
+        "published": "Fri, 25 Sep 2026 10:14:50 +0000"
+    },
+    {
+        "title": "CISA Adds Multiple Check Point Product Flaws to Exploited Vulnerabilities List",
+        "link": "https://gbhackers.com/cisa-adds-multiple-check-point-product-flaws/",
+        "published": "Fri, 25 Sep 2026 10:05:49 +0000"
+    },
+    {
+        "title": "Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection",
+        "link": "https://gbhackers.com/salesforce-agentforce-flaw/",
+        "published": "Fri, 25 Sep 2026 07:47:45 +0000"
     }
 ]
