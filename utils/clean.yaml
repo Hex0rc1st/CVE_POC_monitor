@@ -5710,3 +5710,6 @@ clean_list:
 - netis-cve-2026-36539
 - CVE-2026-96515
 - wp-secure-mcp
+- EXPLOIT-CVE-2026-87902
+- CVE-2026-87902_PoC
+- CVE-2026-79417

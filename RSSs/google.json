@@ -2248,5 +2248,10 @@
         "title": "Chrome for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_02110293064.html",
         "published": "2026-09-23T14:00:00.000-07:00"
+    },
+    {
+        "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+        "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos_01638908712.html",
+        "published": "2026-09-24T16:11:16.171-07:00"
     }
 ]
