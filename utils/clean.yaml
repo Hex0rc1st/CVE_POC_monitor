@@ -5719,3 +5719,8 @@ clean_list:
 - Comment2Shell
 - CVE-2026-65660
 - cve-2026-43687
+- CVE-2026-14281
+- CVE-2026-89055
+- CVE-2026-93399
+- ghostlock-mrx-w09
+- Kestra-cve-2026-53576
