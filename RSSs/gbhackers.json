@@ -12508,5 +12508,35 @@
         "title": "Salesforce Agentforce Flaw Enables 0-Click Data Exfiltration via Prompt Injection",
         "link": "https://gbhackers.com/salesforce-agentforce-flaw/",
         "published": "Fri, 25 Sep 2026 07:47:45 +0000"
+    },
+    {
+        "title": "Red Heron Exploits Critical Gitea Flaw to Steal Repositories and Deploy Linux Rootkit",
+        "link": "https://gbhackers.com/red-heron-exploits-critical-gitea-flaw/",
+        "published": "Sat, 26 Sep 2026 08:15:11 +0000"
+    },
+    {
+        "title": "Windows 11 Update Causes Black Screen and Desktop Loading Issues After Sign-In",
+        "link": "https://gbhackers.com/windows-11-update-causes-black-screen/",
+        "published": "Sat, 26 Sep 2026 08:02:06 +0000"
+    },
+    {
+        "title": "Kiteworks Warns Users to Take Systems Offline Amid Suspected Zero-Day Threat",
+        "link": "https://gbhackers.com/kiteworks-systems-offline-amid-suspected-zero-day/",
+        "published": "Sat, 26 Sep 2026 07:45:21 +0000"
+    },
+    {
+        "title": "Uncensored Local AI Model Bypasses EDR to Dump Windows LSASS Credentials",
+        "link": "https://gbhackers.com/uncensored-local-ai-model-bypasses-edr/",
+        "published": "Sat, 26 Sep 2026 07:28:09 +0000"
+    },
+    {
+        "title": "Storm-3168 Hackers Abuse Compromised Service Principals to Destroy Azure Cloud Resources",
+        "link": "https://gbhackers.com/storm-3168-hackers-abuse-compromised-service-principals/",
+        "published": "Sat, 26 Sep 2026 07:09:54 +0000"
+    },
+    {
+        "title": "OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls",
+        "link": "https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/",
+        "published": "Sat, 26 Sep 2026 06:54:16 +0000"
     }
 ]
