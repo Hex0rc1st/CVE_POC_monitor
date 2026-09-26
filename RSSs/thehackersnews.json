@@ -8578,5 +8578,20 @@
         "title": "PamStealer macOS Malware Adds Live C2 Payload Decryption and Multi-Layer Persistence",
         "link": "https://thehackernews.com/2026/09/pamstealer-macos-malware-adds-live-c2.html",
         "published": "Fri, 25 Sep 2026 18:48:06 +0530"
+    },
+    {
+        "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+        "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+        "published": "Sat, 26 Sep 2026 15:25:22 +0530"
+    },
+    {
+        "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+        "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+        "published": "Sat, 26 Sep 2026 14:19:53 +0530"
+    },
+    {
+        "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+        "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+        "published": "Sat, 26 Sep 2026 13:18:33 +0530"
     }
 ]
