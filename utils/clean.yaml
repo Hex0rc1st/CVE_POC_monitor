@@ -5742,3 +5742,10 @@ clean_list:
 - CVE-2026-67279
 - POC-WP-CORE-CVE-2026-93485
 - CVE-2026-13249
+- YellowKey-BitLocker-CVE-2026-45585
+- cve-replay
+- CVE-2026-8712-Wyoming
+- CVE-2026-100740
+- POC-CVE-2025-11201
+- CVE-2026-44011-craftcms-auth-rce
+- citrix-netscaler-cve-2026-8452-rce
