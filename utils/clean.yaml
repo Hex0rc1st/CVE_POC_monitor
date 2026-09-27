@@ -5749,3 +5749,10 @@ clean_list:
 - POC-CVE-2025-11201
 - CVE-2026-44011-craftcms-auth-rce
 - citrix-netscaler-cve-2026-8452-rce
+- Reproduce-CVE-2025-32433
+- CVE-2026-63030-60137-wp2shell-lab
+- CVE-2026-12227
+- CVE-2026-28695-craft-rce-bypass
+- CVE-2026-100835
+- CVE-2026-67279-86060-Toolkit
+- CVE-2026-34990-poc
