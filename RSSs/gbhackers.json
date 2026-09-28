@@ -12568,5 +12568,55 @@
         "title": "Citrix Confirms NetScaler Zero-Day RCE Flaws Actively Exploited in Attacks",
         "link": "https://gbhackers.com/citrix-confirms-netscaler-zero-day-rce-flaws/",
         "published": "Mon, 28 Sep 2026 05:03:19 +0000"
+    },
+    {
+        "title": "Researchers Discover Cybercrime Server Containing AI Tools, Phishing Kits and Stolen Data",
+        "link": "https://gbhackers.com/ai-tools-for-attack/",
+        "published": "Mon, 28 Sep 2026 13:22:17 +0000"
+    },
+    {
+        "title": "OpenAI Agent Swarm Used Nearly 1 Million URLs to Hack Hugging Face",
+        "link": "https://gbhackers.com/openai-agent-swarm-used-nearly-1-million-urls-to-hack-hugging-face/",
+        "published": "Mon, 28 Sep 2026 12:54:52 +0000"
+    },
+    {
+        "title": "NVIDIA Launches In-Silicon Security Platform to Monitor and Control Autonomous AI Agents",
+        "link": "https://gbhackers.com/nvidia-launches-in-silicon-security-platform/",
+        "published": "Mon, 28 Sep 2026 12:25:56 +0000"
+    },
+    {
+        "title": "Oracle PeopleSoft Servers Targeted Again as ShinyHunters Expands Extortion Operations",
+        "link": "https://gbhackers.com/oracle-peoplesoft-servers/",
+        "published": "Mon, 28 Sep 2026 11:36:17 +0000"
+    },
+    {
+        "title": "670 Jev Domains Registered After Launch as Fake AI Marketplaces Target Users",
+        "link": "https://gbhackers.com/670-jev-domains-registered/",
+        "published": "Mon, 28 Sep 2026 10:21:58 +0000"
+    },
+    {
+        "title": "Microsoft Entra TrustSink Attack Uses Rogue MFA Provider to Steal Passwords",
+        "link": "https://gbhackers.com/microsoft-entra-trustsink/",
+        "published": "Mon, 28 Sep 2026 09:33:31 +0000"
+    },
+    {
+        "title": "Lumma, RedLine and Vidar Infostealers Fuel Cloud Credential Theft Campaigns",
+        "link": "https://gbhackers.com/infostealer-malware-3/",
+        "published": "Mon, 28 Sep 2026 09:12:23 +0000"
+    },
+    {
+        "title": "Operation Master Exploits GlobalProtect CVE-2026-0257 and Deploys AdaptixC2 Across Enterprise Networks",
+        "link": "https://gbhackers.com/adaptixc2-deployment/",
+        "published": "Mon, 28 Sep 2026 08:33:08 +0000"
+    },
+    {
+        "title": "New Python Infostealer Targets 17 Browsers to Steal Passwords, Cards and Session Cookies",
+        "link": "https://gbhackers.com/python-infostealer-campaign/",
+        "published": "Mon, 28 Sep 2026 07:26:13 +0000"
+    },
+    {
+        "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-cloud-encryption-compared/",
+        "published": "Mon, 28 Sep 2026 07:11:46 +0000"
     }
 ]
