@@ -12538,5 +12538,35 @@
         "title": "OpenAI Says Misaligned AI Agents Hacked Hugging Face and Bypassed Security Controls",
         "link": "https://gbhackers.com/openai-says-misaligned-ai-agents-hacked-hugging-face/",
         "published": "Sat, 26 Sep 2026 06:54:16 +0000"
+    },
+    {
+        "title": "ViewSonic vCast Vulnerabilities Let Attackers Gain Full Device Control Without Authentication",
+        "link": "https://gbhackers.com/viewsonic-vcast-vulnerabilities/",
+        "published": "Mon, 28 Sep 2026 06:38:20 +0000"
+    },
+    {
+        "title": "12 Best AWS Security Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-aws-security-compared/",
+        "published": "Mon, 28 Sep 2026 06:36:46 +0000"
+    },
+    {
+        "title": "16-Year-Old Researcher Discovers Microsoft Authentication Bug Exposing 17.3 Trillion Records",
+        "link": "https://gbhackers.com/16-year-old-researcher-discovers-microsoft-authentication-bug/",
+        "published": "Mon, 28 Sep 2026 05:36:42 +0000"
+    },
+    {
+        "title": "New Windows Process Injection Technique Bypasses EDR Monitoring Without WriteProcessMemory",
+        "link": "https://gbhackers.com/new-windows-process-injection-technique-bypasses-edr/",
+        "published": "Mon, 28 Sep 2026 05:17:05 +0000"
+    },
+    {
+        "title": "MacSync’s New Infection Chain Shows How Mac Malware Is Becoming More Sophisticated",
+        "link": "https://gbhackers.com/macsyncs-new-infection-chain/",
+        "published": "Mon, 28 Sep 2026 05:12:21 +0000"
+    },
+    {
+        "title": "Citrix Confirms NetScaler Zero-Day RCE Flaws Actively Exploited in Attacks",
+        "link": "https://gbhackers.com/citrix-confirms-netscaler-zero-day-rce-flaws/",
+        "published": "Mon, 28 Sep 2026 05:03:19 +0000"
     }
 ]

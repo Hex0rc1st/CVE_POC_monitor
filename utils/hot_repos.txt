@@ -332,3 +332,5 @@ https://github.com/watchtowrlabs/watchTowr-vs-f5-bigip-PreAuth-RCE-CVE-2026-9412
 https://github.com/DeathShotXD/Comment2Shell
 https://github.com/tc4dy/CVE-2026-87902-Toolkit
 https://github.com/petermalone/CVE-2026-43682
+https://github.com/predyy/CVE-2026-34990
+https://github.com/predyy/CVE-2026-28695
