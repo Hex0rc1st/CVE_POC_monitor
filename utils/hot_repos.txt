@@ -337,3 +337,4 @@ https://github.com/predyy/CVE-2026-28695
 https://github.com/ZeroDayEvil/CVE-2026-42980-PoC
 https://github.com/murrez/CVE-2026-88772
 https://github.com/EQSTLab/CVE-2026-85706
+https://github.com/watchtowrlabs/watchTowr-vs-Citrix-Netscaler-CVE-2026-88771
