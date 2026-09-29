@@ -1881,3 +1881,5 @@ https://mp.weixin.qq.com/s/JYjkHi2DUEAmzAvZVkFi0g
 https://mp.weixin.qq.com/s/TL7b8NgUQQr8QoDtysln6w
 微步在线研究响应中心::已在野利用！Citrix NetScaler ADC/Gateway RCE
 https://mp.weixin.qq.com/s/JsAzlQmqDKnzfASy8Sf-vQ
+奇安信cert::【在野利用】Citrix NetScaler 命令注入漏洞(CVE-2026-88771)安全风险通告
+https://mp.weixin.qq.com/s/dOH2cGZrcTLIa-2JT9PXow

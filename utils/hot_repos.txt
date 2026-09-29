@@ -344,3 +344,5 @@ https://github.com/ZeroDayEvil/CVE-2026-75604-PoC
 https://github.com/ZeroDayEvil/CVE-2026-43499
 https://github.com/ZeroDayEvil/CVE-2026-54121
 https://github.com/ZeroDayEvil/CVE-2026-62911
+https://github.com/EQSTLab/CVE-2026-94545
+https://github.com/coey0814/DirtyFrag-Galaxy
