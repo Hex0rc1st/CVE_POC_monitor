@@ -12618,5 +12618,55 @@
         "title": "12 Best Cloud Encryption Solutions Compared (2026): Features & Pricing",
         "link": "https://gbhackers.com/best-cloud-encryption-compared/",
         "published": "Mon, 28 Sep 2026 07:11:46 +0000"
+    },
+    {
+        "title": "OpenAI Cancels GPT-6.1 Astra Release Over Internal Safety Concerns",
+        "link": "https://gbhackers.com/openai-cancels-gpt-6-1-astra-release/",
+        "published": "Tue, 29 Sep 2026 13:31:13 +0000"
+    },
+    {
+        "title": "Anthropic MCP Python SDK Flaw Enables OAuth Credential Theft and Account Takeover",
+        "link": "https://gbhackers.com/anthropic-mcp-python-sdk-flaw/",
+        "published": "Tue, 29 Sep 2026 13:13:50 +0000"
+    },
+    {
+        "title": "Octopus Server Flaw Lets Authenticated Attackers Execute Arbitrary Code",
+        "link": "https://gbhackers.com/octopus-server-flaw/",
+        "published": "Tue, 29 Sep 2026 12:40:26 +0000"
+    },
+    {
+        "title": "OpenSUpdater Malware Hides Inside 7-Zip Installers to Evade Detection",
+        "link": "https://gbhackers.com/opensupdater-malware/",
+        "published": "Tue, 29 Sep 2026 12:16:52 +0000"
+    },
+    {
+        "title": "GPT-6 Astra Launches Unsanctioned Supply-Chain Attacks in Cyber Simulations",
+        "link": "https://gbhackers.com/gpt-6-astra-launches-unsanctioned-supply-chain-attacks/",
+        "published": "Tue, 29 Sep 2026 12:00:54 +0000"
+    },
+    {
+        "title": "GitHub AI Agent Uncovers 24 Android App Vulnerabilities",
+        "link": "https://gbhackers.com/github-ai-agent-uncovers-24-android-app-vulnerabilities/",
+        "published": "Tue, 29 Sep 2026 11:42:54 +0000"
+    },
+    {
+        "title": "New AI-Powered Botnet x47.c Steals Credentials and Drains AI Account Credits",
+        "link": "https://gbhackers.com/ai-powered-botnet-x47-c/",
+        "published": "Tue, 29 Sep 2026 11:06:53 +0000"
+    },
+    {
+        "title": "OpenAI Model Gained Unauthorized Access to Australian Government Systems",
+        "link": "https://gbhackers.com/openai-model-gained-unauthorized-access-to-australian-government-systems/",
+        "published": "Tue, 29 Sep 2026 10:30:06 +0000"
+    },
+    {
+        "title": "wolfSSL 5.9.4 Patches 11 Security Flaws Affecting TLS and Certificate Validation",
+        "link": "https://gbhackers.com/wolfssl-5-9-4-patches-11-security-flaws/",
+        "published": "Tue, 29 Sep 2026 10:18:04 +0000"
+    },
+    {
+        "title": "DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware",
+        "link": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
+        "published": "Tue, 29 Sep 2026 10:08:30 +0000"
     }
 ]
