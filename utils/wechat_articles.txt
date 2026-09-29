@@ -1873,3 +1873,11 @@ https://mp.weixin.qq.com/s/TEVPPFTEACftPUsGp2a_mw
 https://mp.weixin.qq.com/s/2SVd_ECtRl9y2arWJej00A
 360漏洞研究院::首批！360入选国家人工智能安全漏洞库优秀技术支撑单位
 https://mp.weixin.qq.com/s/t4MMjuBUnw9Oe9X7LJS2Xw
+360漏洞研究院::从中国首个获奖者到三度捧杯：360再获全球网络安全“黑客奥斯卡”大奖
+https://mp.weixin.qq.com/s/OElkXzB4pl7jRZsEY9oeUA
+360漏洞研究院::【已复现】 Citrix NetScaler 未认证 RCE 已在野利用，默认配置受影响(CVE-2026-88771)
+https://mp.weixin.qq.com/s/JYjkHi2DUEAmzAvZVkFi0g
+长亭安全应急响应中心::【在野利用】Citrix NetScaler 命令注入漏洞（CVE-2026-88771）
+https://mp.weixin.qq.com/s/TL7b8NgUQQr8QoDtysln6w
+微步在线研究响应中心::已在野利用！Citrix NetScaler ADC/Gateway RCE
+https://mp.weixin.qq.com/s/JsAzlQmqDKnzfASy8Sf-vQ

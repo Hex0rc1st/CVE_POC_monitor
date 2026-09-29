@@ -8663,5 +8663,20 @@
         "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
         "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
         "published": "Mon, 28 Sep 2026 23:08:33 +0530"
+    },
+    {
+        "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+        "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+        "published": "Tue, 29 Sep 2026 11:38:25 +0530"
+    },
+    {
+        "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+        "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+        "published": "Tue, 29 Sep 2026 10:42:32 +0530"
+    },
+    {
+        "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+        "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+        "published": "Tue, 29 Sep 2026 10:15:20 +0530"
     }
 ]

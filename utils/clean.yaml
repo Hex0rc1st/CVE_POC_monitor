@@ -5782,3 +5782,5 @@ clean_list:
 - CVE-2026-101110
 - Break-This-Repo-Even-Further
 - CVE-2026-101108
+- CVE-2026-10817
+- nvd-vulnerability-dashboard

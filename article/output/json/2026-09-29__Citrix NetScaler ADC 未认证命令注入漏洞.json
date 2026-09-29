@@ -1,0 +1,68 @@
+{
+  "mode": "llm",
+  "title": "【已复现】 Citrix NetScaler 未认证 RCE 已在野利用，默认配置受影响(CVE-2026-88771)",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-09-29",
+  "table_fields": {
+    "漏洞名称": "Citrix NetScaler ADC／Gateway 未认证命令注入漏洞",
+    "漏洞编号": "CVE-2026-88771",
+    "公开时间": "2026-09-28",
+    "POC状态": "已公开",
+    "漏洞类型": "命令注入",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "已发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-09-29 15:52 Citrix NetScaler ADC 与 NetScaler Gateway 曝出严重未认证远程代码执行漏洞（CVE-2026-88771 CVSS 9.8）。该漏洞由输入校验不当引起，默认配置即可受到影响，未经身份认证的远程攻击者在满足触发条件时可使设备执行任意命令。该漏洞已确认存在在野利用。 **利用前置条件：** - 攻击者能够通过网络访问目标 NetScaler ADC 或 NetScaler Gateway 服务 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **漏洞影响范围** NetScaler ADC / NetScaler Gateway 14.1：受影响版本 < 14.1-73.37 NetScaler ADC / NetScaler Gateway 13.1：受影响版本 < 13.1-64.23 NetScaler ADC 14.1-FIPS：受影响版本 < 14.1-73.37 FIPS NetScaler ADC 13.1-FIPS / 13.1-NDcPP：受影响版本 < 13.1-37.279 **修复建议** **正式防护方案** 受影响产品升级至以下或更高版本 NetScaler ADC / NetScaler Gateway 14.1：修复版本 ≥ 14.1-73.37 NetScaler ADC / NetScaler Gateway 13.1：修复版本 ≥ 13.1-64.23 NetScaler ADC 14.1-FIPS：修复版本 ≥ 14.1-73.37 FIPS NetScaler ADC 13.1-FIPS / 13.1-NDcPP：修复版本 ≥ 13.1-37.279 **漏洞描述** 近日，Citrix 披露了 NetScaler ADC 与 NetScaler Gateway 中存在的输入校验不当漏洞（CVE-2026-88771）。该漏洞位于设备错误收集相关处理流程中，部分外部可控数据可被记录至系统日志，而旧版本脚本在解析日志并提取核心文件相关字段时，未对字段格式及特殊字符进行严格限制。随后，这些未经充分约束的数据被继续带入系统命令处理流程，导致其中的 Shell 元字符被解释执行，最终形成命令注入。未经身份认证的远程攻击者可通过能够写入相关日志的数据入口触发该漏洞，并在目标设备上执行任意命令，造成未认证远程代码执行。 **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-88771 漏洞，通过向受影响的 NetScaler 服务提交特制输入，使攻击者可控内容进入设备日志并被后续错误收集流程处理，最终成功触发高权限命令执行，验证该漏洞可造成未认证远程代码执行。 CVE-2026-88771 Citrix NetScaler ADC／Gateway 未认证命令注入漏洞复现 **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **时间线** 2026年9月29日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 受影响产品升级至以下或更高版本 NetScaler ADC / NetScaler Gateway 14.1：修复版本 ≥ 14.1-73.37 NetScaler ADC / NetScaler Gateway 13.1：修复版本 ≥ 13.1-64.23 NetScaler ADC 14.1-FIPS：修复版本 ≥ 14.1-73.37 FIPS NetScaler ADC 13.1-FIPS / 13.1-NDcPP：修复版本 ≥ 13.1-37.279",
+    "component_text": "",
+    "vulnerability_text": "近日，Citrix 披露了 NetScaler ADC 与 NetScaler Gateway 中存在的输入校验不当漏洞（CVE-2026-88771）。该漏洞位于设备错误收集相关处理流程中，部分外部可控数据可被记录至系统日志，而旧版本脚本在解析日志并提取核心文件相关字段时，未对字段格式及特殊字符进行严格限制。随后，这些未经充分约束的数据被继续带入系统命令处理流程，导致其中的 Shell 元字符被解释执行，最终形成命令注入。未经身份认证的远程攻击者可通过能够写入相关日志的数据入口触发该漏洞，并在目标设备上执行任意命令，造成未认证远程代码执行。 漏洞复现 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-88771 漏洞，通过向受影响的 NetScaler 服务提交特制输入，使攻击者可控内容进入设备日志并被后续错误收集流程处理，最终成功触发高权限命令执行，验证该漏洞可造成未认证远程代码执行。 CVE-2026-88771 Citrix NetScaler ADC／Gateway 未认证命令注入漏洞复现 产品侧支持情况 360安全智能体： 支持该漏洞攻击的智能分析 。 360测绘云 Quake ：默认支持该产品的指纹识别。 360高级持续性威胁预警系统 ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 360资产与漏洞检测管理系统 ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 本地安全大脑 ：默认支持该漏洞的PoC检测。",
+    "affected_versions_text": "NetScaler ADC / NetScaler Gateway 14.1：受影响版本 < 14.1-73.37\nNetScaler ADC / NetScaler Gateway 13.1：受影响版本 < 13.1-64.23\nNetScaler ADC 14.1-FIPS：受影响版本 < 14.1-73.37 FIPS\nNetScaler ADC 13.1-FIPS / 13.1-NDcPP：受影响版本 < 13.1-37.279",
+    "plain_text": "安全研究团队 安全研究团队 2026-09-29 15:52 Citrix NetScaler ADC 与 NetScaler Gateway 曝出严重未认证远程代码执行漏洞（CVE-2026-88771 CVSS 9.8）。该漏洞由输入校验不当引起，默认配置即可受到影响，未经身份认证的远程攻击者在满足触发条件时可使设备执行任意命令。该漏洞已确认存在在野利用。 **利用前置条件：** - 攻击者能够通过网络访问目标 NetScaler ADC 或 NetScaler Gateway 服务 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **01** **漏洞影响范围** NetScaler ADC / NetScaler Gateway 14.1：受影响版本 < 14.1-73.37 NetScaler ADC / NetScaler Gateway 13.1：受影响版本 < 13.1-64.23 NetScaler ADC 14.1-FIPS：受影响版本 < 14.1-73.37 FIPS NetScaler ADC 13.1-FIPS / 13.1-NDcPP：受影响版本 < 13.1-37.279 **02** **修复建议** **正式防护方案** 受影响产品升级至以下或更高版本 NetScaler ADC / NetScaler Gateway 14.1：修复版本 ≥ 14.1-73.37 NetScaler ADC / NetScaler Gateway 13.1：修复版本 ≥ 13.1-64.23 NetScaler ADC 14.1-FIPS：修复版本 ≥ 14.1-73.37 FIPS NetScaler ADC 13.1-FIPS / 13.1-NDcPP：修复版本 ≥ 13.1-37.279 **03** **漏洞描述** 近日，Citrix 披露了 NetScaler ADC 与 NetScaler Gateway 中存在的输入校验不当漏洞（CVE-2026-88771）。该漏洞位于设备错误收集相关处理流程中，部分外部可控数据可被记录至系统日志，而旧版本脚本在解析日志并提取核心文件相关字段时，未对字段格式及特殊字符进行严格限制。随后，这些未经充分约束的数据被继续带入系统命令处理流程，导致其中的 Shell 元字符被解释执行，最终形成命令注入。未经身份认证的远程攻击者可通过能够写入相关日志的数据入口触发该漏洞，并在目标设备上执行任意命令，造成未认证远程代码执行。 **04** **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-88771 漏洞，通过向受影响的 NetScaler 服务提交特制输入，使攻击者可控内容进入设备日志并被后续错误收集流程处理，最终成功触发高权限命令执行，验证该漏洞可造成未认证远程代码执行。 CVE-2026-88771 Citrix NetScaler ADC／Gateway 未认证命令注入漏洞复现 **05** **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年9月30日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **06** **时间线** 2026年9月29日，安全研究团队发布本安全风险通告。 **07** 参考链接 https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/ https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096 https://nvd.nist.gov/vuln/detail/cve-2026-88771 08 更多漏洞情报 建议您订阅360漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 安全研究团队，隶属于360安全能力中心。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+    "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096",
+    "https://nvd.nist.gov/vuln/detail/cve-2026-88771"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+      "content": "Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) Skip to content Home Search The watchTowr Platform Request A Demo Vuln. Disclosure Policy Disclosed Vulnerabilities Search Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771) Author Sina Kheirkhah (@SinSinology) Published 28 Sep 2026 Read time 13 min read This research is a glimpse into the capability powering the watchTowr Platform, a Preemptive Exposure Management solution. We enable organizations to autonomously validate and mitigate their exposure to emerging threats, ahead of in-the-wild exploitation. Request a demo God damn it, we're back in the room again. Yes, that sound in your ears is screaming. The footgun has gone off again, shockingly, and we are yet again dealing with a situation where the entire world apparently knew about Citrix NetScaler CVEs before Citrix had woken up or bothered to acknowledge them. https://www.citrix.com/blogs/2026-01/security-by-design-proven-by-action-with-citrix-netscaler On Saturday, we took our role in the industry seriously - by rapidly adding credibility to the rumors via the (inter)national authorities that we've historically worked with, and then broadcasting that increased confidence to the watchTowr client base and the public. We made the call that our language needed to be clear: given active exploitation in the wild and the critical nature of many of the organizations that run NetScalers, appliances should be taken offline, and that this was \"going to be bad.\" We were going to say \"this was an unprecedented situation,\" but we couldn't get past the laughing in our heads. We all know that vulnerabilities exist. Code is not perfect, despite AGI being here (come @ us Reddit comments), but communicating with your customers who pay for a solution to secure their environment feels like the bare minimum, not optional. We're sure there are many teams at this point having extremely tense conversations with their TAM, asking why an actively exploited RCE in a default configuration was communicated to the world through many channels, none of which included Citrix itself. Before we continue: if you're looking for high-level analysis and an FAQ: Citrix NetScaler ADC & Citrix NetScaler Gateway Remote Code Execution Zero-Day Vulnerabilities (CVE-2026-88771, CVE-2026-88772) - watchTowr.com Citrix NetScaler Zero-Day RCE FAQ: CVE-2026-88771 and CVE-2026-88772 - watchTowr.com We found this picture of our favorite software dev, who we imagine works at Citrix (we imagine) - we call them AGI (pronounced Ah-gee). Citrix, before you ask, we do accept our new volunteer role as an extension of your PSIRT function. You may have to compete with other vendors we work with for charity, but we're willing to add you to the roster. As always, watchTowr clients gain industry-first access to our research, accompanied by Active Defense capabilities to autonomously mitigate exposure. If configured, watchTowr clients' exposure to this vulnerability has already been mitigated. This research is a glimpse into the capabilities that power our Preemptive Exposure Management solution, enabling organizations to rapidly react to emerging threats: the watchTowr Platform. We want to say a quick thank you to the lorries for which the patches and various pieces of information fell off. Sincerely appreciated. We do this every day. And, we'll be back soon ;-) Small note: we're aware of a slop generated post with our name on it floating around the internet on a different website. Nothing to do with us, and we don't believe it's real. Thanks. Who Is Citrix NetScaler, and Why Was A Gateway Their First C Project? Citrix NetScaler (rebranded, then un-rebranded, in the way that only enterprise networking vendors can truly pull off) is a family of application delivery controllers and VPN gateway appliances found in virtually every large enterprise network on the planet. NetScaler handles load bala"
+    },
+    {
+      "url": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096",
+      "content": "Loading..."
+    },
+    {
+      "url": "https://nvd.nist.gov/vuln/detail/cve-2026-88771",
+      "content": "NVD - Home"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Citrix NetScaler ADC 未认证命令注入漏洞",
+    "vulner_number_1": "CVE-2026-88771",
+    "vulner_number_2": "漏洞编号： CVE-2026-88771",
+    "new_vulner_name": "Citrix NetScaler ADC 未认证命令注入漏洞",
+    "vulner_date": "2026年9月29日",
+    "vulner_time_line": "2026/09/29",
+    "object_name": "NetScaler Gateway",
+    "object_desc": "NetScaler Gateway 是 Citrix 公司推出的企业级安全远程访问网关产品。该产品为移动办公人员、分支机构和合作伙伴提供统一的 SSL VPN 接入功能，支持对内部 Web 应用、虚拟桌面和 SaaS 服务的安全访问控制，并集成双因素身份认证和端点安全检查机制。",
+    "vulner_version": "NetScaler Gateway 14.1 < 14.1-73.37 NetScaler Gateway 13.1 < 13.1-64.23",
+    "vulner_type": "命令注入",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "未认证远程代码执行",
+    "vuln_level": "严重",
+    "vulner_desc": "Citrix NetScaler ADC 与 NetScaler Gateway 中存在一处未认证命令注入漏洞（CVE-2026-88771）。该漏洞源于错误收集流程对外部可控数据写入日志时缺乏严格校验，导致后续日志解析脚本在提取字段时未对特殊字符进行过滤，被污染的数据被直接传入系统命令执行路径，触发 Shell 元字符解释，最终实现任意命令执行。远程攻击者可通过日志写入入口无需认证即可在目标设备上执行任意代码。",
+    "official_solution": "建议升级到安全版本\n修复版本：NetScaler ADC / NetScaler Gateway 14.1 升级至 14.1-73.37 或更高版本；13.1 升级至 13.1-64.23 或更高版本；14.1-FIPS 升级至 14.1-73.37 FIPS 或更高版本；13.1-FIPS / 13.1-NDcPP 升级至 13.1-37.279 或更高版本\n下载链接：https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096",
+    "reference_link": "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/",
+    "reference_link1": "https://support.citrix.com/support-home/kbsearch/article?articleNumber=CTX697096",
+    "reference_link2": "https://nvd.nist.gov/vuln/detail/cve-2026-88771"
+  }
+}
