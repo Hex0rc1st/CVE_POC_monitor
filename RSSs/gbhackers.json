@@ -12718,5 +12718,10 @@
         "title": "RSA Agent ID Secures AI Agents and MCP Servers With Identity-Based Access Controls",
         "link": "https://gbhackers.com/rsa-agent-id-secures-ai-agents-and-mcp-servers/",
         "published": "Wed, 30 Sep 2026 09:33:46 +0000"
+    },
+    {
+        "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
+        "link": "https://gbhackers.com/redflick-backdoor/",
+        "published": "Wed, 30 Sep 2026 13:38:39 +0000"
     }
 ]

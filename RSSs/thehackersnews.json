@@ -8738,5 +8738,25 @@
         "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
         "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
         "published": "Wed, 30 Sep 2026 11:00:30 +0530"
+    },
+    {
+        "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
+        "published": "Wed, 30 Sep 2026 22:16:29 +0530"
+    },
+    {
+        "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
+        "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
+        "published": "Wed, 30 Sep 2026 22:02:59 +0530"
+    },
+    {
+        "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
+        "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
+        "published": "Wed, 30 Sep 2026 20:54:54 +0530"
+    },
+    {
+        "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
+        "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
+        "published": "Wed, 30 Sep 2026 20:30:15 +0530"
     }
 ]

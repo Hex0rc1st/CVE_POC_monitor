@@ -1183,5 +1183,15 @@
         "title": "Zero-Day Exploitation of Citrix NetScaler ADC and Gateway: CVE-2026-88771 and CVE-2026-88772",
         "link": "https://www.rapid7.com/blog/post/etr-zero-day-exploitation-of-citrix-netscaler-adc-and-gateway-cve-2026-88771-and-cve-2026-88772",
         "published": "Mon, 28 Sep 2026 10:05:00 GMT"
+    },
+    {
+        "title": "Critical Cisco Catalyst SD-WAN Manager API authentication bypass exploited in the wild (CVE-2026-76504)",
+        "link": "https://www.rapid7.com/blog/post/etr-critical-cisco-catalyst-sd-wan-manager-api-authentication-bypass-exploited-in-the-wild-cve-2026-76504",
+        "published": "Wed, 30 Sep 2026 15:09:22 GMT"
+    },
+    {
+        "title": "Higher education is under siege, and fragmented security is making it harder to respond",
+        "link": "https://www.rapid7.com/blog/post/it-higher-education-under-siege-fragmented-security",
+        "published": "Wed, 30 Sep 2026 14:16:37 GMT"
     }
 ]

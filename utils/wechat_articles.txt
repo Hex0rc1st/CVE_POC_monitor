@@ -1883,3 +1883,5 @@ https://mp.weixin.qq.com/s/TL7b8NgUQQr8QoDtysln6w
 https://mp.weixin.qq.com/s/JsAzlQmqDKnzfASy8Sf-vQ
 奇安信cert::【在野利用】Citrix NetScaler 命令注入漏洞(CVE-2026-88771)安全风险通告
 https://mp.weixin.qq.com/s/dOH2cGZrcTLIa-2JT9PXow
+360漏洞研究院::【已复现】Next.js next/og 未授权远程代码执行漏洞（CVE-2026-94545）
+https://mp.weixin.qq.com/s/3YYptUdqP7vB4Kc-7sNUig
