@@ -349,3 +349,5 @@ https://github.com/coey0814/DirtyFrag-Galaxy
 https://github.com/ZeroDayEvil/CVE-2026-24061
 https://github.com/ZeroDayEvil/CVE-2026-40369-EXPLOIT
 https://github.com/ZeroDayEvil/CVE-2026-41940-PoC
+https://github.com/ZeroDayEvil/CVE-2026-31431
+https://github.com/dinosn/libheif-cve-2026-84383-lab

@@ -12668,5 +12668,55 @@
         "title": "DPRK-Linked Hackers Add HashHiding to Blockchain C2 Network for Takedown-Resistant Malware",
         "link": "https://gbhackers.com/hashhiding-to-blockchain-c2/",
         "published": "Tue, 29 Sep 2026 10:08:30 +0000"
+    },
+    {
+        "title": "Docker CopyEscape CVE-2026-17106 Lets Malicious Containers Overwrite Host Files",
+        "link": "https://gbhackers.com/docker-copyescape-cve-2026-17106/",
+        "published": "Wed, 30 Sep 2026 12:42:59 +0000"
+    },
+    {
+        "title": "PaperPhone Cluster Shows How One Bot Operator Can Look Like Thousands of Mobile Users",
+        "link": "https://gbhackers.com/paperphone-cluster/",
+        "published": "Wed, 30 Sep 2026 12:31:57 +0000"
+    },
+    {
+        "title": "Claude Compliance API Lets Security Teams Monitor Chats, Files and Agent Activity",
+        "link": "https://gbhackers.com/claude-compliance-api/",
+        "published": "Wed, 30 Sep 2026 12:29:20 +0000"
+    },
+    {
+        "title": "Critical MikroTik RouterOS Vulnerability Exposes Devices to Remote Code Execution",
+        "link": "https://gbhackers.com/critical-mikrotik-routeros-vulnerability/",
+        "published": "Wed, 30 Sep 2026 12:02:10 +0000"
+    },
+    {
+        "title": "Attackers Target Developer Credentials to Expand Supply Chain Intrusions Beyond Source Code",
+        "link": "https://gbhackers.com/supply-chain-intrusions/",
+        "published": "Wed, 30 Sep 2026 12:00:47 +0000"
+    },
+    {
+        "title": "12 Best IGA Tools in 2026: The Ranked Buyer’s Guide",
+        "link": "https://gbhackers.com/best-iga-tools/",
+        "published": "Wed, 30 Sep 2026 11:59:48 +0000"
+    },
+    {
+        "title": "Google Chrome 154 Update Fixes 32 Security Flaws Including Critical ANGLE Bug",
+        "link": "https://gbhackers.com/google-chrome-154-update/",
+        "published": "Wed, 30 Sep 2026 11:43:52 +0000"
+    },
+    {
+        "title": "Hackers Abuse MSP360 and ScreenConnect RMM Tools for Persistent Access and Credential Theft",
+        "link": "https://gbhackers.com/msp360-and-rmm-abuse/",
+        "published": "Wed, 30 Sep 2026 10:25:40 +0000"
+    },
+    {
+        "title": "Hackers Exploit Citrix NetScaler Zero-Day to Gain Root Access and Deploy Web Shells",
+        "link": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-day/",
+        "published": "Wed, 30 Sep 2026 09:47:33 +0000"
+    },
+    {
+        "title": "RSA Agent ID Secures AI Agents and MCP Servers With Identity-Based Access Controls",
+        "link": "https://gbhackers.com/rsa-agent-id-secures-ai-agents-and-mcp-servers/",
+        "published": "Wed, 30 Sep 2026 09:33:46 +0000"
     }
 ]

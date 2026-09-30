@@ -5811,3 +5811,7 @@ clean_list:
 - cs440-langgraph-nosql-demo
 - CVE-2026-31857
 - CVE-2026-96760
+- CVE-2026-97347
+- CVE-2026-72018
+- CVE-2026-102425
+- CaptainAI-LPE-CVE-2026-52993

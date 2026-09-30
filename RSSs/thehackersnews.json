@@ -8708,5 +8708,35 @@
         "title": "Russia's Star Blizzard Targets 100+ Organizations With Fake Event Invites to Deliver Backdoor",
         "link": "https://thehackernews.com/2026/09/russias-star-blizzard-targets-100.html",
         "published": "Tue, 29 Sep 2026 22:50:08 +0530"
+    },
+    {
+        "title": "Know Your Enemy: Browser-Based Attack Techniques in 2026",
+        "link": "https://thehackernews.com/2026/09/know-your-enemy-browser-based-attack.html",
+        "published": "Wed, 30 Sep 2026 17:28:00 +0530"
+    },
+    {
+        "title": "AI Coding Agents Exposed 13,000 Internal Images, Including Billing Records, on GitHub",
+        "link": "https://thehackernews.com/2026/09/ai-coding-agents-exposed-13000-internal.html",
+        "published": "Wed, 30 Sep 2026 17:00:00 +0530"
+    },
+    {
+        "title": "US-Focused CSuite Phishing Steals Microsoft 365 Sessions and Deploys RMM Tools for Remote Access",
+        "link": "https://thehackernews.com/2026/09/us-focused-csuite-phishing-steals.html",
+        "published": "Wed, 30 Sep 2026 16:15:00 +0530"
+    },
+    {
+        "title": "Attackers Exploit NetScaler Flaw for Root Access, Deploy WHIPSHOT and SLAPSHOT",
+        "link": "https://thehackernews.com/2026/09/attackers-exploit-netscaler-flaw-for.html",
+        "published": "Wed, 30 Sep 2026 13:54:35 +0530"
+    },
+    {
+        "title": "OpenSSL Fixes High-Severity DTLS Flaw That Can Leak Heap Memory Unencrypted",
+        "link": "https://thehackernews.com/2026/09/openssl-fixes-high-severity-dtls-flaw.html",
+        "published": "Wed, 30 Sep 2026 13:39:28 +0530"
+    },
+    {
+        "title": "Citrix NetScaler CVE-2026-88772 Exploit Details Show Pre-Auth Path to Shellcode Execution",
+        "link": "https://thehackernews.com/2026/09/citrix-netscaler-cve-2026-88772-exploit.html",
+        "published": "Wed, 30 Sep 2026 11:00:30 +0530"
     }
 ]
