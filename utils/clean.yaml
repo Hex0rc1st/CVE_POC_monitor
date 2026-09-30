@@ -5808,3 +5808,6 @@ clean_list:
 - 1f916-listing41-microsoft-cve
 - CVE-2026-100381
 - CVE-2026-88771-HuntScript
+- cs440-langgraph-nosql-demo
+- CVE-2026-31857
+- CVE-2026-96760
