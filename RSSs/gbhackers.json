@@ -12723,5 +12723,50 @@
         "title": "RedFlick Uses Scheduled Tasks and Password-Protected Archives to Deploy CosmicPulse Backdoor",
         "link": "https://gbhackers.com/redflick-backdoor/",
         "published": "Wed, 30 Sep 2026 13:38:39 +0000"
+    },
+    {
+        "title": "HPE Instant On AP Flaws Let Unauthenticated Attackers Execute Arbitrary Commands",
+        "link": "https://gbhackers.com/hpe-instant-on-ap-flaws/",
+        "published": "Thu, 01 Oct 2026 08:01:59 +0000"
+    },
+    {
+        "title": "Multiple ModSecurity Vulnerabilities Let Attackers Bypass WAF Rules and Execute Malicious Requests",
+        "link": "https://gbhackers.com/multiple-modsecurity-vulnerabilities/",
+        "published": "Thu, 01 Oct 2026 07:54:51 +0000"
+    },
+    {
+        "title": "Critical Cisco SD-WAN Vulnerability Lets Remote Attackers Bypass Authentication as Admin",
+        "link": "https://gbhackers.com/critical-cisco-sd-wan-vulnerability/",
+        "published": "Thu, 01 Oct 2026 07:45:48 +0000"
+    },
+    {
+        "title": "Hackers Hide Microsoft Defender Exclusions From Admins to Evade Antivirus Scans",
+        "link": "https://gbhackers.com/microsoft-defender-exclusions/",
+        "published": "Thu, 01 Oct 2026 06:11:19 +0000"
+    },
+    {
+        "title": "Zimbra Vulnerability Exploited to Gain Root Access and Steal Mailbox Authentication Secrets",
+        "link": "https://gbhackers.com/zimbra-vulnerability-exploited/",
+        "published": "Thu, 01 Oct 2026 05:41:30 +0000"
+    },
+    {
+        "title": "AI Agents Expose 13,000+ Developer Screenshots Across 900+ GitHub Repositories",
+        "link": "https://gbhackers.com/ai-agents-expose-13000-developer-screenshots/",
+        "published": "Thu, 01 Oct 2026 05:15:30 +0000"
+    },
+    {
+        "title": "New 2CLoader Malware Uses Anti-VM and API Hooking to Deliver Vidar and Remus Stealers",
+        "link": "https://gbhackers.com/2cloader-malware/",
+        "published": "Thu, 01 Oct 2026 05:03:59 +0000"
+    },
+    {
+        "title": "Internet Society Launches Global Online Trust and Safety Hub as Part of Its Safer Internet Initiative",
+        "link": "https://gbhackers.com/internet-society-launches-global-online-trust-and-safety-hub-as-part-of-its-safer-internet-initiative/",
+        "published": "Thu, 01 Oct 2026 05:01:44 +0000"
+    },
+    {
+        "title": "FBI’s Operation Blackout Takes Down Overseas Scammers Targeting Americans",
+        "link": "https://gbhackers.com/fbis-operation-blackout/",
+        "published": "Thu, 01 Oct 2026 04:58:55 +0000"
     }
 ]
