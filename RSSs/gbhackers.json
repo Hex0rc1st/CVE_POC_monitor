@@ -12768,5 +12768,45 @@
         "title": "FBI’s Operation Blackout Takes Down Overseas Scammers Targeting Americans",
         "link": "https://gbhackers.com/fbis-operation-blackout/",
         "published": "Thu, 01 Oct 2026 04:58:55 +0000"
+    },
+    {
+        "title": "TerminalFix Attacks Deploy Lorem Ipsum Loader to Create Covert Tunnels Into Corporate Networks",
+        "link": "https://gbhackers.com/terminalfix-attacks/",
+        "published": "Thu, 01 Oct 2026 13:09:45 +0000"
+    },
+    {
+        "title": "Next.js ImageResponse Vulnerability Lets Remote Attackers Execute Code Through SVG Content",
+        "link": "https://gbhackers.com/next-js-imageresponse-vulnerability/",
+        "published": "Thu, 01 Oct 2026 13:08:22 +0000"
+    },
+    {
+        "title": "Axios Flaws Let Attackers Bypass Proxy Controls and Trigger SSRF Attacks",
+        "link": "https://gbhackers.com/axios-flaws-let-attackers-bypass-proxy-controls-and-trigger-ssrf-attacks/",
+        "published": "Thu, 01 Oct 2026 11:46:00 +0000"
+    },
+    {
+        "title": "China-Nexus Hackers Compromise 350 Systems Across Asia With New Antino Backdoor",
+        "link": "https://gbhackers.com/antino-backdoor/",
+        "published": "Thu, 01 Oct 2026 11:44:45 +0000"
+    },
+    {
+        "title": "Multiple TeamViewer Vulnerabilities Enable RCE, Access Control Bypass and Privilege Escalation",
+        "link": "https://gbhackers.com/multiple-teamviewer-vulnerabilities/",
+        "published": "Thu, 01 Oct 2026 11:08:39 +0000"
+    },
+    {
+        "title": "CloudSyncD Uses Invisible Unicode to Hide Phished Mac Passwords in Plain Sight",
+        "link": "https://gbhackers.com/cloudsyncd-backdoor/",
+        "published": "Thu, 01 Oct 2026 11:06:06 +0000"
+    },
+    {
+        "title": "Researchers Find 543,699 Active Credentials Leaked in Public GitHub Repos",
+        "link": "https://gbhackers.com/active-credentials-leaked-in-public-github-repos/",
+        "published": "Thu, 01 Oct 2026 10:32:59 +0000"
+    },
+    {
+        "title": "SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence",
+        "link": "https://gbhackers.com/sc-wordpress-malware/",
+        "published": "Thu, 01 Oct 2026 09:08:14 +0000"
     }
 ]

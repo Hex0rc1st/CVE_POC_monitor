@@ -1733,5 +1733,10 @@
         "title": "ZTNA Portal Improper Certificate Validation",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174",
         "published": "Tue, 08 Sep 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Improper limitation of a pathname to a restricted directory",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+        "published": "Thu, 01 Oct 2026 00:00:00 -0700"
     }
 ]
