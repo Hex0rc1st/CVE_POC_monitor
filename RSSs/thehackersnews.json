@@ -8783,5 +8783,25 @@
         "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
         "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
         "published": "Thu, 01 Oct 2026 10:05:34 +0530"
+    },
+    {
+        "title": "WordPress Backdoor Rebuilds Itself After Cleanup Using Files, Database, and Shared Memory",
+        "link": "https://thehackernews.com/2026/10/wordpress-backdoor-rebuilds-itself.html",
+        "published": "Thu, 01 Oct 2026 20:07:35 +0530"
+    },
+    {
+        "title": "How Financial Services Companies Can Modernize Their Software Supply Chain",
+        "link": "https://thehackernews.com/2026/10/how-financial-services-companies-can.html",
+        "published": "Thu, 01 Oct 2026 17:15:00 +0530"
+    },
+    {
+        "title": "OpenAI Disrupts Reasoning Extraction Campaign Linked to Moonshot AI Associates",
+        "link": "https://thehackernews.com/2026/10/openai-disrupts-reasoning-extraction.html",
+        "published": "Thu, 01 Oct 2026 16:12:36 +0530"
+    },
+    {
+        "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
+        "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
+        "published": "Thu, 01 Oct 2026 16:03:16 +0530"
     }
 ]
