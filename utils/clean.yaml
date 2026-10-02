@@ -5819,3 +5819,5 @@ clean_list:
 - vc-strike
 - CVE-2026-11318
 - CVE-2026-103584
+- PathHarbor
+- QueryRampart
