@@ -12808,5 +12808,55 @@
         "title": "SC WordPress Malware Rebuilds Itself After Removal Using Database and Memory Persistence",
         "link": "https://gbhackers.com/sc-wordpress-malware/",
         "published": "Thu, 01 Oct 2026 09:08:14 +0000"
+    },
+    {
+        "title": "Sony PS5 Relapse Jailbreak Exploit Uses JSC Memory Corruption and Kernel UAF",
+        "link": "https://gbhackers.com/sony-ps5-relapse-jailbreak-exploit-uses/",
+        "published": "Fri, 02 Oct 2026 13:40:08 +0000"
+    },
+    {
+        "title": "Zammad Vulnerabilities Let Attackers Execute Code and Escalate Privileges to Root",
+        "link": "https://gbhackers.com/zammad-vulnerabilities/",
+        "published": "Fri, 02 Oct 2026 12:44:08 +0000"
+    },
+    {
+        "title": "Safari History Database Tags Can Reveal Users’ Browsing Themes in Forensic Investigations",
+        "link": "https://gbhackers.com/safari-history-database-tags-can-reveal-users-browsing-themes/",
+        "published": "Fri, 02 Oct 2026 12:35:11 +0000"
+    },
+    {
+        "title": "Exposed Hacker Server Reveals Toolkit Used in Viva Aerobus-Linked Intrusion",
+        "link": "https://gbhackers.com/viva-aerobus-intrusion/",
+        "published": "Fri, 02 Oct 2026 11:55:20 +0000"
+    },
+    {
+        "title": "Multiple cPanel & WHM Vulnerabilities Enable Root Code Execution and Admin Session Hijacking",
+        "link": "https://gbhackers.com/multiple-cpanel-whm-vulnerabilities/",
+        "published": "Fri, 02 Oct 2026 11:26:54 +0000"
+    },
+    {
+        "title": "Capacitor Vulnerability Lets Remote Content Run With Full App Origin Trust",
+        "link": "https://gbhackers.com/capacitor-vulnerability/",
+        "published": "Fri, 02 Oct 2026 11:12:42 +0000"
+    },
+    {
+        "title": "OpenAI Blocks 15,000 Requests Trying to Extract Protected Model Reasoning",
+        "link": "https://gbhackers.com/openai-blocks-15000-requests/",
+        "published": "Fri, 02 Oct 2026 11:06:23 +0000"
+    },
+    {
+        "title": "Hackers Are Turning Trusted Software Updates Into Credential-Stealing Malware",
+        "link": "https://gbhackers.com/credential-stealing-malware/",
+        "published": "Fri, 02 Oct 2026 10:55:57 +0000"
+    },
+    {
+        "title": "TIKTOUK WordPress Toolkit Could Enable AWS, SMTP and API Credential Theft Attacks",
+        "link": "https://gbhackers.com/tiktouk-wordpress-toolkit/",
+        "published": "Fri, 02 Oct 2026 10:12:29 +0000"
+    },
+    {
+        "title": "Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA",
+        "link": "https://gbhackers.com/passwordless-impersonation/",
+        "published": "Fri, 02 Oct 2026 09:46:41 +0000"
     }
 ]
