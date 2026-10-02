@@ -8833,5 +8833,20 @@
         "title": "Why CISOs Struggle to Answer the Board's Three Hardest Questions, and How to Fix the Report",
         "link": "https://thehackernews.com/2026/10/why-cisos-struggle-to-answer-boards.html",
         "published": "Fri, 02 Oct 2026 17:00:00 +0530"
+    },
+    {
+        "title": "GitLab Patches Critical 9.9 AI Gateway Flaw Allowing Command Execution on Self-Hosted Servers",
+        "link": "https://thehackernews.com/2026/10/gitlab-patches-critical-self-hosted-ai.html",
+        "published": "Fri, 02 Oct 2026 23:03:31 +0530"
+    },
+    {
+        "title": "Antino Backdoor Uses Outlook and OneDrive for C2 in China-Nexus Espionage Campaign",
+        "link": "https://thehackernews.com/2026/10/antino-backdoor-uses-outlook-and.html",
+        "published": "Fri, 02 Oct 2026 23:03:16 +0530"
+    },
+    {
+        "title": "Dell CSM Flaws Enable Unauthenticated Admin Access and Root on Kubernetes Nodes",
+        "link": "https://thehackernews.com/2026/10/dell-csm-flaws-enable-unauthenticated.html",
+        "published": "Fri, 02 Oct 2026 22:32:12 +0530"
     }
 ]
