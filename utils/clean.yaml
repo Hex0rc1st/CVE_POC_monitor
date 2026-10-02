@@ -5821,3 +5821,10 @@ clean_list:
 - CVE-2026-103584
 - PathHarbor
 - QueryRampart
+- cve-2026-19553-wrap-bio
+- CVE-2026-14378-DevKit-Pro-Auth-Bypass
+- redmi14c-pond-cve-2026-64560
+- CVE-2026-19660
+- CVE-2026-103752-Authorizer-Privilege-Escalation
+- CVE-2026-14378
+- cve-2026-19445-sni-uaf
