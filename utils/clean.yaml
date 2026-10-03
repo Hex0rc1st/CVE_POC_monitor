@@ -5847,3 +5847,8 @@ clean_list:
 - CVE-2026-9558-lab-poc-bundle
 - CVE-2026-15989
 - CVE-2026-105030-poc
+- Learn-SecByte-CTF-Labs-Beelzebub-SQLMap-Auth-CVE-2026-14461-Web-to-Root
+- CVE-2026-92592
+- gitlab-ai-gateway-cve-2026-90970
+- CVE-2026-103648
+- POC-CVE-2026-48842
