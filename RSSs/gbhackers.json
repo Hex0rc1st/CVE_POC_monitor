@@ -12858,5 +12858,30 @@
         "title": "Authentication Bypass Successfully Impersonated 95 Users Without Passwords or MFA",
         "link": "https://gbhackers.com/passwordless-impersonation/",
         "published": "Fri, 02 Oct 2026 09:46:41 +0000"
+    },
+    {
+        "title": "Cling Malware Masquerades as Google STUN Traffic to Control Compromised IoT Devices",
+        "link": "https://gbhackers.com/cling-malware-masquerades-as-google-stun-traffic/",
+        "published": "Sat, 03 Oct 2026 07:48:49 +0000"
+    },
+    {
+        "title": "Microsoft Warns ClickFix Attacks Use Fake CAPTCHA Lures to Execute Malicious Commands",
+        "link": "https://gbhackers.com/microsoft-warns-clickfix-attacks-use-fake-captcha/",
+        "published": "Sat, 03 Oct 2026 06:27:23 +0000"
+    },
+    {
+        "title": "Critical GitLab AI Gateway Flaw Lets Attackers Execute Arbitrary Commands",
+        "link": "https://gbhackers.com/critical-gitlab-ai-gateway-flaw/",
+        "published": "Sat, 03 Oct 2026 06:14:55 +0000"
+    },
+    {
+        "title": "AWS AI Agent Vulnerabilities Let Attackers Bypass Authentication and Steal Credentials",
+        "link": "https://gbhackers.com/aws-ai-agent-vulnerabilities/",
+        "published": "Sat, 03 Oct 2026 06:04:52 +0000"
+    },
+    {
+        "title": "Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update",
+        "link": "https://gbhackers.com/citrix-netscaler-appliances-reboot/",
+        "published": "Sat, 03 Oct 2026 05:51:55 +0000"
     }
 ]
