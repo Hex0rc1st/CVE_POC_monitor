@@ -5844,3 +5844,6 @@ clean_list:
 - CVE-2026-40281-exploit
 - cve-2026-102268-poc
 - CVE-2026-104356-pictshare-weak-delete-code
+- CVE-2026-9558-lab-poc-bundle
+- CVE-2026-15989
+- CVE-2026-105030-poc
