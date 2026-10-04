@@ -5852,3 +5852,7 @@ clean_list:
 - gitlab-ai-gateway-cve-2026-90970
 - CVE-2026-103648
 - POC-CVE-2026-48842
+- CVE-2026-92084-beaver-builder-shortcode-poc
+- CVE-2026-65640
+- CVE-2026-43499-5.15
+- React2Shell_CVE-2025-55182
