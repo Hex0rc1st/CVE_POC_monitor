@@ -12883,5 +12883,35 @@
         "title": "Citrix NetScaler Appliances Reboot Repeatedly After 0-Day Security Update",
         "link": "https://gbhackers.com/citrix-netscaler-appliances-reboot/",
         "published": "Sat, 03 Oct 2026 05:51:55 +0000"
+    },
+    {
+        "title": "GlassWorm Supply Chain Attack Hides Malware Inside VS Code Color Themes",
+        "link": "https://gbhackers.com/glassworm-supply-chain/",
+        "published": "Mon, 05 Oct 2026 06:14:08 +0000"
+    },
+    {
+        "title": "Attackers Abuse Legitimate ScreenConnect Client in Phishing Campaign to Gain Remote Access",
+        "link": "https://gbhackers.com/screenconnect-phishing-abuse/",
+        "published": "Mon, 05 Oct 2026 05:50:12 +0000"
+    },
+    {
+        "title": "Microsoft Releases Emergency Exchange Server Update to Fix CVE-2026-96940",
+        "link": "https://gbhackers.com/microsoft-releases-emergency-exchange-server-update/",
+        "published": "Mon, 05 Oct 2026 05:06:27 +0000"
+    },
+    {
+        "title": "South Korea Orders Investigation Into AI-Powered Cyberattacks on Major Banks",
+        "link": "https://gbhackers.com/south-korea-orders-investigation/",
+        "published": "Mon, 05 Oct 2026 04:58:46 +0000"
+    },
+    {
+        "title": "Google PageBreak AI Agent Finds Over 500 XSS Vulnerabilities Across Its Web Applications",
+        "link": "https://gbhackers.com/google-pagebreak-ai-agent/",
+        "published": "Mon, 05 Oct 2026 04:55:10 +0000"
+    },
+    {
+        "title": "Citrix NetScaler SAML Vulnerability Enables Unauthenticated Remote DoS Attacks",
+        "link": "https://gbhackers.com/citrix-netscaler-saml-vulnerability/",
+        "published": "Mon, 05 Oct 2026 04:46:41 +0000"
     }
 ]
