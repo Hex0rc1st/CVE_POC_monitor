@@ -12913,5 +12913,55 @@
         "title": "Citrix NetScaler SAML Vulnerability Enables Unauthenticated Remote DoS Attacks",
         "link": "https://gbhackers.com/citrix-netscaler-saml-vulnerability/",
         "published": "Mon, 05 Oct 2026 04:46:41 +0000"
+    },
+    {
+        "title": "New RemoveMacAI Tool Removes Apple Intelligence Models and Reclaims Mac Storage",
+        "link": "https://gbhackers.com/new-removemacai-tool-removes-apple-intelligence-models/",
+        "published": "Mon, 05 Oct 2026 13:13:52 +0000"
+    },
+    {
+        "title": "Apple Strengthens macOS Privacy Controls as AI Agents Become More Autonomous",
+        "link": "https://gbhackers.com/apple-strengthens-macos-privacy-controls/",
+        "published": "Mon, 05 Oct 2026 13:03:18 +0000"
+    },
+    {
+        "title": "Google Gemini to Gain Full Computer Access With New Permission",
+        "link": "https://gbhackers.com/google-gemini-to-gain-full-computer-access/",
+        "published": "Mon, 05 Oct 2026 12:51:39 +0000"
+    },
+    {
+        "title": "Critical libheif Vulnerability Could Enable Remote Code Execution Through WordPress Image Uploads",
+        "link": "https://gbhackers.com/libheif-vulnerability/",
+        "published": "Mon, 05 Oct 2026 12:38:38 +0000"
+    },
+    {
+        "title": "Japanese Police Impersonation Scam Operation Dismantled as 16 Suspects Detained in Timor-Leste",
+        "link": "https://gbhackers.com/japanese-police-impersonation/",
+        "published": "Mon, 05 Oct 2026 11:38:39 +0000"
+    },
+    {
+        "title": "Denmark Confirms Major Security Incident Exposing 8.8 Million Citizen Records",
+        "link": "https://gbhackers.com/denmark-confirms-major-security-incident/",
+        "published": "Mon, 05 Oct 2026 10:55:15 +0000"
+    },
+    {
+        "title": "CISA Flags Citrix NetScaler Flaw Exploited in Ongoing Attacks",
+        "link": "https://gbhackers.com/cisa-flags-citrix-netscaler-flaw/",
+        "published": "Mon, 05 Oct 2026 10:46:28 +0000"
+    },
+    {
+        "title": "MediaTek Fixes 31 Security Flaws Affecting Modem, Video and AI Components",
+        "link": "https://gbhackers.com/mediatek-fixes-31-security-flaws/",
+        "published": "Mon, 05 Oct 2026 10:00:37 +0000"
+    },
+    {
+        "title": "Google Tightens Open-Source Bug Bounty Rules After Surge in AI-Generated Vulnerability Reports",
+        "link": "https://gbhackers.com/google-tightens-open-source-bug-bounty-rules/",
+        "published": "Mon, 05 Oct 2026 09:52:59 +0000"
+    },
+    {
+        "title": "AWS Fixes AI Agent Flaws Enabling Authentication Bypass and Credential Theft",
+        "link": "https://gbhackers.com/aws-fixes-ai-agent-flaws/",
+        "published": "Mon, 05 Oct 2026 09:39:58 +0000"
     }
 ]
