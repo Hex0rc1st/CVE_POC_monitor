@@ -238,5 +238,10 @@
         "title": "CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer",
         "link": "https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer",
         "published": "Wed, 23 Sep 2026 19:03:34 +0000"
+    },
+    {
+        "title": "Pwn2Own Ireland 2026 - The Full Schedule",
+        "link": "https://www.thezdi.com/blog/2026/10/5/pwn2own-ireland-2026-the-full-schedule",
+        "published": "Mon, 05 Oct 2026 18:11:29 +0000"
     }
 ]
