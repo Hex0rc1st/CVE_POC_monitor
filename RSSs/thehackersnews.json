@@ -8908,5 +8908,30 @@
         "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
         "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
         "published": "Mon, 05 Oct 2026 21:51:52 +0530"
+    },
+    {
+        "title": "Google Pauses OSS Product Bug Bounty Rewards After Surge in Invalid Automated Reports",
+        "link": "https://thehackernews.com/2026/10/google-pauses-oss-product-bug-bounty.html",
+        "published": "Tue, 06 Oct 2026 14:51:47 +0530"
+    },
+    {
+        "title": "Critical Atlassian Flaw Lets Unauthenticated Attackers Read Known Files Across 8 Products",
+        "link": "https://thehackernews.com/2026/10/critical-atlassian-flaw-lets.html",
+        "published": "Tue, 06 Oct 2026 12:28:56 +0530"
+    },
+    {
+        "title": "FBI Removes Accenture Contractor After Patch Failure Led to ShinyHunters Breach",
+        "link": "https://thehackernews.com/2026/10/fbi-removes-accenture-contractor-after.html",
+        "published": "Tue, 06 Oct 2026 12:26:57 +0530"
+    },
+    {
+        "title": "Denmark Says Attackers Accessed CPR Data for 8.8 Million People via Company Account",
+        "link": "https://thehackernews.com/2026/10/denmark-says-attackers-accessed-cpr.html",
+        "published": "Tue, 06 Oct 2026 11:30:30 +0530"
+    },
+    {
+        "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
+        "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
+        "published": "Tue, 06 Oct 2026 10:52:55 +0530"
     }
 ]

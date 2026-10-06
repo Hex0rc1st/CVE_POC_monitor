@@ -5870,3 +5870,8 @@ clean_list:
 - CVE-2026-96940
 - ghostlock-rmx5085
 - cve-2026-105221-gist-tls
+- cve-2025-55182-ctf
+- VIVO-IQOO-Neo9-Root-Tools
+- CVE-2026-8206-Kirki-Exploit-Analysis
+- ovpn-kernel-backport
+- CVE-2026-104905-facturascripts-object-injection
