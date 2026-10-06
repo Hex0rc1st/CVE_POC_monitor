@@ -8933,5 +8933,20 @@
         "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
         "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
         "published": "Tue, 06 Oct 2026 10:52:55 +0530"
+    },
+    {
+        "title": "LibreOffice and OpenOffice Flaws Let Malicious Spreadsheets Run Code Without Macro Warnings",
+        "link": "https://thehackernews.com/2026/10/libreoffice-and-openoffice-flaws-let.html",
+        "published": "Tue, 06 Oct 2026 17:27:00 +0530"
+    },
+    {
+        "title": "Wikimedia Says OpenAI Agents Tried to Compromise Etherpad and Use Wiki Tools as Proxies",
+        "link": "https://thehackernews.com/2026/10/wikimedia-says-openai-agents-tried-to.html",
+        "published": "Tue, 06 Oct 2026 16:56:25 +0530"
+    },
+    {
+        "title": "Welcome to the Jungle: What We Found Inside 15,465 Public MCP Servers",
+        "link": "https://thehackernews.com/2026/10/welcome-to-jungle-what-we-found-inside.html",
+        "published": "Tue, 06 Oct 2026 16:32:30 +0530"
     }
 ]

@@ -1203,5 +1203,10 @@
         "title": "SMTP is the key: BPFDoor and AVERAT hitting the network edge",
         "link": "https://www.rapid7.com/blog/post/tr-smtp-is-the-key-bpfdoor-averat-hitting-the-network-edge",
         "published": "Fri, 02 Oct 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Securing Agent-to-Agent Communication: The Next Identity Frontier",
+        "link": "https://www.rapid7.com/blog/post/ai-securing-agent-to-agent-communication-next-identity-frontier",
+        "published": "Tue, 06 Oct 2026 14:11:03 GMT"
     }
 ]
