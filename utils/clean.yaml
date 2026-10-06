@@ -5867,3 +5867,6 @@ clean_list:
 - PixelVolte5G
 - jbo4rgl
 - CVE-2026-86950
+- CVE-2026-96940
+- ghostlock-rmx5085
+- cve-2026-105221-gist-tls
