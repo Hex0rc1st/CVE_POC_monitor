@@ -354,3 +354,4 @@ https://github.com/dinosn/libheif-cve-2026-84383-lab
 https://github.com/Shinn-Home/CVE-2025-45737
 https://github.com/abraxas/cve-2026-103956-loom-unauth
 https://github.com/MarcusProgram/CVE-2026-21589
+https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589

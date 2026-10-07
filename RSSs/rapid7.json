@@ -1208,5 +1208,15 @@
         "title": "Securing Agent-to-Agent Communication: The Next Identity Frontier",
         "link": "https://www.rapid7.com/blog/post/ai-securing-agent-to-agent-communication-next-identity-frontier",
         "published": "Tue, 06 Oct 2026 14:11:03 GMT"
+    },
+    {
+        "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
+        "published": "Wed, 07 Oct 2026 12:11:26 GMT"
+    },
+    {
+        "title": "The ASOS Incident: When Attackers Use the Channels Customers Trust",
+        "link": "https://www.rapid7.com/blog/post/it-asos-incident-attackers-using-channels-customers-trust",
+        "published": "Wed, 07 Oct 2026 10:40:07 GMT"
     }
 ]

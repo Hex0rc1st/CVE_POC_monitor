@@ -8963,5 +8963,40 @@
         "title": "100+ Compromised Websites Use Fake Cloudflare Checks to Deliver LunexStealer",
         "link": "https://thehackernews.com/2026/10/100-compromised-websites-use-fake.html",
         "published": "Wed, 07 Oct 2026 12:27:54 +0530"
+    },
+    {
+        "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+        "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+        "published": "Wed, 07 Oct 2026 21:04:53 +0530"
+    },
+    {
+        "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+        "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
+        "published": "Wed, 07 Oct 2026 21:03:51 +0530"
+    },
+    {
+        "title": "The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow",
+        "link": "https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html",
+        "published": "Wed, 07 Oct 2026 17:27:05 +0530"
+    },
+    {
+        "title": "FBI Warns FortiBleed Remains Active After Amassing 86,644 Fortinet Device Credentials",
+        "link": "https://thehackernews.com/2026/10/fbi-warns-fortibleed-remains-active.html",
+        "published": "Wed, 07 Oct 2026 17:26:56 +0530"
+    },
+    {
+        "title": "Atlassian Data Center Flaw Draws Exploitation Attempts Within Two Hours of Public Details",
+        "link": "https://thehackernews.com/2026/10/atlassian-data-center-flaw-draws.html",
+        "published": "Wed, 07 Oct 2026 17:19:26 +0530"
+    },
+    {
+        "title": "What Is Agentic Pentesting? What It Proves, and Where It Stops.",
+        "link": "https://thehackernews.com/2026/10/what-is-agentic-pentesting-what-it.html",
+        "published": "Wed, 07 Oct 2026 17:12:24 +0530"
+    },
+    {
+        "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
+        "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
+        "published": "Wed, 07 Oct 2026 13:37:38 +0530"
     }
 ]

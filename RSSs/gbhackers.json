@@ -13063,5 +13063,50 @@
         "title": "ASOS Hacked as Attackers Abuse Customer Notification Platform to Threaten Data Leak",
         "link": "https://gbhackers.com/asos-hacked/",
         "published": "Wed, 07 Oct 2026 05:24:23 +0000"
+    },
+    {
+        "title": "EY Data Breach Exposes Goldman Sachs and Man Group Clients’ Tax and Financial Data",
+        "link": "https://gbhackers.com/ey-data-breach/",
+        "published": "Wed, 07 Oct 2026 15:02:00 +0000"
+    },
+    {
+        "title": "Critical Progress DataDirect GenAI Flaw Lets Attackers Execute Arbitrary OS Commands",
+        "link": "https://gbhackers.com/critical-progress-datadirect-genai-flaw/",
+        "published": "Wed, 07 Oct 2026 12:55:29 +0000"
+    },
+    {
+        "title": "Russian-Speaking CyberXero Uses AI Agent Swarm to Attack Ukrainian Energy Infrastructure",
+        "link": "https://gbhackers.com/cyberxero-uses-ai-agent-swarm/",
+        "published": "Wed, 07 Oct 2026 12:49:56 +0000"
+    },
+    {
+        "title": "FBI Warns FortiBleed Campaign Targeting Fortinet Firewalls and VPNs to Steal Credentials",
+        "link": "https://gbhackers.com/fbi-warns-fortibleed-campaign-targeting-fortinet-firewalls/",
+        "published": "Wed, 07 Oct 2026 12:44:59 +0000"
+    },
+    {
+        "title": "Hackers Use ERP Web Shell and IDOR Flaws to Breach Major South Korean Churches",
+        "link": "https://gbhackers.com/erp-web-shell-breach/",
+        "published": "Wed, 07 Oct 2026 11:24:16 +0000"
+    },
+    {
+        "title": "OpenSSH 10.6 Fixes Security Flaws Including SSH Plaintext Recovery Attack",
+        "link": "https://gbhackers.com/openssh-10-6-fixes-security-flaws/",
+        "published": "Wed, 07 Oct 2026 10:49:27 +0000"
+    },
+    {
+        "title": "LUNEXSTEALER Gives Hackers Remote Control of Browsers Through Malicious Chrome Extension",
+        "link": "https://gbhackers.com/lunexstealer-gives-hackers-remote-control-of-browsers-through-malicious-chrome-extension/",
+        "published": "Wed, 07 Oct 2026 10:39:15 +0000"
+    },
+    {
+        "title": "Elastic Patches 14 Security Flaws, Including One Enabling Cross-Tenant Data Interception",
+        "link": "https://gbhackers.com/elastic-patches-14-security-flaws/",
+        "published": "Wed, 07 Oct 2026 10:36:46 +0000"
+    },
+    {
+        "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
+        "link": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
+        "published": "Wed, 07 Oct 2026 10:30:08 +0000"
     }
 ]
