@@ -8998,5 +8998,20 @@
         "title": "Anthropic Expands Claude Access for Vetted Cyber Teams as Glasswing Finds 129,000 Flaws",
         "link": "https://thehackernews.com/2026/10/anthropic-expands-claude-access-for.html",
         "published": "Wed, 07 Oct 2026 13:37:38 +0530"
+    },
+    {
+        "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+        "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+        "published": "Thu, 08 Oct 2026 00:18:17 +0530"
+    },
+    {
+        "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+        "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+        "published": "Wed, 07 Oct 2026 23:13:20 +0530"
+    },
+    {
+        "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+        "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+        "published": "Wed, 07 Oct 2026 21:47:44 +0530"
     }
 ]
