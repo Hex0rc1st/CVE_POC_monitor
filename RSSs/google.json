@@ -2373,5 +2373,10 @@
         "title": "Chrome for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01835271525.html",
         "published": "2026-10-06T15:00:00.000-07:00"
+    },
+    {
+        "title": "Long Term Support (LTS) channel for ChromeOS - Major update from 144-> 150",
+        "link": "http://chromereleases.googleblog.com/2026/10/long-term-support-lts-channel-for.html",
+        "published": "2026-10-06T18:03:41.934-07:00"
     }
 ]
