@@ -5881,3 +5881,6 @@ clean_list:
 - openam-clean
 - CVE-2026-82531
 - cve-2026-93355-lab
+- netscaler-defensive-checker
+- CVE-2026-5430-WSO2
+- CVE-2026-107268
