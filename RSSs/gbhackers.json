@@ -13158,5 +13158,55 @@
         "title": "Critical Citrix NetScaler CVE-2026-88771 Exploited for Reverse Shells and Persistent Access",
         "link": "https://gbhackers.com/citrix-netscaler-cve-2026-88771-exploited/",
         "published": "Thu, 08 Oct 2026 07:00:54 +0000"
+    },
+    {
+        "title": "Insignary Launches Clarity AIR to Detect Undeclared Open-Source and AI-Written Code",
+        "link": "https://gbhackers.com/insignary-launches-clarity-air-code-detection/",
+        "published": "Thu, 08 Oct 2026 14:52:53 +0000"
+    },
+    {
+        "title": "Hackers Hijack Tensorlake Package to Spread Shai-Hulud Supply Chain Malware",
+        "link": "https://gbhackers.com/tensorlake-package-hijacked/",
+        "published": "Thu, 08 Oct 2026 13:30:27 +0000"
+    },
+    {
+        "title": "PoC Exploit Released for Zammad Vulnerability Enabling Session Hijacking and Remote Code Execution",
+        "link": "https://gbhackers.com/poc-exploit-released-for-zammad-vulnerability/",
+        "published": "Thu, 08 Oct 2026 13:14:21 +0000"
+    },
+    {
+        "title": "Critical LMCache RCE Vulnerability Remains Unpatched, Public PoC Exploit Available",
+        "link": "https://gbhackers.com/critical-lmcache-rce-vulnerability/",
+        "published": "Thu, 08 Oct 2026 13:02:48 +0000"
+    },
+    {
+        "title": "16 Malicious Firefox Extensions Impersonate Crypto Wallets to Steal Seed Phrases and Private Keys",
+        "link": "https://gbhackers.com/16-malicious-firefox-extensions/",
+        "published": "Thu, 08 Oct 2026 12:07:46 +0000"
+    },
+    {
+        "title": "Exposed DarkSword iOS Servers Reveal Crypto Wallet Theft From Compromised iPhones",
+        "link": "https://gbhackers.com/exposed-darksword-ios-servers/",
+        "published": "Thu, 08 Oct 2026 11:13:46 +0000"
+    },
+    {
+        "title": "wolfSSH Patches 5 Security Vulnerabilities, Including Critical SSH Authentication Bypass",
+        "link": "https://gbhackers.com/wolfssh-patches-5-security-vulnerabilities/",
+        "published": "Thu, 08 Oct 2026 11:10:31 +0000"
+    },
+    {
+        "title": "Critical Gitea Vulnerabilities Allow Attackers to Bypass Authentication and Execute Code",
+        "link": "https://gbhackers.com/critical-gitea-vulnerabilities/",
+        "published": "Thu, 08 Oct 2026 10:57:41 +0000"
+    },
+    {
+        "title": "Critical Cisco Nexus Switch Vulnerabilities Allow Unauthenticated Attackers to Execute Code as Root",
+        "link": "https://gbhackers.com/critical-cisco-nexus-switch-vulnerabilities/",
+        "published": "Thu, 08 Oct 2026 10:19:06 +0000"
+    },
+    {
+        "title": "Financially Motivated Hacker Uses Agentic AI to Breach Multiple South Korean Finance Targets",
+        "link": "https://gbhackers.com/financially-motivated-hacker-uses-agentic-ai-to-breach-multiple-south-korean-finance-targets/",
+        "published": "Thu, 08 Oct 2026 10:16:18 +0000"
     }
 ]
