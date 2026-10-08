@@ -357,3 +357,6 @@ https://github.com/MarcusProgram/CVE-2026-21589
 https://github.com/watchtowrlabs/watchTowr-vs-Atlassian-CVE-2026-21589
 https://github.com/manpisetsu/wp2shell
 https://github.com/tc4dy/CVE-2026-21589-PoC-Exploit
+https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools
+https://github.com/ynsmroztas/AtlasSniper
+https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools

@@ -5884,3 +5884,12 @@ clean_list:
 - netscaler-defensive-checker
 - CVE-2026-5430-WSO2
 - CVE-2026-107268
+- cheese-app
+- CVE-2026-105192
+- CVE-2026-Wordpress
+- CVE-2026-56291
+- CVE-2026-31857-PoC
+- CVE-2026-61424
+- CVE-2026-21589
+- Beacon10-Getshell
+- -CVE-2026-18963-POC

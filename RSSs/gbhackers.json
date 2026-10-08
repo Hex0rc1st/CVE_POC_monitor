@@ -13108,5 +13108,55 @@
         "title": "Critical Veeam Backup & Replication Flaw Allows Low-Privileged Users to Execute Remote Code",
         "link": "https://gbhackers.com/critical-veeam-backup-replication-flaw/",
         "published": "Wed, 07 Oct 2026 10:30:08 +0000"
+    },
+    {
+        "title": "ChainDrop and PolinRider Use Blockchain C2 to Steal Cloud and CI/CD Credentials",
+        "link": "https://gbhackers.com/chaindrop-and-polinrider-malware/",
+        "published": "Thu, 08 Oct 2026 08:30:05 +0000"
+    },
+    {
+        "title": "Attackers Hijack .gh, .sl, and .as Domains to Obtain Unauthorized SSL Certificates",
+        "link": "https://gbhackers.com/attackers-hijack-gh-sl-and-as-domains/",
+        "published": "Thu, 08 Oct 2026 07:46:57 +0000"
+    },
+    {
+        "title": "12 Best ASPM Platforms Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-aspm-compared/",
+        "published": "Thu, 08 Oct 2026 07:36:42 +0000"
+    },
+    {
+        "title": "12 Best SCA Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-sca-compared/",
+        "published": "Thu, 08 Oct 2026 07:33:42 +0000"
+    },
+    {
+        "title": "Discord Security Bot Double Counter Hacked, Exposing Data of Millions of Users",
+        "link": "https://gbhackers.com/discord-security-bot-double-counter-hacked/",
+        "published": "Thu, 08 Oct 2026 07:31:34 +0000"
+    },
+    {
+        "title": "9 Best IAST Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-iast-compared/",
+        "published": "Thu, 08 Oct 2026 07:30:19 +0000"
+    },
+    {
+        "title": "12 Best DAST Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-dast-compared/",
+        "published": "Thu, 08 Oct 2026 07:26:27 +0000"
+    },
+    {
+        "title": "U.S. Offers $10 Million Reward for Chinese Hacker Behind Alleged COVID-19 Research Cyberattacks",
+        "link": "https://gbhackers.com/u-s-offers-10-million-reward-for-chinese-hacker-behind-alleged/",
+        "published": "Thu, 08 Oct 2026 07:19:52 +0000"
+    },
+    {
+        "title": "12 Best SAST Tools Compared (2026): Features & Pricing",
+        "link": "https://gbhackers.com/best-sast-compared/",
+        "published": "Thu, 08 Oct 2026 07:15:13 +0000"
+    },
+    {
+        "title": "Critical Citrix NetScaler CVE-2026-88771 Exploited for Reverse Shells and Persistent Access",
+        "link": "https://gbhackers.com/citrix-netscaler-cve-2026-88771-exploited/",
+        "published": "Thu, 08 Oct 2026 07:00:54 +0000"
     }
 ]

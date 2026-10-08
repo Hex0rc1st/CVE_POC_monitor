@@ -9013,5 +9013,20 @@
         "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
         "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
         "published": "Wed, 07 Oct 2026 21:47:44 +0530"
+    },
+    {
+        "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+        "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+        "published": "Thu, 08 Oct 2026 13:12:04 +0530"
+    },
+    {
+        "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+        "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+        "published": "Thu, 08 Oct 2026 13:11:44 +0530"
+    },
+    {
+        "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+        "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+        "published": "Thu, 08 Oct 2026 11:16:20 +0530"
     }
 ]
