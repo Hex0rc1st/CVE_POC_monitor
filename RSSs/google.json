@@ -2408,5 +2408,15 @@
         "title": "Chrome for Android Update",
         "link": "http://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01286554645.html",
         "published": "2026-10-07T15:30:00.000-07:00"
+    },
+    {
+        "title": "Chrome Dev for Android Update",
+        "link": "http://chromereleases.googleblog.com/2026/10/chrome-dev-for-android-update_01912086225.html",
+        "published": "2026-10-09T07:43:32.230-07:00"
+    },
+    {
+        "title": "Chrome Dev for Desktop Update",
+        "link": "http://chromereleases.googleblog.com/2026/10/chrome-dev-for-desktop-update_0380080721.html",
+        "published": "2026-10-09T07:28:32.819-07:00"
     }
 ]

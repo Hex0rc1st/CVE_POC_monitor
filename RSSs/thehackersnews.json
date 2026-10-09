@@ -9113,5 +9113,20 @@
         "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
         "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
         "published": "Fri, 09 Oct 2026 13:41:33 +0530"
+    },
+    {
+        "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
+        "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
+        "published": "Sat, 10 Oct 2026 00:44:28 +0530"
+    },
+    {
+        "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
+        "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
+        "published": "Fri, 09 Oct 2026 23:15:26 +0530"
+    },
+    {
+        "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+        "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+        "published": "Fri, 09 Oct 2026 21:59:55 +0530"
     }
 ]
