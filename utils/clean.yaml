@@ -5893,3 +5893,4 @@ clean_list:
 - CVE-2026-21589
 - Beacon10-Getshell
 - -CVE-2026-18963-POC
+- exploit-docs
