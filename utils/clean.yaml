@@ -5894,3 +5894,10 @@ clean_list:
 - Beacon10-Getshell
 - -CVE-2026-18963-POC
 - exploit-docs
+- CVE-2026-107406-Poc
+- REDMI_Root
+- simulating-cve-2025-41249
+- CVE-2026-94597-poc
+- citrix-netscaler-rce-cve-2026-107406
+- cve-2025-26466-canvas
+- CVE-2026-95149

@@ -1893,3 +1893,7 @@ https://mp.weixin.qq.com/s/k6CQ0QU2r7YYTZJKPZ2WwA
 https://mp.weixin.qq.com/s/m_rdhgD7_rQ2-GeGEBV2cw
 微步在线研究响应中心::尽快修复！Atlassian Jira 未认证任意文件读取漏洞
 https://mp.weixin.qq.com/s/M1-UKVftIwTeiIgl_YrmjA
+360漏洞研究院::【安全资讯】Pwn2Own Ireland 2026 落幕：漏洞碰撞频发
+https://mp.weixin.qq.com/s/5NfcQt1ci6SBB984Cqxg-w
+奇安信cert::【原创发现】Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)安全风险通告
+https://mp.weixin.qq.com/s/-_SdemIxnelxKEmzfW4Mtw

@@ -1,0 +1,60 @@
+{
+  "mode": "llm",
+  "title": "【原创发现】Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-10-09",
+  "table_fields": {
+    "漏洞名称": "Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-65364， CVE-2026-106446",
+    "公开时间": "2026-10-06",
+    "影响量级": "十万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "9.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-10-09 11:20 ● **漏洞详情** **>** **>** **>** **>** **影响组件** Handlebars 是一款广泛使用的开源 JavaScript 语义模板引擎，支持服务端（Node.js）与浏览器端渲染，被大量 Web 应用、报表 / 邮件 / 通知模板系统所引用。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)，该漏洞源于4.7.9 为修复 CVE-2026-33937（AST 类型混淆导致 JavaScript 注入）而引入 validateAstNode。但该校验器仅遍历节点的自有可枚举属性（`Object.keys`），而代码生成器使用普通属性访问，会沿原型链读取字段。攻击者将整个恶意 Program AST 挂载到传入 compile() 的对象的原型上，即可令校验器看到“空对象”而跳过，编译器却照常读取并执行恶意字段。 目前该漏洞PoC与技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 目标应用将攻击者可控对象经 Object.assign / Object.create / 深合并后传入 Handlebars.compile() / precompile()。 **影响范围** **>** **>** **>** **>** **影响版本** 4.0.0 ** **>** **>** **>** **其他受影响组件** 存在 Object.assign({}, userJson)、Object.create(userObj)、lodash.merge / defaultsDeep 等合并用户输入后再 compile 的应用。 **复现情况** 目前， 安全团队已成功复现 Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446) ，截图如下： **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Handlebars.js >= 4.7.10 官方下载地址： https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.10 临时缓解措施： 1. 入口拒绝非字符串； 2. 上游修复方向：在 validateAstNode 中拒绝原型非 Object.prototype / null 的节点，使“校验遍历”与“编译器读取”一致： 3. 避免原型污染：禁止对用户 JSON 使用 Object.assign / 深合并；JSON.parse 结果直接传递前做白名单校验。 4. 架构措施：使用 handlebars/runtime + 预编译产物，移除运行时 compile。",
+    "security_update": "目前官方已有可更新版本，建议受影响用户升级至最新版本： Handlebars.js >= 4.7.10 官方下载地址： https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.10 临时缓解措施： 1. 入口拒绝非字符串； 2. 上游修复方向：在 validateAstNode 中拒绝原型非 Object.prototype / null 的节点，使“校验遍历”与“编译器读取”一致： 3. 避免原型污染：禁止对用户 JSON 使用 Object.assign / 深合并；JSON.parse 结果直接传递前做白名单校验。 4. 架构措施：使用 handlebars/runtime + 预编译产物，移除运行时 compile。",
+    "component_text": "Handlebars 是一款广泛使用的开源 JavaScript 语义模板引擎，支持服务端（Node.js）与浏览器端渲染，被大量 Web 应用、报表 / 邮件 / 通知模板系统所引用。",
+    "vulnerability_text": "近日，安全团队监测到 Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)，该漏洞源于4.7.9 为修复 CVE-2026-33937（AST 类型混淆导致 JavaScript 注入）而引入 validateAstNode。但该校验器仅遍历节点的自有可枚举属性（`Object.keys`），而代码生成器使用普通属性访问，会沿原型链读取字段。攻击者将整个恶意 Program AST 挂载到传入 compile() 的对象的原型上，即可令校验器看到“空对象”而跳过，编译器却照常读取并执行恶意字段。 目前该漏洞PoC与技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 利用条件 目标应用将攻击者可控对象经 Object.assign / Object.create / 深合并后传入 Handlebars.compile() / precompile()。",
+    "affected_versions_text": "4.0.0 <= handlebars.js <= 4.7.9 Handlebars.js <= 4.7.8 受 CVE-2026-33937 直接形态影响",
+    "plain_text": "安全团队 2026-10-09 11:20 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** Handlebars 是一款广泛使用的开源 JavaScript 语义模板引擎，支持服务端（Node.js）与浏览器端渲染，被大量 Web 应用、报表 / 邮件 / 通知模板系统所引用。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到 Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)，该漏洞源于4.7.9 为修复 CVE-2026-33937（AST 类型混淆导致 JavaScript 注入）而引入 validateAstNode。但该校验器仅遍历节点的自有可枚举属性（`Object.keys`），而代码生成器使用普通属性访问，会沿原型链读取字段。攻击者将整个恶意 Program AST 挂载到传入 compile() 的对象的原型上，即可令校验器看到“空对象”而跳过，编译器却照常读取并执行恶意字段。 目前该漏洞PoC与技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **>** **>** **>** **>** **利用条件** 目标应用将攻击者可控对象经 Object.assign / Object.create / 深合并后传入 Handlebars.compile() / precompile()。 **02** **影响范围** **>** **>** **>** **>** **影响版本** 4.0.0 ** **>** **>** **>** **其他受影响组件** 存在 Object.assign({}, userJson)、Object.create(userObj)、lodash.merge / defaultsDeep 等合并用户输入后再 compile 的应用。 **03** **复现情况** 目前， 安全团队已成功复现 Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446) ，截图如下： **04** **处置建议** **>** **>** **>** **>** **安全更新** 目前官方已有可更新版本，建议受影响用户升级至最新版本： Handlebars.js >= 4.7.10 官方下载地址： https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.10 临时缓解措施： 1. 入口拒绝非字符串； 2. 上游修复方向：在 validateAstNode 中拒绝原型非 Object.prototype / null 的节点，使“校验遍历”与“编译器读取”一致： 3. 避免原型污染：禁止对用户 JSON 使用 Object.assign / 深合并；JSON.parse 结果直接传递前做白名单校验。 4. 架构措施：使用 handlebars/runtime + 预编译产物，移除运行时 compile。 **05** **参考资料** [1]https://github.com/handlebars-lang/handlebars.js/security/advisories/GHSA-8r5x-fm3f-whwj **06** **时间线** 2026年10月09日，安全团队发布安全风险通告。 **07** **漏洞情报服务** 「 安全团队漏洞情报平台 」 重磅上线，诚邀您来体验： ![图片][1] ![图片][2] ![图片][3] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://github.com/handlebars-lang/handlebars.js/security/advisories/GHSA-8r5x-fm3f-whwj"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://github.com/handlebars-lang/handlebars.js/security/advisories/GHSA-8r5x-fm3f-whwj",
+      "content": "JavaScript Injection via AST Type Confusion in compile (bypass of CVE-2026-33937) · Advisory · handlebars-lang/handlebars.js · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert handlebars-lang handlebars.js Repository navigation Code Issues 75 ( 75 ) Pull requests 39 ( 39 ) Discussions Actions Security and quality 11 ( 11 ) Insights More items handlebars.js Security Advisories GHSA-8r5x-fm3f-whwj JavaScript Injection via AST Type Confusion in compile (bypass of CVE-2026-33937) Critical jaylinski published GHSA-8r5x-fm3f-whwj Oct 5, 2026 Package npm handlebars ( npm ) Affected versions >= 4.0.0, <= 4.7.9 Patched versions 4.7.10 Description Summary Handlebars.compile() and Handlebars.precompile() accept a pre-parsed AST as well as a template string. Handlebars 4.7.9 added validation for such ASTs. It only checks values on PathExpression , NumberLiteral and BooleanLiteral nodes, and the compiler still writes several other AST values into the generated JavaScript unchecked. If an application passes an untrusted object to compile() or precompile() , such as a parsed JSON request body, that object can carry arbitrary JavaScript. With compile() , the code runs on the server when the template renders. With precompile() , it ends up in the precompiled output and runs wherever that output is loaded. Applications that only ever pass template strings are not affected. This bypasses the AST validation added in 4.7.9 for GHSA-2w6w-674q-4c4q , GHSA-xhpv-hc6g-r9c6 and GHSA-3mfm-83xf-c92r . Details The 4.7.9 validator runs in parseWithoutProcessing() and walks the whole AST. It only checks values on nodes whose type is PathExpression , NumberLiteral or BooleanLiteral . It passes over plain objects without a type , and over strings and other non-object values. The compiler reads these values from other places and writes them into the generated code as-is: AST value Written into generated code as Compile options needed Program.blockParams.length container.program(<index>, data, <length>) none (default options) depth on a param that is not a PathExpression , e.g. a StringLiteral depths[<depth>] stringPa"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞",
+    "vulner_number_1": "CVE-2026-106446",
+    "vulner_number_2": "漏洞编号： CVE-2026-106446",
+    "new_vulner_name": "Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞",
+    "vulner_date": "2026年10月9日",
+    "vulner_time_line": "2026/10/09",
+    "object_name": "Handlebars.js",
+    "object_desc": "Handlebars.js 是 JavaScript 生态中广泛使用的高级模板引擎，validateAstNode 是其内部用于验证抽象语法树（AST）节点合法性的工具函数。该函数通常在模板编译阶段被调用，确保模板语法结构符合引擎规范，主要服务于框架开发者及需要对 Handlebars 模板进行深度定制的场景。",
+    "vulner_version": "4.0.0 ≤ Handlebars.js ≤ 4.7.8 4.0.0 ≤ Handlebars.js ≤ 4.7.9",
+    "vulner_type": "远程代码执行",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "目标应用将攻击者可控对象经 Object.assign、Object.create 或深合并后传入 Handlebars.compile() 或 precompile() 方法",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "CVSS 3.1 评分 9.8；影响量级十万级；利用可能性高；POC 已公开；EXP 已公开；技术细节已公开",
+    "vuln_level": "严重",
+    "vulner_desc": "Handlebars.js 4.7.9 版本为修复 AST 类型混淆漏洞（CVE-2026-33937）引入了 validateAstNode 校验器，但该校验器使用 Object.keys 遍历节点属性，仅检查自有可枚举属性。代码生成器在编译阶段通过普通属性访问读取 AST 字段，会沿原型链向上查找。当攻击者将恶意 Program AST 挂载到传入 compile() 或 precompile() 的对象原型上时，校验器遍历到“空对象”而跳过验证，但编译器仍通过原型链访问到恶意字段并将其直接写入生成的 JavaScript 代码，最终导致远程代码执行。受影响版本为 4.0.0 至 4.7.9，建议升级至 4.7.10。",
+    "official_solution": "建议用户升级至最新版本以修复安全漏洞。\n修复版本：Handlebars.js >= 4.7.10\n下载链接：https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.10",
+    "reference_link": "https://github.com/handlebars-lang/handlebars.js/releases/tag/v4.7.10",
+    "reference_link1": "https://github.com/handlebars-lang/handlebars.js/security/advisories/GHSA-8r5x-fm3f-whwj",
+    "reference_link2": ""
+  }
+}
