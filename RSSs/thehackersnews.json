@@ -9068,5 +9068,50 @@
         "title": "FBI Seizes 7 Domains, Disrupts Flax Typhoon Tools Used in Critical Infrastructure Intrusions",
         "link": "https://thehackernews.com/2026/10/fbi-seizes-7-domains-disrupts-flax.html",
         "published": "Fri, 09 Oct 2026 12:09:29 +0530"
+    },
+    {
+        "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
+        "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
+        "published": "Fri, 09 Oct 2026 18:52:53 +0530"
+    },
+    {
+        "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
+        "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
+        "published": "Fri, 09 Oct 2026 18:29:22 +0530"
+    },
+    {
+        "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+        "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+        "published": "Fri, 09 Oct 2026 18:17:28 +0530"
+    },
+    {
+        "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
+        "published": "Fri, 09 Oct 2026 18:17:26 +0530"
+    },
+    {
+        "title": "Flax Typhoon Exploits Five Flaws as CISA Sets October 11 Deadline for Federal Agencies",
+        "link": "https://thehackernews.com/2026/10/flax-typhoon-exploits-five-flaws-as.html",
+        "published": "Fri, 09 Oct 2026 17:51:51 +0530"
+    },
+    {
+        "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+        "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+        "published": "Fri, 09 Oct 2026 17:00:00 +0530"
+    },
+    {
+        "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
+        "link": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
+        "published": "Fri, 09 Oct 2026 14:33:24 +0530"
+    },
+    {
+        "title": "Three Teams Demonstrate Remote Hacks of Fully Patched Google Pixel 10 at Pwn2Own",
+        "link": "https://thehackernews.com/2026/10/three-teams-demonstrate-remote-hacks-of.html",
+        "published": "Fri, 09 Oct 2026 13:56:17 +0530"
+    },
+    {
+        "title": "Citrix Patches Critical NetScaler Flaw That Could Enable RCE in SAML Deployments",
+        "link": "https://thehackernews.com/2026/10/citrix-patches-critical-netscaler-flaw.html",
+        "published": "Fri, 09 Oct 2026 13:41:33 +0530"
     }
 ]

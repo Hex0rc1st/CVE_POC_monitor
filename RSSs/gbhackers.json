@@ -13258,5 +13258,20 @@
         "title": "Microsoft Pushes Enterprises to Test Post-Quantum Certificates Before Large-Scale Migration",
         "link": "https://gbhackers.com/post-quantum-certificates/",
         "published": "Fri, 09 Oct 2026 05:18:46 +0000"
+    },
+    {
+        "title": "React Server Components Vulnerability Lets Attackers Freeze Next.js Servers With a Single Request",
+        "link": "https://gbhackers.com/react-server-components-vulnerability/",
+        "published": "Fri, 09 Oct 2026 12:22:52 +0000"
+    },
+    {
+        "title": "CastleStealer Malware Bypasses Chromium ABE and Adds Remote Command Execution Capabilities",
+        "link": "https://gbhackers.com/castlestealer-malware/",
+        "published": "Fri, 09 Oct 2026 11:38:32 +0000"
+    },
+    {
+        "title": "Cisco Talos Warns AI Agent Swarms Can Compress Cyberattacks From Months to Hours",
+        "link": "https://gbhackers.com/ai-agent-swarms/",
+        "published": "Fri, 09 Oct 2026 10:33:23 +0000"
     }
 ]
