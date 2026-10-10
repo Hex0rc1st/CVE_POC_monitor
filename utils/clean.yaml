@@ -5901,3 +5901,5 @@ clean_list:
 - citrix-netscaler-rce-cve-2026-107406
 - cve-2025-26466-canvas
 - CVE-2026-95149
+- larkspur-billing
+- CVE-2026-84520
