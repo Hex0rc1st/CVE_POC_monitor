@@ -5910,3 +5910,8 @@ clean_list:
 - braces-security-backport
 - fortimail-cve-2026-104286-response
 - telegram-cve-2026-107181
+- CVE-2026-106445
+- f5_CVE-2026-21589_mitigation
+- CVE-2026-102428
+- CVE-2026-107806
+- CVE-2026-103690

@@ -13273,5 +13273,35 @@
         "title": "Cisco Talos Warns AI Agent Swarms Can Compress Cyberattacks From Months to Hours",
         "link": "https://gbhackers.com/ai-agent-swarms/",
         "published": "Fri, 09 Oct 2026 10:33:23 +0000"
+    },
+    {
+        "title": "GhostAction Hackers Compromise 500+ GitHub Accounts to Steal Cloud and AI API Credentials",
+        "link": "https://gbhackers.com/ghostaction-hackers-compromise-500-github-accounts-to-steal-cloud-and-ai-api-credentials/",
+        "published": "Sat, 10 Oct 2026 09:02:37 +0000"
+    },
+    {
+        "title": "Iranian VPN-over-DNS Activity Generates 40 Billion DNS Observations During Military Conflict",
+        "link": "https://gbhackers.com/iranian-vpn-over-dns-activity-generates-40-billion/",
+        "published": "Sat, 10 Oct 2026 07:50:12 +0000"
+    },
+    {
+        "title": "DarkBlinders Hackers Use Fake Meeting App to Deploy Backdoor and Steal Government Data",
+        "link": "https://gbhackers.com/darkblinders-hackers-use-fake-meeting-app/",
+        "published": "Sat, 10 Oct 2026 07:39:56 +0000"
+    },
+    {
+        "title": "Two AhsayCBS Zero-Day Vulnerabilities Actively Exploited to Take Over Backup Servers",
+        "link": "https://gbhackers.com/two-ahsaycbs-zero-day-vulnerabilities/",
+        "published": "Sat, 10 Oct 2026 07:27:33 +0000"
+    },
+    {
+        "title": "Hackers Use AI Agents and GodPotato Exploit to Gain Windows SYSTEM Privileges",
+        "link": "https://gbhackers.com/hackers-use-ai-agents-and-godpotato-exploit/",
+        "published": "Sat, 10 Oct 2026 07:16:30 +0000"
+    },
+    {
+        "title": "AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt",
+        "link": "https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/",
+        "published": "Sat, 10 Oct 2026 06:59:42 +0000"
     }
 ]
