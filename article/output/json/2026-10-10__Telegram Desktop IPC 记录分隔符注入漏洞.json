@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】Telegram Desktop 高危漏洞，点击链接可致文件泄露甚至账户被接管",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-10-10",
+  "table_fields": {
+    "漏洞名称": "Telegram Desktop IPC 记录分隔符注入漏洞",
+    "漏洞编号": "CVE-2026-107181",
+    "公开时间": "2026-10-07",
+    "POC状态": "已公开",
+    "漏洞类型": "IPC 记录分隔符注入",
+    "EXP状态": "已公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "8.1",
+    "在野利用状态": "未发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-10-10 11:26 Telegram Desktop 曝出高危 IPC 记录分隔符注入漏洞（CVE-2026-107181，CVSS 3.1：8.1）。攻击者可诱导用户打开特制链接，在满足利用条件时触发客户端内部文件发送功能，导致本地敏感文件泄露，甚至造成账户会话被接管。 **利用前置条件：** - 目标用户 Telegram Desktop 客户端正在运行 - 用户打开攻击者提供的特制链接 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **漏洞影响范围** Telegram Desktop = 7.2.9 **漏洞描述** 近日，安全研究人员披露了 Telegram Desktop 中存在的 IPC 记录分隔符注入漏洞（CVE-2026-107181）。当客户端已有实例运行时，新启动进程会通过本地套接字传递外部链接；由于传输内容中的分号未得到正确转义，接收进程可能将单条链接错误拆分为多条内部指令。攻击者可借此触及原本供内部发布流程使用的 interpret: 处理功能。该功能能够根据本地指令文件读取并发送文件，且缺少充分的授权校验。两项缺陷组合后，可能引发敏感文件外传；若会话相关数据泄露且满足恢复条件，则存在账户会话被接管的风险。 **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-107181。 在 Windows 测试环境中，研究人员创建测试超级群组，并在无需目标用户确认的情况下将其加入群组。 向群组发送包含特定文件处理指令的 TXT 文件，利用 Telegram Desktop 的文件自动下载机制将其保存至本地。 在测试客户端保持运行的情况下，访问特制 PoC 链接，触发 Telegram Desktop 单实例 IPC 指令解析缺陷，进而调用客户端内部文件发送功能。 测试结果显示，客户端在未经额外文件发送确认的情况下，自动将本地测试文件发送至指定群组，验证了该漏洞可导致本地文件未经授权读取及外传。 **时间线** 2026年10月10日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 升级至以下或更高版本 Telegram Desktop >= 7.2.9",
+    "component_text": "",
+    "vulnerability_text": "近日，安全研究人员披露了 Telegram Desktop 中存在的 IPC 记录分隔符注入漏洞（CVE-2026-107181）。当客户端已有实例运行时，新启动进程会通过本地套接字传递外部链接；由于传输内容中的分号未得到正确转义，接收进程可能将单条链接错误拆分为多条内部指令。攻击者可借此触及原本供内部发布流程使用的 interpret: 处理功能。该功能能够根据本地指令文件读取并发送文件，且缺少充分的授权校验。两项缺陷组合后，可能引发敏感文件外传；若会话相关数据泄露且满足恢复条件，则存在账户会话被接管的风险。 漏洞复现 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-107181。 在 Windows 测试环境中，研究人员创建测试超级群组，并在无需目标用户确认的情况下将其加入群组。 向群组发送包含特定文件处理指令的 TXT 文件，利用 Telegram Desktop 的文件自动下载机制将其保存至本地。 在测试客户端保持运行的情况下，访问特制 PoC 链接，触发 Telegram Desktop 单实例 IPC 指令解析缺陷，进而调用客户端内部文件发送功能。 测试结果显示，客户端在未经额外文件发送确认的情况下，自动将本地测试文件发送至指定群组，验证了该漏洞可导致本地文件未经授权读取及外传。",
+    "affected_versions_text": "Telegram Desktop < 7.2.9 目前公开研究已在 Windows 环境下完成漏洞验证。",
+    "plain_text": "安全研究团队 安全研究团队 2026-10-10 11:26 Telegram Desktop 曝出高危 IPC 记录分隔符注入漏洞（CVE-2026-107181，CVSS 3.1：8.1）。攻击者可诱导用户打开特制链接，在满足利用条件时触发客户端内部文件发送功能，导致本地敏感文件泄露，甚至造成账户会话被接管。 **利用前置条件：** - 目标用户 Telegram Desktop 客户端正在运行 - 用户打开攻击者提供的特制链接 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **01** **漏洞影响范围** Telegram Desktop = 7.2.9 **03** **漏洞描述** 近日，安全研究人员披露了 Telegram Desktop 中存在的 IPC 记录分隔符注入漏洞（CVE-2026-107181）。当客户端已有实例运行时，新启动进程会通过本地套接字传递外部链接；由于传输内容中的分号未得到正确转义，接收进程可能将单条链接错误拆分为多条内部指令。攻击者可借此触及原本供内部发布流程使用的 interpret: 处理功能。该功能能够根据本地指令文件读取并发送文件，且缺少充分的授权校验。两项缺陷组合后，可能引发敏感文件外传；若会话相关数据泄露且满足恢复条件，则存在账户会话被接管的风险。 **04** **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-107181。 在 Windows 测试环境中，研究人员创建测试超级群组，并在无需目标用户确认的情况下将其加入群组。 向群组发送包含特定文件处理指令的 TXT 文件，利用 Telegram Desktop 的文件自动下载机制将其保存至本地。 在测试客户端保持运行的情况下，访问特制 PoC 链接，触发 Telegram Desktop 单实例 IPC 指令解析缺陷，进而调用客户端内部文件发送功能。 测试结果显示，客户端在未经额外文件发送确认的情况下，自动将本地测试文件发送至指定群组，验证了该漏洞可导致本地文件未经授权读取及外传。 **05** **时间线** 2026年10月10日，安全研究团队发布本安全风险通告。 **06** 参考链接 https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/ 07 更多漏洞情报 建议您订阅360漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 安全研究团队，隶属于360安全能力中心。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+      "content": "Telegram Desktop: one-click account takeover via IPC injection | beaksec beaksec youtube.com/@BeakSec HOME CVES ABOUT Home Telegram Desktop: one-click account takeover via IPC injection Post Cancel Telegram Desktop: one-click account takeover via IPC injection An unescaped separator in Telegram Desktop's single-instance IPC lets one clicked link read arbitrary files off the disk and send them to the attacker, session files included. Posted Oct 3, 2026 Updated Oct 7, 2026 From a clicked link to the victim's session files. By beaksec 14 min read Telegram Desktop: one-click account takeover via IPC injection Contents Telegram Desktop: one-click account takeover via IPC injection Introduction Someone adds you to a Telegram group. A link shows up in the chat. You click it, and your Telegram account is no longer only yours. How? Telegram Desktop hands clicked links to its own already-running instance over a local socket, as text, and never escapes the character it uses to separate commands. So a crafted link does not arrive as one instruction: it arrives as several. The chain I found has two defects. The first is that injection. The second is what the injected command reaches: an internal URI scheme, interpret: , that reads a file named in an instruction file and sends it to a chat, without checking who asked for it and without a confirmation. Together they turn a clicked link into arbitrary file read. In this post I walk through the chain and then use it to steal the files that are the victim’s login. Affected Telegram Desktop through 7.2.8, confirmed on Windows (6.9.3) Impact Remote arbitrary local file read, exfiltrated to an attacker-controlled chat; account takeover CVE CVE-2026-107181 Fixed in 7.2.9, commit db3405699f Severity 8.1 High, CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N One link, two processes Operating systems let programs register a URI scheme, so they know which application to launch when they meet a link of that kind. Telegram Desktop registers tg . From then on the system knows a tg://... link belongs to Telegram, and launches it with the URL as a command-line argument. If Telegram is not running, the process starts, takes the string as a parameter, turns it into a URL object and handles it internally: one process, and nothing to communicate. But what if Telegram is already running? The operating system neither knows nor checks: it launches a new process anyway, identical to the first. Telegram itself has to work out that it is the redundant one, and the way it works that out is by trying to connect to a local socket. The already-running instance is the server: it has been listening on that socket since it started. The new process is the client. If it manages to connect, an instance is already alive, so it hands over the link and exits. A socket does not carry objects, it carries bytes. The URL object the new process holds in memory cannot cross that channel, so it has to be flattened into a line of text. That operation has a name: serialization. Its inverse, rebuilding the object from the text, is deserialization. Both are unavoidable whenever structured data has to cross a boundary, and both are the exact point where the boundaries inside the data stop being held by the structure and become characters in the text. Telegram does it with a format of its own, a simple one. Each instruction is a keyword, then its argument, then a semicolon that closes it. A link to open becomes: 1 OPEN:tg://x?a=1; tg://x?a=1 matches no handler inside Telegram, so on its own that link does nothing. It is only a carrier. That line is built here, one per URL to open: 1 2 3 4 // sandbox.cpp:295-297 for ( const auto & url : cRefStartUrls ()) { commands += u\"OPEN:\" _q + url . toString ( QUrl :: FullyEncoded ) + ';' ; } On the other side the running instance deserializes: it reads the received bytes, cuts them at every semicolon, and treats each piece as an instruction in its own right. For each piece starting with OPEN: it takes what f"
+    }
+  ],
+  "payload": {
+    "vulner_name": "Telegram Desktop IPC 记录分隔符注入漏洞",
+    "vulner_number_1": "CVE-2026-107181",
+    "vulner_number_2": "漏洞编号： CVE-2026-107181",
+    "new_vulner_name": "Telegram Desktop IPC 记录分隔符注入漏洞",
+    "vulner_date": "2026年10月10日",
+    "vulner_time_line": "2026/10/10",
+    "object_name": "Telegram Desktop",
+    "object_desc": "Telegram Desktop IPC 是 Telegram 即时通讯软件的桌面客户端中负责进程间通信的组件。该组件主要用于实现应用程序内部不同进程之间的数据交换与消息传递功能，常见于桌面版 Telegram 的本地通信架构中。",
+    "vulner_version": "Telegram Desktop ≤ 7.2.8",
+    "vulner_type": "IPC 记录分隔符注入",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "目标用户 Telegram Desktop 客户端正在运行",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "高",
+    "hazard_level": "攻击者可通过诱导用户点击特制链接，在无需用户交互确认的情况下触发客户端内部文件读取与发送功能，可能导致本地敏感文件（包含会话配置信息）泄露，甚至造成账户会话被完全接管",
+    "vuln_level": "高危",
+    "vulner_desc": "Telegram Desktop 在处理单实例 IPC 通信时，使用分号作为指令分隔符但未对外部传入的分号进行转义。当客户端已有实例运行时，攻击者构造的恶意链接通过本地套接字传递后，其内容中的分号会导致原本的单条 OPEN 指令被错误拆分为多条内部指令，从而注入 `interpret:` URI 处理功能。该功能可读取本地指令文件并自动发送文件至指定聊天，且缺少调用者身份校验。攻击者通过组合利用注入与文件外传能力，可窃取会话数据并实现账户会话接管。",
+    "official_solution": "升级 Telegram Desktop 至最新版本\n修复版本：7.2.9\n下载链接：https://desktop.telegram.org/",
+    "reference_link": "https://beaksec.github.io/posts/telegram-desktop-one-click-account-takeover/",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

@@ -1897,3 +1897,5 @@ https://mp.weixin.qq.com/s/M1-UKVftIwTeiIgl_YrmjA
 https://mp.weixin.qq.com/s/5NfcQt1ci6SBB984Cqxg-w
 奇安信cert::【原创发现】Handlebars.js validateAstNode 原型链绕过远程代码执行漏洞(CVE-2026-106446)安全风险通告
 https://mp.weixin.qq.com/s/-_SdemIxnelxKEmzfW4Mtw
+360漏洞研究院::【已复现】Telegram Desktop 高危漏洞，点击链接可致文件泄露甚至账户被接管
+https://mp.weixin.qq.com/s/JkkA_2722dtd7m1SL24BLg
