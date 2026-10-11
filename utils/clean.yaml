@@ -5921,3 +5921,9 @@ clean_list:
 - CVE-2026-43499-Analysis
 - CVE-2026-104335
 - CVE-2026-43805
+- CVE-2026-107406
+- chainguard-dashboards-end-to-end
+- CVE-2026-27626
+- Exploit-CVE-2026-40224
+- GhostLock-Next
+- ElasticRift
