@@ -1899,3 +1899,5 @@ https://mp.weixin.qq.com/s/5NfcQt1ci6SBB984Cqxg-w
 https://mp.weixin.qq.com/s/-_SdemIxnelxKEmzfW4Mtw
 360漏洞研究院::【已复现】Telegram Desktop 高危漏洞，点击链接可致文件泄露甚至账户被接管
 https://mp.weixin.qq.com/s/JkkA_2722dtd7m1SL24BLg
+360漏洞研究院::【已复现】FortiMail 未授权任意文件写入漏洞，已遭在野利用
+https://mp.weixin.qq.com/s/ePaxkdX3x61JzOAKofH-XQ

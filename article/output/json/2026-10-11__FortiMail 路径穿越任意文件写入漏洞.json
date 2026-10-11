@@ -1,0 +1,58 @@
+{
+  "mode": "llm",
+  "title": "【已复现】FortiMail 未授权任意文件写入漏洞，已遭在野利用",
+  "publisher": "360漏洞研究院",
+  "publish_date": "2026-10-11",
+  "table_fields": {
+    "漏洞名称": "Fortinet FortiMail 任意文件写入漏洞",
+    "漏洞编号": "CVE-2026-104286",
+    "公开时间": "2026-10-01",
+    "POC状态": "未公开",
+    "漏洞类型": "路径穿越",
+    "EXP状态": "未公开",
+    "利用可能性": "高",
+    "技术细节状态": "已公开",
+    "CVSS 3.1": "9.8",
+    "在野利用状态": "已发现"
+  },
+  "sections": {
+    "intro_text": "安全研究团队 安全研究团队 2026-10-11 09:00 Fortinet FortiMail 曝出严重未认证任意文件写入漏洞（CVE-2026-104286，CVSS 3.1：9.8）。未经身份认证的远程攻击者可通过构造特制 HTTP 或 HTTPS 请求，利用路径限制不当及 NULL 字节处理缺陷，将任意文件写入底层系统非预期位置。Fortinet 已确认该漏洞存在在野利用。 **利用前置条件：** - 攻击者能够通过网络访问目标 FortiMail 相关 Web 接口 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **漏洞影响范围** CVE-2026-104286 影响 Fortinet FortiMail 的以下版本： FortiMail 8.0：8.0.0 ～ 8.0.1（ = 8.0.2 FortiMail 7.6：>= 7.6.7 FortiMail 7.4：>= 7.4.9 FortiMail 7.2：升级至已修复的 7.4 或更高版本。 对于暂时无法升级的设备，建议关闭 Identity-Based Encryption（IBE）功能，并限制 FortiMail 管理接口的互联网访问，仅允许可信网络访问。 **漏洞描述** 2026年10月1日，Fortinet 公布了影响 FortiMail 邮件安全网关的未授权任意文件写入漏洞（CVE-2026-104286），漏洞严重程度为 Critical（CVSS 9.8）。该漏洞涉及 FortiMail 的身份加密（Identity-Based Encryption，IBE）功能，根源在于 Web 请求处理过程中存在路径遍历（Path Traversal）和 NULL 字节处理缺陷。系统在处理攻击者可控的文件路径时，未能正确限制目标文件的写入目录，且对 NULL 字节的处理可能导致路径校验与实际文件操作结果不一致，从而使攻击者能够绕过目录边界限制，将文件写入预期目录之外的位置。 攻击者无需身份认证，即可向存在漏洞且相关 Web 接口可访问的 FortiMail 设备发送特制的 HTTP/HTTPS 请求。攻击者通过构造包含目录遍历字符及 NULL 字节的恶意请求，利用文件路径校验缺陷，使服务端将攻击者控制的内容写入非预期的文件系统位置。若能够覆盖关键系统文件或向可执行目录写入恶意程序，则可能进一步实现远程代码执行（RCE），最终控制 FortiMail 设备。该漏洞已被证实存在野外利用，Fortinet 建议及时升级受影响版本，或临时关闭 IBE 功能以降低攻击风险。 **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-104286。在受影响版本的 FortiMail 环境中，向相关 Web 接口发送经过构造的请求后，将测试文件写入预期目录之外的位置，验证了该漏洞未认证任意文件写入风险。 CVE-2026-104286 Fortinet FortiMail 任意文件写入漏洞复现 **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **时间线** 2026年10月11日，安全研究团队发布本安全风险通告。",
+    "security_update": "正式防护方案 根据 Fortinet 官方安全公告，建议升级到以下 FortiMail 版本以修复 CVE-2026-104286 漏洞： FortiMail 8.0：>= 8.0.2 FortiMail 7.6：>= 7.6.7 FortiMail 7.4：>= 7.4.9 FortiMail 7.2：升级至已修复的 7.4 或更高版本。 对于暂时无法升级的设备，建议关闭 Identity-Based Encryption（IBE）功能，并限制 FortiMail 管理接口的互联网访问，仅允许可信网络访问。",
+    "component_text": "",
+    "vulnerability_text": "2026年10月1日，Fortinet 公布了影响 FortiMail 邮件安全网关的未授权任意文件写入漏洞（CVE-2026-104286），漏洞严重程度为 Critical（CVSS 9.8）。该漏洞涉及 FortiMail 的身份加密（Identity-Based Encryption，IBE）功能，根源在于 Web 请求处理过程中存在路径遍历（Path Traversal）和 NULL 字节处理缺陷。系统在处理攻击者可控的文件路径时，未能正确限制目标文件的写入目录，且对 NULL 字节的处理可能导致路径校验与实际文件操作结果不一致，从而使攻击者能够绕过目录边界限制，将文件写入预期目录之外的位置。 攻击者无需身份认证，即可向存在漏洞且相关 Web 接口可访问的 FortiMail 设备发送特制的 HTTP/HTTPS 请求。攻击者通过构造包含目录遍历字符及 NULL 字节的恶意请求，利用文件路径校验缺陷，使服务端将攻击者控制的内容写入非预期的文件系统位置。若能够覆盖关键系统文件或向可执行目录写入恶意程序，则可能进一步实现远程代码执行（RCE），最终控制 FortiMail 设备。该漏洞已被证实存在野外利用，Fortinet 建议及时升级受影响版本，或临时关闭 IBE 功能以降低攻击风险。 漏洞复现 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-104286。在受影响版本的 FortiMail 环境中，向相关 Web 接口发送经过构造的请求后，将测试文件写入预期目录之外的位置，验证了该漏洞未认证任意文件写入风险。 CVE-2026-104286 Fortinet FortiMail 任意文件写入漏洞复现 产品侧支持情况 360安全智能体： 支持该漏洞攻击的智能分析 。 360测绘云 Quake ：默认支持该产品的指纹识别。 360高级持续性威胁预警系统 ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 360资产与漏洞检测管理系统 ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 本地安全大脑 ：默认支持该漏洞的PoC检测。",
+    "affected_versions_text": "CVE-2026-104286 影响 Fortinet FortiMail 的以下版本： FortiMail 8.0：8.0.0 ～ 8.0.1（< 8.0.2） FortiMail 7.6：7.6.0 ～ 7.6.6（< 7.6.7） FortiMail 7.4：7.4.0 ～ 7.4.8（< 7.4.9） FortiMail 7.2：7.2.0 ～ 7.2.9",
+    "plain_text": "安全研究团队 安全研究团队 2026-10-11 09:00 Fortinet FortiMail 曝出严重未认证任意文件写入漏洞（CVE-2026-104286，CVSS 3.1：9.8）。未经身份认证的远程攻击者可通过构造特制 HTTP 或 HTTPS 请求，利用路径限制不当及 NULL 字节处理缺陷，将任意文件写入底层系统非预期位置。Fortinet 已确认该漏洞存在在野利用。 **利用前置条件：** - 攻击者能够通过网络访问目标 FortiMail 相关 Web 接口 **目前360图龙锋 · 漏洞挖掘智能体已成功复现该漏洞。** 本文包含完整影响范围、正式修复方案、技术原理与复现细节。 **01** **漏洞影响范围** CVE-2026-104286 影响 Fortinet FortiMail 的以下版本： FortiMail 8.0：8.0.0 ～ 8.0.1（ = 8.0.2 FortiMail 7.6：>= 7.6.7 FortiMail 7.4：>= 7.4.9 FortiMail 7.2：升级至已修复的 7.4 或更高版本。 对于暂时无法升级的设备，建议关闭 Identity-Based Encryption（IBE）功能，并限制 FortiMail 管理接口的互联网访问，仅允许可信网络访问。 **03** **漏洞描述** 2026年10月1日，Fortinet 公布了影响 FortiMail 邮件安全网关的未授权任意文件写入漏洞（CVE-2026-104286），漏洞严重程度为 Critical（CVSS 9.8）。该漏洞涉及 FortiMail 的身份加密（Identity-Based Encryption，IBE）功能，根源在于 Web 请求处理过程中存在路径遍历（Path Traversal）和 NULL 字节处理缺陷。系统在处理攻击者可控的文件路径时，未能正确限制目标文件的写入目录，且对 NULL 字节的处理可能导致路径校验与实际文件操作结果不一致，从而使攻击者能够绕过目录边界限制，将文件写入预期目录之外的位置。 攻击者无需身份认证，即可向存在漏洞且相关 Web 接口可访问的 FortiMail 设备发送特制的 HTTP/HTTPS 请求。攻击者通过构造包含目录遍历字符及 NULL 字节的恶意请求，利用文件路径校验缺陷，使服务端将攻击者控制的内容写入非预期的文件系统位置。若能够覆盖关键系统文件或向可执行目录写入恶意程序，则可能进一步实现远程代码执行（RCE），最终控制 FortiMail 设备。该漏洞已被证实存在野外利用，Fortinet 建议及时升级受影响版本，或临时关闭 IBE 功能以降低攻击风险。 **04** **漏洞复现** 安全研究团队依托图龙锋漏洞挖掘智能体已成功复现 CVE-2026-104286。在受影响版本的 FortiMail 环境中，向相关 Web 接口发送经过构造的请求后，将测试文件写入预期目录之外的位置，验证了该漏洞未认证任意文件写入风险。 CVE-2026-104286 Fortinet FortiMail 任意文件写入漏洞复现 **05** **产品侧支持情况** **360安全智能体：** 支持该漏洞攻击的智能分析**。** **360测绘云 Quake** ：默认支持该产品的指纹识别。 **360高级持续性威胁预警系统** ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 **360资产与漏洞检测管理系统** ：预计 2026年10月12日发布规则更新包，支持该漏洞利用行为的检测。 **本地安全大脑** ：默认支持该漏洞的PoC检测。 **06** **时间线** 2026年10月11日，安全研究团队发布本安全风险通告。 **07** 参考链接 https://fortiguard.fortinet.com/psirt/FG-IR-26-175 08 更多漏洞情报 建议您订阅360漏洞情报服务，获取更多漏洞情报详情以及处置建议，让您的企业远离漏洞威胁。 邮箱：360VRI@相关安全团队.cn 网址：https://vi.loudongyun.相关安全团队.net “洞”悉网络威胁，守护数字安全 **关于我们** 安全研究团队，隶属于360安全能力中心。其成员常年入选谷歌、微软、华为等厂商的安全精英排行榜, 并获得谷歌、微软、苹果史上最高漏洞奖励。研究院是中国首个荣膺Pwnie Awards“史诗级成就奖”，并获得多个Pwnie Awards提名的组织。累计发现并协助修复谷歌、苹果、微软、华为、高通等全球顶级厂商CVE漏洞3000多个，收获诸多官方公开致谢。研究院也屡次受邀在BlackHat，Usenix Security，Defcon等极具影响力的工业安全峰会和顶级学术会议上分享研究成果，并多次斩获信创挑战赛、天府杯等顶级黑客大赛总冠军和单项冠军。研究院将凭借其在漏洞挖掘和安全攻防方面的强大技术实力，帮助各大企业厂商不断完善系统安全，为数字安全保驾护航，筑造数字时代的安全堡垒。"
+  },
+  "reference_links": [
+    "https://fortiguard.fortinet.com/psirt/FG-IR-26-175"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+      "content": "PSIRT | FortiGuard Labs Research Services Threat Intelligence Support Resources About Search FortiGuard Research Center Explore latest research and threat reports on emerging cyber threats. Outbreak Alerts Security Blog Threat Signal Services By Outbreak By Solution By Product Protect Counter measures across the security fabric for protecting assets, data and network. AI-Protect Security Anti-Botnet AntiMalware AntiSpam Application Control Intrusion Protection Operational Technology Security Sandbox Behavior Engine Virtual Patching Web Application Security Web Filtering Detect Find and correlate important information to identify an outbreak. Find and correlate Anti-Recon and Anti-Exploit Cloud Threat Detection Endpoint Detection & Response Indicators of Compromise Outbreak Deception Outbreak Detection Security Automation Respond Develop containment techniques to mitigate impacts of security events. Develop containment Endpoint Detection and Response Endpoint Forensics Incident Response Recover Improve security posture and processes by implementing security awareness and training. Assessment Services NSE Training Security Awareness Training Identify Identify processes and assets that need protection. Identify processes and assets that Adversary Centric Intelligence Attack Surface Management Brand Protection Breach Attack Simulation Cloud Access Security Cloud Vulnerability DAST DevSecOps Endpoint Vulnerability IoT Device Detection Pen Testing Security Rating Network Security Anti-Botnet Anti-Recon and Anti-Exploit Data Loss Prevention Indicators of Compromise Internet Services Intrusion Protection IP Geolocation Network Detection and Response Operational Technology Security Secure DNS Virtual Patching Web Filtering Cloud & Application Security AI-Protect Security Application Control Client Application Firewall Cloud Access Security Cloud Threat Detection Cloud Vulnerability Credential Stuffing Defense DAST Web Application Security Endpoint Security AntiSpam AntiVirus Endpoint Detection & Response Endpoint Vulnerability IoT Device Detection Sandbox Behavior Engine Web Filtering Security Operations Breach Attack Simulation DevSecOps Outbreak Deception Outbreak Detection Pen Testing Security Automation Security Rating FortiGate FortiAnalyzer FortiClient FortiWeb FortiADC FortiAuthenticator FortiCNP FortiDDoS FortiDeceptor FortiEDR FortiMail FortiNDR empty FortiPAM FortiPolicy FortiProxy FortiRecon FortiSandBox FortiSASE FortiSIEM FortiTester FortiDAST FortiCNAPP FortiDLP empty AI-Protect Security Anti-Botnet AntiVirus Application Control Cloud Access Security Intrusion Protection IoT Device Detection IP Geolocation Operational Technology Security Sandbox Behavior Engine Secure DNS Security Rating Virtual Patching Web Filtering Indicators of Compromise Outbreak Detection Security Automation Anti-Botnet Anti-Recon and Anti-Exploit AntiVirus Application Firewall Credential Stuffing Defense Endpoint Vulnerability Intrusion Protection Outbreak Detection Sandbox Behavior Engine Web Filtering Anti-Botnet AntiVirus Application Control Credential Stuffing Defense Fuzzy Webshell IP Geolocation Sandbox Behavior Engine Web Application Security Anti-Botnet AntiVirus Credential Stuffing Defense Intrusion Protection IP Geolocation Sandbox Behavior Engine Web Application Security Web Filtering IP Geolocation Anti-Botnet Data Loss Prevention IP Geolocation Vulnerability Anti-Botnet Anti-Recon and Anti-Exploit AntiVirus Intrusion Protection Outbreak Deception AntiVirus EndPoint Detection and Response Endpoint Vulnerability Indicators of Compromise Sandbox Behavior Engine Web Filtering AntiSpam AntiVirus Sandbox Behavior Engine Web Filtering Network Detection and Response Sandbox Behavior Engine AntiVirus Data Loss Prevention Anti-Botnet Application Control Anti-Botnet Application Control Industrial Security Sandbox Behavior Engine Digital Risk Protection AntiVirus Intrusion Protection Sandbox Behavior Engine Web Filtering Anti-Botnet AntiVirus Appl"
+    }
+  ],
+  "payload": {
+    "vulner_name": "FortiMail 路径穿越任意文件写入漏洞",
+    "vulner_number_1": "CVE-2026-104286",
+    "vulner_number_2": "漏洞编号： CVE-2026-104286",
+    "new_vulner_name": "FortiMail 路径穿越任意文件写入漏洞",
+    "vulner_date": "2026年10月11日",
+    "vulner_time_line": "2026/10/11",
+    "object_name": "FortiMail",
+    "object_desc": "FortiMail是Fortinet推出的企业级邮件安全网关产品，主要用于保护企业电子邮件系统，提供反垃圾邮件、反病毒、邮件加密及数据泄露防护等功能，普遍部署于中大型组织的邮件入口处。",
+    "vulner_version": "8.0.0 ≤ FortiMail 8.0 < 8.0.2 7.6.0 ≤ FortiMail 7.6 < 7.6.7 7.4.0 ≤ FortiMail 7.4 < 7.4.9 7.2.0 ≤ FortiMail 7.2 < 7.2.10",
+    "vulner_type": "路径穿越",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "未经身份认证的远程攻击者可利用该漏洞向文件系统写入任意内容，覆盖关键系统文件或向可执行目录写入恶意程序，最终实现远程代码执行，完全控制 FortiMail 设备。该漏洞已被证实存在野外利用。",
+    "vuln_level": "严重",
+    "vulner_desc": "FortiMail邮件安全网关在处理IBE功能相关Web请求时存在路径遍历与NULL字节注入复合漏洞。攻击者可通过构造包含目录遍历序列及NULL字符的HTTP/HTTPS请求，绕过文件路径安全校验，将恶意内容写入系统任意目录。由于该漏洞可导致关键配置文件被覆写或可执行文件被植入，因而存在远程代码执行风险。该漏洞无需认证即可利用，已被确认在野利用。",
+    "official_solution": "升级至修复版本或关闭 IBE 功能并限制管理接口访问\n修复版本：FortiMail 8.0 >= 8.0.2、FortiMail 7.6 >= 7.6.7、FortiMail 7.4 >= 7.4.9、FortiMail 7.2 升级至 7.4 或更高版本\n下载链接：https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+    "reference_link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+    "reference_link1": "",
+    "reference_link2": ""
+  }
+}

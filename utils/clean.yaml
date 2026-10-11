@@ -5915,3 +5915,5 @@ clean_list:
 - CVE-2026-102428
 - CVE-2026-107806
 - CVE-2026-103690
+- diskcache-community
+- RuoYi-CVE-2026-38812-UNFIX
