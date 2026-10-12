@@ -2018,5 +2018,10 @@
         "title": "GitLab AI Gateway Critical Patch Release: 19.2.4, 19.3.2, and 19.4.1",
         "link": "https://docs.gitlab.com/releases/patches/other-patches/patch-release-gitlab-ai-gateway-19-4-1-released/",
         "published": "2026-10-02T00:00:00Z"
+    },
+    {
+        "title": "GitLab Critical Patch Release: 19.4.2, 19.3.5, 19.2.8",
+        "link": "https://docs.gitlab.com/releases/patches/patch-release-gitlab-19-4-2-released/",
+        "published": "2026-10-12T00:00:00Z"
     }
 ]
