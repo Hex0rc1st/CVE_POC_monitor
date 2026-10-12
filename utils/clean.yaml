@@ -5928,3 +5928,8 @@ clean_list:
 - GhostLock-Next
 - ElasticRift
 - metabase-cve-2026-72898
+- CVE-2026-103889
+- CVE-2026-91136
+- langflow-cve-2026-9198
+- postgres-basebackup-symlink
+- CVE-2026-9586_POC_EXPLOIT

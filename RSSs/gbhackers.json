@@ -13303,5 +13303,40 @@
         "title": "AWS Bedrock AgentCore Flaw Allowed Attackers to Hijack AI Agents Using a Single Prompt",
         "link": "https://gbhackers.com/aws-bedrock-agentcore-flaw-allowed-attackers/",
         "published": "Sat, 10 Oct 2026 06:59:42 +0000"
+    },
+    {
+        "title": "Hackers Use AI-Generated Event Lures to Steal Google Accounts and Bypass MFA",
+        "link": "https://gbhackers.com/ai-generated-event-lures/",
+        "published": "Mon, 12 Oct 2026 06:54:38 +0000"
+    },
+    {
+        "title": "Casbaneiro Banking Trojan Activates Only When Victims Visit Targeted Bank Websites",
+        "link": "https://gbhackers.com/casbaneiro-banking-trojan-2/",
+        "published": "Mon, 12 Oct 2026 06:09:52 +0000"
+    },
+    {
+        "title": "Microsoft Teams Adds New Security Feature to Detect Malicious QR Codes in Messages",
+        "link": "https://gbhackers.com/microsoft-teams-adds-new-security-feature-to-detect-malicious-qr-codes/",
+        "published": "Mon, 12 Oct 2026 06:02:58 +0000"
+    },
+    {
+        "title": "REA: New AI-Powered Reverse Engineering Tool Supports Ghidra, Hopper, and Claude Code",
+        "link": "https://gbhackers.com/rea-new-ai-powered-reverse-engineering-tool/",
+        "published": "Mon, 12 Oct 2026 05:53:01 +0000"
+    },
+    {
+        "title": "Ransomware Hackers Exploit Palo Alto Networks GlobalProtect VPN Authentication Bypass Vulnerability",
+        "link": "https://gbhackers.com/ransomware-hackers-exploit-palo-alto-networks-globalprotect/",
+        "published": "Mon, 12 Oct 2026 05:34:08 +0000"
+    },
+    {
+        "title": "Attackers Use Power BI Phishing to Install Multiple RMMs and Maintain Persistent Access",
+        "link": "https://gbhackers.com/power-bi-phishing/",
+        "published": "Mon, 12 Oct 2026 05:33:04 +0000"
+    },
+    {
+        "title": "Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers",
+        "link": "https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/",
+        "published": "Mon, 12 Oct 2026 05:28:59 +0000"
     }
 ]
