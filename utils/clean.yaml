@@ -5927,3 +5927,4 @@ clean_list:
 - Exploit-CVE-2026-40224
 - GhostLock-Next
 - ElasticRift
+- metabase-cve-2026-72898
