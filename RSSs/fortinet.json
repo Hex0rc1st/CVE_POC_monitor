@@ -1738,5 +1738,60 @@
         "title": "Improper limitation of a pathname to a restricted directory",
         "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
         "published": "Thu, 01 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Arbitrary file write in grpc phQueryMaster",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-180",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Broken authorization",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-183",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Double free in signal handler",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-182",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Fabric API Authentication bypass",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-179",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "GUI Denial of Service",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-181",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "HTML injection in WebUI",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Improper access control and session management in the web management interface",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-185",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Multiple Arbitrary File Read/Write via SQL Injection",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-178",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "Persistent Denial of Service in Admin Profile",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-176",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "SQL command injection in webmail",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-184",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
+    },
+    {
+        "title": "arbitrary command execution in fgfmsd daemon",
+        "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-177",
+        "published": "Tue, 13 Oct 2026 00:00:00 -0700"
     }
 ]

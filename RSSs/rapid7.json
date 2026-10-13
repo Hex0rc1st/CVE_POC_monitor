@@ -1233,5 +1233,10 @@
         "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
         "link": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
         "published": "Tue, 13 Oct 2026 11:29:03 GMT"
+    },
+    {
+        "title": "Ivanti Connect Secure zero-day exploited in the wild (CVE-2026-104935)",
+        "link": "https://www.rapid7.com/blog/post/etr-ivanti-connect-secure-zero-day-exploited-in-the-wild-cve-2026-104935",
+        "published": "Tue, 13 Oct 2026 17:06:05 GMT"
     }
 ]

@@ -9208,5 +9208,30 @@
         "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
         "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
         "published": "Tue, 13 Oct 2026 14:13:37 +0530"
+    },
+    {
+        "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+        "link": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+        "published": "Tue, 13 Oct 2026 23:50:57 +0530"
+    },
+    {
+        "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+        "link": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+        "published": "Tue, 13 Oct 2026 23:33:18 +0530"
+    },
+    {
+        "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+        "link": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+        "published": "Tue, 13 Oct 2026 23:03:11 +0530"
+    },
+    {
+        "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+        "link": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+        "published": "Tue, 13 Oct 2026 22:58:50 +0530"
+    },
+    {
+        "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+        "link": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+        "published": "Tue, 13 Oct 2026 21:48:18 +0530"
     }
 ]
