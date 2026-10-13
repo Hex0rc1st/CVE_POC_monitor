@@ -1901,3 +1901,5 @@ https://mp.weixin.qq.com/s/-_SdemIxnelxKEmzfW4Mtw
 https://mp.weixin.qq.com/s/JkkA_2722dtd7m1SL24BLg
 360漏洞研究院::【已复现】FortiMail 未授权任意文件写入漏洞，已遭在野利用
 https://mp.weixin.qq.com/s/ePaxkdX3x61JzOAKofH-XQ
+长亭安全应急响应中心::【已复现】未认证远程代码执行——AnyDesk Linux 堆缓冲区溢出漏洞（CVE-2026-109390）
+https://mp.weixin.qq.com/s/xzXf8A6MzLR1ORN7SyGweQ

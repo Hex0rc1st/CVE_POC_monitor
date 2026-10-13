@@ -13338,5 +13338,55 @@
         "title": "Claude AI Exploits SQL and Command Injection Flaws to Execute Commands on Third-Party Servers",
         "link": "https://gbhackers.com/claude-ai-exploits-sql-and-command-injection-flaws/",
         "published": "Mon, 12 Oct 2026 05:28:59 +0000"
+    },
+    {
+        "title": "Kimsuky Uses Fake Zoom Installers and Malicious LNK Files to Deploy Malware",
+        "link": "https://gbhackers.com/fake-zoom-installers-exploited/",
+        "published": "Tue, 13 Oct 2026 05:59:03 +0000"
+    },
+    {
+        "title": "Critical GitLab Vulnerability Allows Unauthenticated Attackers to Execute Remote Code",
+        "link": "https://gbhackers.com/critical-gitlab-vulnerability-2/",
+        "published": "Tue, 13 Oct 2026 05:50:46 +0000"
+    },
+    {
+        "title": "Denmark Data Breach Involving 8.8 Million Records Linked to ‘123456’ Password",
+        "link": "https://gbhackers.com/denmark-data-breach-involving-8-8-million-records-linked-to-123456-password/",
+        "published": "Tue, 13 Oct 2026 05:12:55 +0000"
+    },
+    {
+        "title": "Critical Google DevSite Flaw Allowed Attackers to Execute Remote Code Without Authentication",
+        "link": "https://gbhackers.com/critical-google-devsite-flaw/",
+        "published": "Mon, 12 Oct 2026 12:57:01 +0000"
+    },
+    {
+        "title": "Critical WordPress Bricksforge Flaw Lets Unauthenticated Attackers Execute Remote Code",
+        "link": "https://gbhackers.com/critical-wordpress-bricksforge-flaw/",
+        "published": "Mon, 12 Oct 2026 12:45:18 +0000"
+    },
+    {
+        "title": "Researchers Discover New Domain Spoofing Techniques That Bypass Chrome’s Phishing Protections",
+        "link": "https://gbhackers.com/researchers-discover-new-domain-spoofing-techniques/",
+        "published": "Mon, 12 Oct 2026 12:27:40 +0000"
+    },
+    {
+        "title": "FBI Arrests Canadian Cybersecurity Executive in ShinyHunters-Linked Cybercrime Investigation",
+        "link": "https://gbhackers.com/fbi-arrests-canadian-cybersecurity-executive/",
+        "published": "Mon, 12 Oct 2026 11:59:17 +0000"
+    },
+    {
+        "title": "Nippon Columbia Malware Infection Puts 8.72 Million Daiichikosho Customer Records at Risk",
+        "link": "https://gbhackers.com/nippon-columbia-malware-infection/",
+        "published": "Mon, 12 Oct 2026 11:42:21 +0000"
+    },
+    {
+        "title": "Discourse ImageMagick Vulnerability Enables Arbitrary File Read Through Malicious Image Uploads",
+        "link": "https://gbhackers.com/discourse-imagemagick-vulnerability-enables-arbitrary-file-read-through-malicious-image-uploads/",
+        "published": "Mon, 12 Oct 2026 11:13:19 +0000"
+    },
+    {
+        "title": "CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog",
+        "link": "https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/",
+        "published": "Mon, 12 Oct 2026 10:46:05 +0000"
     }
 ]

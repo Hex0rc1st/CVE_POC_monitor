@@ -1373,5 +1373,10 @@
         "title": "Credit Union Cybersecurity Handbook | Picus Security",
         "link": "https://www.picussecurity.com/resource/report/credit-union-cybersecurity-handbook",
         "published": "Mon, 12 Oct 2026 18:25:07 GMT"
+    },
+    {
+        "title": "CVE-2026-88771: Citrix NetScaler Pre-Auth Command Injection Explained",
+        "link": "https://www.picussecurity.com/resource/blog/cve-2026-88771-citrix-netscaler-pre-auth-command-injection-explained",
+        "published": "Tue, 13 Oct 2026 07:01:54 GMT"
     }
 ]

@@ -5933,3 +5933,11 @@ clean_list:
 - langflow-cve-2026-9198
 - postgres-basebackup-symlink
 - CVE-2026-9586_POC_EXPLOIT
+- CVE-2026-104711-Advanced-Variant
+- cve-2024-53677
+- CVE-2026-104711-POC-Variant3
+- CVE-2026-44825_test
+- CVE-2026-104711-exploit-payload-4
+- CVE-2026-104711
+- fromagegate
+- CVE-2026-41992-poc
