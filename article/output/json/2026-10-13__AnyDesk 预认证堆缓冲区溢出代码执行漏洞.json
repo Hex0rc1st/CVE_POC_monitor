@@ -1,0 +1,65 @@
+{
+  "mode": "llm",
+  "title": "【已复现】AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞(CVE-2026-109390)安全风险通告",
+  "publisher": "奇安信 CERT",
+  "publish_date": "2026-10-13",
+  "table_fields": {
+    "漏洞名称": "AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞",
+    "漏洞编号": "QVD-2026-82753 ， CVE-2026-109390",
+    "公开时间": "2026-10-12",
+    "影响量级": "万级",
+    "奇安信评级": "高危",
+    "CVSS 3.1分数": "9.8",
+    "威胁类型": "代码执行",
+    "利用可能性": "高",
+    "POC状态": "已公开",
+    "在野利用状态": "未发现",
+    "EXP状态": "已公开",
+    "技术细节状态": "已公开"
+  },
+  "sections": {
+    "intro_text": "安全团队 2026-10-13 17:26 ● **漏洞详情** **>** **>** **>** **>** **影响组件** AnyDesk 是 AnyDesk Software GmbH 开发的远程桌面软件，支持 Windows、macOS、Linux 等多平台。Linux 版服务进程（`anydesk --service`）默认以 root 运行，监听 TCP/7070 提供直连会话，并通过 AnyDesk 中继网络支持穿透连接，广泛应用于远程运维、技术支持与办公场景。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞(CVE-2026-109390)，该漏洞源于 AnyDesk 会话协议 mode-5 流数据包处理路径在长度校验之前，使用攻击者可控的 32 位声明长度参与堆内存分配计算，可构造\"极小分配 + 超长逻辑长度\"的错配，将攻击者数据越界写入相邻堆对象；结合伪造虚表指针、栈枢轴 与 ROP 链，可在目标 AnyDesk 服务进程内执行任意命令。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **影响范围** **>** **>** **>** **>** **影响版本** AnyDesk Linux ** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： AnyDesk ≥ 8.0.3（推荐升级至当前最新 8.1.0 或更高） 下载地址： https://anydesk.com/en/downloads/linux 临时缓解措施： 1. 禁止将 TCP/7070 暴露于公网/不可信网络，防火墙仅对受信管理来源放行； 2. 通过 AnyDesk 中继/代理等可控链路（说明：中继连接同样可达漏洞路径，此措施仅收缩暴露面，不能替代升级）； 3. 以最小权限（非 root）运行 anydesk 服务，降低成功利用后的影响。",
+    "security_update": "官方已发布安全补丁，请及时更新至最新版本： AnyDesk ≥ 8.0.3（推荐升级至当前最新 8.1.0 或更高） 下载地址： https://anydesk.com/en/downloads/linux 临时缓解措施： 1. 禁止将 TCP/7070 暴露于公网/不可信网络，防火墙仅对受信管理来源放行； 2. 通过 AnyDesk 中继/代理等可控链路（说明：中继连接同样可达漏洞路径，此措施仅收缩暴露面，不能替代升级）； 3. 以最小权限（非 root）运行 anydesk 服务，降低成功利用后的影响。",
+    "component_text": "AnyDesk 是 AnyDesk Software GmbH 开发的远程桌面软件，支持 Windows、macOS、Linux 等多平台。Linux 版服务进程（`anydesk --service`）默认以 root 运行，监听 TCP/7070 提供直连会话，并通过 AnyDesk 中继网络支持穿透连接，广泛应用于远程运维、技术支持与办公场景。",
+    "vulnerability_text": "近日，安全团队监测到官方修复 AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞(CVE-2026-109390)，该漏洞源于 AnyDesk 会话协议 mode-5 流数据包处理路径在长度校验之前，使用攻击者可控的 32 位声明长度参与堆内存分配计算，可构造\"极小分配 + 超长逻辑长度\"的错配，将攻击者数据越界写入相邻堆对象；结合伪造虚表指针、栈枢轴 与 ROP 链，可在目标 AnyDesk 服务进程内执行任意命令。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。",
+    "affected_versions_text": "AnyDesk Linux < 8.0.3",
+    "plain_text": "安全团队 2026-10-13 17:26 ● **0****1** **漏洞详情** **>** **>** **>** **>** **影响组件** AnyDesk 是 AnyDesk Software GmbH 开发的远程桌面软件，支持 Windows、macOS、Linux 等多平台。Linux 版服务进程（`anydesk --service`）默认以 root 运行，监听 TCP/7070 提供直连会话，并通过 AnyDesk 中继网络支持穿透连接，广泛应用于远程运维、技术支持与办公场景。 **>** **>** **>** **>** **漏洞描述** 近日，安全团队监测到官方修复 AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞(CVE-2026-109390)，该漏洞源于 AnyDesk 会话协议 mode-5 流数据包处理路径在长度校验之前，使用攻击者可控的 32 位声明长度参与堆内存分配计算，可构造\"极小分配 + 超长逻辑长度\"的错配，将攻击者数据越界写入相邻堆对象；结合伪造虚表指针、栈枢轴 与 ROP 链，可在目标 AnyDesk 服务进程内执行任意命令。 目前该漏洞PoC和技术细节已公开。 鉴于该漏洞影响范围较大，建议客户尽快做好自查及防护。 **02** **影响范围** **>** **>** **>** **>** **影响版本** AnyDesk Linux ** **>** **>** **>** **安全更新** 官方已发布安全补丁，请及时更新至最新版本： AnyDesk ≥ 8.0.3（推荐升级至当前最新 8.1.0 或更高） 下载地址： https://anydesk.com/en/downloads/linux 临时缓解措施： 1. 禁止将 TCP/7070 暴露于公网/不可信网络，防火墙仅对受信管理来源放行； 2. 通过 AnyDesk 中继/代理等可控链路（说明：中继连接同样可达漏洞路径，此措施仅收缩暴露面，不能替代升级）； 3. 以最小权限（非 root）运行 anydesk 服务，降低成功利用后的影响。 **06** **参考资料** [1]https://anydesk.com/en/changelog/linux [2] https://github.com/v12-security/pocs/tree/main/anydesk **07** **时间线** 2026年10月13日，安全团队发布安全风险通告。 **08** **漏洞情报服务** 「 安全团队漏洞情报平台 」 重磅上线，诚邀您来体验： ![图片][3] ![图片][4] ![图片][5] **安全团队** **致力于** 第一时间为企业级用户提供**权威** 漏洞情报和**有效** 解决方案。 点击↓**阅读原文** ，到**ALPHA威胁分析平台** 订阅更多漏洞信息。"
+  },
+  "reference_links": [
+    "https://anydesk.com/en/changelog/linux",
+    "https://github.com/v12-security/pocs/tree/main/anydesk"
+  ],
+  "reference_materials": [
+    {
+      "url": "https://anydesk.com/en/changelog/linux",
+      "content": "[抓取失败] https://anydesk.com/en/changelog/linux: 403 Client Error: Forbidden for url: https://anydesk.com/en/changelog/linux"
+    },
+    {
+      "url": "https://github.com/v12-security/pocs/tree/main/anydesk",
+      "content": "pocs/anydesk at main · v12-security/pocs · GitHub Skip to content Navigation Menu Sign in Appearance settings Platform AI CODE CREATION GitHub Copilot Write better code with AI GitHub Copilot app Direct agents from issue to merge MCP Registry Integrate external tools DEVELOPER WORKFLOWS Actions Automate any workflow Codespaces Instant dev environments Issues Plan and track work Code Review Manage code changes Code Quality Enforce quality at merge APPLICATION SECURITY GitHub Advanced Security Find and fix vulnerabilities Code security Secure your code as you build Secret protection Stop leaks before they start EXPLORE Why GitHub Documentation Blog Changelog Marketplace View all features Solutions BY COMPANY SIZE Enterprises Small and medium teams Startups Nonprofits BY USE CASE App Modernization DevSecOps DevOps CI/CD View all use cases BY INDUSTRY Healthcare Financial services Manufacturing Government View all industries View all solutions Resources EXPLORE BY TOPIC AI Software Development DevOps Security View all topics EXPLORE BY TYPE Customer stories Events & webinars Ebooks & reports Business insights GitHub Skills SUPPORT & SERVICES Documentation Customer support Community forum Trust center Partners View all resources Open Source COMMUNITY GitHub Sponsors Fund open source developers PROGRAMS Security Lab Maintainer Community GitHub Stars Archive Program REPOSITORIES Topics Trending Collections Enterprise ENTERPRISE SOLUTIONS Enterprise platform AI-powered developer platform AVAILABLE ADD-ONS GitHub Advanced Security Enterprise-grade security features Copilot for Business Enterprise-grade AI features Premium Support Enterprise-grade 24/7 support Pricing Search / Sign in Sign up Appearance settings You signed in with another tab or window. Reload to refresh your session. You signed out in another tab or window. Reload to refresh your session. You switched accounts on another tab or window. Reload to refresh your session. Dismiss alert v12-security pocs Repository navigation Code Pull requests Only collaborators can create PRs Actions Security and quality Insights More items Files Expand file tree main Breadcrumbs pocs / anydesk / Copy path Directory actions More options More options Directory actions More options More options Latest commit History History History main Breadcrumbs pocs / anydesk / Copy path Top Folders and files Name Name Last commit message Last commit date parent directory .. exploit exploit .gitignore .gitignore README.md README.md View all files README.md Outline AnyPwn: AnyDesk Pre-auth Heap Buffer Overflow RCE This vulnerability was discovered with V12 by Rick de Jager of the V12 security team . Want to find issues like this in your own code? Try V12 at v12.sh . Fixed in AnyDesk 8.0.3. The vendor appears to have deleted (?) the 8.0.2 build of anydesk upon the release of our poc video. Porting the exploit to 8.0.1 or obtaining a 8.0.2 build is left as an exercise to the reader. Abstract AnyPwn is a pre-approval remote code execution vulnerability in AnyDesk Linux 8.0.2. The session protocol's mode-5 stream packet handler trusts a remote payload length before validating it. Adding the 16-byte object header to that length with 32-bit arithmetic can wrap to a tiny allocation while the object retains the original large logical length. AnyDesk then copies attacker-controlled packet bytes beyond the allocation. The supplied PoC exploits the resulting heap corruption through the direct, local TCP/7070 transport and executes an arbitrary command. The same vulnerable session-protocol path is reachable over AnyDesk relay connections, which we validated with a minimal Frida trigger. To limit engineering time, the included minimal PoC demonstrates the full exploit only over direct TCP/7070 connections. The service normally runs as root on Linux, so successful exploitation yields root command execution before desktop-control approval. Exploitation Run the vulnerable AnyDesk Linux 8.0.2 service with TCP/7070 reachab"
+    }
+  ],
+  "payload": {
+    "vulner_name": "AnyDesk 预认证堆缓冲区溢出代码执行漏洞",
+    "vulner_number_1": "CVE-2026-109390",
+    "vulner_number_2": "漏洞编号： CVE-2026-109390",
+    "new_vulner_name": "AnyDesk 预认证堆缓冲区溢出代码执行漏洞",
+    "vulner_date": "2026年10月13日",
+    "vulner_time_line": "2026/10/13",
+    "object_name": "AnyDesk Linux",
+    "object_desc": "AnyDesk Linux 是一款适用于 Linux 系统的远程桌面控制软件，允许用户通过网络连接访问和控制其他计算机的桌面环境，提供远程技术支持、文件传输和在线协作等功能。",
+    "vulner_version": "AnyDesk Linux < 8.0.3",
+    "vulner_type": "堆缓冲区溢出",
+    "user_auth": "不需要用户认证",
+    "pre_condition": "默认配置",
+    "trigger_mode": "远程",
+    "utilize_difficulty": "低",
+    "hazard_level": "攻击者可利用该漏洞在目标服务进程内执行任意命令，服务进程默认以root权限运行，成功利用可获得系统最高权限。CVSS 3.1评分9.8。",
+    "vuln_level": "高危",
+    "vulner_desc": "AnyDesk Linux 8.0.2会话协议的mode-5流数据包处理路径存在预认证堆缓冲区溢出漏洞，攻击者在长度校验前可控的32位声明长度参与堆分配计算，可通过整数溢出构造极小分配与超长逻辑长度的错配，导致数据越界写入相邻堆对象；结合伪造虚表指针、栈枢轴与ROP链可在服务进程内实现远程代码执行。该漏洞可通过TCP/7070端口直接利用或在relay连接场景下触发，Linux环境下服务通常以root权限运行，成功利用可获得系统最高权限。",
+    "official_solution": "升级至 AnyDesk 8.0.3 或更高版本\n修复版本：8.0.3（推荐8.1.0及以上）\n下载链接：https://anydesk.com/en/downloads/linux",
+    "reference_link": "https://anydesk.com/en/downloads/linux",
+    "reference_link1": "https://anydesk.com/en/changelog/linux",
+    "reference_link2": "https://github.com/v12-security/pocs/tree/main/anydesk"
+  }
+}

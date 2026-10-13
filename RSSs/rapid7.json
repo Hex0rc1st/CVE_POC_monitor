@@ -1228,5 +1228,10 @@
         "title": "Metasploit Wrap Up: A Collection of What Can Only Be Called Eclectic Modules",
         "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-a-collection-of-what-can-only-be-called-eclectic-modules",
         "published": "Fri, 09 Oct 2026 11:00:52 GMT"
+    },
+    {
+        "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
+        "link": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+        "published": "Tue, 13 Oct 2026 11:29:03 GMT"
     }
 ]

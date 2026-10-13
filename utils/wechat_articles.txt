@@ -1903,3 +1903,7 @@ https://mp.weixin.qq.com/s/JkkA_2722dtd7m1SL24BLg
 https://mp.weixin.qq.com/s/ePaxkdX3x61JzOAKofH-XQ
 长亭安全应急响应中心::【已复现】未认证远程代码执行——AnyDesk Linux 堆缓冲区溢出漏洞（CVE-2026-109390）
 https://mp.weixin.qq.com/s/xzXf8A6MzLR1ORN7SyGweQ
+奇安信cert::【已复现】AnyDesk 预认证堆缓冲区溢出远程代码执行漏洞(CVE-2026-109390)安全风险通告
+https://mp.weixin.qq.com/s/NaEuykNNL99OvDwK7rfN4w
+360漏洞研究院::SmarterMail 高危漏洞链公开：一封恶意邮件可拿下服务器 SYSTEM 权限
+https://mp.weixin.qq.com/s/lR7JvlObBRCkIbEWALLwTQ

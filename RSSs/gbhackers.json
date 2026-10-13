@@ -13388,5 +13388,55 @@
         "title": "CISA Adds Actively Exploited Apache Struts Command Injection Flaw to KEV Catalog",
         "link": "https://gbhackers.com/cisa-adds-actively-exploited-apache-struts-command-injection-flaw/",
         "published": "Mon, 12 Oct 2026 10:46:05 +0000"
+    },
+    {
+        "title": "Criminal IP to Showcase Threat Intelligence and AITEM at Security Days Fall 2026 Tokyo",
+        "link": "https://gbhackers.com/criminal-ip-to-showcase-threat-intelligence-and-aitem-at-security-days-fall-2026-tokyo/",
+        "published": "Tue, 13 Oct 2026 13:58:30 +0000"
+    },
+    {
+        "title": "G2A.COM Reports 35% Growth in Security Software Orders, Outpacing VPN Growth",
+        "link": "https://gbhackers.com/g2a-com-reports-35-growth-in-security-software-orders-outpacing-vpn-growth/",
+        "published": "Tue, 13 Oct 2026 13:56:25 +0000"
+    },
+    {
+        "title": "Hackers Target Hundreds of French Supermarkets, Heating Refrigeration Systems to 50°C",
+        "link": "https://gbhackers.com/hackers-target-hundreds-of-french-supermarkets/",
+        "published": "Tue, 13 Oct 2026 13:29:39 +0000"
+    },
+    {
+        "title": "SAP Patches Critical NetWeaver and S/4HANA Security Flaws Affecting Enterprise Systems",
+        "link": "https://gbhackers.com/sap-patches-critical-netweaver-and-s-4hana-security-flaws/",
+        "published": "Tue, 13 Oct 2026 13:14:43 +0000"
+    },
+    {
+        "title": "Attackers Can Hijack npm Packages Without Stealing Developer Credentials",
+        "link": "https://gbhackers.com/npm-packages-hijacked/",
+        "published": "Tue, 13 Oct 2026 13:08:59 +0000"
+    },
+    {
+        "title": "Anthropic Warns AI Models Could Soon Self-Replicate Across Smart TVs and IoT Devices",
+        "link": "https://gbhackers.com/anthropic-warns-ai-models/",
+        "published": "Tue, 13 Oct 2026 13:00:25 +0000"
+    },
+    {
+        "title": "New macOS Malware Uses Fake System Prompts to Steal Passwords and Deploy RAT",
+        "link": "https://gbhackers.com/macos-credential-stealing/",
+        "published": "Tue, 13 Oct 2026 12:28:20 +0000"
+    },
+    {
+        "title": "Hackers Exploit Citrix NetScaler Zero-Days to Deploy Modified Platypus Backdoor",
+        "link": "https://gbhackers.com/hackers-exploit-citrix-netscaler-zero-days/",
+        "published": "Tue, 13 Oct 2026 12:12:59 +0000"
+    },
+    {
+        "title": "Researchers Discover 253 Security Vulnerabilities Across 343 AI Agent Tools in MCP Servers",
+        "link": "https://gbhackers.com/researchers-discover-253-security-vulnerabilities/",
+        "published": "Tue, 13 Oct 2026 11:57:38 +0000"
+    },
+    {
+        "title": "XWorm HBrowser Plugin Lets Attackers Control Authenticated Browser Sessions Without Credentials",
+        "link": "https://gbhackers.com/xworm-hbrowser-plugin/",
+        "published": "Tue, 13 Oct 2026 11:01:50 +0000"
     }
 ]
