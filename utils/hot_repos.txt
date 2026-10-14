@@ -363,3 +363,4 @@ https://github.com/linux-tools/VIVO-IQOO-Neo9-Root-Tools
 https://github.com/redinpulse/CVE-2026-84568
 https://github.com/1xPwn/CVE-2026-102489
 https://github.com/tc4dy/CVE-2026-85097-Toolkit
+https://github.com/jburgess-r7/CVE-2026-97229-PoC
