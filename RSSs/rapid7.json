@@ -1243,5 +1243,15 @@
         "title": "Patch Tuesday - October 2026",
         "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026",
         "published": "Tue, 13 Oct 2026 21:40:27 GMT"
+    },
+    {
+        "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
+        "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
+        "published": "Wed, 14 Oct 2026 13:00:00 GMT"
+    },
+    {
+        "title": "Unauthenticated SQL Injection In Channel Software WebAlliance eCommerce",
+        "link": "https://www.rapid7.com/blog/post/ve-unauthenticated-sql-injection-in-channel-software-weballiance-ecommerce",
+        "published": "Wed, 14 Oct 2026 12:47:05 GMT"
     }
 ]

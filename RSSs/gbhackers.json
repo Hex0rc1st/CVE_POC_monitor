@@ -13463,5 +13463,55 @@
         "title": "iOS Exploit Kits Can Compromise iPhones Through a Single Malicious Website",
         "link": "https://gbhackers.com/ios-exploit-kits/",
         "published": "Wed, 14 Oct 2026 04:55:53 +0000"
+    },
+    {
+        "title": "Ransomware Gangs Threaten Employees’ Families as AI-Powered Attacks Escalate",
+        "link": "https://gbhackers.com/ransomware-gangs-threaten-employees-families/",
+        "published": "Wed, 14 Oct 2026 13:53:14 +0000"
+    },
+    {
+        "title": "Google Pays $250,000 for AI-Assisted Chrome Exploit Enabling Windows Code Execution",
+        "link": "https://gbhackers.com/google-pays-250000-for-ai-assisted-chrome-exploit/",
+        "published": "Wed, 14 Oct 2026 12:13:37 +0000"
+    },
+    {
+        "title": "Meta GitHub Repositories Compromised, Exposing Software Code and Employee Personal Data",
+        "link": "https://gbhackers.com/meta-github-repositories-compromised/",
+        "published": "Wed, 14 Oct 2026 12:05:38 +0000"
+    },
+    {
+        "title": "Hackers Use Compromised Credentials to Infiltrate European Bank Through VPN",
+        "link": "https://gbhackers.com/vpn-credential-compromise/",
+        "published": "Wed, 14 Oct 2026 10:52:29 +0000"
+    },
+    {
+        "title": "Windows Server Zero-Day Flaw Lets Attackers Crash Servers With a Single Malicious Packet",
+        "link": "https://gbhackers.com/windows-server-zero-day-flaw/",
+        "published": "Wed, 14 Oct 2026 10:17:18 +0000"
+    },
+    {
+        "title": "Google Chrome Update Fixes 37 Security Vulnerabilities, Including 7 Critical Flaws",
+        "link": "https://gbhackers.com/google-chrome-update-fixes-37-security-vulnerabilities/",
+        "published": "Wed, 14 Oct 2026 10:06:59 +0000"
+    },
+    {
+        "title": "Fake WatchGuard VPN Site Steals Credentials Then Delivers Legitimate Signed Installer",
+        "link": "https://gbhackers.com/fake-watchguard-vpn-site/",
+        "published": "Wed, 14 Oct 2026 09:53:42 +0000"
+    },
+    {
+        "title": "Windows BitLocker Vulnerabilities Could Allow Attackers to Bypass Security Protections and Escalate Privileges",
+        "link": "https://gbhackers.com/windows-bitlocker-vulnerabilities/",
+        "published": "Wed, 14 Oct 2026 09:01:53 +0000"
+    },
+    {
+        "title": "Ivanti Connect Secure CVE-2026-104935 Flaw Enables Unauthenticated Remote Code Execution",
+        "link": "https://gbhackers.com/ivanti-connect-secure-cve-2026-104935-flaw/",
+        "published": "Wed, 14 Oct 2026 08:42:19 +0000"
+    },
+    {
+        "title": "Hackers Chain 3 Ivanti VPN Zero-Days to Gain Root Access Without Authentication",
+        "link": "https://gbhackers.com/ivanti-vpn-zero-days/",
+        "published": "Wed, 14 Oct 2026 08:30:47 +0000"
     }
 ]

@@ -908,5 +908,65 @@
         "title": "CVE-2026-0310 PAN-OS: Buffer Overflow Vulnerability via XML Processing  (Severity: HIGH)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0310",
         "published": "2026-09-09T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0314",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0320 PAN-OS: Authenticated Admin Command Injection Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0320",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "PAN-SA-2026-0013 Chromium: Monthly Vulnerability Update (October 2026) (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/PAN-SA-2026-0013",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0313 Cortex XSOAR: OS Command Injection Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0313",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0318 PAN-OS: Denial of Service (DoS) on Panorama (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0318",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0312 Checkov by Prisma Cloud: Path Traversal Vulnerabilities (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0312",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0321 PAN-OS: Denial of Service (DoS) Vulnerabilities in Network Services (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0321",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0316 PAN-OS: Stored Cross-Site Scripting (XSS) Vulnerability (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0316",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0315 GlobalProtect App: Local Privilege Escalation Vulnerability on macOS (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0315",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0311 Checkov by Prisma Cloud: Server-Side Request Forgery Vulnerability (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0311",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0319 PAN-OS: Improper Input Handling Vulnerability (Severity: MEDIUM)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0319",
+        "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0322",
+        "published": "2026-10-14T16:00:00.000Z"
     }
 ]

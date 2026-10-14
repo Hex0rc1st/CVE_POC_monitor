@@ -1378,5 +1378,10 @@
         "title": "CVE-2026-88771: Citrix NetScaler Pre-Auth Command Injection Explained",
         "link": "https://www.picussecurity.com/resource/blog/cve-2026-88771-citrix-netscaler-pre-auth-command-injection-explained",
         "published": "Tue, 13 Oct 2026 07:01:54 GMT"
+    },
+    {
+        "title": "Prioritize What Attackers Will Exploit: 4 Elements of Strong Exposure Prioritization",
+        "link": "https://www.picussecurity.com/resource/report/gartner-prioritize-what-attackers-will-exploit",
+        "published": "Wed, 14 Oct 2026 13:42:57 GMT"
     }
 ]
