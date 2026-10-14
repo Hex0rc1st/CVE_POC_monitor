@@ -1907,3 +1907,5 @@ https://mp.weixin.qq.com/s/xzXf8A6MzLR1ORN7SyGweQ
 https://mp.weixin.qq.com/s/NaEuykNNL99OvDwK7rfN4w
 360漏洞研究院::SmarterMail 高危漏洞链公开：一封恶意邮件可拿下服务器 SYSTEM 权限
 https://mp.weixin.qq.com/s/lR7JvlObBRCkIbEWALLwTQ
+奇安信cert::微软10月补丁日多个产品安全漏洞风险通告：1个在野利用、36个紧急漏洞
+https://mp.weixin.qq.com/s/O8BS-zv196FH2Vjz8fZbzw
