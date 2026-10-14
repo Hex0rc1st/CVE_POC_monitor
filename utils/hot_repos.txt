@@ -365,3 +365,5 @@ https://github.com/1xPwn/CVE-2026-102489
 https://github.com/tc4dy/CVE-2026-85097-Toolkit
 https://github.com/jburgess-r7/CVE-2026-97229-PoC
 https://github.com/sm1ee/CVE-2026-91737
+https://github.com/msuiche/fromagegate
+https://github.com/Beardhammer/CVE-2026-85884
