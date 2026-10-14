@@ -1909,3 +1909,11 @@ https://mp.weixin.qq.com/s/NaEuykNNL99OvDwK7rfN4w
 https://mp.weixin.qq.com/s/lR7JvlObBRCkIbEWALLwTQ
 奇安信cert::微软10月补丁日多个产品安全漏洞风险通告：1个在野利用、36个紧急漏洞
 https://mp.weixin.qq.com/s/O8BS-zv196FH2Vjz8fZbzw
+微步在线研究响应中心::CVSS 10.0！特定条件下 GitLab 远程代码执行漏洞
+https://mp.weixin.qq.com/s/W7hO2GDxsJJ3B6_42Wg8_g
+奇安信cert::【已复现】GitLab 正则表达式编译器未授权远程代码执行漏洞(CVE-2026-97229)安全风险通告
+https://mp.weixin.qq.com/s/rZbCgLrCe4rTNE_YNrSldg
+长亭安全应急响应中心::【已复现】GitLab 未认证远程代码执行漏洞（CVE-2026-97229）
+https://mp.weixin.qq.com/s/hjaQwTvZOoj4i_y_dt6wAA
+360漏洞研究院::【已复现】GitLab 严重 RCE 漏洞，利用代码已公开
+https://mp.weixin.qq.com/s/7LRTPvCJ0rdLvs93hkDg_A

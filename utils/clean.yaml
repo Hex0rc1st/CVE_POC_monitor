@@ -5963,3 +5963,13 @@ clean_list:
 - CVE-2026-18116
 - cve-2026-63223-ctf
 - CVE-2026-104711-POC---Brand-New
+- cve-2026-44825-challenge
+- CVE-2026-104748
+- CVE-2026-54121-adcs-chase-nxc
+- CVE-2024-5274
+- CVE-2024-23222
+- CVE-2025-13224
+- CVE-2025-12433
+- CVE-2026-85097-Briskforge-RCE
+- CVE-2026-97657
+- langflow_diff_cve-2026-0768

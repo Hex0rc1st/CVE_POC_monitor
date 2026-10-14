@@ -9243,5 +9243,30 @@
         "title": "OpenAI Employee Arrested for Allegedly Planting Hidden Recorder in Executive Conference Room",
         "link": "https://thehackernews.com/2026/10/openai-employee-arrested-for-allegedly.html",
         "published": "Wed, 14 Oct 2026 07:29:25 +0530"
+    },
+    {
+        "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+        "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+        "published": "Wed, 14 Oct 2026 16:49:02 +0530"
+    },
+    {
+        "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+        "link": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html",
+        "published": "Wed, 14 Oct 2026 16:38:22 +0530"
+    },
+    {
+        "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+        "link": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+        "published": "Wed, 14 Oct 2026 16:30:00 +0530"
+    },
+    {
+        "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+        "link": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html",
+        "published": "Wed, 14 Oct 2026 13:16:57 +0530"
+    },
+    {
+        "title": "Four-Byte Write and Timing Bug Let Researchers Run Code in Windows SmartScreen Enclave",
+        "link": "https://thehackernews.com/2026/10/four-byte-write-and-timing-bug-let.html",
+        "published": "Wed, 14 Oct 2026 11:22:28 +0530"
     }
 ]
