@@ -5982,3 +5982,12 @@ clean_list:
 - CVE-2026-20896-Gitea-CTF
 - CVE-2026-47644
 - ivanti-cve-2026-104935-check
+- CVE-2026-97205
+- cve-2025-66645
+- ghostlock-brt-w09
+- plz110-6.12.69-cve-2026-64560-ksu
+- cve-2026-110447-checker
+- Lenovo_Qcom_RPMB_Tool
+- CVE-2026-110958
+- cve-2026-77521-lab
+- CVE-2026-18963-PoC
