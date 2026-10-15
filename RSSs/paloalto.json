@@ -968,5 +968,10 @@
         "title": "CVE-2026-0322 PAN-OS: Authenticated Remote Code Execution (RCE) in the Management Interface (Severity: HIGH)",
         "link": "https://security.paloaltonetworks.com/CVE-2026-0322",
         "published": "2026-10-14T16:00:00.000Z"
+    },
+    {
+        "title": "CVE-2026-0317 PAN-OS: Denial of Service Vulnerability (Severity: LOW)",
+        "link": "https://security.paloaltonetworks.com/CVE-2026-0317",
+        "published": "2026-10-15T18:30:00.000Z"
     }
 ]

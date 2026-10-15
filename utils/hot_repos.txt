@@ -369,3 +369,4 @@ https://github.com/msuiche/fromagegate
 https://github.com/Beardhammer/CVE-2026-85884
 https://github.com/wkpwn/CVE-2026-83834
 https://github.com/abdugafforov-bobur/cve-2026-107181-poc
+https://github.com/feiguang-ai/plz110-6.12.69-cve-2026-64560-ksu
