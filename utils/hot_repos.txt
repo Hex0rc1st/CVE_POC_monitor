@@ -367,3 +367,5 @@ https://github.com/jburgess-r7/CVE-2026-97229-PoC
 https://github.com/sm1ee/CVE-2026-91737
 https://github.com/msuiche/fromagegate
 https://github.com/Beardhammer/CVE-2026-85884
+https://github.com/wkpwn/CVE-2026-83834
+https://github.com/abdugafforov-bobur/cve-2026-107181-poc

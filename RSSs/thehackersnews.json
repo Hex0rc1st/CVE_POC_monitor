@@ -9303,5 +9303,25 @@
         "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
         "link": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
         "published": "Wed, 14 Oct 2026 22:39:15 +0530"
+    },
+    {
+        "title": "GhostAction Compromises About 1,900 GitHub Accounts, Targets Over 30,000 Repositories",
+        "link": "https://thehackernews.com/2026/10/ghostaction-compromises-about-1900.html",
+        "published": "Thu, 15 Oct 2026 14:15:10 +0530"
+    },
+    {
+        "title": "Langflow's Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts",
+        "link": "https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html",
+        "published": "Thu, 15 Oct 2026 12:37:05 +0530"
+    },
+    {
+        "title": "AhsayCBS Flaws Exploited to Deploy Web Shells Get New Fixes After Incomplete Patches",
+        "link": "https://thehackernews.com/2026/10/ahsaycbs-flaws-exploited-to-deploy-web.html",
+        "published": "Thu, 15 Oct 2026 12:13:08 +0530"
+    },
+    {
+        "title": "Palo Alto Networks Patches PAN-OS Authenticated RCE Flaw Amid Active Exploitation",
+        "link": "https://thehackernews.com/2026/10/palo-alto-networks-patches-pan-os.html",
+        "published": "Thu, 15 Oct 2026 11:47:58 +0530"
     }
 ]

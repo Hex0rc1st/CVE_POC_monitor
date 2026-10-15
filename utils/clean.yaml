@@ -5973,3 +5973,12 @@ clean_list:
 - CVE-2026-85097-Briskforge-RCE
 - CVE-2026-97657
 - langflow_diff_cve-2026-0768
+- CVE-2026-44825_CTF
+- CVE-vulnerability
+- predicted-CVE-2026-20329
+- CVE-2026-12118-POC-
+- CVE-2026-104711-POC-NEW-VARIANT
+- CVE-2026-110912
+- CVE-2026-20896-Gitea-CTF
+- CVE-2026-47644
+- ivanti-cve-2026-104935-check
