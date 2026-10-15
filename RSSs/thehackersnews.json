@@ -9373,5 +9373,10 @@
         "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
         "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
         "published": "Thu, 15 Oct 2026 21:30:26 +0530"
+    },
+    {
+        "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+        "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+        "published": "Fri, 16 Oct 2026 01:54:36 +0530"
     }
 ]
