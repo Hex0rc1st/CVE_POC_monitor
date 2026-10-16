@@ -13578,5 +13578,55 @@
         "title": "Google Warns Chinese Hackers Exploited Critical BeyondTrust Zero-Day to Gain Root Access",
         "link": "https://gbhackers.com/beyondtrust-zero-day-exploited/",
         "published": "Fri, 16 Oct 2026 04:59:04 +0000"
+    },
+    {
+        "title": "Researchers Demonstrate iOS 27.0.1 Untethered Jailbreak on iPhone 18 Pro",
+        "link": "https://gbhackers.com/ios-27-0-1-untethered-jailbreak/",
+        "published": "Fri, 16 Oct 2026 14:40:12 +0000"
+    },
+    {
+        "title": "Progress Warns of MOVEit Transfer Vulnerabilities Allowing Authentication Bypass and Privilege Escalation",
+        "link": "https://gbhackers.com/moveit-transfer-security-flaws/",
+        "published": "Fri, 16 Oct 2026 14:30:31 +0000"
+    },
+    {
+        "title": "MITRE ATT&CK v20 Adds New AI Attack Techniques for Prompt Injection and Data Theft",
+        "link": "https://gbhackers.com/mitre-attack-v20-ai-techniques/",
+        "published": "Fri, 16 Oct 2026 12:56:46 +0000"
+    },
+    {
+        "title": "Google Chrome 155 Patches Critical Use-After-Free Flaw and Nine Additional Security Bugs",
+        "link": "https://gbhackers.com/chrome-155-security-flaws/",
+        "published": "Fri, 16 Oct 2026 12:36:42 +0000"
+    },
+    {
+        "title": "BAE Systems Cybersecurity Incident Disrupts Bankruptcy Court Operations Across the U.S.",
+        "link": "https://gbhackers.com/bae-systems-cybersecurity-incident/",
+        "published": "Fri, 16 Oct 2026 11:07:19 +0000"
+    },
+    {
+        "title": "Google Android Flags 5 Million Suspected Scam Calls and Texts Monthly",
+        "link": "https://gbhackers.com/google-android-scam-calls-texts/",
+        "published": "Fri, 16 Oct 2026 10:13:41 +0000"
+    },
+    {
+        "title": "Researchers Uncover 20,000 Malicious Cloudflare Pages Domains Used in Tech Support Scams",
+        "link": "https://gbhackers.com/20000-malicious-cloudflare-pages/",
+        "published": "Fri, 16 Oct 2026 09:40:31 +0000"
+    },
+    {
+        "title": "Hackers Exploit BeyondTrust Zero-Day and Erase Security Logs to Hide Their Tracks",
+        "link": "https://gbhackers.com/beyondtrust-zero-day-security-logs/",
+        "published": "Fri, 16 Oct 2026 09:35:40 +0000"
+    },
+    {
+        "title": "Critical Collabora Online Flaw Lets Attackers Execute Commands on Nextcloud Servers",
+        "link": "https://gbhackers.com/collabora-online-nextcloud-security-flaw/",
+        "published": "Fri, 16 Oct 2026 09:19:50 +0000"
+    },
+    {
+        "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials",
+        "link": "https://gbhackers.com/ai-agents-target-papercut/",
+        "published": "Fri, 16 Oct 2026 09:10:51 +0000"
     }
 ]
