@@ -1258,5 +1258,15 @@
         "title": "How Multi-Campus Universities can Build a more Connected Security Program",
         "link": "https://www.rapid7.com/blog/post/it-multi-campus-universities-building-more-connected-security-programs",
         "published": "Thu, 15 Oct 2026 19:20:59 GMT"
+    },
+    {
+        "title": "Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229)",
+        "link": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
+        "published": "Fri, 16 Oct 2026 13:31:56 GMT"
+    },
+    {
+        "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
+        "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
+        "published": "Fri, 16 Oct 2026 13:00:00 GMT"
     }
 ]
