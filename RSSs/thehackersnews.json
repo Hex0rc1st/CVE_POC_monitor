@@ -9378,5 +9378,20 @@
         "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
         "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
         "published": "Fri, 16 Oct 2026 01:54:36 +0530"
+    },
+    {
+        "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+        "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+        "published": "Fri, 16 Oct 2026 12:25:55 +0530"
+    },
+    {
+        "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+        "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+        "published": "Fri, 16 Oct 2026 12:23:09 +0530"
+    },
+    {
+        "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+        "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+        "published": "Fri, 16 Oct 2026 10:29:36 +0530"
     }
 ]
