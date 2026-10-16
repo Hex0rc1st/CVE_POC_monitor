@@ -1917,3 +1917,7 @@ https://mp.weixin.qq.com/s/rZbCgLrCe4rTNE_YNrSldg
 https://mp.weixin.qq.com/s/hjaQwTvZOoj4i_y_dt6wAA
 360漏洞研究院::【已复现】GitLab 严重 RCE 漏洞，利用代码已公开
 https://mp.weixin.qq.com/s/7LRTPvCJ0rdLvs93hkDg_A
+长亭安全应急响应中心::【已复现】Ivanti Connect Secure 未认证 RCE 与提权漏洞链（CVE-2026-104935）
+https://mp.weixin.qq.com/s/PUI7M3fZ0WBEFfPC3jpOFg
+奇安信cert::【已复现】Windows 健康与优化体验服务权限提升漏洞(CVE-2026-85884)安全风险通告
+https://mp.weixin.qq.com/s/GJiny4egNa6WEL3Bol3dhQ
