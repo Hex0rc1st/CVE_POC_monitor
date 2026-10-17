@@ -9423,5 +9423,10 @@
         "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
         "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
         "published": "Sat, 17 Oct 2026 11:46:46 +0530"
+    },
+    {
+        "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+        "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+        "published": "Sat, 17 Oct 2026 16:41:56 +0530"
     }
 ]

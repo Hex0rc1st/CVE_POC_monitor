@@ -13643,5 +13643,40 @@
         "title": "AI-Assisted Hackers Compromise Government Linux Servers to Deploy Backdoors and Steal Credentials",
         "link": "https://gbhackers.com/linux-servers-compromised/",
         "published": "Sat, 17 Oct 2026 04:58:49 +0000"
+    },
+    {
+        "title": "Anthropic’s Claude AI Uncovers Origins of NSA-Provided Cryptographic Keys After 25 Years",
+        "link": "https://gbhackers.com/anthropics-claude-ai-nsa-provided-cryptographic-keys/",
+        "published": "Sat, 17 Oct 2026 09:07:04 +0000"
+    },
+    {
+        "title": "Critical WordPress Flaws Allow Attackers to Execute Remote Code Without Authentication",
+        "link": "https://gbhackers.com/critical-wordpress-flaws/",
+        "published": "Sat, 17 Oct 2026 08:47:31 +0000"
+    },
+    {
+        "title": "OpenBSD Kernel Flaw Dating Back 37 Years Enables Local Privilege Escalation to Root",
+        "link": "https://gbhackers.com/openbsd-kernel-flaw/",
+        "published": "Sat, 17 Oct 2026 08:34:43 +0000"
+    },
+    {
+        "title": "GhostAction Hackers Hide Credential-Stealing Malware in Fake Font Files Across 94 GitHub Repositories",
+        "link": "https://gbhackers.com/ghostaction-hackers-hide-credential-stealing-malware/",
+        "published": "Sat, 17 Oct 2026 08:26:30 +0000"
+    },
+    {
+        "title": "SideCopy Hackers Target Indian Organizations With ReverseRAT Malware to Steal Data",
+        "link": "https://gbhackers.com/sidecopy-hackers-target-indian-organizations/",
+        "published": "Sat, 17 Oct 2026 08:06:13 +0000"
+    },
+    {
+        "title": "New GhostBat Android Malware Targets 60 Banking and UPI Apps to Steal PINs",
+        "link": "https://gbhackers.com/ghostbat-android-malware/",
+        "published": "Sat, 17 Oct 2026 07:14:15 +0000"
+    },
+    {
+        "title": "New ROMULUS Malware Platform Uses Six Servers to Deliver Multiple Malicious Payloads",
+        "link": "https://gbhackers.com/romulus-malware-platform/",
+        "published": "Sat, 17 Oct 2026 06:54:51 +0000"
     }
 ]

@@ -6014,3 +6014,8 @@ clean_list:
 - CVE-2026-8933
 - CVE-2026-107084
 - cybersecurity
+- CVE-2026-99999
+- pmx110-cve-2026-64560
+- CVE-2026-111823
+- prauge-CVE-2026-64560-OS4.0
+- cve-2026-99999-audit
