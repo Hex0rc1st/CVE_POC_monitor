@@ -13628,5 +13628,20 @@
         "title": "Hackers Use Hundreds of AI Agents to Exploit PaperCut Servers and Steal Windows Credentials",
         "link": "https://gbhackers.com/ai-agents-target-papercut/",
         "published": "Fri, 16 Oct 2026 09:10:51 +0000"
+    },
+    {
+        "title": "Midnight Blizzard-Linked Malware Server Still Delivering Payloads 8 Weeks After Disclosure",
+        "link": "https://gbhackers.com/midnight-blizzard-malware/",
+        "published": "Sat, 17 Oct 2026 06:26:17 +0000"
+    },
+    {
+        "title": "Android Malware Exposes Its Own Operators While Hijacking Phones and Stealing Sensitive Data",
+        "link": "https://gbhackers.com/android-remote-access-trojan/",
+        "published": "Sat, 17 Oct 2026 05:57:36 +0000"
+    },
+    {
+        "title": "AI-Assisted Hackers Compromise Government Linux Servers to Deploy Backdoors and Steal Credentials",
+        "link": "https://gbhackers.com/linux-servers-compromised/",
+        "published": "Sat, 17 Oct 2026 04:58:49 +0000"
     }
 ]

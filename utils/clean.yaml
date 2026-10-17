@@ -6004,3 +6004,13 @@ clean_list:
 - Gitlab-RCE-CVE-2026-97229
 - CVE-2026-78163
 - CVE-2026-78162
+- cve-2025-54068-vuln-intel
+- CVE-2026-107083
+- CVE-2026-107082
+- CVE-2026-27280
+- qemu-xhci-complete-uaf
+- hlk-al00-kernel-build
+- CVE-2026-89282
+- CVE-2026-8933
+- CVE-2026-107084
+- cybersecurity
