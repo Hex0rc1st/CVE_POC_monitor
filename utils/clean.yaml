@@ -6027,3 +6027,16 @@ clean_list:
 - CVE-2026-99999_Conditional_PoC
 - plex2shell
 - reprokit-go-git-cve-2026-71557-lab
+- CVE-2026-99999-kernel-check
+- cvee20265524
+- CVE-2026-80343
+- CVE-2026-80312
+- Exploit-VITE-CVE-2025-30208-CVE-2025-31125
+- 2026-2-web-middle-cvehub
+- plex-codec-cache-implant
+- kpatch-alma-cve-2026-99999
+- predicted-cve-2026-20349
+- CVE-2026-98256-Analysis
+- CVE-2026-58221
+- chatml-role-token-probe
+- CVE20265524
