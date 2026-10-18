@@ -6022,3 +6022,8 @@ clean_list:
 - prague-CVE-2026-64560-OS4.0
 - CVE-2024-32507
 - cve-2026-64560-rmx6699
+- CVE-2025-6440-BypassExt
+- cve-2026-103849-blockstrap-lab
+- CVE-2026-99999_Conditional_PoC
+- plex2shell
+- reprokit-go-git-cve-2026-71557-lab
