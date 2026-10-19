@@ -13713,5 +13713,20 @@
         "title": "Your Docking Station Has a Patching Problem",
         "link": "https://gbhackers.com/your-docking-station-has-a-patching-problem/",
         "published": "Sat, 17 Oct 2026 14:00:41 +0000"
+    },
+    {
+        "title": "Bright Security Introduces STAR Fuzzer, Agentic Fuzzing That Writes Its Own Harnesses and Proves Every Finding",
+        "link": "https://gbhackers.com/bright-security-introduces-star-fuzzer-agentic-fuzzing-that-writes-its-own-harnesses-and-proves-every-finding/",
+        "published": "Mon, 19 Oct 2026 17:11:46 +0000"
+    },
+    {
+        "title": "Researchers Hack Snowflake PostgreSQL Database to Gain Full Server-Level Code Execution",
+        "link": "https://gbhackers.com/researchers-hack-snowflake/",
+        "published": "Mon, 19 Oct 2026 13:27:54 +0000"
+    },
+    {
+        "title": "SiteGuard Warns Patching Actively Exploited Security Flaw Could Erase Evidence of Attacks",
+        "link": "https://gbhackers.com/siteguard-warns-patching/",
+        "published": "Mon, 19 Oct 2026 13:10:13 +0000"
     }
 ]
