@@ -6040,3 +6040,4 @@ clean_list:
 - CVE-2026-58221
 - chatml-role-token-probe
 - CVE20265524
+- CVE-2024-23897-CTF
