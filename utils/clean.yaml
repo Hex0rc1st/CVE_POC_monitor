@@ -6041,3 +6041,7 @@ clean_list:
 - chatml-role-token-probe
 - CVE20265524
 - CVE-2024-23897-CTF
+- CVE-2026-99999-pwnescape
+- hdu-is-lab1-secure-api
+- CVE-2026-64560-public
+- CVE-2024-27198_CTF
