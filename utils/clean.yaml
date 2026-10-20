@@ -6066,3 +6066,7 @@ clean_list:
 - CVE-2026-54121-Certighost
 - CVE-2026-85246
 - CVE-2026-84178
+- security-triage-agent-cybersec590
+- CVE-2026-35273-Oracle-PeopleSoft-PeopleTools-Zero-Day-
+- plex2shell-check
+- CVE-2026-111058-111057-mercury-rce
